@@ -71,24 +71,41 @@ class InstitutionReport:
 
 IR_URL_VERIFY_PROMPT = """\
 You are independently verifying whether a URL is THE institution's
-operational Office of Institutional Research (or equivalent: institutional
-effectiveness, analytics, planning, university data office).
+operational Office of Institutional Research (or equivalent office).
+
+Many IR offices DO NOT include "institutional research" in their name.
+ACCEPT equivalents that perform the same operational data role:
+
+  - "Office of Institutional Effectiveness" (community colleges often)
+  - "Institutional Research & Analytics" (e.g. CSULB)
+  - "Analytic Studies & Institutional Research" (e.g. SDSU)
+  - "Office of Planning and Analysis" (e.g. Berkeley OPA)
+  - "Academic Planning and Budget" when it houses an "Office of
+    Analytics and Institutional Research" subunit (e.g. UCLA APB)
+  - "Office of Budget and Institutional Analysis" (UC Davis style)
+  - "Institutional Research, Assessment, and Planning" / IRAP
+  - "University Data and Analytics" / UDA
+  - "Office of Institutional Effectiveness and Planning"
+
+ACCEPT (is_correct=true) when the page IS the institution's operational
+data-publishing office — look for IR-typical functions in the text:
+enrollment data, factbook, common data set, dashboards, program review,
+accreditation support, analytics, planning. The office may sit under a
+broader umbrella (Academic Planning, Budget, Provost, Effectiveness).
+
+REJECT (is_correct=false) only when:
+  - The page is a research CENTER about IR as an academic topic
+    (e.g. cshe.berkeley.edu/topics/institutional-research)
+  - The page is a faculty bio, news article, press release
+  - The page is empty, a 404 disguised as 200, or a placeholder
+  - The page is clearly for a DIFFERENT institution
 
 You'll see:
   - The institution name
   - The URL we chose
   - The first ~2000 chars of that page's visible text
 
-Reply JSON: {"is_correct": bool, "confidence": 0.0-1.0, "reason": str}
-
-is_correct = true ONLY if:
-  - The page is clearly the operational IR office for THIS institution
-    (NOT a research center about IR as an academic topic, NOT a faculty
-    bio, NOT a generic department page)
-  - The page's own text identifies it as the IR office for this
-    institution
-
-Be strict. False-positives in this validator defeat its whole purpose."""
+Reply JSON: {"is_correct": bool, "confidence": 0.0-1.0, "reason": str}"""
 
 
 def _norm_name(s: str) -> str:

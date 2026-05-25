@@ -122,6 +122,53 @@ async def discover(
         if c.pattern_bonus == 0:
             c.pattern_bonus = matches_positive(c.url, target)
 
+    # Promote subdomain roots. When discovery surfaces N+ leaf URLs sharing a
+    # non-www subdomain (e.g. multiple `apb.ucla.edu/contacts/...` pages but
+    # never the root `apb.ucla.edu/`), the office homepage is almost certainly
+    # at the root — so synthesize it as a candidate. This catches UCLA-style
+    # cases where the office root isn't returned by Google but its sub-pages
+    # are. Threshold of 2 leaves keeps false-positive synthesis low.
+    from urllib.parse import urlparse
+    subdomain_leaves: dict[str, list[Candidate]] = {}
+    for c in filtered:
+        try:
+            p = urlparse(c.url)
+        except Exception:
+            continue
+        host = (p.netloc or "").lower()
+        if not host or host.startswith("www."):
+            continue
+        # Only promote when the path is non-trivial (this is a sub-page,
+        # not already the root)
+        if (p.path or "/").rstrip("/") in ("", "/"):
+            continue
+        subdomain_leaves.setdefault(host, []).append(c)
+    for host, leaves in subdomain_leaves.items():
+        if len(leaves) < 2:
+            continue
+        root_url = f"https://{host}/"
+        canon = _canonicalize(root_url)
+        if canon in by_url:
+            continue
+        # Pattern match against the target's positive patterns so synthesized
+        # roots only get promoted when the subdomain itself looks ir-ish
+        # (apb.*, ir.*, opa.*, etc.).
+        root_bonus = matches_positive(root_url, target)
+        if root_bonus == 0:
+            continue
+        # Inherit the highest pattern bonus from the leaves
+        leaf_bonus = max(c.pattern_bonus for c in leaves)
+        synth = Candidate(
+            url=root_url,
+            sources={"subdomain_root_synthesized"},
+            pattern_bonus=max(root_bonus, leaf_bonus),
+        )
+        filtered.append(synth)
+        log.info(
+            "discovery.synth_subdomain_root",
+            host=host, leaves=len(leaves), pattern_bonus=synth.pattern_bonus,
+        )
+
     filtered.sort(key=lambda c: c.composite_score, reverse=True)
     return filtered[:max_candidates]
 

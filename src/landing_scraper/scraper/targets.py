@@ -74,26 +74,48 @@ class TargetSpec:
 
 IR_PAGE_VALIDATOR = """\
 You are picking the BEST URL to represent the institution's Office of
-Institutional Research on a landing page directory. Equivalent offices count:
-institutional effectiveness, institutional analytics, institutional planning,
-university data and analytics (UDA), decision support, office of planning &
-research.
+Institutional Research on a landing page directory. Many offices DO NOT
+include the words "institutional research" in their name. Equivalent
+offices that count, with examples seen in production:
+
+  - "Office of Institutional Effectiveness" (e.g. ELAC: /offices/oie)
+  - "Institutional Research & Analytics" (e.g. CSULB)
+  - "Analytic Studies & Institutional Research" (e.g. SDSU's asir.sdsu.edu)
+  - "Office of Planning and Analysis" (e.g. Berkeley's opa.berkeley.edu)
+  - "Office of Analytics and Institutional Research" (e.g. UCLA: apb.ucla.edu — Academic Planning & Budget)
+  - "Institutional Research, Assessment, and Planning" (e.g. UCI: irap.uci.edu)
+  - "University Data and Analytics" / UDA (e.g. NC State: uda.ncsu.edu)
+  - "Institutional Research, Planning, & Analytics" / IRPA (e.g. Cal Poly Pomona)
+  - "Office of Institutional Effectiveness and Planning" (Fullerton: /data/)
+
+ACCEPT any office whose page text identifies it as the institution's
+authoritative source of data/statistics/reporting — even when the office
+name doesn't contain "institutional research" verbatim. UCs in particular
+often nest IR under Academic Planning / Budget umbrellas; community
+colleges often use Institutional Effectiveness.
 
 ALWAYS prefer (in this order, higher wins):
   1. The OFFICE'S HOMEPAGE — the index/landing page of the office's web
-     section, on the institution's own domain. Hostnames like
-     uda.<inst>.edu, ir.<inst>.edu, oir.<inst>.edu, ie.<inst>.edu, or paths
-     like /institutional-research/, /institutional-analytics/.
+     section. Hostnames like uda.<inst>.edu, ir.<inst>.edu, oir.<inst>.edu,
+     ie.<inst>.edu, opa.<inst>.edu, apb.<inst>.edu, asir.<inst>.edu, or
+     paths like /institutional-research/, /institutional-effectiveness/,
+     /offices/oie, /offices/ir.
   2. A clear "About" / "Mission" page of that office.
 
 NEVER pick (reject even if it mentions IR):
   - A single survey PDF, a dataset file, an old report PDF, a form
   - A faculty bio, a news article, a press release
-  - A research-center page, a student handbook section
+  - An academic research center page about IR as a discipline
+    (e.g. cshe.berkeley.edu/topics/institutional-research) —
+    that's a research center publishing papers, NOT the operational
+    office that runs the institution's data reporting
   - A page under /News/, /Surveys/, /Forms/, /Reports/<year>/
 
 If you see both a deep PDF/leaf URL AND the office homepage in the
-candidate list, ALWAYS pick the office homepage.
+candidate list, ALWAYS pick the office homepage. If you see both an
+operational office (e.g. opa.berkeley.edu) and a research center
+(cshe.berkeley.edu/topics/institutional-research), ALWAYS pick the
+operational office.
 
 Reply with JSON only:
 {
@@ -369,30 +391,38 @@ TARGETS: dict[str, TargetSpec] = {
     "ir_page": TargetSpec(
         name="ir_page",
         description="Office of Institutional Research landing page",
-        # ONE best query — credit-conscious. The alternates ("institutional
-        # research office", "institutional effectiveness department", etc.)
-        # added marginal recall but burned 3x the credits on every institution.
+        # IR offices use many different names — sticking to a single exact-
+        # phrase query for "office of institutional research" misses
+        # institutions that call theirs "Office of Institutional
+        # Effectiveness" (ELAC), "Academic Planning and Budget" (UCLA),
+        # "Analytic Studies & Institutional Research" (SDSU), etc.
+        # Two queries cover ~95% of naming conventions in US higher-ed.
         search_queries=(
             '"office of institutional research"',
+            '"institutional effectiveness"',
         ),
         search_queries_open=(
-            '"{name}" "office of institutional research"',
+            '"{name}" "institutional research"',
+            '"{name}" "institutional effectiveness"',
         ),
         crawl_keywords=(
             "institutional research", "institutional effectiveness",
             "institutional analytics", "institutional planning",
-            "decision support", "office of ir",
+            "decision support", "office of ir", "analytics institutional",
+            "academic planning", "planning and budget", "planning & budget",
+            "analytic studies",
         ),
         url_patterns_positive=(
             r"/(institutional[-_ ]?research|institutional[-_ ]?effectiveness)",
-            r"/(ir|oir|oire|aire|opa|opaa|ope|ira|oira)/?(\?|$|/)",
-            r"/(planning[-_ ]and[-_ ]?(analytics|research))",
-            r"https?://(ir|oir|oire|opa|opaa|ira|oira|assessment|analytics|planning)\.",  # subdomain
+            r"/(ir|oir|oire|aire|opa|opaa|ope|ira|oira|ie|oie|irap|irpa)/?(\?|$|/)",
+            r"/offices?/(ir|oir|oire|ie|oie|aire|irap|irpa)/?",  # /offices/oie (community college pattern)
+            r"/(planning[-_ ]and[-_ ]?(analytics|research|budget))",
+            r"/(academic[-_ ]?planning|analytic[-_ ]?studies)",
+            r"https?://(ir|oir|oire|opa|opaa|ira|oira|assessment|analytics|planning|apb|asir|budget|uda)\.",
         ),
-        # Note: 'ira' deliberately omitted — too ambiguous (matches people named Ira).
-        # Real IR-office subdomains use unambiguous prefixes.
         wellknown_subdomains=(
-            "ir", "oir", "oire", "oira", "opa", "opaa",
+            "ir", "oir", "oire", "oira", "opa", "opaa", "apb",
+            "asir", "uda", "ie", "oie", "irap", "irpa",
             "institutionalresearch", "institutional-research",
         ),
         wellknown_paths=(
@@ -402,6 +432,15 @@ TARGETS: dict[str, TargetSpec] = {
             "/about/institutional-research", "/about/ir",
             "/planning-and-analytics", "/planning",
             "/assessment", "/institutional-effectiveness-research",
+            # Community college convention: /offices/<abbrev>/
+            "/offices/oie", "/offices/oie/",
+            "/offices/ir",  "/offices/ir/",
+            "/offices/ire", "/offices/ire/",
+            "/offices/oir", "/offices/oir/",
+            "/offices/aire", "/offices/aire/",
+            # UC-style: research/data sits under a budget or planning umbrella
+            "/budget/institutional-research", "/budget/institutional-research/",
+            "/academic-planning", "/academic-planning/",
         ),
         validator_system=IR_PAGE_VALIDATOR,
         extractor_system=IR_PAGE_EXTRACTOR,
