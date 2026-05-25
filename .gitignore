@@ -1,0 +1,91 @@
+# ---------- Secrets ----------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Package managers
+.uv-cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- Test / Lint / Type caches ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ---------- Notebooks ----------
+.ipynb_checkpoints/
+
+# ---------- Scraped data (large, regeneratable) ----------
+# Raw HTML / PDF payload archive — re-fetchable from source_url in DB
+data/raw_payloads/
+# Downloaded IR documents (CDS PDFs, factbooks, strategic plans) — re-fetchable
+data/docs/
+
+# ---------- Database / DB tooling ----------
+*.sqlite
+*.sqlite3
+*.db
+alembic.ini.bak
+
+# ---------- Logs ----------
+*.log
+logs/
+*.out
+
+# ---------- OS / Editor ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# VS Code / JetBrains / Vim
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- Claude Code ----------
+.claude/
+CLAUDE.local.md
+
+# ---------- Project-specific generated artifacts ----------
+# Keep docs/preview/*.html (demo landing pages) — they ship as examples
+# Drop one-off debug HTML/JSON dumps that may end up in the repo root
+/tmp/
+scratch/
+*.tmp

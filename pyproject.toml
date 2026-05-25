@@ -1,0 +1,44 @@
+[project]
+name = "landing-scraper"
+version = "0.1.0"
+description = "Clema institutions landing-pages data pipeline (scraper only — DB schema to follow)"
+requires-python = ">=3.11"
+dependencies = [
+    "crawl4ai>=0.5.0",
+    "playwright>=1.45",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "httpx>=0.27",
+    "anthropic>=0.40",
+    "tavily-python>=0.5",
+    "google-api-python-client>=2.140",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.4",
+    "click>=8.1",
+    "structlog>=24.1",
+    "python-dotenv>=1.0",
+    "pdfplumber>=0.11",
+    "psycopg[binary]>=3.2",
+    "tenacity>=9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+landing-scraper = "landing_scraper.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/landing_scraper"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
