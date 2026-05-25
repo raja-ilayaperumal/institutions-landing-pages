@@ -68,14 +68,33 @@ async def fetch(url: str, *, timeout: float = 30.0,
 
     # Escalation path: full Playwright via crawl4ai
     try:
-        return await _fetch_crawl4ai(url, timeout=timeout)
+        c4 = await _fetch_crawl4ai(url, timeout=timeout)
+        if c4.success and len(c4.markdown or "") >= 300:
+            return c4
+        # crawl4ai returned a response but it's empty/broken — let it fall
+        # through to Wayback unless the failure was a real 4xx (in which case
+        # the page is genuinely gone, not blocked).
+        if c4.status_code and 400 <= c4.status_code < 500:
+            return c4
+        log.info("fetch.escalating_to_wayback", url=url,
+                 status=c4.status_code, body_chars=len(c4.markdown or ""))
     except Exception as e:  # noqa: BLE001
         log.warning("fetch.crawl4ai_failed", url=url, error=str(e))
-        # If crawl4ai itself crashes, return the httpx result we already have
-        return r if not force_browser else FetchResult(
-            url=url, success=False, status_code=None, html="", markdown="",
-            fetcher="httpx", error=str(e),
-        )
+
+    # Last-resort: Wayback Machine. Useful for institution sites that
+    # block public crawlers or are reachable only on campus networks
+    # (asir.sdsu.edu being the canonical example). The snapshot may be a
+    # few months old but for landing-page metadata (team, office mission,
+    # CDS links) it's normally fine.
+    wb = await _fetch_wayback(url, timeout=timeout)
+    if wb.success and len(wb.markdown or "") >= 300:
+        return wb
+
+    # Nothing worked — return the most informative failure we have.
+    return r if not force_browser else FetchResult(
+        url=url, success=False, status_code=None, html="", markdown="",
+        fetcher="httpx", error="all fetchers failed (httpx, crawl4ai, wayback)",
+    )
 
 
 _CF_MARKERS = (
@@ -134,6 +153,55 @@ async def _fetch_crawl4ai(url: str, *, timeout: float) -> FetchResult:
             markdown=(result.markdown.raw_markdown if hasattr(result.markdown, "raw_markdown") else (result.markdown or "")) or "",
             fetcher="crawl4ai",
             error=getattr(result, "error_message", None),
+        )
+
+
+async def _fetch_wayback(url: str, *, timeout: float) -> FetchResult:
+    """Fetch the closest Wayback Machine snapshot for `url`.
+
+    Two-step: (1) ask Wayback's availability API for the closest snapshot
+    URL, (2) httpx-fetch that snapshot. Wayback's `id_` flag in the
+    timestamp path strips Wayback chrome from the returned HTML, so what
+    we get back is the original page as the institution served it.
+    """
+    try:
+        async with httpx.AsyncClient(
+            timeout=min(timeout, 12.0),
+            follow_redirects=True,
+            headers={"User-Agent": DEFAULT_UA},
+        ) as client:
+            avail = await client.get(
+                "https://archive.org/wayback/available",
+                params={"url": url},
+            )
+            data = avail.json() if avail.is_success else {}
+            snap = (data.get("archived_snapshots") or {}).get("closest") or {}
+            if not snap.get("available") or not snap.get("url"):
+                return FetchResult(
+                    url=url, success=False, status_code=None,
+                    html="", markdown="", fetcher="wayback",
+                    error="no snapshot in wayback",
+                )
+            # Use `id_` modifier to get the original page bytes (no Wayback toolbar)
+            snap_url = snap["url"].replace(
+                f"/web/{snap['timestamp']}/",
+                f"/web/{snap['timestamp']}id_/",
+            )
+            resp = await client.get(snap_url)
+        soup = BeautifulSoup(resp.text, "lxml")
+        text = soup.get_text("\n", strip=True)
+        return FetchResult(
+            url=url,  # report the original URL, not the wayback URL
+            success=resp.is_success,
+            status_code=resp.status_code,
+            html=resp.text, markdown=text,
+            fetcher="wayback",
+            error=None if resp.is_success else f"wayback HTTP {resp.status_code}",
+        )
+    except Exception as e:  # noqa: BLE001
+        return FetchResult(
+            url=url, success=False, status_code=None, html="", markdown="",
+            fetcher="wayback", error=str(e),
         )
 
 

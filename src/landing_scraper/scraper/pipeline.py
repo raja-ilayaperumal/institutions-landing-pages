@@ -103,8 +103,15 @@ async def scrape(
         _record_run(writer, ctx, target, result, run_id, "discover", "failed")
         return result
 
-    # 2. VALIDATE — pick canonical URL
-    chosen, confidence, reason, judge_cost = await validator.pick(
+    # 2. VALIDATE — pick + verify canonical URL.
+    # `pick_and_verify` loops: it picks the LLM judge's top choice, fetches
+    # the chosen URL, and asks a verifier "is this really the target page?"
+    # If verifier rejects, it blacklists that URL and re-picks from the
+    # remaining candidates. Up to 3 attempts before falling through to the
+    # agent. This catches cases like CSU Fullerton's `/planning/` being
+    # picked over `/data/` — the verifier reads `/planning/`'s content and
+    # rejects it because it's not actually the IR office.
+    chosen, confidence, reason, judge_cost, rejected_urls = await validator.pick_and_verify(
         candidates, target, ctx.name,
     )
     total_cost += judge_cost
@@ -112,9 +119,9 @@ async def scrape(
     result.confidence = confidence
     result.judge_reason = reason
     if chosen is None:
-        # ESCALATION: validator rejected all candidates. Try the LangChain
-        # url_finder agent — it reasons iteratively about which tool to use
-        # and can find URLs the deterministic pipeline missed. Slower
+        # ESCALATION: validator+verifier rejected everything. Try the
+        # LangChain url_finder agent with the rejected URLs as anti-examples
+        # so it doesn't waste tool calls re-discovering them. Slower
         # (~5-15s, ~$0.001-0.005) but only fires when standard path failed.
         agent_url, agent_conf, agent_reason, agent_calls = await _try_agent_escalation(
             ctx, target, reason,

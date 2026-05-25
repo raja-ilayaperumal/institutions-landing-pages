@@ -369,16 +369,14 @@ TARGETS: dict[str, TargetSpec] = {
     "ir_page": TargetSpec(
         name="ir_page",
         description="Office of Institutional Research landing page",
-        # Multi-angle search — quality-first per memory: always run all queries.
+        # ONE best query — credit-conscious. The alternates ("institutional
+        # research office", "institutional effectiveness department", etc.)
+        # added marginal recall but burned 3x the credits on every institution.
         search_queries=(
             '"office of institutional research"',
-            '"institutional research" office',
-            '"institutional effectiveness" department',
-            '"institutional research and analytics"',
         ),
         search_queries_open=(
             '"{name}" "office of institutional research"',
-            '"{name}" institutional research director',
         ),
         crawl_keywords=(
             "institutional research", "institutional effectiveness",
@@ -415,8 +413,6 @@ TARGETS: dict[str, TargetSpec] = {
         description="Institutional Factbook (annual statistical reference)",
         search_queries=(
             '"factbook"',
-            '"fact book" institutional research',
-            'filetype:pdf factbook',
         ),
         crawl_keywords=("factbook", "fact book", "fact sheet", "university facts"),
         url_patterns_positive=(
@@ -438,8 +434,6 @@ TARGETS: dict[str, TargetSpec] = {
         description="Common Data Set link",
         search_queries=(
             '"common data set"',
-            'CDS institutional research',
-            'filetype:pdf "common data set"',
         ),
         crawl_keywords=("common data set", "cds"),
         url_patterns_positive=(r"common[-_ ]?data[-_ ]?set", r"/cds[-_ ]?\d{4}", r"cds_\d{4}\.pdf"),
@@ -458,19 +452,14 @@ TARGETS: dict[str, TargetSpec] = {
     "ir_jobs": TargetSpec(
         name="ir_jobs",
         description="Open IR / Analytics / Effectiveness job postings",
-        # Aim BOTH at the institution's own careers page AND HigherEdJobs
-        # (where most R1/R2 IR roles are listed).
+        # One closed query (institution's own careers) + one open
+        # (HigherEdJobs site search). HEJ pulls live IR-specific listings
+        # nationally; the institution-side query catches department-page openings.
         search_queries=(
             '"institutional research" jobs',
-            '"director of institutional research" career',
-            '"assessment coordinator" job',
-            '"institutional effectiveness" position',
         ),
         search_queries_open=(
             'site:higheredjobs.com "{name}" institutional research',
-            'site:higheredjobs.com "{name}" assessment',
-            '"{name}" "institutional research analyst" current opening',
-            '"{name}" "director of institutional research" hiring',
         ),
         crawl_keywords=(
             "institutional research jobs", "ir jobs", "assessment jobs",
@@ -502,10 +491,7 @@ TARGETS: dict[str, TargetSpec] = {
         name="grants",
         description="Grant opportunities / awards from institution sponsored programs",
         search_queries=(
-            '"grant opportunities"',
             '"sponsored programs" grants',
-            '"internal funding" grant',
-            '"research grant" awards',
         ),
         crawl_keywords=(
             "grant opportunities", "sponsored programs", "funding opportunities",
@@ -533,13 +519,9 @@ TARGETS: dict[str, TargetSpec] = {
         description="Public IR dashboards (Tableau / Power BI / Looker / custom)",
         search_queries=(
             '"public dashboards"',
-            '"interactive reports" institutional',
-            '"data dashboards" enrollment',
-            'tableau OR powerbi enrollment dashboard',
         ),
         search_queries_open=(
             'site:public.tableau.com "{name}"',
-            '"{name}" "public dashboards"',
         ),
         crawl_keywords=("dashboard", "public dashboards", "interactive report",
                         "tableau", "powerbi", "data viz", "data visualization"),
@@ -631,8 +613,6 @@ TARGETS: dict[str, TargetSpec] = {
         description="Official multi-year Strategic Plan",
         search_queries=(
             '"strategic plan"',
-            '"strategic plan" president',
-            'filetype:pdf "strategic plan"',
         ),
         crawl_keywords=("strategic plan", "strategic vision", "vision 2030", "vision 2025"),
         url_patterns_positive=(r"strategic[-_ ]?plan", r"vision[-_ ]?\d{4}", r"\.pdf$"),

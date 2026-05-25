@@ -22,9 +22,13 @@ from landing_scraper.connectors.about_summary import AboutSummaryConnector  # no
 from landing_scraper.connectors.higheredjobs import (  # noqa: E402
     HigherEdJobsIRConnector, persist_postings,
 )
+from landing_scraper.connectors.linkedin_lookup import (  # noqa: E402
+    find_linkedin_url, update_contact_linkedin,
+)
 from landing_scraper.connectors.notable_alumni import NotableAlumniConnector  # noqa: E402
 from landing_scraper.connectors.sam_gov import SAMGovGrantsConnector  # noqa: E402
 from landing_scraper.connectors.dfr_peers import DFRPeersConnector  # noqa: E402
+from landing_scraper.db.engine import get_conn  # noqa: E402
 from landing_scraper.db.engine import get_conn  # noqa: E402
 from landing_scraper.db.writer import ProvenanceWriter  # noqa: E402
 from landing_scraper.scraper import scrape as pipeline_scrape  # noqa: E402
@@ -119,8 +123,72 @@ async def _run_one_institution(unitid: int, *, target_concurrency: int) -> dict:
         "dfr":          dfr if isinstance(dfr, dict) else {"err": str(dfr)},
         "wiki":         wiki if isinstance(wiki, dict) else {"err": str(wiki)},
     }
+
+    # PHASE 4 — LinkedIn URL lookup for IR contacts found in Phase 2.
+    # Depends on Phase 2's ir_team having persisted rows, so it runs last.
+    # Skipped automatically when there are no contacts (no extra cost).
+    t4 = time.monotonic()
+    summary["phases"]["linkedin"] = await _phase_linkedin(unitid, ctx.name)
+    summary["phases"]["linkedin"]["duration_s"] = round(
+        time.monotonic() - t4, 1
+    )
+
     summary["total_duration_s"] = round(time.monotonic() - t0, 1)
     return summary
+
+
+async def _phase_linkedin(unitid: int, institution_name: str) -> dict:
+    """Look up LinkedIn URLs for every IR contact at this institution.
+
+    Strategy:
+      - Pull contacts that don't have a LinkedIn URL yet.
+      - Look up each in parallel (bounded concurrency to be polite).
+      - Persist only when confidence >= 0.7 (the existing strict threshold).
+
+    Cost is dominated by Google CSE calls now that the lean Tavily plan
+    routes LinkedIn search through CSE first — typically 1-3 free CSE
+    queries per contact, falling through to Tavily only when CSE is empty.
+    """
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """SELECT id, name FROM landing.ir_contacts
+                WHERE unitid = %s AND linkedin_url IS NULL
+                  AND name IS NOT NULL AND name NOT IN ('', '(unparsed)')
+                ORDER BY ordering, id""",
+            (unitid,),
+        )
+        contacts = cur.fetchall()
+
+    if not contacts:
+        return {"found": 0, "checked": 0, "cost_usd": 0.0}
+
+    sem = asyncio.Semaphore(3)
+
+    async def _lookup_one(c: dict) -> tuple[int, str, object]:
+        async with sem:
+            return c["id"], c["name"], await find_linkedin_url(
+                c["name"], institution_name,
+            )
+
+    results = await asyncio.gather(
+        *[_lookup_one(c) for c in contacts], return_exceptions=True,
+    )
+    found = 0
+    cost = 0.0
+    for r in results:
+        if isinstance(r, Exception):
+            continue
+        contact_id, _name, lr = r
+        cost += getattr(lr, "cost_usd", 0.0)
+        if lr.linkedin_url and lr.confidence >= 0.7:
+            update_contact_linkedin(
+                contact_id, lr.linkedin_url, lr.confidence,
+            )
+            found += 1
+    return {
+        "found": found, "checked": len(contacts),
+        "cost_usd": round(cost, 4),
+    }
 
 
 @click.command()
@@ -153,6 +221,7 @@ def main(unitids: str, institution_concurrency: int,
             web_total = len((ph.get("web") or {}).get("results") or {})
             team = (ph.get("ir_team") or {}).get("members", 0)
             ind = ph.get("independent") or {}
+            li = (ph.get("linkedin") or {})
             click.echo(
                 f"  [{r['unitid']}] {r.get('name','?'):45s}  "
                 f"web={web_ok}/{web_total}  team={team}  "
@@ -161,6 +230,7 @@ def main(unitids: str, institution_concurrency: int,
                 f"alumni={(ind.get('alumni') or {}).get('count',0)}  "
                 f"dfr={(ind.get('dfr') or {}).get('matched',0)}  "
                 f"wiki={'✓' if (ind.get('wiki') or {}).get('ok') else '✗'}  "
+                f"li={li.get('found',0)}/{li.get('checked',0)}  "
                 f"dt={r.get('total_duration_s',0):.0f}s"
             )
         click.echo(f"\nOverall: {time.monotonic() - t0:.0f}s wall for {len(ids)} institutions")

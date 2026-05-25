@@ -1,8 +1,14 @@
 """Unified web-search interface.
 
-Tries Tavily → Google CSE → DuckDuckGo (HTML scrape fallback).
-Returns SearchResult list. All providers are optional;
-the first available one is used unless `provider` is forced.
+Tries Google CSE → Tavily → DuckDuckGo (HTML scrape fallback).
+Google CSE first because it's free (100 queries/day on the standard tier)
+while Tavily costs credits per call. We fall back to the next provider
+when the current one returns ZERO results, not just on exceptions —
+quota-blocked Tavily often returns an error AFTER consuming a credit,
+so the priority order matters even when later providers are reachable.
+
+Returns SearchResult list. All providers are optional; the first
+available one is used unless `provider` is forced.
 """
 from __future__ import annotations
 
@@ -51,27 +57,43 @@ async def search(
     for p in providers:
         try:
             if p == "tavily":
-                return await _search_tavily(q, limit)
-            if p == "google_cse":
-                return await _search_google_cse(q, limit)
-            if p == "ddg":
-                return await _search_ddg(q, limit)
+                results = await _search_tavily(q, limit)
+            elif p == "google_cse":
+                results = await _search_google_cse(q, limit)
+            elif p == "ddg":
+                results = await _search_ddg(q, limit)
+            else:
+                continue
+            # Fall through to next provider on empty (not just on exception).
+            # Tavily credits are precious — prefer a CSE hit even when Tavily
+            # is reachable, and don't burn credits chasing dead queries.
+            if results:
+                return results
+            log.info("search.empty", provider=p, query=q[:80])
         except Exception as e:  # noqa: BLE001 — try next provider
             log.warning("search.provider_failed", provider=p, error=str(e))
             last_error = e
 
-    if last_error:
-        raise last_error
+    # All providers exhausted with nothing to return. Don't raise — the
+    # caller can decide what to do with "no results" (try sitemap, well-known
+    # paths, agent escalation, etc.).
     return []
 
 
 def _available_providers() -> list[Provider]:
+    """Priority order: Google CSE (free) → Tavily (paid credit) → DDG (free, lower quality).
+
+    Reorder rationale: each provider returns roughly comparable results for
+    institutional queries, and CSE has a free daily allowance. Putting
+    Tavily second means we only spend credits on queries CSE couldn't answer
+    (or when CSE quota is exhausted).
+    """
     out: list[Provider] = []
-    if settings.has_tavily:
-        out.append("tavily")
     if settings.has_google_cse:
         out.append("google_cse")
-    out.append("ddg")  # always-available fallback
+    if settings.has_tavily:
+        out.append("tavily")
+    out.append("ddg")  # always-available last-resort
     return out
 
 

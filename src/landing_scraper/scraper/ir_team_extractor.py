@@ -23,6 +23,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import re
 from dataclasses import dataclass, field
 from typing import Any
 from urllib.parse import urljoin, urlparse
@@ -298,25 +299,42 @@ async def extract_ir_team(
     except Exception as e:  # noqa: BLE001
         log.warning("ir_team.phone_verify_failed", error=str(e))
 
-    # Persist office-level contact info to ir_pages (when fields are populated)
-    if writer and (office_name or office_phone or office_address or office_email):
+    # Persist office-level contact info to ir_pages. UPSERT (not UPDATE)
+    # so this is robust to being called before the `ir_page` pipeline
+    # target has inserted the base row — without upsert we'd end up with
+    # orphan ir_contacts: 15 team rows in `ir_contacts` but no `ir_pages`
+    # row, and the renderer (which iterates ir_pages first) skips the team.
+    if writer:
         try:
             from ..db.engine import get_conn as _gc
-            with _gc() as _conn, _conn.cursor() as _cur:
+            with _gc(autocommit=True) as _conn, _conn.cursor() as _cur:
                 _cur.execute(
                     """
-                    UPDATE landing.ir_pages
-                       SET office_name     = COALESCE(%s, office_name),
-                           parent_division = COALESCE(%s, parent_division),
-                           office_phone    = COALESCE(%s, office_phone),
-                           office_fax      = COALESCE(%s, office_fax),
-                           office_email    = COALESCE(%s, office_email),
-                           office_address  = COALESCE(%s, office_address),
-                           fetched_at      = NOW()
-                     WHERE unitid = %s
+                    INSERT INTO landing.ir_pages
+                      (unitid, page_url, office_name, parent_division,
+                       office_phone, office_fax, office_email, office_address,
+                       source_url, parser_version, fetched_at)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, '0.2.0', NOW())
+                    ON CONFLICT (unitid) DO UPDATE SET
+                        page_url        = COALESCE(EXCLUDED.page_url,
+                                                   landing.ir_pages.page_url),
+                        office_name     = COALESCE(EXCLUDED.office_name,
+                                                   landing.ir_pages.office_name),
+                        parent_division = COALESCE(EXCLUDED.parent_division,
+                                                   landing.ir_pages.parent_division),
+                        office_phone    = COALESCE(EXCLUDED.office_phone,
+                                                   landing.ir_pages.office_phone),
+                        office_fax      = COALESCE(EXCLUDED.office_fax,
+                                                   landing.ir_pages.office_fax),
+                        office_email    = COALESCE(EXCLUDED.office_email,
+                                                   landing.ir_pages.office_email),
+                        office_address  = COALESCE(EXCLUDED.office_address,
+                                                   landing.ir_pages.office_address),
+                        fetched_at      = NOW()
                     """,
-                    (office_name, parent_division, office_phone, office_fax,
-                     office_email, office_address, unitid),
+                    (unitid, ir_landing_url, office_name, parent_division,
+                     office_phone, office_fax, office_email, office_address,
+                     ir_landing_url),
                 )
         except Exception as e:  # noqa: BLE001
             log.warning("ir_team.contact_update_failed", error=str(e))
@@ -348,15 +366,21 @@ async def _discover_subpages(ir_landing_url: str, max_subpages: int) -> tuple[An
     if not landing_fetch.success:
         return landing_fetch, []
 
-    # Run 3 channels in parallel
+    # Run 3 channels in parallel. PRIORITY ORDER MATTERS — we merge in
+    # the order channels appear here and truncate to max_subpages. Real
+    # anchor links from the IR landing (onpage) are strictly higher
+    # quality than wellknown HEAD probes — some servers serve soft-404s
+    # (HTTP 200 with parent content) for nonexistent URLs, which means
+    # wellknown candidates can be phantoms. Real links can't lie.
+    # Order: onpage > sitemap > wellknown.
     coros = [
-        asyncio.create_task(_channel_wellknown(ir_landing_url)),
         asyncio.create_task(_channel_onpage(ir_landing_url, landing_fetch.html or "")),
         asyncio.create_task(_channel_sitemap(ir_landing_url)),
+        asyncio.create_task(_channel_wellknown(ir_landing_url)),
     ]
     results = await asyncio.gather(*coros, return_exceptions=True)
 
-    # Merge + dedupe
+    # Merge + dedupe (preserves channel priority)
     seen: set[str] = set()
     merged: list[_SubPage] = []
     seen.add(_canon(ir_landing_url))  # exclude landing itself
@@ -390,9 +414,52 @@ async def _channel_wellknown(ir_landing_url: str) -> list[_SubPage]:
     urls: list[str] = []
 
     if path.endswith("/") or "." not in path.rsplit("/", 1)[-1]:
-        # Directory-like base: simple suffix append
+        # Directory-like base: simple suffix append.
+        # Order matters: max_subpages caps total fetches downstream.
         base = ir_landing_url.rstrip("/")
+
+        # Compute parent-level base FIRST. Many institutions host the IR
+        # landing at a content sub-section (e.g. Fullerton:
+        # `/data/institutionalresearch/` is the IR content area, but the
+        # team is at `/data/team.php` one level up). The parent often holds
+        # the canonical office team / contact page, so we probe it BEFORE
+        # the children — wrong-but-200 soft-404s on some servers would
+        # otherwise eat our budget before parent siblings get a chance.
+        parent_path = "/".join(path.rstrip("/").split("/")[:-1]) + "/"
+        has_meaningful_parent = (
+            parent_path and parent_path != "/" and parent_path != path
+        )
+        parent_base = None
+        if has_meaningful_parent:
+            parent_base = (
+                f"{parsed.scheme}://{parsed.netloc}{parent_path}".rstrip("/")
+            )
+            if parent_base == base:
+                parent_base = None
+
+        # INTERLEAVE child + parent team probes by (subname, ext). This
+        # matters because some institution webservers serve soft-404s
+        # (HTTP 200 with parent content) for nonexistent URLs, so the
+        # probe filter can't distinguish — and a max_subpages cap could
+        # eat the budget on phantom child URLs before the real parent
+        # team page is even tried.
+        bases = [base] + ([parent_base] if parent_base else [])
+        for sub in ("team", "our-team", "staff", "people", "directory",
+                    "members", "leadership"):
+            for ext in (".php", ".aspx", ".html", ".htm"):
+                for b in bases:
+                    urls.append(f"{b}/{sub}{ext}")
+        # Plain parent directory as well (often has a "Team" section linked)
+        if parent_base:
+            urls.append(parent_base + "/")
+
+        # Then: standard WELLKNOWN_SUBPATHS at the IR landing dir.
         urls.extend(base + p for p in WELLKNOWN_SUBPATHS)
+
+        # Then: about/contact extensions at the IR landing dir.
+        for sub in ("about", "about-us", "contact", "contact-us", "who-we-are"):
+            for ext in (".php", ".aspx", ".html"):
+                urls.append(f"{base}/{sub}{ext}")
     else:
         # File-like base (.html, .aspx, etc.): use parent directory
         parent_path = path.rsplit("/", 1)[0] + "/"
@@ -495,6 +562,59 @@ async def _channel_sitemap(ir_landing_url: str) -> list[_SubPage]:
     return out
 
 
+_CFEMAIL_RE = re.compile(r'data-cfemail="([0-9a-fA-F]+)"')
+_CFEMAIL_SPAN_RE = re.compile(
+    r'<(?:a|span)[^>]*\bdata-cfemail="([0-9a-fA-F]+)"[^>]*>(?:[^<]*)</(?:a|span)>'
+)
+_CFEMAIL_HREF_RE = re.compile(
+    r'href="/cdn-cgi/l/email-protection#([0-9a-fA-F]+)"'
+)
+
+
+def _decode_cfemail(encoded: str) -> str:
+    """Reverse Cloudflare's email-protection encoding.
+
+    First byte is an XOR key; subsequent byte pairs are XOR-encoded chars.
+    Public algorithm — same one Cloudflare's `email-decode.min.js` runs in
+    the browser. Without this, every obfuscated address on a page becomes
+    "[email protected]" in plain HTML.
+    """
+    try:
+        b = bytes.fromhex(encoded)
+        key = b[0]
+        return "".join(chr(c ^ key) for c in b[1:])
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def _deobfuscate_cf_emails(html: str) -> str:
+    """Inline-decode all Cloudflare-obfuscated emails in an HTML doc.
+
+    Replaces both the `<span data-cfemail="…">[email protected]</span>` element
+    bodies and `href="/cdn-cgi/l/email-protection#…"` link targets with the
+    real address. Cheap, idempotent, safe on docs with no obfuscation.
+    """
+    if "cfemail" not in html and "email-protection" not in html:
+        return html
+
+    def _span_repl(m: re.Match) -> str:
+        decoded = _decode_cfemail(m.group(1))
+        return decoded or m.group(0)
+
+    def _href_repl(m: re.Match) -> str:
+        decoded = _decode_cfemail(m.group(1))
+        return f'href="mailto:{decoded}"' if decoded else m.group(0)
+
+    html = _CFEMAIL_SPAN_RE.sub(_span_repl, html)
+    html = _CFEMAIL_HREF_RE.sub(_href_repl, html)
+    # Some sites use bare <span class="__cf_email__" data-cfemail="…"></span>
+    # not matched by the body-bearing regex above — replace by the attr value.
+    html = _CFEMAIL_RE.sub(
+        lambda m: _decode_cfemail(m.group(1)) or m.group(0), html
+    )
+    return html
+
+
 async def _fetch_subpages(subpages: list[_SubPage], *, max_concurrency: int) -> None:
     """Fetch each subpage via crawl4ai (handles JS + Cloudflare)."""
     sem = asyncio.Semaphore(max_concurrency)
@@ -507,10 +627,15 @@ async def _fetch_subpages(subpages: list[_SubPage], *, max_concurrency: int) -> 
                 if f.success:
                     sp.success = True
                     sp.final_url = f.url
-                    sp.body_html = f.html
-                    sp.body_text = f.markdown or visible_text(f.html or "")
+                    sp.body_html = _deobfuscate_cf_emails(f.html or "")
+                    # Important: derive the LLM-facing text from the
+                    # de-obfuscated HTML, not from crawl4ai's pre-converted
+                    # markdown — the markdown converter already collapsed
+                    # the `data-cfemail` spans to "[email protected]" before
+                    # we could decode them.
+                    sp.body_text = visible_text(sp.body_html)
                     sp.body_sha256 = hashlib.sha256(
-                        (f.html or f.markdown or "").encode()
+                        (sp.body_html or sp.body_text or "").encode()
                     ).hexdigest()
             except Exception as e:  # noqa: BLE001
                 log.warning("ir_team.subpage_fetch_failed", url=sp.url, error=str(e))
