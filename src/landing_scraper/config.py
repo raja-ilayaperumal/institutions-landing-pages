@@ -20,6 +20,12 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     openai_api_key: str = ""
     tavily_api_key: str = ""
+    # Additional Tavily keys for capacity scaling — round-robin across all
+    # populated keys; fall through to the next key on per-key quota errors.
+    # Add TAVILY_API_KEY_1, TAVILY_API_KEY_2, ... in .env as needed.
+    tavily_api_key_1: str = ""
+    tavily_api_key_2: str = ""
+    tavily_api_key_3: str = ""
     google_api_key: str = ""
     google_cse_id: str = ""
     brandfetch_api_key: str = ""
@@ -43,7 +49,15 @@ class Settings(BaseSettings):
 
     @property
     def has_tavily(self) -> bool:
-        return bool(self.tavily_api_key)
+        return bool(self.tavily_api_keys)
+
+    @property
+    def tavily_api_keys(self) -> list[str]:
+        """Return all populated Tavily keys, in declaration order.
+        Search uses these round-robin and falls through on per-key quota errors."""
+        keys = [self.tavily_api_key, self.tavily_api_key_1,
+                self.tavily_api_key_2, self.tavily_api_key_3]
+        return [k for k in keys if k]
 
     @property
     def has_google_cse(self) -> bool:

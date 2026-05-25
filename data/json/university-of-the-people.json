@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.042681+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 488846,
+    "slug": "university-of-the-people",
+    "name": "University of the People",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91101",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": null,
+      "ein": "264078735"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of the People (UoPeople) is a private distance education university based in Pasadena, California. Founded in 2009 by Shai Reshef, the university is accredited by the WASC Senior College and University Commission (WSCUC).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_the_People",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_the_People",
+    "fetched_at": "2026-05-25T17:33:48.52565+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.4306,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "grad_4yr_bachelors": 0.17,
+    "grad_5yr_bachelors": 0.26,
+    "grad_6yr_bachelors": 0.29,
+    "retention_part_time": 0.61
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 62952,
+    "ug_12mo": 53970,
+    "grad_12mo": 24631,
+    "women_12mo": 28156,
+    "men_12mo": 34796,
+    "fall_total": 41961,
+    "fall_full_time": 36901,
+    "fall_part_time": 22688,
+    "distance_ed_any": 41961,
+    "distance_ed_exclusive": 41961
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3250
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 1131
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 736
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 554
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "american-college-of-financial-services",
+        "name": "American College of Financial Services",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-northstate-university",
+        "name": "California Northstate University",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "centura-college-chesapeake",
+        "name": "Centura College-Chesapeake",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "college-of-biomedical-equipment-technology",
+        "name": "College of Biomedical Equipment Technology",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "florida-career-college-boynton-beach",
+        "name": "Florida Career College-Boynton Beach",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "florida-career-college-hialeah",
+        "name": "Florida Career College-Hialeah",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "florida-career-college-houston",
+        "name": "Florida Career College-Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "florida-career-college-lauderdale-lakes",
+        "name": "Florida Career College-Lauderdale Lakes",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "florida-career-college-margate",
+        "name": "Florida Career College-Margate",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "florida-career-college-miami",
+        "name": "Florida Career College-Miami",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "florida-career-college-west-palm-beach",
+        "name": "Florida Career College-West Palm Beach",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "hillsdale-college",
+        "name": "Hillsdale College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "idaho-college-of-osteopathic-medicine",
+        "name": "Idaho College of Osteopathic Medicine",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "lincoln-university",
+        "name": "Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "minerva-university",
+        "name": "Minerva University",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "nationsuniversity",
+        "name": "NationsUniversity",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "new-orleans-baptist-theological-seminary",
+        "name": "New Orleans Baptist Theological Seminary",
+        "state": "Louisiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "new-saint-andrews-college",
+        "name": "New Saint Andrews College",
+        "state": "Idaho",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "patrick-henry-college",
+        "name": "Patrick Henry College",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "principia-college",
+        "name": "Principia College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "sans-technology-institute",
+        "name": "SANS Technology Institute",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "strayer-university-arkansas",
+        "name": "Strayer University-Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "strayer-university-new-jersey",
+        "name": "Strayer University-New Jersey",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "strayer-university-west-virginia",
+        "name": "Strayer University-West Virginia",
+        "state": "West Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "teachers-college-of-san-joaquin",
+        "name": "Teachers College of San Joaquin",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "the-southern-baptist-theological-seminary",
+        "name": "The Southern Baptist Theological Seminary",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "the-southwestern-baptist-theological-seminary",
+        "name": "The Southwestern Baptist Theological Seminary",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-silicon-andhra",
+        "name": "University of Silicon Andhra",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=488846",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:48.77536+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "University of the People Institutional Three-Year Strategic Plan",
+      "url": "https://www.uopeople.edu/wp-content/uploads/2021/09/Strategic-Plan-2022-24-V5-September-2021.pdf",
+      "summary": "The University of the People Three-Year Strategic Plan for 2022-2024 aims to maintain sustainable growth, enhance academic quality, and improve both student satisfaction and career opportunities. The plan focuses on leveraging technology and data, optimizing marketing strategies, and expanding operations, particularly in strategic locations like India. By setting ambitious growth targets and emphasizing academic excellence, UoPeople intends to support its mission of providing accessible, affordable online education to qualified students worldwide.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:30:34.450571+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Office Manager - Planning, Analytics, Institutional Research (PAIR)",
+      "apply_url": "https://www.higheredjobs.com/international/details.cfm?JobCode=179390414&Title=Volunteer%20Instructor%20-%20Art%20History"
+    },
+    {
+      "title": "Institutional Effectiveness - Data Analyst I",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179447113&Title=Office%20Manager%20-%20Planning%2C%20Analytics%2C%20Institutional%20Research%20(PAIR)"
+    },
+    {
+      "title": "Director of Institutional Research (IR)",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446901"
+    }
+  ],
+  "grants": [
+    {
+      "title": "99 -- HBCUs Health Services Research Conference ... - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/16625a24f6a796d194b70024c88a2c03/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "grant writing seminar for hispanic health professionals ... - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/ddaa519f05fe4823cc7b35eec8397ec9/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Woody R. Clermont"
+    },
+    {
+      "name": "Khalila Mbowe"
+    },
+    {
+      "name": "Brandon Whipple"
+    }
+  ]
+}

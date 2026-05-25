@@ -1,0 +1,634 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.664813+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110662,
+    "slug": "university-of-california-los-angeles",
+    "name": "University of California-Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90095-1405",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RN64EPNH8JC6",
+      "opeid": "00131500",
+      "ein": "956006143"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Los Angeles (UCLA) is a public land-grant research university in the Westwood neighborhood of Los Angeles, California, United States. Its academic roots were established in 1881 as a normal school, then known as the southern branch of the California State Normal School, which later evolved into San José State University. The branch was transferred to the University of California to become the Southern Branch of the University of California in 1919, making it the second-oldest of the 10-campus University of California system after the University of California, Berkeley.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles",
+    "fetched_at": "2026-05-25T17:34:59.255514+05:30"
+  },
+  "admissions": {
+    "applicants": 146272,
+    "admits": 13114,
+    "enrolled": 6610,
+    "first_time_freshmen": 6610,
+    "first_time_freshmen_ft": 6603,
+    "admit_rate": 0.08965488952089258,
+    "yield_rate": 0.5040414823852372
+  },
+  "cost": {
+    "room_and_board": 18369,
+    "avg_net_price": 14013,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0172,
+    "federal_loan_rate": 0.2069,
+    "net_price_by_family_income": {
+      "0_30k": 6864,
+      "30_48k": 8731,
+      "48_75k": 11065,
+      "75_110k": 17250,
+      "110k_plus": 30481
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.93,
+    "grad_4yr_bachelors": 0.85,
+    "grad_5yr_bachelors": 0.91,
+    "grad_6yr_bachelors": 0.93,
+    "pell_grad_rate": 0.89,
+    "pell_6yr_bachelors_rate": 0.89,
+    "non_pell_grad_rate": 0.91,
+    "non_pell_6yr_bachelors": 0.91,
+    "retention_full_time": 0.97,
+    "retention_part_time": 0.83
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 49388,
+    "ug_12mo": 34998,
+    "grad_12mo": 34997,
+    "women_12mo": 28333,
+    "men_12mo": 21055,
+    "fall_total": 47335,
+    "fall_full_time": 33475,
+    "fall_part_time": 33475,
+    "distance_ed_any": 47335,
+    "distance_ed_exclusive": 785
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 2753
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 1852
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1625
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 1224
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1009
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 900
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 752
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 658
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 633
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 569
+      }
+    ],
+    "program_count": 192,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 4612
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-state-university",
+        "name": "Florida State University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-georgia",
+        "name": "University of Georgia",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-south-carolina-columbia",
+        "name": "University of South Carolina-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://apb.ucla.edu/file/d1ab04b3-ee89-4cf2-9124-8dc0471b5e5a",
+      "is_pdf": false
+    },
+    {
+      "year": 2019,
+      "url": "https://apb.ucla.edu/portals/90/documents/campus-stats/cds_2019-20_section_h.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://apb.ucla.edu/campus-statistics/overview",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:34:49.586052+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "QDB Data Models and Data Dictionaries",
+      "url": "https://dts.ucla.edu/enterprise-data-and-analytics/qdb-data-information",
+      "summary": "This section of the UCLA Digital & Technology Solutions page covers QDB Data Models and Data Dictionaries, which provide detailed descriptions of database tables' attributes and their relationships. It includes central and departmental access models, serving as a valuable reference for database querying. The dictionaries cover various models like BAR, Budget, Cashiering, DACSS, FAM, FS, PAC, PP, and R-Net, prepared in PDF format for easy access and printing.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:46.181771+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110662",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:35:00.317534+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "UCLA Strategic Plan",
+      "url": "https://strategic-plan.ucla.edu/",
+      "summary": "UCLA's 2023-2028 Strategic Plan, titled One UCLA, outlines a vision aimed at enhancing the university's connective, impactful and exemplary nature. Under the leadership of Chancellor Julio Frenk, it focuses on deepening local and global engagement, boosting research capabilities, transforming educational offerings, and optimizing institutional efficiency. Through four flagship initiatives, UCLA aims to foster unity and inclusivity, ensuring it remains a frontrunner in addressing educational and societal challenges.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:30:14.599751+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Clinical Research Sites for the NIAAA Medications Development ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/ac874eacf809423c90010833e772b689/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Q -- Maintenance of NHLBI Cord Blood Units - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/7dd960b04f55220ababb6dd1257b457a/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Howard Gillman",
+      "field": "Academia/Education"
+    },
+    {
+      "name": "Bolívar Lamounier",
+      "field": "Academia/Education"
+    },
+    {
+      "name": "Vicki Reynolds",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Louise Richardson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Louise_Richardson",
+      "field": "Academia/Education"
+    },
+    {
+      "name": "Charles E. Young",
+      "field": "Academia/Education"
+    },
+    {
+      "name": "Jacki Bacharach",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Yvonne B. Burke",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yvonne_Brathwaite_Burke",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Benjamin J. “Ben” Cayetano",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Cayetano",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Harvey Englander",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Felipe Fuentes",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Wendy Greuel",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wendy_Greuel",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Jerry Lewis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Lewis_(California_politician)",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Robert C. O’Brien",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_C._O%27Brien",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Dennis Ross",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Ross",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Henry Waxman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Waxman",
+      "field": "Government/Diplomacy"
+    },
+    {
+      "name": "Lance A. Ito",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lance_ito",
+      "field": "Law"
+    },
+    {
+      "name": "Marcia Clark",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marcia_Clark",
+      "field": "Law"
+    },
+    {
+      "name": "Laurence D. Fink",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Fink",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Gary E. Knell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Knell",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Joe Brown",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Judge_Joe_Brown",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Derrick Coleman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Derrick_Coleman_(fullback)",
+      "field": "Sports"
+    },
+    {
+      "name": "Chris Kluwe",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Kluwe",
+      "field": "Sports"
+    },
+    {
+      "name": "Spencer Proffer",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Marty Sklar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marty_Sklar",
+      "field": "Entertainment"
+    }
+  ]
+}

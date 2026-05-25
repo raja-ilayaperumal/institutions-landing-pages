@@ -1,0 +1,786 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:25:21.260583+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 166683,
+    "slug": "massachusetts-institute-of-technology",
+    "name": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "zip": "02139-4301",
+    "region": "New England",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "E2NYLCDML6V1",
+      "opeid": "00217800",
+      "ein": "042103594"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": " \nThe Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts, United States. Founded in 1861 to advance \"useful knowledge\", the university has played a significant role in the development of many areas of technology and science.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+    "source_url": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+    "wikidata_qid": "Q49108",
+    "fetched_at": "2026-05-25T13:36:01.379055+05:30"
+  },
+  "admissions": {
+    "applicants": 28232,
+    "admits": 1284,
+    "enrolled": 1102,
+    "first_time_freshmen": 1102,
+    "first_time_freshmen_ft": 1102,
+    "admit_rate": 0.04548030603570417,
+    "yield_rate": 0.8582554517133957
+  },
+  "cost": {
+    "avg_net_price": 19813,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0072,
+    "federal_loan_rate": 0.0657,
+    "net_price_by_family_income": {
+      "0_30k": -4129,
+      "30_48k": -2483,
+      "48_75k": 4621,
+      "75_110k": 13696,
+      "110k_plus": 46627
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.96,
+    "grad_4yr_bachelors": 0.83,
+    "grad_5yr_bachelors": 0.95,
+    "grad_6yr_bachelors": 0.96,
+    "pell_grad_rate": 0.93,
+    "pell_6yr_bachelors_rate": 0.93,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.99
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 12915,
+    "ug_12mo": 4788,
+    "grad_12mo": 4653,
+    "women_12mo": 5609,
+    "men_12mo": 7306,
+    "fall_total": 11886,
+    "fall_full_time": 4535,
+    "fall_part_time": 4535,
+    "distance_ed_any": 11886,
+    "distance_ed_exclusive": 46
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1248
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 834
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 764
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 350
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 223
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 186
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 169
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 156
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 81
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 42
+      }
+    ],
+    "program_count": 56,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 3.0,
+    "instr_total_fte": 1379
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "carnegie-mellon-university",
+        "name": "Carnegie Mellon University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cornell-university",
+        "name": "Cornell University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "yale-university",
+        "name": "Yale University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": null,
+    "nih_total_usd": null,
+    "herd_total_usd": null,
+    "usaspending_total_usd": null,
+    "all_sources_total_usd": null,
+    "years_covered": null
+  },
+  "ir_office": {
+    "url": "https://ir.mit.edu/about",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Office of the Provost",
+    "summary": "We remain dedicated to collecting, maintaining, and providing high-quality data and analysis to the Institute’s leadership and the broader MIT community. Our projects also inform the public, government agencies, and peer consortia.",
+    "address": "77 Massachusetts Avenue, Room 11-268, Cambridge, MA 02139 USA",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:35:59.993297+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ira Winder",
+      "title": "Research Affiliate",
+      "email": "ira@mit.edu",
+      "linkedin_url": "https://www.linkedin.com/in/ira-winder"
+    },
+    {
+      "ordering": 0,
+      "name": "Jon Schwarz",
+      "title": "Director of Institutional Research",
+      "email": "irdirector@mit.edu",
+      "phone": "617.253.5838"
+    },
+    {
+      "ordering": 0,
+      "name": "Lydia Snover",
+      "title": "Founding Director of MIT Institutional Research"
+    },
+    {
+      "ordering": 1,
+      "name": "Fatema Ahad",
+      "title": "Senior Analyst for Program Assessment",
+      "email": "ahad@mit.edu"
+    },
+    {
+      "ordering": 2,
+      "name": "Andrew Bell",
+      "title": "Qualitative Senior Research Analyst",
+      "email": "duffbell@mit.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Kayla Burt",
+      "title": "Data Analyst",
+      "email": "ksburt@mit.edu"
+    },
+    {
+      "ordering": 4,
+      "name": "Ayn Cavicchi",
+      "title": "Project Manager",
+      "email": "acavicch@mit.edu",
+      "phone": "617.324.0721"
+    },
+    {
+      "ordering": 5,
+      "name": "Huey Chan",
+      "title": "Database Manager",
+      "email": "hschan@mit.edu"
+    },
+    {
+      "ordering": 6,
+      "name": "Weini Chen",
+      "title": "Database Analyst/Programmer",
+      "email": "weini@mit.edu"
+    },
+    {
+      "ordering": 7,
+      "name": "Jon Daries",
+      "title": "Associate Director",
+      "email": "daries@mit.edu"
+    },
+    {
+      "ordering": 8,
+      "name": "Kate Doria",
+      "title": "Assistant Director",
+      "email": "kdoria@mit.edu"
+    },
+    {
+      "ordering": 9,
+      "name": "Michael Ferguson",
+      "title": "Senior Data Analyst",
+      "email": "mff@mit.edu"
+    },
+    {
+      "ordering": 10,
+      "name": "Gregory Harris",
+      "title": "Associate Director",
+      "email": "harrisgr@mit.edu"
+    },
+    {
+      "ordering": 11,
+      "name": "Sonia Liou",
+      "title": "Associate Director",
+      "email": "sliou@mit.edu",
+      "phone": "617.258.5877"
+    },
+    {
+      "ordering": 12,
+      "name": "Marc Uy",
+      "title": "Program Coordinator",
+      "email": "marcuy@mit.edu"
+    },
+    {
+      "ordering": 13,
+      "name": "Shirley Wong",
+      "title": "Special Project Manager",
+      "email": "shirleywong@mit.edu",
+      "phone": "617.258.5876"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://ir.mit.edu/projects/2024-25-common-data-set/",
+      "is_pdf": false
+    },
+    {
+      "year": 2023,
+      "url": "https://ir.mit.edu/projects/2023-24-common-data-set/",
+      "is_pdf": false
+    },
+    {
+      "year": 2022,
+      "url": "https://ir.mit.edu/projects/2022-23-common-data-set/",
+      "is_pdf": false
+    },
+    {
+      "year": 2021,
+      "url": "https://ir.mit.edu/projects/2021-22-common-data-set/",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://public.tableau.com/views/OperationVarsityBluesCollegeROI/CollegeROIandtheAdmissionsBriberyScandal?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=no&%3Atoolbar=yes&%3Aanimate_transition=yes&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=yes&%3Adisplay_count=yes&publish=yes&%3AloadOrderID=0",
+      "stored": false,
+      "fetched_at": "2026-05-25T09:59:25.635802+05:30"
+    },
+    {
+      "doc_type": "dashboards",
+      "url": "https://ir.mit.edu/",
+      "stored": false,
+      "fetched_at": "2026-05-25T10:26:42.930787+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Data Definitions",
+      "url": "https://data-repository-finder.ll.mit.edu/data_definitions",
+      "summary": "The Massachusetts Institute of Technology's Data Repository Finder page helps researchers identify data repositories suitable for sharing as they develop their NIH Data Management and Sharing Plans. The page indicates ongoing updates to the repository list and notes the support of NICHD, other Federally Funded Research & Development Centers, and MIT Lincoln Laboratory. Contact information is provided for further inquiries.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:30:17.967724+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2010,
+      "title": "Description & Data Dictionary for PAYD Analytic Dataset",
+      "url": "http://web.mit.edu/jf/www/payd/payd_appendixIII_10nov16.pdf",
+      "summary": "This document provides a detailed data dictionary for the PAYD Analytic Dataset, which relates to a study on 'Pay-As-You-Drive Auto Insurance' in Massachusetts. The dataset includes processed data from the Massachusetts Executive Office of Energy and Environmental Affairs and sources like the Commonwealth Automobile Reinsurer and Registry of Motor Vehicles. It covers subjects such as auto insurance policy, claim transaction records, and vehicle odometer readings. The study, led by MIT Prof. Joseph Ferreira, Jr., provides insights into claims, mileage, and fuel economy for policy year 2006. The dictionary includes specific tables with claim summaries, exposure months, mileage estimates, territory and class groupings, and fuel economy summaries.",
+      "stored": false,
+      "fetched_at": "2026-05-25T11:00:01.664113+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=166683",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:36:02.857756+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "MIT Facts",
+      "url": "https://facts.mit.edu",
+      "summary": "MIT Facts provides an annual overview of the breadth of the Institute’s academics, activities, and culture. It includes information on admissions, financial aid, student enrollment, faculty and staff details, alumni achievements, research initiatives, and various educational programs. Highlighted statistics include total student enrollment, costs of attendance, numbers of research centers and collaborators, and prestigious awards received by affiliates.",
+      "stored": false,
+      "fetched_at": "2026-05-25T10:57:35.822203+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "MIT Research Administration Services Glossary",
+      "url": "https://ras.mit.edu/education-and-career-resources/glossary",
+      "summary": "The MIT Research Administration Services Glossary provides an extensive list of terms and definitions related to research administration, including rate information, grant and contract management, sponsor requirements, and proposal submission processes. It serves as an educational and reference resource for understanding the administrative and financial aspects of managing research at MIT.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:30:34.855274+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Assistant Director, Data Strategy & Business Intelligence",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179412776"
+    },
+    {
+      "title": "Scientific Co-Director, Data Science and Multimodal Integration",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179432456"
+    },
+    {
+      "title": "Assistant Director, Data Strategy & Business Intelligence",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179432457"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Recovery development of methods for assuring safety ...",
+      "agency": "NASA",
+      "kind": "award",
+      "amount_usd": 1129256,
+      "url": "https://sam.gov/opp/3b0ecd990296460ca8710ad82ab88bd6/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Construction of a new Compound Semiconductor Lab/Microsystem Integration Facility (CSL/MIF) for MIT Lincoln Laboratory (MIT LL) located at Hanscom Air Force Base (HAFB) in Lexington, Massachusetts",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/db6d2adc55fa4d90ccefd290cc4feabf/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Development of Thermally Stable Nanocrystalline Nickel ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/77a6400578ab4cd386878b428c1c14fe/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "DUSP-PKG Fellowship",
+      "agency": "MIT Priscilla King Gray Public Service Center (PKG Center)",
+      "kind": "opportunity",
+      "url": "https://duspconnect.mit.edu/resources/funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Feasibility Evaluation Of Valve Regulated Lead Acid Battery ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/7af5af55feee4f598c4de576e013db09/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Massachusetts Institute of Technology - Lincoln Laboratory Federally Funded Research & Development Center",
+      "agency": "U.S. Army Corps of Engineers",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/537e3338c2194030a1ad850bf62a63e5/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Massachusetts Institute of Technology - Lincoln Laboratory Federally Funded Research & Development Center",
+      "agency": "NASA GSFC",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/a90722402da740dcb88b6885ee43e01a/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "NOAA Sea Grant Funding",
+      "agency": "MIT Sea Grant",
+      "kind": "opportunity",
+      "url": "https://seagrant.mit.edu/funding/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Very Long Baseline Interferometry Development & Maintenance",
+      "agency": "NASA GSFC",
+      "kind": "award",
+      "url": "https://sam.gov/workspace/contract/opp/6da934bffd934ebaaf22198fedebd262/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Bill Anderson",
+      "field": "Pharmaceuticals"
+    },
+    {
+      "name": "Dannielle Appelhans",
+      "field": "Pharmaceuticals"
+    },
+    {
+      "name": "Michael Blatz",
+      "field": "Manufacturing"
+    },
+    {
+      "name": "Laura Bogusch",
+      "field": "Aerospace"
+    },
+    {
+      "name": "Matt Bromberg",
+      "field": "Aerospace"
+    },
+    {
+      "name": "Jim Chow",
+      "field": "Technology"
+    },
+    {
+      "name": "Steve Cook",
+      "field": "Private Equity"
+    },
+    {
+      "name": "Rick Dauch",
+      "field": "Automotive"
+    },
+    {
+      "name": "Michael Dorah",
+      "field": "Automotive"
+    },
+    {
+      "name": "Mick Farrell",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Doug Field",
+      "field": "Automotive"
+    },
+    {
+      "name": "Annabel Flores",
+      "field": "Defense"
+    },
+    {
+      "name": "Guadalupe Hayes-Mota",
+      "field": "Bioethics"
+    },
+    {
+      "name": "Heath Holtz",
+      "field": "Supply Chain"
+    },
+    {
+      "name": "Leigh Hunnicutt",
+      "field": "Biotechnology"
+    },
+    {
+      "name": "Denise Johnson",
+      "field": "Manufacturing"
+    },
+    {
+      "name": "David Linders",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Wendy-Kay Logan",
+      "field": "Technology"
+    },
+    {
+      "name": "Viju Menon",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Mira Sahney",
+      "field": "Medical Devices"
+    },
+    {
+      "name": "Meghan Scanlon",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Cheryl Stokes",
+      "field": "Leadership"
+    },
+    {
+      "name": "Jason Trujillo",
+      "field": "Manufacturing"
+    },
+    {
+      "name": "Tanja Vainio",
+      "field": "Energy"
+    },
+    {
+      "name": "Orietta Verdugo",
+      "field": "Technology"
+    },
+    {
+      "name": "Jeff Wilke",
+      "field": "Manufacturing"
+    },
+    {
+      "name": "James Alan Abrahamson",
+      "field": "Politics"
+    },
+    {
+      "name": "Ben Bernanke",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Jimmy Doolittle",
+      "field": "Politics"
+    },
+    {
+      "name": "Luis A. Ferré",
+      "field": "Politics"
+    },
+    {
+      "name": "Kofi Annan",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Moshe Arens",
+      "field": "Politics"
+    },
+    {
+      "name": "Pedro Aspe",
+      "field": "Politics"
+    },
+    {
+      "name": "Ngozi Okonjo-Iweala",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Mario Draghi",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Alex Padilla",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Lawrence Summers",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Raghuram Rajan",
+      "field": "Politics"
+    },
+    {
+      "name": "Marion Mahony Griffin",
+      "field": "Architecture"
+    },
+    {
+      "name": "I. M. Pei",
+      "field": "Architecture"
+    },
+    {
+      "name": "Cecil H. Green",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Robert Metcalfe",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "William R. Hewlett",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Drew Houston",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Andrew Ng",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Irwin M. Jacobs",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Ray Stata",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Lisa Su",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Wesley G. Bush",
+      "field": "Manufacturing and defense"
+    },
+    {
+      "name": "Amar Bose",
+      "field": "Manufacturing and defense"
+    },
+    {
+      "name": "Morris Chang",
+      "field": "Manufacturing and defense"
+    },
+    {
+      "name": "John Dorrance",
+      "field": "Manufacturing and defense"
+    },
+    {
+      "name": "Donald Douglas",
+      "field": "Manufacturing and defense"
+    },
+    {
+      "name": "Lt. Gen. James Alan Abrahamson",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Samuel Bodman",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "John M. Deutch",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Jonathan Gruber",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Chrissy Houlahan",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Marcy Kaptur",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "George Shultz",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Chris Sununu",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Sheila Widnall",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Virgilio Barco",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Sumana Shrestha",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Luis Videgaray",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Aafia Siddiqui",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Tony Tan Keng Yam",
+      "field": "Politics and public service"
+    },
+    {
+      "name": "Carly Fiorina",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Nicholas Negroponte",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Robert Noyce",
+      "field": "Computers and Internet"
+    },
+    {
+      "name": "Mitch Kapor",
+      "field": "Computers and Internet"
+    }
+  ]
+}

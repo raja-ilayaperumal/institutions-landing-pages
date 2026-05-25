@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.493685+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110617,
+    "slug": "california-state-university-sacramento",
+    "name": "California State University-Sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95819-2694",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K8JLGZSDVS89",
+      "opeid": "00115000",
+      "ein": "680365325"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Sacramento is a public university in Sacramento, California, United States. Founded in 1947 as Sacramento State College, it is part of the California State University system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Sacramento",
+    "fetched_at": "2026-05-25T17:50:24.998763+05:30"
+  },
+  "admissions": {
+    "applicants": 27702,
+    "admits": 26036,
+    "enrolled": 3989,
+    "first_time_freshmen": 3989,
+    "first_time_freshmen_ft": 3893,
+    "admit_rate": 0.9398599379106202,
+    "yield_rate": 0.15321093870026117
+  },
+  "cost": {
+    "avg_net_price": 10512,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1973,
+    "federal_loan_rate": 0.2485,
+    "net_price_by_family_income": {
+      "0_30k": 7306,
+      "30_48k": 8214,
+      "48_75k": 10861,
+      "75_110k": 14618,
+      "110k_plus": 20649
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.56,
+    "grad_4yr_bachelors": 0.28,
+    "grad_5yr_bachelors": 0.49,
+    "grad_6yr_bachelors": 0.56,
+    "pell_grad_rate": 0.54,
+    "pell_6yr_bachelors_rate": 0.54,
+    "non_pell_grad_rate": 0.56,
+    "non_pell_6yr_bachelors": 0.56,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.53
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 36908,
+    "ug_12mo": 33342,
+    "grad_12mo": 31469,
+    "women_12mo": 20814,
+    "men_12mo": 16094,
+    "fall_total": 31943,
+    "fall_full_time": 28820,
+    "fall_part_time": 28350,
+    "distance_ed_any": 31943,
+    "distance_ed_exclusive": 2090
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1256
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 1226
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 753
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 741
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 685
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 564
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 505
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 414
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 387
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 365
+      }
+    ],
+    "program_count": 87,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 856
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-east-bay",
+        "name": "California State University-East Bay",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csus.edu/information-resources-technology/institutional-research/",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Division of Information Resources & Technology",
+    "summary": "Our mission is to enhance University effectiveness with information and research to support planning and budgeting, assessment, accreditation, policy formation, and decision making.",
+    "phone": "916-278-6566",
+    "email": "oir@csus.edu",
+    "address": "AIRC, Room 3010",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:50:23.872475+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Shiva Pillai",
+      "title": "Director",
+      "email": "pillais@csus.edu",
+      "phone": "(916) 278-2693"
+    },
+    {
+      "ordering": 1,
+      "name": "Nancy Hardy",
+      "title": "Academic Planning Database Coordinator",
+      "email": "nhardy@csus.edu",
+      "phone": "(916) 278-7419",
+      "linkedin_url": "https://www.linkedin.com/in/nancy-hardy-43a3207"
+    },
+    {
+      "ordering": 2,
+      "name": "Agata Urban",
+      "title": "Data & Visualization Analyst",
+      "email": "aurban@csus.edu",
+      "phone": "(916) 278-5264",
+      "linkedin_url": "https://www.linkedin.com/in/agata-urban"
+    },
+    {
+      "ordering": 3,
+      "name": "Rachel Nguyen",
+      "title": "Strategic Research Analyst",
+      "email": "rachel.nguyen@csus.edu",
+      "phone": "(916) 278-5238",
+      "linkedin_url": "https://www.linkedin.com/in/jaeson-flores-29abb392"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://www.csus.edu/information-resources-technology/institutional-research/common-data-set/cds_2024-2025-final.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.csus.edu/information-resources-technology/institutional-research/dashboards/",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:43:47.961227+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Data Definitions & Glossary | Sacramento State",
+      "url": "https://www.csus.edu/information-resources-technology/institutional-research/data-definitions-glossary/",
+      "summary": "This glossary provides a comprehensive set of data definitions used across Sacramento State University, offering key definitions related to academic, administrative, and student terms for better understanding and navigation within the institution’s framework.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:43:29.770622+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110617",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:50:26.177262+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Sacramento State Fact Book",
+      "url": "https://www.csus.edu/experience/fact-book/",
+      "summary": "The Sacramento State Fact Book provides an overview of California State University-Sacramento, highlighting its role as a key educational institution in California's state capital. The document lists recent rankings, showcasing the university's diversity, transformative impact, affordability, and social mobility. It emphasizes the campus's growth and community engagement, as well as the dedication of its faculty to student success.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:40:29.205336+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Sacramento State Strategic Plan",
+      "url": "https://www.csus.edu/president/mission-imperatives/strategic-plan/",
+      "summary": "The Sacramento State Strategic Plan for 2023-2028 provides a comprehensive roadmap focusing on key areas such as student success, teaching, and diversity. Building on its foundation as a regional institution, the plan aims to serve current student needs and prepare for future growth. With input from various stakeholders, the plan sets priorities that include resource sustainability, community involvement, and campus wellness and safety.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:10.069842+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Staff Professional Development Award",
+      "agency": "California State University-Sacramento",
+      "kind": "award",
+      "amount_usd": 500,
+      "url": "https://www.csus.edu/college/arts-letters/internal/grants.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "California and the World's Ocean Conference 2010 Sponsorship",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/a7d2afdc74d24a1f89c920379c266641/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "X -- Lease for office space",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/9fbd3dd3f5564577936974a57533103d/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Kinzie Murphy",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Mahmud Sharif",
+      "field": "Finance"
+    },
+    {
+      "name": "Ronald K. Fong",
+      "field": "Business"
+    },
+    {
+      "name": "Art Pimentel",
+      "field": "Education"
+    },
+    {
+      "name": "Peter L. Tateishi",
+      "field": "Government & Associations"
+    },
+    {
+      "name": "Shelley R. Wetton",
+      "field": "Marketing"
+    },
+    {
+      "name": "Lori D. Wilson",
+      "field": "Politics"
+    },
+    {
+      "name": "Brandon Gonzales",
+      "field": "Sports"
+    }
+  ]
+}

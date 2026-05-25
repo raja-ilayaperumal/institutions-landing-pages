@@ -1,0 +1,718 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.299692+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122755,
+    "slug": "san-jose-state-university",
+    "name": "San Jose State University",
+    "city": "San Jose",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95192-0186",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "ZM6PVFEKEHK1",
+      "opeid": "00115500",
+      "ein": "770414438"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San José State University is a public research university in San Jose, California, United States. Established in 1857 as the state's first normal school, it is the oldest public university in the western United States and is the founding campus of the California State University system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/San_Jose_State_University",
+    "fetched_at": "2026-05-25T14:22:03.213596+05:30"
+  },
+  "admissions": {
+    "applicants": 37132,
+    "admits": 31419,
+    "enrolled": 4604,
+    "first_time_freshmen": 4604,
+    "first_time_freshmen_ft": 4414,
+    "admit_rate": 0.8461434880965205,
+    "yield_rate": 0.14653553582227313
+  },
+  "cost": {
+    "avg_net_price": 13741,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1875,
+    "federal_loan_rate": 0.2075,
+    "net_price_by_family_income": {
+      "0_30k": 9743,
+      "30_48k": 9863,
+      "48_75k": 12948,
+      "75_110k": 17047,
+      "110k_plus": 23401
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.69,
+    "grad_4yr_bachelors": 0.37,
+    "grad_5yr_bachelors": 0.63,
+    "grad_6yr_bachelors": 0.69,
+    "pell_grad_rate": 0.64,
+    "pell_6yr_bachelors_rate": 0.64,
+    "non_pell_grad_rate": 0.64,
+    "non_pell_6yr_bachelors": 0.64,
+    "retention_full_time": 0.87,
+    "retention_part_time": 0.62
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 40205,
+    "ug_12mo": 29579,
+    "grad_12mo": 29071,
+    "women_12mo": 20856,
+    "men_12mo": 19349,
+    "fall_total": 37661,
+    "fall_full_time": 28008,
+    "fall_part_time": 27601,
+    "distance_ed_any": 37661,
+    "distance_ed_exclusive": 6027
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1782
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1505
+      },
+      {
+        "cip_family_code": "25",
+        "cip_family_label": "Library Science",
+        "completions": 742
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 553
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 528
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 500
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 470
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 439
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 435
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 401
+      }
+    ],
+    "program_count": 135,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 862
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "appalachian-state-university",
+        "name": "Appalachian State University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-polytechnic-state-university-san-luis-obispo",
+        "name": "California Polytechnic State University-San Luis Obispo",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "cuny-bernard-m-baruch-college",
+        "name": "CUNY Bernard M Baruch College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "cuny-brooklyn-college",
+        "name": "CUNY Brooklyn College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "cuny-hunter-college",
+        "name": "CUNY Hunter College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "cuny-john-jay-college-of-criminal-justice",
+        "name": "CUNY John Jay College of Criminal Justice",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "cuny-lehman-college",
+        "name": "CUNY Lehman College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "cuny-queens-college",
+        "name": "CUNY Queens College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "eastern-washington-university",
+        "name": "Eastern Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "metropolitan-state-university-of-denver",
+        "name": "Metropolitan State University of Denver",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "minnesota-state-university-mankato",
+        "name": "Minnesota State University-Mankato",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "pennsylvania-western-university",
+        "name": "Pennsylvania Western University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "southeastern-louisiana-university",
+        "name": "Southeastern Louisiana University",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "towson-university",
+        "name": "Towson University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "troy-university",
+        "name": "Troy University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston-downtown",
+        "name": "University of Houston-Downtown",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-north-georgia",
+        "name": "University of North Georgia",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "western-washington-university",
+        "name": "Western Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.sjsu.edu/irsa/",
+    "office_name": "Institutional Research and Strategic Analytics",
+    "parent_division": "Academic Affairs",
+    "summary": "Dedicated to providing accurate, reliable, and timely information and research to support university decision making, and compliance with state, federal, district, and college requirements.",
+    "phone": "408-924-3175",
+    "email": "institutional-research@sjsu.edu",
+    "address": "One Washington Square, San José, CA 95192",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T14:22:01.913995+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Marco Antonio Cruz",
+      "title": "Senior Director",
+      "email": "marcoantonio.cruz@sjsu.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Cristian Acevedo",
+      "title": "Senior Research Associate/Student Success Analyst III",
+      "email": "cristian.acevedo@sjsu.edu"
+    },
+    {
+      "ordering": 2,
+      "name": "Evan Jacobs",
+      "title": "Institutional Research Analyst/Programmer I",
+      "email": "evan.jacobs@sjsu.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Masoumeh Khalilzadeh",
+      "title": "Research Associate/Student Success Analyst I",
+      "email": "masoumeh.khalilzadeh@sjsu.edu"
+    },
+    {
+      "ordering": 4,
+      "name": "Yen Ly",
+      "title": "Institutional Research Analyst/Programmer II",
+      "email": "yen.ly@sjsu.edu"
+    },
+    {
+      "ordering": 5,
+      "name": "Nestor Maria",
+      "title": "Research Associate/Student Success Analyst I",
+      "email": "nestor.maria@sjsu.edu"
+    },
+    {
+      "ordering": 6,
+      "name": "Martin Nguyen",
+      "title": "Institutional Research Analyst/Programmer",
+      "email": "martin.nguyen01@sjsu.edu"
+    },
+    {
+      "ordering": 7,
+      "name": "Amy Tan",
+      "title": "Institutional Research Analyst",
+      "email": "amy.tan@sjsu.edu"
+    },
+    {
+      "ordering": 8,
+      "name": "Chao Vang",
+      "title": "Senior Research Associate/Programmer Analyst III",
+      "email": "chao.vang@sjsu.edu"
+    },
+    {
+      "ordering": 9,
+      "name": "Barbara Windmiller",
+      "title": "Analyst/Project Coordinator",
+      "email": "barbara.windmiller@sjsu.edu"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/20250411_CDS_2024-2025%20FINAL.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/CDS_2023_2024_FINAL.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/20230706_CDS_2022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2021-22.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2020-21.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2019-20.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2018-19.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2017-18.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2016-17.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2015-16.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2014-15.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2013-14.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2012-13.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2011-12.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2010-11.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2009-10.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2008-09.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2007-08.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2006-07.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2005,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2005-06.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2004,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2004-05.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2003,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2003-04.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2002,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2002-03.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2001,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2001-02.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2000,
+      "url": "https://www.sjsu.edu/irsa/docs/cds/2000-01.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.sjsu.edu/irsa/",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:21:36.682086+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Data Warehouse: Graduate Student Tracker Guide",
+      "url": "https://www.sjsu.edu/it/docs/student-data-warehouse/19_SDW_Graduate_Student_Tracker_Guide.docx.pdf",
+      "summary": "The Data Warehouse: Graduate Student Tracker Guide provides user instructions for navigating the Graduate Student Tracker Dashboard at San Jose State University. It includes step-by-step guidance on accessing, configuring, and exporting data from the dashboard, as well as detailed data definitions for various fields within the Summary and Detail Views. Section headings include an overview of the dashboard, available views, and methods for exporting data. Data elements refreshed nightly provide up-to-date student information such as demographic data, academic standings, and degree progress details.",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:21:38.161215+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Glossary | Institutional Research and Strategic Analytics",
+      "url": "https://www.sjsu.edu/irsa/glossary/index.php",
+      "summary": "The San Jose State University Institutional Research and Strategic Analytics Glossary provides comprehensive definitions and explanations of terms related to academics, admissions, faculty assignments, student classification, retention, and graduation rates. It serves as a reference for understanding the data and metrics used in reporting and research at SJSU. The glossary includes detailed definitions for terms like Academic Year, Admission Basis, Census Data, Faculty Contact Hours, and many others, crucial for academic planning and administration. It supports enrollment reporting, analyses of faculty workload, and student progress tracking, offering insights into student demographics, faculty roles, and administrative processes.",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:21:25.997166+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122755",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:22:04.336228+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary | Institutional Research and Strategic Analytics",
+      "url": "https://www.sjsu.edu/irsa/glossary/index.php",
+      "summary": "The Glossary from San Jose State University's Institutional Research and Strategic Analytics page provides definitions for key terms related to academic affairs, admissions, enrollment, faculty assignments, and student demographics. It serves as a resource for understanding university-specific procedures and metrics like admission basis, cohort groups, FTES, and graduation rates, among others.",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:21:40.064656+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2019,
+      "title": "Transformation 2030",
+      "url": "https://www.sjsu.edu/strategicplan/docs/SJSU-full-strategic-plan-booklet.pdf",
+      "summary": "San José State University is embarking on 'Transformation 2030,' a strategic plan aimed to position the institution as a leading urban university that thrives on diversity, inclusion, and academic excellence. Under the leadership of President Mary A. Papazian, SJSU aims to strengthen its ties with Silicon Valley while fostering innovation and collaboration across various disciplines. The plan focuses on preparing students for a dynamic future through expanded learning opportunities, increasing the university's reputation for excellence, and ensuring its sustainable growth and development over the next decade.",
+      "stored": false,
+      "fetched_at": "2026-05-25T14:20:46.31962+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Associate Provost for Operational Success - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179342085"
+    },
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179419861"
+    }
+  ],
+  "grants": [
+    {
+      "title": "66--Algal Classification Sensor - SAM.gov",
+      "agency": "U.S. Geological Survey",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/3fbabd9aad364e52a2ee638268d36e8e/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Mary Blair",
+      "field": "Arts"
+    },
+    {
+      "name": "Ben Nighthorse Campbell",
+      "field": "Politics"
+    },
+    {
+      "name": "Charles W. 'Chuck' Davidson",
+      "field": "Engineering"
+    },
+    {
+      "name": "Lou Henry Hoover",
+      "field": "Politics"
+    },
+    {
+      "name": "Titus Kaphar",
+      "field": "Arts"
+    },
+    {
+      "name": "Kim Komenich",
+      "field": "Journalism"
+    },
+    {
+      "name": "Jenny Ming",
+      "field": "Business"
+    },
+    {
+      "name": "Edward A. 'Ed' Oates",
+      "field": "Technology"
+    },
+    {
+      "name": "Amy Tan",
+      "field": "Literature"
+    },
+    {
+      "name": "Yosh Uchida",
+      "field": "Sports"
+    },
+    {
+      "name": "Peter Ueberroth",
+      "field": "Sports Management"
+    },
+    {
+      "name": "Bill Walsh",
+      "field": "Sports"
+    }
+  ]
+}

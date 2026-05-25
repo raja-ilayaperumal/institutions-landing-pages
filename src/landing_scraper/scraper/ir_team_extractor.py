@@ -529,10 +529,32 @@ async def _channel_onpage(ir_landing_url: str, html: str) -> list[_SubPage]:
 
 
 async def _channel_sitemap(ir_landing_url: str) -> list[_SubPage]:
-    """Fetch sitemap.xml at the IR subdomain root; filter URLs matching team kw."""
+    """Fetch sitemap.xml at the IR root; filter URLs matching team kw.
+
+    Crucial: when the IR landing lives on a SHARED domain (not its own
+    subdomain), restrict sitemap results to URLs whose path stays within
+    the IR section. Otherwise a `fullerton.edu/sitemap.xml` containing the
+    whole university dumps thousands of URLs, and team-keyword matching
+    accepts unrelated pages like `/arts/aboutus/contact.php` ahead of the
+    real IR team page. The IR section prefix anchors discovery to the
+    right neighborhood.
+    """
     parsed = urlparse(ir_landing_url)
     root = f"{parsed.scheme}://{parsed.netloc}"
-    sitemap_urls = [f"{root}/sitemap.xml", f"{root}/sitemap_index.xml", f"{root}/wp-sitemap.xml"]
+    landing_path = (parsed.path or "/").rstrip("/")
+
+    # If landing is on a dedicated IR subdomain (ir.foo.edu, opa.foo.edu)
+    # the whole host is the IR section — no path prefix needed. Otherwise
+    # anchor to the IR section path (e.g. /data/ for Fullerton, /ir/).
+    netloc = parsed.netloc.lower()
+    is_dedicated_host = any(netloc.startswith(p) for p in (
+        "ir.", "oir.", "oire.", "oira.", "opa.", "opaa.", "ie.",
+        "asir.", "uda.", "ira.", "uia.", "assessment.", "analytics.",
+    ))
+    section_prefix = "" if is_dedicated_host else landing_path
+
+    sitemap_urls = [f"{root}/sitemap.xml", f"{root}/sitemap_index.xml",
+                    f"{root}/wp-sitemap.xml"]
     out: list[_SubPage] = []
     seen: set[str] = set()
     async with httpx.AsyncClient(timeout=10.0, follow_redirects=True) as client:
@@ -551,6 +573,11 @@ async def _channel_sitemap(ir_landing_url: str) -> list[_SubPage]:
                 url = (loc.get_text(strip=True) or "").lower()
                 if not url.startswith("http"):
                     continue
+                # Stay in IR section when on a shared domain
+                if section_prefix:
+                    url_path = urlparse(url).path.lower()
+                    if not url_path.startswith(section_prefix.lower()):
+                        continue
                 if not any(k in url for k in TEAM_KEYWORDS):
                     continue
                 if _canon(url) in seen:

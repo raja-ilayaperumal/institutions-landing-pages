@@ -1,0 +1,528 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.763903+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114789,
+    "slug": "fresno-city-college",
+    "name": "Fresno City College",
+    "city": "Fresno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93741",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "E41PH2FF1LM8",
+      "opeid": "00130700",
+      "ein": "941574802"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Fresno City College is a public community college in Fresno, California. It is part of the State Center Community College District within the California Community Colleges system. Fresno City College operates on a semester schedule and offers associate degrees and certificates.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fresno_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/Fresno_City_College",
+    "fetched_at": "2026-05-25T17:50:34.829696+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1699,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7086,
+    "federal_loan_rate": 0.003,
+    "net_price_by_family_income": {
+      "0_30k": 987,
+      "30_48k": 667,
+      "48_75k": 3594,
+      "75_110k": 8249,
+      "110k_plus": 11076
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.24,
+    "pell_grad_rate": 0.22
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 38808,
+    "ug_12mo": 38808,
+    "grad_12mo": 28799,
+    "women_12mo": 20863,
+    "men_12mo": 17945,
+    "fall_total": 28071,
+    "fall_full_time": 28071,
+    "fall_part_time": 21251,
+    "distance_ed_any": 28071,
+    "distance_ed_exclusive": 8294
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 847
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 235
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 223
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 163
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 162
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 100
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 81
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 62
+      }
+    ],
+    "program_count": 118,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 419
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "american-river-college",
+        "name": "American River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "anne-arundel-community-college",
+        "name": "Anne Arundel Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "century-college",
+        "name": "Century College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-malcolm-x-college",
+        "name": "City Colleges of Chicago-Malcolm X College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "davidson-davie-community-college",
+        "name": "Davidson-Davie Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "de-anza-college",
+        "name": "De Anza College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "erie-community-college",
+        "name": "Erie Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "fayetteville-technical-community-college",
+        "name": "Fayetteville Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "hudson-valley-community-college",
+        "name": "Hudson Valley Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "iowa-central-community-college",
+        "name": "Iowa Central Community College",
+        "state": "Iowa",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "john-c-calhoun-state-community-college",
+        "name": "John C Calhoun State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "johnston-community-college",
+        "name": "Johnston Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "joliet-junior-college",
+        "name": "Joliet Junior College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "kilgore-college",
+        "name": "Kilgore College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "lehigh-carbon-community-college",
+        "name": "Lehigh Carbon Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "minneapolis-community-and-technical-college",
+        "name": "Minneapolis Community and Technical College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "montgomery-county-community-college",
+        "name": "Montgomery County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "new-mexico-state-university-dona-ana",
+        "name": "New Mexico State University-Dona Ana",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "raritan-valley-community-college",
+        "name": "Raritan Valley Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "rochester-community-and-technical-college",
+        "name": "Rochester Community and Technical College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "saint-paul-college",
+        "name": "Saint Paul College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "southern-maine-community-college",
+        "name": "Southern Maine Community College",
+        "state": "Maine",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "tidewater-community-college",
+        "name": "Tidewater Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "trident-technical-college",
+        "name": "Trident Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "victor-valley-college",
+        "name": "Victor Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "virginia-peninsula-community-college",
+        "name": "Virginia Peninsula Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "virginia-western-community-college",
+        "name": "Virginia Western Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.fresnocitycollege.edu/faculty-and-staff/institutional-research-and-effectiveness/institutional-research/index.html",
+    "office_name": "Office of Institutional Research, Planning, and Effectiveness",
+    "parent_division": "Vice President of Educational Services and Institutional Effectiveness",
+    "summary": "The mission of the Institutional Research, Planning, and Effectiveness office is to promote and facilitate an equity minded culture of evidence and inquiry in which accurate, useable, useful, and actionable data and information provide the basis for data-informed decisions to improve student learning and institutional effectiveness.",
+    "phone": "559-442-4600",
+    "address": "1101 East University Ave, Fresno, CA 93741",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:50:33.737697+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Alex Adams, Ph.D",
+      "title": "Senior Director of Institutional Research, Planning, and Effectiveness",
+      "email": "alex.adams@fresnocitycollege.edu",
+      "phone": "559.489.2249",
+      "linkedin_url": "https://www.linkedin.com/in/alex-adams-268160b"
+    },
+    {
+      "ordering": 0,
+      "name": "Ghada Al-Masri, Ph.D.",
+      "title": "Vice President of Educational Services and Institutional Effectiveness",
+      "email": "ghada.al-masri@fresnocitycollege.edu",
+      "phone": "559.442.8257"
+    },
+    {
+      "ordering": 2,
+      "name": "Lili Gao, M.S.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "lili.gao@fresnocitycollege.edu",
+      "phone": "559.442.4600 ext. 2358"
+    },
+    {
+      "ordering": 3,
+      "name": "Michael Gonzalez, M.A.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "michael.gonzalez@fresnocitycollege.edu",
+      "phone": "559.442.4600 ext. 2357",
+      "linkedin_url": "https://www.linkedin.com/in/michael-gonzalez-jr"
+    },
+    {
+      "ordering": 4,
+      "name": "Celeste Hernandez, M.A.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "celeste.hernandez@fresnocitycollege.edu",
+      "phone": "559.442.4600 ext. 2225",
+      "linkedin_url": "https://www.linkedin.com/in/celestehernandez"
+    },
+    {
+      "ordering": 5,
+      "name": "Charles (Chuck) Kralowec, M.A.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "chuck.kralowec@fresnocitycollege.edu",
+      "phone": "559.442.4600 ext. 2349"
+    },
+    {
+      "ordering": 6,
+      "name": "Dorthy Schmidt, M.A.",
+      "title": "Research and Planning Analyst",
+      "email": "dorthy.schmidt@fresnocitycollege.edu",
+      "phone": "559.442.4600 ext. 2255",
+      "linkedin_url": "https://www.linkedin.com/in/dorthy-schmidt"
+    },
+    {
+      "ordering": 7,
+      "name": "David Woods, M.A.",
+      "title": "Adjunct Faculty Coordinator",
+      "email": "david.woods@fresnocitycollege.edu"
+    },
+    {
+      "ordering": 8,
+      "name": "Carol Rains-Heisdorf, M.A.",
+      "title": "Adjunct Accreditation Coordinator",
+      "email": "carol.rainsheisdorf@fresnocitycollege.edu",
+      "linkedin_url": "https://www.linkedin.com/in/carol-rains-heisdorf-49964233"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.fresnocitycollege.edu/faculty-and-staff/institutional-research-and-effectiveness/institutional-research/data-dashboards.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:50:17.6865+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Definition of Terms | Fresno City College",
+      "url": "https://www.fresnocitycollege.edu/faculty-and-staff/institutional-research-and-effectiveness/institutional-research/definition-of-terms.html",
+      "summary": "The page provides definitions of various terms used in institutional research and effectiveness at Fresno City College, covering topics from accountability reporting to statistical analysis. Definitions include both specific educational concepts and general research methodologies, aiming to support data assessment and planning within the college.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:49:46.02501+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114789",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:50:36.100607+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Lee Brand",
+      "field": "Politics"
+    },
+    {
+      "name": "Harry Edwards",
+      "field": "Sociology"
+    },
+    {
+      "name": "Jim Maloney",
+      "field": "Athletics"
+    },
+    {
+      "name": "Gary Soto",
+      "field": "Literature"
+    }
+  ]
+}

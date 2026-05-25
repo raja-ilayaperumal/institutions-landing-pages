@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.421381+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113856,
+    "slug": "east-los-angeles-college",
+    "name": "East Los Angeles College",
+    "city": "Monterey Park",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91754-6099",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VQAHSKM9DWC5",
+      "opeid": "02226000",
+      "ein": "952587353"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "East Los Angeles College (ELAC) is a public community college in Monterey Park, California, a suburb of Los Angeles. It is part of the California Community Colleges System and the Los Angeles Community College District. With fourteen communities comprising its primary service area and an enrollment of 35,403 students, ELAC had the largest student body campus by enrollment in the state of California as of 2018. It was situated in northeastern East Los Angeles before that part of unincorporated East Los Angeles was annexed by Monterey Park in the early 1970s. ELAC offers associate degrees and certificates.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/East_Los_Angeles_College",
+    "source_url": "https://en.wikipedia.org/wiki/East_Los_Angeles_College",
+    "fetched_at": "2026-05-25T17:40:00.582614+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 9791,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7944,
+    "federal_loan_rate": 0.0052,
+    "net_price_by_family_income": {
+      "0_30k": 9023,
+      "30_48k": 9494,
+      "48_75k": 12317,
+      "75_110k": 14408,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.37,
+    "pell_grad_rate": 0.33,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.65,
+    "retention_part_time": 0.31
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 58027,
+    "ug_12mo": 58027,
+    "grad_12mo": 46845,
+    "women_12mo": 27758,
+    "men_12mo": 30269,
+    "fall_total": 33677,
+    "fall_full_time": 33677,
+    "fall_part_time": 27753,
+    "distance_ed_any": 33677,
+    "distance_ed_exclusive": 12938
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1146
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 301
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 296
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 252
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 230
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 189
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 167
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 71
+      }
+    ],
+    "program_count": 97,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 33.0,
+    "instr_total_fte": 319
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "los-angeles-city-college",
+        "name": "Los Angeles City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.elac.edu/offices/oie/collegedata",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:30.20951+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113856",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:40:02.203304+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Strategic Educational Plan and Scorecard",
+      "url": "https://www.elac.edu/offices/oie/plan-alignment-strategic-plan",
+      "summary": "East Los Angeles College's Strategic Educational Plan outlines the institution's goals and initiatives for the 2025-2030 period. This plan is part of their ongoing efforts to improve educational outcomes and institutional effectiveness. A corresponding scorecard will be released in Spring 2026 to track progress against these strategic goals.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:36:53.92098+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Lee Baca",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lee_Baca",
+      "field": "Law Enforcement"
+    },
+    {
+      "name": "Wendy Carrillo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wendy_Carrillo",
+      "field": "Politics"
+    },
+    {
+      "name": "Rosario Marin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rosario_Marin",
+      "field": "Politics"
+    },
+    {
+      "name": "Gloria Molina",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gloria_Molina",
+      "field": "Politics"
+    },
+    {
+      "name": "Julian Nava",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Julian_Nava",
+      "field": "Diplomacy"
+    },
+    {
+      "name": "Edward James Olmos",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_James_Olmos",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Antonio Villaraigosa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Antonio_Villaraigosa",
+      "field": "Politics"
+    }
+  ]
+}

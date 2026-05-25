@@ -1,0 +1,554 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.172815+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110644,
+    "slug": "university-of-california-davis",
+    "name": "University of California-Davis",
+    "city": "Davis",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95616-8678",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TX2DAGQPENZ5",
+      "opeid": "00131300",
+      "ein": "946036494"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Davis is a public land-grant research university in the Davis, California area, United States. It is the northernmost of the ten campuses of the University of California system. The institution was first founded as an agricultural branch of the system in 1905 and became the sixth campus of the University of California in 1959.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Davis",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Davis",
+    "fetched_at": "2026-05-25T17:39:42.064114+05:30"
+  },
+  "admissions": {
+    "applicants": 98864,
+    "admits": 41353,
+    "enrolled": 6767,
+    "first_time_freshmen": 6767,
+    "first_time_freshmen_ft": 6615,
+    "admit_rate": 0.4182816798834763,
+    "yield_rate": 0.1636398810243513
+  },
+  "cost": {
+    "room_and_board": 19426,
+    "avg_net_price": 15288,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0273,
+    "federal_loan_rate": 0.2322,
+    "net_price_by_family_income": {
+      "0_30k": 8594,
+      "30_48k": 9472,
+      "48_75k": 12304,
+      "75_110k": 17988,
+      "110k_plus": 31258
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.86,
+    "grad_4yr_bachelors": 0.71,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.86,
+    "pell_grad_rate": 0.81,
+    "pell_6yr_bachelors_rate": 0.81,
+    "non_pell_grad_rate": 0.85,
+    "non_pell_6yr_bachelors": 0.85,
+    "retention_full_time": 0.93,
+    "retention_part_time": 0.83
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 41916,
+    "ug_12mo": 33618,
+    "grad_12mo": 33555,
+    "women_12mo": 24534,
+    "men_12mo": 17382,
+    "fall_total": 40065,
+    "fall_full_time": 32273,
+    "fall_part_time": 32253,
+    "distance_ed_any": 40065,
+    "distance_ed_exclusive": 336
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 1783
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1264
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1061
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 992
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 922
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 689
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 513
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 505
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 479
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 397
+      }
+    ],
+    "program_count": 189,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 2894
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-state-university",
+        "name": "Florida State University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-georgia",
+        "name": "University of Georgia",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-south-carolina-columbia",
+        "name": "University of South Carolina-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://aggiedata.ucdavis.edu/common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://financeandbusiness.ucdavis.edu/bia/institutional-analysis/data-partnerships/dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:25.477551+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110644",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:43.316+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "To Boldly Go: A strategic vision for UC Davis",
+      "url": "https://leadership.ucdavis.edu/strategic-plan",
+      "summary": "UC Davis has released its strategic plan 'To Boldly Go', which charts a course for the university's development over the next decade. The plan emphasizes collaboration and highlights five key goals: enhancing educational experiences, supporting meaningful research, promoting diversity, fostering community partnerships, and cultivating innovation. Implementation will involve collective efforts and use of specified metrics to ensure progress and accountability.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:36:42.015367+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Program Data & Implementation Specialist High Fidelity ...",
+      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179449810&Title=Program%20Data%20%26amp%3B%20Implementation%20Specialist%20High%20Fidelity%20Wraparound%20(Publ%20Educ%20Spec%203)"
+    },
+    {
+      "title": "Hospital Operations Business Intelligence Analyst - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179449932&Title=Hospital%20Operations%20Business%20Intelligence%20Analyst"
+    }
+  ],
+  "grants": [
+    {
+      "title": "F -- Air Quality Monitoring Site Operator - SAM.gov",
+      "agency": "Environmental Protection Agency",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/b8eb57887d02356a7a4e0e8aee2c7805/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "sample processing and analysis of metabolites - SAM.gov",
+      "agency": "National Institutes of Health (NIH)",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/45bb35fddf8f6884524c5e061631cc2a/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Dr. Molly Church",
+      "wikipedia_url": "https://www.vet.upenn.edu/people/faculty-clinician-search/MOLLYCHURCH",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Denise Imai-Leonard",
+      "wikipedia_url": "https://integrativepath.vetmed.ucdavis.edu/people/denise-imai-leonard",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Jennifer Johns",
+      "wikipedia_url": "https://vetmed.oregonstate.edu/people/jennifer-johns",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Jennifer Luff",
+      "wikipedia_url": "https://cvm.ncsu.edu/people/jaluff/",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Fauna Smith",
+      "wikipedia_url": "https://www.vetmed.ucdavis.edu/faculty/fauna-smith",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Natalia Vapniarsky-Arzi",
+      "wikipedia_url": "https://www.vetmed.ucdavis.edu/faculty/natalia-vapniarsky-arzi",
+      "field": "Veterinary Medicine"
+    },
+    {
+      "name": "Dr. Jose Vilches-Moure",
+      "wikipedia_url": "https://profiles.stanford.edu/jose-vilches-moure",
+      "field": "Veterinary Medicine"
+    }
+  ]
+}

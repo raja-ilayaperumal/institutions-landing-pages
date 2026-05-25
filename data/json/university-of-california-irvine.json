@@ -1,0 +1,737 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.357480+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110653,
+    "slug": "university-of-california-irvine",
+    "name": "University of California-Irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92697",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MJC5FCYQTPE6",
+      "opeid": "00131400",
+      "ein": "952226406"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Irvine is a public land-grant research university in Irvine, California, United States. One of the ten campuses of the University of California system, UCI offers 87 undergraduate degrees and 129 graduate and professional degrees, and roughly 30,000 undergraduates and 7,000 graduate students were enrolled at UCI as of Fall 2024. The university is classified among \"R1: Doctoral Universities – Very high research activity\" and had $609.6 million in research and development expenditures in 2023, ranking it 56th nationally. UCI became a member of the Association of American Universities in 1996.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Irvine",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Irvine",
+    "fetched_at": "2026-05-25T17:40:38.851788+05:30"
+  },
+  "admissions": {
+    "applicants": 122699,
+    "admits": 35054,
+    "enrolled": 6736,
+    "first_time_freshmen": 6736,
+    "first_time_freshmen_ft": 6717,
+    "admit_rate": 0.28569099992664976,
+    "yield_rate": 0.1921606664004108
+  },
+  "cost": {
+    "room_and_board": 18991,
+    "avg_net_price": 12840,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.021,
+    "federal_loan_rate": 0.2181,
+    "net_price_by_family_income": {
+      "0_30k": 6485,
+      "30_48k": 8044,
+      "48_75k": 11769,
+      "75_110k": 16809,
+      "110k_plus": 29595
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.87,
+    "grad_4yr_bachelors": 0.73,
+    "grad_5yr_bachelors": 0.85,
+    "grad_6yr_bachelors": 0.87,
+    "pell_grad_rate": 0.84,
+    "pell_6yr_bachelors_rate": 0.84,
+    "non_pell_grad_rate": 0.87,
+    "non_pell_6yr_bachelors": 0.87,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.68
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 38546,
+    "ug_12mo": 30893,
+    "grad_12mo": 30883,
+    "women_12mo": 21133,
+    "men_12mo": 17413,
+    "fall_total": 37297,
+    "fall_full_time": 30204,
+    "fall_part_time": 30197,
+    "distance_ed_any": 37297,
+    "distance_ed_exclusive": 614
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1628
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1452
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1326
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 1130
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 1121
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 1028
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 743
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 498
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 453
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 422
+      }
+    ],
+    "program_count": 168,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 2332
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-state-university",
+        "name": "Florida State University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-georgia",
+        "name": "University of Georgia",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-south-carolina-columbia",
+        "name": "University of South Carolina-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://irap.uci.edu/",
+    "office_name": "Institutional Research, Assessment, and Planning (IRAP)",
+    "parent_division": "UC Irvine Office of the Provost",
+    "summary": "To provide data, insights, and guidance to enhance institutional excellence, supporting academic assessment processes, and strategic planning efforts.",
+    "phone": "949 824-6503",
+    "fax": "949 824-2513",
+    "email": "oir@uci.edu",
+    "address": "535 Aldrich Hall, Irvine, CA 92697",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:40:35.558482+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Roxane Cohen Silver",
+      "title": "Vice Provost, Institutional Research, Assessment, and Planning",
+      "email": "rsilver@uci.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Ryan Cherland",
+      "title": "Associate Vice Provost, Institutional Research & Decision Support",
+      "email": "ryan.cherland@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-cherland-84b82369"
+    },
+    {
+      "ordering": 2,
+      "name": "Paul Kang",
+      "title": "Associate Vice Provost, Institutional Planning",
+      "email": "p.kang@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/paul-kang-05395b31"
+    },
+    {
+      "ordering": 3,
+      "name": "Ryan Hoadwonic",
+      "title": "Director of Institutional Research Operations",
+      "email": "ryan.hoadwonic@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-hoadwonic-b969b6a"
+    },
+    {
+      "ordering": 4,
+      "name": "Aliana Flores",
+      "title": "Principal Research Analyst",
+      "email": "aliana.flores@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/aliana"
+    },
+    {
+      "ordering": 5,
+      "name": "Angela Miu",
+      "title": "Principal Research Analyst",
+      "email": "angela.miu@uci.edu"
+    },
+    {
+      "ordering": 6,
+      "name": "Preston Reed",
+      "title": "Principal Research Analyst",
+      "email": "preston.reed@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/preston-reed-3159b12b"
+    },
+    {
+      "ordering": 7,
+      "name": "Joshua Saldana",
+      "title": "Principal Research Analyst",
+      "email": "saldanaj@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/joshua-saldana-uc-irvine"
+    },
+    {
+      "ordering": 8,
+      "name": "Angela Teshima",
+      "title": "Principal Research Analyst",
+      "email": "ateshima@uci.edu"
+    },
+    {
+      "ordering": 9,
+      "name": "Venette Van Duyn",
+      "title": "Director, Institutional Assessment",
+      "email": "vvanduyn@uci.edu"
+    },
+    {
+      "ordering": 10,
+      "name": "Twyla Tanaka",
+      "title": "Principal Assessment and Research Analyst",
+      "email": "twyla.tanaka@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/twyla-tanaka-b073b833"
+    },
+    {
+      "ordering": 11,
+      "name": "Andrea Bell",
+      "title": "Strategic Program Director",
+      "email": "andreapb@uci.edu"
+    },
+    {
+      "ordering": 12,
+      "name": "Stephanie Andrade",
+      "title": "Institutional Planning Analyst",
+      "email": "stephanie.andrade@uci.edu",
+      "linkedin_url": "https://www.linkedin.com/in/stephanie-andrade-10"
+    },
+    {
+      "ordering": 13,
+      "name": "Yeji Seo",
+      "title": "Higher Education Regulatory Compliance and Policy Analyst",
+      "email": "yeji.seo@uci.edu"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://irap.uci.edu/institutional-research/data-hub/common-data-set/",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://irap.uci.edu/institutional-research/data-hub/",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:50.706051+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110653",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:40:41.02448+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "University of California-Irvine Institutional Research Glossary",
+      "url": "https://irap.uci.edu/quick-links/document-download-library/",
+      "summary": "The glossary provides structured information related to institutional research at UC Irvine, detailing processes and guidelines for academic planning, assessment, accreditation, and core competencies. It includes templates, guidelines, and external resources for effective program assessment and development.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:39:54.396284+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "UC Irvine Strategic Plan",
+      "url": "https://www.strategicplan.uci.edu/",
+      "summary": "UC Irvine's strategic plan aims to build on existing strengths and chart a course for a brilliant future through four key pillars. These pillars focus on growth that makes a difference, enhancing the student experience, forming valuable partnerships, and pioneering innovative best practices. The plan will guide strategic investments of time and resources for the next five years, reflecting adaptation to new circumstances and opportunities.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:37:54.813808+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "The National Standard for Normal Fetal Growth - SAM.gov",
+      "kind": "award",
+      "amount_usd": 3690668,
+      "url": "https://sam.gov/workspace/contract/opp/2a26a2ca85ba3191f84be936b4a47fc9/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "B--NOI Noncompetitive action for radiocarbon analysis - SAM.gov",
+      "agency": "U.S. Geological Survey",
+      "kind": "award",
+      "url": "https://sam.gov/workspace/contract/opp/635c67b087d44eb2b0d16c7a6b1b5a2b/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "RECOVERY: The National Standard for Normal Fetal Growth",
+      "kind": "award",
+      "url": "https://sam.gov/workspace/contract/opp/faf4d7186ba5d8adb1868f5c6e41837f/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "David Benioff",
+      "field": "Arts"
+    },
+    {
+      "name": "Allison Liddi-Brown",
+      "field": "Arts"
+    },
+    {
+      "name": "Tammy Rae Carland",
+      "field": "Arts"
+    },
+    {
+      "name": "Jon Lovitz",
+      "field": "Arts"
+    },
+    {
+      "name": "Joseph McGinty Nichol",
+      "field": "Arts"
+    },
+    {
+      "name": "Michael Ramirez",
+      "field": "Arts"
+    },
+    {
+      "name": "Aimee Bender",
+      "field": "Literature"
+    },
+    {
+      "name": "Michael Chabon",
+      "field": "Literature"
+    },
+    {
+      "name": "Richard Ford",
+      "field": "Literature"
+    },
+    {
+      "name": "Yusef Komunyakaa",
+      "field": "Literature"
+    },
+    {
+      "name": "Whitney Otto",
+      "field": "Literature"
+    },
+    {
+      "name": "T. Jefferson Parker",
+      "field": "Literature"
+    },
+    {
+      "name": "Alice Sebold",
+      "field": "Literature"
+    },
+    {
+      "name": "Héctor Tobar",
+      "field": "Literature"
+    },
+    {
+      "name": "Joe Adams",
+      "field": "Public Sector"
+    },
+    {
+      "name": "Ami Bera",
+      "field": "Public Sector"
+    },
+    {
+      "name": "Ferial Govashiri",
+      "field": "Public Sector"
+    },
+    {
+      "name": "Janet Nguyen",
+      "field": "Public Sector"
+    },
+    {
+      "name": "Geoffrey Pyatt",
+      "field": "Public Sector"
+    },
+    {
+      "name": "Brady Anderson",
+      "field": "Sports"
+    },
+    {
+      "name": "Scott Brooks",
+      "field": "Sports"
+    },
+    {
+      "name": "Jennifer Chandler",
+      "field": "Sports"
+    },
+    {
+      "name": "Darren Fells",
+      "field": "Sports"
+    },
+    {
+      "name": "Greg Louganis",
+      "field": "Sports"
+    },
+    {
+      "name": "Roy Fielding",
+      "field": "Technology"
+    },
+    {
+      "name": "Patrick Hanratty",
+      "field": "Technology"
+    },
+    {
+      "name": "Paul Mockapetris",
+      "field": "Technology"
+    }
+  ]
+}

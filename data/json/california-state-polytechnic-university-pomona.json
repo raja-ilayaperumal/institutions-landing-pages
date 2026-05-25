@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.896632+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110529,
+    "slug": "california-state-polytechnic-university-pomona",
+    "name": "California State Polytechnic University-Pomona",
+    "city": "Pomona",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91768",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JMGMMM7BMBT6",
+      "opeid": "00114400",
+      "ein": "954255659"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State Polytechnic University, Pomona is a public polytechnic research university in Pomona, California, United States. It is the largest of the three polytechnic universities in the California State University system by enrollment.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_Polytechnic_University,_Pomona",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_Polytechnic_University,_Pomona",
+    "fetched_at": "2026-05-25T17:54:23.396126+05:30"
+  },
+  "admissions": {
+    "applicants": 49944,
+    "admits": 37545,
+    "enrolled": 4679,
+    "first_time_freshmen": 4679,
+    "first_time_freshmen_ft": 4586,
+    "admit_rate": 0.7517419509851033,
+    "yield_rate": 0.12462378479158344
+  },
+  "cost": {
+    "avg_net_price": 11580,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1353,
+    "federal_loan_rate": 0.2526,
+    "net_price_by_family_income": {
+      "0_30k": 7599,
+      "30_48k": 8192,
+      "48_75k": 11196,
+      "75_110k": 15145,
+      "110k_plus": 20829
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.68,
+    "grad_4yr_bachelors": 0.34,
+    "grad_5yr_bachelors": 0.61,
+    "grad_6yr_bachelors": 0.68,
+    "pell_grad_rate": 0.64,
+    "pell_6yr_bachelors_rate": 0.64,
+    "non_pell_grad_rate": 0.7,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.87,
+    "retention_part_time": 0.64
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 29319,
+    "ug_12mo": 26537,
+    "grad_12mo": 26158,
+    "women_12mo": 13286,
+    "men_12mo": 16033,
+    "fall_total": 27636,
+    "fall_full_time": 25255,
+    "fall_part_time": 25042,
+    "distance_ed_any": 27636,
+    "distance_ed_exclusive": 742
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1684
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1137
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 487
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 380
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 366
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 274
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 262
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 256
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 195
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 193
+      }
+    ],
+    "program_count": 78,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 696
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "east-carolina-university",
+        "name": "East Carolina University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-atlantic-university",
+        "name": "Florida Atlantic University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-southern-university",
+        "name": "Georgia Southern University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "kennesaw-state-university",
+        "name": "Kennesaw State University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "middle-tennessee-state-university",
+        "name": "Middle Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "northern-arizona-university",
+        "name": "Northern Arizona University",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-san-antonio",
+        "name": "The University of Texas at San Antonio",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "university-of-nevada-las-vegas",
+        "name": "University of Nevada-Las Vegas",
+        "state": "Nevada",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "university-of-new-mexico-main-campus",
+        "name": "University of New Mexico-Main Campus",
+        "state": "New Mexico",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-charlotte",
+        "name": "University of North Carolina at Charlotte",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "western-michigan-university",
+        "name": "Western Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cpp.edu/data/",
+    "office_name": "Institutional Research, Planning, & Analytics",
+    "summary": "Institutional Research, Planning, and Analytics (IRPA) supports data-informed decision-making to help Cal Poly Pomona fulfill its commitment to student access and achievement. We support continuous improvement by seeking innovative ways to make data accessible, intelligible, and actionable.",
+    "email": "irpa@cpp.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:54:22.163355+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jeanette Baez, Ed.D.",
+      "title": "Assistant Vice President",
+      "linkedin_url": "https://www.linkedin.com/in/jeanette-baez"
+    },
+    {
+      "ordering": 1,
+      "name": "Akira Kanatsu, Ph.D.",
+      "title": "Director of Analytics for Student Success & Equity"
+    },
+    {
+      "ordering": 2,
+      "name": "Raymond Canlas",
+      "title": "Senior Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/raymond-canlas-33530548"
+    },
+    {
+      "ordering": 3,
+      "name": "Kevin Davis, M.P.A.",
+      "title": "Data Scientist",
+      "linkedin_url": "https://www.linkedin.com/in/kevin-davis-89a1798"
+    },
+    {
+      "ordering": 4,
+      "name": "Tasanee Thienpothong, M.S.",
+      "title": "Institutional Research Analyst"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2024.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2018.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110529",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:54:24.471594+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms",
+      "url": "https://www.cpp.edu/fas/budget/glossary-of-terms.shtml",
+      "summary": "The California State Polytechnic University-Pomona's glossary of terms provides definitions and explanations of various financial and budgetary terms used within the university's financial system. The glossary covers terms related to accounting codes, budgeting processes, university funds, expenses, and various financial operations and reports, essential for understanding financial management within the institution. This comprehensive list aids in the financial and administrative operations of the university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:53:59.293182+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2017,
+      "title": "2017-2025 Strategic Plan",
+      "url": "https://www.cpp.edu/strategicplan/",
+      "summary": "Cal Poly Pomona's 2017-2025 Strategic Plan is dedicated to delivering an education model that fosters creativity, discovery, and innovation by embracing inclusivity and addressing global challenges. The institution aims to be a leader in polytechnic education by promoting experiential learning and community engagement. Through this vision, Cal Poly Pomona seeks to transform lives while ensuring academic excellence and social responsibility.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:51:46.374821+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Virginia Hamilton Adair",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_Hamilton_Adair",
+      "field": "Literature"
+    },
+    {
+      "name": "Beny Alagem",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Beny_Alagem",
+      "field": "Business"
+    },
+    {
+      "name": "Ronald Burkle",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ronald_Burkle",
+      "field": "Business"
+    },
+    {
+      "name": "Jack Dangermond",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Dangermond",
+      "field": "Geography"
+    },
+    {
+      "name": "Jerry Dyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Dyer",
+      "field": "Politics"
+    },
+    {
+      "name": "Paul Caligiuri",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Caligiuri",
+      "field": "Sports"
+    },
+    {
+      "name": "Sara Carter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sara_Carter_(journalist)",
+      "field": "Journalism"
+    },
+    {
+      "name": "Hilda Solis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hilda_Solis",
+      "field": "Politics"
+    },
+    {
+      "name": "Kim Rhode",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kim_Rhode",
+      "field": "Sports"
+    },
+    {
+      "name": "James T. Butts Jr.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_T._Butts_Jr.",
+      "field": "Politics"
+    },
+    {
+      "name": "Richard Pombo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Pombo",
+      "field": "Politics"
+    },
+    {
+      "name": "Larry Wilmore",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Wilmore",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Naomi Fraga",
+      "field": "Botany"
+    },
+    {
+      "name": "Ray Kappe",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Kappe",
+      "field": "Architecture"
+    },
+    {
+      "name": "Walter Ray Williams Jr.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walter_Ray_Williams_Jr.",
+      "field": "Sports"
+    },
+    {
+      "name": "Stevvi Alexander",
+      "field": "Music"
+    },
+    {
+      "name": "Ted Williams",
+      "field": "Sports"
+    },
+    {
+      "name": "Marie Royce",
+      "field": "Diplomacy"
+    },
+    {
+      "name": "Jonathan D. Farrar",
+      "field": "Diplomacy"
+    },
+    {
+      "name": "Ray Holt",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Holt_(computer_scientist)",
+      "field": "Computer Science"
+    },
+    {
+      "name": "James Williamson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Williamson_(musician)",
+      "field": "Music"
+    },
+    {
+      "name": "Timothy Lam",
+      "field": "Sports"
+    },
+    {
+      "name": "Geoffrey Okamoto",
+      "field": "Economics"
+    }
+  ]
+}

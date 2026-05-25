@@ -97,18 +97,57 @@ def _available_providers() -> list[Provider]:
     return out
 
 
+_tavily_key_idx = 0
+_tavily_quota_blocked: set[str] = set()
+
+
+def _next_tavily_key() -> str | None:
+    """Pick the next Tavily key that hasn't been quota-blocked this run.
+
+    Round-robins across all populated keys. Once a key returns a quota
+    error, it's skipped until the process restarts (Tavily plan limits
+    reset on a daily/monthly schedule, not within a session). Returns
+    None when every key is blocked — caller should fall through to the
+    next provider.
+    """
+    global _tavily_key_idx
+    keys = settings.tavily_api_keys
+    if not keys:
+        return None
+    for _ in range(len(keys)):
+        k = keys[_tavily_key_idx % len(keys)]
+        _tavily_key_idx += 1
+        if k not in _tavily_quota_blocked:
+            return k
+    return None
+
+
 async def _search_tavily(query: str, limit: int) -> list[SearchResult]:
     from tavily import TavilyClient
 
-    def _call() -> dict:
-        client = TavilyClient(api_key=settings.tavily_api_key)
+    key = _next_tavily_key()
+    if not key:
+        log.warning("search.tavily_all_keys_exhausted", query=query[:80])
+        return []
+
+    def _call(api_key: str) -> dict:
+        client = TavilyClient(api_key=api_key)
         return client.search(
-            query=query,
-            max_results=limit,
-            search_depth="basic",
+            query=query, max_results=limit, search_depth="basic",
         )
 
-    raw = await asyncio.to_thread(_call)
+    try:
+        raw = await asyncio.to_thread(_call, key)
+    except Exception as e:  # noqa: BLE001
+        msg = str(e)
+        # Tavily SDK raises UsageLimitExceededError / 429 on quota.
+        # Mark this key blocked and let the caller move on.
+        if "usage" in msg.lower() or "limit" in msg.lower() or "429" in msg:
+            _tavily_quota_blocked.add(key)
+            log.warning("search.tavily_key_blocked",
+                        key_suffix=key[-4:], err=msg[:120])
+        raise
+
     return [
         SearchResult(
             title=r.get("title", ""),

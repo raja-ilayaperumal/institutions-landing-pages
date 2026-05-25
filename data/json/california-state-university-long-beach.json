@@ -1,0 +1,703 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.982239+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110583,
+    "slug": "california-state-university-long-beach",
+    "name": "California State University-Long Beach",
+    "city": "Long Beach",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90840-0115",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "P2TDH1JCJD31",
+      "opeid": "00113900",
+      "ein": "931150363"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Long Beach, also known in athletics as Long Beach State University (LBSU), is a public research university in Long Beach, California, United States. The 322-acre campus is the second largest in the California State University system (CSU).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Long_Beach",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Long_Beach",
+    "fetched_at": "2026-05-25T16:29:20.704865+05:30"
+  },
+  "admissions": {
+    "applicants": 83967,
+    "admits": 38854,
+    "enrolled": 6482,
+    "first_time_freshmen": 6482,
+    "first_time_freshmen_ft": 6298,
+    "admit_rate": 0.46272940559981895,
+    "yield_rate": 0.16682967004684202
+  },
+  "cost": {
+    "avg_net_price": 8931,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1534,
+    "federal_loan_rate": 0.2414,
+    "net_price_by_family_income": {
+      "0_30k": 5477,
+      "30_48k": 6191,
+      "48_75k": 9063,
+      "75_110k": 12787,
+      "110k_plus": 18575
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.69,
+    "grad_4yr_bachelors": 0.38,
+    "grad_5yr_bachelors": 0.63,
+    "grad_6yr_bachelors": 0.69,
+    "pell_grad_rate": 0.67,
+    "pell_6yr_bachelors_rate": 0.67,
+    "non_pell_grad_rate": 0.7,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.87,
+    "retention_part_time": 0.62
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 44099,
+    "ug_12mo": 37273,
+    "grad_12mo": 37072,
+    "women_12mo": 25902,
+    "men_12mo": 18197,
+    "fall_total": 42003,
+    "fall_full_time": 36082,
+    "fall_part_time": 35924,
+    "distance_ed_any": 42003,
+    "distance_ed_exclusive": 2404
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1851
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 1005
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 900
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 856
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 799
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 689
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 506
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 499
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 494
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 491
+      }
+    ],
+    "program_count": 136,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 1121
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-digital-immersion",
+        "name": "Arizona State University Digital Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "ball-state-university",
+        "name": "Ball State University",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "boise-state-university",
+        "name": "Boise State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "east-carolina-university",
+        "name": "East Carolina University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "florida-atlantic-university",
+        "name": "Florida Atlantic University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "georgia-southern-university",
+        "name": "Georgia Southern University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "illinois-state-university",
+        "name": "Illinois State University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "james-madison-university",
+        "name": "James Madison University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "kennesaw-state-university",
+        "name": "Kennesaw State University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "miami-university-oxford",
+        "name": "Miami University-Oxford",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "middle-tennessee-state-university",
+        "name": "Middle Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "montclair-state-university",
+        "name": "Montclair State University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "northern-arizona-university",
+        "name": "Northern Arizona University",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "portland-state-university",
+        "name": "Portland State University",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "rowan-university",
+        "name": "Rowan University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "sam-houston-state-university",
+        "name": "Sam Houston State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "texas-state-university",
+        "name": "Texas State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "the-university-of-texas-rio-grande-valley",
+        "name": "The University of Texas Rio Grande Valley",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-charlotte",
+        "name": "University of North Carolina at Charlotte",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-greensboro",
+        "name": "University of North Carolina at Greensboro",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-north-carolina-wilmington",
+        "name": "University of North Carolina Wilmington",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-rhode-island",
+        "name": "University of Rhode Island",
+        "state": "Rhode Island",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "west-chester-university-of-pennsylvania",
+        "name": "West Chester University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csulb.edu/institutional-research-analytics",
+    "office_name": "Institutional Research & Analytics",
+    "summary": "The Institutional Research & Analytics (IRA) team supports data-informed decision-making by providing accurate reporting, analysis, and insights that advance institutional planning, student success, and organizational effectiveness.",
+    "phone": "562-985-7800",
+    "email": "IR&A@csulb.edu",
+    "address": "Brotman Hall, Room 133, 1250 Bellflower Blvd., Long Beach, CA 90840",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T16:29:19.600517+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Mahmoud Albawneh",
+      "title": "Assistant Vice President",
+      "linkedin_url": "https://www.linkedin.com/in/mahmoud-albawaneh"
+    },
+    {
+      "ordering": 1,
+      "name": "Juan Carlos Apitz",
+      "title": "Associate Director for Academic Planning & Enrollment",
+      "linkedin_url": "https://www.linkedin.com/in/jcapitz"
+    },
+    {
+      "ordering": 2,
+      "name": "Anthony Tchen",
+      "title": "Associate Director for Student Success",
+      "linkedin_url": "https://www.linkedin.com/in/anthony-tchen-b7108572"
+    },
+    {
+      "ordering": 3,
+      "name": "Arik Espiritu",
+      "title": "Database Administrator"
+    },
+    {
+      "ordering": 4,
+      "name": "Tammy Dupuy",
+      "title": "Sr. Research & Reporting Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/tammy-dupuy-097949394"
+    },
+    {
+      "ordering": 5,
+      "name": "Kevin Avila",
+      "title": "Academic Planning & Enrollment Data Analyst"
+    },
+    {
+      "ordering": 6,
+      "name": "Tyler Nakamura",
+      "title": "Academic Planning & Enrollment Data Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/tyler-e-nakamura-84a400a7"
+    },
+    {
+      "ordering": 7,
+      "name": "Laura Vlad",
+      "title": "Student Success Data Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/laura-vlad-31678b1b5"
+    },
+    {
+      "ordering": 8,
+      "name": "Tapan Shah",
+      "title": "Programmer"
+    },
+    {
+      "ordering": 9,
+      "name": "Patrick Espino",
+      "title": "Programmer",
+      "linkedin_url": "https://www.linkedin.com/in/patrick-espino"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.csulb.edu/sites/default/files/2026/documents/CDS%202025%20-%202026%20%28PDF%29.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2025,
+      "url": "https://www.csulb.edu/sites/default/files/2025/documents/CDS%202024%20-%202025%20%28PDF%29_2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.csulb.edu/sites/default/files/2024/documents/CDS%202023%20-%202024%20%28PDF%29.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.csulb.edu/sites/default/files/2023/documents/CDS_2022-2023_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2021-2022_updated_3_22_22.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2020-2021_final_web_version.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2019_2020_final_web_version.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2018-2019_final_web_version.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2017-2018_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2016-2017_corrected_04292020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2015-2016_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2014-2015_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2013-2014_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.csulb.edu/sites/default/files/document/cds_2012-2013_final_0.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.csulb.edu/whats-new-beach-data",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:28:54.550756+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110583",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:29:22.359588+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Dashboard Glossary | California State University Long Beach",
+      "url": "https://www.csulb.edu/institutional-research-analytics/dashboard-glossary",
+      "summary": "The Dashboard Glossary page at California State University Long Beach provides definitions for common terms related to institutional research and analytics. It includes key concepts such as student admission metrics (like admit yield and applicant yield), academic classifications (such as first time freshmen and transfer students), and funding and faculty terms (including employee class and tenure density). The glossary helps stakeholders understand the terminology used in the context of data reporting and analysis at the university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:28:55.053646+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Beach 2030 Strategic Plan",
+      "url": "https://www.csulb.edu/office-of-the-provost/beach-2030-strategic-plan",
+      "summary": "The Beach 2030 Strategic Plan by California State University Long Beach focuses on achieving greater distinction in transformation, access, and community engagement. The plan outlines strategic priorities and goals for the institution to follow over the next three years and beyond. This ongoing effort builds on past recognition for innovation in higher education and student success improvements.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:27:43.636615+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Associate Vice President, Office of Research and Economic Development",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179380071"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Center for Human Factors in Advanced Aeronautics Technologies",
+      "agency": "NASA",
+      "kind": "award",
+      "amount_usd": 4999997,
+      "url": "https://www.csulb.edu/college-of-liberal-arts/center-for-human-factors-advanced-aeronautics-technologies/funding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Metrics for Operator Situation Awareness, Workload, and Performance in Automated Separation Assurance",
+      "agency": "NASA",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://www.csulb.edu/college-of-liberal-arts/center-for-human-factors-advanced-aeronautics-technologies/funding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Learning Experience for Elementary School Girls",
+      "agency": "NASA",
+      "kind": "award",
+      "amount_usd": 30000,
+      "url": "https://www.csulb.edu/college-of-liberal-arts/center-for-human-factors-advanced-aeronautics-technologies/funding",
+      "source": "institution_site",
+      "award_date": "2010-07-01"
+    },
+    {
+      "title": "Professional Recruitment Services - California State University ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/fd988451d47b4f028b486f05173a20c6/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Professional Recruitment Services - California State University ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/b797a5d492219e03df2f5ae9d9349ada/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Professional Recruitment Services - California State University, Long Beach",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/722c9f7d3c3a4cc0b83995f4c47e866c/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Elle (Itkoff) Alexander",
+      "field": "Film"
+    },
+    {
+      "name": "Guy Bee",
+      "field": "Film"
+    },
+    {
+      "name": "Giacun Caduff",
+      "field": "Film"
+    },
+    {
+      "name": "Scott Einbinder",
+      "field": "Film"
+    },
+    {
+      "name": "Gregory Irwin",
+      "field": "Film"
+    },
+    {
+      "name": "Mark Steven Johnson",
+      "field": "Film"
+    },
+    {
+      "name": "Karen Baker Landers",
+      "field": "Film"
+    },
+    {
+      "name": "J.F. Lawton",
+      "field": "Film"
+    },
+    {
+      "name": "Bob Read",
+      "field": "Television"
+    },
+    {
+      "name": "Stu Rosen",
+      "field": "Television"
+    },
+    {
+      "name": "P. Scott Sakamoto",
+      "field": "Film"
+    },
+    {
+      "name": "Ron Simonson",
+      "field": "Television"
+    },
+    {
+      "name": "Steven Spielberg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Spielberg",
+      "field": "Film"
+    },
+    {
+      "name": "Masanobu Takayanagi",
+      "field": "Film"
+    },
+    {
+      "name": "David Twohy",
+      "field": "Film"
+    },
+    {
+      "name": "Robert S. Woods",
+      "field": "Television"
+    }
+  ]
+}

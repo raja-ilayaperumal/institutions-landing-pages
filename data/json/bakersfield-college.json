@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.558833+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 109819,
+    "slug": "bakersfield-college",
+    "name": "Bakersfield College",
+    "city": "Bakersfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93305-1299",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MT4DJXZEY4L4",
+      "opeid": "00111800",
+      "ein": "956006644"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Bakersfield College (BC) is a public community college in Bakersfield, California, United States. BC serves about 31,000 students each semester or 46,500 annually, and offers associate degrees, certificate programs, and is one of fifteen California Community Colleges offering a baccalaureate degree. It is part of the Kern Community College District (KCCD), which is itself part of the California Community Colleges system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bakersfield_College",
+    "source_url": "https://en.wikipedia.org/wiki/Bakersfield_College",
+    "fetched_at": "2026-05-25T17:45:01.866943+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4751,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7113,
+    "federal_loan_rate": 0.0085,
+    "net_price_by_family_income": {
+      "0_30k": 4126,
+      "30_48k": 4254,
+      "48_75k": 7190,
+      "75_110k": 10237,
+      "110k_plus": 12508
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.21,
+    "grad_4yr_bachelors": 0.5,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.21,
+    "pell_6yr_bachelors_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 45178,
+    "ug_12mo": 45178,
+    "grad_12mo": 25031,
+    "women_12mo": 24547,
+    "men_12mo": 20631,
+    "fall_total": 30746,
+    "fall_full_time": 30746,
+    "fall_part_time": 17280,
+    "distance_ed_any": 30746,
+    "distance_ed_exclusive": 7554
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 2208
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 356
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 270
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 267
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 260
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 189
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 187
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 161
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 104
+      }
+    ],
+    "program_count": 103,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 31.0,
+    "instr_total_fte": 372
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.bakersfieldcollege.edu/about/administration/planning-and-accountability/institutional-effectiveness/index.html",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "Institutional Effectiveness (IE) supports Bakersfield College's Mission, Vision, and Values through its commitment to providing quality, accessible, and relevant data and information to our students, staff, the communities we serve, and the public.",
+    "phone": "661-395-4662",
+    "email": "research@bakersfieldcollege.edu",
+    "address": "Panorama Campus (Main), 1801 Panorama Drive, Bakersfield, CA 93305",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:45:00.349373+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Craig Hayward"
+    },
+    {
+      "ordering": 1,
+      "name": "Grace Commiso",
+      "linkedin_url": "https://www.linkedin.com/in/grace-commiso-a3349314"
+    },
+    {
+      "ordering": 2,
+      "name": "Robert Dean",
+      "linkedin_url": "https://www.linkedin.com/in/robert-dean-b54484123"
+    },
+    {
+      "ordering": 3,
+      "name": "Patsy Garcia"
+    },
+    {
+      "ordering": 4,
+      "name": "Sooyeon Kim",
+      "title": "Dean"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.bakersfieldcollege.edu/about/administration/planning-and-accountability/institutional-effectiveness/data-dashboards.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:44:07.856773+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=109819",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:45:02.854686+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Bakersfield College Strategic Plan 2025 - 2030",
+      "url": "https://www.bakersfieldcollege.edu/about/administration/planning-and-accountability/strategic-plan-2025-2030.html",
+      "summary": "Bakersfield College's Strategic Plan for 2025-2030 aims to prepare the institution for future demands focusing on cultural, technological, and physical environments. The plan targets workforce alignment, enhanced student services, increased accessibility to education, and improved community engagement. By setting measurable objectives, the college seeks to provide a high-quality, inclusive, and forward-thinking educational atmosphere for all its students and staff.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:41:43.354764+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Executive Director, Institutional Research, Planning ... - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179408420"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Funding Opportunity Announcement for Science, Technology, Engineering and Mathematics (STEM) Workforce Development for Enrolled K-12 and College Students and Navy Workforce",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/ce464fd6c732429788458e246ad463e7/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Louie Cruz Beltran",
+      "field": "Music"
+    },
+    {
+      "name": "Robert Beltran",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Sharon Chatman",
+      "field": "Judiciary"
+    },
+    {
+      "name": "Ric Drasin",
+      "field": "Entertainment and Sports"
+    },
+    {
+      "name": "Jean Fuller",
+      "field": "Politics"
+    },
+    {
+      "name": "Harvey Hall",
+      "field": "Politics"
+    },
+    {
+      "name": "Kevin Harvick",
+      "field": "Sports"
+    },
+    {
+      "name": "Guy Madison",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Michael Rubio",
+      "field": "Politics"
+    },
+    {
+      "name": "Delbert E. Wong",
+      "field": "Judiciary"
+    }
+  ]
+}

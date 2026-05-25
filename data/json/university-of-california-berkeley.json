@@ -1,0 +1,651 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.796718+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110635,
+    "slug": "university-of-california-berkeley",
+    "name": "University of California-Berkeley",
+    "city": "Berkeley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94720",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GS3YEVSS12N6",
+      "opeid": "00131200",
+      "ein": "946002123"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Berkeley is a public land-grant research university in the Southside and Northside neighborhoods of Berkeley, California, United States. Founded in 1868 and named after the Anglo-Irish philosopher George Berkeley, it is the state's first land-grant university and the founding campus of the University of California system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+    "fetched_at": "2026-05-25T16:58:38.440482+05:30"
+  },
+  "admissions": {
+    "applicants": 124242,
+    "admits": 13639,
+    "enrolled": 6272,
+    "first_time_freshmen": 6272,
+    "first_time_freshmen_ft": 6232,
+    "admit_rate": 0.10977769192382608,
+    "yield_rate": 0.45985776083290564
+  },
+  "cost": {
+    "room_and_board": 23750,
+    "avg_net_price": 14979,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0463,
+    "federal_loan_rate": 0.1823,
+    "net_price_by_family_income": {
+      "0_30k": 5895,
+      "30_48k": 7751,
+      "48_75k": 11424,
+      "75_110k": 18713,
+      "110k_plus": 35154
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.93,
+    "grad_4yr_bachelors": 0.8,
+    "grad_5yr_bachelors": 0.91,
+    "grad_6yr_bachelors": 0.93,
+    "pell_grad_rate": 0.87,
+    "pell_6yr_bachelors_rate": 0.87,
+    "non_pell_grad_rate": 0.93,
+    "non_pell_6yr_bachelors": 0.93,
+    "retention_full_time": 0.97,
+    "retention_part_time": 0.81
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 48556,
+    "ug_12mo": 34828,
+    "grad_12mo": 34782,
+    "women_12mo": 26108,
+    "men_12mo": 22448,
+    "fall_total": 45882,
+    "fall_full_time": 33070,
+    "fall_part_time": 33068,
+    "distance_ed_any": 45882,
+    "distance_ed_exclusive": 1793
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2455
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 2410
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1725
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 1146
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1026
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 989
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 597
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 584
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 581
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 563
+      }
+    ],
+    "program_count": 163,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0,
+    "instr_total_fte": 1974
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-state-university",
+        "name": "Florida State University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-georgia",
+        "name": "University of Georgia",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-south-carolina-columbia",
+        "name": "University of South Carolina-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": null,
+    "nih_total_usd": null,
+    "herd_total_usd": null,
+    "usaspending_total_usd": null,
+    "all_sources_total_usd": null,
+    "years_covered": null
+  },
+  "ir_office": {
+    "url": "https://opa.berkeley.edu/",
+    "office_name": "Office of Planning and Analysis",
+    "parent_division": "Office of the Vice Chancellor of Finance",
+    "summary": "The Office of Planning and Analysis is UC Berkeley's central institutional research unit, collaborating with campus partners to maintain key campus statistics and support data collection and analysis.",
+    "email": "opa@berkeley.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:00:21.993532+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Chris Stanich",
+      "title": "Associate Vice Chancellor, Financial Planning and Analysis, and Deputy CFO",
+      "linkedin_url": "https://www.linkedin.com/in/chris-stanich-12a90016"
+    },
+    {
+      "ordering": 1,
+      "name": "Sereeta Alexander",
+      "title": "Executive Director, Office of Planning and Analysis"
+    },
+    {
+      "ordering": 2,
+      "name": "Russ Acker",
+      "title": "Associate Director, Information Systems"
+    },
+    {
+      "ordering": 3,
+      "name": "Beatriz Brando",
+      "title": "Associate Director, Institutional Research",
+      "linkedin_url": "https://www.linkedin.com/in/beatrizbrando"
+    },
+    {
+      "ordering": 4,
+      "name": "Sara Adan",
+      "title": "Senior Institutional Research Analyst"
+    },
+    {
+      "ordering": 5,
+      "name": "Matthew Betts",
+      "title": "Senior Institutional Research Analyst"
+    },
+    {
+      "ordering": 6,
+      "name": "Olivia Lyles",
+      "title": "Senior Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/olivia-lyles-a3b1666b"
+    },
+    {
+      "ordering": 7,
+      "name": "Malcolm Quon",
+      "title": "Senior Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/malcolmquon"
+    },
+    {
+      "ordering": 8,
+      "name": "Erryn Rivers",
+      "title": "Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/erryn-rivers"
+    },
+    {
+      "ordering": 9,
+      "name": "Lan Tran",
+      "title": "Senior Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/lan-tran-2a33014"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://opa.berkeley.edu/campus-data/common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://opa.berkeley.edu/campus-data/our-berkeley-data-digest",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:58:21.389597+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set",
+      "url": "https://opa.berkeley.edu/campus-data/common-data-set",
+      "summary": "The Common Data Set page at UC Berkeley provides an overview of a standardized data collection format used by publishers like The College Board and U.S. News and World Report. It outlines various topics covered within the Common Data Set and links to annual reports in Excel format, created through a collaboration of various university offices.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:57:43.200349+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110635",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:58:39.966185+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "title": "Campus Data",
+      "url": "https://opa.berkeley.edu/campus-data",
+      "summary": "The University of California-Berkeley's Office of Planning and Analysis provides comprehensive data and analysis on key metrics related to university operations including enrollment, graduation rates, student demographics, faculty, and financial aspects. The Campus Data webpage serves as a portal for accessing detailed reports and dashboards such as the Our Berkeley Data Digest and Common Data Set, and offers resources for further statistical insights and external links for additional information.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:56:40.964619+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Berkeley’s Strategic Plan: Illuminating our path forward",
+      "url": "https://strategicplan.berkeley.edu/",
+      "summary": "The University of California-Berkeley has initiated a new strategic plan titled 'Illuminating our path forward,' focused on adapting and thriving in the face of new technologies, shifting economics, and global pressures. The plan emphasizes student success, faculty innovation, impactful research, and staff pride. A three-part strategy has been introduced, built upon input from campus leaders, to navigate the institution's future challenges and opportunities effectively.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:56:36.007085+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Institute for Research on Labor and Employment - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179443715"
+    },
+    {
+      "title": "Technology and Work Program Director (Full Specialist) - UC",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179367539"
+    },
+    {
+      "title": "UC Berkeley Labor Center - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179386243"
+    },
+    {
+      "title": "Director of Research & Strategic Initiatives, Berkeley Air & Space ...",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179363164"
+    }
+  ],
+  "grants": [
+    {
+      "title": "LBNL Future Scientifc Project -Feasibility Studies",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/0fedb5db39104bcd8bf9581b8cb80d65/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Notice of intent to sole source",
+      "agency": "USDA-ARS",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/20a298cb49fc751919f6410074b5ef5f/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Amber Jackson",
+      "field": "Conservation"
+    },
+    {
+      "name": "Alex Morgan",
+      "field": "Athletics"
+    },
+    {
+      "name": "Rube Goldberg",
+      "field": "Engineering and Arts"
+    },
+    {
+      "name": "Steve Wozniak",
+      "field": "Technology"
+    },
+    {
+      "name": "Leroy Chiao",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Barbara Lee",
+      "field": "Politics"
+    },
+    {
+      "name": "Paul Merage",
+      "field": "Business"
+    },
+    {
+      "name": "Joan Didion",
+      "field": "Literature"
+    },
+    {
+      "name": "Julia Morgan",
+      "field": "Architecture"
+    }
+  ]
+}

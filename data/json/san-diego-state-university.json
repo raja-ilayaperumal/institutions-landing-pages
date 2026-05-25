@@ -1,0 +1,556 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.112203+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122409,
+    "slug": "san-diego-state-university",
+    "name": "San Diego State University",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92182-0001",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RN4HGABGRWV7",
+      "opeid": "00115100",
+      "ein": "330373293"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Diego State University (SDSU) is a public research university in San Diego, California, United States. Founded in 1897, it is the third-oldest university and southernmost in the 23-member California State University (CSU) system. SDSU is the oldest higher education institution in San Diego; its academic roots were established as a normal school in University Heights, then known as the San Diego Normal School. In the fall of 2025, the university enrolled a record 41,184 students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Diego_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/San_Diego_State_University",
+    "fetched_at": "2026-05-25T16:38:56.18872+05:30"
+  },
+  "admissions": {
+    "applicants": 89972,
+    "admits": 32561,
+    "enrolled": 6629,
+    "first_time_freshmen": 6629,
+    "first_time_freshmen_ft": 6552,
+    "admit_rate": 0.36190148046058773,
+    "yield_rate": 0.20358711341789257
+  },
+  "cost": {
+    "avg_net_price": 16174,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1071,
+    "federal_loan_rate": 0.2314,
+    "net_price_by_family_income": {
+      "0_30k": 9655,
+      "30_48k": 10241,
+      "48_75k": 14205,
+      "75_110k": 18176,
+      "110k_plus": 24913
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.76,
+    "grad_4yr_bachelors": 0.56,
+    "grad_5yr_bachelors": 0.73,
+    "grad_6yr_bachelors": 0.76,
+    "pell_grad_rate": 0.72,
+    "pell_6yr_bachelors_rate": 0.72,
+    "non_pell_grad_rate": 0.77,
+    "non_pell_6yr_bachelors": 0.77,
+    "retention_full_time": 0.91,
+    "retention_part_time": 0.79
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 42660,
+    "ug_12mo": 36724,
+    "grad_12mo": 36080,
+    "women_12mo": 24567,
+    "men_12mo": 18093,
+    "fall_total": 41137,
+    "fall_full_time": 35782,
+    "fall_part_time": 35377,
+    "distance_ed_any": 41137,
+    "distance_ed_exclusive": 2454
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 2685
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 806
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 793
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 785
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 746
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 742
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 581
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 547
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 448
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 428
+      }
+    ],
+    "program_count": 172,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 1060
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cleveland-state-university",
+        "name": "Cleveland State University",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "george-mason-university",
+        "name": "George Mason University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "portland-state-university",
+        "name": "Portland State University",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "university-at-buffalo",
+        "name": "University at Buffalo",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "university-of-nevada-las-vegas",
+        "name": "University of Nevada-Las Vegas",
+        "state": "Nevada",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-greensboro",
+        "name": "University of North Carolina at Greensboro",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-wisconsin-milwaukee",
+        "name": "University of Wisconsin-Milwaukee",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://asir.sdsu.edu/",
+    "office_name": "Analytic Studies & Institutional Research",
+    "summary": "We help SDSU analyze and understand institutional data through accurate reporting, in-depth analyses, and educational programs.",
+    "phone": "619-594-6846",
+    "email": "oir@sdsu.edu",
+    "address": "San Diego State University, 5500 Campanile Drive, San Diego, CA 92182-8010",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T16:38:55.149755+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jeanne Stronach, MA",
+      "title": "Assistant Vice President",
+      "email": "jstronac@sdsu.edu",
+      "phone": "619-594-8712"
+    },
+    {
+      "ordering": 1,
+      "name": "Kathleen King",
+      "title": "Senior Reporting Analyst",
+      "email": "kaking@sdsu.edu",
+      "phone": "619-594-0907"
+    },
+    {
+      "ordering": 2,
+      "name": "Meg Calhoun",
+      "title": "IR Analyst",
+      "email": "mscalhoun@sdsu.edu",
+      "phone": "619-594-1830",
+      "linkedin_url": "https://www.linkedin.com/in/mscalhoun"
+    },
+    {
+      "ordering": 3,
+      "name": "Sibel Sengel",
+      "title": "IR Analyst",
+      "email": "ssengel@sdsu.edu",
+      "phone": "619-594-1496",
+      "linkedin_url": "https://www.linkedin.com/in/sibel-sengel-279711205"
+    },
+    {
+      "ordering": 4,
+      "name": "Anna Jost, MPH",
+      "title": "Research Analyst",
+      "email": "ajost@sdsu.edu",
+      "phone": "619-594-8849"
+    },
+    {
+      "ordering": 5,
+      "name": "Erin Jacobs, PhD",
+      "title": "Director",
+      "email": "ejacobs@sdsu.edu",
+      "phone": "619-594-2451",
+      "linkedin_url": "https://www.linkedin.com/in/erin-jacobs-ph-d-96514a63"
+    },
+    {
+      "ordering": 6,
+      "name": "Xi Yan, MS",
+      "title": "Senior Data Scientist",
+      "email": "xyan3@sdsu.edu",
+      "phone": "619-594-1830"
+    },
+    {
+      "ordering": 7,
+      "name": "Tatiana Chavez, MS",
+      "title": "Data Scientist",
+      "email": "tchavez2@sdsu.edu",
+      "linkedin_url": "https://www.linkedin.com/in/tatiana-chavez-a537141aa"
+    },
+    {
+      "ordering": 8,
+      "name": "Cris Manlangit, MS",
+      "title": "Assistant Director",
+      "email": "cmanlangit@sdsu.edu",
+      "phone": "619-594-0926"
+    },
+    {
+      "ordering": 9,
+      "name": "Thanh Huynh",
+      "title": "Data Engineer",
+      "email": "thuynh2@sdsu.edu",
+      "phone": "619-594-2958"
+    },
+    {
+      "ordering": 10,
+      "name": "Habon Ahmed",
+      "title": "Student Intern",
+      "linkedin_url": "https://www.linkedin.com/in/habon-ahmed-765ha"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "title": "REDCap’s Data Dictionary – A powerful tool in your toolbelt!",
+      "url": "https://research.sdsu.edu/research_affairs/human_subjects/data_dictionary.pdf",
+      "summary": "This document provides an introduction and guide to using the Data Dictionary feature in REDCap, highlighting its utility in managing project fields and sharing or transferring project setups. It outlines steps to upload and commit changes within REDCap after editing the Data Dictionary CSV file and details common errors and solutions when handling the Data Dictionary. The document includes a demo project setup to illustrate practical application, while emphasizing the need for careful attention to errors to prevent data retrieval issues.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:30:11.517959+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122409",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:38:57.512348+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "We Rise We Defy: Transcending Borders, Transforming Lives",
+      "url": "https://www.sdsu.edu/strategic-plan",
+      "summary": "San Diego State University's strategic plan 'We Rise We Defy: Transcending Borders, Transforming Lives' outlines the vision and mission for 2025-2030. It focuses on growth, commitment to teaching, research, and creativity, aiming to transform students' lives while engaging communities. The plan maintains five strategic priorities from its first phase and further aims to elevate SDSU as a premier public research university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:27:46.818695+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "GreenFest Collaboration Grants",
+      "agency": "San Diego State University",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://as.sdsu.edu/greenfest/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Seawater Supply to the Southwest Fisheries Science ... - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/6c6c230f508343d6ba4822476d3e7864/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "U -- National Cancer Institute (NCI) - Science Enrichment ...",
+      "agency": "National Cancer Institute",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/36dbde0915c6455d8fac69cb9e2acf81/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "James D. Sinegal",
+      "field": "Business"
+    },
+    {
+      "name": "Linda Lang",
+      "field": "Business"
+    },
+    {
+      "name": "Dee Coffman",
+      "field": "Business"
+    },
+    {
+      "name": "Tom Darcy",
+      "field": "Business"
+    },
+    {
+      "name": "Bill Earley",
+      "field": "Business"
+    },
+    {
+      "name": "Christine Probett",
+      "field": "Aerospace/Academia"
+    },
+    {
+      "name": "Andrew Esparza",
+      "field": "Business"
+    },
+    {
+      "name": "Mark McMillin",
+      "field": "Real Estate"
+    },
+    {
+      "name": "William E. Cole",
+      "field": "Business"
+    },
+    {
+      "name": "Greg Fowler",
+      "field": "Business"
+    },
+    {
+      "name": "Raymond V. Dittamore",
+      "field": "Finance"
+    },
+    {
+      "name": "Ralph Rubio",
+      "field": "Restaurant"
+    },
+    {
+      "name": "Catherine Stiefel",
+      "field": "Business"
+    },
+    {
+      "name": "Ralph R. Pesqueira",
+      "field": "Business"
+    },
+    {
+      "name": "F. Duwaine Townsen",
+      "field": "Finance"
+    },
+    {
+      "name": "Randy J. Johnson",
+      "field": "Business"
+    },
+    {
+      "name": "Gerald Davee",
+      "field": "Law"
+    },
+    {
+      "name": "R. Michael Pack",
+      "field": "Business"
+    },
+    {
+      "name": "Craig Stevens",
+      "field": "Finance"
+    },
+    {
+      "name": "Art Flaming",
+      "field": "Business"
+    },
+    {
+      "name": "Stephen Coslik",
+      "field": "Business"
+    },
+    {
+      "name": "Art Nicholas",
+      "field": "Finance"
+    },
+    {
+      "name": "Rebecca Harshberger",
+      "field": "Tax"
+    },
+    {
+      "name": "Susan Nowakowski",
+      "field": "Healthcare"
+    },
+    {
+      "name": "Mark Snell",
+      "field": "Energy"
+    },
+    {
+      "name": "Frederick Watson Pierce, IV",
+      "field": "Real Estate"
+    },
+    {
+      "name": "Bill Brack",
+      "field": "Finance"
+    },
+    {
+      "name": "Bill Early",
+      "field": "Nonprofit"
+    },
+    {
+      "name": "Jennifer Fall Young",
+      "field": "Winery"
+    }
+  ]
+}

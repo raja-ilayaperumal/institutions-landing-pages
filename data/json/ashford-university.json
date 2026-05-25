@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.827393+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 154022,
+    "slug": "ashford-university",
+    "name": "Ashford University",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92123",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "E7CWEYGA1LQ5",
+      "opeid": "00188100",
+      "ein": "742652689"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Arizona Global Campus is a public online university affiliated with the University of Arizona. The university announced a deal to acquire Ashford University in 2020 and completed the deal in 2023.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Arizona_Global_Campus",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Arizona_Global_Campus",
+    "fetched_at": "2026-05-25T17:54:36.736851+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 25321,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.3576,
+    "net_price_by_family_income": {
+      "0_30k": 25193,
+      "30_48k": 24745,
+      "48_75k": 26377,
+      "75_110k": 28812,
+      "110k_plus": 27097
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.11,
+    "grad_4yr_bachelors": 0.03,
+    "grad_5yr_bachelors": 0.08,
+    "grad_6yr_bachelors": 0.1,
+    "pell_grad_rate": 0.11,
+    "pell_6yr_bachelors_rate": 0.1,
+    "non_pell_grad_rate": 0.13,
+    "non_pell_6yr_bachelors": 0.13,
+    "retention_full_time": 0.35
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 46925,
+    "ug_12mo": 36770,
+    "grad_12mo": 34645,
+    "women_12mo": 28570,
+    "men_12mo": 18355,
+    "fall_total": 28004,
+    "fall_full_time": 21113,
+    "fall_part_time": 20152,
+    "distance_ed_any": 28004,
+    "distance_ed_exclusive": 27981
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 4053
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 1094
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 859
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 700
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 403
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 201
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 154
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 118
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 83
+      }
+    ],
+    "program_count": 64,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 101
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "american-intercontinental-university-system",
+        "name": "American InterContinental University System",
+        "state": "Arizona",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "strayer-university-district-of-columbia",
+        "name": "Strayer University-District of Columbia",
+        "state": "District of Columbia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "title": "Institutional Data at UAGC",
+      "url": "https://www.uagc.edu/institutional-data",
+      "summary": "This document provides an overview of Ashford University's (now UAGC) institutional offerings, focusing on online degree programs, admissions information, military student resources, partnerships, financial aid, and student experiences. It highlights various educational pathways including bachelor's, master's, and doctoral degrees across different areas of interest such as business, criminal justice, education, health care, IT, and liberal arts. The page also addresses services for military personnel, partnerships with organizations, and financial aid options.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:53:23.586094+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=154022",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:54:37.249526+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Scott Burgmeyer",
+      "field": "Business"
+    },
+    {
+      "name": "Kevin Daley",
+      "field": "Athletics"
+    },
+    {
+      "name": "Tiffany Howe",
+      "field": "Education"
+    },
+    {
+      "name": "Cher McNeal Ofstedahl Leal",
+      "field": "Nonprofit"
+    },
+    {
+      "name": "Daniel Persico",
+      "field": "Information Technology"
+    },
+    {
+      "name": "Beth Peter",
+      "field": "Finance"
+    }
+  ]
+}

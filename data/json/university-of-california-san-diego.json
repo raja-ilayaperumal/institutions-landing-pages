@@ -1,0 +1,773 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.858404+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110680,
+    "slug": "university-of-california-san-diego",
+    "name": "University of California-San Diego",
+    "city": "La Jolla",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92093",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UYTTZT6G9DT1",
+      "opeid": "00131700",
+      "ein": "956006144"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, San Diego is a public land-grant research university in the La Jolla neighborhood of San Diego, California, United States. Established in 1960, it is the southernmost of the ten campuses of the University of California. It occupies 2,178 acres (881 ha) near the Pacific coast.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_San_Diego",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_San_Diego",
+    "fetched_at": "2026-05-25T17:34:00.369885+05:30"
+  },
+  "admissions": {
+    "applicants": 134450,
+    "admits": 35917,
+    "enrolled": 7330,
+    "first_time_freshmen": 7330,
+    "first_time_freshmen_ft": 7317,
+    "admit_rate": 0.267140200818148,
+    "yield_rate": 0.20408163265306123
+  },
+  "cost": {
+    "room_and_board": 18970,
+    "avg_net_price": 11750,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0277,
+    "federal_loan_rate": 0.2412,
+    "net_price_by_family_income": {
+      "0_30k": 7487,
+      "30_48k": 7864,
+      "48_75k": 10389,
+      "75_110k": 17131,
+      "110k_plus": 28113
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.86,
+    "grad_4yr_bachelors": 0.74,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.86,
+    "pell_grad_rate": 0.82,
+    "pell_6yr_bachelors_rate": 0.82,
+    "non_pell_grad_rate": 0.87,
+    "non_pell_6yr_bachelors": 0.87,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.84
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 44416,
+    "ug_12mo": 35563,
+    "grad_12mo": 35555,
+    "women_12mo": 22979,
+    "men_12mo": 21437,
+    "fall_total": 44256,
+    "fall_full_time": 34955,
+    "fall_part_time": 34948,
+    "distance_ed_any": 44256,
+    "distance_ed_exclusive": 236
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 2152
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1901
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 1704
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 1128
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1112
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 887
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 736
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 690
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 605
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 499
+      }
+    ],
+    "program_count": 159,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 3203
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "florida-state-university",
+        "name": "Florida State University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-arlington",
+        "name": "The University of Texas at Arlington",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-georgia",
+        "name": "University of Georgia",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-south-carolina-columbia",
+        "name": "University of South Carolina-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-south-florida",
+        "name": "University of South Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://ir.ucsd.edu/",
+    "office_name": "Institutional Research",
+    "summary": "Facilitate data-informed decision-making through actionable research & analytics.",
+    "phone": "(858) 534-2230",
+    "email": "ir@ucsd.edu",
+    "address": "Student Services Center (SSC), 4th floor, 9500 Gilman Drive, La Jolla, CA 92093-0003",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:33:59.027667+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://ir.ucsd.edu/stats/undergrad/CDS_2024-2025_Final1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://ir.ucsd.edu/stats/undergrad/CDS_UCSD_2023_20242.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://ir.ucsd.edu/stats/undergrad/UCSD-CDS_2022-20233.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://ir.ucsd.edu/stats/undergrad/UCSD-CDS_2022-20233.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://ir.ucsd.edu/stats/undergrad/UCSD-CDS_2021-2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2020-2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-CDS_2018-2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-CDS_2018-2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/ucsd20162017.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2012-2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2010-2011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2009-2010.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2008-2009.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2007-2008.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2006-2007.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://ir.ucsd.edu/_files/stats-data/common-data-set/UCSD-2005-2006.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://ir.ucsd.edu/dashboards/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:47.120909+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Research Data Dictionary",
+      "url": "https://ir.ucsd.edu/",
+      "summary": "The University of California-San Diego's Institutional Research page provides data and analytics to support informed decision-making. The resource covers undergraduate degrees conferred, student-specific statistics, and survey data such as UCUES and gradSERU. It also offers substantial student success research and analytics, including dashboards that display student enrollment, degree counts, graduation rates, and graduate admissions. Additionally, this page serves as a gateway to decision support resources addressing topics like accreditation and faculty workload, and partners with other university departments to offer more data resources.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:30.0357+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110680",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:34:02.710483+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Research Administration Glossary",
+      "url": "https://blink.ucsd.edu/research/sra/get-help-training/glossary.html",
+      "summary": "The University of California-San Diego's Research Administration Glossary provides detailed definitions of terms commonly used in research administration. The glossary includes definitions of different research activities, the concept of allowable costs, rules for using animal subjects in research, and various types of agreements and compliance requirements related to research projects. It aims to guide university faculty and staff in understanding financial, administrative, and procedural aspects involved in research projects.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:07.634008+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "UC San Diego Strategic Plan",
+      "url": "https://plan.ucsd.edu/",
+      "summary": "UC San Diego's strategic plan embraces the themes of People, Collaboration, and Efficiency to drive its mission forward. The plan outlines priorities such as enhancing student experience, promoting high-impact research, and fostering healthcare excellence while embedding values of diversity and sustainability. Through collaborative efforts and innovative approaches, the university aims to remain a leader in education and a catalyst for positive change globally.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:29:34.558474+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Research Administrator 3 - 139610 - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441595"
+    },
+    {
+      "title": "Research Administrator 3 - 139421 - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179427366"
+    },
+    {
+      "title": "Senior Complaint Resolution Officer - Health - 139481 - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179437261&Title=Senior%20Complaint%20Resolution%20Officer%20-%20Health%20-%20139481"
+    },
+    {
+      "title": "Research Administrator 2 - 138172 - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179440359"
+    }
+  ],
+  "grants": [
+    {
+      "title": "6640--UCSD MEG Analysis - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/aef697da0e474a40a7ec07cf9f0d6310/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Buoy Services - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/533518b9076c29cd43a82de8a97e6187/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "UCSD Buoy Service - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/252147b60ee8f83788620489fd1a0d81/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Lizet Benrey",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Micha Cárdenas",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Joyce Cutler–Shaw",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Hung Liu",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Dan Santat",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Mark Allen",
+      "field": "Athletics"
+    },
+    {
+      "name": "Billy Beane",
+      "field": "Athletics"
+    },
+    {
+      "name": "Garrett Gruener",
+      "field": "Business"
+    },
+    {
+      "name": "Robert J. Pera",
+      "field": "Business"
+    },
+    {
+      "name": "Nick Woodman",
+      "field": "Business"
+    },
+    {
+      "name": "Bill Atkinson",
+      "field": "Computer science"
+    },
+    {
+      "name": "Ryan Dahl",
+      "field": "Computer science"
+    },
+    {
+      "name": "Michael I. Jordan",
+      "field": "Computer science"
+    },
+    {
+      "name": "David E. Shaw",
+      "field": "Computer science"
+    },
+    {
+      "name": "James Avery",
+      "field": "Film, theatre, and television"
+    },
+    {
+      "name": "Rachel Axler",
+      "field": "Film, theatre, and television"
+    },
+    {
+      "name": "Michael Greif",
+      "field": "Film, theatre, and television"
+    },
+    {
+      "name": "Naomi Iizuka",
+      "field": "Film, theatre, and television"
+    },
+    {
+      "name": "Mike Judge",
+      "field": "Film, theatre, and television"
+    },
+    {
+      "name": "Maria Ho",
+      "field": "Music and entertainment"
+    },
+    {
+      "name": "David Brin",
+      "field": "Literature"
+    },
+    {
+      "name": "Khaled Hosseini",
+      "field": "Literature"
+    },
+    {
+      "name": "Kim Stanley Robinson",
+      "field": "Literature"
+    },
+    {
+      "name": "Vernor Vinge",
+      "field": "Literature"
+    },
+    {
+      "name": "Bruce Beutler",
+      "field": "Science, technology, medicine, and mathematics"
+    },
+    {
+      "name": "Gerald Joyce",
+      "field": "Science, technology, medicine, and mathematics"
+    },
+    {
+      "name": "Brian Druker",
+      "field": "Science, technology, medicine, and mathematics"
+    },
+    {
+      "name": "Jed E. Rose",
+      "field": "Science, technology, medicine, and mathematics"
+    },
+    {
+      "name": "Kathleen Rubins",
+      "field": "Science, technology, medicine, and mathematics"
+    },
+    {
+      "name": "Roger Tsien",
+      "field": "Science, technology, medicine, and mathematics"
+    }
+  ]
+}

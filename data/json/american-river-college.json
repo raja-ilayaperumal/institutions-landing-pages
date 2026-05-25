@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:17.628737+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 109208,
+    "slug": "american-river-college",
+    "name": "American River College",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95841-4286",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KBQWP4JGA355",
+      "opeid": "00123200",
+      "ein": "941576340"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "American River College (ARC) is a public community college in unincorporated Sacramento, California. It is one of four colleges in the Los Rios Community College District and is part of the California Community Colleges System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/American_River_College",
+    "source_url": "https://en.wikipedia.org/wiki/American_River_College",
+    "fetched_at": "2026-05-25T17:46:44.393518+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4628,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.8177,
+    "federal_loan_rate": 0.0272,
+    "net_price_by_family_income": {
+      "0_30k": 3744,
+      "30_48k": 3666,
+      "48_75k": 6788,
+      "75_110k": 9369,
+      "110k_plus": 10022
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.37,
+    "pell_grad_rate": 0.37,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.46
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 47377,
+    "ug_12mo": 47377,
+    "grad_12mo": 40175,
+    "women_12mo": 22832,
+    "men_12mo": 24545,
+    "fall_total": 30462,
+    "fall_full_time": 30462,
+    "fall_part_time": 25621,
+    "distance_ed_any": 30462,
+    "distance_ed_exclusive": 13443
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 552
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 344
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 317
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 183
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 139
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 102
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 76
+      }
+    ],
+    "program_count": 124,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 318
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "anne-arundel-community-college",
+        "name": "Anne Arundel Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "century-college",
+        "name": "Century College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-malcolm-x-college",
+        "name": "City Colleges of Chicago-Malcolm X College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "davidson-davie-community-college",
+        "name": "Davidson-Davie Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "de-anza-college",
+        "name": "De Anza College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "erie-community-college",
+        "name": "Erie Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "fayetteville-technical-community-college",
+        "name": "Fayetteville Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "hudson-valley-community-college",
+        "name": "Hudson Valley Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "iowa-central-community-college",
+        "name": "Iowa Central Community College",
+        "state": "Iowa",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "john-c-calhoun-state-community-college",
+        "name": "John C Calhoun State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "johnston-community-college",
+        "name": "Johnston Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "joliet-junior-college",
+        "name": "Joliet Junior College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "kilgore-college",
+        "name": "Kilgore College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "lehigh-carbon-community-college",
+        "name": "Lehigh Carbon Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "minneapolis-community-and-technical-college",
+        "name": "Minneapolis Community and Technical College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "montgomery-county-community-college",
+        "name": "Montgomery County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "new-mexico-state-university-dona-ana",
+        "name": "New Mexico State University-Dona Ana",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "raritan-valley-community-college",
+        "name": "Raritan Valley Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "rochester-community-and-technical-college",
+        "name": "Rochester Community and Technical College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "saint-paul-college",
+        "name": "Saint Paul College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "southern-maine-community-college",
+        "name": "Southern Maine Community College",
+        "state": "Maine",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "tidewater-community-college",
+        "name": "Tidewater Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "trident-technical-college",
+        "name": "Trident Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "victor-valley-college",
+        "name": "Victor Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "virginia-peninsula-community-college",
+        "name": "Virginia Peninsula Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "virginia-western-community-college",
+        "name": "Virginia Western Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://inside.arc.losrios.edu/institutional-planning/office-of-institutional-research",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Office of Equity, Institutional Effectiveness, and Innovation",
+    "summary": "To provide a broad array of planning and decision support services to each of ARC's stakeholder groups, as well as to various external entities, facilitating the collection, analysis, and interpretation of institutional data to support planning and decision-making aimed at achieving ARC’s mission and strategic goals.",
+    "address": "Administration building",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:46:42.561838+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Brenda Valles",
+      "title": "Dean of Institutional Effectiveness and Innovation",
+      "linkedin_url": "https://www.linkedin.com/in/brenda-valles"
+    },
+    {
+      "ordering": 1,
+      "name": "Ryal Strom",
+      "title": "Administrative Assistant"
+    },
+    {
+      "ordering": 2,
+      "name": "Yuj Shimizu",
+      "title": "Faculty Research Coordinator",
+      "linkedin_url": "https://www.linkedin.com/in/yuj-shimizu-48329b119"
+    },
+    {
+      "ordering": 3,
+      "name": "Jonathan Newnam",
+      "title": "IT Business Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-newnam-714b1ba7"
+    },
+    {
+      "ordering": 4,
+      "name": "Diana Lopez",
+      "title": "Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/ddlopez"
+    },
+    {
+      "ordering": 5,
+      "name": "Juan Aguilar",
+      "title": "Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/juan-aguilar-76a337275"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://inside.scc.losrios.edu/planningresearch/data-and-research/scc-data-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:46:13.600863+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=109208",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:46:45.506327+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Student Success Completion Grant (SSCG)",
+      "agency": "California Community Colleges",
+      "kind": "opportunity",
+      "amount_usd": 8000,
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant A",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant B",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant C",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "California College Promise Grant",
+      "agency": "California Community Colleges",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Chafee Grant for Foster Youth",
+      "agency": "State of California",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grant",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://arc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Jen Allred"
+    },
+    {
+      "name": "Ken Balcomb"
+    },
+    {
+      "name": "Lloyd Connelly"
+    },
+    {
+      "name": "Jenny Dearborn"
+    },
+    {
+      "name": "Pam Mark Hall"
+    },
+    {
+      "name": "Wally Herger"
+    },
+    {
+      "name": "Jed Johnson",
+      "field": "Interior Design"
+    },
+    {
+      "name": "Adrian Lamo",
+      "field": "Computer Hacking"
+    },
+    {
+      "name": "Jim McClarin"
+    },
+    {
+      "name": "Edward C. Noonan"
+    },
+    {
+      "name": "Anthony Swofford",
+      "field": "Literature"
+    },
+    {
+      "name": "Ralph Watkins"
+    },
+    {
+      "name": "Greg Withrow"
+    }
+  ]
+}

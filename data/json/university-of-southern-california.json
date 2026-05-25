@@ -1,0 +1,670 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.731519+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123961,
+    "slug": "university-of-southern-california",
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90089",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "G88KLJR3KYT5",
+      "opeid": "00132800",
+      "ein": "951642394"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Southern California is a private research university in Los Angeles, California, United States. Founded in 1880 by Robert M. Widney, it is the oldest private research university in California and has an enrollment of more than 47,000 students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Southern_California",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Southern_California",
+    "fetched_at": "2026-05-25T17:35:17.029788+05:30"
+  },
+  "admissions": {
+    "applicants": 82027,
+    "admits": 8050,
+    "enrolled": 3489,
+    "first_time_freshmen": 3489,
+    "first_time_freshmen_ft": 3487,
+    "admit_rate": 0.09813841783802894,
+    "yield_rate": 0.433416149068323
+  },
+  "cost": {
+    "avg_net_price": 31927,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0207,
+    "federal_loan_rate": 0.2485,
+    "net_price_by_family_income": {
+      "0_30k": 15470,
+      "30_48k": 13692,
+      "48_75k": 18993,
+      "75_110k": 29865,
+      "110k_plus": 56347
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.92,
+    "grad_4yr_bachelors": 0.74,
+    "grad_5yr_bachelors": 0.9,
+    "grad_6yr_bachelors": 0.92,
+    "pell_grad_rate": 0.9,
+    "pell_6yr_bachelors_rate": 0.9,
+    "non_pell_grad_rate": 0.91,
+    "non_pell_6yr_bachelors": 0.91,
+    "retention_full_time": 0.96,
+    "retention_part_time": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 51953,
+    "ug_12mo": 23071,
+    "grad_12mo": 21711,
+    "women_12mo": 27519,
+    "men_12mo": 24434,
+    "fall_total": 46566,
+    "fall_full_time": 20630,
+    "fall_part_time": 20443,
+    "distance_ed_any": 46566,
+    "distance_ed_exclusive": 6077
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3057
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2118
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 1871
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1692
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 1111
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 1098
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 853
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 838
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 822
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 752
+      }
+    ],
+    "program_count": 277,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 2469
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "brandeis-university",
+        "name": "Brandeis University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "brown-university",
+        "name": "Brown University",
+        "state": "Rhode Island",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "carnegie-mellon-university",
+        "name": "Carnegie Mellon University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "case-western-reserve-university",
+        "name": "Case Western Reserve University",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "columbia-university-in-the-city-of-new-york",
+        "name": "Columbia University in the City of New York",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cornell-university",
+        "name": "Cornell University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "duke-university",
+        "name": "Duke University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "emory-university",
+        "name": "Emory University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "johns-hopkins-university",
+        "name": "Johns Hopkins University",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "new-york-university",
+        "name": "New York University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "northwestern-university",
+        "name": "Northwestern University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "rice-university",
+        "name": "Rice University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "syracuse-university",
+        "name": "Syracuse University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "tulane-university-of-louisiana",
+        "name": "Tulane University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-chicago",
+        "name": "University of Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-pennsylvania",
+        "name": "University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-rochester",
+        "name": "University of Rochester",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "vanderbilt-university",
+        "name": "Vanderbilt University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "washington-university-in-st-louis",
+        "name": "Washington University in St Louis",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "yale-university",
+        "name": "Yale University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://oir.usc.edu/",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research collects, analyzes and disseminates data relevant to the daily operations, and role and mission, of the University of Southern California. Made available to university officials and to the public, this information supports university planning and helps maintain transparency.",
+    "address": "University Park Campus\n665 Exposition Boulevard, TGF 200\nLos Angeles, CA, 90089-1123",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T17:35:15.77171+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ray Gonzales",
+      "title": "Director",
+      "email": "raygonza@usc.edu",
+      "phone": "(213) 821-5551",
+      "linkedin_url": "https://www.linkedin.com/in/ray-gonzales-210029126"
+    },
+    {
+      "ordering": 1,
+      "name": "Matthew Marchak",
+      "title": "Assistant Director",
+      "email": "mmarchak@usc.edu",
+      "phone": "(213) 740-9915",
+      "linkedin_url": "https://www.linkedin.com/in/matthew-marchak-17147411"
+    },
+    {
+      "ordering": 2,
+      "name": "Sunnary Adeva",
+      "title": "Senior Institutional Research Associate",
+      "email": "sadeva@usc.edu",
+      "phone": "(213) 740-7469"
+    },
+    {
+      "ordering": 3,
+      "name": "Yunyun Dai",
+      "title": "Senior Researcher",
+      "email": "yunyunda@usc.edu",
+      "phone": "(213) 740-7489"
+    },
+    {
+      "ordering": 4,
+      "name": "Sydney Liu",
+      "title": "Course Evaluation Administrator",
+      "email": "liusydne@usc.edu",
+      "phone": "(213) 740-7551",
+      "linkedin_url": "https://www.linkedin.com/in/sydneyxinyiliu"
+    },
+    {
+      "ordering": 5,
+      "name": "Henry Sun",
+      "title": "Senior Technical Project Leader",
+      "email": "henrysun@usc.edu",
+      "phone": "(213) 821-2989"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2023,
+      "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2024/08/CDS_2023-2024_FINAL_082624.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://oir.usc.edu/statistics-data-visualization/",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:33:52.763753+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set",
+      "url": "https://oir.usc.edu/statistics-data-visualization/common-data-set",
+      "summary": "The Common Data Set (CDS) page on the University of Southern California's Office of Institutional Research website offers access to standardized data items and definitions for the purpose of enhancing the quality, comparability, and accuracy of institutional information. This data is shared among educators, journalists, and other stakeholders. The page provides links to the Common Data Set archives for various academic years, such as 2024-2025, 2023-2024, and earlier.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:34:47.129164+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123961",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:35:18.237691+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2018,
+      "title": "The 2018 USC Strategic Plan – Answering The Call",
+      "url": "https://www.provost.usc.edu/2018-usc-strategic-plan-answering-the-call/",
+      "summary": "The USC Strategic Plan 'Answering The Call' aims to position USC as a great research university of the 21st century by focusing on four key pillars: Values, People, Impact, and Transformation. The plan emphasizes ethical governance, investment in intellectual talent, tackling global and local challenges, and embracing change to secure a bright future for the institution. Adopted by the Board of Trustees in February 2018, the plan outlines the university's ambitions and practical guiding principles for progress.",
+      "stored": false,
+      "fetched_at": "2026-05-25T17:29:34.60092+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Associate Provost for Operational Success",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179406754"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Open-Source Universal Simulated Casualty with a ...",
+      "kind": "opportunity",
+      "amount_usd": 1999120,
+      "url": "https://sam.gov/workspace/contract/opp/ef30a9d6b6e540cea8e6fa8db225e489/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "PAR-24-268: Biomedical Research Environment & Sponsored Programs Administration Development (BRE-SPAD) Program",
+      "agency": "National Institutes of Health (NIH)",
+      "kind": "opportunity",
+      "amount_usd": 500000,
+      "url": "https://rii.usc.edu/limited-submissions/par-24-268/",
+      "source": "institution_site"
+    },
+    {
+      "title": "99 -- California_National Tsunami Hazard Mitigation ...",
+      "agency": "U.S. Department of Commerce/NOAA",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/dcd48ac3817bdc4126eba24fe6ead178/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "A -- Radio Frequency Micro Electro Mechanical System",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/2f74ef2197433ee1d617ce244d702b44/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "DNA analysis of breast milk",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/3d6957b71a0c612d022bdef894fc06c7/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Fresh Tissue Dissection Laboratory Services and Cadavers in ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/70be82cfb9c841a7a7646086304e6124/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "The purpose of this contract is for NTTC to acquire (24 ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/116e31ff392a4bdcba7ede174bf3e3ee/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "Trauma Training - Cadaver Advance Surgical Skills.",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/836276c33fd949498ba66e3d9fe89019/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "John Singleton",
+      "field": "Film"
+    },
+    {
+      "name": "Rodney Peete",
+      "field": "Sports"
+    },
+    {
+      "name": "Neil Armstrong",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Neil_Armstrong",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Frank Gehry",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Frank_Gehry",
+      "field": "Architecture"
+    },
+    {
+      "name": "Charles Bolden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_Bolden",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Andrew Viterbi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Viterbi",
+      "field": "Engineering"
+    },
+    {
+      "name": "Randy Johnson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Randy_Johnson",
+      "field": "Athletics"
+    },
+    {
+      "name": "O. J. Simpson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/O._J._Simpson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Allyson Felix",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Allyson_Felix",
+      "field": "Athletics"
+    },
+    {
+      "name": "Lisa Leslie",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lisa_Leslie",
+      "field": "Athletics"
+    },
+    {
+      "name": "Bryan Cranston",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bryan_Cranston",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "George Lucas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Lucas",
+      "field": "Film"
+    },
+    {
+      "name": "Will Ferrell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Will_Ferrell",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "John Wayne",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Wayne",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Forest Whitaker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Forest_Whitaker",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Shonda Rhimes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shonda_Rhimes",
+      "field": "Television"
+    },
+    {
+      "name": "LeVar Burton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/LeVar_Burton",
+      "field": "Television"
+    },
+    {
+      "name": "Diane Warren",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Diane_Warren",
+      "field": "Music"
+    },
+    {
+      "name": "Michael Tilson Thomas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Tilson_Thomas",
+      "field": "Music"
+    },
+    {
+      "name": "Andrew H. Knoll",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_H._Knoll",
+      "field": "Academia"
+    },
+    {
+      "name": "C. L. Max Nikias",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/C._L._Max_Nikias",
+      "field": "Academia"
+    },
+    {
+      "name": "Alison Brie",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alison_Brie",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Bryce Dallas Howard",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bryce_Dallas_Howard",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Deborah Ann Woll",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Deborah_Ann_Woll",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Faye Dunaway",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Faye_Dunaway",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Danny Glover",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Glover",
+      "field": "Performing Arts"
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T12:28:16.919436+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110565,
+    "slug": "california-state-university-fullerton",
+    "name": "California State University-Fullerton",
+    "city": "Fullerton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92832-3599",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VQ5WK498QDC6",
+      "opeid": "00113700",
+      "ein": "330632102"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Fullerton is a public research university in Fullerton, California, United States. With a total enrollment of more than 41,000, it has the largest student body of the California State University (CSU) system, and its graduate student body of more than 5,000 is one of the largest in the CSU and in all of California. As of fall 2016, the school had 2,083 faculty, of whom 782 were on the tenure track. The university offers 109 degree programs: 55 undergraduate degrees and 54 graduate degrees, including three doctoral programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Fullerton",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Fullerton",
+    "fetched_at": "2026-05-25T16:29:54.20718+05:30"
+  },
+  "admissions": {
+    "applicants": 53559,
+    "admits": 48482,
+    "enrolled": 6887,
+    "first_time_freshmen": 6887,
+    "first_time_freshmen_ft": 6595,
+    "admit_rate": 0.9052073414365466,
+    "yield_rate": 0.1420527205973351
+  },
+  "cost": {
+    "avg_net_price": 5646,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1972,
+    "federal_loan_rate": 0.2206,
+    "net_price_by_family_income": {
+      "0_30k": 2675,
+      "30_48k": 3466,
+      "48_75k": 5438,
+      "75_110k": 9101,
+      "110k_plus": 14831
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.7,
+    "grad_4yr_bachelors": 0.39,
+    "grad_5yr_bachelors": 0.63,
+    "grad_6yr_bachelors": 0.7,
+    "pell_grad_rate": 0.69,
+    "pell_6yr_bachelors_rate": 0.69,
+    "non_pell_grad_rate": 0.72,
+    "non_pell_6yr_bachelors": 0.72,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.59
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 46633,
+    "ug_12mo": 41134,
+    "grad_12mo": 40827,
+    "women_12mo": 26660,
+    "men_12mo": 19973,
+    "fall_total": 43662,
+    "fall_full_time": 38760,
+    "fall_part_time": 38546,
+    "distance_ed_any": 43662,
+    "distance_ed_exclusive": 3776
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 2510
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 1106
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 995
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 932
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 782
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 756
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 649
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 633
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 598
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 512
+      }
+    ],
+    "program_count": 86,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 1088
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "central-michigan-university",
+        "name": "Central Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "florida-international-university",
+        "name": "Florida International University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "george-mason-university",
+        "name": "George Mason University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "georgia-state-university",
+        "name": "Georgia State University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "kent-state-university-at-kent",
+        "name": "Kent State University at Kent",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "northern-illinois-university",
+        "name": "Northern Illinois University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "temple-university",
+        "name": "Temple University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "texas-state-university",
+        "name": "Texas State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-north-texas",
+        "name": "University of North Texas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "virginia-commonwealth-university",
+        "name": "Virginia Commonwealth University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "west-virginia-university",
+        "name": "West Virginia University",
+        "state": "West Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "western-michigan-university",
+        "name": "Western Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.fullerton.edu/data/institutionalresearch/",
+    "office_name": "Office of Institutional Effectiveness and Planning",
+    "parent_division": "Office of the President",
+    "summary": "The page belongs to the Office of Institutional Effectiveness and Planning at California State University, Fullerton. It provides links to important institutional data, including student and faculty statistics, dashboards, and the Common Data Set. For more information or assistance, visitors are encouraged to contact the office via email.",
+    "email": "data@fullerton.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T16:29:53.308146+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Su Swarat, Ph.D.",
+      "title": "Senior Associate Vice President for Institutional Effectiveness and Planning, Accreditation Liaison Officer",
+      "email": "sswarat@fullerton.edu",
+      "phone": "657-278-3129"
+    },
+    {
+      "ordering": 1,
+      "name": "Yessica De La Torre Roman, Ed.D.",
+      "title": "Director, Assessment",
+      "email": "yedelatorre@fullerton.edu",
+      "phone": "657-278-2015"
+    },
+    {
+      "ordering": 2,
+      "name": "Kale Yi, B.S.",
+      "title": "Research Analyst",
+      "email": "kyyi@fullerton.edu",
+      "phone": "657-278-2071"
+    },
+    {
+      "ordering": 3,
+      "name": "Gina Park, Ph.D.",
+      "title": "Senior Data Strategist",
+      "email": "gipark@fullerton.edu",
+      "phone": "657-278-2593"
+    },
+    {
+      "ordering": 4,
+      "name": "Rachel Robbins",
+      "title": "Strategic Initiatives Specialist",
+      "email": "rrobbins@fullerton.edu",
+      "phone": "657-278-4732"
+    },
+    {
+      "ordering": 5,
+      "name": "Doug Vu",
+      "title": "Business Intelligence Analyst",
+      "email": "duvu@fullerton.edu",
+      "phone": "657-278-2239"
+    },
+    {
+      "ordering": 6,
+      "name": "April Kiyabu",
+      "title": "Student Success Analyst",
+      "email": "apkiyabu@fullerton.edu",
+      "phone": "657-278-4062",
+      "linkedin_url": "https://www.linkedin.com/in/april-kiyabu"
+    },
+    {
+      "ordering": 7,
+      "name": "Allan Taing",
+      "title": "Senior Research Analyst",
+      "email": "ataing@fullerton.edu",
+      "phone": "657-278-4347"
+    },
+    {
+      "ordering": 8,
+      "name": "Noha Abdou, Ed.D.",
+      "title": "Director, Institutional Research",
+      "email": "nabdou@fullerton.edu",
+      "phone": "657-278-2295"
+    },
+    {
+      "ordering": 9,
+      "name": "Afshin Karimi",
+      "title": "Senior Research Associate & IR Lead",
+      "email": "akarimi@fullerton.edu",
+      "phone": "657-278-4512"
+    },
+    {
+      "ordering": 10,
+      "name": "Robert Dawson, M.A.",
+      "title": "Enrollment Planning Specialist",
+      "email": "robertdawson@fullerton.edu",
+      "phone": "657-278-2245",
+      "linkedin_url": "https://www.linkedin.com/in/robert-dawson-75a73178"
+    },
+    {
+      "ordering": 11,
+      "name": "Esperanza Villegas, M.F.A.",
+      "title": "Assessment Analyst",
+      "email": "esvillegas@fullerton.edu",
+      "phone": "657-278-2187",
+      "linkedin_url": "https://www.linkedin.com/in/esperanza-villegas-99006b13"
+    },
+    {
+      "ordering": 12,
+      "name": "Kyusang Park, Ph.D.",
+      "title": "Research Analyst",
+      "email": "kyupark@fullerton.edu",
+      "phone": "657-278-2585"
+    },
+    {
+      "ordering": 13,
+      "name": "Sarah Henschel",
+      "title": "Administrative Support Coordinator",
+      "email": "shenschel@fullerton.edu",
+      "phone": "657-278-7354",
+      "linkedin_url": "https://www.linkedin.com/in/sarahlynnhenschel"
+    },
+    {
+      "ordering": 14,
+      "name": "Thomas Leung",
+      "title": "Research Analyst",
+      "email": "thleung@fullerton.edu",
+      "phone": "657-278-8153",
+      "linkedin_url": "https://www.linkedin.com/in/tncleung"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.fullerton.edu/data/institutionalresearch/facts/CDS_Master_2025-2026.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2024,
+      "url": "https://www.fullerton.edu/data/institutionalresearch/facts/CDS-Master-2024-2025.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2023,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2023_2024.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2022,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2022-2023.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2021,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2021-2022.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2020,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2020-2021.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2019,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2019-2020.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2018,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2018-2019.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2017,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2017-2018.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2016,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2016-2017.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2015,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2015-2016.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2014,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2014-2015.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2013,
+      "url": "https://www.fullerton.edu/data/_resources/pdfs/facts/cds/CDS_2013-2014.xlsx",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.fullerton.edu/data/institutionalresearch/",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:29:35.655118+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Glossary - Office of Institutional Effectiveness and Planning | CSUF",
+      "url": "https://www.fullerton.edu/data/institutionalresearch/glossary/",
+      "summary": "This page from California State University-Fullerton provides a glossary of terms related to institutional planning and effectiveness, including detailed definitions of concepts and metrics such as Academic Year, Census Data, and Graduation Rate. The glossary aims to clarify the terminology used in institutional research and data reporting at CSUF.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:29:08.423531+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110565",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:29:55.592882+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "CSUF Facts",
+      "url": "https://www.fullerton.edu/data/institutionalresearch/facts/index.php",
+      "summary": "The CSUF Facts document contains several key data points about California State University, Fullerton, including applications, enrollment, demographic breakdown, and degrees awarded, focusing on fall semester census data. The information is maintained by the Office of Institutional Effectiveness and Planning.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:27:55.350394+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary - Office of Institutional Effectiveness and Planning | CSUF",
+      "url": "https://www.fullerton.edu/data/institutionalresearch/glossary/",
+      "summary": "The glossary from the Office of Institutional Effectiveness and Planning at California State University-Fullerton provides definitions for key terms used in institutional research and planning. It offers descriptions and explanations for terms related to academic schedules, student demographics, enrollment statistics, and faculty classifications. This resource assists in understanding various metrics and reports used within the university's institutional framework.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:29:03.554786+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "CSUF Strategic Plan 2024-2029",
+      "url": "https://planning.fullerton.edu/",
+      "summary": "The CSUF Strategic Plan 2024-2029, titled 'Fullerton Forward', is a collaborative initiative aimed at enhancing the university's role as a model institution. It focuses on inclusive education, community engagement, and robust support systems to empower students, faculty, and staff. With an emphasis on diverse and innovative academic offerings, improved campus operations, and strengthened community relations, the plan sets a roadmap for sustainable growth and societal impact.",
+      "stored": false,
+      "fetched_at": "2026-05-25T16:28:11.203666+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179294008"
+    },
+    {
+      "title": "Data Analytics Developer II",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179445302"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Judith A. Presch Desert Research Scholarship",
+      "agency": "CSU Fullerton",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://www.fullerton.edu/dsc/research/funding-opportunities/funding-opportunities.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "B -- California Health Interview Survey (CHIS)",
+      "agency": "California Department of Public Health",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/c4618b12ad32b61efebf76349049c39e/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "CSU Desert Studies Faculty Grant-writing Support Award",
+      "agency": "CSU Fullerton",
+      "kind": "opportunity",
+      "url": "https://www.fullerton.edu/dsc/research/funding-opportunities/funding-opportunities.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Desert Conservation Program",
+      "agency": "Wildlife Conservation Board",
+      "kind": "opportunity",
+      "url": "https://www.fullerton.edu/dsc/research/funding-opportunities/funding-opportunities.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Intramural Funding Opportunities",
+      "agency": "California State University-Fullerton",
+      "kind": "opportunity",
+      "url": "https://www.fullerton.edu/research/intramural-funding/index.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "National Park Service Fellowships",
+      "agency": "National Park Service",
+      "kind": "opportunity",
+      "url": "https://www.fullerton.edu/dsc/research/funding-opportunities/funding-opportunities.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Western National Parks Association Grants",
+      "agency": "Western National Parks Association",
+      "kind": "opportunity",
+      "url": "https://www.fullerton.edu/dsc/research/funding-opportunities/funding-opportunities.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Tanya Michnevich Bracco",
+      "field": "Theatre Arts"
+    },
+    {
+      "name": "Rubén Carbajal",
+      "field": "Theatre Arts-Musical Theatre"
+    },
+    {
+      "name": "Marc Cherry",
+      "field": "Theatre Arts"
+    },
+    {
+      "name": "Brian Crosby",
+      "field": "Art-Illustration"
+    },
+    {
+      "name": "Farnaz Esnaashari-Charmatz",
+      "field": "Art-Entertainment Art/Animation"
+    },
+    {
+      "name": "Andrew Feliciano",
+      "field": "Art-Entertainment Art/Animation"
+    },
+    {
+      "name": "Bruce Healey",
+      "field": "Music"
+    },
+    {
+      "name": "Rob Istad",
+      "field": "Music"
+    },
+    {
+      "name": "Kirsten Vangsness",
+      "field": "Theatre Arts"
+    },
+    {
+      "name": "Linda Woolverton",
+      "field": "Theatre Arts"
+    }
+  ]
+}
