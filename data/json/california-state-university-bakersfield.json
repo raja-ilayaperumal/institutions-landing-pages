@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.170552+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110486,
+    "slug": "california-state-university-bakersfield",
+    "name": "California State University-Bakersfield",
+    "city": "Bakersfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93311-1099",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KJKYFMDKP1V9",
+      "opeid": "00799300",
+      "ein": "770314545"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Bakersfield is a public university in Bakersfield, California, United States. It was established in 1965 as Kern State College and officially in 1968 as California State College Bakersfield on a 375-acre (152 ha) campus, becoming the 20th school in the California State University system. The university offers 39 different bachelor's degree programs, 17 master's degree programs, and a doctoral program in Educational Leadership (Ed.D.).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Bakersfield",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Bakersfield",
+    "fetched_at": "2026-05-25T23:24:04.253338+05:30"
+  },
+  "admissions": {
+    "applicants": 13229,
+    "admits": 12416,
+    "enrolled": 1294,
+    "first_time_freshmen": 1294,
+    "first_time_freshmen_ft": 1263,
+    "admit_rate": 0.938544107642301,
+    "yield_rate": 0.10422036082474227
+  },
+  "cost": {
+    "avg_net_price": 5825,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1704,
+    "federal_loan_rate": 0.2512,
+    "net_price_by_family_income": {
+      "0_30k": 3070,
+      "30_48k": 3977,
+      "48_75k": 6183,
+      "75_110k": 10935,
+      "110k_plus": 16810
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "grad_4yr_bachelors": 0.29,
+    "grad_5yr_bachelors": 0.44,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.47,
+    "pell_6yr_bachelors_rate": 0.47,
+    "non_pell_grad_rate": 0.52,
+    "non_pell_6yr_bachelors": 0.52,
+    "retention_full_time": 0.79,
+    "retention_part_time": 0.62
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11993,
+    "ug_12mo": 10231,
+    "grad_12mo": 9340,
+    "women_12mo": 7893,
+    "men_12mo": 4100,
+    "fall_total": 10419,
+    "fall_full_time": 8865,
+    "fall_part_time": 8577,
+    "distance_ed_any": 10419,
+    "distance_ed_exclusive": 1212
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 338
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 328
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 318
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 314
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 184
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 139
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 128
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 118
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 105
+      }
+    ],
+    "program_count": 49,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 336
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-humboldt",
+        "name": "California State Polytechnic University-Humboldt",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-university-channel-islands",
+        "name": "California State University-Channel Islands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-monterey-bay",
+        "name": "California State University-Monterey Bay",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-stanislaus",
+        "name": "California State University-Stanislaus",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csub.edu/irpa/",
+    "office_name": "Office of Institutional Research Planning and Assessment",
+    "summary": "The Office of Institutional Research, Planning and Assessment uses official census data to provide an overview of the university and reflect commonly-requested facts and figures about the institution.",
+    "email": "irpa@csub.edu",
+    "address": "9001 Stockdale Highway, Bakersfield, CA 93311-1099",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:24:03.171663+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dr. Monica Malhotra",
+      "title": "Associate Vice President, IRPA / Chief Assessment Officer",
+      "email": "mmalhotra1@csub.edu",
+      "phone": "(661) 654-2124"
+    },
+    {
+      "ordering": 1,
+      "name": "Leticia Marquez",
+      "title": "Administrative Support Coordinator",
+      "email": "lmarquez17@csub.edu",
+      "phone": "(661) 654-3807"
+    },
+    {
+      "ordering": 2,
+      "name": "Dr. Maricela Orozco",
+      "title": "Senior Research Analyst",
+      "email": "morozco27@csub.edu",
+      "phone": "(661) 654-2790"
+    },
+    {
+      "ordering": 3,
+      "name": "Irene Lee",
+      "title": "Senior Research Analyst",
+      "email": "ilee9@csub.edu",
+      "phone": "(661) 654-3135",
+      "linkedin_url": "https://www.linkedin.com/in/irenelee4u"
+    },
+    {
+      "ordering": 4,
+      "name": "Brittany Bishop",
+      "title": "Senior Research Analyst",
+      "email": "bbishop@csub.edu",
+      "phone": "(661) 654-2329",
+      "linkedin_url": "https://www.linkedin.com/in/brittany-bishop-ab2b137b"
+    },
+    {
+      "ordering": 5,
+      "name": "Sravanthi Gollamudi",
+      "title": "Research Analyst",
+      "email": "sgollamudi@csub.edu",
+      "phone": "(661) 654-3972",
+      "linkedin_url": "https://www.linkedin.com/in/sravanthi-gollamudi-149847162"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.csub.edu/irpa/reports.shtml",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.csub.edu/irpa/",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:09:46.839379+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110486",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:24:05.464801+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Strategic Plan 2025-2030",
+      "url": "https://www.csub.edu/strategicplan/",
+      "summary": "California State University, Bakersfield is in the process of developing its Strategic Plan for the years 2025 to 2030. The plan aims to address the institution’s key strategic challenges and set comprehensive goals with measurable metrics to navigate future opportunities and obstacles. The Planning Process involves phases such as 'Sense Making', 'Align', and 'Clear Path Forward’ to ensure a robust framework for institutional growth and success.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:08:04.831465+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "NSME Scholarships Grant",
+      "agency": "NSF",
+      "kind": "award",
+      "amount_usd": 2500000,
+      "url": "https://www.csub.edu/grasp/",
+      "source": "institution_site"
+    },
+    {
+      "title": "CSUB San Joaquin Kit Fox Funding",
+      "agency": "CSUB",
+      "kind": "award",
+      "amount_usd": 70000,
+      "url": "https://www.csub.edu/grasp/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Bryan Allen",
+      "field": "Sports"
+    },
+    {
+      "name": "Dushyant Chautala",
+      "field": "Politics"
+    },
+    {
+      "name": "Kevin McCarthy",
+      "field": "Politics"
+    },
+    {
+      "name": "Scott Wilk",
+      "field": "Politics"
+    }
+  ]
+}

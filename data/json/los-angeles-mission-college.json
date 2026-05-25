@@ -1,0 +1,364 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:01.870189+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117867,
+    "slug": "los-angeles-mission-college",
+    "name": "Los Angeles Mission College",
+    "city": "Sylmar",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91342",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "C54LC7CTL7M5",
+      "opeid": "01255000",
+      "ein": "952587353"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles Mission College is a public community college in Los Angeles, California. It is part of the Los Angeles Community College District and is accredited by the WASC Accrediting Commission for Community and Junior Colleges.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_Mission_College",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Mission_College",
+    "fetched_at": "2026-05-25T23:07:59.544884+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 11972,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7884,
+    "federal_loan_rate": 0.0107,
+    "net_price_by_family_income": {
+      "0_30k": 11171,
+      "30_48k": 11205,
+      "48_75k": 14131,
+      "75_110k": 16156,
+      "110k_plus": 12128
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.2,
+    "pell_grad_rate": 0.22,
+    "non_pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 19099,
+    "ug_12mo": 19099,
+    "grad_12mo": 14338,
+    "women_12mo": 11166,
+    "men_12mo": 7933,
+    "fall_total": 10690,
+    "fall_full_time": 10690,
+    "fall_part_time": 7999,
+    "distance_ed_any": 10690,
+    "distance_ed_exclusive": 6563
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 393
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 120
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 79
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 76
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 73
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 71
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "12",
+        "cip_family_label": "Personal/Culinary",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 35
+      }
+    ],
+    "program_count": 52,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 32.0,
+    "instr_total_fte": 101
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "compton-college",
+        "name": "Compton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "los-medanos-college",
+        "name": "Los Medanos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "oxnard-college",
+        "name": "Oxnard College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "san-bernardino-valley-college",
+        "name": "San Bernardino Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "west-los-angeles-college",
+        "name": "West Los Angeles College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.lamission.edu/offices/oie",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness is responsible for conducting institutional research and developing information in support of institutional accountability, institutional assessment, unit assessment, planning, and accreditation.",
+    "phone": "818-364-7788",
+    "address": "Student Services & Administration Building, Academic Affairs, Room 305, 13356 Eldridge Avenue, Sylmar, CA 91342",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:07:58.396065+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Sarah Master, Ph.D.",
+      "title": "Dean of Institutional Effectiveness",
+      "phone": "818-364-7788"
+    },
+    {
+      "ordering": 1,
+      "name": "Emil Mubarakshin",
+      "title": "Research Analyst",
+      "phone": "818-364-7692"
+    },
+    {
+      "ordering": 2,
+      "name": "Irma Luna",
+      "title": "Assistant Research Analyst",
+      "phone": "818-364-7631"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.lamission.edu/offices/oie/collegedata",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:07:08.724266+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117867",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:08:00.730559+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Faculty Experience Initiatives - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179421284"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Carla Bowman Scholarship",
+      "agency": "LAMC Academic Senate",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Chef Louis Zandalasini Scholarship",
+      "agency": "Culinary Arts Department",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Culinary Arts Scholarship",
+      "agency": "Culinary Arts Department",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "ASO Board Scholarship",
+      "agency": "Associated Student Organization (ASO)",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "ASO General Scholarship",
+      "agency": "Associated Student Organization (ASO)",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Sylmar Women's Club Continuing Student Scholarship",
+      "agency": "Sylmar Women's Club",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Bob Martinez STEM Scholarship",
+      "agency": "Los Angeles Mission College Foundation",
+      "kind": "opportunity",
+      "amount_usd": 450,
+      "url": "https://www.lamission.edu/financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T17:59:59.090610+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 460394,
+    "slug": "moreno-valley-college",
+    "name": "Moreno Valley College",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92551",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K99SEG6M3MK7",
+      "opeid": "04173500",
+      "ein": "330831357"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Moreno Valley College (MVC) is a public community college in Moreno Valley, California. The college is part of the Riverside Community College District and the larger California Community Colleges System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Moreno_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Moreno_Valley_College",
+    "fetched_at": "2026-05-25T22:46:30.307653+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1996,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7746,
+    "federal_loan_rate": 0.0078,
+    "net_price_by_family_income": {
+      "0_30k": 1293,
+      "30_48k": 1066,
+      "48_75k": 3634,
+      "75_110k": 7458,
+      "110k_plus": 7136
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "pell_grad_rate": 0.38,
+    "retention_full_time": 0.62,
+    "retention_part_time": 0.4
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 17166,
+    "ug_12mo": 17166,
+    "grad_12mo": 14805,
+    "women_12mo": 9440,
+    "men_12mo": 7726,
+    "fall_total": 11920,
+    "fall_full_time": 11920,
+    "fall_part_time": 9346,
+    "distance_ed_any": 11920,
+    "distance_ed_exclusive": 5232
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 725
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 205
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 60
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 20
+      }
+    ],
+    "program_count": 67,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 113
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-western-college",
+        "name": "Arizona Western College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "bucks-county-community-college",
+        "name": "Bucks County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "caldwell-community-college-and-technical-institute",
+        "name": "Caldwell Community College and Technical Institute",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "catawba-valley-community-college",
+        "name": "Catawba Valley Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "central-arizona-college",
+        "name": "Central Arizona College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "central-oregon-community-college",
+        "name": "Central Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-harold-washington-college",
+        "name": "City Colleges of Chicago-Harold Washington College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-san-mateo",
+        "name": "College of San Mateo",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "college-of-southern-maryland",
+        "name": "College of Southern Maryland",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "county-college-of-morris",
+        "name": "County College of Morris",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "cuyamaca-college",
+        "name": "Cuyamaca College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "dutchess-community-college",
+        "name": "Dutchess Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "estrella-mountain-community-college",
+        "name": "Estrella Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "germanna-community-college",
+        "name": "Germanna Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "kalamazoo-valley-community-college",
+        "name": "Kalamazoo Valley Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "lakeland-community-college",
+        "name": "Lakeland Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "middlesex-community-college",
+        "name": "Middlesex Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "monterey-peninsula-college",
+        "name": "Monterey Peninsula College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "north-idaho-college",
+        "name": "North Idaho College",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "northeast-lakeview-college",
+        "name": "Northeast Lakeview College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "northwest-arkansas-community-college",
+        "name": "NorthWest Arkansas Community College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "onondaga-community-college",
+        "name": "Onondaga Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "rowan-college-at-burlington-county",
+        "name": "Rowan College at Burlington County",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "south-puget-sound-community-college",
+        "name": "South Puget Sound Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-broome-community-college",
+        "name": "SUNY Broome Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.mvc.edu/admin/departments/institutional-effectiveness/data/index.php",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "MVC's office of Institutional Effectiveness provides support for outcomes assessment, college-wide research and systematic and continuous evaluation of college processes.",
+    "address": "16130 Lasselle St. Moreno Valley, CA 92551",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T22:46:29.170912+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.mvc.edu/admin/departments/institutional-effectiveness/data/index.php",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:44:16.99372+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=460394",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:46:31.483307+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Moreno Valley College - Annual Factbook & Institutional Effectiveness Report",
+      "url": "https://www.mvc.edu/_resources/files/admin/mvc-factbook.html",
+      "summary": "The Moreno Valley College Annual Factbook & Institutional Effectiveness Report for 2025-30 provides comprehensive insights into the college's strategic planning, enrollment trends, student demographics, and equity analysis. Highlights include an increase in student enrollment, particularly significant gains in 2024-25, and ongoing efforts to address equity gaps among different racial/ethnic and age groups. The report outlines the institution's strategic objectives focused on social justice, guided pathways, and resource effectiveness, as well as detailed equity analyses revealing progress and areas needing improvement. Efforts to increase persistence, completion rates, and the effectiveness of strategic enrollment management are also detailed.",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:43:22.730553+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Moreno Valley College Strategic Plan",
+      "url": "https://www.mvc.edu/admin/strategic-planning/index.php",
+      "summary": "The Moreno Valley College Strategic Plan outlines a comprehensive roadmap designed to guide the institution through 2019-2030. It is structured around four main themes: Clarify the Path, Enter the Path, Stay on the Path, and Ensure Learning, each accompanied by specific priorities and measurable goals. The plan aims to enhance student enrollment, support, and completion rates, while fostering an inclusive, supportive educational environment.",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:42:39.959686+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Research Analyst (Planning & Development) - Moreno Valley College",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179439388"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

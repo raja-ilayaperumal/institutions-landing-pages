@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:00.621428+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 444219,
+    "slug": "folsom-lake-college",
+    "name": "Folsom Lake College",
+    "city": "Folsom",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95630",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DGP6MLKMMHF6",
+      "opeid": "03871300",
+      "ein": "941576340"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Folsom Lake College (FLC) is a public community college in Folsom, California. It is part of California Community Colleges system and the Los Rios Community College District. Folsom Lake College serves the community with classes offered at its main Folsom campus at 10 College Parkway, two outreach centers, and various off-site locations nearby. As of Fall 2005, Folsom Lake College enrolled approximately 6,600 students choosing among approximately 1,000 different course offerings. Those students were served by 74 full-time faculty, including 9 counselors, 180 part-time faculty, 69 classified staff, and eight administrators. The college offers students over 30 different Associate of Arts or Science degree options, as well as over 30 certificate alternatives. The college's mascot is the Falcons and its colors are teal and black. The current president is Art Pimental who began in 2022.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Folsom_Lake_College",
+    "source_url": "https://en.wikipedia.org/wiki/Folsom_Lake_College",
+    "fetched_at": "2026-05-25T23:01:36.093904+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3661,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7593,
+    "federal_loan_rate": 0.0197,
+    "net_price_by_family_income": {
+      "0_30k": 2650,
+      "30_48k": 2571,
+      "48_75k": 6635,
+      "75_110k": 8990,
+      "110k_plus": 7254
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.44,
+    "pell_grad_rate": 0.37,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.37
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 16836,
+    "ug_12mo": 16836,
+    "grad_12mo": 14342,
+    "women_12mo": 9439,
+    "men_12mo": 7397,
+    "fall_total": 11098,
+    "fall_full_time": 11098,
+    "fall_part_time": 9414,
+    "distance_ed_any": 11098,
+    "distance_ed_exclusive": 6640
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 394
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 193
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 152
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 100
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 50
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 29
+      }
+    ],
+    "program_count": 63,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 126
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "allan-hancock-college",
+        "name": "Allan Hancock College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "central-new-mexico-community-college",
+        "name": "Central New Mexico Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "central-piedmont-community-college",
+        "name": "Central Piedmont Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chandler-gilbert-community-college",
+        "name": "Chandler-Gilbert Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cuny-kingsborough-community-college",
+        "name": "CUNY Kingsborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "eastern-gateway-community-college",
+        "name": "Eastern Gateway Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "elgin-community-college",
+        "name": "Elgin Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "howard-community-college",
+        "name": "Howard Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "irvine-valley-college",
+        "name": "Irvine Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mesa-community-college",
+        "name": "Mesa Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "middlesex-college",
+        "name": "Middlesex College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "montgomery-college",
+        "name": "Montgomery College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "norco-college",
+        "name": "Norco College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "northern-virginia-community-college",
+        "name": "Northern Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "northwest-vista-college",
+        "name": "Northwest Vista College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "oakland-community-college",
+        "name": "Oakland Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "phoenix-college",
+        "name": "Phoenix College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "portland-community-college",
+        "name": "Portland Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "prince-george-s-community-college",
+        "name": "Prince George's Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "salt-lake-community-college",
+        "name": "Salt Lake Community College",
+        "state": "Utah",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-westchester-community-college",
+        "name": "SUNY Westchester Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://inside.flc.losrios.edu/planning-and-research/office-of-institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research supports the planning and decision making processes of the college and its centers, and serves as a resource to faculty, classified staff, and administration.",
+    "phone": "916-608-6487",
+    "address": "Main Folsom campus, Harris Center PAC-2260",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:01:34.973543+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Lisceth Brazil-Cruz",
+      "title": "Dean of Equity and Institutional Effectiveness",
+      "email": "brazill@flc.losrios.edu",
+      "phone": "(916) 608-6487",
+      "linkedin_url": "https://www.linkedin.com/in/liscethcruz"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://inside.flc.losrios.edu/planning-and-research/office-of-institutional-research",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:00:49.665732+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2023,
+      "title": "Institutional Research | Los Rios Community College District",
+      "url": "https://employees.losrios.edu/our-organization/institutional-research",
+      "summary": "The Office of Institutional Research at Los Rios Community College District provides essential data and reports to assist with planning, budgeting, assessment, accreditation, and decision-making. The office released several reports and dashboards in 2023, including insights on student health and wellness, dual enrollment, student service preferences, and enrollment trends. The office also provides extensive resources related to accreditation and detailed data through various dashboards, accessible only on the institutional network. Additionally, they facilitate comprehensive data visualizations to aid strategic planning and institutional research endeavors.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:00:18.607779+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=444219",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:01:37.259136+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Acronym Identifier and Glossary of Terms | FLC Inside",
+      "url": "https://inside.flc.losrios.edu/collegewide-resources/acronym-identifier-and-glossary-of-terms",
+      "summary": "The Folsom Lake College Acronym Identifier and Glossary of Terms is an extensive resource designed to help students, faculty, and staff understand the various terms and acronyms commonly used within the college environment. This comprehensive glossary covers a wide range of topics, including academic and administrative aspects, providing definitions for common terminology such as AB 1725, Academic Senate, Accreditation, Assessment, Categorical program/funding, and more. It serves as a valuable tool for ensuring clarity and effective communication across the college community.",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:59:39.666286+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Student Success Completion Grant (SSCG)",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "amount_usd": 10500,
+      "url": "https://losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:01.580553+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110246,
+    "slug": "butte-college",
+    "name": "Butte College",
+    "city": "Oroville",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95965-8399",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JMANAG5N2UR9",
+      "opeid": "00807300",
+      "ein": "941637174"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Butte College is a public community college in the Butte-Glenn Community College District based in Oroville and has expanded to Chico, and Orland.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Butte_College",
+    "source_url": "https://en.wikipedia.org/wiki/Butte_College",
+    "fetched_at": "2026-05-25T23:01:32.089651+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4632,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.461,
+    "federal_loan_rate": 0.0297,
+    "net_price_by_family_income": {
+      "0_30k": 3367,
+      "30_48k": 4104,
+      "48_75k": 7220,
+      "75_110k": 9836,
+      "110k_plus": 12770
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.45,
+    "pell_grad_rate": 0.4,
+    "non_pell_grad_rate": 0.75,
+    "retention_full_time": 0.68,
+    "retention_part_time": 0.42
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 13048,
+    "ug_12mo": 13048,
+    "grad_12mo": 10933,
+    "women_12mo": 7385,
+    "men_12mo": 5663,
+    "fall_total": 10968,
+    "fall_full_time": 10968,
+    "fall_part_time": 8890,
+    "distance_ed_any": 10968,
+    "distance_ed_exclusive": 2744
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 321
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 158
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 118
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 84
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 39
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 26
+      }
+    ],
+    "program_count": 103,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 208
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "city-college-of-san-francisco",
+        "name": "City College of San Francisco",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-the-redwoods",
+        "name": "College of the Redwoods",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-the-siskiyous",
+        "name": "College of the Siskiyous",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "napa-valley-college",
+        "name": "Napa Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "ohlone-college",
+        "name": "Ohlone College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "taft-college",
+        "name": "Taft College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "yuba-college",
+        "name": "Yuba College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.butte.edu/ir/",
+    "office_name": "Office of Institutional Research",
+    "summary": "This page is dedicated to providing publications, reports, and data visualizations for campus-wide efforts and Planning, Research, and Organizational Development (PROD).",
+    "address": "3536 Butte Campus Drive, Oroville, CA 95965",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:01:30.961047+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Brian Murphy",
+      "email": "murphybr@butte.edu",
+      "phone": "530-895-2511",
+      "linkedin_url": "https://www.linkedin.com/in/brian-murphy-03331724"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.butte.edu/ir/",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:01:15.067304+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2023,
+      "title": "Program Data - Planning & Information - Butte College",
+      "url": "https://www.butte.edu/pba/program_data.html",
+      "summary": "This data dictionary provides a summary of program data from Butte College's management information system (MIS). Designed to support informed dialogue about programs and disciplines, it delivers concise, accessible information for department chairs and coordinators. Reports use fall semester data focusing on several areas: demographics, department/program success, retention, efficiency, degrees and certificates awarded, number of courses offered, student success, faculty demographics, faculty load, and SURE report data.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:00:07.842978+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110246",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:01:33.521497+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Executive Director, Institutional Effectiveness and Planning",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179430543"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Damien Borel"
+    },
+    {
+      "name": "Chad Folk"
+    },
+    {
+      "name": "Paul Henderson",
+      "field": "Basketball"
+    },
+    {
+      "name": "Brian Ramsay"
+    },
+    {
+      "name": "Rocky Smith"
+    }
+  ]
+}

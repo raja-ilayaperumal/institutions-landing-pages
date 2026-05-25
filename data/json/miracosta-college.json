@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T17:59:59.350652+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118912,
+    "slug": "miracosta-college",
+    "name": "MiraCosta College",
+    "city": "Oceanside",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92056-3899",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00123900",
+      "ein": "956006662"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "MiraCosta College is a public community college serving coastal Northern San Diego County in California with two campuses, one in eastern Oceanside and the other in Cardiff-by-the-Sea, and many satellite locations, including the Community Learning Center in western Oceanside.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MiraCosta_College",
+    "source_url": "https://en.wikipedia.org/wiki/MiraCosta_College",
+    "fetched_at": "2026-05-25T22:49:32.332447+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7178,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5862,
+    "federal_loan_rate": 0.0217,
+    "net_price_by_family_income": {
+      "0_30k": 6139,
+      "30_48k": 6936,
+      "48_75k": 9279,
+      "75_110k": 11904,
+      "110k_plus": 10487
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.41,
+    "grad_4yr_bachelors": 0.91,
+    "grad_5yr_bachelors": 0.96,
+    "grad_6yr_bachelors": 0.96,
+    "pell_grad_rate": 0.19,
+    "pell_6yr_bachelors_rate": 1.0,
+    "retention_full_time": 0.91
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 18109,
+    "ug_12mo": 18109,
+    "grad_12mo": 15672,
+    "women_12mo": 10459,
+    "men_12mo": 7650,
+    "fall_total": 11478,
+    "fall_full_time": 11478,
+    "fall_part_time": 10278,
+    "distance_ed_any": 11478,
+    "distance_ed_exclusive": 5478
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 546
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 316
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 270
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 142
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 89
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 60
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 48
+      }
+    ],
+    "program_count": 118,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0,
+    "instr_total_fte": 168
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "aims-community-college",
+        "name": "Aims Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "arapahoe-community-college",
+        "name": "Arapahoe Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "chemeketa-community-college",
+        "name": "Chemeketa Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "cincinnati-state-technical-and-community-college",
+        "name": "Cincinnati State Technical and Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "clark-college",
+        "name": "Clark College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-southern-idaho",
+        "name": "College of Southern Idaho",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "community-college-of-denver",
+        "name": "Community College of Denver",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "del-mar-college",
+        "name": "Del Mar College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "delaware-technical-community-college-terry",
+        "name": "Delaware Technical Community College-Terry",
+        "state": "Delaware",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "edmonds-college",
+        "name": "Edmonds College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "everett-community-college",
+        "name": "Everett Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "foothill-college",
+        "name": "Foothill College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "georgia-military-college",
+        "name": "Georgia Military College",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "glendale-community-college",
+        "name": "Glendale Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "laredo-college",
+        "name": "Laredo College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "lorain-county-community-college",
+        "name": "Lorain County Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "navarro-college",
+        "name": "Navarro College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "odessa-college",
+        "name": "Odessa College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "olympic-college",
+        "name": "Olympic College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "ozarks-technical-community-college",
+        "name": "Ozarks Technical Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "pierce-college-district",
+        "name": "Pierce College District",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "red-rocks-community-college",
+        "name": "Red Rocks Community College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "schoolcraft-community-college-district",
+        "name": "Schoolcraft Community College District",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "seattle-central-college",
+        "name": "Seattle Central College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "skyline-college",
+        "name": "Skyline College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "snow-college",
+        "name": "Snow College",
+        "state": "Utah",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "spokane-community-college",
+        "name": "Spokane Community College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "tacoma-community-college",
+        "name": "Tacoma Community College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "truckee-meadows-community-college",
+        "name": "Truckee Meadows Community College",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "west-los-angeles-college",
+        "name": "West Los Angeles College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.miracosta.edu/office-of-the-president/office-of-research-planning-and-institutional-effectiveness/",
+    "office_name": "Office of Research, Planning & Institutional Effectiveness",
+    "parent_division": "Office of the President",
+    "summary": "The mission of the Office of Research, Planning & Institutional Effectiveness (RPIE) is to support student success and academic quality by providing evidence, resources, and support to facilitate district-wide decision-making.",
+    "phone": "760-795-6846",
+    "address": "MiraCosta College\nOffice of Research, Planning, & Institutional Effectiveness\nMS #7\n1 Barnard Drive\nOceanside, CA 92056",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T22:49:31.314008+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Christopher Tarman",
+      "title": "Dean of Research, Planning & Institutional Effectiveness",
+      "phone": "760.795.6846"
+    },
+    {
+      "ordering": 1,
+      "name": "Aracely Ragazzo",
+      "title": "Administrative Assistant",
+      "phone": "760.757.2121 x6597"
+    },
+    {
+      "ordering": 2,
+      "name": "Maria Lissner",
+      "title": "Basic Skills Research Analyst",
+      "phone": "760.757.2121 x6958",
+      "linkedin_url": "https://www.linkedin.com/in/maria-lissner-3a2766107"
+    },
+    {
+      "ordering": 3,
+      "name": "James Clifton",
+      "title": "Career Education Research Analyst",
+      "phone": "760.757.2121 x6504"
+    },
+    {
+      "ordering": 4,
+      "name": "Kimberly Coutts",
+      "title": "District Research Analyst",
+      "phone": "760.795.6845",
+      "linkedin_url": "https://www.linkedin.com/in/kimberly-coutts-6b021a9"
+    },
+    {
+      "ordering": 5,
+      "name": "Zach Gardiner",
+      "title": "Data Warehouse Systems Developer",
+      "phone": "760.757.2121 x6255"
+    },
+    {
+      "ordering": 6,
+      "name": "Cheryl Harris",
+      "title": "Noncredit Research Analyst",
+      "phone": "760.757.2121 x8789"
+    },
+    {
+      "ordering": 7,
+      "name": "Lisa Trescott",
+      "title": "Student Success and Student Equity Research Analyst",
+      "phone": "760.757.2121 x6938",
+      "linkedin_url": "https://www.linkedin.com/in/lisa-trescott"
+    },
+    {
+      "ordering": 8,
+      "name": "Golnoosh Behrouzian",
+      "title": "Research Analyst",
+      "phone": "760.757.2121 x6259",
+      "linkedin_url": "https://www.linkedin.com/in/golnoosh-behrouzian-ph-d-95b3bb15a"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.miracosta.edu/office-of-the-president/office-of-research-planning-and-institutional-effectiveness/college-level-data.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:47:15.422281+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118912",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:49:33.615411+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Adam Brody",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Brody",
+      "field": "Acting"
+    },
+    {
+      "name": "Kevin Towers",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Towers",
+      "field": "Sports Management"
+    }
+  ]
+}

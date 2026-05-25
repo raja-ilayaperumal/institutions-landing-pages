@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T17:59:59.434889+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 108807,
+    "slug": "allan-hancock-college",
+    "name": "Allan Hancock College",
+    "city": "Santa Maria",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93454-6399",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00111100",
+      "ein": "521692042"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Allan Hancock College is a public community college in Santa Maria, California. It offers associate degrees at its Lompoc Valley campus and at nearby Vandenberg Space Force Base. The college is part of the California Community College System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Allan_Hancock_College",
+    "source_url": "https://en.wikipedia.org/wiki/Allan_Hancock_College",
+    "fetched_at": "2026-05-25T22:55:38.386621+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4638,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6112,
+    "federal_loan_rate": 0.0079,
+    "net_price_by_family_income": {
+      "0_30k": 3829,
+      "30_48k": 3944,
+      "48_75k": 6312,
+      "75_110k": 7797,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.26,
+    "pell_grad_rate": 0.26,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.68,
+    "retention_part_time": 0.41
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 16308,
+    "ug_12mo": 16308,
+    "grad_12mo": 10830,
+    "women_12mo": 8633,
+    "men_12mo": 7675,
+    "fall_total": 11463,
+    "fall_full_time": 11463,
+    "fall_part_time": 8052,
+    "distance_ed_any": 11463,
+    "distance_ed_exclusive": 1432
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 665
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 457
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 156
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 125
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 121
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 43
+      }
+    ],
+    "program_count": 94,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 160
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "coastline-community-college",
+        "name": "Coastline Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "cuny-kingsborough-community-college",
+        "name": "CUNY Kingsborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "imperial-valley-college",
+        "name": "Imperial Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "lake-area-technical-college",
+        "name": "Lake Area Technical College",
+        "state": "South Dakota",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-mission-college",
+        "name": "Los Angeles Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mississippi-gulf-coast-community-college",
+        "name": "Mississippi Gulf Coast Community College",
+        "state": "Mississippi",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "moorpark-college",
+        "name": "Moorpark College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "mott-community-college",
+        "name": "Mott Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "oxnard-college",
+        "name": "Oxnard College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "porterville-college",
+        "name": "Porterville College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "victor-valley-college",
+        "name": "Victor Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "walla-walla-community-college",
+        "name": "Walla Walla Community College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "yuba-college",
+        "name": "Yuba College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.hancockcollege.edu/ie/data.php",
+    "parent_division": "Institutional Effectiveness",
+    "summary": "The page provides a structured overview of institutional data offerings and dashboards at Allan Hancock College, related to student registration, demographics, equity, scheduling, services, and more. It lists various types of data reports and dashboards, but specific URLs for data access are not provided.",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T22:55:37.305809+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.hancockcollege.edu/ie/data.php",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:54:06.554586+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=108807",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:55:39.644555+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Interactive Fact Book",
+      "url": "https://www.hancockcollege.edu/ie/factbook.php",
+      "summary": "The AHC Interactive Fact Book provides frequently asked information about Allan Hancock College's service area, students, programs, faculty, and staff. It includes sections on community demographics, student enrollment, district profiles, performance indicators, and employee data. The Fact Book aims to offer a comprehensive overview of the college's various aspects and is a resource for accessing diverse institutional data.",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:48:57.617849+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Brian Asselstine",
+      "field": "Athletics"
+    },
+    {
+      "name": "Kathy Bates",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kathy_Bates",
+      "field": "Acting"
+    },
+    {
+      "name": "Mike Bratz",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jeffrey Combs",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_Combs",
+      "field": "Acting"
+    },
+    {
+      "name": "Gunther Cunningham",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gunther_Cunningham",
+      "field": "Sports Coaching"
+    },
+    {
+      "name": "Boyd Gaines",
+      "field": "Acting"
+    },
+    {
+      "name": "Jim Grace",
+      "field": "Film"
+    },
+    {
+      "name": "Harry Groener",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Groener",
+      "field": "Acting"
+    },
+    {
+      "name": "Harry Hamlin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harry_Hamlin",
+      "field": "Acting"
+    },
+    {
+      "name": "Mark Harelik",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Harelik",
+      "field": "Acting and Playwriting"
+    },
+    {
+      "name": "Winifred Hervey",
+      "field": "Television Production"
+    },
+    {
+      "name": "Kathleen Lloyd Jenvay",
+      "field": "Acting"
+    },
+    {
+      "name": "Kenneth Kring",
+      "field": "Business"
+    },
+    {
+      "name": "Tim Kring",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Kring",
+      "field": "Television Production"
+    },
+    {
+      "name": "Lawrence Lester",
+      "field": "Entertainment Design"
+    },
+    {
+      "name": "John Marshall",
+      "field": "Sports Coaching"
+    },
+    {
+      "name": "Jeff McCarthy",
+      "field": "Acting"
+    },
+    {
+      "name": "Kelly McGillis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kelly_McGillis",
+      "field": "Acting"
+    },
+    {
+      "name": "Chuck Negron",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chuck_Negron",
+      "field": "Music"
+    },
+    {
+      "name": "Phillip Norwood",
+      "field": "Film"
+    },
+    {
+      "name": "Ronald Omberg",
+      "field": "Engineering"
+    },
+    {
+      "name": "Leslie Parsons",
+      "field": "Television Production"
+    },
+    {
+      "name": "Owen Siler",
+      "field": "Military"
+    },
+    {
+      "name": "Bryn Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bryn_Smith",
+      "field": "Athletics"
+    },
+    {
+      "name": "David Stone",
+      "field": "Television Production"
+    },
+    {
+      "name": "Cynthia Lauren Tewes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lauren_Tewes",
+      "field": "Acting"
+    },
+    {
+      "name": "Robin Williams",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Williams",
+      "field": "Acting and Comedy"
+    },
+    {
+      "name": "Milford Zornes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Milford_Zornes",
+      "field": "Art"
+    }
+  ]
+}

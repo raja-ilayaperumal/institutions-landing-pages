@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.690699+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122791,
+    "slug": "college-of-san-mateo",
+    "name": "College of San Mateo",
+    "city": "San Mateo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94402-3784",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GP2MTVRAPNV2",
+      "opeid": "00118100",
+      "ein": "943084147"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "College of San Mateo (CSM) is a public community college in San Mateo, California. It is part of the San Mateo County Community College District. College of San Mateo is located at the northern corridor of Silicon Valley and situated on a 153-acre site in the San Mateo hills. The college currently serves approximately 15,000 day, evening and weekend students. The college offers 69 A.A./A.S. degree majors and 81 certificate programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_San_Mateo",
+    "source_url": "https://en.wikipedia.org/wiki/College_of_San_Mateo",
+    "fetched_at": "2026-05-25T23:17:20.960138+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1504,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7275,
+    "federal_loan_rate": 0.0055,
+    "net_price_by_family_income": {
+      "0_30k": 127,
+      "30_48k": 646,
+      "48_75k": 3951,
+      "75_110k": 6489,
+      "110k_plus": 7818
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.61,
+    "pell_grad_rate": 0.64,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.48
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 14972,
+    "ug_12mo": 14972,
+    "grad_12mo": 11587,
+    "women_12mo": 7779,
+    "men_12mo": 7193,
+    "fall_total": 9901,
+    "fall_full_time": 9901,
+    "fall_part_time": 7977,
+    "distance_ed_any": 9901,
+    "distance_ed_exclusive": 3956
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 246
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 164
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 70
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 52
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 48
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 27
+      }
+    ],
+    "program_count": 71,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 163
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-western-college",
+        "name": "Arizona Western College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "bucks-county-community-college",
+        "name": "Bucks County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "caldwell-community-college-and-technical-institute",
+        "name": "Caldwell Community College and Technical Institute",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "catawba-valley-community-college",
+        "name": "Catawba Valley Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "central-arizona-college",
+        "name": "Central Arizona College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "central-oregon-community-college",
+        "name": "Central Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-harold-washington-college",
+        "name": "City Colleges of Chicago-Harold Washington College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-southern-maryland",
+        "name": "College of Southern Maryland",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "county-college-of-morris",
+        "name": "County College of Morris",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "cuyamaca-college",
+        "name": "Cuyamaca College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "dutchess-community-college",
+        "name": "Dutchess Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "estrella-mountain-community-college",
+        "name": "Estrella Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "germanna-community-college",
+        "name": "Germanna Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "kalamazoo-valley-community-college",
+        "name": "Kalamazoo Valley Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "lakeland-community-college",
+        "name": "Lakeland Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "middlesex-community-college",
+        "name": "Middlesex Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "monterey-peninsula-college",
+        "name": "Monterey Peninsula College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "moreno-valley-college",
+        "name": "Moreno Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "north-idaho-college",
+        "name": "North Idaho College",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "northeast-lakeview-college",
+        "name": "Northeast Lakeview College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "northwest-arkansas-community-college",
+        "name": "NorthWest Arkansas Community College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "onondaga-community-college",
+        "name": "Onondaga Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "rowan-college-at-burlington-county",
+        "name": "Rowan College at Burlington County",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "south-puget-sound-community-college",
+        "name": "South Puget Sound Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-broome-community-college",
+        "name": "SUNY Broome Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://collegeofsanmateo.edu/prie/",
+    "office_name": "Planning, Research, Innovation and Effectiveness (PRIE)",
+    "parent_division": "Office of the President",
+    "summary": "PRIE’s mission is to use the tools of research to support the college’s institutional decision-making and planning.",
+    "phone": "(650) 574-6198",
+    "fax": "(650) 574-6315",
+    "email": "csmplanning-research@smccd.edu",
+    "address": "1700 W. Hillsdale Boulevard, San Mateo, CA 94402",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:17:19.910389+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Monique Nakagawa",
+      "title": "Senior Planning and Research Analyst",
+      "email": "nakagawam@smccd.edu",
+      "phone": "(650) 574-6214",
+      "linkedin_url": "https://www.linkedin.com/in/monique-nakagawa-3605b611"
+    },
+    {
+      "ordering": 1,
+      "name": "Natalie Alizaga",
+      "title": "Research Inquiry and Institutional Effectiveness Manager",
+      "email": "alizaganatalie@smccd.edu",
+      "phone": "(650) 574-6565"
+    },
+    {
+      "ordering": 2,
+      "name": "Heeju Jang",
+      "title": "Planning and Research Analyst",
+      "email": "jangh@smccd.edu",
+      "phone": "(650) 574-6439"
+    },
+    {
+      "ordering": 3,
+      "name": "Bryan Swartout",
+      "title": "Planning and Research Analyst",
+      "email": "swartoutb@smccd.edu",
+      "phone": "(650) 574-6394",
+      "linkedin_url": "https://www.linkedin.com/in/swartoutbryan"
+    },
+    {
+      "ordering": 4,
+      "name": "Edgardo Molina Carlos",
+      "title": "Administrative Assistant",
+      "email": "molinacarlose@smccd.edu",
+      "phone": "(650) 574-6198",
+      "linkedin_url": "https://www.linkedin.com/in/edgardo-molina-carlos-a31773157"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://collegeofsanmateo.edu/prie/",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:16:15.547851+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122791",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:17:22.222592+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Dana Carvey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dana_Carvey",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Luana DeVol",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Luana_DeVol",
+      "field": "Music"
+    },
+    {
+      "name": "Jerry Hill",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Hill_(politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Jon Miller",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jon_Miller",
+      "field": "Broadcasting"
+    },
+    {
+      "name": "Kurtwood Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kurtwood_Smith",
+      "field": "Entertainment"
+    }
+  ]
+}

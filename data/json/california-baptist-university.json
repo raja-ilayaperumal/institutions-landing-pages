@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T17:59:59.183560+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110361,
+    "slug": "california-baptist-university",
+    "name": "California Baptist University",
+    "city": "Riverside",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92504-3297",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NQMVAAQUFU53",
+      "opeid": "00112500",
+      "ein": "951890710"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Baptist University is a private university in Riverside, California, United States. Founded in 1950 as California Baptist College, it is affiliated with the California Southern Baptist Convention, an organization affiliated with the Southern Baptist Convention. CBU is accredited by the WASC Senior College and University Commission.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Baptist_University",
+    "source_url": "https://en.wikipedia.org/wiki/California_Baptist_University",
+    "fetched_at": "2026-05-25T22:47:04.197973+05:30"
+  },
+  "admissions": {
+    "applicants": 7990,
+    "admits": 6782,
+    "enrolled": 1612,
+    "first_time_freshmen": 1612,
+    "first_time_freshmen_ft": 1590,
+    "admit_rate": 0.848811013767209,
+    "yield_rate": 0.23768799764081391
+  },
+  "cost": {
+    "avg_net_price": 27384,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.094,
+    "federal_loan_rate": 0.6258,
+    "net_price_by_family_income": {
+      "0_30k": 23788,
+      "30_48k": 24409,
+      "48_75k": 23799,
+      "75_110k": 28057,
+      "110k_plus": 34648
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.62,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.59,
+    "grad_6yr_bachelors": 0.62,
+    "pell_grad_rate": 0.53,
+    "pell_6yr_bachelors_rate": 0.53,
+    "non_pell_grad_rate": 0.71,
+    "non_pell_6yr_bachelors": 0.71,
+    "retention_full_time": 0.74,
+    "retention_part_time": 0.38
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 13806,
+    "ug_12mo": 9549,
+    "grad_12mo": 9025,
+    "women_12mo": 9055,
+    "men_12mo": 4751,
+    "fall_total": 11902,
+    "fall_full_time": 8417,
+    "fall_part_time": 8179,
+    "distance_ed_any": 11902,
+    "distance_ed_exclusive": 3062
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 560
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 500
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 477
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 302
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 269
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 198
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 195
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 138
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 114
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 71
+      }
+    ],
+    "program_count": 113,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 371
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "concordia-university-irvine",
+        "name": "Concordia University-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/",
+    "office_name": "Institutional Research",
+    "parent_division": "Educational Effectiveness",
+    "summary": "As the official office collecting and providing data related to the University, Institutional Research functions within Educational Effectiveness to assist executive management and the university community in general by providing reliable, relevant, quality data to facilitate strategic planning, budgeting, accountability, institutional assessment, program review, policy decisions, and by reporting this data to government and private agencies.",
+    "phone": "951-552-8637",
+    "email": "ir@calbaptist.edu",
+    "address": "Lancer Arms 49, 8432 Magnolia Avenue, Riverside, CA 92504",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T22:47:03.095151+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS-PDF-2025-2026%20-%20All.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_2024_2025_v2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_2023_2024_v2.4.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_AY2022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://calbaptist.edu/educational-effectiveness/institutional-research/pdfs/CDS_2021-2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_2020-2021_Updated_Final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_2019-2020_Final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS_2018-2019_Final_04_30_19.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110361",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:47:05.362793+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Associate Dean for Educational Effectiveness",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179434325&Title=AI%20Innovation%20Manager"
+    },
+    {
+      "title": "Assistant Director of Student Success Coaching",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179430682"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Human Digital Twin Model and Heat Stress Research",
+      "agency": "University of Montana",
+      "kind": "award",
+      "amount_usd": 123700,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/research-initiatives",
+      "source": "institution_site"
+    },
+    {
+      "title": "Song Brown Program Grant",
+      "agency": "Dept. of Health Care Access",
+      "kind": "award",
+      "amount_usd": 91000,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/research-initiatives",
+      "source": "institution_site"
+    },
+    {
+      "title": "Sober Truth on Preventing (STOP) Underage Drinking Act Grant",
+      "agency": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+      "kind": "award",
+      "amount_usd": 49977,
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/research-initiatives",
+      "source": "institution_site"
+    },
+    {
+      "title": "2025 CCCU Networking Grant",
+      "kind": "award",
+      "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/research-initiatives",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Savali Talavou Ale"
+    },
+    {
+      "name": "Nathan Fletcher",
+      "field": "Politics"
+    },
+    {
+      "name": "Robert Don Hughes"
+    },
+    {
+      "name": "Corey Jackson",
+      "field": "Politics"
+    },
+    {
+      "name": "Fraser Kershaw"
+    },
+    {
+      "name": "Dustin-Leigh Konzelman"
+    },
+    {
+      "name": "Brent Kutzle",
+      "field": "Music"
+    },
+    {
+      "name": "Trevor Misipeka",
+      "field": "Athletics"
+    },
+    {
+      "name": "Reid D. Milanovich"
+    },
+    {
+      "name": "Rana Reider",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jim Sandoval"
+    },
+    {
+      "name": "Brandon Schuster"
+    },
+    {
+      "name": "Kay Warren",
+      "field": "Religion"
+    },
+    {
+      "name": "Rick Warren",
+      "field": "Religion"
+    }
+  ]
+}

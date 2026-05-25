@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.624422+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117946,
+    "slug": "loyola-marymount-university",
+    "name": "Loyola Marymount University",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90045-2659",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MQSXELH2KMB6",
+      "opeid": "01164900",
+      "ein": "951643334"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Loyola Marymount University (LMU), formerly St. Vincent's College, is a private Jesuit and Marymount research university in Los Angeles, California, United States. LMU enrolls over 10,000 undergraduate and graduate students, making it the largest Catholic university on the West Coast of the United States. It was founded in 1865 by the Vincentians and merged with Marymount College in 1973.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Loyola_Marymount_University",
+    "source_url": "https://en.wikipedia.org/wiki/Loyola_Marymount_University",
+    "fetched_at": "2026-05-25T23:17:00.461905+05:30"
+  },
+  "admissions": {
+    "applicants": 23089,
+    "admits": 10409,
+    "enrolled": 1541,
+    "first_time_freshmen": 1541,
+    "first_time_freshmen_ft": 1537,
+    "admit_rate": 0.45082073714755944,
+    "yield_rate": 0.14804496109136325
+  },
+  "cost": {
+    "room_and_board": 22026,
+    "avg_net_price": 45723,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.019,
+    "federal_loan_rate": 0.3037,
+    "net_price_by_family_income": {
+      "0_30k": 30208,
+      "30_48k": 25766,
+      "48_75k": 32869,
+      "75_110k": 39673,
+      "110k_plus": 53926
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.79,
+    "grad_4yr_bachelors": 0.68,
+    "grad_5yr_bachelors": 0.77,
+    "grad_6yr_bachelors": 0.79,
+    "pell_grad_rate": 0.76,
+    "pell_6yr_bachelors_rate": 0.76,
+    "non_pell_grad_rate": 0.83,
+    "non_pell_6yr_bachelors": 0.83,
+    "retention_full_time": 0.89,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11120,
+    "ug_12mo": 7639,
+    "grad_12mo": 7473,
+    "women_12mo": 6271,
+    "men_12mo": 4849,
+    "fall_total": 10179,
+    "fall_full_time": 7273,
+    "fall_part_time": 7094,
+    "distance_ed_any": 10179,
+    "distance_ed_exclusive": 568
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 647
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 424
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 346
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 272
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 243
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 166
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 138
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 80
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 70
+      }
+    ],
+    "program_count": 94,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 661
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "creighton-university",
+        "name": "Creighton University",
+        "state": "Nebraska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "regis-university",
+        "name": "Regis University",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "saint-joseph-s-university-lancaster",
+        "name": "Saint Joseph's University - Lancaster",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "xavier-university",
+        "name": "Xavier University",
+        "state": "Ohio",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://academics.lmu.edu/officeofinstitutionalresearch/aboutirds/",
+    "office_name": "Institutional Research and Decision Support (IRDS)",
+    "parent_division": "Academic Affairs",
+    "summary": "The Office of Institutional Research conducts research, plays leadership and consulting roles, and serves as the steward for the campus's official statistics, while ensuring compliance with governmental requirements.",
+    "email": "ir@lmu.edu",
+    "address": "1 LMU Drive, Los Angeles, CA 90045",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:16:59.414205+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Christine Chavez",
+      "title": "Associate Vice Provost for Institutional Effectiveness",
+      "email": "cchavez@lmu.edu",
+      "phone": "(310) 568-6691",
+      "linkedin_url": "https://www.linkedin.com/in/christine-chavez-16470628"
+    },
+    {
+      "ordering": 1,
+      "name": "Michelle Castellanos, Ph.D.",
+      "title": "Director of Strategic Research and Evaluation",
+      "email": "Michelle.Castellanos@lmu.edu",
+      "phone": "(310) 338-3014",
+      "linkedin_url": "https://www.linkedin.com/in/michelle-castellanos-ph-d-58a85933"
+    },
+    {
+      "ordering": 2,
+      "name": "Sarah Yoshikawa, Ph.D.",
+      "title": "Director of Data Management and Business Intelligence",
+      "email": "Sarah.Yoshikawa@lmu.edu",
+      "phone": "(310) 338-5335"
+    },
+    {
+      "ordering": 3,
+      "name": "Alan Nong, Ph.D.",
+      "title": "Associate Director of Institutional Research",
+      "email": "Alan.Nong@lmu.edu",
+      "phone": "(310) 338-1607"
+    },
+    {
+      "ordering": 4,
+      "name": "Bryce Mason, Ph.D.",
+      "title": "Senior Institutional Research Associate",
+      "email": "Bryce.Mason@lmu.edu",
+      "phone": "(310) 258-2620"
+    },
+    {
+      "ordering": 5,
+      "name": "Kenny Le",
+      "title": "Data Scientist",
+      "email": "Kenny.Le@lmu.edu",
+      "phone": "(310) 568-6130"
+    },
+    {
+      "ordering": 6,
+      "name": "Megan Key, Ph.D.",
+      "title": "Institutional Research Associate",
+      "email": "Megan.KeyKremer@lmu.edu",
+      "phone": "(310) 338-6689"
+    },
+    {
+      "ordering": 7,
+      "name": "Ramon Medina-Sanchez, Ph.D.",
+      "title": "Institutional Research Associate",
+      "email": "Ramon.Medina-Sanchez@lmu.edu",
+      "phone": "(310) 338-6669"
+    },
+    {
+      "ordering": 8,
+      "name": "Ritchie Fuentes",
+      "title": "Institutional Research Associate",
+      "email": "Ritchie.Fuentes@lmu.edu",
+      "phone": "(310) 258-8838",
+      "linkedin_url": "https://www.linkedin.com/in/ritchiefuentes"
+    },
+    {
+      "ordering": 9,
+      "name": "Codi Young",
+      "title": "Institutional Research Associate",
+      "email": "Codi.Young@lmu.edu"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS 2025-26_20260518.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/Legacy-CDS_2024-2025_06112025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_UNL2_2023_2024_05212024.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2022-2023_060623.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2021-2022_06242022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2020-2021_20210428.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2019-2020_20200515.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2018-2019_20190411.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2017-2018_060418.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2016-2017_5.4.17.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2015-2016 for publication updated 5.17.16.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2014-2015_06.03.16.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/CDS_2013-2014_20140516.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/2012-3 CDS.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/2011-2 CDS.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/2010-1 CDS.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/2009-0 CDS.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://academics.lmu.edu/media/lmuacademics/strategicplanningacademiceffectiveness/officeofinstitutionalresearch/documents/2008-9 CDS.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117946",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:17:02.279086+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "title": "Official Statistics - Loyola Marymount University",
+      "url": "https://academics.lmu.edu/officeofinstitutionalresearch/officialstatisticsandotherreporting/officialstatistics/",
+      "summary": "The official statistics and other reporting section on the Loyola Marymount University website provides a comprehensive overview of current and historical trends on student enrollment and various student achievement metrics. Reports are developed by the Office of Institutional Research and Decision Support and include data on admissions, enrollment trends, retention and graduation rates, profiles of students and faculty, and degree completions. The site also offers insights into undergraduate major-switching patterns, retention rates for first-time and transfer students, and faculty and staff counts. The Common Data Set for LMU from 2008 to present can also be accessed.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:13:03.749846+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "The Plan - Loyola Marymount University",
+      "url": "https://resources.lmu.edu/strategicplan2021-2026/theplan/",
+      "summary": "Loyola Marymount University's strategic plan for 2021-2026, titled 'Creating the World We Want to Live In,' envisions the formation of ethical leaders capable of tackling global challenges. It establishes three main commitments: Anti-Racism, Diversity, Equity, and Inclusion; Innovation and Adaptability; and Extending Our Reach Beyond the Bluff. The plan includes five spotlight initiatives, each with distinct goals and objectives, aimed at driving the university toward its strategic vision.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:12:15.437798+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Senior Research Assistant",
+      "apply_url": "https://www.higheredjobs.com/institution/details.cfm?JobCode=179298124&Title=Senior%20Research%20Assistant"
+    },
+    {
+      "title": "Director of Faculty Experience Initiatives",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179421284"
+    },
+    {
+      "title": "Director, Assessment & Accreditation",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179409431"
+    },
+    {
+      "title": "Senior Research Analyst 2026",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179402555"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Mellon Habitable Worlds Faculty Fellowships",
+      "agency": "Mellon Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Academic Technology Committee Teaching and Learning Grants",
+      "agency": "Loyola Marymount University",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Experiential Learning for Mission Core Curriculum Development Grant",
+      "agency": "Loyola Marymount University",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "IPP Sustainable Development Goals Curriculum Development Grant",
+      "agency": "Loyola Marymount University",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Delphi Award: Non-Tenure-Track Faculty (NTTF) Professional Development Grant",
+      "agency": "Loyola Marymount University",
+      "kind": "opportunity",
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Faith & Justice Grants",
+      "agency": "Loyola Marymount University",
+      "kind": "opportunity",
+      "url": "https://academics.lmu.edu/ofd/research/lmuinternalgrants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Toni Lee Jimenez",
+      "field": "Publishing"
+    },
+    {
+      "name": "Stephen Walden",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Letty Cabrera-Calvo",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Jonathan Golad",
+      "field": "Technology"
+    },
+    {
+      "name": "Bob Beemer",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Barbara Broccoli",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_Broccoli",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Effie T. Brown",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Effie_Brown",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Mila Kunis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mila_Kunis",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Colin Hanks",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Colin_Hanks",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Linda Cardellini",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Linda_Cardellini",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Johnnie Cochran",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Johnnie_Cochran",
+      "field": "Law"
+    },
+    {
+      "name": "Benjamin Cayetano",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Cayetano",
+      "field": "Politics"
+    },
+    {
+      "name": "Tony Coelho",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Coelho",
+      "field": "Politics"
+    },
+    {
+      "name": "Alejandro Mayorkas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alejandro_Mayorkas",
+      "field": "Politics"
+    },
+    {
+      "name": "Kevin Kiley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Kiley",
+      "field": "Politics"
+    },
+    {
+      "name": "Rick Adelman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Adelman",
+      "field": "Sports"
+    },
+    {
+      "name": "C.J. Wilson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/C._J._Wilson",
+      "field": "Sports"
+    }
+  ]
+}

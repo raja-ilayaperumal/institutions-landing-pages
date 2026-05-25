@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.904503+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110495,
+    "slug": "california-state-university-stanislaus",
+    "name": "California State University-Stanislaus",
+    "city": "Turlock",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95382-0299",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "SRT1YX7KJQL4",
+      "opeid": "00115700",
+      "ein": "770207337"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Stanislaus is a public university in Turlock, California, United States. It is part of the California State University system. It was established in 1957 and offers 45 bachelor's degree programs and 38 graduate programs, which include 22 master's degree programs, one doctoral degree, 10 certificate programs, and 5 teaching credentials. Stanislaus State is a Hispanic-serving institution.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Stanislaus",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Stanislaus",
+    "fetched_at": "2026-05-25T23:24:52.693327+05:30"
+  },
+  "admissions": {
+    "applicants": 5419,
+    "admits": 5318,
+    "enrolled": 1018,
+    "first_time_freshmen": 1018,
+    "first_time_freshmen_ft": 960,
+    "admit_rate": 0.9813618748846651,
+    "yield_rate": 0.19142534787514104
+  },
+  "cost": {
+    "avg_net_price": 5671,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1935,
+    "federal_loan_rate": 0.2266,
+    "net_price_by_family_income": {
+      "0_30k": 3218,
+      "30_48k": 3946,
+      "48_75k": 6347,
+      "75_110k": 10199,
+      "110k_plus": 16815
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.53,
+    "grad_4yr_bachelors": 0.25,
+    "grad_5yr_bachelors": 0.46,
+    "grad_6yr_bachelors": 0.53,
+    "pell_grad_rate": 0.53,
+    "pell_6yr_bachelors_rate": 0.53,
+    "non_pell_grad_rate": 0.55,
+    "non_pell_6yr_bachelors": 0.55,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.37
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11300,
+    "ug_12mo": 9924,
+    "grad_12mo": 9718,
+    "women_12mo": 7540,
+    "men_12mo": 3760,
+    "fall_total": 9724,
+    "fall_full_time": 8455,
+    "fall_part_time": 8385,
+    "distance_ed_any": 9724,
+    "distance_ed_exclusive": 1332
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 499
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 480
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 287
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 238
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 225
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 186
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 178
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 110
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 99
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 75
+      }
+    ],
+    "program_count": 58,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0,
+    "instr_total_fte": 375
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "angelo-state-university",
+        "name": "Angelo State University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "austin-peay-state-university",
+        "name": "Austin Peay State University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "bridgewater-state-university",
+        "name": "Bridgewater State University",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-bakersfield",
+        "name": "California State University-Bakersfield",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "central-connecticut-state-university",
+        "name": "Central Connecticut State University",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "central-washington-university",
+        "name": "Central Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "coastal-carolina-university",
+        "name": "Coastal Carolina University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-staten-island-cuny",
+        "name": "College of Staten Island CUNY",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "fort-hays-state-university",
+        "name": "Fort Hays State University",
+        "state": "Kansas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "jacksonville-state-university",
+        "name": "Jacksonville State University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "murray-state-university",
+        "name": "Murray State University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "northwest-missouri-state-university",
+        "name": "Northwest Missouri State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "slippery-rock-university-of-pennsylvania",
+        "name": "Slippery Rock University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "southeast-missouri-state-university",
+        "name": "Southeast Missouri State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "southern-connecticut-state-university",
+        "name": "Southern Connecticut State University",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "stephen-f-austin-state-university",
+        "name": "Stephen F Austin State University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "texas-a-m-international-university",
+        "name": "Texas A & M International University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "the-college-of-new-jersey",
+        "name": "The College of New Jersey",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-central-missouri",
+        "name": "University of Central Missouri",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-central-oklahoma",
+        "name": "University of Central Oklahoma",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-minnesota-duluth",
+        "name": "University of Minnesota-Duluth",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-north-alabama",
+        "name": "University of North Alabama",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-northern-iowa",
+        "name": "University of Northern Iowa",
+        "state": "Iowa",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-wisconsin-la-crosse",
+        "name": "University of Wisconsin-La Crosse",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-wisconsin-whitewater",
+        "name": "University of Wisconsin-Whitewater",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "west-texas-a-m-university",
+        "name": "West Texas A & M University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "william-paterson-university-of-new-jersey",
+        "name": "William Paterson University of New Jersey",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "youngstown-state-university",
+        "name": "Youngstown State University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csustan.edu/iea",
+    "office_name": "Office of Institutional Effectiveness & Analytics",
+    "parent_division": "Division of Academic Affairs",
+    "summary": "The Office of Institutional Effectiveness & Analytics (IEA) supports the systematic collection, analysis, and reporting of institutional data to provide actionable insights, innovative services, and analytics that inform planning, assessment, and evidence-based decision-making across the University.",
+    "address": "Mary Stuart Rogers, MSR 230",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:24:51.631579+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.csustan.edu/iea/common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.csustan.edu/iea",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:22:41.886309+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Data Dashboards | California State University Stanislaus",
+      "url": "https://www.csustan.edu/iea/institutional-data-dashboards",
+      "summary": "The Institutional Data Dashboards page for California State University Stanislaus provides a comprehensive overview of various academic metrics and analytics. It includes information on admissions trends, course enrollment, degrees awarded, enrollment trends, faculty and staff statistics, and retention and graduation rates. The resource is part of the university’s efforts under Institutional Effectiveness & Analytics and offers supporting tools like the Common Data Set and IPEDS Data Feedback Reports. It aims to support data-driven decision-making within the university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:22:58.181472+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110495",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:24:53.967779+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2017,
+      "title": "2017-2025 University Strategic Planning Council",
+      "url": "https://www.csustan.edu/strategic-planning/past-university-strategic-plans/2017-2025-university-strategic-planning-council",
+      "summary": "The 2017-2025 University Strategic Planning Council at California State University, Stanislaus is tasked with guiding the institution through a comprehensive strategic planning process. This involves aligning with key presidential and organizational initiatives, such as the WSCUC preparation and the 2025 CSU graduation rate initiative, and revising core institutional statements. The Council, comprising faculty, administrators, and student representatives, emphasizes a consultative approach with campus stakeholders to ensure robust implementation of the strategic objectives.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:21:32.632261+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Nearly $1 Million NSF Grant",
+      "agency": "NSF",
+      "kind": "award",
+      "amount_usd": 1000000,
+      "url": "https://www.csustan.edu/research-sponsored-programs",
+      "source": "institution_site",
+      "award_date": "2024-09-30"
+    },
+    {
+      "title": "Learning Innovation for Future-Forward Teaching (LIFT)",
+      "agency": "CSU Chancellor's Office",
+      "kind": "opportunity",
+      "url": "https://www.csustan.edu/research-sponsored-programs",
+      "source": "institution_site"
+    },
+    {
+      "title": "NSF EPIIC Grant",
+      "agency": "NSF",
+      "kind": "award",
+      "url": "https://www.csustan.edu/research-sponsored-programs",
+      "source": "institution_site",
+      "award_date": "2026-01-29"
+    }
+  ],
+  "notable_alumni": []
+}

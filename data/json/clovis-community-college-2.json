@@ -1,0 +1,484 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.536663+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 489201,
+    "slug": "clovis-community-college-2",
+    "name": "Clovis Community College",
+    "city": "Fresno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93730",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "URJVMKBJKM21",
+      "opeid": "04253400",
+      "ein": "941574802"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Clovis Community College may refer to:Clovis Community College \nClovis Community College (California)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Clovis_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Clovis_Community_College",
+    "fetched_at": "2026-05-25T23:11:17.826984+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7118,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7365,
+    "federal_loan_rate": 0.0009,
+    "net_price_by_family_income": {
+      "0_30k": 5041,
+      "30_48k": 6463,
+      "48_75k": 9829,
+      "75_110k": 14279,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.45,
+    "pell_grad_rate": 0.43,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.4
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 15474,
+    "ug_12mo": 15474,
+    "grad_12mo": 11347,
+    "women_12mo": 9324,
+    "men_12mo": 6150,
+    "fall_total": 10358,
+    "fall_full_time": 10358,
+    "fall_part_time": 7956,
+    "distance_ed_any": 10358,
+    "distance_ed_exclusive": 5135
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 229
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 225
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 183
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 126
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 71
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 66
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 63
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 51
+      }
+    ],
+    "program_count": 65,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 130
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "anoka-ramsey-community-college",
+        "name": "Anoka-Ramsey Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "brightpoint-community-college",
+        "name": "Brightpoint Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "camden-county-college",
+        "name": "Camden County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-harry-s-truman-college",
+        "name": "City Colleges of Chicago-Harry S Truman College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-wilbur-wright-college",
+        "name": "City Colleges of Chicago-Wilbur Wright College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "coastline-community-college",
+        "name": "Coastline Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "college-of-lake-county",
+        "name": "College of Lake County",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-western-idaho",
+        "name": "College of Western Idaho",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "community-college-of-aurora",
+        "name": "Community College of Aurora",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "illinois-central-college",
+        "name": "Illinois Central College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "johnson-county-community-college",
+        "name": "Johnson County Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "lane-community-college",
+        "name": "Lane Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "los-angeles-city-college",
+        "name": "Los Angeles City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-mission-college",
+        "name": "Los Angeles Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "mchenry-county-college",
+        "name": "McHenry County College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mclennan-community-college",
+        "name": "McLennan Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mohawk-valley-community-college",
+        "name": "Mohawk Valley Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "normandale-community-college",
+        "name": "Normandale Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "oakton-college",
+        "name": "Oakton College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "ocean-county-college",
+        "name": "Ocean County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "palo-alto-college",
+        "name": "Palo Alto College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "pima-community-college",
+        "name": "Pima Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "scottsdale-community-college",
+        "name": "Scottsdale Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "texas-southmost-college",
+        "name": "Texas Southmost College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "washtenaw-community-college",
+        "name": "Washtenaw Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "wayne-county-community-college-district",
+        "name": "Wayne County Community College District",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "william-rainey-harper-college",
+        "name": "William Rainey Harper College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cloviscollege.edu/about/institutional-research/index.html",
+    "office_name": "Office of Institutional Research, Planning & Effectiveness",
+    "summary": "Our office exists to support decision making at Clovis Community College so it can achieve its vision of academic excellence, innovation, and student achievement. We do this by providing timely, accurate, and unbiased information about our students and the programs that serve them.",
+    "phone": "559-324-6420",
+    "address": "10309 N. Willow, Fresno, CA 93730",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:11:07.173718+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ryan Feyk-Miney",
+      "title": "Director, Institutional Research, Planning & Effectiveness",
+      "email": "ryan.feyk-miney@cloviscollege.edu",
+      "phone": "559-324-6420",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-feyk-miney-22738515"
+    },
+    {
+      "ordering": 1,
+      "name": "Michelle Johnson",
+      "title": "Senior Research & Planning Analyst",
+      "email": "michelle.johnson@cloviscollege.edu",
+      "phone": "559-324-6467"
+    },
+    {
+      "ordering": 2,
+      "name": "Kaye Reynolds",
+      "title": "Research and Planning Analyst",
+      "email": "kaye.reynolds@cloviscollege.edu",
+      "phone": "559-324-6427"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.cloviscollege.edu/about/institutional-research/dashboards/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:10:40.275912+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=489201",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:11:11.727149+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Clovis Community College Strategic Plan 2025-2029",
+      "url": "https://www.cloviscollege.edu/about/college-planning/four-year-strategic-plan.html",
+      "summary": "The Clovis Community College Strategic Plan 2025-2029 is designed to align with the broader State Center Vision 2035. This strategy involves direct actions aimed at advancing the institution and enhancing student success over a four-year period. The plan underscores Clovis Community College's commitment to creating opportunities for students, as well as supporting various statewide community college initiatives.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:08:04.163263+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director, Strategic Initiatives - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179447489"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

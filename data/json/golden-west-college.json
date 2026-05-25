@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:01.784901+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115126,
+    "slug": "golden-west-college",
+    "name": "Golden West College",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92647-2710",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UEUJH1VJAXQ9",
+      "opeid": "00120600",
+      "ein": "956002272"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Golden West College (GWC) is a public community college in Huntington Beach, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_West_College",
+    "source_url": "https://en.wikipedia.org/wiki/Golden_West_College",
+    "fetched_at": "2026-05-25T23:04:42.122412+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 2861,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6848,
+    "federal_loan_rate": 0.0156,
+    "net_price_by_family_income": {
+      "0_30k": 1748,
+      "30_48k": 2398,
+      "48_75k": 5759,
+      "75_110k": 7381,
+      "110k_plus": 10837
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.49,
+    "pell_grad_rate": 0.47,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.7,
+    "retention_part_time": 0.35
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 17968,
+    "ug_12mo": 17968,
+    "grad_12mo": 14747,
+    "women_12mo": 9719,
+    "men_12mo": 8249,
+    "fall_total": 10721,
+    "fall_full_time": 10721,
+    "fall_part_time": 9034,
+    "distance_ed_any": 10721,
+    "distance_ed_exclusive": 4277
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 1514
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 374
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 239
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 232
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 127
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 103
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 91
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 42
+      }
+    ],
+    "program_count": 70,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 127
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "allan-hancock-college",
+        "name": "Allan Hancock College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "central-new-mexico-community-college",
+        "name": "Central New Mexico Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "central-piedmont-community-college",
+        "name": "Central Piedmont Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chandler-gilbert-community-college",
+        "name": "Chandler-Gilbert Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cuny-kingsborough-community-college",
+        "name": "CUNY Kingsborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "eastern-gateway-community-college",
+        "name": "Eastern Gateway Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "elgin-community-college",
+        "name": "Elgin Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "howard-community-college",
+        "name": "Howard Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "irvine-valley-college",
+        "name": "Irvine Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mesa-community-college",
+        "name": "Mesa Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "middlesex-college",
+        "name": "Middlesex College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "montgomery-college",
+        "name": "Montgomery College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "norco-college",
+        "name": "Norco College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "northern-virginia-community-college",
+        "name": "Northern Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "northwest-vista-college",
+        "name": "Northwest Vista College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "oakland-community-college",
+        "name": "Oakland Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "phoenix-college",
+        "name": "Phoenix College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "portland-community-college",
+        "name": "Portland Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "prince-george-s-community-college",
+        "name": "Prince George's Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "salt-lake-community-college",
+        "name": "Salt Lake Community College",
+        "state": "Utah",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-westchester-community-college",
+        "name": "SUNY Westchester Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.goldenwestcollege.edu/research/index.html",
+    "office_name": "Office of Research, Planning, and Institutional Effectiveness",
+    "summary": "The Office of Research, Planning, and Institutional Effectiveness (ORPIE) provides services that help campus leaders make more informed decisions to improve processes, programs, and services that impact student learning and success.",
+    "email": "research@gwc.cccd.edu",
+    "address": "15744 Goldenwest Street, Huntington Beach, CA 92647",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:04:39.746696+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Lauren Davis Sosenko",
+      "title": "Dean of Institutional Effectiveness",
+      "email": "ldavissosenko@cccd.edu",
+      "phone": "(714) 895-8727",
+      "linkedin_url": "https://www.linkedin.com/in/lauren-davis-sosenko-050ba816"
+    },
+    {
+      "ordering": 1,
+      "name": "C.J. Bishop, Ph.D.",
+      "title": "Senior Research Analyst",
+      "email": "cbishop18@gwc.cccd.edu",
+      "phone": "(714) 892-7711 x55274"
+    },
+    {
+      "ordering": 2,
+      "name": "Teresa Rodriguez",
+      "title": "Administrative Assistant",
+      "email": "trodriguez26@cccd.edu",
+      "phone": "(714) 895-8700"
+    },
+    {
+      "ordering": 3,
+      "name": "Jeannette Jaramillo, MPP",
+      "title": "Senior Research Analyst - Equity",
+      "email": "jjaramillohernandez@gwc.cccd.edu",
+      "phone": "(714) 988-4493"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.goldenwestcollege.edu/research/data-and-more/data-dashboards/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:01:48.971399+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115126",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:04:43.404166+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Golden West College Strategic Plan 2025-2029",
+      "url": "https://www.goldenwestcollege.edu/Links/pdf/research/gwc_strategic_plan_20025_2029.pdf",
+      "summary": "Golden West College's Strategic Plan for 2025-2029 builds on the framework of the Vision 2030 Comprehensive Master Plan with a focused approach on seven strategic goals. These goals emphasize enrollment growth, equity and success, timely student completion, workforce preparation, and the enhancement of facilities, professional development, and communication. The plan sets ambitious targets, such as significant increases in enrollment metrics and student success outcomes, aligning with state and institutional objectives.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:00:25.451337+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Wendi McLendon-Covey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wendi_McLendon-Covey",
+      "field": "Acting"
+    },
+    {
+      "name": "Michelle Pfeiffer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michelle_Pfeiffer",
+      "field": "Acting"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.760456+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111948,
+    "slug": "chapman-university",
+    "name": "Chapman University",
+    "city": "Orange",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92866",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EN9DMTETW3N1",
+      "opeid": "00116400",
+      "ein": "951643992"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Chapman University is a private research university in Orange, California, United States. Encompassing eleven colleges, the university is classified among \"R2: Doctoral Universities – High research activity\". The school maintains its founding affiliations with the Christian Church and the United Church of Christ, but is a secular university.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chapman_University",
+    "source_url": "https://en.wikipedia.org/wiki/Chapman_University",
+    "fetched_at": "2026-05-25T23:18:51.531881+05:30"
+  },
+  "admissions": {
+    "applicants": 15634,
+    "admits": 10230,
+    "enrolled": 1631,
+    "first_time_freshmen": 1631,
+    "first_time_freshmen_ft": 1627,
+    "admit_rate": 0.6543430983753358,
+    "yield_rate": 0.15943304007820136
+  },
+  "cost": {
+    "avg_net_price": 47527,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0401,
+    "federal_loan_rate": 0.62,
+    "net_price_by_family_income": {
+      "0_30k": 37985,
+      "30_48k": 40713,
+      "48_75k": 39414,
+      "75_110k": 42194,
+      "110k_plus": 54519
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.82,
+    "grad_4yr_bachelors": 0.71,
+    "grad_5yr_bachelors": 0.8,
+    "grad_6yr_bachelors": 0.82,
+    "pell_grad_rate": 0.83,
+    "pell_6yr_bachelors_rate": 0.82,
+    "non_pell_grad_rate": 0.79,
+    "non_pell_6yr_bachelors": 0.8,
+    "retention_full_time": 0.92,
+    "retention_part_time": 0.6
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 10474,
+    "ug_12mo": 8182,
+    "grad_12mo": 7924,
+    "women_12mo": 6411,
+    "men_12mo": 4063,
+    "fall_total": 9760,
+    "fall_full_time": 7713,
+    "fall_part_time": 7478,
+    "distance_ed_any": 9760,
+    "distance_ed_exclusive": 1
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 667
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 513
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 349
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 189
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 176
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 163
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 145
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 91
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 80
+      }
+    ],
+    "program_count": 81,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 589
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "clarkson-university",
+        "name": "Clarkson University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "duquesne-university",
+        "name": "Duquesne University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "mercer-university",
+        "name": "Mercer University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.chapman.edu/campus-services/institutional-research/index.aspx",
+    "office_name": "Institutional Research and Decision Support (IRADS)",
+    "summary": "To serve the Chapman community by providing accurate, timely, and actionable data that informs decisions and improves student success.",
+    "phone": "714-997-6815",
+    "address": "One University Drive, Orange, CA 92866",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:18:50.72779+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Marisol Arredondo Samson, Ph.D.",
+      "title": "Director",
+      "email": "arredond@chapman.edu",
+      "phone": "714-628-7339",
+      "linkedin_url": "https://www.linkedin.com/in/marisol-arredondo-samson-ph-d-1401b29"
+    },
+    {
+      "ordering": 1,
+      "name": "Robert Pankey",
+      "title": "Assistant Director",
+      "email": "rpankey@chapman.edu",
+      "phone": "714-997-6767"
+    },
+    {
+      "ordering": 2,
+      "name": "Carlos Lopez Henderson, Ph.D.",
+      "title": "Senior Analyst",
+      "email": "carlopez@chapman.edu",
+      "phone": "714-744-7834"
+    },
+    {
+      "ordering": 3,
+      "name": "Natalie Nazareno",
+      "title": "Data and Reporting Analyst",
+      "email": "nnazareno@chapman.edu",
+      "phone": "714-628-7228"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2023,
+      "url": "https://www.chapman.edu/campus-services/institutional-research/_files/cds/cds_2023-2024.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Institutional Data | Chapman University",
+      "url": "https://www.chapman.edu/campus-services/institutional-research/institutional-data.aspx",
+      "summary": "The page provides details about the Institutional Data resources at Chapman University, including the Institutional DataMart and Panther Analytics platform, which are tools used for data collection, analysis, and reporting. It also mentions the external sharing of institutional data through IRADS for comparison with competitor institutions. Data gathered is used for official reporting and can be accessed by various stakeholders for informed decision-making.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:17:52.783386+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=111948",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:18:52.983618+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2017,
+      "title": "2017 University Profile",
+      "url": "https://www.chapman.edu/campus-services/institutional-research/_files/factbook-files/2017-profile.pdf",
+      "summary": "The 2017-2018 Chapman University Fact Book provides a comprehensive overview of the institution's leadership, vision, mission, history, commitments, academic programs, and accreditation. Key leadership positions and members of the board are listed alongside the university's strategic commitments and mission to foster a diverse academic environment. The document outlines detailed academic offerings across various colleges and schools and highlights accreditation from respected bodies, underscoring the university's commitment to educational excellence and international standards.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:16:34.172467+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Our Path to Greatness",
+      "url": "https://www.chapman.edu/about/our-family/strategic-plan/index.aspx",
+      "summary": "Chapman University's Strategic Plan for 2023 to 2028, titled 'Our Path to Greatness,' outlines five key strategic priorities. These priorities include enhancing academic excellence, expanding graduate health science programs, fostering organizational excellence through development tools and technology, enhancing community-building via campus projects, and completing a $500 million comprehensive giving campaign. The plan aims to ensure Chapman's growth and success, with a long-term goal of raising the endowment to $2 billion by 2037.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:15:22.158586+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Data Analyst - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179293178"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Honors Conference Travel Grants",
+      "agency": "Chapman University",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://www.chapman.edu/academics/undergraduate/honors-program/forms-and-resources/grants.aspx",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Cooper Hefner",
+      "field": "Business"
+    },
+    {
+      "name": "Jeff Lewis",
+      "field": "Business"
+    },
+    {
+      "name": "Matt Duffer",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Ross Duffer",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Erika Cohn",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Anastasia Baranova",
+      "field": "Entertainment"
+    },
+    {
+      "name": "George Argyros",
+      "field": "Politics"
+    },
+    {
+      "name": "David E. Bonior",
+      "field": "Politics"
+    },
+    {
+      "name": "Randy Jones",
+      "field": "Sports"
+    },
+    {
+      "name": "Stephen Nelson",
+      "field": "Sports"
+    },
+    {
+      "name": "Justin Simien",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Leslie Jones",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Loretta Sanchez",
+      "field": "Politics"
+    },
+    {
+      "name": "Rita Nakashima Brock",
+      "field": "Religion"
+    },
+    {
+      "name": "Tim Flannery",
+      "field": "Sports"
+    },
+    {
+      "name": "Jake Cherry",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Samantha Brown",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Don August",
+      "field": "Sports"
+    },
+    {
+      "name": "Paul Anderson",
+      "field": "Politics"
+    },
+    {
+      "name": "John Sexton",
+      "field": "Arts"
+    },
+    {
+      "name": "Chris Burrous",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Paul Le Mat",
+      "field": "Entertainment"
+    },
+    {
+      "name": "John C. Yoder",
+      "field": "Law"
+    },
+    {
+      "name": "Emmett Ashford",
+      "field": "Sports"
+    },
+    {
+      "name": "Carlos López Estrada",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Kit Armstrong",
+      "field": "Music"
+    },
+    {
+      "name": "Brent Poppen",
+      "field": "Sports"
+    },
+    {
+      "name": "Vicky M. Wilkins",
+      "field": "Education"
+    },
+    {
+      "name": "Stacey Tappan",
+      "field": "Music"
+    },
+    {
+      "name": "Jodie Sweetin",
+      "field": "Entertainment"
+    }
+  ]
+}

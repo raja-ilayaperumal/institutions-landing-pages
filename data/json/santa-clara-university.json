@@ -1,0 +1,767 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T18:00:02.838381+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122931,
+    "slug": "santa-clara-university",
+    "name": "Santa Clara University",
+    "city": "Santa Clara",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95053",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "YE8LRJWSY3K9",
+      "opeid": "00132600",
+      "ein": "941156697"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Santa Clara University is a private Jesuit university in Santa Clara, California, United States. Established in 1851, Santa Clara University is the oldest operating institution of higher learning in California. The university's campus surrounds the historic Mission Santa Clara de Asís which traces its founding to 1777. The campus mirrors the Mission's architectural style and contains Mission Revival architecture and other Spanish Colonial Revival styles. The university is classified as a \"Doctoral/Professional\" university.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Clara_University",
+    "source_url": "https://en.wikipedia.org/wiki/Santa_Clara_University",
+    "fetched_at": "2026-05-25T23:24:09.625743+05:30"
+  },
+  "admissions": {
+    "applicants": 18970,
+    "admits": 9105,
+    "enrolled": 1611,
+    "first_time_freshmen": 1611,
+    "first_time_freshmen_ft": 1605,
+    "admit_rate": 0.4799683711122826,
+    "yield_rate": 0.17693574958813837
+  },
+  "cost": {
+    "avg_net_price": 50959,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0209,
+    "federal_loan_rate": 0.2445,
+    "net_price_by_family_income": {
+      "0_30k": 36094,
+      "30_48k": 51894,
+      "48_75k": 41599,
+      "75_110k": 30672,
+      "110k_plus": 60212
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.88,
+    "grad_4yr_bachelors": 0.81,
+    "grad_5yr_bachelors": 0.86,
+    "grad_6yr_bachelors": 0.88,
+    "pell_grad_rate": 0.85,
+    "pell_6yr_bachelors_rate": 0.85,
+    "non_pell_grad_rate": 0.9,
+    "non_pell_6yr_bachelors": 0.9,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 10129,
+    "ug_12mo": 6468,
+    "grad_12mo": 6351,
+    "women_12mo": 5122,
+    "men_12mo": 5007,
+    "fall_total": 9728,
+    "fall_full_time": 6577,
+    "fall_part_time": 6552,
+    "distance_ed_any": 9728,
+    "distance_ed_exclusive": 500
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 680
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 538
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 234
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 205
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 120
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 87
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 80
+      }
+    ],
+    "program_count": 76,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 704
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "adelphi-university",
+        "name": "Adelphi University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "aurora-university",
+        "name": "Aurora University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "barry-university",
+        "name": "Barry University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "belmont-university",
+        "name": "Belmont University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "elon-university",
+        "name": "Elon University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "hofstra-university",
+        "name": "Hofstra University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "indiana-wesleyan-university-national-and-global",
+        "name": "Indiana Wesleyan University-National & Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "maryville-university-of-saint-louis",
+        "name": "Maryville University of Saint Louis",
+        "state": "Missouri",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "national-louis-university",
+        "name": "National Louis University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "northcentral-university",
+        "name": "Northcentral University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "northeastern-university-professional-programs",
+        "name": "Northeastern University Professional Programs",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "pace-university",
+        "name": "Pace University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "quinnipiac-university",
+        "name": "Quinnipiac University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "regent-university",
+        "name": "Regent University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "sacred-heart-university",
+        "name": "Sacred Heart University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "saint-leo-university",
+        "name": "Saint Leo University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "southeastern-university",
+        "name": "Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "st-john-s-university-new-york",
+        "name": "St. John's University-New York",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "suffolk-university",
+        "name": "Suffolk University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "touro-university",
+        "name": "Touro University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-st-thomas",
+        "name": "University of St Thomas",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-the-cumberlands",
+        "name": "University of the Cumberlands",
+        "state": "Kentucky",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-the-incarnate-word",
+        "name": "University of the Incarnate Word",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "wilmington-university",
+        "name": "Wilmington University",
+        "state": "Delaware",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "xavier-university",
+        "name": "Xavier University",
+        "state": "Ohio",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "yeshiva-university",
+        "name": "Yeshiva University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.scu.edu/institutional-research/",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research delivers objective, systematic research and analysis to support Santa Clara University's strategic planning, policy-making, and decision-making.",
+    "email": "InstitutionalResearch@scu.edu",
+    "address": "500 El Camino Real, Santa Clara, CA 95053",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T23:24:08.509312+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Conor Roycroft",
+      "title": "Director"
+    },
+    {
+      "ordering": 1,
+      "name": "Stacy Connolly",
+      "title": "Assistant Director for Data Visualization and Communications",
+      "linkedin_url": "https://www.linkedin.com/in/stacy-connolly-ba511728"
+    },
+    {
+      "ordering": 2,
+      "name": "John Regan",
+      "title": "Data Mart Manager & Reporting Specialist"
+    },
+    {
+      "ordering": 3,
+      "name": "Jia Seow",
+      "title": "Data Steward and Survey Coordinator",
+      "linkedin_url": "https://www.linkedin.com/in/jiaseow"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/rba13-Common_Data_Set_2025-2026.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/CDS-2024-2025---Final---Revised-01152026.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/CDS-2023-2024---corrected---05302024-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Common-Data-Set-2022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/02_CDS-2021-2022-Final---Rev-05232023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Common-Data-Set-2020-2021-rv05252021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Common-Data-Set-2019-2020-Final-w-Tuition.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2018-2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2017-2018.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2016-2017.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2012-2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2010-2011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2009-2010.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2008-2009.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Common-Data-Set-2007-2008-revised-05112023-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2006-2007-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2005,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2005-2006-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2004,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2004-2005.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2003,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2003-2004-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2002,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2002-2003-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2001,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2001-2002-sa.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2000,
+      "url": "https://www.scu.edu/media/offices/institutional-research/fampf/common-data-set/Compiled-CDS-All-Years-2000-2001.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Facts & Figures - Santa Clara University",
+      "url": "https://www.scu.edu/institutional-research/data/",
+      "summary": "The data dictionary page for Santa Clara University's Facts & Figures includes information on admissions, awards conferred, enrollment, faculty, grade distribution, retention and completion rates, staff, and tuition & cost of attendance. Last updates for various datasets range from 2023 to 2026, with a note on delays in updates due to a transition to the Workday system. It covers enrollment statistics, student and faculty diversity data, academic statistics, and financial information related to tuition and attendance costs.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:22:30.212606+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122931",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:24:10.887497+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Impact 2030: Santa Clara University's Strategic Plan",
+      "url": "https://www.scu.edu/strategicplan/",
+      "summary": "Impact 2030 is Santa Clara University's strategic plan focusing on global outreach, ethical and innovative education, and inclusivity for all talented students. It aims to prepare students for global societal shifts by leveraging Jesuit educational values and addressing today's technological and ethical challenges. The plan builds on recent successes, including increased diversity and high student retention, setting a roadmap for continued excellence and leadership in education.",
+      "stored": false,
+      "fetched_at": "2026-05-25T23:20:37.242817+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Strategic Programs Manager, Office of the Provost - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179398416"
+    },
+    {
+      "title": "Head of Instruction Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179414933"
+    },
+    {
+      "title": "Law Financial Aid and Admissions Data Analyst and Counselor",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179449088&Title=Fixed%20Term%20-%20Law%20Financial%20Aid%20and%20Admissions%20Data%20Analyst%20and%20Counselor"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Brendan Eich",
+      "field": "Computer Science"
+    },
+    {
+      "name": "Khaled Hosseini",
+      "field": "Literature"
+    },
+    {
+      "name": "Leon Panetta",
+      "field": "Politics"
+    },
+    {
+      "name": "Janet Napolitano",
+      "field": "Politics"
+    },
+    {
+      "name": "Jerry Brown",
+      "field": "Politics"
+    },
+    {
+      "name": "Steve Nash",
+      "field": "Athletics"
+    },
+    {
+      "name": "Zoe Lofgren",
+      "field": "Politics"
+    },
+    {
+      "name": "Frank Murkowski",
+      "field": "Politics"
+    },
+    {
+      "name": "Gavin Newsom",
+      "field": "Politics"
+    },
+    {
+      "name": "Jayshree Ullal",
+      "field": "Business"
+    },
+    {
+      "name": "Chris Malachowsky",
+      "field": "Business"
+    },
+    {
+      "name": "Pat Gelsinger",
+      "field": "Business"
+    },
+    {
+      "name": "Paul Laxalt",
+      "field": "Politics"
+    },
+    {
+      "name": "Andy Ackerman",
+      "field": "Television"
+    },
+    {
+      "name": "Shemar Moore",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Bob Miller",
+      "field": "Politics"
+    },
+    {
+      "name": "Reza Aslan",
+      "field": "Literature"
+    },
+    {
+      "name": "Howard Wallace Pollock",
+      "field": "Politics"
+    },
+    {
+      "name": "David Drummond",
+      "field": "Business"
+    },
+    {
+      "name": "Bill Duffy",
+      "field": "Athletics"
+    },
+    {
+      "name": "Brandi Chastain",
+      "field": "Soccer"
+    },
+    {
+      "name": "Julie Ertz",
+      "field": "Soccer"
+    },
+    {
+      "name": "Dan Pastorini",
+      "field": "Football"
+    },
+    {
+      "name": "B.T. Collins",
+      "field": "Politics"
+    },
+    {
+      "name": "Anthony Williams",
+      "field": "Politics"
+    }
+  ]
+}
