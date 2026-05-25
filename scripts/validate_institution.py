@@ -248,32 +248,37 @@ def _check_email_domains(
     contacts: list[dict],
     institution_domain: str | None,
 ) -> None:
-    """Check 3: stored emails must be on the institution's domain.
-    An @gmail.com email on a 'CSU Long Beach IR analyst' is a red flag —
-    typically means the LLM picked up a contact form's reply-to or an
-    external collaborator's email rather than the actual team member's."""
-    if not institution_domain:
-        report.checks.append(CheckResult(
-            "email_domain", True, "no institution domain known",
-        ))
-        return
+    """Check 3: stored emails should be on a legitimate institutional domain.
+
+    The real risk is the LLM picking up a contact form's reply-to going to
+    a personal account (@gmail.com, @yahoo.com, @outlook.com) — that's
+    what we want to flag. Any .edu domain is acceptable: many California
+    community colleges share IR services at the parent district level
+    (rccd.edu, yosemite.edu, cccd.edu, vcccd.edu) and many universities
+    operate multiple legitimate domains (csufresno.edu + fresnostate.edu).
+    Allowing all .edu domains catches the actual hallucination risk
+    without false-flagging legitimate district/system office emails.
+    """
     suspicious: list[str] = []
     for c in contacts:
         email = (c.get("email") or "").lower().strip()
         if not email or "@" not in email:
             continue
         domain = email.split("@", 1)[1]
-        # Allow same registrable domain (handles ir.csulb.edu → csulb.edu)
-        if institution_domain not in domain:
-            suspicious.append(f"{c.get('name','?')} <{email}>")
+        # Any .edu / .gov is institutional. Flag personal / commercial domains.
+        if domain.endswith(".edu") or domain.endswith(".gov"):
+            continue
+        suspicious.append(f"{c.get('name','?')} <{email}>")
     if suspicious:
         report.checks.append(CheckResult(
             "email_domain", False,
-            f"{len(suspicious)} email(s) off-domain: {', '.join(suspicious[:3])}",
+            f"{len(suspicious)} email(s) off-institutional-domain: "
+            f"{', '.join(suspicious[:3])}",
         ))
     else:
         report.checks.append(CheckResult(
-            "email_domain", True, "all stored emails on institution domain",
+            "email_domain", True,
+            "all stored emails on institutional (.edu/.gov) domain",
         ))
 
 
