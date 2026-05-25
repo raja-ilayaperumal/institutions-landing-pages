@@ -1,0 +1,462 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:38:58.346033+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110538,
+    "slug": "california-state-university-chico",
+    "name": "California State University-Chico",
+    "city": "Chico",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95929-0150",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "C4VMQLSU1LF4",
+      "opeid": "00114600",
+      "ein": "951230865"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Chico is a public university in Chico, California, United States. It was founded in 1887 as one of about 180 \"normal schools\" founded by state governments in the 19th century to train teachers for the rapidly growing public common schools. Some closed but most steadily expanded their role and became state colleges in the early 20th century and state universities in the late 20th century. It is the second oldest campus in the California State University system. As of the fall 2020 semester, the university had a total enrollment of 16,630 students. The university offers 126 bachelor's degree programs, 35 master's degree programs, and four types of teaching credentials. Chico is a Hispanic-Serving Institution (HSI).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Chico",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Chico",
+    "fetched_at": "2026-05-25T21:27:28.67759+05:30"
+  },
+  "admissions": {
+    "applicants": 23322,
+    "admits": 21623,
+    "enrolled": 2197,
+    "first_time_freshmen": 2197,
+    "first_time_freshmen_ft": 2151,
+    "admit_rate": 0.9271503301603636,
+    "yield_rate": 0.10160477269574064
+  },
+  "cost": {
+    "avg_net_price": 14838,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0957,
+    "federal_loan_rate": 0.3306,
+    "net_price_by_family_income": {
+      "0_30k": 10045,
+      "30_48k": 10612,
+      "48_75k": 13937,
+      "75_110k": 18380,
+      "110k_plus": 23572
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.63,
+    "grad_4yr_bachelors": 0.36,
+    "grad_5yr_bachelors": 0.57,
+    "grad_6yr_bachelors": 0.63,
+    "pell_grad_rate": 0.55,
+    "pell_6yr_bachelors_rate": 0.55,
+    "non_pell_grad_rate": 0.67,
+    "non_pell_6yr_bachelors": 0.67,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.46
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 15936,
+    "ug_12mo": 14372,
+    "grad_12mo": 14136,
+    "women_12mo": 9074,
+    "men_12mo": 6862,
+    "fall_total": 15257,
+    "fall_full_time": 13792,
+    "fall_part_time": 13631,
+    "distance_ed_any": 15257,
+    "distance_ed_exclusive": 2599
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 576
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 372
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 293
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 290
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 236
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 204
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 202
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 198
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 172
+      }
+    ],
+    "program_count": 89,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 472
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "appalachian-state-university",
+        "name": "Appalachian State University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "boise-state-university",
+        "name": "Boise State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-polytechnic-state-university-san-luis-obispo",
+        "name": "California Polytechnic State University-San Luis Obispo",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-humboldt",
+        "name": "California State Polytechnic University-Humboldt",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "cuny-bernard-m-baruch-college",
+        "name": "CUNY Bernard M Baruch College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuny-hunter-college",
+        "name": "CUNY Hunter College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "eastern-michigan-university",
+        "name": "Eastern Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "georgia-southern-university",
+        "name": "Georgia Southern University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "grand-valley-state-university",
+        "name": "Grand Valley State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "james-madison-university",
+        "name": "James Madison University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "missouri-state-university-springfield",
+        "name": "Missouri State University-Springfield",
+        "state": "Missouri",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "northwest-missouri-state-university",
+        "name": "Northwest Missouri State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "saint-cloud-state-university",
+        "name": "Saint Cloud State University",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "southeastern-louisiana-university",
+        "name": "Southeastern Louisiana University",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "texas-state-university",
+        "name": "Texas State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-san-antonio",
+        "name": "The University of Texas at San Antonio",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-charlotte",
+        "name": "University of North Carolina at Charlotte",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "western-kentucky-university",
+        "name": "Western Kentucky University",
+        "state": "Kentucky",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "western-washington-university",
+        "name": "Western Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csuchico.edu/ir/",
+    "office_name": "Office of Institutional Research and Strategic Analytics",
+    "summary": "We believe that data is only as valuable as the decisions it enables.",
+    "phone": "530-898-5623",
+    "email": "ir@csuchico.edu",
+    "address": "Butte Hall, 613, 400 West First Street, Chico, CA 95929-0850",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:27:23.705408+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2024.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2022.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.csuchico.edu/ir/fact-book/index.shtml",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:25:56.670692+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Fact Book – Institutional Research and Strategic Analytics – Chico State",
+      "url": "https://www.csuchico.edu/ir/fact-book/index.shtml",
+      "summary": "The Fact Book is a comprehensive and interactive source of data about California State University-Chico, encompassing various aspects such as student applications, retention, persistence, graduation, degrees conferred, course grades, and diversity measures. Its dashboards are periodically updated with data derived from official reporting to the CSU System Office and Department of Education. The Fact Book is a valuable tool for gaining insights into the university's diverse and dynamic community.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:25:29.363508+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110538",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:27:30.473633+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "title": "Fact Book – Institutional Research and Strategic Analytics – Chico State",
+      "url": "https://www.csuchico.edu/ir/fact-book/index.shtml",
+      "summary": "The Fact Book is a comprehensive and interactive source of data and information about California State University-Chico. It provides insights into the university's students, faculty, and programs, covering topics such as applications, retention, persistence, graduation, degrees conferred, course grades, and diversity measures. The data are sourced from official reporting to the CSU System Office and Department of Education, with dashboards updated periodically for accuracy.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:23:31.104918+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "December 2019 - Underrepresented Minority (URM) and First Generation – Institutional Research and Strategic Analytics – Chico State",
+      "url": "https://www.csuchico.edu/ir/by-the-numbers/urm-first-generation-definitions.shtml",
+      "summary": "The page on Chico State's Institutional Research and Strategic Analytics site provides definitions for 'Underrepresented Minority (URM)' and 'First Generation' students. URM refers to U.S. citizens identifying as Black/African American, Hispanic/Latino, or American Indian, while First Generation pertains to students whose parents have not received a baccalaureate degree. The focus is on addressing the needs and challenges faced by these historically underserved student groups to improve their academic success.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:25:11.433163+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Strategic Plan 2024 — Chico State",
+      "url": "https://www.csuchico.edu/about/office/president/initiatives/playbook.shtml",
+      "summary": "The Chico State Playbook serves as the institution's new strategic plan, focusing on organizational health and immediate decision-making through a concise document. It centers around engaging students in immersive learning experiences, fostering an inclusive and rewarding environment, and serving as a community resource. Spearheaded by President Perez and guided by values of connection, excellence, inspiration, and innovation, the Playbook sets out to shape Chico State's path forward from 2024 onward.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:24:38.453025+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Nicole Brown"
+    },
+    {
+      "name": "Leland \"Lee\" Bucknell"
+    },
+    {
+      "name": "Jaymes Clements"
+    },
+    {
+      "name": "Jeff DeFranco"
+    },
+    {
+      "name": "Frank Nigro Jr."
+    },
+    {
+      "name": "Joseph Rothschild"
+    },
+    {
+      "name": "Weston Sousa"
+    }
+  ]
+}

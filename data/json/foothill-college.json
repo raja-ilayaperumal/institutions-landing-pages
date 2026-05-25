@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:39:02.259476+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114716,
+    "slug": "foothill-college",
+    "name": "Foothill College",
+    "city": "Los Altos Hills",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94022",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "F9AQH2LNQ6B3",
+      "opeid": "00119900",
+      "ein": "941597718"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Foothill College is a public community college in Los Altos Hills, California. It is part of the Foothill–De Anza Community College District. It was founded on January 15, 1957, and offers 84 associate degree programs, two bachelor's degree programs, and 124 certificate programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Foothill_College",
+    "source_url": "https://en.wikipedia.org/wiki/Foothill_College",
+    "fetched_at": "2026-05-25T21:45:49.794572+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7549,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7608,
+    "federal_loan_rate": 0.0238,
+    "net_price_by_family_income": {
+      "0_30k": 6428,
+      "30_48k": 7045,
+      "48_75k": 9954,
+      "75_110k": 11391,
+      "110k_plus": 14191
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.56,
+    "pell_grad_rate": 0.6,
+    "non_pell_grad_rate": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 24501,
+    "ug_12mo": 24501,
+    "grad_12mo": 19950,
+    "women_12mo": 12096,
+    "men_12mo": 12405,
+    "fall_total": 12949,
+    "fall_full_time": 12949,
+    "fall_part_time": 11137,
+    "distance_ed_any": 12949,
+    "distance_ed_exclusive": 5985
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 191
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 98
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 91
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 53
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 35
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 24
+      }
+    ],
+    "program_count": 90,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 173
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "berkeley-city-college",
+        "name": "Berkeley City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-college-of-san-francisco",
+        "name": "City College of San Francisco",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-san-mateo",
+        "name": "College of San Mateo",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "de-anza-college",
+        "name": "De Anza College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "laney-college",
+        "name": "Laney College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "merritt-college",
+        "name": "Merritt College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "ohlone-college",
+        "name": "Ohlone College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "skyline-college",
+        "name": "Skyline College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://foothill.edu/irp/index.html",
+    "office_name": "Office of Institutional Research and Planning",
+    "summary": "The Institutional Research and Planning homepage for Foothill College is currently under construction. It invites visitors to check back soon for updates and to provide feedback on how the website can be improved. The physical address and phone number for Foothill College are provided.",
+    "address": "12345 El Monte Road, Los Altos, CA 94022",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:45:48.783308+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114716",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:45:51.049879+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Research Analyst",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179426144"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Adrienne Barbeau",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adrienne_Barbeau",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Gene Block",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gene_Block",
+      "field": "Academia"
+    },
+    {
+      "name": "Chrisann Brennan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chrisann_Brennan",
+      "field": "Art"
+    },
+    {
+      "name": "Rosalind Creasy",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rosalind_Creasy",
+      "field": "Horticulture"
+    },
+    {
+      "name": "Kirill Dmitriev",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kirill_Dmitriev",
+      "field": "Business"
+    },
+    {
+      "name": "Debbi Fields",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Debbi_Fields",
+      "field": "Business"
+    },
+    {
+      "name": "Brad Gilbert",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Gilbert",
+      "field": "Sports"
+    },
+    {
+      "name": "Andrew Huberman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Huberman",
+      "field": "Science"
+    },
+    {
+      "name": "Linda J. LeZotte",
+      "field": "Politics"
+    },
+    {
+      "name": "Brennan Marion",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brennan_Marion",
+      "field": "Sports"
+    },
+    {
+      "name": "Jon Nakamatsu",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jon_Nakamatsu",
+      "field": "Music"
+    },
+    {
+      "name": "Juice Newton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Juice_Newton",
+      "field": "Music"
+    },
+    {
+      "name": "Hal Plotkin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hal_Plotkin",
+      "field": "Education"
+    },
+    {
+      "name": "Chris Robinson (director)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Robinson_(director)",
+      "field": "Film"
+    },
+    {
+      "name": "Doug Robinson (climber)",
+      "field": "Sports"
+    },
+    {
+      "name": "Fern M. Smith",
+      "field": "Law"
+    },
+    {
+      "name": "Josh Urbiztondo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Urbiztondo",
+      "field": "Sports"
+    },
+    {
+      "name": "Luc-Arthur Vebobe",
+      "field": "Sports"
+    },
+    {
+      "name": "Flo Oy Wong",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Flo_Oy_Wong",
+      "field": "Art"
+    }
+  ]
+}

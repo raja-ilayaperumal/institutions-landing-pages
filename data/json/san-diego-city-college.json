@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:39:01.553896+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122339,
+    "slug": "san-diego-city-college",
+    "name": "San Diego City College",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92101-4787",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HETNEH3VWDD8",
+      "opeid": "00127300",
+      "ein": "952644299"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Diego City College is a public community college in San Diego, California. It is part of San Diego Community College District and the California Community Colleges system. The college is accredited by the Accrediting Commission for Community and Junior Colleges (ACCJC).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Diego_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Diego_City_College",
+    "fetched_at": "2026-05-25T21:38:35.406472+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": -818,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.8141,
+    "federal_loan_rate": 0.0114,
+    "net_price_by_family_income": {
+      "0_30k": -2781,
+      "30_48k": 1062,
+      "48_75k": 5397,
+      "75_110k": 5890,
+      "110k_plus": 8057
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.3,
+    "pell_grad_rate": 0.3,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.61,
+    "retention_part_time": 0.36
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 21460,
+    "ug_12mo": 21460,
+    "grad_12mo": 17729,
+    "women_12mo": 11646,
+    "men_12mo": 9814,
+    "fall_total": 13242,
+    "fall_full_time": 13242,
+    "fall_part_time": 10441,
+    "distance_ed_any": 13242,
+    "distance_ed_exclusive": 4533
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 177
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 85
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 82
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 73
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 64
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 51
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 45
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 41
+      }
+    ],
+    "program_count": 83,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 179
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "anoka-ramsey-community-college",
+        "name": "Anoka-Ramsey Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "brightpoint-community-college",
+        "name": "Brightpoint Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "camden-county-college",
+        "name": "Camden County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-harry-s-truman-college",
+        "name": "City Colleges of Chicago-Harry S Truman College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-wilbur-wright-college",
+        "name": "City Colleges of Chicago-Wilbur Wright College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "clovis-community-college-2",
+        "name": "Clovis Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "coastline-community-college",
+        "name": "Coastline Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-lake-county",
+        "name": "College of Lake County",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "college-of-western-idaho",
+        "name": "College of Western Idaho",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "community-college-of-aurora",
+        "name": "Community College of Aurora",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "illinois-central-college",
+        "name": "Illinois Central College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "johnson-county-community-college",
+        "name": "Johnson County Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "lane-community-college",
+        "name": "Lane Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-city-college",
+        "name": "Los Angeles City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-mission-college",
+        "name": "Los Angeles Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mchenry-county-college",
+        "name": "McHenry County College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mclennan-community-college",
+        "name": "McLennan Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "mohawk-valley-community-college",
+        "name": "Mohawk Valley Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "normandale-community-college",
+        "name": "Normandale Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "oakton-college",
+        "name": "Oakton College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "ocean-county-college",
+        "name": "Ocean County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "palo-alto-college",
+        "name": "Palo Alto College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "pima-community-college",
+        "name": "Pima Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "scottsdale-community-college",
+        "name": "Scottsdale Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "texas-southmost-college",
+        "name": "Texas Southmost College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "washtenaw-community-college",
+        "name": "Washtenaw Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "wayne-county-community-college-district",
+        "name": "Wayne County Community College District",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "william-rainey-harper-college",
+        "name": "William Rainey Harper College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.sdcity.edu/about/institutional-effectiveness/research/index.aspx",
+    "office_name": "Office of Institutional Research",
+    "summary": "The purpose of the Office of Institutional Research at San Diego City College is to promote a culture of evidence and inquiry at the college through the production of data and evidence for use in institutional assessment, planning, and improving student learning.",
+    "phone": "619-388-3400",
+    "address": "1313 Park Boulevard, San Diego, CA 92101-4787",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:38:33.402856+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.sdcity.edu/about/institutional-effectiveness/research/data-dashboards.aspx",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:38:23.689242+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122339",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:38:38.296646+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "San Diego City College Strategic Plan",
+      "url": "https://www.sdcity.edu/about/mission-priorities/strategic-planning.aspx",
+      "summary": "San Diego City College’s Strategic Plan, updated in May 2022 and ratified by the SDCCD Board of Trustees in October 2022, outlines the institution's agenda for 2022-2029. It focuses on fostering compassionate connections, promoting social justice and equity, and enhancing professional development. The plan also emphasizes building philanthropy and partnerships, alongside effective planning and prioritization processes.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:35:34.880557+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "City College General Scholarship",
+      "agency": "San Diego City College",
+      "kind": "opportunity",
+      "url": "https://www.sdcity.edu/students/scholarships/index.aspx",
+      "source": "institution_site"
+    },
+    {
+      "title": "Horticulture Scholarship",
+      "agency": "San Diego City College",
+      "kind": "opportunity",
+      "url": "https://www.sdcity.edu/students/scholarships/index.aspx",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Frank Curran",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Frank_Curran_(politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Katya Echazarreta",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Katya_Echazarreta"
+    },
+    {
+      "name": "Adrian Garcia Marquez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adrian_Garcia_Marquez"
+    },
+    {
+      "name": "Annette P. Jimerson"
+    },
+    {
+      "name": "Paul Le Mat",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Le_Mat",
+      "field": "Film"
+    },
+    {
+      "name": "Lou Niles"
+    },
+    {
+      "name": "Raycen Raines"
+    },
+    {
+      "name": "Edmundo Rodriguez"
+    }
+  ]
+}

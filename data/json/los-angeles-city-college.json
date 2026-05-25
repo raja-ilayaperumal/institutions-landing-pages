@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:38:58.996976+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117788,
+    "slug": "los-angeles-city-college",
+    "name": "Los Angeles City College",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90029",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "F8FNW7UGTMT7",
+      "opeid": "00122300",
+      "ein": "952587353"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles City College (LACC) is a public community college in Los Angeles, California, United States. It is part of the Los Angeles Community College District, and serves Hollywood and it's surrounding neighborhoods. It is located on Vermont Avenue south of Santa Monica Boulevard on the former campus of the University of California, Los Angeles (UCLA) in East Hollywood. From 1947 to 1955, the college shared its campus with California State University, Los Angeles, then known as Los Angeles State College of Applied Arts and Sciences (LASCAAS), before the university moved to its present campus of 175 acres (71 ha) in the northeastern section of the City of Los Angeles, 5 miles (8 km) east of the Civic Center.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_City_College",
+    "fetched_at": "2026-05-25T21:26:32.971061+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7532,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7522,
+    "federal_loan_rate": 0.0344,
+    "net_price_by_family_income": {
+      "0_30k": 7229,
+      "30_48k": 7258,
+      "48_75k": 10294,
+      "75_110k": 12219,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.29,
+    "pell_grad_rate": 0.31,
+    "non_pell_grad_rate": 0.5,
+    "retention_full_time": 0.67,
+    "retention_part_time": 0.27
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 25304,
+    "ug_12mo": 25304,
+    "grad_12mo": 19526,
+    "women_12mo": 14569,
+    "men_12mo": 10735,
+    "fall_total": 14611,
+    "fall_full_time": 14611,
+    "fall_part_time": 11198,
+    "distance_ed_any": 14611,
+    "distance_ed_exclusive": 7808
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 543
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 219
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 203
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 92
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 63
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 47
+      }
+    ],
+    "program_count": 82,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 173
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "anoka-ramsey-community-college",
+        "name": "Anoka-Ramsey Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "brightpoint-community-college",
+        "name": "Brightpoint Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "camden-county-college",
+        "name": "Camden County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-harry-s-truman-college",
+        "name": "City Colleges of Chicago-Harry S Truman College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-colleges-of-chicago-wilbur-wright-college",
+        "name": "City Colleges of Chicago-Wilbur Wright College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "clovis-community-college-2",
+        "name": "Clovis Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "coastline-community-college",
+        "name": "Coastline Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-lake-county",
+        "name": "College of Lake County",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "college-of-western-idaho",
+        "name": "College of Western Idaho",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "community-college-of-aurora",
+        "name": "Community College of Aurora",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "illinois-central-college",
+        "name": "Illinois Central College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "johnson-county-community-college",
+        "name": "Johnson County Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "lane-community-college",
+        "name": "Lane Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-mission-college",
+        "name": "Los Angeles Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "mchenry-county-college",
+        "name": "McHenry County College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mclennan-community-college",
+        "name": "McLennan Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mohawk-valley-community-college",
+        "name": "Mohawk Valley Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "normandale-community-college",
+        "name": "Normandale Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "oakton-college",
+        "name": "Oakton College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "ocean-county-college",
+        "name": "Ocean County College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "palo-alto-college",
+        "name": "Palo Alto College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "pima-community-college",
+        "name": "Pima Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "scottsdale-community-college",
+        "name": "Scottsdale Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "texas-southmost-college",
+        "name": "Texas Southmost College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "washtenaw-community-college",
+        "name": "Washtenaw Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "wayne-county-community-college-district",
+        "name": "Wayne County Community College District",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "william-rainey-harper-college",
+        "name": "William Rainey Harper College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.laccd.edu/offices/epie/dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:25:58.33436+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117788",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:26:34.232508+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Frank Gehry",
+      "field": "Architecture"
+    },
+    {
+      "name": "Lawrence Klein",
+      "field": "Economics"
+    },
+    {
+      "name": "Kerry James Marshall",
+      "field": "Art"
+    },
+    {
+      "name": "Carolyn See",
+      "field": "Literature"
+    },
+    {
+      "name": "Alvin Ailey",
+      "field": "Dance"
+    },
+    {
+      "name": "Susan Ahn Cuddy",
+      "field": "Military"
+    },
+    {
+      "name": "Jerry Leiber",
+      "field": "Music"
+    },
+    {
+      "name": "Mike Stoller",
+      "field": "Music"
+    },
+    {
+      "name": "Diane Watson",
+      "field": "Politics"
+    },
+    {
+      "name": "Odetta",
+      "field": "Music"
+    },
+    {
+      "name": "Murray Fromson",
+      "field": "Journalism"
+    },
+    {
+      "name": "Lebo Morake",
+      "field": "Music"
+    },
+    {
+      "name": "Gene Roddenberry",
+      "field": "Television"
+    },
+    {
+      "name": "Les McCann",
+      "field": "Music"
+    },
+    {
+      "name": "Nick Beck",
+      "field": "Journalism"
+    },
+    {
+      "name": "John Branca",
+      "field": "Law"
+    },
+    {
+      "name": "Morgan Freeman",
+      "field": "Acting"
+    },
+    {
+      "name": "Mark Hamill",
+      "field": "Acting"
+    },
+    {
+      "name": "Albert Hughes",
+      "field": "Film"
+    },
+    {
+      "name": "Jerry Goldsmith",
+      "field": "Music"
+    },
+    {
+      "name": "Terry McMillan",
+      "field": "Literature"
+    },
+    {
+      "name": "Tony Valdez",
+      "field": "Journalism"
+    },
+    {
+      "name": "Esther Williams",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Tom LaBonge",
+      "field": "Politics"
+    },
+    {
+      "name": "Richard Pink",
+      "field": "Business"
+    },
+    {
+      "name": "John Williams",
+      "field": "Music"
+    }
+  ]
+}

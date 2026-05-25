@@ -1,0 +1,612 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:38:58.669191+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110547,
+    "slug": "california-state-university-dominguez-hills",
+    "name": "California State University-Dominguez Hills",
+    "city": "Carson",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90747-0005",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HMW5V5LQY617",
+      "opeid": "00114100",
+      "ein": "931043787"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Dominguez Hills is a public university in Carson, California. It was founded in 1960 and is part of the California State University (CSU) system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Dominguez_Hills",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Dominguez_Hills",
+    "fetched_at": "2026-05-25T21:27:31.502816+05:30"
+  },
+  "admissions": {
+    "applicants": 19921,
+    "admits": 18586,
+    "enrolled": 1732,
+    "first_time_freshmen": 1732,
+    "first_time_freshmen_ft": 1627,
+    "admit_rate": 0.9329852919030169,
+    "yield_rate": 0.09318842139244593
+  },
+  "cost": {
+    "avg_net_price": 3659,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.2463,
+    "federal_loan_rate": 0.1956,
+    "net_price_by_family_income": {
+      "0_30k": 2624,
+      "30_48k": 2970,
+      "48_75k": 4942,
+      "75_110k": 8028,
+      "110k_plus": 12878
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.43,
+    "grad_4yr_bachelors": 0.2,
+    "grad_5yr_bachelors": 0.36,
+    "grad_6yr_bachelors": 0.43,
+    "pell_grad_rate": 0.42,
+    "pell_6yr_bachelors_rate": 0.42,
+    "non_pell_grad_rate": 0.51,
+    "non_pell_6yr_bachelors": 0.51,
+    "retention_full_time": 0.74,
+    "retention_part_time": 0.36
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 17196,
+    "ug_12mo": 14280,
+    "grad_12mo": 14117,
+    "women_12mo": 10555,
+    "men_12mo": 6641,
+    "fall_total": 15182,
+    "fall_full_time": 12632,
+    "fall_part_time": 12538,
+    "distance_ed_any": 15182,
+    "distance_ed_exclusive": 2003
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 587
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 508
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 499
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 413
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 283
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 247
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 239
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 170
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 135
+      }
+    ],
+    "program_count": 79,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 422
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "appalachian-state-university",
+        "name": "Appalachian State University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-polytechnic-state-university-san-luis-obispo",
+        "name": "California Polytechnic State University-San Luis Obispo",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "cuny-bernard-m-baruch-college",
+        "name": "CUNY Bernard M Baruch College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "cuny-brooklyn-college",
+        "name": "CUNY Brooklyn College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "cuny-hunter-college",
+        "name": "CUNY Hunter College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "cuny-john-jay-college-of-criminal-justice",
+        "name": "CUNY John Jay College of Criminal Justice",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "cuny-lehman-college",
+        "name": "CUNY Lehman College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "cuny-queens-college",
+        "name": "CUNY Queens College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "eastern-washington-university",
+        "name": "Eastern Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "metropolitan-state-university-of-denver",
+        "name": "Metropolitan State University of Denver",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "minnesota-state-university-mankato",
+        "name": "Minnesota State University-Mankato",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "pennsylvania-western-university",
+        "name": "Pennsylvania Western University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "southeastern-louisiana-university",
+        "name": "Southeastern Louisiana University",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "towson-university",
+        "name": "Towson University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "troy-university",
+        "name": "Troy University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston-downtown",
+        "name": "University of Houston-Downtown",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-north-georgia",
+        "name": "University of North Georgia",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "western-washington-university",
+        "name": "Western Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csudh.edu/uepa/",
+    "office_name": "University Effectiveness, Planning, & Analytics",
+    "parent_division": "Administration",
+    "summary": "UEPA organizes, evaluates, assesses, and supports improvement to operations, initiatives, and efforts so that the university can determine how well it is fulfilling its mission and achieving its goals. The office supports the development of systematic processes and tools to measure organizational performance, improve transparency, and build a culture of evidence-based decision making.",
+    "phone": "310-243-3696",
+    "address": "1000 E. Victoria Street, Carson, CA 90747",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:27:29.213204+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ryan Weitzman, Ed.D.",
+      "title": "Director, Institutional Research",
+      "email": "rweitzman@csudh.edu",
+      "phone": "310-243-1017",
+      "linkedin_url": "https://www.linkedin.com/in/rweitzman"
+    },
+    {
+      "ordering": 1,
+      "name": "Jamin Butler",
+      "title": "Senior Analyst of Academic Resource Reporting",
+      "email": "jbutler49@csudh.edu",
+      "phone": "310-243-3915"
+    },
+    {
+      "ordering": 2,
+      "name": "Matthew Gold",
+      "title": "Research Analyst",
+      "email": "mgold@csudh.edu",
+      "phone": "310-243-3416"
+    },
+    {
+      "ordering": 3,
+      "name": "Michael Ferris",
+      "title": "Geographic Information Systems Data Analyst",
+      "email": "mferris@csudh.edu",
+      "phone": "310-243-3405"
+    },
+    {
+      "ordering": 4,
+      "name": "Krystal Rawls, Ph.D.",
+      "title": "Director, Workforce Integration Network",
+      "email": "kmrawls@csudh.edu",
+      "phone": "310-243-3283"
+    },
+    {
+      "ordering": 5,
+      "name": "Kawena Deocampo",
+      "title": "Senior Business Intelligence Analyst",
+      "email": "kdeocampo@csudh.edu",
+      "phone": "310-243-3283"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2022,
+      "url": "https://www.csudh.edu/Assets/csudh-sites/uepa/docs/student-data/CDS_2022-2023%20FINAL.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110547",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:27:32.663575+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "CSUDH Strategic Plan, 'Going Far Together'",
+      "url": "https://www.csudh.edu/president/strategic-planning/",
+      "summary": "The CSUDH Strategic Plan, titled 'Going Far Together,' aims to establish the university as a socially just, equitable, and inclusive model urban university. The plan is built upon the pillars of 'Learn Together' and 'Thrive Together' and commits to empowering students, faculty, and staff while fostering academic excellence and equitable access. By encouraging collaboration and innovative solutions, CSUDH intends to become a national model for a socially just and inclusive metropolitan university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:22:38.083184+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Accelerating the Pace of Substance Use Research Using Existing Data (R01)",
+      "agency": "National Institutes of Health",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Accelerating the Pace of Substance Use Research Using Existing Data (R21)",
+      "agency": "National Institutes of Health",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Archival Grants",
+      "agency": "The Haynes Foundation",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Curriculum Development: Western Civilization",
+      "agency": "National Endowment for the Humanities",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Early Career Research Program",
+      "agency": "U.S. Department of Energy",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry (NSF FINDERS FOUNDRY)",
+      "agency": "National Science Foundation",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Governance and Democracy in the Los Angeles Region",
+      "agency": "The Haynes Foundation",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Grants for Arts Projects",
+      "agency": "National Endowment for the Arts",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Housing Policy Research Grant",
+      "agency": "U.S. Department of Housing and Urban Development",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Landmarks of American History and Culture and Summer Institutes",
+      "agency": "National Endowment for the Humanities",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Learning Innovation for Future-Forward Teaching (LIFT)",
+      "agency": "CSU Chancellor's Office",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Media Projects",
+      "agency": "National Endowment for the Humanities",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Science Education Partnership Award (R25)",
+      "agency": "National Institutes of Health",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Teacher Quality Partnership Program",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Educational Component of the National Cooperative Geologic Mapping Program",
+      "agency": "U.S. Geological Survey",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Urban Greening 2026",
+      "agency": "CA Natural Resources Agency",
+      "kind": "opportunity",
+      "url": "https://www.csudh.edu/gsr/research/funding/external-funding-opportunities/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Karen Bass",
+      "field": "Politics"
+    },
+    {
+      "name": "Carmelita Jeter",
+      "field": "Athletics"
+    },
+    {
+      "name": "John Langley",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Jerome Horton",
+      "field": "Politics"
+    },
+    {
+      "name": "Lela Rochon",
+      "field": "Entertainment"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:39:04.432776+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110574,
+    "slug": "california-state-university-east-bay",
+    "name": "California State University-East Bay",
+    "city": "Hayward",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94542",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XB4KBLWF4LA5",
+      "opeid": "00113800",
+      "ein": "946390556"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, East Bay is a public university in Hayward, California, United States. The university is part of the California State University system and offers 136 undergraduate and 60 post-baccalaureate areas of study. Founded in 1957, California State University, East Bay had a student body of approximately 11,544 as of Spring 2025. As of Fall 2024, it had 760 faculty. The university's largest and oldest college campus is located in Hayward, with additional centers in the nearby cities of Oakland and Concord.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_East_Bay",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_East_Bay",
+    "fetched_at": "2026-05-25T22:03:05.41899+05:30"
+  },
+  "admissions": {
+    "applicants": 11867,
+    "admits": 11557,
+    "enrolled": 792,
+    "first_time_freshmen": 792,
+    "first_time_freshmen_ft": 767,
+    "admit_rate": 0.9738771382826326,
+    "yield_rate": 0.06852989530154885
+  },
+  "cost": {
+    "avg_net_price": 11276,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.2361,
+    "federal_loan_rate": 0.2857,
+    "net_price_by_family_income": {
+      "0_30k": 8059,
+      "30_48k": 8500,
+      "48_75k": 11087,
+      "75_110k": 15190,
+      "110k_plus": 20930
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.48,
+    "grad_4yr_bachelors": 0.22,
+    "grad_5yr_bachelors": 0.41,
+    "grad_6yr_bachelors": 0.48,
+    "pell_grad_rate": 0.43,
+    "pell_6yr_bachelors_rate": 0.43,
+    "non_pell_grad_rate": 0.51,
+    "non_pell_6yr_bachelors": 0.51,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.68
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 15103,
+    "ug_12mo": 12028,
+    "grad_12mo": 11788,
+    "women_12mo": 8984,
+    "men_12mo": 6119,
+    "fall_total": 12326,
+    "fall_full_time": 9909,
+    "fall_part_time": 9809,
+    "distance_ed_any": 12326,
+    "distance_ed_exclusive": 4497
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1146
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 488
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 373
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 311
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 250
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 236
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 232
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 173
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 166
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 125
+      }
+    ],
+    "program_count": 75,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 337
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arkansas-state-university",
+        "name": "Arkansas State University",
+        "state": "Arkansas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "bowling-green-state-university-main-campus",
+        "name": "Bowling Green State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "central-michigan-university",
+        "name": "Central Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "cleveland-state-university",
+        "name": "Cleveland State University",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "cuny-city-college",
+        "name": "CUNY City College",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "east-tennessee-state-university",
+        "name": "East Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "eastern-michigan-university",
+        "name": "Eastern Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "marshall-university",
+        "name": "Marshall University",
+        "state": "West Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "new-mexico-state-university-main-campus",
+        "name": "New Mexico State University-Main Campus",
+        "state": "New Mexico",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "north-carolina-a-t-state-university",
+        "name": "North Carolina A & T State University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "northern-illinois-university",
+        "name": "Northern Illinois University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "oakland-university",
+        "name": "Oakland University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "rutgers-university-newark",
+        "name": "Rutgers University-Newark",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "southern-illinois-university-carbondale",
+        "name": "Southern Illinois University-Carbondale",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "tarleton-state-university",
+        "name": "Tarleton State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "texas-a-m-university-corpus-christi",
+        "name": "Texas A & M University-Corpus Christi",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-akron-main-campus",
+        "name": "University of Akron Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-colorado-colorado-springs",
+        "name": "University of Colorado Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-massachusetts-boston",
+        "name": "University of Massachusetts-Boston",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-massachusetts-lowell",
+        "name": "University of Massachusetts-Lowell",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-missouri-kansas-city",
+        "name": "University of Missouri-Kansas City",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-nebraska-at-omaha",
+        "name": "University of Nebraska at Omaha",
+        "state": "Nebraska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-north-dakota",
+        "name": "University of North Dakota",
+        "state": "North Dakota",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-north-florida",
+        "name": "University of North Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-south-alabama",
+        "name": "University of South Alabama",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-toledo",
+        "name": "University of Toledo",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-vermont",
+        "name": "University of Vermont",
+        "state": "Vermont",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-wyoming",
+        "name": "University of Wyoming",
+        "state": "Wyoming",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "western-michigan-university",
+        "name": "Western Michigan University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "wichita-state-university",
+        "name": "Wichita State University",
+        "state": "Kansas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csueastbay.edu/ir/",
+    "office_name": "Institutional Effectiveness & Research",
+    "summary": "The mission of Institutional Effectiveness & Research is to provide timely, systematic, and insightful data and analysis that supports University planning, informs policy and decision-making, aligns resources allocation, and assesses institutional effectiveness. This office is committed to building a culture of inquiry, collegiality, accountability, and equity to support the University mission and students’ success.",
+    "email": "ier@csueastbay.edu",
+    "address": "25800 Carlos Bee Boulevard, Hayward, CA 94542",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T22:03:04.285219+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Kevin Gin, Ph.D.",
+      "title": "Associate Director",
+      "email": "kevin.gin@csueastbay.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Eun Rhee, Ph.D.",
+      "title": "Research Associate",
+      "email": "eun.rhee@csueastbay.edu"
+    },
+    {
+      "ordering": 2,
+      "name": "Jianhua Zhang",
+      "title": "Research Associate",
+      "email": "jianhua.zhang@csueastbay.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Noah Bender, Ph.D.",
+      "title": "Research Associate",
+      "email": "noah.bender@csueastbay.edu"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://analytics.csueastbay.edu",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:02:40.396865+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110574",
+      "stored": false,
+      "fetched_at": "2026-05-25T22:03:06.585142+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Future Directions: A Strategic Planning Initiative",
+      "url": "https://www.csueastbay.edu/futuredirections/",
+      "summary": "The strategic plan for California State University, East Bay reaffirms the institution's values and vision, focusing on student success and social justice. It outlines priorities such as enhancing student experience, fostering a culture of belonging, and supporting innovative research. The plan was developed with input from the university community and aims to provide clear directions for future progress.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:55:39.160852+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "DISARC Coordinator - SSP II (Temporary) - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179181197"
+    },
+    {
+      "title": "Housing Coordinator (Temporary) - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179358670"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Research, Scholarship, and Creative Activity (RSCA) Grant Program",
+      "agency": "California State University-East Bay",
+      "kind": "opportunity",
+      "url": "https://www.csueastbay.edu/orsp/pre-award/rsca-grant-program.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Blake Nakamura",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Dr. Lisa Hill",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Tanzanika Carter",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Roderick Reyes",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Ryan Cantrell",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Matt Warren",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Amanda Geipe",
+      "field": "Employment Services"
+    },
+    {
+      "name": "Kristen Brand (Parks)",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Jonathan Brand",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Trevor Lilian",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Garth Langely",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Bridget Blount",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Miledrea Stubbs",
+      "field": "Therapy"
+    },
+    {
+      "name": "Kevin Halm",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Jose Barajas",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Ariel Richards",
+      "field": "Social Work"
+    },
+    {
+      "name": "Jeff Liu",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "Mohammad Barakat",
+      "field": "Criminal Justice"
+    },
+    {
+      "name": "DeAnna Thieme",
+      "field": "Victim Advocacy"
+    }
+  ]
+}

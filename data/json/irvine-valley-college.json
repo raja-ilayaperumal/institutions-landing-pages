@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T16:39:01.879215+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 116439,
+    "slug": "irvine-valley-college",
+    "name": "Irvine Valley College",
+    "city": "Irvine",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92618-0301",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "V5HWVETNW648",
+      "opeid": "02539500",
+      "ein": "952479872"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Irvine Valley College is a public community college in Irvine, California. It is part of the California Community Colleges system. The college inherited its name from the Irvine family and the Irvine Company that were key in the development of the city of Irvine. Opened in 1979 as Saddleback College North Campus, Irvine Valley College received its current name and independent status in July 1985 by the South Orange County Community College District. In July 1988, the college received its first accreditation as a separate institution by the Accrediting Commission for Community and Junior Colleges. The school provides associate of art and science degrees, certificates of achievement, and lower-division transferable courses to other colleges and universities. It enrolls nearly 13,000 students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Irvine_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Irvine_Valley_College",
+    "fetched_at": "2026-05-25T21:42:01.960815+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1886,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5388,
+    "federal_loan_rate": 0.009,
+    "net_price_by_family_income": {
+      "0_30k": 638,
+      "30_48k": 1069,
+      "48_75k": 4518,
+      "75_110k": 8024,
+      "110k_plus": 8170
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.57,
+    "pell_grad_rate": 0.52,
+    "non_pell_grad_rate": 0.67,
+    "retention_full_time": 0.79,
+    "retention_part_time": 0.44
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 17862,
+    "ug_12mo": 17862,
+    "grad_12mo": 13882,
+    "women_12mo": 8921,
+    "men_12mo": 8941,
+    "fall_total": 13018,
+    "fall_full_time": 13018,
+    "fall_part_time": 10286,
+    "distance_ed_any": 13018,
+    "distance_ed_exclusive": 4924
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 1273
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 355
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 266
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 166
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 135
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 86
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 38
+      }
+    ],
+    "program_count": 113,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 31.0,
+    "instr_total_fte": 156
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "coastline-community-college",
+        "name": "Coastline Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.ivc.edu/research",
+    "office_name": "Office of Research, Planning and Accreditation",
+    "parent_division": "South Orange County Community College District",
+    "summary": "The Office of Research, Planning and Accreditation fosters continuous quality improvement of student learning at Irvine Valley College by providing innovative, timely, relevant, and accurate information that drives college decision-making.",
+    "phone": "949-451-5100",
+    "address": "5500 Irvine Center Drive, Irvine CA, 92618",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:42:00.93244+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.ivc.edu/research/dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:41:03.192644+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=116439",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:42:03.201474+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Irvine Valley College Institutional Research Glossary",
+      "url": "https://www.ivc.edu/research/glossary",
+      "summary": "The Glossary of Terms from Irvine Valley College offers definitions related to institutional research and educational metrics, providing insights into terms like Enrollment, FTEF, FTES, Productivity, Program Review, and Retention at both course and institutional levels. It also distinguishes between qualitative and quantitative research methods, highlights concepts such as Disproportionate Impact and Throughput Rate, and defines essential academic terms like Learning Outcomes and Headcount, crucial for evaluating educational goals and performance metrics.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:39:44.34431+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Inspire 2035: SOCCCD Strategic Plan",
+      "url": "https://www.ivc.edu/president/planning",
+      "summary": "The Irvine Valley College strategic plan, 'Inspire 2035', outlines the South Orange County Community College District's vision for the next decade. With a focus on incorporating technology and infrastructure improvements, the plan is designed to enhance educational offerings and community engagement. It sets a roadmap to achieve sustainability and equity in education delivery between 2025 and 2035.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:38:18.34301+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}
