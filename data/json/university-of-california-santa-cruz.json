@@ -1,0 +1,802 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:09.875822+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110714,
+    "slug": "university-of-california-santa-cruz",
+    "name": "University of California-Santa Cruz",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95064-1011",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VXUFPE4MCZH5",
+      "opeid": "00132100",
+      "ein": "941539563"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Santa Cruz is a public land-grant research university in Santa Cruz, California, United States. It is one of the ten campuses in the University of California system. Located in Monterey Bay, on the edge of the coastal community of Santa Cruz, the main campus lies on 2,001 acres (810 ha) of rolling, forested hills overlooking the Pacific Ocean. As of Fall 2024, its ten residential colleges enroll some 17,940 undergraduate and 1,998 graduate students. Satellite facilities in other Santa Cruz locations include the Coastal Science Campus and the Westside Research Park and the Silicon Valley Center in Santa Clara, along with administrative control of the Lick Observatory near San Jose in the Diablo Range and the Keck Observatory near the summit of Mauna Kea in Hawaii.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Cruz",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Cruz",
+    "fetched_at": "2026-05-25T19:17:19.953038+05:30"
+  },
+  "admissions": {
+    "applicants": 71722,
+    "admits": 47186,
+    "enrolled": 4383,
+    "first_time_freshmen": 4383,
+    "first_time_freshmen_ft": 4373,
+    "admit_rate": 0.6579013412899808,
+    "yield_rate": 0.0928877209341754
+  },
+  "cost": {
+    "room_and_board": 19948,
+    "avg_net_price": 16607,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0328,
+    "federal_loan_rate": 0.2943,
+    "net_price_by_family_income": {
+      "0_30k": 9472,
+      "30_48k": 10114,
+      "48_75k": 13001,
+      "75_110k": 18786,
+      "110k_plus": 32674
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.75,
+    "grad_4yr_bachelors": 0.61,
+    "grad_5yr_bachelors": 0.73,
+    "grad_6yr_bachelors": 0.75,
+    "pell_grad_rate": 0.71,
+    "pell_6yr_bachelors_rate": 0.71,
+    "non_pell_grad_rate": 0.73,
+    "non_pell_6yr_bachelors": 0.73,
+    "retention_full_time": 0.88,
+    "retention_part_time": 0.31
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 21313,
+    "ug_12mo": 19258,
+    "grad_12mo": 19258,
+    "women_12mo": 10865,
+    "men_12mo": 10448,
+    "fall_total": 19938,
+    "fall_full_time": 17940,
+    "fall_part_time": 17940,
+    "distance_ed_any": 19938,
+    "distance_ed_exclusive": 166
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 894
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 758
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 620
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 545
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 524
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 310
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 306
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 254
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 239
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 178
+      }
+    ],
+    "program_count": 100,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 837
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "binghamton-university",
+        "name": "Binghamton University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "colorado-school-of-mines",
+        "name": "Colorado School of Mines",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cuny-graduate-school-and-university-center",
+        "name": "CUNY Graduate School and University Center",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "kansas-state-university",
+        "name": "Kansas State University",
+        "state": "Kansas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "kent-state-university-at-kent",
+        "name": "Kent State University at Kent",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "mississippi-state-university",
+        "name": "Mississippi State University",
+        "state": "Mississippi",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "montana-state-university",
+        "name": "Montana State University",
+        "state": "Montana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "new-jersey-institute-of-technology",
+        "name": "New Jersey Institute of Technology",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "north-dakota-state-university-main-campus",
+        "name": "North Dakota State University-Main Campus",
+        "state": "North Dakota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "ohio-university-main-campus",
+        "name": "Ohio University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "oklahoma-state-university-main-campus",
+        "name": "Oklahoma State University-Main Campus",
+        "state": "Oklahoma",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "old-dominion-university",
+        "name": "Old Dominion University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-montana",
+        "name": "The University of Montana",
+        "state": "Montana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-el-paso",
+        "name": "The University of Texas at El Paso",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "university-at-albany",
+        "name": "University at Albany",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-of-alabama-at-birmingham",
+        "name": "University of Alabama at Birmingham",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-alabama-in-huntsville",
+        "name": "University of Alabama in Huntsville",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-colorado-denver-anschutz-medical-campus",
+        "name": "University of Colorado Denver/Anschutz Medical Campus",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-hawaii-at-manoa",
+        "name": "University of Hawaii at Manoa",
+        "state": "Hawaii",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-kansas",
+        "name": "University of Kansas",
+        "state": "Kansas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-louisiana-at-lafayette",
+        "name": "University of Louisiana at Lafayette",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-louisville",
+        "name": "University of Louisville",
+        "state": "Kentucky",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-maine",
+        "name": "University of Maine",
+        "state": "Maine",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-maryland-baltimore-county",
+        "name": "University of Maryland-Baltimore County",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-memphis",
+        "name": "University of Memphis",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-mississippi",
+        "name": "University of Mississippi",
+        "state": "Mississippi",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-nebraska-lincoln",
+        "name": "University of Nebraska-Lincoln",
+        "state": "Nebraska",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-nevada-reno",
+        "name": "University of Nevada-Reno",
+        "state": "Nevada",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-new-hampshire-main-campus",
+        "name": "University of New Hampshire-Main Campus",
+        "state": "New Hampshire",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-new-mexico-main-campus",
+        "name": "University of New Mexico-Main Campus",
+        "state": "New Mexico",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-oregon",
+        "name": "University of Oregon",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-southern-mississippi",
+        "name": "University of Southern Mississippi",
+        "state": "Mississippi",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "university-of-wisconsin-milwaukee",
+        "name": "University of Wisconsin-Milwaukee",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 34,
+        "unitid": null,
+        "slug": "utah-state-university",
+        "name": "Utah State University",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 35,
+        "unitid": null,
+        "slug": "wayne-state-university",
+        "name": "Wayne State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://iraps.ucsc.edu/",
+    "office_name": "Institutional Research, Analytics, and Planning Support",
+    "summary": "IRAPS provides accurate, timely, and contextualized information that is responsive to the needs of the campus community. Our work promotes university effectiveness, supports strategic planning, and informs decision making across the campus.",
+    "email": "iraps@ucsc.edu",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:17:19.010629+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Cinnamon Danube",
+      "title": "Senior Institutional Research Analyst",
+      "email": "cdanube@ucsc.edu",
+      "linkedin_url": "https://www.linkedin.com/in/cinnamon-danube-02621340"
+    },
+    {
+      "ordering": 1,
+      "name": "Rory Higgins",
+      "title": "Senior Institutional Research Analyst",
+      "email": "rodhiggi@ucsc.edu",
+      "linkedin_url": "https://www.linkedin.com/in/rory-higgins-810462223"
+    },
+    {
+      "ordering": 2,
+      "name": "Mallory Jackson",
+      "title": "Institutional Research Analyst",
+      "email": "maajacks@ucsc.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Yichen Lee",
+      "title": "Senior Institutional Research Analyst",
+      "email": "ylee273@ucsc.edu"
+    },
+    {
+      "ordering": 4,
+      "name": "Shirley Truong",
+      "title": "Interim Director",
+      "email": "struong@ucsc.edu",
+      "linkedin_url": "https://www.linkedin.com/in/shirley-truong-phd"
+    },
+    {
+      "ordering": 5,
+      "name": "Randy Uang",
+      "title": "Senior Survey Research Analyst",
+      "email": "ruang@ucsc.edu",
+      "linkedin_url": "https://www.linkedin.com/in/randyuang"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2025-26.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2024-25.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2023-24.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2022-23.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2021-22.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2020-21.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2019-20-revised.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://iraps.ucsc.edu/",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:10:09.224112+05:30"
+    },
+    {
+      "doc_type": "dashboards",
+      "url": "https://iraps.ucsc.edu/campus-data/",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:16:51.63001+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110714",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:17:20.754765+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Leading the Change: The UC Santa Cruz Strategic Plan",
+      "url": "https://strategicplan.ucsc.edu/",
+      "summary": "The 'Leading the Change: The UC Santa Cruz Strategic Plan' charts a course for university growth and innovation over the next decade. Developed during the 2022–23 academic year, the plan focuses on enhancing student success and expanding research impact while fostering inclusivity. The strategic themes address undergraduate education, graduate education, research distinction, campus community well-being, and sustainability.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:12:44.255492+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Community Research and Data Specialist",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179381590&Title=Community%20Research%20and%20Data%20Specialist"
+    },
+    {
+      "title": "Research & Evaluation Analyst",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179430932"
+    },
+    {
+      "title": "Research Compliance Specialist",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179425950"
+    },
+    {
+      "title": "Accessibility and Inclusion Assessment Specialist",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179341431"
+    },
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179398968&Title=Research%20Compliance%20Specialist"
+    },
+    {
+      "title": "Sr. Institutional Research Analyst",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179093047"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Black Abalone Rescue Service - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/271c11bf9fb392b9d1f34bc7f5fb4124/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "William Drea Adams",
+      "field": "Academia"
+    },
+    {
+      "name": "Michelle Anderson",
+      "field": "Academia"
+    },
+    {
+      "name": "Yoav Freund",
+      "field": "Academia"
+    },
+    {
+      "name": "Kristen R. Ghodsee",
+      "field": "Academia"
+    },
+    {
+      "name": "Victor Davis Hanson",
+      "field": "Academia"
+    },
+    {
+      "name": "Susie Bright",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "William Finnegan",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Laurie Garrett",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Steve Martini",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "David Talbot",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Jonah Peretti",
+      "field": "Business"
+    },
+    {
+      "name": "Susan Wojcicki",
+      "field": "Business"
+    },
+    {
+      "name": "Anohni",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Jello Biafra",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Barry Mendel",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Maya Rudolph",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Andy Samberg",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Nate Cardozo",
+      "field": "Law"
+    },
+    {
+      "name": "Vince Girdhari Chhabria",
+      "field": "Law"
+    },
+    {
+      "name": "Joan E. Donoghue",
+      "field": "Law"
+    },
+    {
+      "name": "Bettina Aptheker",
+      "field": "Politics and Public Life"
+    },
+    {
+      "name": "Ron Gonzales",
+      "field": "Politics and Public Life"
+    },
+    {
+      "name": "John Laird",
+      "field": "Politics and Public Life"
+    },
+    {
+      "name": "Huey P. Newton",
+      "field": "Politics and Public Life"
+    },
+    {
+      "name": "Richard Bandler",
+      "field": "Science"
+    },
+    {
+      "name": "Joseph DeRisi",
+      "field": "Science"
+    },
+    {
+      "name": "Steven Hawley",
+      "field": "Science"
+    },
+    {
+      "name": "Kathryn D. Sullivan",
+      "field": "Science"
+    },
+    {
+      "name": "Stefano Bloch",
+      "field": "Academia"
+    },
+    {
+      "name": "John R. Rickford",
+      "field": "Academia"
+    },
+    {
+      "name": "Bret Weinstein",
+      "field": "Academia"
+    },
+    {
+      "name": "Philip Kan Gotanda",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Reyna Grande",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "bell hooks",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Miranda July",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Jayne Ann Krentz",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Deborah Madison",
+      "field": "Arts and Letters"
+    },
+    {
+      "name": "Sage Weil",
+      "field": "Business"
+    },
+    {
+      "name": "Brannon Braga",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Cary Joji Fukunaga",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "Stephen Mirrione",
+      "field": "Entertainment and Broadcasting"
+    },
+    {
+      "name": "J. Doyne Farmer",
+      "field": "Science"
+    },
+    {
+      "name": "Debra Fischer",
+      "field": "Science"
+    }
+  ]
+}

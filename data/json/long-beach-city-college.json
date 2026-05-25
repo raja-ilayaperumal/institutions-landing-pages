@@ -1,0 +1,578 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:02.811605+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117645,
+    "slug": "long-beach-city-college",
+    "name": "Long Beach City College",
+    "city": "Long Beach",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90808-1706",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NYQ2WBWTBB36",
+      "opeid": "00121900",
+      "ein": "952654140"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Long Beach City College (LBCC) is a public community college in Long Beach, California, United States. It was established in 1927 and is divided into two campuses, the Liberal Arts Campus (LAC) in Lakewood Village and the Trades, Technology, and Community Learning Campus (TTC) in central Long Beach on Pacific Coast Highway. It is the only college in the Long Beach Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Beach_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/Long_Beach_City_College",
+    "fetched_at": "2026-05-25T19:14:16.59932+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 5001,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5768,
+    "federal_loan_rate": 0.0213,
+    "net_price_by_family_income": {
+      "0_30k": 4237,
+      "30_48k": 4724,
+      "48_75k": 6680,
+      "75_110k": 7725,
+      "110k_plus": 7128
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.3,
+    "pell_grad_rate": 0.26,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.71,
+    "retention_part_time": 0.38
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 35542,
+    "ug_12mo": 35542,
+    "grad_12mo": 31217,
+    "women_12mo": 20121,
+    "men_12mo": 15421,
+    "fall_total": 24985,
+    "fall_full_time": 24985,
+    "fall_part_time": 22427,
+    "distance_ed_any": 24985,
+    "distance_ed_exclusive": 7218
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 390
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 282
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 243
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 233
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 165
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 148
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 147
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 96
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 87
+      }
+    ],
+    "program_count": 125,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 324
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "bergen-community-college",
+        "name": "Bergen Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "blinn-college-district",
+        "name": "Blinn College District",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "community-college-of-philadelphia",
+        "name": "Community College of Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "community-college-of-rhode-island",
+        "name": "Community College of Rhode Island",
+        "state": "Rhode Island",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "cuny-borough-of-manhattan-community-college",
+        "name": "CUNY Borough of Manhattan Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "cuny-laguardia-community-college",
+        "name": "CUNY LaGuardia Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "el-paso-community-college",
+        "name": "El Paso Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "fullerton-college",
+        "name": "Fullerton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "georgia-state-university-perimeter-college",
+        "name": "Georgia State University-Perimeter College",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "metropolitan-community-college-kansas-city",
+        "name": "Metropolitan Community College-Kansas City",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "moorpark-college",
+        "name": "Moorpark College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "nassau-community-college",
+        "name": "Nassau Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "orange-coast-college",
+        "name": "Orange Coast College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "suffolk-county-community-college",
+        "name": "Suffolk County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "tarrant-county-college-district",
+        "name": "Tarrant County College District",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "wake-technical-community-college",
+        "name": "Wake Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.lbcc.edu/institutional-effectiveness",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness supports student success by providing leadership and coordination of Accreditation efforts, institutional planning, program planning and review, and institutional research. It strives to promote excellence and equity in student learning, educational practices and quality of service by establishing and maintaining a campus culture of self-evaluation and improvement.",
+    "phone": "562-938-4449",
+    "address": "LAC, G-14",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:14:03.132872+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117645",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:14:29.663863+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "2022 – 2026 Strategic Plan",
+      "url": "https://www.lbcc.edu/strategicplan",
+      "summary": "The Long Beach City College 2022-2026 Strategic Plan focuses on fostering an inclusive, supportive, and innovative environment that emphasizes synergy between the college and its community. The plan's goals prioritize equitable student outcomes and addressing the needs of historically marginalized groups. Key metrics include increasing enrollment and course success rates, enhancing financial aid offerings, and securing living-wage job placements for students.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:07:49.231975+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director, Institutional Research - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179450226"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Chafee Grant",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://www.lbcc.edu/post/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "California Dream Act Service Incentive Grant Program (DSIG)",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "amount_usd": 4500,
+      "url": "https://www.lbcc.edu/post/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "California Dream Act Service Incentive Grant Program (DSIG)",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "amount_usd": 4500,
+      "url": "https://www.lbcc.edu/post/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Uduak-Joe Ntuk",
+      "field": "Politics"
+    },
+    {
+      "name": "Jenni Rivera",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jenni_Rivera",
+      "field": "Music"
+    },
+    {
+      "name": "Jennifer Kumiyama",
+      "field": "Acting"
+    },
+    {
+      "name": "Norm Rasmussen"
+    },
+    {
+      "name": "John Amos",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Amos",
+      "field": "Acting"
+    },
+    {
+      "name": "Arthur E. Bartlett",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_E._Bartlett",
+      "field": "Business"
+    },
+    {
+      "name": "David Bergland",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Bergland",
+      "field": "Politics"
+    },
+    {
+      "name": "Westside Boogie",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Westside_Boogie",
+      "field": "Music"
+    },
+    {
+      "name": "Barbara Britton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_Britton",
+      "field": "Acting"
+    },
+    {
+      "name": "Thomas Clark (Long Beach)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Clark_(Long_Beach)",
+      "field": "Politics"
+    },
+    {
+      "name": "William Perry Copple",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Perry_Copple",
+      "field": "Law"
+    },
+    {
+      "name": "Robert Cornthwaite (actor)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Cornthwaite_(actor)",
+      "field": "Acting"
+    },
+    {
+      "name": "Donald D. Dod",
+      "field": "Botany"
+    },
+    {
+      "name": "Richard Doyle (actor)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Doyle_(actor)",
+      "field": "Acting"
+    },
+    {
+      "name": "Thomas Mikal Ford",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Mikal_Ford",
+      "field": "Acting"
+    },
+    {
+      "name": "Carl Kotchian",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carl_Kotchian",
+      "field": "Business"
+    },
+    {
+      "name": "Kou Yang",
+      "field": "Academia"
+    },
+    {
+      "name": "Magdalena Lewy-Boulet",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Magdalena_Lewy-Boulet",
+      "field": "Athletics"
+    },
+    {
+      "name": "Robert Luna",
+      "field": "Law Enforcement"
+    },
+    {
+      "name": "Wendi McLendon-Covey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wendi_McLendon-Covey",
+      "field": "Acting"
+    },
+    {
+      "name": "Jack Teele",
+      "field": "Sports Management"
+    },
+    {
+      "name": "Bob Thomas (Nevada politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Robert Cornthwaite",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Cornthwaite_(actor)",
+      "field": "Acting"
+    }
+  ]
+}

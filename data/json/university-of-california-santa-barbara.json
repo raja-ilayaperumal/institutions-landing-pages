@@ -1,0 +1,680 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:02.357780+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110705,
+    "slug": "university-of-california-santa-barbara",
+    "name": "University of California-Santa Barbara",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93106",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "G9QBQDH39DF4",
+      "opeid": "00132000",
+      "ein": "956006145"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Santa Barbara is a public land-grant research university in Santa Barbara County, California, United States. Tracing its roots back to 1891 as an independent teachers college, UC Santa Barbara joined the University of California system in 1944. It is the third-oldest campus in the system, after Berkeley, and UCLA.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Santa_Barbara",
+    "fetched_at": "2026-05-25T18:44:29.621766+05:30"
+  },
+  "admissions": {
+    "applicants": 110259,
+    "admits": 36347,
+    "enrolled": 5008,
+    "first_time_freshmen": 5008,
+    "first_time_freshmen_ft": 4988,
+    "admit_rate": 0.3296510942417399,
+    "yield_rate": 0.13778303573885053
+  },
+  "cost": {
+    "room_and_board": 20279,
+    "avg_net_price": 13825,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0235,
+    "federal_loan_rate": 0.2021,
+    "net_price_by_family_income": {
+      "0_30k": 7745,
+      "30_48k": 8910,
+      "48_75k": 11398,
+      "75_110k": 16839,
+      "110k_plus": 30085
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.83,
+    "grad_4yr_bachelors": 0.7,
+    "grad_5yr_bachelors": 0.81,
+    "grad_6yr_bachelors": 0.83,
+    "pell_grad_rate": 0.8,
+    "pell_6yr_bachelors_rate": 0.8,
+    "non_pell_grad_rate": 0.84,
+    "non_pell_6yr_bachelors": 0.84,
+    "retention_full_time": 0.93,
+    "retention_part_time": 0.41
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 27662,
+    "ug_12mo": 24660,
+    "grad_12mo": 24593,
+    "women_12mo": 15460,
+    "men_12mo": 12202,
+    "fall_total": 26133,
+    "fall_full_time": 23181,
+    "fall_part_time": 23113,
+    "distance_ed_any": 26133,
+    "distance_ed_exclusive": 57
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1927
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 778
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 708
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 695
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 670
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 440
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 434
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 423
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 392
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 245
+      }
+    ],
+    "program_count": 93,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 1112
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "auburn-university",
+        "name": "Auburn University",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "clemson-university",
+        "name": "Clemson University",
+        "state": "South Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "colorado-state-university-fort-collins",
+        "name": "Colorado State University-Fort Collins",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "george-mason-university",
+        "name": "George Mason University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "georgia-state-university",
+        "name": "Georgia State University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "iowa-state-university",
+        "name": "Iowa State University",
+        "state": "Iowa",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "louisiana-state-university-and-agricultural-and-mechanical-college",
+        "name": "Louisiana State University and Agricultural & Mechanical College",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "north-carolina-state-university-at-raleigh",
+        "name": "North Carolina State University at Raleigh",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "oregon-state-university",
+        "name": "Oregon State University",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "stony-brook-university",
+        "name": "Stony Brook University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "temple-university",
+        "name": "Temple University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "the-university-of-alabama",
+        "name": "The University of Alabama",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "the-university-of-tennessee-knoxville",
+        "name": "The University of Tennessee-Knoxville",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-dallas",
+        "name": "The University of Texas at Dallas",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-san-antonio",
+        "name": "The University of Texas at San Antonio",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "university-at-buffalo",
+        "name": "University at Buffalo",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "university-of-arkansas",
+        "name": "University of Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "university-of-california-riverside",
+        "name": "University of California-Riverside",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "university-of-colorado-boulder",
+        "name": "University of Colorado Boulder",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "university-of-connecticut",
+        "name": "University of Connecticut",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "university-of-delaware",
+        "name": "University of Delaware",
+        "state": "Delaware",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "university-of-illinois-chicago",
+        "name": "University of Illinois Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-iowa",
+        "name": "University of Iowa",
+        "state": "Iowa",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-kentucky",
+        "name": "University of Kentucky",
+        "state": "Kentucky",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-massachusetts-amherst",
+        "name": "University of Massachusetts-Amherst",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-missouri-columbia",
+        "name": "University of Missouri-Columbia",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-nevada-las-vegas",
+        "name": "University of Nevada-Las Vegas",
+        "state": "Nevada",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-chapel-hill",
+        "name": "University of North Carolina at Chapel Hill",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "university-of-oklahoma-norman-campus",
+        "name": "University of Oklahoma-Norman Campus",
+        "state": "Oklahoma",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "university-of-pittsburgh-pittsburgh-campus",
+        "name": "University of Pittsburgh-Pittsburgh Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "university-of-utah",
+        "name": "University of Utah",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 32,
+        "unitid": null,
+        "slug": "university-of-virginia-main-campus",
+        "name": "University of Virginia-Main Campus",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 33,
+        "unitid": null,
+        "slug": "virginia-commonwealth-university",
+        "name": "Virginia Commonwealth University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 34,
+        "unitid": null,
+        "slug": "washington-state-university",
+        "name": "Washington State University",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 35,
+        "unitid": null,
+        "slug": "west-virginia-university",
+        "name": "West Virginia University",
+        "state": "West Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://bap.ucsb.edu/institutional-research",
+    "office_name": "Institutional Research, Planning & Assessment",
+    "parent_division": "Office of Budget & Planning",
+    "summary": "The mission of Institutional Research, Planning & Assessment is to provide high quality, accurate and timely statistical information and analytical studies to campus leaders and decision-makers in support of evidence-based planning, evaluation and assessment.",
+    "address": "1325 Cheadle Hall, Santa Barbara, CA 93106-2032",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T18:44:28.40363+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Steven Velasco",
+      "title": "Director, Institutional Research, Planning & Assessment",
+      "email": "steven.velasco@ucsb.edu",
+      "phone": "(805) 893-8487",
+      "linkedin_url": "https://www.linkedin.com/in/steven-velasco-28979996"
+    },
+    {
+      "ordering": 1,
+      "name": "Laurel Wilder",
+      "title": "Associate Director, Institutional Research, Planning & Assessment",
+      "email": "laurel.wilder@ucsb.edu",
+      "phone": "(805) 893-2144"
+    },
+    {
+      "ordering": 2,
+      "name": "Joshua Kuntzman",
+      "title": "Principal Assessment Analyst",
+      "email": "kuntzman@ucsb.edu",
+      "phone": "(805) 893-4031",
+      "linkedin_url": "https://www.linkedin.com/in/josh-kuntzman-922b6062"
+    },
+    {
+      "ordering": 3,
+      "name": "Nancy Carrada Zuniga",
+      "title": "Survey Research Analyst",
+      "email": "nancy_carradazuniga@ucsb.edu",
+      "phone": "(805) 893-2730"
+    },
+    {
+      "ordering": 4,
+      "name": "Yali Chen",
+      "title": "Data Administrator / Institutional Research Analyst",
+      "email": "yali.chen@ucsb.edu",
+      "phone": "(805) 893-7232"
+    },
+    {
+      "ordering": 5,
+      "name": "Yolanda Luo",
+      "title": "Institutional Research Analyst",
+      "email": "yolandaluo@ucsb.edu",
+      "phone": "(805) 893-4820",
+      "linkedin_url": "https://www.linkedin.com/in/yu-luo-msba"
+    },
+    {
+      "ordering": 6,
+      "name": "Luis Cuarao",
+      "title": "Institutional Research Analyst",
+      "email": "luiscuarao@ucsb.edu",
+      "phone": "(805) 893-8761"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://otl.ucsb.edu/student-success-data",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:43:27.378104+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "title": "Data Dictionary",
+      "url": "https://www.identity.ucsb.edu/services/data-dictionary",
+      "summary": "The UCSB Identity data dictionary represents all data fields and attributes used in the system, detailing which are available for release, required explicit configuration, or are for internal purposes. It provides definitions and examples for numerous UCSB identity-related attributes such as email, username, and IDs, aimed primarily at identity management purposes within the university.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:42:06.28674+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110705",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:44:30.992303+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Strategic Plan 2023–2026",
+      "url": "https://www.library.ucsb.edu/strategic-plan-2023-2026",
+      "summary": "The UCSB Library Strategic Plan for 2023-2026 outlines four priority areas aimed at enhancing research, teaching, learning, and engagement within the University of California's broad interdisciplinary culture. By utilizing the collective power of ten campuses, the plan commits to key goals such as advancing research services and maintaining core functions while adapting to digital transformation challenges. As an essential public institution, the library plays a critical role in supporting the intellectual freedom and unique needs of its diverse research community.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:38:32.705177+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Jeff Henley",
+      "field": "Business"
+    },
+    {
+      "name": "Elizabeth Gabler",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Carol W. Greider",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carol_W._Greider",
+      "field": "Science"
+    },
+    {
+      "name": "Michael Douglas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Douglas",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Eric Roth",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eric_Roth",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Steve Aoki",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Aoki",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Jack Johnson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Johnson_(musician)",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Gwyneth Paltrow",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gwyneth_Paltrow",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Josh Elliott",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_Elliott",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Harvey Levin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_Levin",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Angela Belcher",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_M._Belcher",
+      "field": "Science"
+    },
+    {
+      "name": "Logan Green",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Logan_Green",
+      "field": "Business"
+    },
+    {
+      "name": "Chade-Meng Tan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chade-Meng_Tan",
+      "field": "Business"
+    },
+    {
+      "name": "Alexei Filippenko",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alexei_Filippenko",
+      "field": "Science"
+    },
+    {
+      "name": "Robert Ballard",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Ballard",
+      "field": "Science"
+    },
+    {
+      "name": "Ryan Kavanaugh",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Kavanaugh",
+      "field": "Business"
+    },
+    {
+      "name": "Benjamin Bratt",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Benjamin_Bratt",
+      "field": "Arts, entertainment, and literature"
+    },
+    {
+      "name": "Barry Zito",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barry_Zito",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jason Lezak",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jason_Lezak",
+      "field": "Athletics"
+    },
+    {
+      "name": "Salud Carbajal",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Salud_Carbajal",
+      "field": "Government, law, and public policy"
+    },
+    {
+      "name": "Lois Capps",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lois_Capps",
+      "field": "Government, law, and public policy"
+    }
+  ]
+}

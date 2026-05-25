@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:09.052639+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122658,
+    "slug": "san-joaquin-delta-college",
+    "name": "San Joaquin Delta College",
+    "city": "Stockton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95207",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+    "carnegie_slug": "associates-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "J1M3XMMKNH73",
+      "opeid": "00128000",
+      "ein": "941044400"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Delta College is a public community college in Stockton, California. It was founded in 1935 as Stockton Junior College. The college serves a district area that includes all of San Joaquin County and parts of Alameda, Calaveras, Sacramento, and Solano counties.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Delta_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Delta_College",
+    "fetched_at": "2026-05-25T19:22:46.405975+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 8508,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.4481,
+    "federal_loan_rate": 0.0079,
+    "net_price_by_family_income": {
+      "0_30k": 7545,
+      "30_48k": 7572,
+      "48_75k": 10412,
+      "75_110k": 13563,
+      "110k_plus": 9949
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.35,
+    "pell_grad_rate": 0.36,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.68,
+    "retention_part_time": 0.45
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 26520,
+    "ug_12mo": 26520,
+    "grad_12mo": 20276,
+    "women_12mo": 15819,
+    "men_12mo": 10701,
+    "fall_total": 20969,
+    "fall_full_time": 20969,
+    "fall_part_time": 15781,
+    "distance_ed_any": 20969,
+    "distance_ed_exclusive": 9703
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 1195
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 414
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 371
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 253
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 195
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 38
+      }
+    ],
+    "program_count": 115,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 45.0,
+    "instr_total_fte": 244
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "american-river-college",
+        "name": "American River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.deltacollege.edu/about/offices/institutional-research-effectiveness-office",
+    "office_name": "Institutional Research and Effectiveness Office",
+    "summary": "The Institutional Research and Effectiveness (IRE) Office plays a pivotal role in supporting the College's mission, vision, and strategic goals through comprehensive planning and research activities, providing timely and accurate data, documentation, and analyses to inform decision-making and foster a culture of continuous improvement.",
+    "phone": "209-954-5039",
+    "email": "ire@deltacollege.edu",
+    "address": "Science and Math Building, Rooms 150 (SCMA 150), 5151 Pacific Avenue, Stockton, CA 95207",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:22:43.175166+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Mark Figueroa",
+      "title": "Associate Vice President of Institutional Effectiveness, Equity, and Achievement",
+      "linkedin_url": "https://www.linkedin.com/in/mark-figueroa-93392278"
+    },
+    {
+      "ordering": 1,
+      "name": "Julie Henderson",
+      "title": "Director of Grants",
+      "email": "julie.henderson@deltacollege.edu",
+      "phone": "209-200-8637"
+    },
+    {
+      "ordering": 2,
+      "name": "Arooj Rizvi",
+      "title": "Research Analyst"
+    },
+    {
+      "ordering": 3,
+      "name": "Jessica Morales",
+      "title": "Research Analyst"
+    },
+    {
+      "ordering": 4,
+      "name": "Joanna Saldana",
+      "title": "Institutional Effectiveness Coordinator"
+    },
+    {
+      "ordering": 5,
+      "name": "Joanna Mathias",
+      "title": "Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/joannamathias"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.deltacollege.edu/about/offices/institutional-research-effectiveness-office/data-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:21:31.105921+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122658",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:22:47.778764+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "San Joaquin Delta College District Strategic Plan 2022-2027",
+      "url": "https://www.deltacollege.edu/about/offices/institutional-research-effectiveness-office/planning/strategic-plan",
+      "summary": "The San Joaquin Delta College District Strategic Plan 2022-2027 focuses on being a student-centered, equity-focused institution that meets educational and economic development needs. Key strategic goals include increasing student success metrics, improving operational practices, and fostering community engagement and partnerships. The plan prioritizes reducing equity gaps, meeting students' basic needs, enhancing technology and workforce diversity, and establishing the college as a hub for innovation and cultural exchange.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:20:01.48993+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Cal Grants",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office/aid-types/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "California College Promise Grant",
+      "agency": "California Community Colleges Chancellor's Office",
+      "kind": "opportunity",
+      "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office/aid-types/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grants",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office/aid-types/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Supplemental Educational Opportunity Grants (FSEOG)",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office/aid-types/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Student Success Completion Grant",
+      "agency": "California Community Colleges Chancellor's Office",
+      "kind": "opportunity",
+      "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office/aid-types/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Edward Chavez",
+      "field": "Politics"
+    },
+    {
+      "name": "Dev",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dev_(singer)",
+      "field": "Music"
+    },
+    {
+      "name": "Cathleen Galgiani",
+      "field": "Politics"
+    },
+    {
+      "name": "Robert Hastings",
+      "field": "Ufology"
+    },
+    {
+      "name": "Alyson Lewis"
+    },
+    {
+      "name": "Patrick Purdy"
+    },
+    {
+      "name": "Alfredo Quiñones-Hinojosa",
+      "field": "Medicine"
+    },
+    {
+      "name": "Anthony Silva",
+      "field": "Politics"
+    },
+    {
+      "name": "Dr. Alfredo Quinones-Hinojosa",
+      "field": "Medicine"
+    }
+  ]
+}

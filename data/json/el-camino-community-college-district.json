@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:08.204575+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113980,
+    "slug": "el-camino-community-college-district",
+    "name": "El Camino Community College District",
+    "city": "Torrance",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90506",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FN1HX3UK9SX1",
+      "opeid": "00119700",
+      "ein": "956001060"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "El Camino College is a public community college in Los Angeles County, California. Most of it is in Alondra Park, while a section is in the city limits of Torrance. It consists of 37 buildings spanning an area of roughly 26 acres (11 ha). It is one of two community colleges serving Southern California's South Bay area.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/El_Camino_College",
+    "source_url": "https://en.wikipedia.org/wiki/El_Camino_College",
+    "fetched_at": "2026-05-25T19:16:41.019628+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 5170,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6349,
+    "federal_loan_rate": 0.0124,
+    "net_price_by_family_income": {
+      "0_30k": 4379,
+      "30_48k": 4632,
+      "48_75k": 7461,
+      "75_110k": 9809,
+      "110k_plus": 10042
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.42,
+    "pell_grad_rate": 0.37,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.32
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 32070,
+    "ug_12mo": 32070,
+    "grad_12mo": 27948,
+    "women_12mo": 16956,
+    "men_12mo": 15114,
+    "fall_total": 21664,
+    "fall_full_time": 21664,
+    "fall_part_time": 19210,
+    "distance_ed_any": 21664,
+    "distance_ed_exclusive": 5759
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 872
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 337
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 303
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 260
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 256
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 217
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 140
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 113
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 104
+      }
+    ],
+    "program_count": 87,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 332
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.elcamino.edu/about/institutional-research/",
+    "office_name": "Office of Institutional Research & Planning",
+    "parent_division": "President's Office",
+    "summary": "The Office of Institutional Research & Planning supports the El Camino College mission by leading institutional planning and guiding research that advances student success and institutional excellence.",
+    "phone": "310-660-3593",
+    "email": "IRP@elcamino.edu",
+    "address": "Administration Building, Suite 234, 16007 Crenshaw Blvd., Torrance, CA 90506",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:16:37.599262+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Viviana Unda",
+      "title": "Director",
+      "email": "vunda@elcamino.edu",
+      "phone": "310-660-3593 ext. 3515"
+    },
+    {
+      "ordering": 1,
+      "name": "Grace Ou",
+      "title": "Planning Analyst",
+      "email": "gou@elcamino.edu",
+      "phone": "310-660-3593 ext. 6123"
+    },
+    {
+      "ordering": 2,
+      "name": "Carolyn Pineda",
+      "title": "Research Analyst",
+      "email": "cpineda@elcamino.edu",
+      "phone": "310-660-3593 ext. 6402",
+      "linkedin_url": "https://www.linkedin.com/in/carolyn-pineda-6451b1137"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.elcamino.edu/about/institutional-research/dashboards.php",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:13:43.013208+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "El Camino College Dashboards - Institutional Research & Planning",
+      "url": "https://www.elcamino.edu/about/institutional-research/dashboards.php",
+      "summary": "The El Camino College Dashboards page offers a catalogue of data dashboards developed by Institutional Research & Planning (IRP) to inform the community about diverse aspects of student and institutional performance. These dashboards provide insights into student outcomes, academic program reviews, enrollment trends, and more, aiding departments in strategic planning and performance assessment. The data includes course success, completion rates, demographic analysis, degrees awarded, and dual enrollment statistics, amongst other metrics, aiming to facilitate data-driven decision-making within the college and alignment with institutional goals.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:15:58.398095+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113980",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:16:41.922575+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Annual Factbook",
+      "url": "https://www.elcamino.edu/about/institutional-research/factbook.php",
+      "summary": "The Annual Factbook is a reference source from El Camino College containing trend data about students, student outcomes, and instructional programs and services. The most recent data available is for the 2024-2025 academic year, accessible through the Factbook Dashboard. Past Factbooks for years 2015-2020 are also listed.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:10:48.124061+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary | El Camino College | Torrance, CA",
+      "url": "https://www.elcamino.edu/about/institutional-research/glossary.php",
+      "summary": "This page seems to be part of El Camino College's institutional resources, specifically their glossary. However, the content given does not provide specific glossary terms or definitions. It appears to include a general navigation structure of the website, some event listings, and miscellaneous text snippets. It highlights elements of campus life and administrative divisions within El Camino Community College District, located in Torrance, California.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:05:49.862281+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "2025-28 Strategic Plan - DRAFT",
+      "url": "https://www.elcamino.edu/about/institutional-research/docs/institutionalplanningdocuments/2025-28%20Strategic%20Plan_draft.pdf",
+      "summary": "El Camino Community College District's 2025-28 Strategic Plan outlines key initiatives and measurable outcomes aimed at enhancing student success and institutional effectiveness. The three-year plan serves as a tactical blueprint supporting the long-term 2025-2035 Comprehensive Integrated Plan goals. It includes strategic priorities such as strengthening student pathways, enhancing community partnerships, increasing accessibility, and developing a robust data governance framework.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:12:17.558708+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President, Student Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179436203"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Ashley Danial",
+      "field": "Aerospace"
+    },
+    {
+      "name": "Bill Kim",
+      "field": "Business"
+    },
+    {
+      "name": "Jerry Marcil",
+      "field": "Real Estate"
+    },
+    {
+      "name": "John Sweeney",
+      "field": "Law"
+    },
+    {
+      "name": "Mark Waronek",
+      "field": "Consulting"
+    }
+  ]
+}

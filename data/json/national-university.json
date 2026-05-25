@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:06.829443+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119605,
+    "slug": "national-university",
+    "name": "National University",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92123",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VERGS9RU9J56",
+      "opeid": "01146000",
+      "ein": "237172306"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "A national university is mainly a university created or managed by a government, but which may also at the same time operate autonomously without direct control by the state. In the United States, the term \"national university\" connotes the highest institutional level in education, differing in meaning from a \"federally-chartered university.\" Globally, some national universities are associated with national cultural or political aspirations.\nFor example, the National University of Ireland during the early days of Irish independence collected a large amount of information about the Irish language and Irish culture. In Argentina, the national universities are the result of the 1918 Argentine university reform and subsequent reforms, which were intended to provide a secular university system without direct clerical or government influence by bestowing self-government on the institutions.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/National_university",
+    "source_url": "https://en.wikipedia.org/wiki/National_university",
+    "fetched_at": "2026-05-25T18:59:18.37504+05:30"
+  },
+  "admissions": {
+    "applicants": 154,
+    "admits": 84,
+    "enrolled": 38,
+    "first_time_freshmen": 38,
+    "first_time_freshmen_ft": 11,
+    "admit_rate": 0.5454545454545454,
+    "yield_rate": 0.4523809523809524
+  },
+  "cost": {
+    "avg_net_price": 31058,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.59,
+    "federal_loan_rate": 0.2279,
+    "net_price_by_family_income": {
+      "0_30k": 30678,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": 32956
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.43,
+    "grad_4yr_bachelors": 0.17,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.5,
+    "pell_6yr_bachelors_rate": 0.5,
+    "retention_full_time": 0.53,
+    "retention_part_time": 0.29
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 32813,
+    "ug_12mo": 17183,
+    "grad_12mo": 16015,
+    "women_12mo": 20234,
+    "men_12mo": 12579,
+    "fall_total": 22115,
+    "fall_full_time": 11237,
+    "fall_part_time": 10794,
+    "distance_ed_any": 22115,
+    "distance_ed_exclusive": 18317
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 1669
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 1383
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 830
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 602
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 372
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 146
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 136
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 108
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 103
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 81
+      }
+    ],
+    "program_count": 94,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 344
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "american-public-university-system",
+        "name": "American Public University System",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "arizona-state-university-digital-immersion",
+        "name": "Arizona State University Digital Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "ashford-university",
+        "name": "Ashford University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "colorado-technical-university-colorado-springs",
+        "name": "Colorado Technical University-Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "purdue-university-global",
+        "name": "Purdue University Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "southern-new-hampshire-university",
+        "name": "Southern New Hampshire University",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "strayer-university-global-region",
+        "name": "Strayer University-Global Region",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "university-of-phoenix-arizona",
+        "name": "University of Phoenix-Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "western-governors-university",
+        "name": "Western Governors University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119605",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:59:19.278804+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2015,
+      "title": "2015 National University Strategic Plan",
+      "url": "https://assets.nu.edu/assets/resources/pageResources/2015-national-university-strategic-plan.pdf",
+      "summary": "The 2015 National University Strategic Plan outlines the University's commitment to adapt to the rapidly evolving landscape of higher education by focusing on academic excellence, personalized student services, and innovative use of technology. The plan emphasizes expanding program offerings, particularly online and flexible formats, while increasing enrollments among underserved populations including the military. As part of its goals, National University aims to be recognized for its leadership in online education and sustainability, backed by measurable outcomes such as a target of 40,000 FTE students and a $500 million endowment.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:56:01.565702+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Assessment and Accreditation - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/international/details.cfm?JobCode=179308491&Title=Full-time%20Faculty%2C%20PhD%20Cybersecurity%20and%20Academic%20Program%20Director"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Faculty Research Support Award (FRSA)",
+      "agency": "National University",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://resources.nu.edu/ogsp/internalfunding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Micro-Funding Opportunities Tier II",
+      "agency": "National University",
+      "kind": "opportunity",
+      "amount_usd": 3000,
+      "url": "https://resources.nu.edu/ogsp/internalfunding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Micro-Funding Opportunities Tier I",
+      "agency": "National University",
+      "kind": "opportunity",
+      "amount_usd": 300,
+      "url": "https://resources.nu.edu/ogsp/internalfunding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Presentation and Poster One-Time Payment",
+      "agency": "National University",
+      "kind": "opportunity",
+      "url": "https://resources.nu.edu/ogsp/internalfunding",
+      "source": "institution_site"
+    },
+    {
+      "title": "Publication One-Time Payment",
+      "agency": "National University",
+      "kind": "opportunity",
+      "url": "https://resources.nu.edu/ogsp/internalfunding",
+      "source": "institution_site"
+    },
+    {
+      "title": "u--esmd senior couse design - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/4c4834aab82359c7a122ddcbf7c14ee7/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": []
+}

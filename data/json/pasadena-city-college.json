@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:03.276954+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121044,
+    "slug": "pasadena-city-college",
+    "name": "Pasadena City College",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91106-2003",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "WB19K3R7L3L5",
+      "opeid": "00126100",
+      "ein": "952505000"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Pasadena City College (PCC) is a public community college in Pasadena, California. It was founded in 1924 as Pasadena Junior College.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pasadena_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/Pasadena_City_College",
+    "fetched_at": "2026-05-25T18:49:35.614364+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3123,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5811,
+    "federal_loan_rate": 0.0064,
+    "net_price_by_family_income": {
+      "0_30k": 2205,
+      "30_48k": 2702,
+      "48_75k": 5613,
+      "75_110k": 8070,
+      "110k_plus": 10004
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.48,
+    "pell_grad_rate": 0.5,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.43
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 35539,
+    "ug_12mo": 35539,
+    "grad_12mo": 30985,
+    "women_12mo": 19083,
+    "men_12mo": 16456,
+    "fall_total": 24597,
+    "fall_full_time": 24597,
+    "fall_part_time": 21466,
+    "distance_ed_any": 24597,
+    "distance_ed_exclusive": 6364
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 2116
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 1021
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1009
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 912
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 414
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 321
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 297
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 167
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 147
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 119
+      }
+    ],
+    "program_count": 110,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 445
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://pasadena.edu/institutional-effectiveness/index.php",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness coordinates the internal and external data reporting, college Policies and Administrative Procedures, research activities, data inquiries, campus surveys, and the dissemination of reports and data analysis that inform college-wide decision-making.",
+    "phone": "626 585 7123",
+    "address": "1570 E. Colorado Blvd., Pasadena, CA 91106",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T18:49:34.555362+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Alisha Barreras",
+      "title": "Administrative Assistant II",
+      "email": "abarreras1@pasadena.edu",
+      "phone": "626 585 7383",
+      "linkedin_url": "https://www.linkedin.com/in/alisha-barreras-8872a0133"
+    },
+    {
+      "ordering": 1,
+      "name": "Darnell Calderon",
+      "title": "Research Planning Analyst",
+      "email": "dcalderon22@pasadena.edu",
+      "phone": "626 585 7610",
+      "linkedin_url": "https://www.linkedin.com/in/darnell-calderon-6594a8245"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://pasadena.edu/institutional-effectiveness/data-dashboards/index.php",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:49:19.203056+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121044",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:49:36.919309+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Grant Terms - Office of Institutional Effectiveness - Pasadena City College",
+      "url": "https://pasadena.edu/institutional-effectiveness/grants-office/glossary.php",
+      "summary": "The Glossary of Grant Terms from Pasadena City College's Office of Institutional Effectiveness provides detailed definitions of various terms associated with grant processes. It includes definitions such as 'Abstract', 'Appropriation', 'Assurances', among others, covering financial, procedural, and compliance aspects relevant to grant applications and management.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:47:23.564716+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Community Excellence Grants",
+      "agency": "Pasadena City College Foundation",
+      "kind": "opportunity",
+      "url": "https://pasadena.edu/foundation/community-excellence-grants.php",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Michael Anthony",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Anthony_(musician)",
+      "field": "Music"
+    },
+    {
+      "name": "Sudan Archives",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sudan_Archives",
+      "field": "Music"
+    },
+    {
+      "name": "Robert Armstrong",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Armstrong_(cartoonist)",
+      "field": "Arts"
+    },
+    {
+      "name": "Octavia E. Butler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Octavia_E._Butler",
+      "field": "Literature"
+    },
+    {
+      "name": "Clive Cussler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Clive_Cussler",
+      "field": "Literature"
+    },
+    {
+      "name": "Michael Dorn",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Dorn",
+      "field": "Television"
+    },
+    {
+      "name": "Jaime Escalante",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jaime_Escalante",
+      "field": "Education"
+    },
+    {
+      "name": "William Holden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Holden",
+      "field": "Film"
+    },
+    {
+      "name": "Kenny Loggins",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kenny_Loggins",
+      "field": "Music"
+    },
+    {
+      "name": "Dennis Muren",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Muren",
+      "field": "Film"
+    },
+    {
+      "name": "Nick Nolte",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_Nolte",
+      "field": "Film"
+    },
+    {
+      "name": "David Lee Roth",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Lee_Roth",
+      "field": "Music"
+    },
+    {
+      "name": "John Singleton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Singleton",
+      "field": "Film"
+    },
+    {
+      "name": "Alex Van Halen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Van_Halen",
+      "field": "Music"
+    },
+    {
+      "name": "Eddie Van Halen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eddie_Van_Halen",
+      "field": "Music"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:04.321578+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122977,
+    "slug": "santa-monica-college",
+    "name": "Santa Monica College",
+    "city": "Santa Monica",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90405-1628",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CJAAYN7JEPJ4",
+      "opeid": "00128600",
+      "ein": "952767537"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Santa Monica College (SMC) is a public community college in Santa Monica, California. Founded as a junior college in 1929, SMC enrolls over 30,000 students in more than 90 fields of study. The college initially served pre-college high school students, eventually expanding its enrollment to educate college-age and non-traditional students with the intention to transfer to a four-year university. The college has high transfer rates to four-year universities such as the University of California and California State University campuses, being a leader among state community colleges in transfers to the former.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Monica_College",
+    "source_url": "https://en.wikipedia.org/wiki/Santa_Monica_College",
+    "fetched_at": "2026-05-25T18:53:31.007045+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3600,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5597,
+    "federal_loan_rate": 0.0197,
+    "net_price_by_family_income": {
+      "0_30k": 2796,
+      "30_48k": 3672,
+      "48_75k": 5695,
+      "75_110k": 7662,
+      "110k_plus": 8622
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.36,
+    "grad_4yr_bachelors": 0.05,
+    "grad_5yr_bachelors": 0.05,
+    "grad_6yr_bachelors": 0.81,
+    "pell_grad_rate": 0.32,
+    "pell_6yr_bachelors_rate": 1.0,
+    "non_pell_grad_rate": 0.33
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 33626,
+    "ug_12mo": 33626,
+    "grad_12mo": 30375,
+    "women_12mo": 18698,
+    "men_12mo": 14928,
+    "fall_total": 23453,
+    "fall_full_time": 23453,
+    "fall_part_time": 21440,
+    "distance_ed_any": 23453,
+    "distance_ed_exclusive": 8360
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 5041
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 477
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 420
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 374
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 319
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 298
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 198
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 85
+      }
+    ],
+    "program_count": 80,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 350
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "austin-community-college-district",
+        "name": "Austin Community College District",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "broward-college",
+        "name": "Broward College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-southern-nevada",
+        "name": "College of Southern Nevada",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "collin-county-community-college-district",
+        "name": "Collin County Community College District",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "dallas-college",
+        "name": "Dallas College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "front-range-community-college",
+        "name": "Front Range Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "greenville-technical-college",
+        "name": "Greenville Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "henry-ford-college",
+        "name": "Henry Ford College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "hillsborough-community-college",
+        "name": "Hillsborough Community College",
+        "state": "Florida",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "houston-community-college",
+        "name": "Houston Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "lone-star-college-system",
+        "name": "Lone Star College System",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "miami-dade-college",
+        "name": "Miami Dade College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "palm-beach-state-college",
+        "name": "Palm Beach State College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "pikes-peak-state-college",
+        "name": "Pikes Peak State College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "rio-salado-college",
+        "name": "Rio Salado College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "saint-louis-community-college",
+        "name": "Saint Louis Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "san-antonio-college",
+        "name": "San Antonio College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "san-jacinto-community-college",
+        "name": "San Jacinto Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "santa-ana-college",
+        "name": "Santa Ana College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "santa-fe-college",
+        "name": "Santa Fe College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "sinclair-community-college",
+        "name": "Sinclair Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "south-texas-college",
+        "name": "South Texas College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "tyler-junior-college",
+        "name": "Tyler Junior College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "valencia-college",
+        "name": "Valencia College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://admin.smc.edu/administration/institutional-research/",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Administration",
+    "summary": "The Office of Institutional Research at SMC supports the College’s mission and goals related to institutional effectiveness, student learning and success, and campus climate by providing quality, accessible, and relevant data, facilitating evidence-informed decision-making, and promoting a culture of equity-minded inquiry.",
+    "phone": "310-434-4556",
+    "email": "research@smc.edu",
+    "address": "1900 Pico Boulevard, Santa Monica, CA 90405",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T18:53:29.270769+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dr. Hannah Lawler",
+      "title": "Dean, Institutional Research",
+      "email": "lawler_hannah@smc.edu",
+      "phone": "310-434-3472",
+      "linkedin_url": "https://www.linkedin.com/in/hannah-lawler-1343593a"
+    },
+    {
+      "ordering": 1,
+      "name": "Anne Marre Bautista",
+      "title": "Research & Planning Analyst",
+      "email": "bautista_annemarre@smc.edu",
+      "phone": "310-434-3461",
+      "linkedin_url": "https://www.linkedin.com/in/annemarrebautista"
+    },
+    {
+      "ordering": 2,
+      "name": "Dr. Rebecca Pena",
+      "title": "Research & Planning Analyst (Equity & Pathways)",
+      "email": "pena_rebecca@smc.edu",
+      "phone": "310-434-4747"
+    },
+    {
+      "ordering": 3,
+      "name": "Yosief Yihunie",
+      "title": "Senior Research Analyst",
+      "email": "yihunie_yosief@smc.edu",
+      "phone": "310-434-4914",
+      "linkedin_url": "https://www.linkedin.com/in/yosief-yihunie-a6943b28"
+    },
+    {
+      "ordering": 4,
+      "name": "Daniel Berumen",
+      "title": "Senior Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/daniel-berumen-3b06a49"
+    },
+    {
+      "ordering": 5,
+      "name": "Christopher Gibson",
+      "title": "Senior Research Analyst"
+    },
+    {
+      "ordering": 6,
+      "name": "Trena Johnson",
+      "title": "Administrative Assistant II",
+      "linkedin_url": "https://www.linkedin.com/in/trena-johnson-04b8042b"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122977",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:53:33.90089+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Master Plan for Education - Santa Monica College",
+      "url": "https://admin.smc.edu/administration/planning/master-edu-plan/",
+      "summary": "The Santa Monica College Master Plan for Education 2025-2030 establishes a strategic framework aimed at enhancing educational program development over the next five years. It incorporates a comprehensive analysis of demographic, economic, and educational challenges facing the community. The plan was developed using extensive consultation with various stakeholders and a thorough internal and external environmental scan to inform future educational strategies and facilities planning.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:47:22.484893+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Senior Research Analyst 2026 - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441053"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Rivers Cuomo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rivers_Cuomo",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "Dustin Hoffman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dustin_Hoffman",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "James Dean",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Dean",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "Arnold Schwarzenegger",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
+      "field": "Other"
+    },
+    {
+      "name": "Paul Thomas Anderson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Thomas_Anderson",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "Ryan Seacrest",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_Seacrest",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "Hilary Swank",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hilary_Swank",
+      "field": "Arts and Entertainment"
+    },
+    {
+      "name": "Evan Lysacek",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evan_Lysacek",
+      "field": "Sports"
+    }
+  ]
+}

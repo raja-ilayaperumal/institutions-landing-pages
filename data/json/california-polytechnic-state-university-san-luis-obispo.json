@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:05.303970+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110422,
+    "slug": "california-polytechnic-state-university-san-luis-obispo",
+    "name": "California Polytechnic State University-San Luis Obispo",
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93407",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CPVFEDRAL3U6",
+      "opeid": "00114300",
+      "ein": "946001347"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Polytechnic State University, San Luis Obispo is a public university in San Luis Obispo County, California, United States, outside of the city limits of San Luis Obispo. Founded in 1901, it is the oldest of three polytechnic universities within the California State University system. Cal Poly emphasizes a \"learn by doing\" philosophy, integrating hands-on, practical experiences into its curriculum. As of fall 2025, Cal Poly had approximately 22,000 undergraduate and 900 graduate students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Polytechnic_State_University,_San_Luis_Obispo",
+    "source_url": "https://en.wikipedia.org/wiki/California_Polytechnic_State_University,_San_Luis_Obispo",
+    "fetched_at": "2026-05-25T18:54:16.472628+05:30"
+  },
+  "admissions": {
+    "applicants": 68371,
+    "admits": 21416,
+    "enrolled": 5271,
+    "first_time_freshmen": 5271,
+    "first_time_freshmen_ft": 5260,
+    "admit_rate": 0.3132322183381843,
+    "yield_rate": 0.2461243929772133
+  },
+  "cost": {
+    "avg_net_price": 15624,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0432,
+    "federal_loan_rate": 0.2349,
+    "net_price_by_family_income": {
+      "0_30k": 6476,
+      "30_48k": 6904,
+      "48_75k": 11372,
+      "75_110k": 18032,
+      "110k_plus": 26920
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.86,
+    "grad_4yr_bachelors": 0.61,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.86,
+    "pell_grad_rate": 0.8,
+    "pell_6yr_bachelors_rate": 0.8,
+    "non_pell_grad_rate": 0.87,
+    "non_pell_6yr_bachelors": 0.87,
+    "retention_full_time": 0.96,
+    "retention_part_time": 0.6
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 23829,
+    "ug_12mo": 22726,
+    "grad_12mo": 22678,
+    "women_12mo": 12000,
+    "men_12mo": 11829,
+    "fall_total": 23069,
+    "fall_full_time": 22033,
+    "fall_part_time": 21996,
+    "distance_ed_any": 23069,
+    "distance_ed_exclusive": 127
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1170
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 968
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 596
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 267
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 260
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 247
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 220
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 197
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 174
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 172
+      }
+    ],
+    "program_count": 101,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 989
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "appalachian-state-university",
+        "name": "Appalachian State University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "cuny-bernard-m-baruch-college",
+        "name": "CUNY Bernard M Baruch College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "cuny-brooklyn-college",
+        "name": "CUNY Brooklyn College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "cuny-hunter-college",
+        "name": "CUNY Hunter College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "cuny-john-jay-college-of-criminal-justice",
+        "name": "CUNY John Jay College of Criminal Justice",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "cuny-lehman-college",
+        "name": "CUNY Lehman College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "cuny-queens-college",
+        "name": "CUNY Queens College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "eastern-washington-university",
+        "name": "Eastern Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "metropolitan-state-university-of-denver",
+        "name": "Metropolitan State University of Denver",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "minnesota-state-university-mankato",
+        "name": "Minnesota State University-Mankato",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "pennsylvania-western-university",
+        "name": "Pennsylvania Western University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "southeastern-louisiana-university",
+        "name": "Southeastern Louisiana University",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "towson-university",
+        "name": "Towson University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "troy-university",
+        "name": "Troy University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "university-of-houston-downtown",
+        "name": "University of Houston-Downtown",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-north-georgia",
+        "name": "University of North Georgia",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "western-washington-university",
+        "name": "Western Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://ir.calpoly.edu/",
+    "office_name": "Office of Institutional Research",
+    "summary": "We play a pivotal role on campus by fulfilling two core functions: providing mandatory data to the Chancellor's Office and serving as a key resource for Cal Poly constituents for strategic planning and decision-making.",
+    "email": "ir@calpoly.edu",
+    "address": "California Polytechnic State University, San Luis Obispo, California 93407",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T18:54:15.154462+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Mauricio Saavedra, Ph.D.",
+      "title": "Executive Director, Institutional Research",
+      "email": "msaavedr@calpoly.edu",
+      "phone": "805-756-5406",
+      "linkedin_url": "https://www.linkedin.com/in/mauricio-saavedra-phd"
+    },
+    {
+      "ordering": 1,
+      "name": "Robert Fitler",
+      "title": "Senior Research Analyst",
+      "email": "rfitler@calpoly.edu",
+      "phone": "805-756-7469"
+    },
+    {
+      "ordering": 2,
+      "name": "Ray Flores",
+      "title": "Data Analyst",
+      "email": "rflore56@calpoly.edu",
+      "phone": "805-756-0844"
+    },
+    {
+      "ordering": 3,
+      "name": "Gary Glasspool",
+      "title": "Data Analyst",
+      "email": "gglasspo@calpoly.edu",
+      "phone": "805-756-2204"
+    },
+    {
+      "ordering": 4,
+      "name": "Meghna Taneja",
+      "title": "Data Analyst",
+      "email": "metaneja@calpoly.edu",
+      "phone": "805-756-0854"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://ir.calpoly.edu/content/publications_reports/cds/index",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://ir.calpoly.edu/",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:54:01.063029+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Data Cookbook - Institutional Research - Cal Poly, San Luis Obispo",
+      "url": "https://ir.calpoly.edu/data-cookbook",
+      "summary": "The Data Cookbook at Cal Poly is a central, automated platform for managing data access requests, improving transparency and consistency in data reporting. Specifications are used to make data requests, automating what was previously a manual process, enhancing efficiency across the university's functional areas. The platform includes a range of request types for various departmental and institutional needs, ensuring adherence to privacy and regulatory standards.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:52:26.732461+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110422",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:54:17.598954+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2020,
+      "title": "2020 FactBook",
+      "url": "https://ir.calpoly.edu/2020-factbook",
+      "summary": "The 2020 FactBook for California Polytechnic State University, San Luis Obispo, published by the Office of Institutional Research, provides enhanced graphs and tables on admissions, enrollment, degrees awarded, graduation rates, employee profiles, and financial aid. The FactBook, updated since 2016, no longer uses traditional formats but presents data through web-based graphs and tables.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:50:51.883236+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "FAD Glossary - Institutional Research - Cal Poly, San Luis Obispo",
+      "url": "https://ir.calpoly.edu/content/publications_reports/fad/glossary",
+      "summary": "The FAD Glossary from Cal Poly, San Luis Obispo, serves as a reference guide for understanding various terms related to faculty assignments and course management within the Faculty Assignment by Department (FAD) report. It includes terms related to faculty appointments, workload credits, course structure, and instructional funding. Definitions are specific to how they apply within the context of Cal Poly's reporting and administrative systems.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:53:20.168505+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2014,
+      "title": "Strategic Plan of California Polytechnic State University-San Luis Obispo",
+      "url": "https://president.calpoly.edu/cal-poly-strategic-plan",
+      "summary": "The strategic plan for Cal Poly, originally outlined as Vision 2022, continues to guide the university's strategy and decision-making processes today. The Master Plan extends through 2035, focusing on campus development projects and a commitment to sustainability. The plan emphasizes environmental, social, and economic sustainability as key priorities for the university's future.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:50:55.383337+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Weird Al Yankovic",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/%22Weird_Al%22_Yankovic",
+      "field": "Music"
+    },
+    {
+      "name": "Bobby Beathard",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bobby_Beathard",
+      "field": "Sports"
+    },
+    {
+      "name": "Devin Nunes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Devin_Nunes",
+      "field": "Politics"
+    },
+    {
+      "name": "Ozzie Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ozzie_Smith",
+      "field": "Sports"
+    },
+    {
+      "name": "Robert L. Gibson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_L._Gibson",
+      "field": "Aerospace"
+    },
+    {
+      "name": "Alex Spanos",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alex_Spanos",
+      "field": "Business"
+    },
+    {
+      "name": "Burt Rutan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Burt_Rutan",
+      "field": "Aerospace"
+    },
+    {
+      "name": "John Madden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Madden",
+      "field": "Sports"
+    },
+    {
+      "name": "Farzad Nazem",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Farzad_Nazem",
+      "field": "Tech"
+    },
+    {
+      "name": "Frederick W. Sturckow",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_W._Sturckow",
+      "field": "Aerospace"
+    }
+  ]
+}

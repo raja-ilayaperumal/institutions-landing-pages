@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:08.625005+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123800,
+    "slug": "southwestern-college",
+    "name": "Southwestern College",
+    "city": "Chula Vista",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91910-7299",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00129400",
+      "ein": "956006659"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Southwestern College may refer to the following colleges in the United States:Southwestern College (California)\nSouthwestern College (Kansas)\nSouthwestern College \nSouthwestern College of Business and New England Technical Institute, now part of Lincoln Tech\nArizona Christian University, formerly Southwestern College",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Southwestern_College",
+    "source_url": "https://en.wikipedia.org/wiki/Southwestern_College",
+    "fetched_at": "2026-05-25T19:12:19.340058+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 10893,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5382,
+    "federal_loan_rate": 0.0469,
+    "net_price_by_family_income": {
+      "0_30k": 9831,
+      "30_48k": 9999,
+      "48_75k": 13155,
+      "75_110k": 16603,
+      "110k_plus": 17531
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.35,
+    "pell_grad_rate": 0.37,
+    "retention_full_time": 0.7,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 26295,
+    "ug_12mo": 26295,
+    "grad_12mo": 23290,
+    "women_12mo": 14184,
+    "men_12mo": 12111,
+    "fall_total": 20986,
+    "fall_full_time": 20986,
+    "fall_part_time": 18614,
+    "distance_ed_any": 20986,
+    "distance_ed_exclusive": 6041
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 405
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 330
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 239
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 216
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 208
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 155
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 71
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 57
+      }
+    ],
+    "program_count": 120,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 260
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "cuyamaca-college",
+        "name": "Cuyamaca College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "imperial-valley-college",
+        "name": "Imperial Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.swccd.edu/administration/institutional-research-and-planning/",
+    "office_name": "Office of Institutional Research and Planning",
+    "parent_division": "Southwestern Community College District (SCCD)",
+    "summary": "The Office of Institutional Research and Planning at Southwestern Community College District provides accurate, timely, and unbiased data analysis to advance equity-minded, data-informed decision-making to improve student access and student success in higher education and beyond.",
+    "phone": "619-216-6614",
+    "address": "Building 23, 900 Otay Lakes Rd, Chula Vista, CA 91910",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:21:43.087321+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Bill Abasolo",
+      "title": "Dean of Institutional Research & Planning"
+    },
+    {
+      "ordering": 1,
+      "name": "Angela Cardenas",
+      "title": "Administrative Secretary",
+      "phone": "619-482-6426"
+    },
+    {
+      "ordering": 2,
+      "name": "Anna Flores",
+      "title": "Institutional Research & Planning Coordinator"
+    },
+    {
+      "ordering": 3,
+      "name": "Briana Todhunter, M.S.",
+      "title": "Principal Research Analyst"
+    },
+    {
+      "ordering": 4,
+      "name": "Eduardo Diaz, Ed.D.",
+      "title": "Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/eduardo-diaz-94476a39a"
+    },
+    {
+      "ordering": 5,
+      "name": "Ivan Dacula",
+      "title": "Student Services Data Software Specialist",
+      "phone": "619-421-6700 x5897"
+    },
+    {
+      "ordering": 6,
+      "name": "Jenny Pasaribu, Ph.D.",
+      "title": "Senior Research and Planning Analyst"
+    },
+    {
+      "ordering": 7,
+      "name": "John Elder, M.S.",
+      "title": "Research Analyst"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/data-dashboards.aspx",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:24:34.618935+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Data Dictionary 2017",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/_files/data-dictionary.pdf",
+      "summary": "The data dictionary from Southwestern College provides detailed definitions and descriptions of institutional terms related to student enrollment, course completion, degree programs, and other administrative data metrics, aiming to standardize data reporting and comprehension.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:10:12.829149+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2017,
+      "title": "Data Dictionary 2017",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/_files/data-dictionary.pdf",
+      "summary": "The Southwestern College Data Dictionary 2017 provides detailed definitions and explanations for terms and metrics used in the college's institutional research and planning. It describes the academic calendar structuring, various educational and enrollment calculations such as Full-Time Equivalent Student (FTES), student headcounts, course success metrics, and program completion indicators. Additionally, it details administrative processes like census day determinations, transfer readiness, and the distinction between different types of student statuses. It serves as a comprehensive guide for understanding reporting and data usage within the context of California Community Colleges.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:23:25.164331+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123800",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:12:19.401939+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "SOUTHWESTERN COLLEGE Fact Book 2023-2024",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/_files/fact-book-2024-25-2023-24-data-final.pdf",
+      "summary": "The Southwestern College Fact Book 2023-2024 provides comprehensive information about the institution's mission, student demographics, services, and academic achievements. The report highlights key metrics such as student enrollment, course completion rates, and degrees awarded. Prepared by the Office of Institutional Research and Planning, it offers detailed data on the college's diverse community, service areas, and facilities. Additionally, the document covers the college's commitment to student success, equity, and community engagement.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:07:19.689967+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Southwestern Community College District – Fiscal Year 2020-2021 Tentative Budget Glossary",
+      "url": "https://www.swccd.edu/administration/business-and-financial-affairs/_files/glossary.pdf",
+      "summary": "The glossary from Southwestern Community College District's tentative budget for the fiscal year 2020-2021 provides definitions for 84 terms related to financial and budgeting operations within the educational institution. These terms cover a wide range of financial concepts, including different types of budgets, funds, and accounting practices. Key terms include 'Apportionment,' 'Balanced budget,' 'Debt service,' 'Fiscal year,' and 'Student Centered Funding Formula (SCFF).' This glossary is a resource for understanding the detailed financial terminology used in the management of the college's fiscal activities.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:11:45.429415+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research & Planning",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/",
+      "summary": "The Institutional Research & Planning (IRP) webpage for Southwestern College provides resources and information on data analysis aimed at improving student access and success. It describes various tools and documents such as data dashboards, data resources, institutional planning manuals, plans, reports, strategic plans, and student learning outcomes assessments, emphasizing the office's role in facilitating data-informed decision-making and equity-minded practices.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:24:50.03754+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "SWC Strategic Plan 2021-2025",
+      "url": "https://www.swccd.edu/administration/institutional-research-and-planning/strategic-plan/index.aspx",
+      "summary": "Southwestern College's Strategic Plan for 2021-2025 outlines goals and objectives aimed at enhancing student access and success, alongside fostering economic, workforce, and community development. Key components of the plan include community engagement through forums and gathering input on crucial topics affecting the college and its stakeholders. The strategic plan endeavors to align institutional goals with the needs of students and the larger community.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:22:02.688366+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Enrollment Success Specialist (2 positions)",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179384108"
+    },
+    {
+      "title": "Employee Accommodation Compliance Coordinator",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179378191"
+    },
+    {
+      "title": "Institutional Research Intern 2",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179405007"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Campus Mini-Grants",
+      "agency": "Southwestern College Foundation",
+      "kind": "opportunity",
+      "amount_usd": 70000,
+      "url": "https://www.swccd.edu/swc-community/swc-foundation/campus-mini-grants.aspx",
+      "source": "institution_site"
+    },
+    {
+      "title": "Sources Sought for Market Research purposes with Colleges and ...",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/41429d1ee3a241deab9f43d9f63d48b2/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "U--Educational Support Services for the Army Continuing Education System (ACES)",
+      "agency": "Department of the Army",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/19b6829a88834a49ae3e5973a950c029/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": []
+}

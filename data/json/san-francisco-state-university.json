@@ -1,0 +1,602 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:05.780120+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122597,
+    "slug": "san-francisco-state-university",
+    "name": "San Francisco State University",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94132",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00115400",
+      "ein": "931137247"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Francisco State University is a public research university in San Francisco, California, United States. It was established in 1899 as the San Francisco State Normal School and is part of the California State University system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/San_Francisco_State_University",
+    "fetched_at": "2026-05-25T18:57:38.783558+05:30"
+  },
+  "admissions": {
+    "applicants": 28221,
+    "admits": 27215,
+    "enrolled": 2340,
+    "first_time_freshmen": 2340,
+    "first_time_freshmen_ft": 2218,
+    "admit_rate": 0.9643527869317176,
+    "yield_rate": 0.08598199522322249
+  },
+  "cost": {
+    "avg_net_price": 12882,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1773,
+    "federal_loan_rate": 0.2543,
+    "net_price_by_family_income": {
+      "0_30k": 9307,
+      "30_48k": 10251,
+      "48_75k": 12916,
+      "75_110k": 16944,
+      "110k_plus": 22813
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "grad_4yr_bachelors": 0.28,
+    "grad_5yr_bachelors": 0.45,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.48,
+    "pell_6yr_bachelors_rate": 0.48,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.83,
+    "retention_part_time": 0.54
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 27106,
+    "ug_12mo": 23534,
+    "grad_12mo": 22494,
+    "women_12mo": 15169,
+    "men_12mo": 11937,
+    "fall_total": 22563,
+    "fall_full_time": 19444,
+    "fall_part_time": 18639,
+    "distance_ed_any": 22563,
+    "distance_ed_exclusive": 1684
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1114
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 581
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 550
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 491
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 452
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 438
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 432
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 410
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 371
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 234
+      }
+    ],
+    "program_count": 129,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 756
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "arizona-state-university-digital-immersion",
+        "name": "Arizona State University Digital Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "ball-state-university",
+        "name": "Ball State University",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "boise-state-university",
+        "name": "Boise State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "east-carolina-university",
+        "name": "East Carolina University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "florida-atlantic-university",
+        "name": "Florida Atlantic University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "georgia-southern-university",
+        "name": "Georgia Southern University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "illinois-state-university",
+        "name": "Illinois State University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "james-madison-university",
+        "name": "James Madison University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "kennesaw-state-university",
+        "name": "Kennesaw State University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "miami-university-oxford",
+        "name": "Miami University-Oxford",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "middle-tennessee-state-university",
+        "name": "Middle Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "montclair-state-university",
+        "name": "Montclair State University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "northern-arizona-university",
+        "name": "Northern Arizona University",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "portland-state-university",
+        "name": "Portland State University",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "rowan-university",
+        "name": "Rowan University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "sam-houston-state-university",
+        "name": "Sam Houston State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "texas-state-university",
+        "name": "Texas State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "the-university-of-texas-rio-grande-valley",
+        "name": "The University of Texas Rio Grande Valley",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-charlotte",
+        "name": "University of North Carolina at Charlotte",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-north-carolina-at-greensboro",
+        "name": "University of North Carolina at Greensboro",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-north-carolina-wilmington",
+        "name": "University of North Carolina Wilmington",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "university-of-rhode-island",
+        "name": "University of Rhode Island",
+        "state": "Rhode Island",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "west-chester-university-of-pennsylvania",
+        "name": "West Chester University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://ir.sfsu.edu/",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Academic Affairs",
+    "summary": "Institutional Research (IR) provides information in support of internal and external reporting, decision-making, strategic planning, program review, and faculty activities. It is the official reporting source of student information to San Francisco State University and CSU, and supports student success efforts.",
+    "email": "institutionalresearch@sfsu.edu",
+    "address": "Administration Building, Suite 460\n1600 Holloway Ave.\nSan Francisco, CA 94132",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T18:57:37.451682+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Sutee Sujitparapitaya",
+      "title": "Associate Provost",
+      "email": "sutee@sfsu.edu",
+      "phone": "415-338-3501"
+    },
+    {
+      "ordering": 1,
+      "name": "Daniel Lopez",
+      "title": "Data and Visualization Analyst",
+      "email": "dl@sfsu.edu",
+      "phone": "415-405-7323"
+    },
+    {
+      "ordering": 2,
+      "name": "Giovanni Ferrante",
+      "title": "Senior Institutional Research Analyst",
+      "email": "gferrante@sfsu.edu",
+      "phone": "415-338-3564"
+    },
+    {
+      "ordering": 3,
+      "name": "Jemma Kwon",
+      "title": "Senior Institutional Research Analyst",
+      "email": "jemmakwon@sfsu.edu",
+      "phone": "415-338-6189",
+      "linkedin_url": "https://www.linkedin.com/in/jemma-kwon-b05675271"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://ir.sfsu.edu/",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:55:42.281485+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122597",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:57:40.434809+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "San Francisco State University Strategic Plan",
+      "url": "https://president.sfsu.edu/strategic-planning",
+      "summary": "San Francisco State University has developed a strategic plan focused on fostering educational equity, improving employee experience, and enhancing university unity over 2024-2026. Guided by inputs from campus-wide stakeholders, the plan embodies strategic priorities and measurable metrics to drive impactful programs. Under President Lynn Mahoney's leadership, coordinating committees will ensure the plan's inclusive implementation, steering SF State toward significant positive changes in education and community engagement.",
+      "stored": false,
+      "fetched_at": "2026-05-25T18:54:14.874727+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451367"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Alvin Ailey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alvin_Ailey",
+      "field": "Fine art"
+    },
+    {
+      "name": "Chris Larsen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Larsen",
+      "field": "Business"
+    },
+    {
+      "name": "Annette Bening",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Annette_Bening",
+      "field": "Media"
+    },
+    {
+      "name": "Jayshree Ullal",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jayshree_Ullal",
+      "field": "Business"
+    },
+    {
+      "name": "Margaret Avery",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Margaret_Avery",
+      "field": "Media"
+    },
+    {
+      "name": "Tory Belleci",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tory_Belleci",
+      "field": "Media"
+    },
+    {
+      "name": "Dana Carvey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dana_Carvey",
+      "field": "Media"
+    },
+    {
+      "name": "Peter Coyote",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Coyote",
+      "field": "Media"
+    },
+    {
+      "name": "Ben Fong-Torres",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Fong-Torres",
+      "field": "Journalism"
+    },
+    {
+      "name": "Jose Antonio Vargas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jose_Antonio_Vargas",
+      "field": "Journalism"
+    },
+    {
+      "name": "Wilma Mankiller",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wilma_Mankiller",
+      "field": "Politics and government"
+    },
+    {
+      "name": "Willie Brown",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Willie_Brown_(politician)",
+      "field": "Politics and government"
+    },
+    {
+      "name": "Alice Fong Yu",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alice_Fong_Yu",
+      "field": "Other"
+    },
+    {
+      "name": "Kirk Hammett",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kirk_Hammett",
+      "field": "Music"
+    },
+    {
+      "name": "Johnny Mathis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Johnny_Mathis",
+      "field": "Music"
+    },
+    {
+      "name": "Steven Zaillian",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steven_Zaillian",
+      "field": "Media"
+    },
+    {
+      "name": "Ron Dellums",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ron_Dellums",
+      "field": "Politics and government"
+    },
+    {
+      "name": "Paul Desmond",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Desmond",
+      "field": "Music"
+    },
+    {
+      "name": "Vince Guaraldi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Vince_Guaraldi",
+      "field": "Music"
+    },
+    {
+      "name": "Yvonne Cagle",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yvonne_Cagle",
+      "field": "Science and technology"
+    },
+    {
+      "name": "S. I. Hayakawa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/S._I._Hayakawa",
+      "field": "Politics and government"
+    },
+    {
+      "name": "Gilbert Melendez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gilbert_Melendez",
+      "field": "Sports"
+    },
+    {
+      "name": "Debra Fischer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Debra_Fischer",
+      "field": "Science and technology"
+    }
+  ]
+}

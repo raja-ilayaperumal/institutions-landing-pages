@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:04.907305+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110592,
+    "slug": "california-state-university-los-angeles",
+    "name": "California State University-Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90032-8506",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "C1ABLRAQTB48",
+      "opeid": "00114000",
+      "ein": "946001347"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Los Angeles is a public research university in Los Angeles, California, United States. It is part of the California State University system. Cal State LA offers 142 bachelor's degree programs, 122 master's degree programs, and 4 doctoral degrees: the Doctor of Philosophy in special education, Doctor of Education in Educational Leadership, Doctor of Nursing Practice, and Doctor of Audiology. It also offers 22 teaching credentials.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Los_Angeles",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Los_Angeles",
+    "fetched_at": "2026-05-25T19:08:25.857593+05:30"
+  },
+  "admissions": {
+    "applicants": 32723,
+    "admits": 29860,
+    "enrolled": 2814,
+    "first_time_freshmen": 2814,
+    "first_time_freshmen_ft": 2743,
+    "admit_rate": 0.9125080218806344,
+    "yield_rate": 0.0942397856664434
+  },
+  "cost": {
+    "avg_net_price": 4113,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1727,
+    "federal_loan_rate": 0.204,
+    "net_price_by_family_income": {
+      "0_30k": 2855,
+      "30_48k": 3231,
+      "48_75k": 5373,
+      "75_110k": 8813,
+      "110k_plus": 14599
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.53,
+    "grad_4yr_bachelors": 0.25,
+    "grad_5yr_bachelors": 0.47,
+    "grad_6yr_bachelors": 0.53,
+    "pell_grad_rate": 0.52,
+    "pell_6yr_bachelors_rate": 0.52,
+    "non_pell_grad_rate": 0.57,
+    "non_pell_6yr_bachelors": 0.57,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.43
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 27493,
+    "ug_12mo": 23458,
+    "grad_12mo": 23326,
+    "women_12mo": 15840,
+    "men_12mo": 11653,
+    "fall_total": 23163,
+    "fall_full_time": 19586,
+    "fall_part_time": 19562,
+    "distance_ed_any": 23163,
+    "distance_ed_exclusive": 1217
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1029
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 651
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 582
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 488
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 443
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 435
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 407
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 392
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 358
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 290
+      }
+    ],
+    "program_count": 101,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 633
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-state-university-bakersfield",
+        "name": "California State University-Bakersfield",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuny-john-jay-college-of-criminal-justice",
+        "name": "CUNY John Jay College of Criminal Justice",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "new-jersey-city-university",
+        "name": "New Jersey City University",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "northeastern-state-university",
+        "name": "Northeastern State University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "northwestern-state-university-of-louisiana",
+        "name": "Northwestern State University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-san-antonio",
+        "name": "The University of Texas at San Antonio",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "troy-university",
+        "name": "Troy University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.calstatela.edu/InstitutionalEffectiveness",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness provides quality data, analysis, and partnerships to foster evidence-based decision-making and advance institutional excellence.",
+    "phone": "323-343-2730",
+    "email": "IE@calstatela.edu",
+    "address": "5151 State University Drive, Los Angeles, CA 90032",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:08:24.371317+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Yusuke Kuroki, Ph.D.",
+      "title": "Associate Director",
+      "email": "ykuroki@calstatela.edu",
+      "phone": "323-343-2733",
+      "linkedin_url": "https://www.linkedin.com/in/yusuke-kuroki-ph-d-a951997b"
+    },
+    {
+      "ordering": 1,
+      "name": "Alan Yu",
+      "title": "Senior Research & Assessment Analyst",
+      "email": "pyu16@calstatela.edu",
+      "phone": "323-343-2735"
+    },
+    {
+      "ordering": 2,
+      "name": "Suseon Yang, Ph.D.",
+      "title": "Data Science Lead",
+      "email": "syang82@calstatela.edu",
+      "phone": "323-343-2736",
+      "linkedin_url": "https://www.linkedin.com/in/suseon-yang-2a66738"
+    },
+    {
+      "ordering": 3,
+      "name": "Tim Sechang",
+      "title": "Research Analyst",
+      "email": "ssechan@calstatela.edu",
+      "phone": "323-343-2732",
+      "linkedin_url": "https://www.linkedin.com/in/timsechang"
+    },
+    {
+      "ordering": 4,
+      "name": "Kevin Kaeochinda, Ph.D.",
+      "title": "Senior Research Analyst",
+      "email": "kkaeoch@calstatela.edu",
+      "phone": "323-343-2731",
+      "linkedin_url": "https://www.linkedin.com/in/kevinkaeochinda"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.calstatela.edu/sites/default/files/CDS2526_CalStateLA.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.calstatela.edu/sites/default/files/CDS2425_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.calstatela.edu/sites/default/files/CDS2324.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.calstatela.edu/sites/default/files/cds2223.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.calstatela.edu/sites/default/files/cds2122.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.calstatela.edu/sites/default/files/cds2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1920.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1819.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1718.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1617.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1516.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1415.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1314.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1213.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1112.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.calstatela.edu/sites/default/files/cds1011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.calstatela.edu/sites/default/files/cds0910.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.calstatela.edu/sites/default/files/cds0809.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.calstatela.edu/InstitutionalEffectiveness/enrollment-management-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:08:03.681842+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110592",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:08:27.395379+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Quick Facts | Cal State LA",
+      "url": "https://www.calstatela.edu/InstitutionalEffectiveness/quick-facts",
+      "summary": "The Quick Facts page for California State University-Los Angeles provides an overview of key statistics about the student population, including enrollment, financial aid, and tuition, as well as graduation rates for athletes as required by NCAA and federal law. It includes links to the Common Data Set and athlete graduation reports. The page serves as an entry point for further engagement with the university’s data resources managed by the Institutional Effectiveness office.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:05:09.590732+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms | Cal State LA",
+      "url": "https://www.calstatela.edu/InstitutionalEffectiveness/glossary-terms",
+      "summary": "This glossary from California State University-Los Angeles offers definitions for key terms related to institutional effectiveness and student data. The terms cover various aspects such as academic periods, enrollment metrics, student classifications, and demographic categorizations.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:07:18.829347+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Shaping Our Future Together",
+      "url": "https://www.calstatela.edu/strategic-plan",
+      "summary": "Cal State LA's Strategic Plan, set for completion in Spring 2026, aims to define the university's key priorities for the next five years, focusing on institutional transformation. Guided by the Strategic Planning Council and facilitated by Dr. Timothy Mottet, the plan seeks to foster campus-wide engagement through inclusive dialogue and stakeholder input. This initiative integrates with other major planning efforts to position Cal State LA for success in a rapidly evolving educational landscape.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:03:38.813126+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Associate Provost for Operational Success - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179342085"
+    },
+    {
+      "title": "Director of Online Enrollment - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179437699"
+    },
+    {
+      "title": "Associate Dean, University Library - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179349114"
+    },
+    {
+      "title": "Associate Provost for Faculty Success - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179387434"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Certificate in Securities and Financial Regulation Program - SAM.gov",
+      "kind": "opportunity",
+      "url": "https://sam.gov/workspace/contract/opp/6b94fa699a3380bdee0d8278a34c3407/view",
+      "source": "sam_gov"
+    },
+    {
+      "title": "D -- People Program Network - Direct Internet Access to DMARC",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/3f10390be10e0f2d5875b9b995ed50b2/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Lucille Royball-Allard",
+      "field": "Politics"
+    },
+    {
+      "name": "Michael D. Antonovich",
+      "field": "Politics"
+    },
+    {
+      "name": "James A. Bell",
+      "field": "Business"
+    },
+    {
+      "name": "Warren Bryant",
+      "field": "Business"
+    },
+    {
+      "name": "James Butts",
+      "field": "Politics"
+    },
+    {
+      "name": "Steve Cooley",
+      "field": "Law"
+    },
+    {
+      "name": "Elizabeth Devine",
+      "field": "Television Production"
+    },
+    {
+      "name": "Samuel T. Durrance",
+      "field": "Science"
+    },
+    {
+      "name": "Alan J. Fohrer",
+      "field": "Business"
+    },
+    {
+      "name": "Leonor Gaviña-Valls",
+      "field": "Business"
+    },
+    {
+      "name": "Francisco Gaviña",
+      "field": "Business"
+    },
+    {
+      "name": "John Huerta",
+      "field": "Law"
+    },
+    {
+      "name": "Billie Jean King",
+      "field": "Athletics"
+    },
+    {
+      "name": "Art Leahy",
+      "field": "Transportation"
+    },
+    {
+      "name": "Rosario Marin",
+      "field": "Politics"
+    },
+    {
+      "name": "John D. Petersen",
+      "field": "Education"
+    },
+    {
+      "name": "Beatriz Porto",
+      "field": "Business"
+    },
+    {
+      "name": "Raul Porto Jr.",
+      "field": "Business"
+    },
+    {
+      "name": "Margarita Porto",
+      "field": "Business"
+    },
+    {
+      "name": "Terrence Roberts",
+      "field": "Social Activism"
+    },
+    {
+      "name": "Ralph M. Terrazas",
+      "field": "Public Safety"
+    },
+    {
+      "name": "Nat Trives",
+      "field": "Politics"
+    },
+    {
+      "name": "Kent Twitchell",
+      "field": "Art"
+    },
+    {
+      "name": "Joseph Wambaugh",
+      "field": "Literature"
+    },
+    {
+      "name": "Maxine Waters",
+      "field": "Politics"
+    },
+    {
+      "name": "Diane Watson",
+      "field": "Politics"
+    },
+    {
+      "name": "Willie Zuñiga",
+      "field": "Business"
+    },
+    {
+      "name": "Raul Jr. Porto",
+      "field": "Business"
+    }
+  ]
+}

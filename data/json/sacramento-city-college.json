@@ -1,0 +1,627 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T13:57:10.288770+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122180,
+    "slug": "sacramento-city-college",
+    "name": "Sacramento City College",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95822-1386",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+    "carnegie_slug": "associates-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JRSNN2RBANE4",
+      "opeid": "00123300",
+      "ein": "941576340"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Sacramento City College (SCC) is a public community college in Sacramento, California. SCC is part of the Los Rios Community College District and had an enrollment of 25,307 in 2009. It is accredited by the Accrediting Commission for Community and Junior Colleges (ACCJC), offering Associate in Science (A.S) and Associate in Art (A.A.) degrees.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sacramento_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/Sacramento_City_College",
+    "fetched_at": "2026-05-25T19:21:24.865568+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3974,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7433,
+    "federal_loan_rate": 0.041,
+    "net_price_by_family_income": {
+      "0_30k": 2785,
+      "30_48k": 3040,
+      "48_75k": 7044,
+      "75_110k": 8939,
+      "110k_plus": 10033
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.33,
+    "pell_grad_rate": 0.28,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.69,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 30100,
+    "ug_12mo": 30100,
+    "grad_12mo": 26615,
+    "women_12mo": 17881,
+    "men_12mo": 12219,
+    "fall_total": 19920,
+    "fall_full_time": 19920,
+    "fall_part_time": 17657,
+    "distance_ed_any": 19920,
+    "distance_ed_exclusive": 10926
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 275
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 232
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 180
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 170
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 108
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 40
+      }
+    ],
+    "program_count": 107,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 267
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "amarillo-college",
+        "name": "Amarillo College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "baton-rouge-community-college",
+        "name": "Baton Rouge Community College",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "bluegrass-community-and-technical-college",
+        "name": "Bluegrass Community and Technical College",
+        "state": "Kentucky",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "brookdale-community-college",
+        "name": "Brookdale Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-college-of-san-francisco",
+        "name": "City College of San Francisco",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "coastal-alabama-community-college",
+        "name": "Coastal Alabama Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "community-college-of-baltimore-county",
+        "name": "Community College of Baltimore County",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "delaware-county-community-college",
+        "name": "Delaware County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "delgado-community-college",
+        "name": "Delgado Community College",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "forsyth-technical-community-college",
+        "name": "Forsyth Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "grand-rapids-community-college",
+        "name": "Grand Rapids Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "guilford-technical-community-college",
+        "name": "Guilford Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "horry-georgetown-technical-college",
+        "name": "Horry-Georgetown Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "hudson-county-community-college",
+        "name": "Hudson County Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "lansing-community-college",
+        "name": "Lansing Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "macomb-community-college",
+        "name": "Macomb Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "midlands-technical-college",
+        "name": "Midlands Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "mt-san-jacinto-community-college-district",
+        "name": "Mt San Jacinto Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "northampton-county-area-community-college",
+        "name": "Northampton County Area Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "northwest-mississippi-community-college",
+        "name": "Northwest Mississippi Community College",
+        "state": "Mississippi",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "pearl-river-community-college",
+        "name": "Pearl River Community College",
+        "state": "Mississippi",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "san-bernardino-valley-college",
+        "name": "San Bernardino Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "tulsa-community-college",
+        "name": "Tulsa Community College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://inside.scc.losrios.edu/planningresearch/institutional-effectiveness",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Los Rios Community College District",
+    "summary": "The Office of Institutional Research provides the district and colleges with information and research to support planning, budgeting, assessment, accreditation, policy formation, and decision-making.",
+    "phone": "916-558-2511",
+    "email": "scc-prie@scc.losrios.edu",
+    "address": "Rodda Hall North, RHN-222, 3835 Freeport Boulevard, Sacramento, CA 95822",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:21:23.955804+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dennis Lee",
+      "title": "Dean",
+      "email": "LeeD@scc.losrios.edu",
+      "phone": "916-558-2512"
+    },
+    {
+      "ordering": 1,
+      "name": "Cassidy Larkin",
+      "title": "Administrative Assistant",
+      "email": "larkinc@scc.losrios.edu",
+      "phone": "916-558-2511",
+      "linkedin_url": "https://www.linkedin.com/in/cassidy-larkin-39b137291"
+    },
+    {
+      "ordering": 2,
+      "name": "Jay Cull",
+      "title": "Senior IT Specialist",
+      "email": "CullJ@scc.losrios.edu",
+      "phone": "916-558-2335"
+    },
+    {
+      "ordering": 3,
+      "name": "Tiffanie Ho",
+      "title": "Research Analyst",
+      "email": "HoT@scc.losrios.edu",
+      "phone": "916-558-2334"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://inside.scc.losrios.edu/planningresearch/data-and-research/scc-data-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:20:09.238122+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122180",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:21:25.772694+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2019,
+      "title": "SCC Factbook Report",
+      "url": "https://scc.losrios.edu/scc/main/doc/1-Why-SCC/4-Facts-and-Statistics/Factbook-Report.pdf",
+      "summary": "The SCC Factbook Report for the academic year 2018-19 provides a comprehensive snapshot of the student population at Sacramento City College. It covers several key metrics such as total enrollment which was 21,881 in Fall 2018, student demographics including age, gender, and ethnicity distributions, and educational goals. More than 45% of students are continuing students and primarily attend part-time, with 34% taking 12 or more units. The report highlights that the student body is ethnically diverse, with Hispanic/Latinos comprising about 33%. Over 57% of students attend day classes, and 20% are seeking work. The most popular majors among new students include general education transfer, pre-allied health & nursing, and biology. It also examines geographic distribution of students, noting several common feeder high schools and prominent zip codes. The report utilizes data including contributions from UC Davis students.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:18:10.904215+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Sacramento City College Strategic Plan 2023-2027",
+      "url": "https://inside.scc.losrios.edu/scc/inside/doc/e4-planning-and-research/planning/scc-strategic-master-plan.pdf",
+      "summary": "The Sacramento City College Strategic Plan 2023-2027 outlines a comprehensive roadmap to enhance access, success, and equity within the institution. It aims to improve enrollment processes, increase course offerings, and develop student-focused research strategies. The plan sets clear targets to reduce energy and water usage and promote sustainability through academic programs and infrastructure improvements.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:17:45.270168+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director (VII) of Native American Student Support and Success Program (NASSSP)",
+      "apply_url": "https://www.higheredjobs.com/twoyear/details.cfm?JobCode=179406515&Title=Director%20(VII)%20of%20Native%20American%20Student%20Support%20and%20Success%20Program%20(NASSSP)"
+    },
+    {
+      "title": "Human Resources Generalist - 80910",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179382624"
+    },
+    {
+      "title": "Sr. Post-Award Grant Manager",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446806&Title=Project%20Coordinator"
+    },
+    {
+      "title": "Assistant Professor of Research",
+      "apply_url": "https://www.higheredjobs.com/search/details.cfm?JobCode=179442984&Title=Assistant%2FAssociate%2FFull%20Professor"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Cal Grant A",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant B",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant C",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "California College Promise Grant",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Chafee Grant for Foster Youth",
+      "agency": "State of California",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grant",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Student Success Completion Grant (SSCG)",
+      "kind": "opportunity",
+      "url": "https://scc.losrios.edu/admissions/financial-aid-and-fees/types-of-financial-aid/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Ray Eames",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Eames",
+      "field": "Art and architecture"
+    },
+    {
+      "name": "Jessica Chastain",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jessica_Chastain",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Tani Cantil-Sakauye",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tani_Cantil-Sakauye",
+      "field": "Law"
+    },
+    {
+      "name": "Herb Caen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Herb_Caen",
+      "field": "Literature and journalism"
+    },
+    {
+      "name": "John E. Moss",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_E._Moss",
+      "field": "Politics"
+    },
+    {
+      "name": "Michael James Adams",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_James_Adams",
+      "field": "Science and engineering"
+    },
+    {
+      "name": "Lou Nova",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lou_Nova",
+      "field": "Sports"
+    },
+    {
+      "name": "Greg Vaughn",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Greg_Vaughn",
+      "field": "Sports"
+    },
+    {
+      "name": "Akiem Hicks",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Akiem_Hicks",
+      "field": "Sports"
+    },
+    {
+      "name": "Sheila Hudson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sheila_Hudson",
+      "field": "Sports"
+    },
+    {
+      "name": "Sasha Grey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sasha_Grey",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Sherwood 'Shakey' Johnson",
+      "field": "Business"
+    },
+    {
+      "name": "Jeff Adachi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Adachi",
+      "field": "Law"
+    },
+    {
+      "name": "Tommy Kono",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tommy_Kono",
+      "field": "Sports"
+    },
+    {
+      "name": "George Stanich",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Stanich",
+      "field": "Sports"
+    },
+    {
+      "name": "Buck Martinez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Buck_Martinez",
+      "field": "Sports"
+    },
+    {
+      "name": "Seneca Wallace",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Seneca_Wallace",
+      "field": "Sports"
+    }
+  ]
+}
