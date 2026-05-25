@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:10.833768+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122375,
+    "slug": "san-diego-mesa-college",
+    "name": "San Diego Mesa College",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92111-4998",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "S8E4H9AYQT18",
+      "opeid": "00127500",
+      "ein": "952644296"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Diego Mesa College is a public community college in San Diego, California. It is part of San Diego Community College District and the California Community Colleges system. The college is accredited by the Accrediting Commission for Community and Junior Colleges (ACCJC).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Diego_Mesa_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Diego_Mesa_College",
+    "fetched_at": "2026-05-25T19:55:44.142086+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": -904,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7494,
+    "federal_loan_rate": 0.0203,
+    "net_price_by_family_income": {
+      "0_30k": -3351,
+      "30_48k": -696,
+      "48_75k": 3115,
+      "75_110k": 6170,
+      "110k_plus": 3323
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.35,
+    "grad_4yr_bachelors": 0.92,
+    "grad_5yr_bachelors": 0.92,
+    "grad_6yr_bachelors": 0.92,
+    "pell_grad_rate": 0.31,
+    "non_pell_grad_rate": 0.4
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 30204,
+    "ug_12mo": 30204,
+    "grad_12mo": 25777,
+    "women_12mo": 16639,
+    "men_12mo": 13565,
+    "fall_total": 19212,
+    "fall_full_time": 19212,
+    "fall_part_time": 16098,
+    "distance_ed_any": 19212,
+    "distance_ed_exclusive": 7447
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 316
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 148
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 120
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 118
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 110
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 107
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 70
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 62
+      }
+    ],
+    "program_count": 84,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 261
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "austin-community-college-district",
+        "name": "Austin Community College District",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "broward-college",
+        "name": "Broward College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-southern-nevada",
+        "name": "College of Southern Nevada",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "collin-county-community-college-district",
+        "name": "Collin County Community College District",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "dallas-college",
+        "name": "Dallas College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "front-range-community-college",
+        "name": "Front Range Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "greenville-technical-college",
+        "name": "Greenville Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "henry-ford-college",
+        "name": "Henry Ford College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "hillsborough-community-college",
+        "name": "Hillsborough Community College",
+        "state": "Florida",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "houston-community-college",
+        "name": "Houston Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "lone-star-college-system",
+        "name": "Lone Star College System",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "miami-dade-college",
+        "name": "Miami Dade College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "palm-beach-state-college",
+        "name": "Palm Beach State College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "pikes-peak-state-college",
+        "name": "Pikes Peak State College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "rio-salado-college",
+        "name": "Rio Salado College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "saint-louis-community-college",
+        "name": "Saint Louis Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "san-antonio-college",
+        "name": "San Antonio College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "san-jacinto-community-college",
+        "name": "San Jacinto Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "santa-ana-college",
+        "name": "Santa Ana College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "santa-fe-college",
+        "name": "Santa Fe College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "sinclair-community-college",
+        "name": "Sinclair Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "south-texas-college",
+        "name": "South Texas College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "tyler-junior-college",
+        "name": "Tyler Junior College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "valencia-college",
+        "name": "Valencia College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.sdmesa.edu/about-mesa/institutional-research/index.shtml",
+    "office_name": "Mesa College Research Office",
+    "parent_division": "San Diego Community College District",
+    "summary": "Our mission is to build a culture of inquiry and foster data-informed decision making by providing research services, expertise, and coaching to the Mesa campus community in support of the college’s institutional effectiveness.",
+    "phone": "619-388-2509",
+    "address": "7250 Mesa College Drive, San Diego, CA 92111-4998",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:55:43.025515+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.sdmesa.edu/about-mesa/institutional-research/data-dashboards.shtml",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:55:26.509295+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122375",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:55:45.507449+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Roadmap to Mesa2030",
+      "url": "https://www.sdmesa.edu/about-mesa/mesa2030/roadmap-mesa2030.shtml",
+      "summary": "San Diego Mesa College has outlined a strategic plan named Roadmap to Mesa2030, aiming to guide the college's growth and development from 2024 to 2030. The plan is structured around five primary goals: Completion, Scholarship, Pathways and Partnerships, Stewardship, and Community. Progress will be monitored through defined strategic objectives and college-wide progress measures, with special attention paid to equity across different student demographics.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:52:47.265566+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Cal Grant C",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",
+      "source": "institution_site"
+    },
+    {
+      "title": "California College Promise Grant",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grant",
+      "agency": "U.S. Federal Government",
+      "kind": "opportunity",
+      "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+      "agency": "U.S. Federal Government",
+      "kind": "opportunity",
+      "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",
+      "source": "institution_site"
+    },
+    {
+      "title": "Student Success Completion Grant (SSCG)",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Annette Bening",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Annette_Bening",
+      "field": "Acting"
+    },
+    {
+      "name": "Nick Buss",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_Buss",
+      "field": "Athletics"
+    },
+    {
+      "name": "Darren Comeaux",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Darren_Comeaux",
+      "field": "Athletics"
+    },
+    {
+      "name": "Sam Daghles",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sam_Daghles",
+      "field": "Athletics"
+    },
+    {
+      "name": "Billy Eppler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Billy_Eppler",
+      "field": "Sports Management"
+    },
+    {
+      "name": "Monique Henderson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Monique_Henderson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Greg Minton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Greg_Minton",
+      "field": "Athletics"
+    },
+    {
+      "name": "Tony Muser",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Muser",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jim Peterson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Arnie Robinson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arnie_Robinson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Félix Sánchez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/F%C3%A9lix_S%C3%A1nchez",
+      "field": "Athletics"
+    },
+    {
+      "name": "Snow Tha Product",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Snow_Tha_Product",
+      "field": "Music"
+    },
+    {
+      "name": "Mike Winters",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Winters",
+      "field": "Sports"
+    }
+  ]
+}

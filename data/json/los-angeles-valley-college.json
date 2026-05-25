@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:15.296421+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117733,
+    "slug": "los-angeles-valley-college",
+    "name": "Los Angeles Valley College",
+    "city": "Valley Glen",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91401-4096",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "P26NJFCGBPM7",
+      "opeid": "00122800",
+      "ein": "952587353"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles Valley College is a public community college in Los Angeles, California, United States. It is part of the Los Angeles Community College District, and serves Valley Glen and its surrounding neighborhoods in the San Fernando Valley.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Valley_College",
+    "fetched_at": "2026-05-25T21:09:09.708514+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 10200,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.757,
+    "federal_loan_rate": 0.0137,
+    "net_price_by_family_income": {
+      "0_30k": 9486,
+      "30_48k": 10140,
+      "48_75k": 12038,
+      "75_110k": 14791,
+      "110k_plus": 13650
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.32,
+    "pell_grad_rate": 0.35,
+    "non_pell_grad_rate": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 26580,
+    "ug_12mo": 26580,
+    "grad_12mo": 20345,
+    "women_12mo": 15028,
+    "men_12mo": 11552,
+    "fall_total": 15999,
+    "fall_full_time": 15999,
+    "fall_part_time": 12601,
+    "distance_ed_any": 15999,
+    "distance_ed_exclusive": 9425
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 324
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 290
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 228
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 129
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 85
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 84
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 52
+      }
+    ],
+    "program_count": 71,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 189
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "allan-hancock-college",
+        "name": "Allan Hancock College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "central-new-mexico-community-college",
+        "name": "Central New Mexico Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "central-piedmont-community-college",
+        "name": "Central Piedmont Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chandler-gilbert-community-college",
+        "name": "Chandler-Gilbert Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cuny-kingsborough-community-college",
+        "name": "CUNY Kingsborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "eastern-gateway-community-college",
+        "name": "Eastern Gateway Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "elgin-community-college",
+        "name": "Elgin Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "howard-community-college",
+        "name": "Howard Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "irvine-valley-college",
+        "name": "Irvine Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "mesa-community-college",
+        "name": "Mesa Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "middlesex-college",
+        "name": "Middlesex College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "montgomery-college",
+        "name": "Montgomery College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "norco-college",
+        "name": "Norco College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "northern-virginia-community-college",
+        "name": "Northern Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "northwest-vista-college",
+        "name": "Northwest Vista College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "oakland-community-college",
+        "name": "Oakland Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "phoenix-college",
+        "name": "Phoenix College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "portland-community-college",
+        "name": "Portland Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "prince-george-s-community-college",
+        "name": "Prince George's Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "salt-lake-community-college",
+        "name": "Salt Lake Community College",
+        "state": "Utah",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-westchester-community-college",
+        "name": "SUNY Westchester Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.lavc.edu/offices/oie",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness facilitates and supports campus-wide processes for evaluating the effectiveness of programs and the institution in order to foster sustainable continuous quality improvement. It coordinates and supports institutional efforts related to data, research, accountability, assessment for planning, goal-setting, and decision-making.",
+    "phone": "818-947-2437",
+    "address": "ACA 2201, 5800 Fulton Avenue, Valley Glen, CA 91401",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:09:08.576894+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Michelle Fowles",
+      "title": "Dean, Institutional Effectiveness & Academic Affairs",
+      "email": "fowlesmr@lavc.edu",
+      "phone": "818-947-2437"
+    },
+    {
+      "ordering": 1,
+      "name": "Agyeman Boateng",
+      "title": "Research Analyst",
+      "email": "boatenas@lavc.edu",
+      "phone": "818-778-5978"
+    },
+    {
+      "ordering": 2,
+      "name": "Cathy Jin",
+      "title": "Research Analyst",
+      "email": "jinck@lavc.edu",
+      "phone": "818-778-5917",
+      "linkedin_url": "https://www.linkedin.com/in/cathy-jin-b0167217"
+    },
+    {
+      "ordering": 3,
+      "name": "Michelle Lin",
+      "title": "Research Analyst",
+      "phone": "818-947-7205"
+    },
+    {
+      "ordering": 4,
+      "name": "Ilene Sutter",
+      "title": "Administrative Assistant",
+      "email": "sutteril@lavc.edu",
+      "phone": "818-947-2686"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.lavc.edu/offices/oie/data-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:08:48.240597+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117733",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:09:10.90694+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "ZTC Award Program",
+      "agency": "California Community Colleges Chancellor’s Office",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://lib.lavc.edu/ztc",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Sean Astin",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Ed Begley Jr.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ed_Begley_Jr.",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Julie Brown",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Adam Carolla",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Bryan Cranston",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Mark Dacascos",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Micky Dolenz",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Jerry Mathers",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Michael Richards",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Tom Selleck",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Kevin Spacey",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Jim Arellanes",
+      "field": "Sports"
+    },
+    {
+      "name": "Otis Burrell",
+      "field": "Sports"
+    },
+    {
+      "name": "Bobby Castillo",
+      "field": "Sports"
+    },
+    {
+      "name": "Sue Gossick",
+      "field": "Sports"
+    },
+    {
+      "name": "Don McKenzie",
+      "field": "Sports"
+    }
+  ]
+}

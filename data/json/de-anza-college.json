@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:13.703423+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113333,
+    "slug": "de-anza-college",
+    "name": "De Anza College",
+    "city": "Cupertino",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95014",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HUX6SM5NXHM9",
+      "opeid": "00448000",
+      "ein": "941597718"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "De Anza College is a public community college in Cupertino, California, United States. It is part of the Foothill-De Anza Community College District, which also administers Foothill College in nearby Los Altos Hills, California. The college is named after the Spanish explorer Juan Bautista de Anza.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/De_Anza_College",
+    "source_url": "https://en.wikipedia.org/wiki/De_Anza_College",
+    "fetched_at": "2026-05-25T21:04:13.56271+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4667,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5902,
+    "federal_loan_rate": 0.0236,
+    "net_price_by_family_income": {
+      "0_30k": 3046,
+      "30_48k": 4354,
+      "48_75k": 6804,
+      "75_110k": 9628,
+      "110k_plus": 10644
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.68,
+    "pell_grad_rate": 0.71,
+    "non_pell_grad_rate": 0.7,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.33
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 28620,
+    "ug_12mo": 28620,
+    "grad_12mo": 24129,
+    "women_12mo": 14116,
+    "men_12mo": 14504,
+    "fall_total": 17425,
+    "fall_full_time": 17425,
+    "fall_part_time": 15264,
+    "distance_ed_any": 17425,
+    "distance_ed_exclusive": 7946
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 418
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 262
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 192
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 179
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 179
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 138
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 101
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 51
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 47
+      }
+    ],
+    "program_count": 86,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 238
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "berkeley-city-college",
+        "name": "Berkeley City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "city-college-of-san-francisco",
+        "name": "City College of San Francisco",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "college-of-san-mateo",
+        "name": "College of San Mateo",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "foothill-college",
+        "name": "Foothill College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "laney-college",
+        "name": "Laney College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "merritt-college",
+        "name": "Merritt College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "ohlone-college",
+        "name": "Ohlone College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "skyline-college",
+        "name": "Skyline College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://deanza.edu/ir/Dashboards.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:02:51.363306+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113333",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:04:15.248826+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Patrick Ahrens"
+    },
+    {
+      "name": "Mel Baggs"
+    },
+    {
+      "name": "Katarina Comesaña"
+    },
+    {
+      "name": "Al DeGuzman"
+    },
+    {
+      "name": "Grant Geissman"
+    },
+    {
+      "name": "Ron Gonzales"
+    },
+    {
+      "name": "Teri Hatcher",
+      "field": "Acting"
+    },
+    {
+      "name": "Fred Keeley"
+    },
+    {
+      "name": "Lynette Knackstedt"
+    },
+    {
+      "name": "Alexander Lee (entertainer)"
+    },
+    {
+      "name": "Evan Low",
+      "field": "Politics"
+    },
+    {
+      "name": "Alex McArthur",
+      "field": "Acting"
+    },
+    {
+      "name": "DJ Patil",
+      "field": "Data Science"
+    },
+    {
+      "name": "Joe Prunty",
+      "field": "Sports"
+    },
+    {
+      "name": "Rock M. Sakura",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Paul Soriano",
+      "field": "Film"
+    },
+    {
+      "name": "Jhonen Vasquez",
+      "field": "Comics"
+    },
+    {
+      "name": "Roger Ver",
+      "field": "Cryptocurrency"
+    },
+    {
+      "name": "Len Wiseman",
+      "field": "Film"
+    },
+    {
+      "name": "Flo Oy Wong",
+      "field": "Art"
+    },
+    {
+      "name": "Steve Wozniak",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Wozniak",
+      "field": "Technology"
+    }
+  ]
+}

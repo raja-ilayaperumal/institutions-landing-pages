@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:14.359358+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120342,
+    "slug": "orange-coast-college",
+    "name": "Orange Coast College",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92626",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UPK4NR4DRL25",
+      "opeid": "00125000",
+      "ein": "956002272"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Orange Coast College (OCC) is a public community college in Costa Mesa in Orange County, California. It was founded in 1947, with its first classes opening in the fall of 1948. It provides Associate of Art and Associate of Science degrees, certificates of achievement, and lower-division classes transferable to other colleges and universities. The college enrolls approximately 24,000 undergraduate students. In terms of population size, Orange Coast College is the third-largest college in Orange County.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Orange_Coast_College",
+    "source_url": "https://en.wikipedia.org/wiki/Orange_Coast_College",
+    "fetched_at": "2026-05-25T21:06:08.061336+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "room_and_board": 19159,
+    "avg_net_price": 4754,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5987,
+    "federal_loan_rate": 0.0156,
+    "net_price_by_family_income": {
+      "0_30k": 3105,
+      "30_48k": 4473,
+      "48_75k": 7289,
+      "75_110k": 9230,
+      "110k_plus": 10872
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.48,
+    "pell_grad_rate": 0.48,
+    "non_pell_grad_rate": 0.17,
+    "retention_full_time": 0.74,
+    "retention_part_time": 0.51
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 22707,
+    "ug_12mo": 22707,
+    "grad_12mo": 21364,
+    "women_12mo": 11449,
+    "men_12mo": 11258,
+    "fall_total": 17096,
+    "fall_full_time": 17096,
+    "fall_part_time": 16091,
+    "distance_ed_any": 17096,
+    "distance_ed_exclusive": 2351
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 390
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 380
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 188
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 178
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 153
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 141
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 138
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 131
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 85
+      }
+    ],
+    "program_count": 127,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 248
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "bergen-community-college",
+        "name": "Bergen Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "blinn-college-district",
+        "name": "Blinn College District",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "community-college-of-philadelphia",
+        "name": "Community College of Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "community-college-of-rhode-island",
+        "name": "Community College of Rhode Island",
+        "state": "Rhode Island",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "cuny-borough-of-manhattan-community-college",
+        "name": "CUNY Borough of Manhattan Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "cuny-laguardia-community-college",
+        "name": "CUNY LaGuardia Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "el-paso-community-college",
+        "name": "El Paso Community College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "fullerton-college",
+        "name": "Fullerton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "georgia-state-university-perimeter-college",
+        "name": "Georgia State University-Perimeter College",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "metropolitan-community-college-kansas-city",
+        "name": "Metropolitan Community College-Kansas City",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "moorpark-college",
+        "name": "Moorpark College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "nassau-community-college",
+        "name": "Nassau Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "suffolk-county-community-college",
+        "name": "Suffolk County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "tarrant-county-college-district",
+        "name": "Tarrant County College District",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "wake-technical-community-college",
+        "name": "Wake Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://orangecoastcollege.edu/about/institutional-effectiveness/reports.html",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Institutional Effectiveness",
+    "summary": "The page provides a variety of documents and reports related to institutional effectiveness at Orange Coast College, including the OCC Atlas, educational master plans, and program reviews. It also lists some dashboard links and contact information for the college.",
+    "email": "occresearch@occ.cccd.edu",
+    "address": "2701 Fairview Road Costa Mesa, California 92626",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:06:04.948038+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Sheri Sterner",
+      "title": "Dean of Research, Planning, and Institutional Effectiveness",
+      "email": "ssterner@occ.cccd.edu",
+      "phone": "(714) 432-5081"
+    },
+    {
+      "ordering": 1,
+      "name": "Alex Buus",
+      "title": "Research Analyst Senior",
+      "email": "abuus@cccd.edu",
+      "phone": "(714) 432-5977"
+    },
+    {
+      "ordering": 2,
+      "name": "Lucy Grams",
+      "title": "Research Analyst",
+      "email": "lgrams@cccd.edu",
+      "phone": "(714) 714-7477",
+      "linkedin_url": "https://www.linkedin.com/in/lucy-grams"
+    },
+    {
+      "ordering": 3,
+      "name": "Courtney Youngberg",
+      "title": "Research Analyst Senior",
+      "email": "cyoungberg4@cccd.edu",
+      "phone": "(714) 432-6836",
+      "linkedin_url": "https://www.linkedin.com/in/courtney-youngberg"
+    },
+    {
+      "ordering": 4,
+      "name": "Diane Brown",
+      "title": "Institutional Effectiveness Coordinator",
+      "email": "dbrown226@occ.cccd.edu",
+      "linkedin_url": "https://www.linkedin.com/in/diane-brown-2736969"
+    },
+    {
+      "ordering": 5,
+      "name": "Laura Behr",
+      "title": "Institutional Effectiveness Coordinator",
+      "email": "lbehr@occ.cccd.edu"
+    },
+    {
+      "ordering": 6,
+      "name": "Sherana Polk",
+      "title": "Institutional Effectiveness Coordinator",
+      "email": "spolk@occ.cccd.edu"
+    },
+    {
+      "ordering": 7,
+      "name": "Chi Phan",
+      "title": "Research Professional Expert",
+      "email": "cphan47@cccd.edu"
+    },
+    {
+      "ordering": 8,
+      "name": "Kayla LaBounty",
+      "title": "Administrative Assistant I",
+      "email": "klabounty@occ.cccd.edu",
+      "phone": "(714) 714-7624"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://orangecoastcollege.edu/about/institutional-effectiveness/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:03:50.972601+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120342",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:06:08.673511+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "College Facts & Consumer Information | Orange Coast College",
+      "url": "https://orangecoastcollege.edu/about/college-information.html",
+      "summary": "This page provides comprehensive information about Orange Coast College's students, community, and institutional effectiveness. It mentions key data points such as enrollment, graduation rates, and diversity, and includes sections on academic programs, financial aid, safety, student outcomes, and accreditation. The OCC Atlas, an annual publication, is highlighted as the official factbook with historical data starting from 2000 available upon request from the Institutional Effectiveness Office.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:00:17.386377+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Orange Coast College Process and Guidelines for Conducting Research",
+      "url": "https://orangecoastcollege.edu/about/institutional-effectiveness/docs/finalizedocc-research-process-and-guidelines-20241.pdf",
+      "summary": "The document outlines the policies and procedures for research at Orange Coast College, focusing on the role of the Research Review Subcommittee in protecting research participants and ensuring compliance with state and federal regulations. It clarifies when formal review is required for both internal and external research proposals, and the principles derived from the Belmont Report that guide the review process. While the college does not maintain a federally approved IRB, it implements similar guidelines to ensure ethical research practices on campus.",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:05:21.457024+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Tutoring and Learning Center Coordinator",
+      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179450145&Title=Counseling%20Assistant"
+    },
+    {
+      "title": "Instructor Radiological Technology (Tenure-Track)",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446135"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Blake Anderson",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Scott Aukerman",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Eileen Davidson",
+      "field": "Entertainment"
+    },
+    {
+      "name": "David Denman",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Adam DeVine",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Diane Keaton",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Brian Krause",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Phạm Xuân Ẩn",
+      "field": "Journalism"
+    }
+  ]
+}

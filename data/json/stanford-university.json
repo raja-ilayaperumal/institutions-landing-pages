@@ -1,0 +1,568 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:11.468253+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 243744,
+    "slug": "stanford-university",
+    "name": "Stanford University",
+    "city": "Stanford",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94305",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HJD6G4D6TJY5",
+      "opeid": "00130500",
+      "ein": "941156365"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Leland Stanford Junior University, commonly referred to as Stanford University, is a private research university in Stanford, California, United States. It was founded in 1885 by railroad magnate Leland Stanford and his wife, Jane, in memory of their only child, Leland Jr.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Stanford_University",
+    "source_url": "https://en.wikipedia.org/wiki/Stanford_University",
+    "wikidata_qid": "Q41506",
+    "fetched_at": "2026-05-25T20:03:21.007418+05:30"
+  },
+  "admissions": {
+    "applicants": 57326,
+    "admits": 2067,
+    "enrolled": 1693,
+    "first_time_freshmen": 1693,
+    "first_time_freshmen_ft": 1693,
+    "admit_rate": 0.03605693751526358,
+    "yield_rate": 0.8190614417029511
+  },
+  "cost": {
+    "avg_net_price": 12136,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0629,
+    "net_price_by_family_income": {
+      "0_30k": -79,
+      "30_48k": -350,
+      "48_75k": 1323,
+      "75_110k": 8816,
+      "110k_plus": 50452
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.92,
+    "grad_4yr_bachelors": 0.51,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.92,
+    "pell_grad_rate": 0.88,
+    "pell_6yr_bachelors_rate": 0.88,
+    "non_pell_grad_rate": 0.97,
+    "non_pell_6yr_bachelors": 0.97,
+    "retention_full_time": 0.98
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 21132,
+    "ug_12mo": 9372,
+    "grad_12mo": 8007,
+    "women_12mo": 9918,
+    "men_12mo": 11214,
+    "fall_total": 18625,
+    "fall_full_time": 7904,
+    "fall_part_time": 7554,
+    "distance_ed_any": 18625,
+    "distance_ed_exclusive": 350
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1182
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 828
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 534
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 445
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 331
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 287
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 258
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 250
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 239
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 206
+      }
+    ],
+    "program_count": 126,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 6.0,
+    "instr_total_fte": 4368
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "brown-university",
+        "name": "Brown University",
+        "state": "Rhode Island",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "columbia-university-in-the-city-of-new-york",
+        "name": "Columbia University in the City of New York",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "cornell-university",
+        "name": "Cornell University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "dartmouth-college",
+        "name": "Dartmouth College",
+        "state": "New Hampshire",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "johns-hopkins-university",
+        "name": "Johns Hopkins University",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "university-of-pennsylvania",
+        "name": "University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "yale-university",
+        "name": "Yale University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": null,
+    "nih_total_usd": null,
+    "herd_total_usd": null,
+    "usaspending_total_usd": null,
+    "all_sources_total_usd": null,
+    "years_covered": null
+  },
+  "ir_office": {
+    "url": "https://irds.stanford.edu/about",
+    "office_name": "Institutional Research & Decision Support",
+    "summary": "IR&DS’s mission is to facilitate institutional decision making at Stanford University by providing integrated analysis and research needed by University decision makers and publishing reports that provide insight into the performance of the institution.",
+    "address": "365 Lasuen Street; Littlefield Management Center, Second Floor West, Stanford, CA 94305-2067, United States",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T20:03:20.136392+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Neil Hamilton",
+      "title": "Director of Financial Planning & Analysis",
+      "phone": "650.725.9742"
+    },
+    {
+      "ordering": 0,
+      "name": "Corrie Potter",
+      "title": "Associate Vice Provost and Director of Institutional Research and Decision Support",
+      "linkedin_url": "https://www.linkedin.com/in/corrie-potter-0b63503"
+    },
+    {
+      "ordering": 1,
+      "name": "Davis Reek",
+      "title": "Senior Budget Analyst",
+      "phone": "650.723.0976",
+      "linkedin_url": "https://www.linkedin.com/in/davisreek"
+    },
+    {
+      "ordering": 1,
+      "name": "Leslie Luck",
+      "title": "Project Coordinator & Office Administrator",
+      "linkedin_url": "https://www.linkedin.com/in/leslieluck"
+    },
+    {
+      "ordering": 2,
+      "name": "Jacy Crapps",
+      "title": "Senior Budget Analyst",
+      "phone": "650.498.9890"
+    },
+    {
+      "ordering": 2,
+      "name": "Brian Cook",
+      "title": "Senior Director of Assessment and Evaluation",
+      "linkedin_url": "https://www.linkedin.com/in/brian-cook-46642671"
+    },
+    {
+      "ordering": 3,
+      "name": "Manpreet Bindra",
+      "title": "Budget Analyst",
+      "phone": "650.725.0190"
+    },
+    {
+      "ordering": 3,
+      "name": "Larry Gallagher",
+      "title": "Senior Assessment and Program Evaluation Analyst"
+    },
+    {
+      "ordering": 4,
+      "name": "Kulneet Homidi",
+      "title": "Project & Operations Manager",
+      "phone": "650.725.0666"
+    },
+    {
+      "ordering": 4,
+      "name": "Sara Vasquez",
+      "title": "Senior Assessment and Program Evaluation Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/sara-vasquez-226924104"
+    },
+    {
+      "ordering": 5,
+      "name": "Mike Ling",
+      "title": "Business Analyst",
+      "phone": "650.725.0962"
+    },
+    {
+      "ordering": 5,
+      "name": "Tallie Wetzel",
+      "title": "Senior Assessment and Program Evaluation Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/tallie-wetzel-b4443a13"
+    },
+    {
+      "ordering": 6,
+      "name": "Mark Rickey",
+      "title": "Business Analyst and Trainer",
+      "phone": "650.725.1220"
+    },
+    {
+      "ordering": 6,
+      "name": "Jared Boyce",
+      "title": "Senior Assessment and Evaluation Analyst"
+    },
+    {
+      "ordering": 7,
+      "name": "Rachel Wu",
+      "title": "Budget Analyst and Trainer",
+      "phone": "650.498.0211",
+      "linkedin_url": "https://www.linkedin.com/in/rachelkwu"
+    },
+    {
+      "ordering": 7,
+      "name": "Joanna Mendelsohn",
+      "title": "Assessment Data Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/joanna-mendelsohn-a96391228"
+    },
+    {
+      "ordering": 8,
+      "name": "Doug Berman",
+      "title": "Data Governance Program Director",
+      "linkedin_url": "https://www.linkedin.com/in/doug-berman-5276122"
+    },
+    {
+      "ordering": 9,
+      "name": "Emily Gray",
+      "title": "Data Governance Architect",
+      "linkedin_url": "https://www.linkedin.com/in/gray-emily"
+    },
+    {
+      "ordering": 10,
+      "name": "Patrick Kao",
+      "title": "Director of Decision Support Services & Business Intelligence",
+      "linkedin_url": "https://www.linkedin.com/in/patrick-kao"
+    },
+    {
+      "ordering": 11,
+      "name": "Janice Pang",
+      "title": "Senior Business Intelligence and Reporting Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/janice-pang-7503025"
+    },
+    {
+      "ordering": 12,
+      "name": "Clara Carter",
+      "title": "Business Intelligence and Reporting Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/claracarter"
+    },
+    {
+      "ordering": 13,
+      "name": "Ryan Bungard",
+      "title": "Associate Director of Decision Support Services"
+    },
+    {
+      "ordering": 14,
+      "name": "Jennifer R. Welden",
+      "title": "SIRIS Business Systems Analyst"
+    },
+    {
+      "ordering": 15,
+      "name": "Tricia Sullivan",
+      "title": "Student Reporting Project Manager"
+    },
+    {
+      "ordering": 16,
+      "name": "Biju Jacob",
+      "title": "Data Engineer"
+    },
+    {
+      "ordering": 17,
+      "name": "Kristine Kilanski",
+      "title": "Director of Institutional Research"
+    },
+    {
+      "ordering": 18,
+      "name": "Shannon Monahan",
+      "title": "Senior Institutional Research Analyst"
+    },
+    {
+      "ordering": 19,
+      "name": "Leo Rosen",
+      "title": "Senior Institutional Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/leorosen"
+    },
+    {
+      "ordering": 20,
+      "name": "William Searle",
+      "title": "Senior Admissions Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/searlewilliam"
+    },
+    {
+      "ordering": 21,
+      "name": "B. Pinar Basim",
+      "title": "Institutional Research Analyst"
+    },
+    {
+      "ordering": 22,
+      "name": "Trish Hernandez",
+      "title": "Institutional Research Analyst"
+    },
+    {
+      "ordering": 23,
+      "name": "Lisa Lambeth",
+      "title": "Institutional Research Analyst"
+    },
+    {
+      "ordering": 24,
+      "name": "Jonathan Siu",
+      "title": "Institutional Research Data Analyst"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://irds.stanford.edu/data-findings/cds",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://irds.stanford.edu/data-findings",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:02:55.462274+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Guides & Standards | Data Governance",
+      "url": "https://datagovernance.stanford.edu/guides-standards",
+      "summary": "This page from Stanford University's Data Governance section outlines various guides and standards related to data governance, including roles, principles, policies, and best practices. Several of these guides are indicated as 'coming soon.' Additionally, there are mentions of data stewardship, naming standards, and responsibilities within Stanford's data governance framework.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:01:29.941748+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2017,
+      "title": "STARR Anonymized Dataset Data Dictionary",
+      "url": "https://med.stanford.edu/content/dam/sm/researchit/Content/STARR-Data-Dictionary.pdf",
+      "summary": "The STARR Anonymized Dataset Data Dictionary provides detailed information on the structure and contents of an anonymized database resource for Stanford Medicine researchers. It includes data from the Epic system at Stanford Hospitals and Clinics, imaging data from Radiology, and historical clinical data from previous EMRs. This dictionary outlines various elements such as demographics, encounters, billing codes, lab results, and more, employing anonymization techniques like identifier coding and date jittering to ensure privacy. It serves as an essential tool for researchers seeking to utilize Stanford's comprehensive clinical data while maintaining patient confidentiality.",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:32:02.653466+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=243744",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:03:22.318572+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Stanford University Institutional Research Glossary",
+      "url": "https://doresearch.stanford.edu/resources/additional-resources/glossary",
+      "summary": "Stanford University's Institutional Research Glossary provides definitions and explanations of terms commonly used in the context of research conducted at the university. It serves as a resource for understanding research policies, procedures, and processes at Stanford, helping users to navigate the complexities of research administration and compliance. The glossary categorizes terms alphabetically, covering a wide range of topics including costs, compliance, funding, and proposal development.",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:32:32.613008+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "SLAC LCLS-II-HE Low Emittance Injector Tunnel (LEIT) Project",
+      "agency": "Department of Energy",
+      "kind": "opportunity",
+      "url": "https://sam.gov/opp/997f923fc41b463488f93035fb431a95/view",
+      "source": "sam_gov"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Guido Appenzeller",
+      "field": "Technology"
+    },
+    {
+      "name": "Dimitri Dadiomov",
+      "field": "Finance"
+    },
+    {
+      "name": "Andy Fang",
+      "field": "Technology"
+    },
+    {
+      "name": "Filip Kaliszan",
+      "field": "Security Technology"
+    },
+    {
+      "name": "Shawn Kerrigan",
+      "field": "Logistics"
+    },
+    {
+      "name": "Beyang Liu",
+      "field": "Software"
+    },
+    {
+      "name": "Sam Altman",
+      "field": "Technology"
+    },
+    {
+      "name": "Joshua Reeves",
+      "field": "Finance"
+    },
+    {
+      "name": "Jeff Seibert",
+      "field": "Technology"
+    },
+    {
+      "name": "Dan Siroker",
+      "field": "Software"
+    },
+    {
+      "name": "Kevin Systrom",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Systrom",
+      "field": "Technology"
+    },
+    {
+      "name": "Stanley Tang",
+      "field": "Technology"
+    },
+    {
+      "name": "Nikil Viswanathan",
+      "field": "Technology"
+    }
+  ]
+}

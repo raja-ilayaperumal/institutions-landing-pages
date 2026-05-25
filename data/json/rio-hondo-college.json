@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:13.391219+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121886,
+    "slug": "rio-hondo-college",
+    "name": "Rio Hondo College",
+    "city": "Whittier",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90601-1616",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00126900",
+      "ein": "956006673"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Río Hondo College is a public community college located in Whittier, California. It offers a variety of academic programs and services to support student learning and success. The college's focus areas include transfer education, career technical education, and continuing education.",
+    "source_url": "https://www.riohondo.edu/about",
+    "fetched_at": "2026-05-25T20:58:33.644473+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 11903,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7073,
+    "federal_loan_rate": 0.0048,
+    "net_price_by_family_income": {
+      "0_30k": 11073,
+      "30_48k": 11521,
+      "48_75k": 13812,
+      "75_110k": 15971,
+      "110k_plus": 11240
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.25,
+    "pell_grad_rate": 0.24,
+    "retention_full_time": 1.0,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 27997,
+    "ug_12mo": 27997,
+    "grad_12mo": 24470,
+    "women_12mo": 11700,
+    "men_12mo": 16297,
+    "fall_total": 17441,
+    "fall_full_time": 17441,
+    "fall_part_time": 15684,
+    "distance_ed_any": 17441,
+    "distance_ed_exclusive": 4556
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 893
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 273
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 212
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 146
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 138
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 132
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 71
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 50
+      }
+    ],
+    "program_count": 96,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 31.0,
+    "instr_total_fte": 180
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.7781
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "foothill-college",
+        "name": "Foothill College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.7625
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.752
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.7498
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.7166
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:13.074014+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119216,
+    "slug": "mt-san-jacinto-community-college-district",
+    "name": "Mt San Jacinto Community College District",
+    "city": "San Jacinto",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92583-2399",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+    "carnegie_slug": "associates-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00124600",
+      "ein": "956000929"
+    }
+  },
+  "brand": null,
+  "about": null,
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7098,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5918,
+    "federal_loan_rate": 0.0059,
+    "net_price_by_family_income": {
+      "0_30k": 6082,
+      "30_48k": 6626,
+      "48_75k": 8477,
+      "75_110k": 11060,
+      "110k_plus": 8165
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.36,
+    "pell_grad_rate": 0.34,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.63,
+    "retention_part_time": 0.4
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 24340,
+    "ug_12mo": 24340,
+    "grad_12mo": 20759,
+    "women_12mo": 14700,
+    "men_12mo": 9640,
+    "fall_total": 17627,
+    "fall_full_time": 17627,
+    "fall_part_time": 15259,
+    "distance_ed_any": 17627,
+    "distance_ed_exclusive": 118
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 655
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 331
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 296
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 212
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 136
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 108
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 76
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 71
+      }
+    ],
+    "program_count": 82,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 32.0,
+    "instr_total_fte": 205
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.7869
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.7753
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "city-college-of-san-francisco",
+        "name": "City College of San Francisco",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.7713
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.7695
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.7426
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

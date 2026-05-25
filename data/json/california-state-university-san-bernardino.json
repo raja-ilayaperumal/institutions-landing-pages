@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:11.798920+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110510,
+    "slug": "california-state-university-san-bernardino",
+    "name": "California State University-San Bernardino",
+    "city": "San Bernardino",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92407-2393",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FUHGQMYGUBJ7",
+      "opeid": "00114200",
+      "ein": "330644150"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, San Bernardino is a public research university in San Bernardino, California, United States. Founded in 1965, it is part of the California State University system. The main campus sits on 441 acres (178 ha) in the University District of San Bernardino, with a branch campus of 40 acres (16 ha) in Palm Desert, California, opened in 1986. Cal State San Bernardino's fall 2020 enrollment was 19,404. In fall 2019, it had 505 full-time faculty, of which 385 were on the tenure track.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_San_Bernardino",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_San_Bernardino",
+    "fetched_at": "2026-05-25T20:04:12.687509+05:30"
+  },
+  "admissions": {
+    "applicants": 14543,
+    "admits": 13632,
+    "enrolled": 2090,
+    "first_time_freshmen": 2090,
+    "first_time_freshmen_ft": 2016,
+    "admit_rate": 0.9373581791927388,
+    "yield_rate": 0.15331572769953053
+  },
+  "cost": {
+    "avg_net_price": 5918,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1798,
+    "federal_loan_rate": 0.2337,
+    "net_price_by_family_income": {
+      "0_30k": 3298,
+      "30_48k": 4311,
+      "48_75k": 6381,
+      "75_110k": 10337,
+      "110k_plus": 15250
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.55,
+    "grad_4yr_bachelors": 0.25,
+    "grad_5yr_bachelors": 0.46,
+    "grad_6yr_bachelors": 0.55,
+    "pell_grad_rate": 0.54,
+    "pell_6yr_bachelors_rate": 0.54,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.8,
+    "retention_part_time": 0.47
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 21236,
+    "ug_12mo": 17912,
+    "grad_12mo": 17502,
+    "women_12mo": 13006,
+    "men_12mo": 8230,
+    "fall_total": 18492,
+    "fall_full_time": 15365,
+    "fall_part_time": 15023,
+    "distance_ed_any": 18492,
+    "distance_ed_exclusive": 2456
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 868
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 602
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 446
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 406
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 329
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 284
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 269
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 266
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 258
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 251
+      }
+    ],
+    "program_count": 91,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 532
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "california-polytechnic-state-university-san-luis-obispo",
+        "name": "California Polytechnic State University-San Luis Obispo",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-humboldt",
+        "name": "California State Polytechnic University-Humboldt",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "california-state-university-maritime-academy",
+        "name": "California State University Maritime Academy",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "california-state-university-bakersfield",
+        "name": "California State University-Bakersfield",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "california-state-university-channel-islands",
+        "name": "California State University-Channel Islands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "california-state-university-monterey-bay",
+        "name": "California State University-Monterey Bay",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "california-state-university-stanislaus",
+        "name": "California State University-Stanislaus",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "metropolitan-state-university-of-denver",
+        "name": "Metropolitan State University of Denver",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "sam-houston-state-university",
+        "name": "Sam Houston State University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "sonoma-state-university",
+        "name": "Sonoma State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "south-texas-college",
+        "name": "South Texas College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "the-university-of-texas-at-el-paso",
+        "name": "The University of Texas at El Paso",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "university-of-california-riverside",
+        "name": "University of California-Riverside",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "university-of-new-mexico-main-campus",
+        "name": "University of New Mexico-Main Campus",
+        "state": "New Mexico",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csusb.edu/institutional-research",
+    "office_name": "Office of Institutional Research & Analytics",
+    "summary": "The Office of Institutional Research & Analytics at CSUSB provides insights into the student demographics and success rates, including a student population of 19,049 as of Fall 2025. The office also offers various resources such as dashboards, statistical factbooks, and data request forms for internal and external data inquiries.",
+    "phone": "(909) 537-5052",
+    "address": "Location: AD-170A",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T20:04:11.393944+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://www.csusb.edu/sites/default/files/upload/file/2024/CDS_2024-2025.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://ir.csusb.edu/",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:03:43.153498+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110510",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:04:13.851401+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "California State University-San Bernardino Statistical Factbook",
+      "url": "https://www.csusb.edu/institutional-research/statistical-factbook",
+      "summary": "The CSUSB Statistical Factbook provides detailed statistical summaries and historical data on enrollment, degrees awarded, demographics by major and college. It includes trends in enrollment and full-time equivalent students (FTES), as well as retention and graduation rates and degrees conferred by major. The Factbook reflects changes in data reporting systems and the transition from quarter to semester systems, including unit equivalencies. Data is differentiated by California residents and non-residents, and new coding for ethnicity has been applied to comply with federal government mandates.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:01:09.161625+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "California State University, San Bernardino - Glossary of Terms",
+      "url": "https://www.csusb.edu/sponsored-programs-administration/glossary-terms",
+      "summary": "The California State University, San Bernardino Glossary of Terms provides definitions for various terms related to sponsored programs administration. These terms are crucial for understanding policies, processes, and responsibilities associated with handling federal and non-federal grants and contracts. Key topics include regulations, allowability and allocability of costs, audit processes, cost sharing, types of costs such as direct and indirect, roles such as Principal Investigator, and various forms of financial support like grants and gifts.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:02:46.192386+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Strategic Plan 2023-2028",
+      "url": "https://www.csusb.edu/strategic-plan",
+      "summary": "California State University, San Bernardino’s strategic plan titled 'We Define the Future: Transforming Lives and Communities' outlines priorities for the period of 2023-2028, focusing on innovation and systemic efficiency. The plan aims to embed diversity, equity, and inclusion into all campus operations and activities for the university and the Palm Desert campus. Through this strategic framework, CSUSB reaffirms its dedication to transforming lives and nurturing vibrant communities.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:00:05.246701+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Digital Marketing Analytics Specialist (Marketing Communications ...",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446947"
+    },
+    {
+      "title": "Executive Director (SMSU) - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179450678"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

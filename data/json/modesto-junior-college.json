@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:12.108543+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118976,
+    "slug": "modesto-junior-college",
+    "name": "Modesto Junior College",
+    "city": "Modesto",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95350-5800",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "J456WQSC8MQ6",
+      "opeid": "00124000",
+      "ein": "521566989"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Modesto Junior College (MJC) is a public community college in the College Area neighborhood of Modesto, California, United States. It is part of Yosemite Community College District along with Columbia College. MJC, and Columbia College, belong to the California Community College system along with 112 other public community colleges. The college has two campuses in Modesto. The East Campus is the original campus while the West Campus is the larger of the two. Courses are provided in general education, lower-division transfer programs, occupational and developmental education.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Modesto_Junior_College",
+    "source_url": "https://en.wikipedia.org/wiki/Modesto_Junior_College",
+    "fetched_at": "2026-05-25T20:08:53.002342+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 10176,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6147,
+    "federal_loan_rate": 0.0022,
+    "net_price_by_family_income": {
+      "0_30k": 8525,
+      "30_48k": 11815,
+      "48_75k": 12677,
+      "75_110k": 13215,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.3,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.0,
+    "grad_6yr_bachelors": 0.0,
+    "pell_grad_rate": 0.28,
+    "pell_6yr_bachelors_rate": 0.0,
+    "retention_full_time": 0.71,
+    "retention_part_time": 0.43
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 23515,
+    "ug_12mo": 23515,
+    "grad_12mo": 20035,
+    "women_12mo": 14375,
+    "men_12mo": 9140,
+    "fall_total": 18258,
+    "fall_full_time": 18258,
+    "fall_part_time": 15109,
+    "distance_ed_any": 18258,
+    "distance_ed_exclusive": 6025
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 672
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 253
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 222
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 211
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 110
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 103
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 98
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 85
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 50
+      }
+    ],
+    "program_count": 130,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 32.0,
+    "instr_total_fte": 273
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.mjc.edu/administration/research/index.html",
+    "office_name": "Office of College Research & Planning",
+    "summary": "The Office of College Research & Planning serves Modesto Junior College through qualitative and quantitative research studies, grant support, data reporting, program review, outcome assessment, as well as consultation and guidance on institutional plan development.",
+    "phone": "209-575-6550",
+    "email": "mjcoutreach@mjc.edu",
+    "address": "MJC East Campus, Morris Memorial Building, Room 211 & 212, 435 College Avenue, Modesto CA 95350",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T20:08:34.98267+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Caterina Grossi",
+      "title": "Director Of College Research And Planning",
+      "email": "grossic@yosemite.edu",
+      "phone": "209-575-6029"
+    },
+    {
+      "ordering": 1,
+      "name": "Amanda Cannon",
+      "title": "Senior Research Analyst",
+      "email": "cannona@yosemite.edu",
+      "phone": "209-575-6220"
+    },
+    {
+      "ordering": 2,
+      "name": "Katherine Cochran",
+      "title": "Accreditation Assessment Process Specialist",
+      "email": "cochrank@yosemite.edu",
+      "phone": "209-575-6076"
+    },
+    {
+      "ordering": 3,
+      "name": "Danielle Rojas",
+      "title": "Research Analyst",
+      "email": "rojasd@yosemite.edu",
+      "phone": "209-575-6071"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.mjc.edu/administration/research/datadashboards.html",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:07:42.544645+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118976",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:08:48.109716+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Modesto Junior College 2023-2028 Strategic Plan",
+      "url": "https://www.mjc.edu/administration/research/strategicplanning.html",
+      "summary": "The Modesto Junior College 2023-2028 Strategic Plan operates on a 5-year cycle with annual assessments to track progress toward its goals. This plan ensures alignment of institutional priorities from mission statement through daily operations, encouraging collaboration across various college functions. A transparent planning process is established through frequent stakeholder input to guide goal development, implementation, and measurement of progress.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:04:33.511319+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:09.889334+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120971,
+    "slug": "palomar-college",
+    "name": "Palomar College",
+    "city": "San Marcos",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92069-1487",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+    "carnegie_slug": "associates-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FNCMV513G321",
+      "opeid": "00126000",
+      "ein": "956002227"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Palomar College is a public community college in San Diego County, California. The main campus is in San Marcos and three centers and four education sites are located elsewhere throughout north San Diego County.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palomar_College",
+    "source_url": "https://en.wikipedia.org/wiki/Palomar_College",
+    "fetched_at": "2026-05-25T19:56:03.116016+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 5247,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6359,
+    "federal_loan_rate": 0.0065,
+    "net_price_by_family_income": {
+      "0_30k": 4065,
+      "30_48k": 4554,
+      "48_75k": 7762,
+      "75_110k": 10075,
+      "110k_plus": 11879
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.38,
+    "pell_grad_rate": 0.34,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.7,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 27097,
+    "ug_12mo": 27097,
+    "grad_12mo": 23076,
+    "women_12mo": 12550,
+    "men_12mo": 14547,
+    "fall_total": 19550,
+    "fall_full_time": 19550,
+    "fall_part_time": 17712,
+    "distance_ed_any": 19550,
+    "distance_ed_exclusive": 5246
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 334
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 290
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 278
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 234
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 102
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 87
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 67
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 65
+      }
+    ],
+    "program_count": 131,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 280
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "cuyamaca-college",
+        "name": "Cuyamaca College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.palomar.edu/irp/",
+    "office_name": "Office of Institutional Research, Planning, and Grants",
+    "summary": "The Office of Institutional Research, Planning, and Grants (IRP&G) is dedicated to providing our campus community with information and decision-making support to advance the College’s mission. IRP&G pursues institutional effectiveness through research, integrated planning, accreditation, internal and external reporting, and grants.",
+    "phone": "(760) 744-1150, ext. 2360",
+    "address": "1140 W. Mission Road, San Marcos, CA 92069, Building: AA/ST",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T19:56:02.14059+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Michelle Barton",
+      "title": "Senior Director, Planning, Research, Effectiveness, and Grants",
+      "email": "mbarton@palomar.edu",
+      "phone": "(760) 744-1150, ext. 2360",
+      "linkedin_url": "https://www.linkedin.com/in/michelle-barton"
+    },
+    {
+      "ordering": 1,
+      "name": "Michael Large, Ph.D.",
+      "title": "Principal Research and Planning Analyst",
+      "email": "mlarge@palomar.edu",
+      "phone": "(760) 744-1150, ext. 7675"
+    },
+    {
+      "ordering": 2,
+      "name": "Grace Robertson",
+      "title": "Senior Institutional Research Analyst",
+      "email": "grobertson@palomar.edu",
+      "phone": "(760) 744-1150, ext. 2361"
+    },
+    {
+      "ordering": 3,
+      "name": "Rachel Miller Ph.D.",
+      "title": "Research Analyst",
+      "email": "rmiller1@palomar.edu",
+      "phone": "(760) 744-1150, ext. 2555"
+    },
+    {
+      "ordering": 4,
+      "name": "Jennifer Brich",
+      "title": "Research Analyst",
+      "email": "jbrich@palomar.edu",
+      "phone": "(760) 744-1150, ext. 2372"
+    },
+    {
+      "ordering": 5,
+      "name": "Beau Nelson",
+      "title": "Research Analyst",
+      "email": "bnelson@palomar.edu",
+      "phone": "(760) 744-1150, ext. 3794",
+      "linkedin_url": "https://www.linkedin.com/in/beaudnelson"
+    },
+    {
+      "ordering": 6,
+      "name": "Pauline Moroz",
+      "title": "Grants Manager",
+      "email": "pmoroz@palomar.edu",
+      "phone": "(760) 744-1150, ext. 3014"
+    },
+    {
+      "ordering": 7,
+      "name": "Marti Snyder",
+      "title": "Accreditation Coordinator",
+      "email": "msnyder2@palomar.edu",
+      "phone": "(760) 744-1150, ext. 3759",
+      "linkedin_url": "https://www.linkedin.com/in/marti-snyder-822a90268"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.palomar.edu/irp/data-dashboards/",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:55:26.103117+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120971",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:56:04.44528+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "Our Students - Publicly Available Data",
+      "url": "https://www.palomar.edu/irp/our-students-publicly-available-data/",
+      "summary": "The page provides publicly available data and dashboards on Palomar College students, covering demographics, enrollment, student success, and awards over the last six academic years. It also includes specific sections on student diversity, progress, achievement, dual enrollment, and archived Fact Books for institutional analysis and planning.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:52:30.768539+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Vision Plan 2035",
+      "url": "https://www.palomar.edu/irp/institutional-plans/",
+      "summary": "Palomar College has approved the Vision Plan 2035 to guide strategic development. The plan entails several educational and operational frameworks to enhance student equity and institutional effectiveness. The plan is part of an integrated planning model designed to support continuous improvement and address future challenges.",
+      "stored": false,
+      "fetched_at": "2026-05-25T19:53:39.798745+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Upward Bound",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://www.palomar.edu/grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Lizet Benrey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lizet_Benrey"
+    },
+    {
+      "name": "CodeMiko",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/CodeMiko"
+    },
+    {
+      "name": "Lorena Lucille Majel Dixon"
+    },
+    {
+      "name": "John Fairchild"
+    },
+    {
+      "name": "Ed Harris (politician)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ed_Harris_(politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Bobby Lee",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bobby_Lee",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Michael Moffett (artist)",
+      "field": "Art"
+    },
+    {
+      "name": "Justin Ponsor",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Ponsor",
+      "field": "Arts"
+    },
+    {
+      "name": "Renee Richetts"
+    }
+  ]
+}

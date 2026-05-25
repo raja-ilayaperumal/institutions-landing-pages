@@ -1,0 +1,521 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:15.670078+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113236,
+    "slug": "cypress-college",
+    "name": "Cypress College",
+    "city": "Cypress",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90630-5897",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LRDDFL7MP5F9",
+      "opeid": "00119300",
+      "ein": "952394131"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Cypress College is a public community college in Cypress, California. It is part of the California Community Colleges System and belongs to the North Orange County Community College District. It offers a variety of general education, transfer courses, and 145 vocational programs leading to associate degrees and certificates.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cypress_College",
+    "source_url": "https://en.wikipedia.org/wiki/Cypress_College",
+    "fetched_at": "2026-05-25T21:12:38.589758+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4683,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5822,
+    "federal_loan_rate": 0.0128,
+    "net_price_by_family_income": {
+      "0_30k": 4205,
+      "30_48k": 3092,
+      "48_75k": 7220,
+      "75_110k": 11710,
+      "110k_plus": 10011
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.37,
+    "pell_grad_rate": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 20211,
+    "ug_12mo": 20211,
+    "grad_12mo": 17373,
+    "women_12mo": 11674,
+    "men_12mo": 8537,
+    "fall_total": 15924,
+    "fall_full_time": 15924,
+    "fall_part_time": 13354,
+    "distance_ed_any": 15924,
+    "distance_ed_exclusive": 3801
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 250
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 236
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 167
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 124
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 124
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 77
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 70
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 66
+      },
+      {
+        "cip_family_code": "12",
+        "cip_family_label": "Personal/Culinary",
+        "completions": 64
+      }
+    ],
+    "program_count": 102,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 231
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "fullerton-college",
+        "name": "Fullerton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "los-angeles-city-college",
+        "name": "Los Angeles City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-trade-technical-college",
+        "name": "Los Angeles Trade Technical College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "orange-coast-college",
+        "name": "Orange Coast College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "san-bernardino-valley-college",
+        "name": "San Bernardino Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "santa-ana-college",
+        "name": "Santa Ana College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 30,
+        "unitid": null,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 31,
+        "unitid": null,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cypresscollege.edu/institutional-research-and-planning/",
+    "office_name": "Office of Institutional Research and Planning",
+    "summary": "The Institutional Research and Planning office serves Cypress College by providing sound, action-oriented research in order to support institutional assessment, decision-making, and strategic planning. We strive to provide consistent and accurate information that will help decision-makers to act on behalf of students and the community to foster student success and institutional effectiveness.",
+    "phone": "714-484-7717",
+    "address": "Cypress College Complex, 319",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T21:12:37.592258+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Bryan Ventura",
+      "title": "Director, Institutional Research and Planning",
+      "email": "bventura@cypresscollege.edu",
+      "phone": "(714) 484-7717"
+    },
+    {
+      "ordering": 1,
+      "name": "Eileen Haddad, Ph.D.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "ehaddad@cypresscollege.edu",
+      "phone": "(714) 484-7311"
+    },
+    {
+      "ordering": 2,
+      "name": "Kristina Oganesian",
+      "title": "Senior Research and Planning Analyst",
+      "email": "koganesian@cypresscollege.edu",
+      "phone": "(714) 484-7325"
+    },
+    {
+      "ordering": 3,
+      "name": "Tori Felipe",
+      "title": "Part-Time Administrative Assistant",
+      "email": "tfelipe@cypresscollege.edu",
+      "phone": "(714) 484-7479"
+    },
+    {
+      "ordering": 4,
+      "name": "Daisy Ramirez, Ph.D.",
+      "title": "Senior Research and Planning Analyst",
+      "email": "dramirez@cypresscollege.edu",
+      "phone": "(714) 484-7716"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.cypresscollege.edu/institutional-research-and-planning/",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:12:13.928328+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113236",
+      "stored": false,
+      "fetched_at": "2026-05-25T21:12:39.964711+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Title V HSI Grant",
+      "kind": "opportunity",
+      "url": "https://www.cypresscollege.edu/guided-pathways/title-v-hsi-grant/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Greg Cannom",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Greg_Cannom",
+      "field": "Film and Television"
+    },
+    {
+      "name": "Caitlin Doughty",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Caitlin_Doughty",
+      "field": "Mortuary Science"
+    },
+    {
+      "name": "Alex Gallardo-Rooker",
+      "field": "Politics"
+    },
+    {
+      "name": "Paul Le Mat",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Le_Mat",
+      "field": "Film and Television"
+    },
+    {
+      "name": "John Stamos",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Stamos",
+      "field": "Film and Television"
+    }
+  ]
+}

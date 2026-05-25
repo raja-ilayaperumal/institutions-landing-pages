@@ -1,0 +1,561 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-25T15:50:12.718893+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123013,
+    "slug": "santa-rosa-junior-college",
+    "name": "Santa Rosa Junior College",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95401-4395",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "QHWKMUHQ4B37",
+      "opeid": "00128700",
+      "ein": "946033759"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Santa Rosa Junior College (SRJC) is a public community college in Santa Rosa, California with an additional campus in Petaluma and centers in surrounding Sonoma County. SRJC is governed by the Sonoma County Junior College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Rosa_Junior_College",
+    "source_url": "https://en.wikipedia.org/wiki/Santa_Rosa_Junior_College",
+    "fetched_at": "2026-05-25T20:58:11.603457+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 5541,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6634,
+    "federal_loan_rate": 0.0055,
+    "net_price_by_family_income": {
+      "0_30k": 4623,
+      "30_48k": 5318,
+      "48_75k": 7032,
+      "75_110k": 8767,
+      "110k_plus": 7269
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.37,
+    "pell_grad_rate": 0.35,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.48
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 24209,
+    "ug_12mo": 24209,
+    "grad_12mo": 20194,
+    "women_12mo": 13331,
+    "men_12mo": 10878,
+    "fall_total": 17854,
+    "fall_full_time": 17854,
+    "fall_part_time": 15080,
+    "distance_ed_any": 17854,
+    "distance_ed_exclusive": 5019
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 482
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 306
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 274
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 173
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 163
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 130
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 113
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 79
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 39
+      }
+    ],
+    "program_count": 136,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 315
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": null,
+        "slug": "allan-hancock-college",
+        "name": "Allan Hancock College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "unitid": null,
+        "slug": "central-new-mexico-community-college",
+        "name": "Central New Mexico Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 3,
+        "unitid": null,
+        "slug": "central-piedmont-community-college",
+        "name": "Central Piedmont Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 4,
+        "unitid": null,
+        "slug": "chandler-gilbert-community-college",
+        "name": "Chandler-Gilbert Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 5,
+        "unitid": null,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 6,
+        "unitid": null,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 7,
+        "unitid": null,
+        "slug": "cuny-kingsborough-community-college",
+        "name": "CUNY Kingsborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 8,
+        "unitid": null,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 9,
+        "unitid": null,
+        "slug": "eastern-gateway-community-college",
+        "name": "Eastern Gateway Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 10,
+        "unitid": null,
+        "slug": "elgin-community-college",
+        "name": "Elgin Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 11,
+        "unitid": null,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 12,
+        "unitid": null,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 13,
+        "unitid": null,
+        "slug": "howard-community-college",
+        "name": "Howard Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 14,
+        "unitid": null,
+        "slug": "irvine-valley-college",
+        "name": "Irvine Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 15,
+        "unitid": null,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 16,
+        "unitid": null,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 17,
+        "unitid": null,
+        "slug": "mesa-community-college",
+        "name": "Mesa Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 18,
+        "unitid": null,
+        "slug": "middlesex-college",
+        "name": "Middlesex College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 19,
+        "unitid": null,
+        "slug": "montgomery-college",
+        "name": "Montgomery College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 20,
+        "unitid": null,
+        "slug": "norco-college",
+        "name": "Norco College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 21,
+        "unitid": null,
+        "slug": "northern-virginia-community-college",
+        "name": "Northern Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 22,
+        "unitid": null,
+        "slug": "northwest-vista-college",
+        "name": "Northwest Vista College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 23,
+        "unitid": null,
+        "slug": "oakland-community-college",
+        "name": "Oakland Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 24,
+        "unitid": null,
+        "slug": "phoenix-college",
+        "name": "Phoenix College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 25,
+        "unitid": null,
+        "slug": "portland-community-college",
+        "name": "Portland Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 26,
+        "unitid": null,
+        "slug": "prince-george-s-community-college",
+        "name": "Prince George's Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 27,
+        "unitid": null,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 28,
+        "unitid": null,
+        "slug": "salt-lake-community-college",
+        "name": "Salt Lake Community College",
+        "state": "Utah",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 29,
+        "unitid": null,
+        "slug": "suny-westchester-community-college",
+        "name": "SUNY Westchester Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://research.santarosa.edu/data-resources",
+    "office_name": "Office of Institutional Effectiveness, Research and Planning (IERP)",
+    "summary": "The Office of Institutional Effectiveness, Research and Planning (IERP) at Santa Rosa Junior College is committed to being a data and information resource to our community of Administrators, Faculty, Staff, and Students.",
+    "email": "research@santarosa.edu",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T20:58:10.397172+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dr. Jeremy Smotherman",
+      "title": "Senior Director, Institutional Effectiveness, Research and Planning",
+      "email": "jsmotherman@santarosa.edu",
+      "phone": "(707) 778-4188"
+    },
+    {
+      "ordering": 1,
+      "name": "Greg Drukala",
+      "title": "Senior Research Analyst",
+      "email": "gdrukala@santarosa.edu",
+      "phone": "(707) 778-4190"
+    },
+    {
+      "ordering": 2,
+      "name": "Blair Lamb",
+      "title": "Research Analyst",
+      "email": "blamb@santarosa.edu",
+      "phone": "(707) 778-3614"
+    },
+    {
+      "ordering": 3,
+      "name": "Kelli Woodward",
+      "title": "Research Analyst",
+      "email": "kwoodward@santarosa.edu",
+      "phone": "(707) 778-3926"
+    },
+    {
+      "ordering": 4,
+      "name": "Amil Gehrke",
+      "title": "Research Technician",
+      "email": "agehrke@santarosa.edu",
+      "phone": "(707) 778-3933"
+    },
+    {
+      "ordering": 5,
+      "name": "Jenna Ausiello",
+      "title": "Research Technician",
+      "email": "jausiello@santarosa.edu",
+      "phone": "(707) 527-4586"
+    },
+    {
+      "ordering": 6,
+      "name": "Karen Maddux",
+      "title": "Administrative Assistant",
+      "email": "kmaddux@santarosa.edu",
+      "phone": "(707) 778-3922"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123013",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:58:13.278298+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Strategic Plan 2025-2030",
+      "url": "https://strategic-planning.santarosa.edu/",
+      "summary": "Santa Rosa Junior College's 2025-2030 Strategic Plan builds on its legacy of excellence to envision a more diverse, inclusive, and equitable future. The plan supports a data-driven blueprint to inspire students, uplift communities, and serve the region, guided by the college’s revised mission, vision, and values. Extended from an original 2023-2028 timeline, the plan aligns with new leadership priorities for a more impactful engagement within the District.",
+      "stored": false,
+      "fetched_at": "2026-05-25T20:06:58.087113+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Professional Development Mini-Grant 2025-26",
+      "agency": "California Community College Board of Governors",
+      "kind": "opportunity",
+      "amount_usd": 2000,
+      "url": "https://ce.santarosa.edu/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Jacob Appelbaum",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Appelbaum",
+      "field": "Computer Science"
+    },
+    {
+      "name": "Donna Boutelle"
+    },
+    {
+      "name": "Erica Cunningham"
+    },
+    {
+      "name": "Sheana Davis"
+    },
+    {
+      "name": "Gary Friedman"
+    },
+    {
+      "name": "Tyson Griffin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tyson_Griffin",
+      "field": "Athletics"
+    },
+    {
+      "name": "Michael Kearney",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Kearney"
+    },
+    {
+      "name": "Gaye LeBaron",
+      "field": "Journalism"
+    },
+    {
+      "name": "Ben McKee",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_McKee",
+      "field": "Music"
+    },
+    {
+      "name": "Frank S. Petersen"
+    },
+    {
+      "name": "Brande Roderick",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brande_Roderick",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Gabriel Rucker",
+      "field": "Culinary Arts"
+    },
+    {
+      "name": "Tom Schwedhelm",
+      "field": "Politics"
+    },
+    {
+      "name": "Kellita Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kellita_Smith",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Robin Williams (writer)",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Williams_(writer)",
+      "field": "Literature"
+    }
+  ]
+}
