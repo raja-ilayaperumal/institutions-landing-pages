@@ -1,0 +1,3022 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T05:11:52.343537+00:00",
+  "source": "Clema Landing Page Builder",
+  "meta": {
+    "title": "Federal data for every U.S. college, made readable.",
+    "description": "Federal data on every U.S. college and university — enrollment, graduation rates, tuition, peers, and IPEDS outcomes.",
+    "data_sources": [
+      "IPEDS 2024",
+      "College Scorecard 2024",
+      "EADA",
+      "PSEO",
+      "DAPIP"
+    ],
+    "updated_year": 2026,
+    "vintage": {
+      "ipeds_year": 2024,
+      "scorecard_year": 2024
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Institutions",
+        "url": "/institutions"
+      }
+    ]
+  },
+  "stats": {
+    "institutions_indexed": 101,
+    "states_count": 2,
+    "combined_enrollment": 2058380,
+    "federal_data_sources": 6
+  },
+  "filters": {
+    "states": [
+      {
+        "code": "CA",
+        "name": "California",
+        "count": 100
+      },
+      {
+        "code": "MA",
+        "name": "Massachusetts",
+        "count": 1
+      }
+    ],
+    "controls": [
+      {
+        "label": "Public",
+        "slug": "public",
+        "count": 91
+      },
+      {
+        "label": "Private",
+        "slug": "private-np",
+        "count": 9
+      },
+      {
+        "label": "Private (for-profit)",
+        "slug": "private-fp",
+        "count": 1
+      }
+    ],
+    "carnegie_tiers": [
+      {
+        "label": "Community College",
+        "slug": "community-college",
+        "count": 55
+      },
+      {
+        "label": "Master's",
+        "slug": "masters",
+        "count": 14
+      },
+      {
+        "label": "R1 Research",
+        "slug": "r1",
+        "count": 11
+      },
+      {
+        "label": "Baccalaureate/Associate's",
+        "slug": "baccalaureate-associates",
+        "count": 10
+      },
+      {
+        "label": "R2 Research",
+        "slug": "r2",
+        "count": 9
+      },
+      {
+        "label": "Doctoral/Professional",
+        "slug": "doctoral-professional",
+        "count": 2
+      }
+    ],
+    "designations": [
+      {
+        "label": "HBCU",
+        "slug": "hbcu",
+        "count": 0
+      },
+      {
+        "label": "HSI",
+        "slug": "hsi",
+        "count": 89
+      },
+      {
+        "label": "Land-grant",
+        "slug": "land-grant",
+        "count": 9
+      },
+      {
+        "label": "Medical",
+        "slug": "medical",
+        "count": 7
+      },
+      {
+        "label": "Tribal",
+        "slug": "tribal",
+        "count": 0
+      }
+    ]
+  },
+  "categories": {
+    "by_state": [
+      {
+        "name": "California",
+        "code": "CA",
+        "slug": "california",
+        "count": 100
+      },
+      {
+        "name": "Massachusetts",
+        "code": "MA",
+        "slug": "massachusetts",
+        "count": 1
+      }
+    ],
+    "by_carnegie": [
+      {
+        "label": "Community College",
+        "slug": "community-college",
+        "count": 55
+      },
+      {
+        "label": "Master's",
+        "slug": "masters",
+        "count": 14
+      },
+      {
+        "label": "R1 Research",
+        "slug": "r1",
+        "count": 11
+      },
+      {
+        "label": "Baccalaureate/Associate's",
+        "slug": "baccalaureate-associates",
+        "count": 10
+      },
+      {
+        "label": "R2 Research",
+        "slug": "r2",
+        "count": 9
+      }
+    ],
+    "by_designation": [
+      {
+        "label": "HBCUs",
+        "slug": "hbcu",
+        "count": 0
+      },
+      {
+        "label": "HSIs",
+        "slug": "hsi",
+        "count": 89
+      },
+      {
+        "label": "Land-grant",
+        "slug": "land-grant",
+        "count": 9
+      },
+      {
+        "label": "Tribal",
+        "slug": "tribal",
+        "count": 0
+      }
+    ]
+  },
+  "institutions": [
+    {
+      "unitid": 108807,
+      "slug": "allan-hancock-college",
+      "name": "Allan Hancock College",
+      "city": "Santa Maria",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11463,
+        "avg_net_price": 4638
+      },
+      "json_url": "https://kv.clema.ai/institutions/allan-hancock-college"
+    },
+    {
+      "unitid": 109208,
+      "slug": "american-river-college",
+      "name": "American River College",
+      "city": "Sacramento",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 30462,
+        "avg_net_price": 4628
+      },
+      "json_url": "https://kv.clema.ai/institutions/american-river-college"
+    },
+    {
+      "unitid": 109350,
+      "slug": "antelope-valley-community-college-district",
+      "name": "Antelope Valley Community College District",
+      "city": "Lancaster",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 13532,
+        "avg_net_price": 8263
+      },
+      "json_url": "https://kv.clema.ai/institutions/antelope-valley-community-college-district"
+    },
+    {
+      "unitid": 154022,
+      "slug": "ashford-university",
+      "name": "Ashford University",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private (for-profit)",
+      "control_slug": "private-fp",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [],
+      "tags": [
+        "Doctoral/Professional",
+        "Private (for-profit)"
+      ],
+      "stats": {
+        "grad_rate": 0.1,
+        "admit_rate": null,
+        "enrollment": 28004,
+        "avg_net_price": 25321
+      },
+      "json_url": "https://kv.clema.ai/institutions/ashford-university"
+    },
+    {
+      "unitid": 109819,
+      "slug": "bakersfield-college",
+      "name": "Bakersfield College",
+      "city": "Bakersfield",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.5,
+        "admit_rate": null,
+        "enrollment": 30746,
+        "avg_net_price": 4751
+      },
+      "json_url": "https://kv.clema.ai/institutions/bakersfield-college"
+    },
+    {
+      "unitid": 110246,
+      "slug": "butte-college",
+      "name": "Butte College",
+      "city": "Oroville",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 10968,
+        "avg_net_price": 4632
+      },
+      "json_url": "https://kv.clema.ai/institutions/butte-college"
+    },
+    {
+      "unitid": 110361,
+      "slug": "california-baptist-university",
+      "name": "California Baptist University",
+      "city": "Riverside",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.62,
+        "admit_rate": 0.848811013767209,
+        "enrollment": 11902,
+        "avg_net_price": 27384
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-baptist-university"
+    },
+    {
+      "unitid": 110422,
+      "slug": "california-polytechnic-state-university-san-luis-obispo",
+      "name": "California Polytechnic State University-San Luis Obispo",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.86,
+        "admit_rate": 0.3132322183381843,
+        "enrollment": 23069,
+        "avg_net_price": 15624
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-polytechnic-state-university-san-luis-obispo"
+    },
+    {
+      "unitid": 110529,
+      "slug": "california-state-polytechnic-university-pomona",
+      "name": "California State Polytechnic University-Pomona",
+      "city": "Pomona",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.68,
+        "admit_rate": 0.7517419509851033,
+        "enrollment": 27636,
+        "avg_net_price": 11580
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-polytechnic-university-pomona"
+    },
+    {
+      "unitid": 110486,
+      "slug": "california-state-university-bakersfield",
+      "name": "California State University-Bakersfield",
+      "city": "Bakersfield",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.5,
+        "admit_rate": 0.938544107642301,
+        "enrollment": 10419,
+        "avg_net_price": 5825
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-bakersfield"
+    },
+    {
+      "unitid": 110538,
+      "slug": "california-state-university-chico",
+      "name": "California State University-Chico",
+      "city": "Chico",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.63,
+        "admit_rate": 0.9271503301603636,
+        "enrollment": 15257,
+        "avg_net_price": 14838
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-chico"
+    },
+    {
+      "unitid": 110547,
+      "slug": "california-state-university-dominguez-hills",
+      "name": "California State University-Dominguez Hills",
+      "city": "Carson",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.43,
+        "admit_rate": 0.9329852919030169,
+        "enrollment": 15182,
+        "avg_net_price": 3659
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-dominguez-hills"
+    },
+    {
+      "unitid": 110574,
+      "slug": "california-state-university-east-bay",
+      "name": "California State University-East Bay",
+      "city": "Hayward",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.48,
+        "admit_rate": 0.9738771382826326,
+        "enrollment": 12326,
+        "avg_net_price": 11276
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-east-bay"
+    },
+    {
+      "unitid": 110556,
+      "slug": "california-state-university-fresno",
+      "name": "California State University-Fresno",
+      "city": "Fresno",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.57,
+        "admit_rate": 0.952604432879513,
+        "enrollment": 24427,
+        "avg_net_price": 6480
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-fresno"
+    },
+    {
+      "unitid": 110565,
+      "slug": "california-state-university-fullerton",
+      "name": "California State University-Fullerton",
+      "city": "Fullerton",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.7,
+        "admit_rate": 0.9052073414365466,
+        "enrollment": 43662,
+        "avg_net_price": 5646
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-fullerton"
+    },
+    {
+      "unitid": 110583,
+      "slug": "california-state-university-long-beach",
+      "name": "California State University-Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.69,
+        "admit_rate": 0.46272940559981895,
+        "enrollment": 42003,
+        "avg_net_price": 8931
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-long-beach"
+    },
+    {
+      "unitid": 110592,
+      "slug": "california-state-university-los-angeles",
+      "name": "California State University-Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.53,
+        "admit_rate": 0.9125080218806344,
+        "enrollment": 23163,
+        "avg_net_price": 4113
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-los-angeles"
+    },
+    {
+      "unitid": 110608,
+      "slug": "california-state-university-northridge",
+      "name": "California State University-Northridge",
+      "city": "Northridge",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.57,
+        "admit_rate": 0.9344644750795335,
+        "enrollment": 38313,
+        "avg_net_price": 7599
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-northridge"
+    },
+    {
+      "unitid": 110617,
+      "slug": "california-state-university-sacramento",
+      "name": "California State University-Sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.56,
+        "admit_rate": 0.9398599379106202,
+        "enrollment": 31943,
+        "avg_net_price": 10512
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-sacramento"
+    },
+    {
+      "unitid": 110510,
+      "slug": "california-state-university-san-bernardino",
+      "name": "California State University-San Bernardino",
+      "city": "San Bernardino",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.55,
+        "admit_rate": 0.9373581791927388,
+        "enrollment": 18492,
+        "avg_net_price": 5918
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-san-bernardino"
+    },
+    {
+      "unitid": 366711,
+      "slug": "california-state-university-san-marcos",
+      "name": "California State University-San Marcos",
+      "city": "San Marcos",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.55,
+        "admit_rate": 0.9510166827239998,
+        "enrollment": 16237,
+        "avg_net_price": 10550
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-san-marcos"
+    },
+    {
+      "unitid": 110495,
+      "slug": "california-state-university-stanislaus",
+      "name": "California State University-Stanislaus",
+      "city": "Turlock",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.53,
+        "admit_rate": 0.9813618748846651,
+        "enrollment": 9724,
+        "avg_net_price": 5671
+      },
+      "json_url": "https://kv.clema.ai/institutions/california-state-university-stanislaus"
+    },
+    {
+      "unitid": 111887,
+      "slug": "cerritos-college",
+      "name": "Cerritos College",
+      "city": "Norwalk",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 21859,
+        "avg_net_price": 693
+      },
+      "json_url": "https://kv.clema.ai/institutions/cerritos-college"
+    },
+    {
+      "unitid": 111920,
+      "slug": "chabot-college",
+      "name": "Chabot College",
+      "city": "Hayward",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12842,
+        "avg_net_price": 4616
+      },
+      "json_url": "https://kv.clema.ai/institutions/chabot-college"
+    },
+    {
+      "unitid": 111939,
+      "slug": "chaffey-college",
+      "name": "Chaffey College",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 22460,
+        "avg_net_price": 5743
+      },
+      "json_url": "https://kv.clema.ai/institutions/chaffey-college"
+    },
+    {
+      "unitid": 111948,
+      "slug": "chapman-university",
+      "name": "Chapman University",
+      "city": "Orange",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [],
+      "tags": [
+        "R2 Research",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.82,
+        "admit_rate": 0.6543430983753358,
+        "enrollment": 9760,
+        "avg_net_price": 47527
+      },
+      "json_url": "https://kv.clema.ai/institutions/chapman-university"
+    },
+    {
+      "unitid": 112172,
+      "slug": "citrus-college",
+      "name": "Citrus College",
+      "city": "Glendora",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 10429,
+        "avg_net_price": 3800
+      },
+      "json_url": "https://kv.clema.ai/institutions/citrus-college"
+    },
+    {
+      "unitid": 112190,
+      "slug": "city-college-of-san-francisco",
+      "name": "City College of San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 19267,
+        "avg_net_price": 7272
+      },
+      "json_url": "https://kv.clema.ai/institutions/city-college-of-san-francisco"
+    },
+    {
+      "unitid": 489201,
+      "slug": "clovis-community-college-2",
+      "name": "Clovis Community College",
+      "city": "Fresno",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 10358,
+        "avg_net_price": 7118
+      },
+      "json_url": "https://kv.clema.ai/institutions/clovis-community-college-2"
+    },
+    {
+      "unitid": 122791,
+      "slug": "college-of-san-mateo",
+      "name": "College of San Mateo",
+      "city": "San Mateo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 9901,
+        "avg_net_price": 1504
+      },
+      "json_url": "https://kv.clema.ai/institutions/college-of-san-mateo"
+    },
+    {
+      "unitid": 111461,
+      "slug": "college-of-the-canyons",
+      "name": "College of the Canyons",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 18075,
+        "avg_net_price": 2114
+      },
+      "json_url": "https://kv.clema.ai/institutions/college-of-the-canyons"
+    },
+    {
+      "unitid": 113573,
+      "slug": "college-of-the-desert",
+      "name": "College of the Desert",
+      "city": "Palm Desert",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12861,
+        "avg_net_price": 11812
+      },
+      "json_url": "https://kv.clema.ai/institutions/college-of-the-desert"
+    },
+    {
+      "unitid": 123217,
+      "slug": "college-of-the-sequoias",
+      "name": "College of the Sequoias",
+      "city": "Visalia",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14494,
+        "avg_net_price": 29
+      },
+      "json_url": "https://kv.clema.ai/institutions/college-of-the-sequoias"
+    },
+    {
+      "unitid": 113096,
+      "slug": "cosumnes-river-college",
+      "name": "Cosumnes River College",
+      "city": "Sacramento",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 15744,
+        "avg_net_price": 4648
+      },
+      "json_url": "https://kv.clema.ai/institutions/cosumnes-river-college"
+    },
+    {
+      "unitid": 113193,
+      "slug": "cuesta-college",
+      "name": "Cuesta College",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11283,
+        "avg_net_price": 12898
+      },
+      "json_url": "https://kv.clema.ai/institutions/cuesta-college"
+    },
+    {
+      "unitid": 113236,
+      "slug": "cypress-college",
+      "name": "Cypress College",
+      "city": "Cypress",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 15924,
+        "avg_net_price": 4683
+      },
+      "json_url": "https://kv.clema.ai/institutions/cypress-college"
+    },
+    {
+      "unitid": 113333,
+      "slug": "de-anza-college",
+      "name": "De Anza College",
+      "city": "Cupertino",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17425,
+        "avg_net_price": 4667
+      },
+      "json_url": "https://kv.clema.ai/institutions/de-anza-college"
+    },
+    {
+      "unitid": 113634,
+      "slug": "diablo-valley-college",
+      "name": "Diablo Valley College",
+      "city": "Pleasant Hill",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17228,
+        "avg_net_price": 6142
+      },
+      "json_url": "https://kv.clema.ai/institutions/diablo-valley-college"
+    },
+    {
+      "unitid": 113856,
+      "slug": "east-los-angeles-college",
+      "name": "East Los Angeles College",
+      "city": "Monterey Park",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 33677,
+        "avg_net_price": 9791
+      },
+      "json_url": "https://kv.clema.ai/institutions/east-los-angeles-college"
+    },
+    {
+      "unitid": 113980,
+      "slug": "el-camino-community-college-district",
+      "name": "El Camino Community College District",
+      "city": "Torrance",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 21664,
+        "avg_net_price": 5170
+      },
+      "json_url": "https://kv.clema.ai/institutions/el-camino-community-college-district"
+    },
+    {
+      "unitid": 444219,
+      "slug": "folsom-lake-college",
+      "name": "Folsom Lake College",
+      "city": "Folsom",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11098,
+        "avg_net_price": 3661
+      },
+      "json_url": "https://kv.clema.ai/institutions/folsom-lake-college"
+    },
+    {
+      "unitid": 114716,
+      "slug": "foothill-college",
+      "name": "Foothill College",
+      "city": "Los Altos Hills",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12949,
+        "avg_net_price": 7549
+      },
+      "json_url": "https://kv.clema.ai/institutions/foothill-college"
+    },
+    {
+      "unitid": 114789,
+      "slug": "fresno-city-college",
+      "name": "Fresno City College",
+      "city": "Fresno",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 28071,
+        "avg_net_price": 1699
+      },
+      "json_url": "https://kv.clema.ai/institutions/fresno-city-college"
+    },
+    {
+      "unitid": 114859,
+      "slug": "fullerton-college",
+      "name": "Fullerton College",
+      "city": "Fullerton",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 19521,
+        "avg_net_price": 8090
+      },
+      "json_url": "https://kv.clema.ai/institutions/fullerton-college"
+    },
+    {
+      "unitid": 115001,
+      "slug": "glendale-community-college-2",
+      "name": "Glendale Community College",
+      "city": "Glendale",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12075,
+        "avg_net_price": 7461
+      },
+      "json_url": "https://kv.clema.ai/institutions/glendale-community-college-2"
+    },
+    {
+      "unitid": 115126,
+      "slug": "golden-west-college",
+      "name": "Golden West College",
+      "city": "Huntington Beach",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 10721,
+        "avg_net_price": 2861
+      },
+      "json_url": "https://kv.clema.ai/institutions/golden-west-college"
+    },
+    {
+      "unitid": 115296,
+      "slug": "grossmont-college",
+      "name": "Grossmont College",
+      "city": "El Cajon",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14440,
+        "avg_net_price": 2755
+      },
+      "json_url": "https://kv.clema.ai/institutions/grossmont-college"
+    },
+    {
+      "unitid": 115393,
+      "slug": "hartnell-college",
+      "name": "Hartnell College",
+      "city": "Salinas",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11273,
+        "avg_net_price": 2895
+      },
+      "json_url": "https://kv.clema.ai/institutions/hartnell-college"
+    },
+    {
+      "unitid": 116439,
+      "slug": "irvine-valley-college",
+      "name": "Irvine Valley College",
+      "city": "Irvine",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 13018,
+        "avg_net_price": 1886
+      },
+      "json_url": "https://kv.clema.ai/institutions/irvine-valley-college"
+    },
+    {
+      "unitid": 117645,
+      "slug": "long-beach-city-college",
+      "name": "Long Beach City College",
+      "city": "Long Beach",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 24985,
+        "avg_net_price": 5001
+      },
+      "json_url": "https://kv.clema.ai/institutions/long-beach-city-college"
+    },
+    {
+      "unitid": 117788,
+      "slug": "los-angeles-city-college",
+      "name": "Los Angeles City College",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14611,
+        "avg_net_price": 7532
+      },
+      "json_url": "https://kv.clema.ai/institutions/los-angeles-city-college"
+    },
+    {
+      "unitid": 117867,
+      "slug": "los-angeles-mission-college",
+      "name": "Los Angeles Mission College",
+      "city": "Sylmar",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 10690,
+        "avg_net_price": 11972
+      },
+      "json_url": "https://kv.clema.ai/institutions/los-angeles-mission-college"
+    },
+    {
+      "unitid": 117706,
+      "slug": "los-angeles-pierce-college",
+      "name": "Los Angeles Pierce College",
+      "city": "Woodland Hills",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 16906,
+        "avg_net_price": 11196
+      },
+      "json_url": "https://kv.clema.ai/institutions/los-angeles-pierce-college"
+    },
+    {
+      "unitid": 117724,
+      "slug": "los-angeles-trade-technical-college",
+      "name": "Los Angeles Trade Technical College",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12519,
+        "avg_net_price": 10658
+      },
+      "json_url": "https://kv.clema.ai/institutions/los-angeles-trade-technical-college"
+    },
+    {
+      "unitid": 117733,
+      "slug": "los-angeles-valley-college",
+      "name": "Los Angeles Valley College",
+      "city": "Valley Glen",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 15999,
+        "avg_net_price": 10200
+      },
+      "json_url": "https://kv.clema.ai/institutions/los-angeles-valley-college"
+    },
+    {
+      "unitid": 117946,
+      "slug": "loyola-marymount-university",
+      "name": "Loyola Marymount University",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.79,
+        "admit_rate": 0.45082073714755944,
+        "enrollment": 10179,
+        "avg_net_price": 45723
+      },
+      "json_url": "https://kv.clema.ai/institutions/loyola-marymount-university"
+    },
+    {
+      "unitid": 166683,
+      "slug": "massachusetts-institute-of-technology",
+      "name": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "land-grant"
+      ],
+      "tags": [
+        "R1 Research",
+        "Private",
+        "Land-grant"
+      ],
+      "stats": {
+        "grad_rate": 0.96,
+        "admit_rate": 0.04548030603570417,
+        "enrollment": 11886,
+        "avg_net_price": 19813
+      },
+      "json_url": "https://kv.clema.ai/institutions/massachusetts-institute-of-technology"
+    },
+    {
+      "unitid": 118718,
+      "slug": "merced-college",
+      "name": "Merced College",
+      "city": "Merced",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12472,
+        "avg_net_price": 4260
+      },
+      "json_url": "https://kv.clema.ai/institutions/merced-college"
+    },
+    {
+      "unitid": 118912,
+      "slug": "miracosta-college",
+      "name": "MiraCosta College",
+      "city": "Oceanside",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.96,
+        "admit_rate": null,
+        "enrollment": 11478,
+        "avg_net_price": 7178
+      },
+      "json_url": "https://kv.clema.ai/institutions/miracosta-college"
+    },
+    {
+      "unitid": 118976,
+      "slug": "modesto-junior-college",
+      "name": "Modesto Junior College",
+      "city": "Modesto",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.0,
+        "admit_rate": null,
+        "enrollment": 18258,
+        "avg_net_price": 10176
+      },
+      "json_url": "https://kv.clema.ai/institutions/modesto-junior-college"
+    },
+    {
+      "unitid": 119137,
+      "slug": "moorpark-college",
+      "name": "Moorpark College",
+      "city": "Moorpark",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14583,
+        "avg_net_price": 742
+      },
+      "json_url": "https://kv.clema.ai/institutions/moorpark-college"
+    },
+    {
+      "unitid": 460394,
+      "slug": "moreno-valley-college",
+      "name": "Moreno Valley College",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11920,
+        "avg_net_price": 1996
+      },
+      "json_url": "https://kv.clema.ai/institutions/moreno-valley-college"
+    },
+    {
+      "unitid": 119164,
+      "slug": "mt-san-antonio-college",
+      "name": "Mt San Antonio College",
+      "city": "Walnut",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 29971,
+        "avg_net_price": 3107
+      },
+      "json_url": "https://kv.clema.ai/institutions/mt-san-antonio-college"
+    },
+    {
+      "unitid": 119216,
+      "slug": "mt-san-jacinto-community-college-district",
+      "name": "Mt San Jacinto Community College District",
+      "city": "San Jacinto",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17627,
+        "avg_net_price": 7098
+      },
+      "json_url": "https://kv.clema.ai/institutions/mt-san-jacinto-community-college-district"
+    },
+    {
+      "unitid": 119605,
+      "slug": "national-university",
+      "name": "National University",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.5,
+        "admit_rate": 0.5454545454545454,
+        "enrollment": 22115,
+        "avg_net_price": 31058
+      },
+      "json_url": "https://kv.clema.ai/institutions/national-university"
+    },
+    {
+      "unitid": 460464,
+      "slug": "norco-college",
+      "name": "Norco College",
+      "city": "Norco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11351,
+        "avg_net_price": 2845
+      },
+      "json_url": "https://kv.clema.ai/institutions/norco-college"
+    },
+    {
+      "unitid": 120342,
+      "slug": "orange-coast-college",
+      "name": "Orange Coast College",
+      "city": "Costa Mesa",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17096,
+        "avg_net_price": 4754
+      },
+      "json_url": "https://kv.clema.ai/institutions/orange-coast-college"
+    },
+    {
+      "unitid": 120971,
+      "slug": "palomar-college",
+      "name": "Palomar College",
+      "city": "San Marcos",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 19550,
+        "avg_net_price": 5247
+      },
+      "json_url": "https://kv.clema.ai/institutions/palomar-college"
+    },
+    {
+      "unitid": 121044,
+      "slug": "pasadena-city-college",
+      "name": "Pasadena City College",
+      "city": "Pasadena",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 24597,
+        "avg_net_price": 3123
+      },
+      "json_url": "https://kv.clema.ai/institutions/pasadena-city-college"
+    },
+    {
+      "unitid": 121886,
+      "slug": "rio-hondo-college",
+      "name": "Rio Hondo College",
+      "city": "Whittier",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17441,
+        "avg_net_price": 11903
+      },
+      "json_url": "https://kv.clema.ai/institutions/rio-hondo-college"
+    },
+    {
+      "unitid": 121901,
+      "slug": "riverside-city-college",
+      "name": "Riverside City College",
+      "city": "Riverside",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 21730,
+        "avg_net_price": 4026
+      },
+      "json_url": "https://kv.clema.ai/institutions/riverside-city-college"
+    },
+    {
+      "unitid": 122180,
+      "slug": "sacramento-city-college",
+      "name": "Sacramento City College",
+      "city": "Sacramento",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 19920,
+        "avg_net_price": 3974
+      },
+      "json_url": "https://kv.clema.ai/institutions/sacramento-city-college"
+    },
+    {
+      "unitid": 122205,
+      "slug": "saddleback-college",
+      "name": "Saddleback College",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 20764,
+        "avg_net_price": 2976
+      },
+      "json_url": "https://kv.clema.ai/institutions/saddleback-college"
+    },
+    {
+      "unitid": 123527,
+      "slug": "san-bernardino-valley-college",
+      "name": "San Bernardino Valley College",
+      "city": "San Bernardino",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14055,
+        "avg_net_price": 8234
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-bernardino-valley-college"
+    },
+    {
+      "unitid": 122339,
+      "slug": "san-diego-city-college",
+      "name": "San Diego City College",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 13242,
+        "avg_net_price": -818
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-diego-city-college"
+    },
+    {
+      "unitid": 122375,
+      "slug": "san-diego-mesa-college",
+      "name": "San Diego Mesa College",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.92,
+        "admit_rate": null,
+        "enrollment": 19212,
+        "avg_net_price": -904
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-diego-mesa-college"
+    },
+    {
+      "unitid": 122384,
+      "slug": "san-diego-miramar-college",
+      "name": "San Diego Miramar College",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 14257,
+        "avg_net_price": -2735
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-diego-miramar-college"
+    },
+    {
+      "unitid": 122409,
+      "slug": "san-diego-state-university",
+      "name": "San Diego State University",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.76,
+        "admit_rate": 0.36190148046058773,
+        "enrollment": 41137,
+        "avg_net_price": 16174
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-diego-state-university"
+    },
+    {
+      "unitid": 122597,
+      "slug": "san-francisco-state-university",
+      "name": "San Francisco State University",
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.5,
+        "admit_rate": 0.9643527869317176,
+        "enrollment": 22563,
+        "avg_net_price": 12882
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-francisco-state-university"
+    },
+    {
+      "unitid": 122658,
+      "slug": "san-joaquin-delta-college",
+      "name": "San Joaquin Delta College",
+      "city": "Stockton",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 20969,
+        "avg_net_price": 8508
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-joaquin-delta-college"
+    },
+    {
+      "unitid": 122755,
+      "slug": "san-jose-state-university",
+      "name": "San Jose State University",
+      "city": "San Jose",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.69,
+        "admit_rate": 0.8461434880965205,
+        "enrollment": 37661,
+        "avg_net_price": 13741
+      },
+      "json_url": "https://kv.clema.ai/institutions/san-jose-state-university"
+    },
+    {
+      "unitid": 121619,
+      "slug": "santa-ana-college",
+      "name": "Santa Ana College",
+      "city": "Santa Ana",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 27248,
+        "avg_net_price": 3854
+      },
+      "json_url": "https://kv.clema.ai/institutions/santa-ana-college"
+    },
+    {
+      "unitid": 122889,
+      "slug": "santa-barbara-city-college",
+      "name": "Santa Barbara City College",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12334,
+        "avg_net_price": 10029
+      },
+      "json_url": "https://kv.clema.ai/institutions/santa-barbara-city-college"
+    },
+    {
+      "unitid": 122931,
+      "slug": "santa-clara-university",
+      "name": "Santa Clara University",
+      "city": "Santa Clara",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [],
+      "tags": [
+        "Doctoral/Professional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.88,
+        "admit_rate": 0.4799683711122826,
+        "enrollment": 9728,
+        "avg_net_price": 50959
+      },
+      "json_url": "https://kv.clema.ai/institutions/santa-clara-university"
+    },
+    {
+      "unitid": 122977,
+      "slug": "santa-monica-college",
+      "name": "Santa Monica College",
+      "city": "Santa Monica",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+      "carnegie_tier": "Baccalaureate/Associate's",
+      "carnegie_tier_slug": "baccalaureate-associates",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Baccalaureate/Associate's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.81,
+        "admit_rate": null,
+        "enrollment": 23453,
+        "avg_net_price": 3600
+      },
+      "json_url": "https://kv.clema.ai/institutions/santa-monica-college"
+    },
+    {
+      "unitid": 123013,
+      "slug": "santa-rosa-junior-college",
+      "name": "Santa Rosa Junior College",
+      "city": "Santa Rosa",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 17854,
+        "avg_net_price": 5541
+      },
+      "json_url": "https://kv.clema.ai/institutions/santa-rosa-junior-college"
+    },
+    {
+      "unitid": 399212,
+      "slug": "santiago-canyon-college",
+      "name": "Santiago Canyon College",
+      "city": "Orange",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 11897,
+        "avg_net_price": 3407
+      },
+      "json_url": "https://kv.clema.ai/institutions/santiago-canyon-college"
+    },
+    {
+      "unitid": 123341,
+      "slug": "sierra-college",
+      "name": "Sierra College",
+      "city": "Rocklin",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 19125,
+        "avg_net_price": 4462
+      },
+      "json_url": "https://kv.clema.ai/institutions/sierra-college"
+    },
+    {
+      "unitid": 123800,
+      "slug": "southwestern-college",
+      "name": "Southwestern College",
+      "city": "Chula Vista",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 20986,
+        "avg_net_price": 10893
+      },
+      "json_url": "https://kv.clema.ai/institutions/southwestern-college"
+    },
+    {
+      "unitid": 243744,
+      "slug": "stanford-university",
+      "name": "Stanford University",
+      "city": "Stanford",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Private",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.92,
+        "admit_rate": 0.03605693751526358,
+        "enrollment": 18625,
+        "avg_net_price": 12136
+      },
+      "json_url": "https://kv.clema.ai/institutions/stanford-university"
+    },
+    {
+      "unitid": 110635,
+      "slug": "university-of-california-berkeley",
+      "name": "University of California-Berkeley",
+      "city": "Berkeley",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "land-grant"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "Land-grant"
+      ],
+      "stats": {
+        "grad_rate": 0.93,
+        "admit_rate": 0.10977769192382608,
+        "enrollment": 45882,
+        "avg_net_price": 14979
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-berkeley"
+    },
+    {
+      "unitid": 110644,
+      "slug": "university-of-california-davis",
+      "name": "University of California-Davis",
+      "city": "Davis",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.86,
+        "admit_rate": 0.4182816798834763,
+        "enrollment": 40065,
+        "avg_net_price": 15288
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-davis"
+    },
+    {
+      "unitid": 110653,
+      "slug": "university-of-california-irvine",
+      "name": "University of California-Irvine",
+      "city": "Irvine",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.87,
+        "admit_rate": 0.28569099992664976,
+        "enrollment": 37297,
+        "avg_net_price": 12840
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-irvine"
+    },
+    {
+      "unitid": 110662,
+      "slug": "university-of-california-los-angeles",
+      "name": "University of California-Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.93,
+        "admit_rate": 0.08965488952089258,
+        "enrollment": 47335,
+        "avg_net_price": 14013
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-los-angeles"
+    },
+    {
+      "unitid": 110671,
+      "slug": "university-of-california-riverside",
+      "name": "University of California-Riverside",
+      "city": "Riverside",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.76,
+        "admit_rate": 0.7639022877618522,
+        "enrollment": 26384,
+        "avg_net_price": 13707
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-riverside"
+    },
+    {
+      "unitid": 110680,
+      "slug": "university-of-california-san-diego",
+      "name": "University of California-San Diego",
+      "city": "La Jolla",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.86,
+        "admit_rate": 0.267140200818148,
+        "enrollment": 44256,
+        "avg_net_price": 11750
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-san-diego"
+    },
+    {
+      "unitid": 110705,
+      "slug": "university-of-california-santa-barbara",
+      "name": "University of California-Santa Barbara",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant"
+      ],
+      "stats": {
+        "grad_rate": 0.83,
+        "admit_rate": 0.3296510942417399,
+        "enrollment": 26133,
+        "avg_net_price": 13825
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-santa-barbara"
+    },
+    {
+      "unitid": 110714,
+      "slug": "university-of-california-santa-cruz",
+      "name": "University of California-Santa Cruz",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "hsi",
+        "land-grant"
+      ],
+      "tags": [
+        "R1 Research",
+        "Public",
+        "HSI",
+        "Land-grant"
+      ],
+      "stats": {
+        "grad_rate": 0.75,
+        "admit_rate": 0.6579013412899808,
+        "enrollment": 19938,
+        "avg_net_price": 16607
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-california-santa-cruz"
+    },
+    {
+      "unitid": 123961,
+      "slug": "university-of-southern-california",
+      "name": "University of Southern California",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [
+        "medical"
+      ],
+      "tags": [
+        "R1 Research",
+        "Private",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": 0.92,
+        "admit_rate": 0.09813841783802894,
+        "enrollment": 46566,
+        "avg_net_price": 31927
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-southern-california"
+    },
+    {
+      "unitid": 488846,
+      "slug": "university-of-the-people",
+      "name": "University of the People",
+      "city": "Pasadena",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.29,
+        "admit_rate": null,
+        "enrollment": 41961,
+        "avg_net_price": null
+      },
+      "json_url": "https://kv.clema.ai/institutions/university-of-the-people"
+    },
+    {
+      "unitid": 125028,
+      "slug": "ventura-college",
+      "name": "Ventura College",
+      "city": "Ventura",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 12222,
+        "avg_net_price": 2257
+      },
+      "json_url": "https://kv.clema.ai/institutions/ventura-college"
+    }
+  ]
+}
