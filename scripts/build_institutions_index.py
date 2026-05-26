@@ -151,6 +151,14 @@ def main(json_dir: Path, out: Path, kv_base_url: str | None) -> None:
                          "medical": "Medical",
                          "tribal": "Tribal"}.get(d, d))
 
+        # Scorecard sometimes reports a NEGATIVE avg_net_price for California
+        # community colleges (BOG Fee Waiver + Promise + Pell can turn into
+        # a net stipend). The raw value is correct, but a negative-dollar
+        # chip on a card reads like a bug, so we clamp at $0 for display.
+        # The detail JSON keeps the un-clamped value for analysts.
+        raw_netprice = r.get("avg_net_price")
+        chip_netprice = max(0, raw_netprice) if raw_netprice is not None else None
+
         inst = {
             "unitid":      r["unitid"],
             "slug":        r["slug"],
@@ -169,7 +177,7 @@ def main(json_dir: Path, out: Path, kv_base_url: str | None) -> None:
                 "grad_rate":     _f(r.get("grad_rate")),
                 "admit_rate":    _f(r.get("admit_rate")),
                 "enrollment":    r.get("enrollment"),
-                "avg_net_price": r.get("avg_net_price"),
+                "avg_net_price": chip_netprice,
             },
         }
         if kv_base_url:
