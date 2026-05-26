@@ -18,11 +18,15 @@ from typing import Any
 from uuid import UUID
 
 import psycopg
+import structlog
 from psycopg.types.json import Jsonb
 
 from .engine import get_conn
+from .url_gate import check_document_url
 
 PARSER_VERSION = "0.1.0"  # bump per-connector when parser changes
+
+log = structlog.get_logger(__name__)
 
 
 @dataclass
@@ -315,6 +319,16 @@ class ProvenanceWriter:
                           storage_path: str | None = None, extracted_text: str | None = None,
                           summary: str | None = None, source_url: str | None = None,
                           raw_payload_id: int | None = None, confidence: float | None = None) -> int:
+        # Defensive gate — reject third-party / cross-institution / duplicate
+        # URLs before they pollute landing.ir_documents. See db/url_gate.py.
+        decision = check_document_url(self._conn, unitid=unitid, doc_url=doc_url, doc_type=doc_type)
+        if not decision.allowed:
+            log.warning(
+                "writer.ir_document_rejected",
+                unitid=unitid, doc_type=doc_type, doc_url=doc_url,
+                reason=decision.reason,
+            )
+            return 0
         sql = """
             INSERT INTO landing.ir_documents
               (unitid, doc_type, title, year, doc_url, mime_type, page_count, storage_path,
