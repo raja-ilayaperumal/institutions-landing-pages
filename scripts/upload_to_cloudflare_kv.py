@@ -90,12 +90,8 @@ def _discover_account_id(api_token: str) -> str:
 def _load_pairs(json_dir: Path) -> list[dict]:
     """Build the KV bulk-write payload from every *.json in json_dir.
 
-    Each file gets written under TWO keys so the frontend Worker can
-    use either URL pattern:
-       /?key=mit          (bare slug)
-       /?key=mit.json     (with .json suffix)
-    Costs ~double KV storage but is trivial (~4 MB total for 200+ keys)
-    and removes a whole class of "wrong URL format" bugs.
+    Key format = filename (e.g. `mit.json`) so frontend Worker reads
+        institution-landing-page.clema.ai/?key=<slug>.json
     """
     pairs = []
     for fp in sorted(json_dir.glob("*.json")):
@@ -105,8 +101,7 @@ def _load_pairs(json_dir: Path) -> list[dict]:
         except Exception as e:
             click.echo(f"  ✗ skipping {fp.name}: {e}", err=True)
             continue
-        pairs.append({"key": fp.stem, "value": content})   # bare slug
-        pairs.append({"key": fp.name, "value": content})   # with .json
+        pairs.append({"key": fp.name, "value": content})
     return pairs
 
 
