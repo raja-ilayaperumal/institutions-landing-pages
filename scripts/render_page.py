@@ -278,14 +278,51 @@ _CIP_FAMILY = {
 
 
 def _fetch_grants(conn, unitid: int) -> list[dict]:
+    """Recent + still-active grants for the institution.
+
+    Filtering rules (so IR teams never see an opp that closed 18 months ago):
+      - Opportunities (status='opportunity'): posted within the last
+        12 months AND either still active OR closed within last 3 months.
+        Lets us show "Closes in N days" today and "Recently closed" for a
+        short tail without dumping a multi-year backlog.
+      - Awards (status='award'): posted within last 24 months AND not
+        archived more than 6 months ago. Awards have lasting signal but
+        a 2-year-old archive entry is just noise.
+      - Non-SAM rows (institution_site, LLM-curated funding pages) pass
+        through — they're not date-stamped and were already curated.
+
+    Ordering: still-open first (closest deadline next), then most recent.
+    """
     with conn.cursor() as cur:
         cur.execute(
             """
             SELECT title, agency, amount_usd, status AS kind, source_url,
-                   source_system, award_date
+                   source_system, award_date, posted_at, inactive_at,
+                   response_deadline_at
             FROM landing.grants
             WHERE unitid = %s
-            ORDER BY (amount_usd IS NOT NULL) DESC, amount_usd DESC NULLS LAST, title
+              AND (
+                    source_system <> 'sam_gov'
+                 OR (
+                      status = 'opportunity'
+                      AND posted_at >= CURRENT_DATE - INTERVAL '12 months'
+                      AND (inactive_at IS NULL
+                           OR inactive_at >= CURRENT_DATE - INTERVAL '3 months')
+                    )
+                 OR (
+                      status = 'award'
+                      AND posted_at >= CURRENT_DATE - INTERVAL '24 months'
+                      AND (inactive_at IS NULL
+                           OR inactive_at >= CURRENT_DATE - INTERVAL '6 months')
+                    )
+              )
+            ORDER BY
+              (inactive_at IS NOT NULL AND inactive_at >= CURRENT_DATE) DESC,
+              response_deadline_at ASC NULLS LAST,
+              posted_at DESC NULLS LAST,
+              (amount_usd IS NOT NULL) DESC,
+              amount_usd DESC NULLS LAST,
+              title
             """,
             (unitid,),
         )

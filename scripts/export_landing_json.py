@@ -507,18 +507,24 @@ def _section_ir_jobs(jobs: list[dict]) -> list[dict]:
 
 
 def _section_grants(grants: list[dict]) -> list[dict]:
-    return [
-        _clean_dict({
-            "title":      g.get("title"),
-            "agency":     g.get("agency"),
-            "kind":       g.get("kind"),
-            "amount_usd": g.get("amount_usd"),
-            "url":        g.get("source_url"),
-            "source":     g.get("source_system"),
-            "award_date": g.get("award_date"),
-        })
-        for g in (grants or [])
-    ]
+    """Serialize grants. Rows are pre-filtered upstream in _fetch_grants() to
+    drop expired SAM.gov notices; here we just expose the dates so the
+    frontend can render badges like 'Closes in 14 days' or 'Active'."""
+    out = []
+    for g in (grants or []):
+        out.append(_clean_dict({
+            "title":             g.get("title"),
+            "agency":            g.get("agency"),
+            "kind":              g.get("kind"),
+            "amount_usd":        g.get("amount_usd"),
+            "url":               g.get("source_url"),
+            "source":            g.get("source_system"),
+            "award_date":        g.get("award_date"),
+            "posted_at":         g.get("posted_at"),
+            "inactive_at":       g.get("inactive_at"),
+            "response_deadline": g.get("response_deadline_at"),
+        }))
+    return out
 
 
 def _section_alumni(alumni: list[dict]) -> list[dict]:

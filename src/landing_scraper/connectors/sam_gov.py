@@ -15,8 +15,11 @@ pages load fine in crawl4ai when we need details.
 from __future__ import annotations
 
 import asyncio
+import re
 from dataclasses import dataclass
+from datetime import datetime
 
+import httpx
 import structlog
 
 from ..core import llm, search
@@ -24,6 +27,56 @@ from ..db.engine import get_conn
 from .base import BaseConnector, ConnectorResult, InstitutionContext
 
 log = structlog.get_logger(__name__)
+
+
+NOTICE_ID_RE = re.compile(r"/opp/([0-9a-fA-F]{32})/")
+SAM_API_TMPL = "https://sam.gov/api/prod/opps/v2/opportunities/{notice_id}"
+SAM_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (clema-landing scraper)",
+    "Accept": "application/json, text/plain, */*",
+    "Origin": "https://sam.gov",
+    "Referer": "https://sam.gov/",
+}
+
+
+def _extract_notice_id(url: str) -> str | None:
+    m = NOTICE_ID_RE.search(url or "")
+    return m.group(1) if m else None
+
+
+def _parse_iso_date(value):
+    """Tolerant ISO-8601 → date. Returns None for missing/malformed values."""
+    if not value:
+        return None
+    s = str(value)
+    try:
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).date()
+    except ValueError:
+        try:
+            return datetime.strptime(s[:10], "%Y-%m-%d").date()
+        except ValueError:
+            return None
+
+
+def _fetch_sam_dates(client: httpx.Client, notice_id: str) -> dict:
+    """Hit the unauthenticated SAM.gov opportunity API for posted/inactive
+    /response dates. Always returns a dict (with Nones on failure) so the
+    caller can spread it into the row without conditional logic."""
+    try:
+        r = client.get(SAM_API_TMPL.format(notice_id=notice_id), timeout=15.0)
+        if r.status_code != 200:
+            return {"posted_at": None, "inactive_at": None, "response_deadline_at": None}
+        d = r.json()
+    except (httpx.HTTPError, ValueError):
+        return {"posted_at": None, "inactive_at": None, "response_deadline_at": None}
+    data2 = d.get("data2") or {}
+    archive = data2.get("archive") or {}
+    deadlines = (data2.get("solicitation") or {}).get("deadlines") or {}
+    return {
+        "posted_at":            _parse_iso_date(d.get("postedDate")),
+        "inactive_at":          _parse_iso_date(archive.get("date")),
+        "response_deadline_at": _parse_iso_date(deadlines.get("response")),
+    }
 
 QUERIES = (
     'site:sam.gov "{name}" grant opportunity',
@@ -138,26 +191,40 @@ class SAMGovGrantsConnector(BaseConnector):
 
 
 def _persist(unitid: int, items: list[dict]) -> None:
+    # Fetch dates from the SAM.gov v2 API for every URL up-front so we never
+    # write a row without the recency signal. One HTTP client, reused.
     sql = """
         INSERT INTO landing.grants
           (unitid, source_system, external_id, agency, title, amount_usd,
-           award_date, end_date, status, source_url, parser_version,
-           quality_score, needs_review)
-        VALUES (%s, 'sam_gov', %s, %s, %s, %s, NULL, NULL, %s, %s, '0.1.0', %s, FALSE)
+           award_date, end_date, status, source_url,
+           posted_at, inactive_at, response_deadline_at,
+           parser_version, quality_score, needs_review)
+        VALUES (%s, 'sam_gov', %s, %s, %s, %s, NULL, NULL, %s, %s,
+                %s, %s, %s,
+                '0.1.0', %s, FALSE)
         ON CONFLICT (source_system, external_id) DO UPDATE SET
           title = EXCLUDED.title,
           amount_usd = EXCLUDED.amount_usd,
           status = EXCLUDED.status,
+          posted_at = COALESCE(EXCLUDED.posted_at, landing.grants.posted_at),
+          inactive_at = COALESCE(EXCLUDED.inactive_at, landing.grants.inactive_at),
+          response_deadline_at = COALESCE(EXCLUDED.response_deadline_at, landing.grants.response_deadline_at),
           fetched_at = NOW()
     """
-    with get_conn(autocommit=True) as conn, conn.cursor() as cur:
+    with httpx.Client(headers=SAM_HEADERS) as client, \
+            get_conn(autocommit=True) as conn, conn.cursor() as cur:
         for it in items:
             ext_id = it["url"]  # SAM.gov URL is unique per opportunity
+            notice_id = _extract_notice_id(it["url"])
+            dates = _fetch_sam_dates(client, notice_id) if notice_id else {
+                "posted_at": None, "inactive_at": None, "response_deadline_at": None,
+            }
             cur.execute(sql, (
                 unitid, ext_id, it.get("agency"),
                 (it.get("title") or "")[:500],
                 it.get("amount_usd"),
                 it.get("kind"),
                 it["url"],
+                dates["posted_at"], dates["inactive_at"], dates["response_deadline_at"],
                 0.85 if it.get("is_named_institution") else 0.55,
             ))
