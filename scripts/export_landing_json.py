@@ -123,12 +123,27 @@ def _pct(v) -> float | None:
 # the MIT preview HTML so the frontend renderer maps 1:1.
 # ----------------------------------------------------------------------
 
+def _normalize_url(raw: str | None) -> str | None:
+    """IPEDS webaddr is sometimes scheme-less ("www.foo.edu/") and often
+    has a trailing slash. Normalize to "https://www.foo.edu" (https + no
+    trailing slash) so the frontend can use it as-is."""
+    if not raw:
+        return None
+    u = raw.strip()
+    if not u:
+        return None
+    if not u.lower().startswith(("http://", "https://")):
+        u = "https://" + u
+    return u.rstrip("/")
+
+
 def _section_institution(row: dict) -> dict:
     """Hero / identity block — name, location, control, Carnegie, tags."""
     return {
         "unitid":         row["unitid"],
         "slug":           row["slug"],
         "name":           row["institution_name"],
+        "website_url":    _normalize_url(row.get("webaddr")),
         "city":           row.get("city"),
         "state":          row.get("stabbr"),
         "state_name":     row.get("state_name"),
@@ -549,6 +564,16 @@ def build_landing_json(unitid: int | None = None,
         row = cur.fetchone()
         if not row:
             raise SystemExit(f"institution not found: {arg}")
+
+        # Pull the institution's official root website URL from IPEDS HD.
+        # Not in the MV (HD has it under `webaddr`); fetched separately and
+        # normalized to https://<host> with no trailing slash.
+        cur.execute(
+            "SELECT webaddr FROM ipeds.institutions_2024 WHERE unitid=%s LIMIT 1",
+            (row["unitid"],),
+        )
+        webaddr_row = cur.fetchone()
+        row["webaddr"] = (webaddr_row or {}).get("webaddr") if webaddr_row else None
 
         scorecard      = _scrub(row.get("scorecard"))    or {}
         brand          = _scrub(row.get("brand"))        or {}

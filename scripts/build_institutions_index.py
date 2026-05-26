@@ -75,6 +75,20 @@ def _f(v):
     return v
 
 
+def normalize_url(raw: str | None) -> str | None:
+    """IPEDS stores webaddr as `www.foo.edu/` or `https://www.foo.edu/` —
+    normalize to `https://www.foo.edu` (no scheme missing, no trailing slash).
+    """
+    if not raw:
+        return None
+    u = raw.strip()
+    if not u:
+        return None
+    if not u.lower().startswith(("http://", "https://")):
+        u = "https://" + u
+    return u.rstrip("/")
+
+
 @click.command()
 @click.option("--json-dir", default="data/json",
               type=click.Path(exists=True, file_okay=False, path_type=Path),
@@ -105,6 +119,8 @@ def main(json_dir: Path, out: Path, kv_base_url: str | None) -> None:
               li.carnegie_basic_label, li.carnegie_basic_slug,
               li.is_hbcu, li.is_hsi, li.is_landgrant,
               li.is_medical, li.is_tribal,
+              (SELECT webaddr FROM ipeds.institutions_2024 i
+                 WHERE i.unitid=li.unitid LIMIT 1) AS webaddr,
               (SELECT a.admssn::float / NULLIF(a.applcn, 0)
                  FROM ipeds.admissions a
                  WHERE a.unitid=li.unitid
@@ -163,6 +179,7 @@ def main(json_dir: Path, out: Path, kv_base_url: str | None) -> None:
             "unitid":      r["unitid"],
             "slug":        r["slug"],
             "name":        r["name"],
+            "website_url": normalize_url(r.get("webaddr")),
             "city":        r["city"],
             "state":       r["stabbr"],
             "state_name":  r["state_name"],
