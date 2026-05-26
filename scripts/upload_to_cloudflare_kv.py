@@ -87,12 +87,16 @@ def _discover_account_id(api_token: str) -> str:
     return a["id"]
 
 
-def _load_pairs(json_dir: Path) -> list[dict]:
-    """Build the KV bulk-write payload from every *.json in json_dir."""
+def _load_pairs(json_dir: Path, keep_extension: bool = True) -> list[dict]:
+    """Build the KV bulk-write payload from every *.json in json_dir.
+
+    By default uses the full filename as the key (e.g., `mit.json`) so the
+    frontend Worker can fetch with the same convention used in URLs:
+        institution-landing-page.clema.ai/?key=mit.json
+    Set keep_extension=False to use the bare slug instead.
+    """
     pairs = []
     for fp in sorted(json_dir.glob("*.json")):
-        # Use the filename stem as the key — that's the institution slug
-        # (matches what the dynamic renderer uses for ?slug=… lookups).
         try:
             content = fp.read_text(encoding="utf-8")
             # Validate it parses so we don't upload corrupt JSON
@@ -100,7 +104,8 @@ def _load_pairs(json_dir: Path) -> list[dict]:
         except Exception as e:
             click.echo(f"  ✗ skipping {fp.name}: {e}", err=True)
             continue
-        pairs.append({"key": fp.stem, "value": content})
+        key = fp.name if keep_extension else fp.stem
+        pairs.append({"key": key, "value": content})
     return pairs
 
 
