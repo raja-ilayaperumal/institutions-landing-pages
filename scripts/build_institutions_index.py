@@ -54,13 +54,18 @@ def carnegie_tier(label: str | None) -> tuple[str | None, str | None]:
 
 
 def control_short(label: str | None) -> tuple[str | None, str | None]:
-    """Map IPEDS control_label to short badge + slug."""
+    """Map IPEDS control_label to short chip text + filter slug.
+
+    Chip text stays simple ("Public" / "Private") so the frontend's chip
+    matcher recognizes it. The for-profit / not-for-profit distinction is
+    preserved in the slug ("private-fp" vs "private-np") for filtering.
+    """
     if not label:
         return None, None
     L = label.lower()
-    if L.startswith("public"):              return "Public", "public"
+    if L.startswith("public"):              return "Public",  "public"
     if "private not-for-profit" in L:       return "Private", "private-np"
-    if "private for-profit" in L:           return "Private (for-profit)", "private-fp"
+    if "private for-profit" in L:           return "Private", "private-fp"
     return label, label.lower().replace(" ", "-")
 
 
