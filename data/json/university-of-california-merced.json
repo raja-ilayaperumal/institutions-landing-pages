@@ -1,0 +1,743 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:39.412146+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 445188,
+    "slug": "university-of-california-merced",
+    "name": "University of California-Merced",
+    "website_url": "https://ucmerced.edu",
+    "city": "Merced",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95343-5603",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FFM7VPAG8P92",
+      "opeid": "04127100",
+      "ein": "270093858"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, Merced is a public land-grant research university in Merced County, California, United States. Established in 2005, UC Merced is the tenth and newest campus in the University of California (UC) system. The main campus is around 810 acres in size and located around 5 miles (8.0 km) north of the city of Merced and sits adjacent to Lake Yosemite. The campus is adjacent to large swaths of protected natural grasslands and vernal pools, which have shaped its development, capital planning, and research.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_Merced",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_Merced",
+    "fetched_at": "2026-05-26T14:57:13.762646+05:30"
+  },
+  "admissions": {
+    "applicants": 31928,
+    "admits": 28906,
+    "enrolled": 2093,
+    "first_time_freshmen": 2093,
+    "first_time_freshmen_ft": 2073,
+    "admit_rate": 0.9053495364570283,
+    "yield_rate": 0.07240711271016398
+  },
+  "cost": {
+    "room_and_board": 21445,
+    "avg_net_price": 12744,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.0127,
+    "federal_loan_rate": 0.3145,
+    "net_price_by_family_income": {
+      "0_30k": 8572,
+      "30_48k": 9581,
+      "48_75k": 11594,
+      "75_110k": 17323,
+      "110k_plus": 30561
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.69,
+    "grad_4yr_bachelors": 0.51,
+    "grad_5yr_bachelors": 0.66,
+    "grad_6yr_bachelors": 0.69,
+    "pell_grad_rate": 0.68,
+    "pell_6yr_bachelors_rate": 0.68,
+    "non_pell_grad_rate": 0.7,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.42
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 9716,
+    "ug_12mo": 8917,
+    "grad_12mo": 8917,
+    "women_12mo": 4612,
+    "men_12mo": 5104,
+    "fall_total": 9110,
+    "fall_full_time": 8372,
+    "fall_part_time": 8372,
+    "distance_ed_any": 9110,
+    "distance_ed_exclusive": 2,
+    "race_ethnicity": {
+      "white": 0.089,
+      "black": 0.0486,
+      "hispanic": 0.5774,
+      "asian": 0.2235,
+      "ai_an": 0.0014,
+      "nh_pi": 0.0026,
+      "two_or_more": 0.0443,
+      "non_resident": 0.003,
+      "race_unknown": 0.0102
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 430
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 379
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 318
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 190
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 183
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 50
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 39
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 29
+      }
+    ],
+    "program_count": 41,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 444
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 482149,
+        "slug": "augusta-university",
+        "name": "Augusta University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8640825153884545,
+          "yield_rate": 0.25086638428956487,
+          "grad_rate": 0.49,
+          "retention_rate": 0.76,
+          "enrollment": 10900,
+          "avg_net_price": 13347
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 133650,
+        "slug": "florida-agricultural-and-mechanical-university",
+        "name": "Florida Agricultural and Mechanical University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.20557215679381263,
+          "yield_rate": 0.30547242411286873,
+          "grad_rate": 0.53,
+          "retention_rate": 0.89,
+          "enrollment": 9313,
+          "avg_net_price": 15847
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 142276,
+        "slug": "idaho-state-university",
+        "name": "Idaho State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.35,
+          "retention_rate": 0.72,
+          "enrollment": 13061,
+          "avg_net_price": 17324
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 213020,
+        "slug": "indiana-university-of-pennsylvania-main-campus",
+        "name": "Indiana University of Pennsylvania-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9077445982034474,
+          "yield_rate": 0.2396362663813854,
+          "grad_rate": 0.54,
+          "retention_rate": 0.75,
+          "enrollment": 9073,
+          "avg_net_price": 17216
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 175856,
+        "slug": "jackson-state-university",
+        "name": "Jackson State University",
+        "state": "Mississippi",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9314909278749919,
+          "yield_rate": 0.06619991681685845,
+          "grad_rate": 0.51,
+          "retention_rate": 0.62,
+          "enrollment": 6326,
+          "avg_net_price": 20191
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 159647,
+        "slug": "louisiana-tech-university",
+        "name": "Louisiana Tech University",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8639736191261336,
+          "yield_rate": 0.3343784078516903,
+          "grad_rate": 0.62,
+          "retention_rate": 0.82,
+          "enrollment": 11873,
+          "avg_net_price": 12209
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 171128,
+        "slug": "michigan-technological-university",
+        "name": "Michigan Technological University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9242885736663475,
+          "yield_rate": 0.12927219659165803,
+          "grad_rate": 0.68,
+          "retention_rate": 0.89,
+          "enrollment": 7403,
+          "avg_net_price": 15729
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 178411,
+        "slug": "missouri-university-of-science-and-technology",
+        "name": "Missouri University of Science and Technology",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7254549808429118,
+          "yield_rate": 0.20944050173295922,
+          "grad_rate": 0.64,
+          "retention_rate": 0.87,
+          "enrollment": 7154,
+          "avg_net_price": 13773
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 163453,
+        "slug": "morgan-state-university",
+        "name": "Morgan State University",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8223059145767354,
+          "yield_rate": 0.1237118767565317,
+          "grad_rate": 0.41,
+          "retention_rate": 0.73,
+          "enrollment": 10739,
+          "avg_net_price": 15015
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 227526,
+        "slug": "prairie-view-a-m-university",
+        "name": "Prairie View A & M University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7930581323438466,
+          "yield_rate": 0.18374110537089386,
+          "grad_rate": 0.43,
+          "retention_rate": 0.76,
+          "enrollment": 9922,
+          "avg_net_price": 14041
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 186371,
+        "slug": "rutgers-university-camden",
+        "name": "Rutgers University-Camden",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6628501827040195,
+          "yield_rate": 0.024393605292171997,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 5675,
+          "avg_net_price": 18803
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 219356,
+        "slug": "south-dakota-state-university",
+        "name": "South Dakota State University",
+        "state": "South Dakota",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9833950871414848,
+          "yield_rate": 0.34063633826402456,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 12056,
+          "avg_net_price": 18219
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 160621,
+        "slug": "southern-university-and-a-m-college",
+        "name": "Southern University and A & M College",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3511503697617091,
+          "yield_rate": 0.20065520065520065,
+          "grad_rate": 0.27,
+          "retention_rate": 0.6,
+          "enrollment": 8279,
+          "avg_net_price": 19740
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 196103,
+        "slug": "suny-college-of-environmental-science-and-forestry",
+        "name": "SUNY College of Environmental Science and Forestry",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6328437917222964,
+          "yield_rate": 0.17637130801687764,
+          "grad_rate": 0.66,
+          "retention_rate": 0.87,
+          "enrollment": 2757,
+          "avg_net_price": 18730
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 221838,
+        "slug": "tennessee-state-university",
+        "name": "Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7011387163561077,
+          "yield_rate": 0.12992765391997638,
+          "grad_rate": 0.35,
+          "retention_rate": 0.33,
+          "enrollment": 6310,
+          "avg_net_price": 10026
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 221847,
+        "slug": "tennessee-technological-university",
+        "name": "Tennessee Technological University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7613104524180967,
+          "yield_rate": 0.22836976320582877,
+          "grad_rate": 0.58,
+          "retention_rate": 0.78,
+          "enrollment": 10511,
+          "avg_net_price": 14207
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 229063,
+        "slug": "texas-southern-university",
+        "name": "Texas Southern University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9691193696092003,
+          "yield_rate": 0.1788814415998242,
+          "grad_rate": 0.22,
+          "retention_rate": 0.66,
+          "enrollment": 8704,
+          "avg_net_price": 19734
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 228802,
+        "slug": "the-university-of-texas-at-tyler",
+        "name": "The University of Texas at Tyler",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9402106014635017,
+          "yield_rate": 0.27012148823082766,
+          "grad_rate": 0.54,
+          "retention_rate": 0.77,
+          "enrollment": 10362,
+          "avg_net_price": 13931
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 102614,
+        "slug": "university-of-alaska-fairbanks",
+        "name": "University of Alaska Fairbanks",
+        "state": "Alaska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6469329529243937,
+          "yield_rate": 0.7475192943770672,
+          "grad_rate": 0.39,
+          "retention_rate": 0.74,
+          "enrollment": 6893,
+          "avg_net_price": 9634
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 106245,
+        "slug": "university-of-arkansas-at-little-rock",
+        "name": "University of Arkansas at Little Rock",
+        "state": "Arkansas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5877739331026528,
+          "yield_rate": 0.21821036106750394,
+          "grad_rate": 0.37,
+          "retention_rate": 0.76,
+          "enrollment": 8216,
+          "avg_net_price": 16136
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 142285,
+        "slug": "university-of-idaho",
+        "name": "University of Idaho",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7553373502938332,
+          "yield_rate": 0.19942879653338585,
+          "grad_rate": 0.57,
+          "retention_rate": 0.76,
+          "enrollment": 12286,
+          "avg_net_price": 13782
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 163338,
+        "slug": "university-of-maryland-eastern-shore",
+        "name": "University of Maryland Eastern Shore",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9641091768751343,
+          "yield_rate": 0.08626839054837271,
+          "grad_rate": 0.35,
+          "retention_rate": 0.62,
+          "enrollment": 3177,
+          "avg_net_price": 14035
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 167987,
+        "slug": "university-of-massachusetts-dartmouth",
+        "name": "University of Massachusetts-Dartmouth",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9063642328240697,
+          "yield_rate": 0.13474663908996898,
+          "grad_rate": 0.52,
+          "retention_rate": 0.64,
+          "enrollment": 7968,
+          "avg_net_price": 20605
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 178420,
+        "slug": "university-of-missouri-st-louis",
+        "name": "University of Missouri-St Louis",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6266752785402874,
+          "yield_rate": 0.12625611955681526,
+          "grad_rate": 0.57,
+          "retention_rate": 0.74,
+          "enrollment": 14736,
+          "avg_net_price": 12323
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 159939,
+        "slug": "university-of-new-orleans",
+        "name": "University of New Orleans",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7431428185380354,
+          "yield_rate": 0.18054545454545454,
+          "grad_rate": 0.38,
+          "retention_rate": 0.67,
+          "enrollment": 6501,
+          "avg_net_price": 11147
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 219471,
+        "slug": "university-of-south-dakota",
+        "name": "University of South Dakota",
+        "state": "South Dakota",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9877619446772842,
+          "yield_rate": 0.2406653088934148,
+          "grad_rate": 0.6,
+          "retention_rate": 0.79,
+          "enrollment": 10619,
+          "avg_net_price": 19155
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 231624,
+        "slug": "william-and-mary",
+        "name": "William & Mary",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34071243959995506,
+          "yield_rate": 0.26616094986807387,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 9818,
+          "avg_net_price": 22529
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 206604,
+        "slug": "wright-state-university-main-campus",
+        "name": "Wright State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9632975719932242,
+          "yield_rate": 0.20398593200468934,
+          "grad_rate": 0.42,
+          "retention_rate": 0.68,
+          "enrollment": 10603,
+          "avg_net_price": 15216
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://cie.ucmerced.edu/about-cie/institutional-research-decision-support",
+    "office_name": "Institutional Research & Decision Support",
+    "parent_division": "Office of the Executive Vice Chancellor and Provost",
+    "summary": "The mission of IRDS is to provide analysis for data-driven decision-making and communicates research insights that support strategic initiatives. IRDS strives to be a trusted partner and consultant, providing accurate and actionable information to campus constituents.",
+    "address": "University of California, Merced, 5200 North Lake Rd., Merced, CA 95343",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T14:57:12.433866+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 1,
+      "name": "Corinne Townsend",
+      "title": "Director of Institutional Effectiveness and Analytics",
+      "linkedin_url": "https://www.linkedin.com/in/corinne-townsend-49538221"
+    },
+    {
+      "ordering": 2,
+      "name": "Andrea Hall-Cuccia",
+      "title": "Institutional Research Analyst"
+    },
+    {
+      "ordering": 3,
+      "name": "Jose Lopez Arriaza",
+      "title": "Business Intelligence Specialist"
+    },
+    {
+      "ordering": 5,
+      "name": "Jessica Chackoria",
+      "title": "Business Intelligence Specialist",
+      "linkedin_url": "https://www.linkedin.com/in/jessicachackoria"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://cie.ucmerced.edu/analytics-hub",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:57:00.518683+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=445188",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:57:15.105446+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Academic Program Assessment Glossary",
+      "url": "https://assessment.ucmerced.edu/node/78",
+      "summary": "The UC Merced Academic Program Assessment Glossary provides a common language to facilitate discussions on academic assessment. It offers general descriptions and definitions to promote understanding across various academic disciplines about terms related to academic assessments, learning outcomes, program evaluations, curriculum mapping, and evidence-based improvements. The glossary aims to standardize these terms within the academic program assessment context, ensuring that stakeholders can openly communicate and align on methods and expectations.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:56:31.582815+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "2021 - 2031 Strategic Plan",
+      "url": "https://chancellor.ucmerced.edu/strategic-plan",
+      "summary": "The University of California-Merced's 2021-2031 Strategic Plan outlines a vision for growth and excellence guided by shared values. Under the leadership of Chancellor Juan Sánchez Muñoz, the plan aims to achieve R1 research status and expand student enrollment to 15,000 by 2030. It emphasizes care for faculty and staff, and a commitment to student success, enriching communities and fostering a prosperous future.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:53:04.224699+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Business Intelligence Analyst (Onsite)",
+      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179392707&Title=Associate%20Director%2C%20Residence%20Education%20(Resident%20Engagement%20%26%20CARE%20Response)(Onsite)"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Temnee Wright",
+      "field": "Law"
+    },
+    {
+      "name": "Laura Showalter",
+      "field": "Academia"
+    },
+    {
+      "name": "Eve Hoyo-Atlas",
+      "field": "Computer Science"
+    },
+    {
+      "name": "Joshua R. Atlas",
+      "field": "Computer Science"
+    },
+    {
+      "name": "Nohely Aguilar",
+      "field": "Community Service"
+    }
+  ]
+}

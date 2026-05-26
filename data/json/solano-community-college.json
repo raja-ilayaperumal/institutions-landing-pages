@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:26.986240+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123563,
+    "slug": "solano-community-college",
+    "name": "Solano Community College",
+    "website_url": "https://welcome.solano.edu",
+    "city": "Fairfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94534-3197",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "W34JTKCAZJ85",
+      "opeid": "00129200",
+      "ein": "946002197"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Solano Community College (SCC) is a public community college in Fairfield, California, with additional centers in Vacaville and Vallejo. The college is part of California Community Colleges System. SCC's service area includes all of Solano County, and the town of Winters in Yolo County. It has 10,814 students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Solano_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Solano_Community_College",
+    "fetched_at": "2026-05-26T14:52:54.702014+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3869,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6415,
+    "federal_loan_rate": 0.0142,
+    "net_price_by_family_income": {
+      "0_30k": 2594,
+      "30_48k": 3321,
+      "48_75k": 5909,
+      "75_110k": 7873,
+      "110k_plus": 11040
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.36,
+    "pell_grad_rate": 0.41,
+    "non_pell_grad_rate": 0.25
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 12782,
+    "ug_12mo": 12782,
+    "grad_12mo": 10898,
+    "women_12mo": 6987,
+    "men_12mo": 5795,
+    "fall_total": 9282,
+    "fall_full_time": 9282,
+    "fall_part_time": 8061,
+    "distance_ed_any": 9282,
+    "distance_ed_exclusive": 2880,
+    "race_ethnicity": {
+      "white": 0.2128,
+      "black": 0.1431,
+      "hispanic": 0.3777,
+      "asian": 0.1476,
+      "ai_an": 0.0042,
+      "nh_pi": 0.0077,
+      "two_or_more": 0.0881,
+      "non_resident": 0.0016,
+      "race_unknown": 0.0173
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 384
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 285
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 190
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 156
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 69
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 36
+      }
+    ],
+    "program_count": 82,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 137
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 126207,
+        "slug": "aims-community-college",
+        "name": "Aims Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 8542,
+          "avg_net_price": 9535
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 126289,
+        "slug": "arapahoe-community-college",
+        "name": "Arapahoe Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15012,
+          "avg_net_price": 10790
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 208390,
+        "slug": "chemeketa-community-college",
+        "name": "Chemeketa Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8098,
+          "avg_net_price": 8457
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 201928,
+        "slug": "cincinnati-state-technical-and-community-college",
+        "name": "Cincinnati State Technical and Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 9683,
+          "avg_net_price": 7113
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 234933,
+        "slug": "clark-college",
+        "name": "Clark College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7463,
+          "avg_net_price": 9826
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 142559,
+        "slug": "college-of-southern-idaho",
+        "name": "College of Southern Idaho",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 10176,
+          "avg_net_price": 7005
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 126942,
+        "slug": "community-college-of-denver",
+        "name": "Community College of Denver",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7965,
+          "avg_net_price": 9431
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 224350,
+        "slug": "del-mar-college",
+        "name": "Del Mar College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 10256,
+          "avg_net_price": 4250
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 130907,
+        "slug": "delaware-technical-community-college-terry",
+        "name": "Delaware Technical Community College-Terry",
+        "state": "Delaware",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13337,
+          "avg_net_price": 8033
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 235103,
+        "slug": "edmonds-college",
+        "name": "Edmonds College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6549,
+          "avg_net_price": 13461
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 235149,
+        "slug": "everett-community-college",
+        "name": "Everett Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6698,
+          "avg_net_price": 10627
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 114716,
+        "slug": "foothill-college",
+        "name": "Foothill College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12949,
+          "avg_net_price": 7549
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 485111,
+        "slug": "georgia-military-college",
+        "name": "Georgia Military College",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 6575,
+          "avg_net_price": 14693
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 104708,
+        "slug": "glendale-community-college",
+        "name": "Glendale Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13914,
+          "avg_net_price": 12158
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 226134,
+        "slug": "laredo-college",
+        "name": "Laredo College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 11029,
+          "avg_net_price": 5309
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 203748,
+        "slug": "lorain-county-community-college",
+        "name": "Lorain County Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9350,
+          "avg_net_price": 4598
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 118912,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 227146,
+        "slug": "navarro-college",
+        "name": "Navarro College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6557,
+          "avg_net_price": 14579
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 227304,
+        "slug": "odessa-college",
+        "name": "Odessa College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 9981,
+          "avg_net_price": 9296
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 236188,
+        "slug": "olympic-college",
+        "name": "Olympic College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5784,
+          "avg_net_price": 7755
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 177472,
+        "slug": "ozarks-technical-community-college",
+        "name": "Ozarks Technical Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 11380,
+          "avg_net_price": 7340
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 235237,
+        "slug": "pierce-college-district",
+        "name": "Pierce College District",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8137,
+          "avg_net_price": 10123
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 127909,
+        "slug": "red-rocks-community-college",
+        "name": "Red Rocks Community College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8419,
+          "avg_net_price": 9356
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 172200,
+        "slug": "schoolcraft-community-college-district",
+        "name": "Schoolcraft Community College District",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8587,
+          "avg_net_price": 5372
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 236513,
+        "slug": "seattle-central-college",
+        "name": "Seattle Central College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5396,
+          "avg_net_price": 6329
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 123299,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9073,
+          "avg_net_price": 3743
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 123509,
+        "slug": "skyline-college",
+        "name": "Skyline College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9572,
+          "avg_net_price": -1180
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 230597,
+        "slug": "snow-college",
+        "name": "Snow College",
+        "state": "Utah",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5577,
+          "avg_net_price": 6071
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 236692,
+        "slug": "spokane-community-college",
+        "name": "Spokane Community College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6813,
+          "avg_net_price": 6206
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 236753,
+        "slug": "tacoma-community-college",
+        "name": "Tacoma Community College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6199,
+          "avg_net_price": 9321
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 182500,
+        "slug": "truckee-meadows-community-college",
+        "name": "Truckee Meadows Community College",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 10885,
+          "avg_net_price": 7457
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 125471,
+        "slug": "west-los-angeles-college",
+        "name": "West Los Angeles College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9255,
+          "avg_net_price": 7131
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123563",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:52:56.554735+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Chafee Grant for Foster Youth",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://solano.edu/financial-aid/available-programs/grants.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "Student Success Completion Grant",
+      "kind": "opportunity",
+      "url": "https://solano.edu/financial-aid/available-programs/grants.php",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

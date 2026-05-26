@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:19.335970+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122612,
+    "slug": "university-of-san-francisco",
+    "name": "University of San Francisco",
+    "website_url": "https://www.usfca.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94117-1080",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EA2TGNNYQZ36",
+      "opeid": "00132500",
+      "ein": "941156628"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of San Francisco (USF) is a private Jesuit university in San Francisco, California, United States. Founded in 1855, it has nearly 9,000 students pursuing undergraduate and graduate degrees in 59 major programs. In addition to its main campus in the Golden Gate area, it has satellite campuses in downtown San Francisco, Orange County, Sacramento, San Jose, and Santa Rosa.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_San_Francisco",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_San_Francisco",
+    "fetched_at": "2026-05-26T15:10:16.052591+05:30"
+  },
+  "admissions": {
+    "applicants": 24888,
+    "admits": 15358,
+    "enrolled": 920,
+    "first_time_freshmen": 920,
+    "first_time_freshmen_ft": 918,
+    "admit_rate": 0.6170845387335262,
+    "yield_rate": 0.05990363328558406
+  },
+  "cost": {
+    "avg_net_price": 39495,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0321,
+    "federal_loan_rate": 0.4727,
+    "net_price_by_family_income": {
+      "0_30k": 31741,
+      "30_48k": 31759,
+      "48_75k": 34211,
+      "75_110k": 39319,
+      "110k_plus": 48576
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.7,
+    "grad_4yr_bachelors": 0.63,
+    "grad_5yr_bachelors": 0.69,
+    "grad_6yr_bachelors": 0.7,
+    "pell_grad_rate": 0.67,
+    "pell_6yr_bachelors_rate": 0.67,
+    "non_pell_grad_rate": 0.69,
+    "non_pell_6yr_bachelors": 0.69,
+    "retention_full_time": 0.84,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 10564,
+    "ug_12mo": 6231,
+    "grad_12mo": 6148,
+    "women_12mo": 6775,
+    "men_12mo": 3789,
+    "fall_total": 8913,
+    "fall_full_time": 5321,
+    "fall_part_time": 5287,
+    "distance_ed_any": 8913,
+    "distance_ed_exclusive": 529,
+    "race_ethnicity": {
+      "white": 0.2305,
+      "black": 0.0753,
+      "hispanic": 0.215,
+      "asian": 0.2617,
+      "ai_an": 0.0018,
+      "nh_pi": 0.0033,
+      "two_or_more": 0.1018,
+      "non_resident": 0.095,
+      "race_unknown": 0.0156
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 520
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 500
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 329
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 219
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 208
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 177
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 164
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 121
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 108
+      }
+    ],
+    "program_count": 91,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 437
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 164924,
+        "slug": "boston-college",
+        "name": "Boston College",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1642549305020407,
+          "yield_rate": 0.4345786272806255,
+          "grad_rate": 0.91,
+          "retention_rate": 0.96,
+          "enrollment": 15432,
+          "avg_net_price": 39866
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 144740,
+        "slug": "depaul-university",
+        "name": "DePaul University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7589394230154161,
+          "yield_rate": 0.1081377217750432,
+          "grad_rate": 0.68,
+          "retention_rate": 0.86,
+          "enrollment": 21210,
+          "avg_net_price": 29141
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 212106,
+        "slug": "duquesne-university",
+        "name": "Duquesne University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8355696889785155,
+          "yield_rate": 0.13376032674278288,
+          "grad_rate": 0.77,
+          "retention_rate": 0.84,
+          "enrollment": 8234,
+          "avg_net_price": 34978
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 191241,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 146719,
+        "slug": "loyola-university-chicago",
+        "name": "Loyola University Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8159989825766247,
+          "yield_rate": 0.08612574420996852,
+          "grad_rate": 0.75,
+          "retention_rate": 0.82,
+          "enrollment": 17384,
+          "avg_net_price": 35196
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 239105,
+        "slug": "marquette-university",
+        "name": "Marquette University",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8134324367680873,
+          "yield_rate": 0.14127004996055745,
+          "grad_rate": 0.83,
+          "retention_rate": 0.91,
+          "enrollment": 11746,
+          "avg_net_price": 29237
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123554,
+        "slug": "saint-mary-s-college-of-california",
+        "name": "Saint Mary's College of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8653140096618358,
+          "yield_rate": 0.09468512728896829,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 2734,
+          "avg_net_price": 31198
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 122931,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 236595,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.769248937175248,
+          "yield_rate": 0.13632176849861835,
+          "grad_rate": 0.76,
+          "retention_rate": 0.84,
+          "enrollment": 7189,
+          "avg_net_price": 34802
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 186584,
+        "slug": "seton-hall-university",
+        "name": "Seton Hall University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7326444946722634,
+          "yield_rate": 0.0881996474217717,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 9571,
+          "avg_net_price": 28921
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 209825,
+        "slug": "university-of-portland",
+        "name": "University of Portland",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8916636506213054,
+          "yield_rate": 0.0961980787444189,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 3285,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://myusf.usfca.edu/oira",
+    "office_name": "Office of Institutional Research and Analytics",
+    "parent_division": "Center for Institutional Planning & Effectiveness",
+    "summary": "The Office of Institutional Research and Analytics supports internal decision-making, strategic planning, and external accountability through data collection, analysis, and reporting on enrollment, retention, graduation, faculty and staff, and academic programs.",
+    "phone": "415-422-4928",
+    "email": "oira@usfca.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:10:12.712724+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Calypso Tapia",
+      "title": "Senior Institutional Data Analyst",
+      "email": "ctapia7@usfca.edu",
+      "linkedin_url": "https://www.linkedin.com/in/calypsotapia"
+    },
+    {
+      "ordering": 1,
+      "name": "Dylan Johnson",
+      "title": "Institutional Data Analyst",
+      "email": "djohnson9@usfca.edu"
+    },
+    {
+      "ordering": 2,
+      "name": "Kiara Dorion",
+      "title": "Institutional Data Analyst",
+      "email": "kdorion@usfca.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Nathan Cain",
+      "title": "Associate Vice Provost",
+      "email": "ncain@usfca.edu"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://myusf.usfca.edu/sites/default/files/users/ncain/CDS%202024-2025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://myusf.usfca.edu/sites/default/files/users/ncain/CDS%202023-2024.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://myusf.usfca.edu/sites/default/files/users/ncain/CDS%202022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202021-2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202020-2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202019-2020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202018-2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202017-2018.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202016-2017.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://myusf.usfca.edu/sites/default/files/documents/OIRA/CDS%202013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://myusf.usfca.edu/sites/default/files/Univ_San_Francisco_CDS_2012-2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://myusf.usfca.edu/sites/default/files/Univ_San_Francisco_CDS_2011-2012.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122612",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:10:15.815239+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "USF 2027 Strategic Plan",
+      "url": "https://myusf.usfca.edu/president/usf-2027-strategic-plan",
+      "summary": "The University of San Francisco's 'USF 2027 Strategic Plan' aims to thrive through academic innovation, diversity, and community engagement. The plan outlines goals to enhance educational practices, diversify revenue streams, and strengthen community ties to support students in a rapidly changing world. Initiatives focus on increasing student enrollment, improving equity and well-being, and expanding local and global partnerships.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:07:15.784914+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179401431"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Linda Sharp Caldwell",
+      "field": "Nursing"
+    },
+    {
+      "name": "Kevin Starr",
+      "field": "Academia"
+    },
+    {
+      "name": "Pacita Abad",
+      "field": "Arts and entertainment"
+    },
+    {
+      "name": "Richard Egan",
+      "field": "Arts and entertainment"
+    },
+    {
+      "name": "Michael Franti",
+      "field": "Arts and entertainment"
+    },
+    {
+      "name": "Joe Rosenthal",
+      "field": "Arts and entertainment"
+    },
+    {
+      "name": "Suzanne Somers",
+      "field": "Arts and entertainment"
+    },
+    {
+      "name": "K.C. Jones",
+      "field": "Athletics"
+    },
+    {
+      "name": "Bill Russell",
+      "field": "Athletics"
+    },
+    {
+      "name": "Pete Rozelle",
+      "field": "Athletics"
+    },
+    {
+      "name": "Alyssa Nakken",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jerry Baldwin",
+      "field": "Business"
+    },
+    {
+      "name": "Gordon Bowker",
+      "field": "Business"
+    },
+    {
+      "name": "Segun Agbaje",
+      "field": "Business"
+    },
+    {
+      "name": "James D. Phelan",
+      "field": "Politics"
+    },
+    {
+      "name": "Pierre Salinger",
+      "field": "Politics"
+    },
+    {
+      "name": "Alejandro Toledo",
+      "field": "Politics"
+    },
+    {
+      "name": "Moira Gunn",
+      "field": "Journalism"
+    },
+    {
+      "name": "Emily Compagno",
+      "field": "Journalism"
+    },
+    {
+      "name": "Warren Hinckle",
+      "field": "Journalism"
+    },
+    {
+      "name": "Delia Gallagher",
+      "field": "Journalism"
+    },
+    {
+      "name": "Ming Chin",
+      "field": "Law and justice"
+    },
+    {
+      "name": "Martin Jenkins",
+      "field": "Law and justice"
+    },
+    {
+      "name": "Saundra Brown Armstrong",
+      "field": "Law and justice"
+    },
+    {
+      "name": "Leven Cooper Allen",
+      "field": "Military"
+    },
+    {
+      "name": "Robert D. Bohn",
+      "field": "Military"
+    }
+  ]
+}

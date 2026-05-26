@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:16.519797+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120883,
+    "slug": "university-of-the-pacific",
+    "name": "University of the Pacific",
+    "website_url": "https://www.pacific.edu",
+    "city": "Stockton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95211-0197",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "M2LKLDMLETD5| LKMJM5TJ4BJ1",
+      "opeid": "00132900",
+      "ein": "941156266"
+    }
+  },
+  "brand": null,
+  "about": null,
+  "admissions": {
+    "applicants": 7780,
+    "admits": 5549,
+    "enrolled": 766,
+    "first_time_freshmen": 766,
+    "first_time_freshmen_ft": 764,
+    "admit_rate": 0.7132390745501286,
+    "yield_rate": 0.1380428906109209
+  },
+  "cost": {
+    "avg_net_price": 25926,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0246,
+    "federal_loan_rate": 0.4274,
+    "net_price_by_family_income": {
+      "0_30k": 17716,
+      "30_48k": 17411,
+      "48_75k": 20169,
+      "75_110k": 26422,
+      "110k_plus": 38104
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.69,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.65,
+    "grad_6yr_bachelors": 0.68,
+    "pell_grad_rate": 0.64,
+    "pell_6yr_bachelors_rate": 0.64,
+    "non_pell_grad_rate": 0.7,
+    "non_pell_6yr_bachelors": 0.69,
+    "retention_full_time": 0.88,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7407,
+    "ug_12mo": 3488,
+    "grad_12mo": 3400,
+    "women_12mo": 4299,
+    "men_12mo": 3108,
+    "fall_total": 6944,
+    "fall_full_time": 3249,
+    "fall_part_time": 3204,
+    "distance_ed_any": 6944,
+    "distance_ed_exclusive": 81,
+    "race_ethnicity": {
+      "white": 0.1632,
+      "black": 0.0311,
+      "hispanic": 0.2664,
+      "asian": 0.3437,
+      "ai_an": 0.0018,
+      "nh_pi": 0.0043,
+      "two_or_more": 0.0533,
+      "non_resident": 0.0711,
+      "race_unknown": 0.065
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 697
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 200
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 170
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 159
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 86
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 80
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 52
+      }
+    ],
+    "program_count": 102,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 484
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.7669,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.7368,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 122931,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.7194,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.7103,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 112075,
+        "slug": "concordia-university-irvine",
+        "name": "Concordia University-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.699,
+        "metrics": {
+          "admit_rate": 0.6598685701336959,
+          "yield_rate": 0.11607142857142858,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 3658,
+          "avg_net_price": 28046
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.pacific.edu/about-pacific/administrative-offices/institutional-research",
+    "office_name": "Office of Institutional Research and Decision Support (IRDS)",
+    "summary": "The Institutional Research office serves the university by investigating the processes of higher education, providing analytical data management, meeting both internal and external information reporting needs, and supporting decision making.",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:38:26.197379+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.pacific.edu/sites/default/files/users/user777/2025_26_CDS_Full_Form_.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.pacific.edu/sites/default/files/users/user777/2024_25_CDS_Full_Form_.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.pacific.edu/sites/default/files/users/user777/2023_24_CDS_Full_Form.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.pacific.edu/sites/default/files/users/user777/2022_23_CDS_Full_Form_.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.pacific.edu/sites/default/files/users/user777/2021_22_CDS_Full_form_.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Lawrence Meredith Endowed Professorship in the Humanities",
+      "kind": "award",
+      "url": "https://www.pacific.edu/academics/research-scholarship",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

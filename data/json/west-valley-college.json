@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:30.973569+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125499,
+    "slug": "west-valley-college",
+    "name": "West Valley College",
+    "website_url": "https://www.westvalley.edu",
+    "city": "Saratoga",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95070",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NBNHM2KMTB46",
+      "opeid": "00133800",
+      "ein": "770268786"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "West Valley College is a public community college in Saratoga, California. It is part of the California Community College system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/West_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/West_Valley_College",
+    "fetched_at": "2026-05-26T15:29:39.350789+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1842,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6211,
+    "federal_loan_rate": 0.0031,
+    "net_price_by_family_income": {
+      "0_30k": -1351,
+      "30_48k": 2436,
+      "48_75k": 5505,
+      "75_110k": 6532,
+      "110k_plus": 10299
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.51,
+    "pell_grad_rate": 0.47,
+    "retention_full_time": 0.78,
+    "retention_part_time": 0.44
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11247,
+    "ug_12mo": 11247,
+    "grad_12mo": 9120,
+    "women_12mo": 6359,
+    "men_12mo": 4888,
+    "fall_total": 7655,
+    "fall_full_time": 7655,
+    "fall_part_time": 6416,
+    "distance_ed_any": 7655,
+    "distance_ed_exclusive": 2975,
+    "race_ethnicity": {
+      "white": 0.303,
+      "black": 0.0274,
+      "hispanic": 0.3414,
+      "asian": 0.1873,
+      "ai_an": 0.0008,
+      "nh_pi": 0.0035,
+      "two_or_more": 0.1132,
+      "non_resident": 0.0069,
+      "race_unknown": 0.0164
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 1128
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 235
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 143
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 52
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 20
+      }
+    ],
+    "program_count": 83,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 142
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 2,
+        "unitid": 113333,
+        "slug": "de-anza-college",
+        "name": "De Anza College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 17425,
+          "avg_net_price": 4667
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 114266,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9336,
+          "avg_net_price": 12591
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 114716,
+        "slug": "foothill-college",
+        "name": "Foothill College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12949,
+          "avg_net_price": 7549
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 118930,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 6909,
+          "avg_net_price": 5198
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 122746,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 8609,
+          "avg_net_price": 16658
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.westvalley.edu/research/",
+    "office_name": "Office of Institutional Research",
+    "summary": "To strengthen institutional decision-making and planning at West Valley College through data analytics, performance and assessment reporting, and the cultivation of accessible data systems, data literacy, and integrated planning tools.",
+    "address": "14000 Fruitvale Ave, Saratoga, California 95070",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:29:38.196888+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Shusaku Horibe",
+      "title": "Dean of Institutional Effectiveness & Research",
+      "email": "shusaku.horibe@westvalley.edu",
+      "phone": "(408) 741-4006"
+    },
+    {
+      "ordering": 1,
+      "name": "Alison McGann",
+      "title": "Research Analyst",
+      "email": "alison.mcgann@westvalley.edu",
+      "phone": "(408) 741-4619",
+      "linkedin_url": "https://www.linkedin.com/in/alisonmcgann"
+    },
+    {
+      "ordering": 2,
+      "name": "Sam Newman",
+      "title": "Research Analyst",
+      "email": "sam.newman@westvalley.edu",
+      "phone": "(408) 741-2489",
+      "linkedin_url": "https://www.linkedin.com/in/newmansam"
+    },
+    {
+      "ordering": 3,
+      "name": "Katie Vanegas",
+      "title": "Student Intern",
+      "email": "katie.vanegas@wvm.edu",
+      "linkedin_url": "https://www.linkedin.com/in/katie-vanegas-4b65a1268"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Full-time Equivalent Students (FTES) – WVC College Excellence Indicators",
+      "url": "https://www.westvalley.edu/research/wvc-cei-main/indicator-definitions/def-full-time-equivalent-students.html",
+      "summary": "This page provides definitions for various College Excellence Indicators. Full-time Equivalent Students (FTES) is highlighted as a standardized measure for calculating student workload, translating part-time enrollments into equivalent full-time students over an academic year. The page includes a list of various indicators relevant to student performance and progression.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:27:51.66734+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125499",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:29:40.997266+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Research & Planning Glossary | West Valley College",
+      "url": "https://www.westvalley.edu/research/glossary.html",
+      "summary": "The Research & Planning Glossary at West Valley College provides definitions for various terms related to institutional research and college planning. It includes general terms such as Academic Program and Census Date, and specific acronyms like FTEF and WSCH which are used in the context of faculty load and student contact hours. These terms are essential for understanding the organizational and administrative aspects of the college's academic offerings and resource allocation.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:28:32.278591+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President of Finance and Administration - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179384655"
+    },
+    {
+      "title": "Dean of Science, Technology, Engineering, Agriculture & Math ...",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179221660"
+    }
+  ],
+  "grants": [
+    {
+      "title": "FAAST Workforce Program Grant",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 3900000,
+      "url": "https://www.westvalley.edu/academics/computer-science-engineering/faast-workforce-program.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "J. Brian Allman",
+      "field": "Dentistry"
+    },
+    {
+      "name": "John Hannigan",
+      "field": "Education"
+    },
+    {
+      "name": "Zakhary Mallett",
+      "field": "Politics/Transportation"
+    },
+    {
+      "name": "David Meads",
+      "field": "Architecture"
+    },
+    {
+      "name": "Jesse Sanchez",
+      "field": "Music Education"
+    },
+    {
+      "name": "Michael Armstrong",
+      "field": "Business"
+    },
+    {
+      "name": "Steve White",
+      "field": "Architecture"
+    },
+    {
+      "name": "Todd Trayer",
+      "field": "Law Enforcement"
+    },
+    {
+      "name": "Faun Maddux",
+      "field": "Education"
+    },
+    {
+      "name": "Dr. Lucha Ortega",
+      "field": "Education Administration"
+    },
+    {
+      "name": "Ralph Schardt",
+      "field": "Environmental Management"
+    }
+  ]
+}

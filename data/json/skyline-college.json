@@ -1,0 +1,374 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:24.814934+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123509,
+    "slug": "skyline-college",
+    "name": "Skyline College",
+    "website_url": "https://skylinecollege.edu",
+    "city": "San Bruno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94066-1698",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JCNSQMB4JUF3",
+      "opeid": "00771300",
+      "ein": "943084147"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Skyline College is a public community college in San Bruno, California. Opened in 1969, it is one of three comprehensive community colleges in the San Mateo County Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skyline_College",
+    "source_url": "https://en.wikipedia.org/wiki/Skyline_College",
+    "fetched_at": "2026-05-26T14:44:22.08887+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": -1180,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7222,
+    "federal_loan_rate": 0.004,
+    "net_price_by_family_income": {
+      "0_30k": -3190,
+      "30_48k": -1349,
+      "48_75k": 1379,
+      "75_110k": 5830,
+      "110k_plus": -1447
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.44,
+    "pell_grad_rate": 0.46,
+    "non_pell_grad_rate": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 17069,
+    "ug_12mo": 17069,
+    "grad_12mo": 12157,
+    "women_12mo": 9313,
+    "men_12mo": 7756,
+    "fall_total": 9572,
+    "fall_full_time": 9572,
+    "fall_part_time": 7620,
+    "distance_ed_any": 9572,
+    "distance_ed_exclusive": 4041,
+    "race_ethnicity": {
+      "white": 0.1826,
+      "black": 0.0286,
+      "hispanic": 0.3437,
+      "asian": 0.3062,
+      "ai_an": 0.0014,
+      "nh_pi": 0.0126,
+      "two_or_more": 0.058,
+      "non_resident": 0.0414,
+      "race_unknown": 0.0255
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 206
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 113
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 82
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 67
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 60
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 30
+      }
+    ],
+    "program_count": 65,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 29.0,
+    "instr_total_fte": 141
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 111434,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6625,
+          "avg_net_price": 10
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 118347,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 4838,
+          "avg_net_price": 15517
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 122791,
+        "slug": "college-of-san-mateo",
+        "name": "College of San Mateo",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9901,
+          "avg_net_price": 1504
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 114266,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9336,
+          "avg_net_price": 12591
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 118912,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 118930,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 6909,
+          "avg_net_price": 5198
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 122746,
+        "slug": "san-jose-city-college",
+        "name": "San Jose City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 8609,
+          "avg_net_price": 16658
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 125499,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 7655,
+          "avg_net_price": 1842
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://skylinecollege.edu/prie/institutionaleffectiveness.php",
+    "office_name": "Planning, Research, Innovation and Effectiveness",
+    "summary": "Skyline College regularly reflects on its practices to best serve students and the larger community, evaluating practices both internally and through outside agencies to address any issues that arise.",
+    "address": "3300 College Drive, San Bruno, CA 94066",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T14:44:21.215722+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ingrid Vargas",
+      "title": "Dean of Planning, Research, Innovation and Effectiveness",
+      "email": "vargasi@smccd.edu",
+      "phone": "(650) 738-4454",
+      "linkedin_url": "https://www.linkedin.com/in/ingrid-vargas"
+    },
+    {
+      "ordering": 1,
+      "name": "Karen Wong",
+      "title": "Coordinator of Institutional Effectiveness",
+      "email": "wongk@smccd.edu",
+      "phone": "(650) 738-4369",
+      "linkedin_url": "https://www.linkedin.com/in/karen-wong-5998a010"
+    },
+    {
+      "ordering": 2,
+      "name": "Zahra Mojtahedi",
+      "title": "Senior Planning and Research Analyst",
+      "email": "mojtahediz@smccd.edu",
+      "phone": "(650) 738-7034"
+    },
+    {
+      "ordering": 3,
+      "name": "Wendy Lee",
+      "title": "Planning and Research Analyst",
+      "email": "leewendy@smccd.edu",
+      "phone": "(650) 738-7996",
+      "linkedin_url": "https://www.linkedin.com/in/wendy-oo-444980118"
+    },
+    {
+      "ordering": 4,
+      "name": "Becky Threewit",
+      "title": "Administrative Assistant",
+      "email": "threewitr@smccd.edu",
+      "phone": "(650) 738-7053",
+      "linkedin_url": "https://www.linkedin.com/in/rebecca-threewit-mansfield-b691951a3"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://skylinecollege.edu/prie/tableau.php",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:38:14.633667+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123509",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:44:23.207804+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Skyline College Strategic Plan",
+      "url": "https://skylinecollege.edu/prie/planning.php",
+      "summary": "Skyline College engages in strategic planning to support its Mission, Vision, and Values, as outlined in the Education Master Plan. The Strategic Planning and Allocation of Resources Committee (SPARC) facilitates college-wide planning and budgeting. The college's strategic initiatives include various plans, such as the Enrollment Management Plan and the Sustainability Plan, aimed at enhancing overall institutional effectiveness.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:33:46.419512+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Sargon Boulus"
+    },
+    {
+      "name": "Justin Christian",
+      "field": "Athletics"
+    },
+    {
+      "name": "Anton del Rosario",
+      "field": "Athletics"
+    },
+    {
+      "name": "Phil Handy",
+      "field": "Athletics"
+    },
+    {
+      "name": "Clayton Ladine"
+    },
+    {
+      "name": "Julian Merryweather",
+      "field": "Athletics"
+    },
+    {
+      "name": "Lorena Peril",
+      "field": "Arts"
+    }
+  ]
+}

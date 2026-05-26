@@ -1,0 +1,691 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:36.839980+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 409698,
+    "slug": "california-state-university-monterey-bay",
+    "name": "California State University-Monterey Bay",
+    "website_url": "https://csumb.edu",
+    "city": "Seaside",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93955-8001",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KQU9YT4TD878|  ZCS6S95MGH66",
+      "opeid": "03260300",
+      "ein": "946001347"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University, Monterey Bay is a public university located in Monterey County, California, United States. The main campus is situated on the site of the former military base Fort Ord, spanning the cities of Seaside and Marina, approximately one mile inland from Monterey Bay along the Central Coast of California. CSUMB also maintains locations in the cities of Monterey and Salinas. Founded in 1994, CSUMB is part of the California State University system and is accredited by the WASC Senior College and University Commission. The university is designated as a Hispanic-Serving Institution.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University,_Monterey_Bay",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University,_Monterey_Bay",
+    "fetched_at": "2026-05-26T15:27:52.919083+05:30"
+  },
+  "admissions": {
+    "applicants": 14933,
+    "admits": 14545,
+    "enrolled": 1419,
+    "first_time_freshmen": 1419,
+    "first_time_freshmen_ft": 1397,
+    "admit_rate": 0.9740172771713654,
+    "yield_rate": 0.09755929872808525
+  },
+  "cost": {
+    "avg_net_price": 14487,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1119,
+    "federal_loan_rate": 0.3145,
+    "net_price_by_family_income": {
+      "0_30k": 9654,
+      "30_48k": 11487,
+      "48_75k": 13868,
+      "75_110k": 17745,
+      "110k_plus": 23874
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.59,
+    "grad_4yr_bachelors": 0.39,
+    "grad_5yr_bachelors": 0.55,
+    "grad_6yr_bachelors": 0.59,
+    "pell_grad_rate": 0.56,
+    "pell_6yr_bachelors_rate": 0.56,
+    "non_pell_grad_rate": 0.6,
+    "non_pell_6yr_bachelors": 0.6,
+    "retention_full_time": 0.8,
+    "retention_part_time": 0.14
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7706,
+    "ug_12mo": 6673,
+    "grad_12mo": 6511,
+    "women_12mo": 4653,
+    "men_12mo": 3053,
+    "fall_total": 7713,
+    "fall_full_time": 6907,
+    "fall_part_time": 6819,
+    "distance_ed_any": 7713,
+    "distance_ed_exclusive": 420,
+    "race_ethnicity": {
+      "white": 0.2678,
+      "black": 0.0265,
+      "hispanic": 0.5386,
+      "asian": 0.0614,
+      "ai_an": 0.0015,
+      "nh_pi": 0.0029,
+      "two_or_more": 0.0546,
+      "non_resident": 0.0198,
+      "race_unknown": 0.0268
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 336
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 265
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 238
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 199
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 145
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 120
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 103
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 85
+      }
+    ],
+    "program_count": 41,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 221
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 476975,
+        "slug": "colorado-state-university-global",
+        "name": "Colorado State University Global",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9840319361277445,
+          "yield_rate": 0.9939148073022313,
+          "retention_rate": 0.74,
+          "enrollment": 10257,
+          "avg_net_price": 14099
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 139366,
+        "slug": "columbus-state-university",
+        "name": "Columbus State University",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9912280701754386,
+          "yield_rate": 0.3180309734513274,
+          "grad_rate": 0.43,
+          "retention_rate": 0.7,
+          "enrollment": 7913,
+          "avg_net_price": 11889
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 144892,
+        "slug": "eastern-illinois-university",
+        "name": "Eastern Illinois University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.653481138846798,
+          "yield_rate": 0.09812057603124237,
+          "grad_rate": 0.47,
+          "retention_rate": 0.72,
+          "enrollment": 8505,
+          "avg_net_price": 14093
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 196264,
+        "slug": "empire-state-university",
+        "name": "Empire State University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8111620795107034,
+          "yield_rate": 0.2544769085768143,
+          "grad_rate": 0.36,
+          "retention_rate": 0.66,
+          "enrollment": 10469,
+          "avg_net_price": 11147
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 139861,
+        "slug": "georgia-college-and-state-university",
+        "name": "Georgia College & State University",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7822503961965135,
+          "yield_rate": 0.364870340356564,
+          "grad_rate": 0.64,
+          "retention_rate": 0.82,
+          "enrollment": 7097,
+          "avg_net_price": 18809
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 213349,
+        "slug": "kutztown-university-of-pennsylvania",
+        "name": "Kutztown University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9075106157112527,
+          "yield_rate": 0.1839450212019301,
+          "grad_rate": 0.54,
+          "retention_rate": 0.78,
+          "enrollment": 7467,
+          "avg_net_price": 21205
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 159416,
+        "slug": "louisiana-state-university-shreveport",
+        "name": "Louisiana State University-Shreveport",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5054773082942097,
+          "yield_rate": 0.31475748194014447,
+          "grad_rate": 0.38,
+          "retention_rate": 0.83,
+          "enrollment": 10749,
+          "avg_net_price": 8130
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 214041,
+        "slug": "millersville-university-of-pennsylvania",
+        "name": "Millersville University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8619159488384234,
+          "yield_rate": 0.18246517262265294,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 6975,
+          "avg_net_price": 20231
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 157386,
+        "slug": "morehead-state-university",
+        "name": "Morehead State University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7720604335449968,
+          "yield_rate": 0.1820760068065797,
+          "grad_rate": 0.52,
+          "retention_rate": 0.65,
+          "enrollment": 8791,
+          "avg_net_price": 10089
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 199157,
+        "slug": "north-carolina-central-university",
+        "name": "North Carolina Central University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8695557491289199,
+          "yield_rate": 0.10975457049837214,
+          "grad_rate": 0.42,
+          "retention_rate": 0.73,
+          "enrollment": 8579,
+          "avg_net_price": 15028
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 160038,
+        "slug": "northwestern-state-university-of-louisiana",
+        "name": "Northwestern State University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9253731343283582,
+          "yield_rate": 0.37383512544802866,
+          "grad_rate": 0.45,
+          "retention_rate": 0.71,
+          "enrollment": 8523,
+          "avg_net_price": 13809
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 490805,
+        "slug": "purdue-university-northwest",
+        "name": "Purdue University Northwest",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7235696878263896,
+          "yield_rate": 0.1826784282277466,
+          "grad_rate": 0.43,
+          "retention_rate": 0.66,
+          "enrollment": 9051,
+          "avg_net_price": 8463
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 172051,
+        "slug": "saginaw-valley-state-university",
+        "name": "Saginaw Valley State University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7207176709546378,
+          "yield_rate": 0.16040394551432596,
+          "grad_rate": 0.48,
+          "retention_rate": 0.78,
+          "enrollment": 6822,
+          "avg_net_price": 14582
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 174783,
+        "slug": "saint-cloud-state-university",
+        "name": "Saint Cloud State University",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9479585006693441,
+          "yield_rate": 0.16557811120917917,
+          "grad_rate": 0.39,
+          "retention_rate": 0.71,
+          "enrollment": 10732,
+          "avg_net_price": 14485
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 163851,
+        "slug": "salisbury-university",
+        "name": "Salisbury University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8747314867156586,
+          "yield_rate": 0.18392141656972988,
+          "grad_rate": 0.68,
+          "retention_rate": 0.78,
+          "enrollment": 7025,
+          "avg_net_price": 16456
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 123572,
+        "slug": "sonoma-state-university",
+        "name": "Sonoma State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9342877467544015,
+          "yield_rate": 0.08308746549919102,
+          "grad_rate": 0.58,
+          "retention_rate": 0.79,
+          "enrollment": 5891,
+          "avg_net_price": 13801
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 196176,
+        "slug": "state-university-of-new-york-at-new-paltz",
+        "name": "State University of New York at New Paltz",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6160631383472609,
+          "yield_rate": 0.10691409193669932,
+          "grad_rate": 0.72,
+          "retention_rate": 0.85,
+          "enrollment": 7898,
+          "avg_net_price": 18481
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 196194,
+        "slug": "state-university-of-new-york-at-oswego",
+        "name": "State University of New York at Oswego",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8054657073074131,
+          "yield_rate": 0.10367152925749877,
+          "grad_rate": 0.6,
+          "retention_rate": 0.7,
+          "enrollment": 6715,
+          "avg_net_price": 17231
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 196121,
+        "slug": "suny-brockport",
+        "name": "SUNY Brockport",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7067761491827181,
+          "yield_rate": 0.14082519001085778,
+          "grad_rate": 0.55,
+          "retention_rate": 0.72,
+          "enrollment": 7482,
+          "avg_net_price": 15844
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 196130,
+        "slug": "suny-buffalo-state-university",
+        "name": "SUNY Buffalo State University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7294582578626708,
+          "yield_rate": 0.09224981188863807,
+          "grad_rate": 0.33,
+          "retention_rate": 0.58,
+          "enrollment": 6188,
+          "avg_net_price": 14229
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 102553,
+        "slug": "university-of-alaska-anchorage",
+        "name": "University of Alaska Anchorage",
+        "state": "Alaska",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6651858779518354,
+          "yield_rate": 0.45905096660808437,
+          "grad_rate": 0.28,
+          "retention_rate": 0.71,
+          "enrollment": 10493,
+          "avg_net_price": 13780
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 171137,
+        "slug": "university-of-michigan-dearborn",
+        "name": "University of Michigan-Dearborn",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5561148528890464,
+          "yield_rate": 0.14201937786843447,
+          "grad_rate": 0.58,
+          "retention_rate": 0.82,
+          "enrollment": 8104,
+          "avg_net_price": 10904
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 199281,
+        "slug": "university-of-north-carolina-at-pembroke",
+        "name": "University of North Carolina at Pembroke",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9326241134751773,
+          "yield_rate": 0.10502163366985709,
+          "grad_rate": 0.44,
+          "retention_rate": 0.72,
+          "enrollment": 7674,
+          "avg_net_price": 9918
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 151306,
+        "slug": "university-of-southern-indiana",
+        "name": "University of Southern Indiana",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9580617122990004,
+          "yield_rate": 0.29961442503969155,
+          "grad_rate": 0.48,
+          "retention_rate": 0.75,
+          "enrollment": 9488,
+          "avg_net_price": 12621
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 161554,
+        "slug": "university-of-southern-maine",
+        "name": "University of Southern Maine",
+        "state": "Maine",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7923394022672621,
+          "yield_rate": 0.15326251896813353,
+          "grad_rate": 0.4,
+          "retention_rate": 0.74,
+          "enrollment": 7604,
+          "avg_net_price": 11729
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 240462,
+        "slug": "university-of-wisconsin-platteville",
+        "name": "University of Wisconsin-Platteville",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8937981353871098,
+          "yield_rate": 0.29705215419501135,
+          "grad_rate": 0.61,
+          "retention_rate": 0.79,
+          "enrollment": 6389,
+          "avg_net_price": 14754
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 240417,
+        "slug": "university-of-wisconsin-stout",
+        "name": "University of Wisconsin-Stout",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8766901027582477,
+          "yield_rate": 0.2440880115155254,
+          "grad_rate": 0.55,
+          "retention_rate": 0.79,
+          "enrollment": 6926,
+          "avg_net_price": 17365
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 149772,
+        "slug": "western-illinois-university",
+        "name": "Western Illinois University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.711782338021674,
+          "yield_rate": 0.10268869452542922,
+          "grad_rate": 0.45,
+          "retention_rate": 0.61,
+          "enrollment": 6332,
+          "avg_net_price": 11592
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://csumb.edu/academics/academic-outcomes",
+    "office_name": "Institutional Assessment and Research",
+    "summary": "The office's mission is guided by a question-driven approach that values reflection, transparency and evidence-based action, which are key components of CSUMB’s commitment to educational effectiveness and regional stewardship.",
+    "email": "iar@csumb.edu",
+    "address": "3054 Divarty St, Seaside, CA 93955",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:27:51.723184+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://csumb.edu/academics/academic-outcomes/data-tools/",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:27:45.123989+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=409698",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:27:54.450202+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "2025 Strategic Plan: Making Waves, Transforming Futures",
+      "url": "https://csumb.edu/departments/president/strategic-planning/",
+      "summary": "California State University Monterey Bay's 2025 Strategic Plan, titled 'Making Waves, Transforming Futures', focuses on empowering student success through personalized education and experiential learning. It aims to enhance social mobility while positioning the university to adapt to a rapidly changing educational landscape over the next three years. President Vanya Quiñones emphasizes the collective effort required to achieve the strategic goals and elevate the university and its students to new heights.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:25:10.760926+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179444139"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,647 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:31:57.919516+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110334,
+    "slug": "cabrillo-college",
+    "name": "Cabrillo College",
+    "website_url": "https://www.cabrillo.edu",
+    "city": "Aptos",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95003",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HMNLH55DMM97",
+      "opeid": "00112400",
+      "ein": "946002633"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Cabrillo College is a public community college in Aptos, California. It is named after the conquistador Juan Rodríguez Cabrillo and opened in 1959. Cabrillo College has an enrollment of about 9,700 students per term.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cabrillo_College",
+    "source_url": "https://en.wikipedia.org/wiki/Cabrillo_College",
+    "fetched_at": "2026-05-26T14:46:18.060753+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 13328,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7362,
+    "federal_loan_rate": 0.0108,
+    "net_price_by_family_income": {
+      "0_30k": 11951,
+      "30_48k": 12688,
+      "48_75k": 14439,
+      "75_110k": 19583,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.38,
+    "pell_grad_rate": 0.38,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.55
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 14569,
+    "ug_12mo": 14569,
+    "grad_12mo": 11671,
+    "women_12mo": 7689,
+    "men_12mo": 6880,
+    "fall_total": 9457,
+    "fall_full_time": 9457,
+    "fall_part_time": 8002,
+    "distance_ed_any": 9457,
+    "distance_ed_exclusive": 2503,
+    "race_ethnicity": {
+      "white": 0.3779,
+      "black": 0.0089,
+      "hispanic": 0.5103,
+      "asian": 0.0266,
+      "ai_an": 0.0027,
+      "nh_pi": 0.002,
+      "two_or_more": 0.0552,
+      "non_resident": 0.0063,
+      "race_unknown": 0.01
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 732
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 219
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 143
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 140
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 99
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 52
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 50
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 48
+      }
+    ],
+    "program_count": 102,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 212
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111939,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 121707,
+        "slug": "college-of-the-redwoods",
+        "name": "College of the Redwoods",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 4706,
+          "avg_net_price": 3214
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 123484,
+        "slug": "college-of-the-siskiyous",
+        "name": "College of the Siskiyous",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1575,
+          "avg_net_price": 7241
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 112826,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 6538,
+          "avg_net_price": 6522
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 113096,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113218,
+        "slug": "cuyamaca-college",
+        "name": "Cuyamaca College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 8905,
+          "avg_net_price": 6187
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 113236,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15924,
+          "avg_net_price": 4683
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 113980,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 114266,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9336,
+          "avg_net_price": 12591
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 114433,
+        "slug": "feather-river-community-college-district",
+        "name": "Feather River Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.6,
+          "enrollment": 2055,
+          "avg_net_price": 6520
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 444219,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11098,
+          "avg_net_price": 3661
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 115001,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 115126,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10721,
+          "avg_net_price": 2861
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 117195,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 4040,
+          "avg_net_price": 10975
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 117733,
+        "slug": "los-angeles-valley-college",
+        "name": "Los Angeles Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15999,
+          "avg_net_price": 10200
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 117894,
+        "slug": "los-medanos-college",
+        "name": "Los Medanos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 8455,
+          "avg_net_price": 5692
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 119067,
+        "slug": "monterey-peninsula-college",
+        "name": "Monterey Peninsula College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 7173,
+          "avg_net_price": 13498
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 119216,
+        "slug": "mt-san-jacinto-community-college-district",
+        "name": "Mt San Jacinto Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 17627,
+          "avg_net_price": 7098
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 119331,
+        "slug": "napa-valley-college",
+        "name": "Napa Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 4844,
+          "avg_net_price": 14046
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 120971,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 122180,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 19920,
+          "avg_net_price": 3974
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 123013,
+        "slug": "santa-rosa-junior-college",
+        "name": "Santa Rosa Junior College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 17854,
+          "avg_net_price": 5541
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 399212,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 11897,
+          "avg_net_price": 3407
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 123299,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9073,
+          "avg_net_price": 3743
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 123563,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cabrillo.edu/pro/pro-research-page/",
+    "office_name": "Office of Research, Planning, and Institutional Effectiveness",
+    "summary": "The Research area of Planning & Research (PRO) provides data tools, reports, and analyses that support data-informed decision-making, equity-focused planning, and student success.",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T14:46:17.340551+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Janine Riopel",
+      "title": "Interim Dean, Office of Research, Planning, & Institutional Effectiveness",
+      "linkedin_url": "https://www.linkedin.com/in/janine-m-riopel"
+    },
+    {
+      "ordering": 1,
+      "name": "Steve Blohm",
+      "title": "Institutional Research Analyst, Statistician",
+      "linkedin_url": "https://www.linkedin.com/in/stephen-blohm-63847313"
+    },
+    {
+      "ordering": 2,
+      "name": "Leila Jamoosian",
+      "title": "Institutional Research Analyst, Statistician",
+      "linkedin_url": "https://www.linkedin.com/in/leilajamoosian"
+    },
+    {
+      "ordering": 3,
+      "name": "Buff McKinley",
+      "title": "Assistant",
+      "linkedin_url": "https://www.linkedin.com/in/buff-mckinley-4596056"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.cabrillo.edu/pro/dashboards/",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:46:11.646823+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110334",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:46:19.05016+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Cabrillo 2030 Strategic Plan",
+      "url": "https://www.cabrillo.edu/2030/",
+      "summary": "Cabrillo College's Cabrillo 2030 Strategic Plan is centered on themes of social justice, equity, and educational excellence, aiming to place students at the core of its mission. Developed under the leadership of a strategic planning taskforce, the plan outlines comprehensive processes such as aligning college frameworks, gathering input from various stakeholders, and drafting actionable institutional goals for the period 2026-2030. Integration of quantitative and qualitative data analysis ensures insights guide collective action and institutional decision-making for future development.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:44:35.36681+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Denise Crosby",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Denise_Crosby",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Gary Goldman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Goldman_(producer)",
+      "field": "Film"
+    },
+    {
+      "name": "Teri Greeves",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Teri_Greeves",
+      "field": "Arts"
+    },
+    {
+      "name": "Remington Hoffman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Remington_Hoffman",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Wendy Rose",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wendy_Rose",
+      "field": "Literature"
+    },
+    {
+      "name": "Walmer Martínez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Walmer_Mart%C3%ADnez",
+      "field": "Sports"
+    },
+    {
+      "name": "Ralph Peduto",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_Peduto",
+      "field": "Entertainment"
+    },
+    {
+      "name": "John Baker Saunders",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Baker_Saunders",
+      "field": "Music"
+    },
+    {
+      "name": "Chet 'JR' White",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chet_White",
+      "field": "Music"
+    },
+    {
+      "name": "Scott Williams",
+      "field": "Art"
+    }
+  ]
+}

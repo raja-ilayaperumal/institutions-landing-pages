@@ -1,0 +1,643 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:02.717407+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113218,
+    "slug": "cuyamaca-college",
+    "name": "Cuyamaca College",
+    "website_url": "https://www.cuyamaca.edu",
+    "city": "El Cajon",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92019",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "H61MF2ZB9JD5",
+      "opeid": "02111300",
+      "ein": "956006652"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Cuyamaca College is a public community college in Rancho San Diego, California. It is part of the Grossmont–Cuyamaca Community College District and the California Community Colleges system. Along with Grossmont College, it serves the eastern suburbs in San Diego County. Cuyamaca College opened in 1978 and now offers 81 associate's degree programs and 66 training certification programs to approximately 8,500 students. Many of the college's students transfer to the University of California, San Diego or San Diego State University to complete their bachelor's degrees. Cuyamaca's mascot is the coyote.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cuyamaca_College",
+    "source_url": "https://en.wikipedia.org/wiki/Cuyamaca_College",
+    "fetched_at": "2026-05-26T15:11:56.202388+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 6187,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7197,
+    "federal_loan_rate": 0.0122,
+    "net_price_by_family_income": {
+      "0_30k": 5626,
+      "30_48k": 5809,
+      "48_75k": 8852,
+      "75_110k": 11016,
+      "110k_plus": 13850
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.41,
+    "pell_grad_rate": 0.41,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.43
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 13482,
+    "ug_12mo": 13482,
+    "grad_12mo": 10716,
+    "women_12mo": 7496,
+    "men_12mo": 5986,
+    "fall_total": 8905,
+    "fall_full_time": 8905,
+    "fall_part_time": 7177,
+    "distance_ed_any": 8905,
+    "distance_ed_exclusive": 4026,
+    "race_ethnicity": {
+      "white": 0.5116,
+      "black": 0.0365,
+      "hispanic": 0.3198,
+      "asian": 0.0446,
+      "ai_an": 0.005,
+      "nh_pi": 0.0021,
+      "two_or_more": 0.0423,
+      "non_resident": 0.0019,
+      "race_unknown": 0.0361
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 196
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 128
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 124
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 48
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 42
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 27
+      }
+    ],
+    "program_count": 63,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 84
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 104160,
+        "slug": "arizona-western-college",
+        "name": "Arizona Western College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 8964,
+          "avg_net_price": 9582
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 211307,
+        "slug": "bucks-county-community-college",
+        "name": "Bucks County Community College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 6232,
+          "avg_net_price": 7561
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 198118,
+        "slug": "caldwell-community-college-and-technical-institute",
+        "name": "Caldwell Community College and Technical Institute",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 3914,
+          "avg_net_price": 5517
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 198233,
+        "slug": "catawba-valley-community-college",
+        "name": "Catawba Valley Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 4904,
+          "avg_net_price": 9415
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 104346,
+        "slug": "central-arizona-college",
+        "name": "Central Arizona College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 5053,
+          "avg_net_price": 4591
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 208318,
+        "slug": "central-oregon-community-college",
+        "name": "Central Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4332,
+          "avg_net_price": 10765
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 144209,
+        "slug": "city-colleges-of-chicago-harold-washington-college",
+        "name": "City Colleges of Chicago-Harold Washington College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 6121,
+          "avg_net_price": 2974
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 122791,
+        "slug": "college-of-san-mateo",
+        "name": "College of San Mateo",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9901,
+          "avg_net_price": 1504
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 162122,
+        "slug": "college-of-southern-maryland",
+        "name": "College of Southern Maryland",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 5062,
+          "avg_net_price": 9867
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 112826,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 6538,
+          "avg_net_price": 6522
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 184180,
+        "slug": "county-college-of-morris",
+        "name": "County College of Morris",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 6131,
+          "avg_net_price": 9259
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 190840,
+        "slug": "dutchess-community-college",
+        "name": "Dutchess Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 6606,
+          "avg_net_price": 8433
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 384333,
+        "slug": "estrella-mountain-community-college",
+        "name": "Estrella Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 10109,
+          "avg_net_price": 12211
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 114266,
+        "slug": "evergreen-valley-college",
+        "name": "Evergreen Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9336,
+          "avg_net_price": 12591
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 232195,
+        "slug": "germanna-community-college",
+        "name": "Germanna Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 8544,
+          "avg_net_price": 6239
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 170541,
+        "slug": "kalamazoo-valley-community-college",
+        "name": "Kalamazoo Valley Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 6334,
+          "avg_net_price": 2991
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 203599,
+        "slug": "lakeland-community-college",
+        "name": "Lakeland Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4358,
+          "avg_net_price": 7557
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 117690,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 9463,
+          "avg_net_price": 11245
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 166887,
+        "slug": "middlesex-community-college",
+        "name": "Middlesex Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 9374,
+          "avg_net_price": 3694
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 118930,
+        "slug": "mission-college",
+        "name": "Mission College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 6909,
+          "avg_net_price": 5198
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 119067,
+        "slug": "monterey-peninsula-college",
+        "name": "Monterey Peninsula College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 7173,
+          "avg_net_price": 13498
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 460394,
+        "slug": "moreno-valley-college",
+        "name": "Moreno Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 11920,
+          "avg_net_price": 1996
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 142443,
+        "slug": "north-idaho-college",
+        "name": "North Idaho College",
+        "state": "Idaho",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4585,
+          "avg_net_price": 11481
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 488730,
+        "slug": "northeast-lakeview-college",
+        "name": "Northeast Lakeview College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 9355,
+          "avg_net_price": 4582
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 367459,
+        "slug": "northwest-arkansas-community-college",
+        "name": "NorthWest Arkansas Community College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 8412,
+          "avg_net_price": 5719
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 194222,
+        "slug": "onondaga-community-college",
+        "name": "Onondaga Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 8537,
+          "avg_net_price": 7178
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 183877,
+        "slug": "rowan-college-at-burlington-county",
+        "name": "Rowan College at Burlington County",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 6620,
+          "avg_net_price": 6101
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 236656,
+        "slug": "south-puget-sound-community-college",
+        "name": "South Puget Sound Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4871,
+          "avg_net_price": 9090
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 189547,
+        "slug": "suny-broome-community-college",
+        "name": "SUNY Broome Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 5327,
+          "avg_net_price": 8035
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 125499,
+        "slug": "west-valley-college",
+        "name": "West Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 7655,
+          "avg_net_price": 1842
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cuyamaca.edu/about-cuyamaca-college/planning/institutional-research.php",
+    "office_name": "Institutional Effectiveness, Success, and Equity Office",
+    "parent_division": "Institutional Effectiveness, Success, and Equity Office",
+    "summary": "The research team within the Institutional Effectiveness, Success, and Equity (IESE) Office provides information to enable data-driven decisions that support student success and equity. This transparent availability of information helps decision-makers at all levels identify practices and processes that effectively enhance the holistic student experience for our diverse student community.",
+    "phone": "619-660-4046",
+    "address": "Office: E-109",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:11:53.54381+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Bri Hays",
+      "title": "Senior Dean of Institutional Effectiveness, Success, and Equity",
+      "email": "brianna.hays@gcccd.edu",
+      "phone": "(619) 660-4046",
+      "linkedin_url": "https://www.linkedin.com/in/bri-hays-8a506015"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.cuyamaca.edu/about-cuyamaca-college/planning/institutional-research-course-success-dashboards.php",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:11:41.653032+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113218",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:11:56.87298+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "ZTC Implementation Grant",
+      "agency": "CCCCO",
+      "kind": "opportunity",
+      "amount_usd": 180000,
+      "url": "https://www.cuyamaca.edu/oer/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "ASCCC OERI Request for Proposals - 3rd Round",
+      "agency": "ASCCC OERI",
+      "kind": "opportunity",
+      "amount_usd": 30000,
+      "url": "https://www.cuyamaca.edu/oer/funding.php",
+      "source": "institution_site",
+      "award_date": "2021-05-10"
+    },
+    {
+      "title": "Michelson Spark Grants",
+      "agency": "Michelson 20MM Foundation",
+      "kind": "opportunity",
+      "amount_usd": 25000,
+      "url": "https://www.cuyamaca.edu/oer/funding.php",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

@@ -1,0 +1,678 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:34.627763+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 366401,
+    "slug": "las-positas-college",
+    "name": "Las Positas College",
+    "website_url": "https://www.laspositascollege.edu",
+    "city": "Livermore",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94551-7650",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K6UGAJGNZHA8",
+      "opeid": "03035700",
+      "ein": "941670563"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Las Positas College (LPC) is a public community college in Livermore, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Las_Positas_College",
+    "source_url": "https://en.wikipedia.org/wiki/Las_Positas_College",
+    "fetched_at": "2026-05-26T15:25:08.983391+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 4175,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6191,
+    "federal_loan_rate": 0.0024,
+    "net_price_by_family_income": {
+      "0_30k": 2914,
+      "30_48k": 3942,
+      "48_75k": 5945,
+      "75_110k": 10001,
+      "110k_plus": 11071
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.53,
+    "pell_grad_rate": 0.52,
+    "retention_full_time": 0.81,
+    "retention_part_time": 0.46
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11170,
+    "ug_12mo": 11170,
+    "grad_12mo": 9929,
+    "women_12mo": 5862,
+    "men_12mo": 5308,
+    "fall_total": 8103,
+    "fall_full_time": 8103,
+    "fall_part_time": 7299,
+    "distance_ed_any": 8103,
+    "distance_ed_exclusive": 623,
+    "race_ethnicity": {
+      "white": 0.3015,
+      "black": 0.0421,
+      "hispanic": 0.3028,
+      "asian": 0.2421,
+      "ai_an": 0.0022,
+      "nh_pi": 0.0046,
+      "two_or_more": 0.0786,
+      "non_resident": 0.0142,
+      "race_unknown": 0.0118
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 609
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 158
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 100
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 96
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 22
+      }
+    ],
+    "program_count": 88,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 127
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 165033,
+        "slug": "bristol-community-college",
+        "name": "Bristol Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 6950,
+          "avg_net_price": 6235
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 165112,
+        "slug": "bunker-hill-community-college",
+        "name": "Bunker Hill Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 9876,
+          "avg_net_price": 6313
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 154800,
+        "slug": "butler-community-college",
+        "name": "Butler Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6841,
+          "avg_net_price": 16051
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110334,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9457,
+          "avg_net_price": 13328
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 198154,
+        "slug": "cape-fear-community-college",
+        "name": "Cape Fear Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 14082,
+          "avg_net_price": 5416
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113573,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12861,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 219888,
+        "slug": "columbia-state-community-college",
+        "name": "Columbia State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 5712,
+          "avg_net_price": 4576
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 190530,
+        "slug": "cuny-bronx-community-college",
+        "name": "CUNY Bronx Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 6787,
+          "avg_net_price": 4342
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 190585,
+        "slug": "cuny-hostos-community-college",
+        "name": "CUNY Hostos Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 5478,
+          "avg_net_price": 5001
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 190673,
+        "slug": "cuny-queensborough-community-college",
+        "name": "CUNY Queensborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 10337,
+          "avg_net_price": 4620
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 169521,
+        "slug": "delta-college",
+        "name": "Delta College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 8397,
+          "avg_net_price": 4550
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 115393,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11273,
+          "avg_net_price": 2895
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 115861,
+        "slug": "imperial-valley-college",
+        "name": "Imperial Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 8873,
+          "avg_net_price": 1697
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 117894,
+        "slug": "los-medanos-college",
+        "name": "Los Medanos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 8455,
+          "avg_net_price": 5692
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 221096,
+        "slug": "motlow-state-community-college",
+        "name": "Motlow State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 5980,
+          "avg_net_price": 10421
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 169275,
+        "slug": "mott-community-college",
+        "name": "Mott Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 6718,
+          "avg_net_price": 6258
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 221184,
+        "slug": "nashville-state-community-college",
+        "name": "Nashville State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 7533,
+          "avg_net_price": 6283
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 207449,
+        "slug": "oklahoma-city-community-college",
+        "name": "Oklahoma City Community College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 11475,
+          "avg_net_price": 5135
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 120421,
+        "slug": "oxnard-college",
+        "name": "Oxnard College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 7361,
+          "avg_net_price": 659
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 221643,
+        "slug": "pellissippi-state-community-college",
+        "name": "Pellissippi State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 9399,
+          "avg_net_price": 5252
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 195058,
+        "slug": "rockland-community-college",
+        "name": "Rockland Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 5364,
+          "avg_net_price": 8508
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 184791,
+        "slug": "rowan-college-of-south-jersey-gloucester-campus",
+        "name": "Rowan College of South Jersey-Gloucester Campus",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 5218,
+          "avg_net_price": 10818
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 399212,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 11897,
+          "avg_net_price": 3407
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 228158,
+        "slug": "south-plains-college",
+        "name": "South Plains College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 9098,
+          "avg_net_price": 7062
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 221485,
+        "slug": "southwest-tennessee-community-college",
+        "name": "Southwest Tennessee Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.40674306593589105,
+          "retention_rate": 0.46,
+          "enrollment": 7004,
+          "avg_net_price": 4588
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 262031,
+        "slug": "st-charles-community-college",
+        "name": "St Charles Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6143,
+          "avg_net_price": 5981
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 125028,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 12222,
+          "avg_net_price": 2257
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 222053,
+        "slug": "volunteer-state-community-college",
+        "name": "Volunteer State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 6963,
+          "avg_net_price": 10477
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 222062,
+        "slug": "walters-state-community-college",
+        "name": "Walters State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 5899,
+          "avg_net_price": 4153
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.laspositascollege.edu/research/",
+    "office_name": "Office of Research, Planning and Institutional Effectiveness",
+    "summary": "The Office of Research, Planning and Institutional Effectiveness strives to provide systematic, timely, user-friendly data and analysis services that support College and department planning, enhances decision making and policy formation, fulfills reporting requirements to external agencies including accreditation, coordinates and integrates various planning and evaluative process, and measures and communicates institutional effectiveness to internal and external stakeholders.",
+    "phone": "925.424.1027",
+    "email": "rsamra@laspositascollege.edu",
+    "address": "3000 Campus Hill Drive, Livermore, CA 94551",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:25:07.941328+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Rajinder Samra",
+      "title": "Director",
+      "email": "rsamra@laspositascollege.edu",
+      "phone": "925.424.1027"
+    },
+    {
+      "ordering": 1,
+      "name": "David Rodriguez",
+      "title": "Research Analyst",
+      "email": "jdrodriguez@laspositascollege.edu",
+      "phone": "925.424.1022"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=366401",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:25:10.248185+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Educational Master Plan",
+      "url": "https://www.laspositascollege.edu/about/strategicplanning.php",
+      "summary": "The Las Positas College Educational Master Plan (EMP) for 2021-2026 is a strategic document outlining the college’s goals and strategies. Developed with input from stakeholders, the plan focuses on educational excellence, equity, organizational resources, effectiveness, and community collaboration. It addresses local demographic, workforce, and economic trends to meet the needs of both students and regional employers.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:23:36.265738+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "ANHPI SAP Grant",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "California Adult Education Program (CAEP) Funds",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "DHSI Grant",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "LGBTQ+ Funds",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "MESA Grant",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "PSSG Grant",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "Student Equity and Achievement (SEA) Funds",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    },
+    {
+      "title": "Zero Textbook Cost (ZTC) Funds",
+      "kind": "opportunity",
+      "url": "https://www.laspositascollege.edu/gv/pdc/funding.php",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

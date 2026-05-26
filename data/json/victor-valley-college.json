@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:27.878102+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125091,
+    "slug": "victor-valley-college",
+    "name": "Victor Valley College",
+    "website_url": "https://www.vvc.edu",
+    "city": "Victorville",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92395-5850",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00133500",
+      "ein": "956006576"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Victor Valley College is a public community college in Victorville, California. It is part of the California Community College System. The Victor Valley Community College district includes Victorville, Hesperia, Apple Valley, Phelan and Adelanto.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Victor_Valley_College",
+    "fetched_at": "2026-05-26T15:25:17.410018+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3228,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.625,
+    "federal_loan_rate": 0.005,
+    "net_price_by_family_income": {
+      "0_30k": 2135,
+      "30_48k": 3252,
+      "48_75k": 5109,
+      "75_110k": 8098,
+      "110k_plus": 3511
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.62,
+    "pell_grad_rate": 0.51,
+    "retention_full_time": 0.71,
+    "retention_part_time": 0.97
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 20895,
+    "ug_12mo": 20895,
+    "grad_12mo": 16520,
+    "women_12mo": 12352,
+    "men_12mo": 8543,
+    "fall_total": 8423,
+    "fall_full_time": 8423,
+    "fall_part_time": 4210,
+    "distance_ed_any": 8423,
+    "distance_ed_exclusive": 2881,
+    "race_ethnicity": {
+      "white": 0.1747,
+      "black": 0.1052,
+      "hispanic": 0.6416,
+      "asian": 0.0194,
+      "ai_an": 0.0033,
+      "nh_pi": 0.0024,
+      "two_or_more": 0.0454,
+      "non_resident": 0.0007,
+      "race_unknown": 0.0072
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 552
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 322
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 224
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 155
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 123
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 101
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 81
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 42
+      }
+    ],
+    "program_count": 80,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 109
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109350,
+        "slug": "antelope-valley-community-college-district",
+        "name": "Antelope Valley Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13532,
+          "avg_net_price": 8263
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109907,
+        "slug": "barstow-community-college",
+        "name": "Barstow Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3226,
+          "avg_net_price": 12347
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111939,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112172,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10429,
+          "avg_net_price": 3800
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111461,
+        "slug": "college-of-the-canyons",
+        "name": "College of the Canyons",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 18075,
+          "avg_net_price": 2114
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 113573,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12861,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113111,
+        "slug": "crafton-hills-college",
+        "name": "Crafton Hills College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6768,
+          "avg_net_price": 10655
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 115001,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 117690,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 9463,
+          "avg_net_price": 11245
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 119216,
+        "slug": "mt-san-jacinto-community-college-district",
+        "name": "Mt San Jacinto Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 17627,
+          "avg_net_price": 7098
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 120290,
+        "slug": "ohlone-college",
+        "name": "Ohlone College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 9061,
+          "avg_net_price": 14130
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123527,
+        "slug": "san-bernardino-valley-college",
+        "name": "San Bernardino Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 14055,
+          "avg_net_price": 8234
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 123563,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.vvc.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The mission of the Office of Institutional Research, aligned with the mission and institutional commitment of Victor Valley College, is to support the District in its evaluation, planning, and improvement efforts. Primary focus is placed on the assessment of student learning outcomes and the integrity of data as delivered to Victor Valley College's internal and external stakeholders.",
+    "address": "18422 Bear Valley Road, Victorville, CA 92395",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:25:16.322606+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.vvc.edu/vvc-institutional-effectiveness-performance-assessment-system",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:23:59.418768+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "url": "https://www.vvc.edu/sites/default/files/2023-05/Data%20Governance%20Word%20Doc_0.docx",
+      "summary": "The content appears to be corrupt or unreadable due to possibly being an improperly extracted document or a binary file when text format is expected. No meaningful data definitions can be extracted from the given text.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:23:57.141735+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125091",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:25:18.932876+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 1995,
+      "title": "The Driving Force: Priorities for the 90s and Beyond",
+      "url": "https://www.vvc.edu/self-study-draft/standard-1",
+      "summary": "The Strategic Plan of Victor Valley College, titled 'The Driving Force: Priorities for the 90s and Beyond', was adopted to guide the institution into the 21st century. It emphasizes maintaining educational excellence, responding to community needs, and fostering a nurturing learning environment. The plan underscores a collaborative approach with various stakeholders to periodically review and update strategic goals and objectives in alignment with the college's mission and changing legislative demands.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:20:47.043078+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Joseph Stevenson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jamal Richardson",
+      "field": "Athletics"
+    }
+  ]
+}

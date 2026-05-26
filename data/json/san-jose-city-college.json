@@ -1,0 +1,650 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:21.044759+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122746,
+    "slug": "san-jose-city-college",
+    "name": "San Jose City College",
+    "website_url": "https://www.sjcc.edu",
+    "city": "San Jose",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95128-2798",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00128200",
+      "ein": "770100756"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San José City College (SJCC) is a public community college in San Jose, California. It was founded in 1921, and is one of the oldest colleges in the California Community College System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Jose_City_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Jose_City_College",
+    "fetched_at": "2026-05-26T15:21:17.282701+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 16658,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7701,
+    "federal_loan_rate": 0.0081,
+    "net_price_by_family_income": {
+      "0_30k": 15935,
+      "30_48k": 16583,
+      "48_75k": 17832,
+      "75_110k": 22545,
+      "110k_plus": 22403
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "pell_grad_rate": 0.39,
+    "retention_full_time": 0.65,
+    "retention_part_time": 0.29
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 13710,
+    "ug_12mo": 13710,
+    "grad_12mo": 11340,
+    "women_12mo": 7612,
+    "men_12mo": 6098,
+    "fall_total": 8609,
+    "fall_full_time": 8609,
+    "fall_part_time": 7105,
+    "distance_ed_any": 8609,
+    "distance_ed_exclusive": 2998,
+    "race_ethnicity": {
+      "white": 0.1098,
+      "black": 0.0493,
+      "hispanic": 0.5286,
+      "asian": 0.2152,
+      "ai_an": 0.002,
+      "nh_pi": 0.0067,
+      "two_or_more": 0.0425,
+      "non_resident": 0.0172,
+      "race_unknown": 0.0287
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 212
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 45
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "05",
+        "cip_family_label": "Area/Ethnic Studies",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 15
+      }
+    ],
+    "program_count": 56,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 125
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110334,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9457,
+          "avg_net_price": 13328
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 108667,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6141,
+          "avg_net_price": 9280
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 113193,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11283,
+          "avg_net_price": 12898
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 113333,
+        "slug": "de-anza-college",
+        "name": "De Anza College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 17425,
+          "avg_net_price": 4667
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 113634,
+        "slug": "diablo-valley-college",
+        "name": "Diablo Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 17228,
+          "avg_net_price": 6142
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 444219,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11098,
+          "avg_net_price": 3661
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 114859,
+        "slug": "fullerton-college",
+        "name": "Fullerton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19521,
+          "avg_net_price": 8090
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 115001,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 115126,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10721,
+          "avg_net_price": 2861
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 366401,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 8103,
+          "avg_net_price": 4175
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 117706,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 16906,
+          "avg_net_price": 11196
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 118912,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 119137,
+        "slug": "moorpark-college",
+        "name": "Moorpark College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 14583,
+          "avg_net_price": 742
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 120290,
+        "slug": "ohlone-college",
+        "name": "Ohlone College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 9061,
+          "avg_net_price": 14130
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 120342,
+        "slug": "orange-coast-college",
+        "name": "Orange Coast College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 17096,
+          "avg_net_price": 4754
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 120971,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 121044,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 24597,
+          "avg_net_price": 3123
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 122375,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 19212,
+          "avg_net_price": -904
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 122889,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12334,
+          "avg_net_price": 10029
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 122977,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 399212,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 11897,
+          "avg_net_price": 3407
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 123509,
+        "slug": "skyline-college",
+        "name": "Skyline College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9572,
+          "avg_net_price": -1180
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://sjcc.edu/academic-affairs/planning-research-and-institutional-effectiveness.aspx",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:21:15.532294+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122746",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:21:18.413854+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President, Administrative Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179353714"
+    },
+    {
+      "title": "Vice President, Student Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179359169"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Tony Alexander",
+      "field": "Community Leadership"
+    },
+    {
+      "name": "Erik Bakich",
+      "field": "Athletics"
+    },
+    {
+      "name": "Kim Bokamper",
+      "field": "Athletics"
+    },
+    {
+      "name": "Ato Boldon",
+      "field": "Athletics & Politics"
+    },
+    {
+      "name": "Torraye Braggs",
+      "field": "Athletics"
+    },
+    {
+      "name": "Marcos Bretón",
+      "field": "Journalism"
+    },
+    {
+      "name": "Jim Cadile",
+      "field": "Athletics"
+    },
+    {
+      "name": "Chris Cain",
+      "field": "Music"
+    },
+    {
+      "name": "Richard Calderon",
+      "field": "Sports & Law Enforcement"
+    },
+    {
+      "name": "Armando Castellano",
+      "field": "Arts & Philanthropy"
+    },
+    {
+      "name": "Scott Erickson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Lee Evans",
+      "field": "Athletics"
+    },
+    {
+      "name": "Forrest Fezler",
+      "field": "Golf & Design"
+    },
+    {
+      "name": "Jethro Franklin",
+      "field": "Athletics"
+    },
+    {
+      "name": "Chon Gallegos",
+      "field": "Athletics"
+    },
+    {
+      "name": "Tim Giago",
+      "field": "Journalism"
+    },
+    {
+      "name": "Millard Hampton",
+      "field": "Athletics"
+    },
+    {
+      "name": "Yasuhiro Ishimoto",
+      "field": "Photography"
+    },
+    {
+      "name": "Johnpaul Jones",
+      "field": "Architecture"
+    },
+    {
+      "name": "Steve Kinney",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jean LaMarr",
+      "field": "Arts"
+    },
+    {
+      "name": "Dave Laut",
+      "field": "Athletics"
+    },
+    {
+      "name": "Roger Maltbie",
+      "field": "Golf"
+    },
+    {
+      "name": "Bob Mead",
+      "field": "Politics"
+    },
+    {
+      "name": "André Phillips",
+      "field": "Athletics"
+    },
+    {
+      "name": "Jack Pierce",
+      "field": "Athletics"
+    },
+    {
+      "name": "Marcos Pinedo",
+      "field": "Art"
+    },
+    {
+      "name": "Cedric Pittman",
+      "field": "Athletics"
+    },
+    {
+      "name": "Diamara Planell",
+      "field": "Athletics"
+    },
+    {
+      "name": "Len Ramirez",
+      "field": "Journalism"
+    },
+    {
+      "name": "Dave Righetti",
+      "field": "Athletics"
+    },
+    {
+      "name": "Sonia Sheridan",
+      "field": "Arts & Academia"
+    },
+    {
+      "name": "Dave Stieb",
+      "field": "Athletics"
+    },
+    {
+      "name": "Amy Tan",
+      "field": "Literature"
+    },
+    {
+      "name": "Bob Toledo",
+      "field": "Athletics"
+    }
+  ]
+}

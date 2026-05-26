@@ -1,0 +1,718 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:15.853892+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120421,
+    "slug": "oxnard-college",
+    "name": "Oxnard College",
+    "website_url": "https://www.oxnardcollege.edu",
+    "city": "Oxnard",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93033-6699",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "G778PXNSQXS4",
+      "opeid": "01284200",
+      "ein": "952224338"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Oxnard College is a public community college in Oxnard, California, United States. Established in 1975 by the Ventura County Community College District, it serves the Oxnard Plain cities of Oxnard, Camarillo, and Port Hueneme. Oxnard College offers both degrees and certificates in 26 different fields. The college offers associate degrees — including the California transfer curriculum — and one bachelor's degree, as well as career and technical education programs to the local community.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oxnard_College",
+    "source_url": "https://en.wikipedia.org/wiki/Oxnard_College",
+    "fetched_at": "2026-05-26T15:32:41.360337+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 659,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7099,
+    "federal_loan_rate": 0.009,
+    "net_price_by_family_income": {
+      "0_30k": 1314,
+      "30_48k": 58,
+      "48_75k": 44,
+      "75_110k": 695,
+      "110k_plus": 8880
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "pell_grad_rate": 0.35,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11453,
+    "ug_12mo": 11453,
+    "grad_12mo": 9423,
+    "women_12mo": 6195,
+    "men_12mo": 5258,
+    "fall_total": 7361,
+    "fall_full_time": 7361,
+    "fall_part_time": 6240,
+    "distance_ed_any": 7361,
+    "distance_ed_exclusive": 3177,
+    "race_ethnicity": {
+      "white": 0.1258,
+      "black": 0.0177,
+      "hispanic": 0.7529,
+      "asian": 0.0523,
+      "ai_an": 0.0023,
+      "nh_pi": 0.002,
+      "two_or_more": 0.0323,
+      "non_resident": 0.004,
+      "race_unknown": 0.0107
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 544
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 384
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 135
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 80
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 74
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 73
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 61
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 33
+      }
+    ],
+    "program_count": 62,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 103
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 165033,
+        "slug": "bristol-community-college",
+        "name": "Bristol Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 6950,
+          "avg_net_price": 6235
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 165112,
+        "slug": "bunker-hill-community-college",
+        "name": "Bunker Hill Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 9876,
+          "avg_net_price": 6313
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 154800,
+        "slug": "butler-community-college",
+        "name": "Butler Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6841,
+          "avg_net_price": 16051
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110334,
+        "slug": "cabrillo-college",
+        "name": "Cabrillo College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9457,
+          "avg_net_price": 13328
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 198154,
+        "slug": "cape-fear-community-college",
+        "name": "Cape Fear Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 14082,
+          "avg_net_price": 5416
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113573,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12861,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 219888,
+        "slug": "columbia-state-community-college",
+        "name": "Columbia State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 5712,
+          "avg_net_price": 4576
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 190530,
+        "slug": "cuny-bronx-community-college",
+        "name": "CUNY Bronx Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 6787,
+          "avg_net_price": 4342
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 190585,
+        "slug": "cuny-hostos-community-college",
+        "name": "CUNY Hostos Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 5478,
+          "avg_net_price": 5001
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 190673,
+        "slug": "cuny-queensborough-community-college",
+        "name": "CUNY Queensborough Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 10337,
+          "avg_net_price": 4620
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 169521,
+        "slug": "delta-college",
+        "name": "Delta College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 8397,
+          "avg_net_price": 4550
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 115393,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11273,
+          "avg_net_price": 2895
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 115861,
+        "slug": "imperial-valley-college",
+        "name": "Imperial Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 8873,
+          "avg_net_price": 1697
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 366401,
+        "slug": "las-positas-college",
+        "name": "Las Positas College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 8103,
+          "avg_net_price": 4175
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 117894,
+        "slug": "los-medanos-college",
+        "name": "Los Medanos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 8455,
+          "avg_net_price": 5692
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 221096,
+        "slug": "motlow-state-community-college",
+        "name": "Motlow State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 5980,
+          "avg_net_price": 10421
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 169275,
+        "slug": "mott-community-college",
+        "name": "Mott Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 6718,
+          "avg_net_price": 6258
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 221184,
+        "slug": "nashville-state-community-college",
+        "name": "Nashville State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 7533,
+          "avg_net_price": 6283
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 207449,
+        "slug": "oklahoma-city-community-college",
+        "name": "Oklahoma City Community College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 11475,
+          "avg_net_price": 5135
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 221643,
+        "slug": "pellissippi-state-community-college",
+        "name": "Pellissippi State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 9399,
+          "avg_net_price": 5252
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 195058,
+        "slug": "rockland-community-college",
+        "name": "Rockland Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 5364,
+          "avg_net_price": 8508
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 184791,
+        "slug": "rowan-college-of-south-jersey-gloucester-campus",
+        "name": "Rowan College of South Jersey-Gloucester Campus",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 5218,
+          "avg_net_price": 10818
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 399212,
+        "slug": "santiago-canyon-college",
+        "name": "Santiago Canyon College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 11897,
+          "avg_net_price": 3407
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 228158,
+        "slug": "south-plains-college",
+        "name": "South Plains College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 9098,
+          "avg_net_price": 7062
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 221485,
+        "slug": "southwest-tennessee-community-college",
+        "name": "Southwest Tennessee Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.40674306593589105,
+          "retention_rate": 0.46,
+          "enrollment": 7004,
+          "avg_net_price": 4588
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 262031,
+        "slug": "st-charles-community-college",
+        "name": "St Charles Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6143,
+          "avg_net_price": 5981
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 125028,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 12222,
+          "avg_net_price": 2257
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 222053,
+        "slug": "volunteer-state-community-college",
+        "name": "Volunteer State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 6963,
+          "avg_net_price": 10477
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 222062,
+        "slug": "walters-state-community-college",
+        "name": "Walters State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 5899,
+          "avg_net_price": 4153
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.oxnardcollege.edu/departments/administrative/institutional-effectiveness",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness supports the Oxnard College mission by providing quality data and analysis to inform decision making. We provide assistance with institutional research, college planning, and program review.",
+    "phone": "(805) 678-5097",
+    "email": "OCData@vcccd.edu",
+    "address": "4000 S. Rose Avenue, Oxnard, 93033 CA",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:32:40.121524+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ann Marie Machamer, Ph.D.",
+      "title": "Dean of Institutional Effectiveness",
+      "email": "amachamer@vcccd.edu",
+      "phone": "(805) 678-5097"
+    },
+    {
+      "ordering": 1,
+      "name": "Susan Lawrence",
+      "title": "Administrative Assistant",
+      "email": "slawrence@vcccd.edu",
+      "phone": "(805) 678-5186"
+    },
+    {
+      "ordering": 2,
+      "name": "Sofia Diamantopoulou",
+      "title": "Research Analyst",
+      "email": "sdiamantopoulou@vcccd.edu",
+      "phone": "(805) 678-5304"
+    },
+    {
+      "ordering": 3,
+      "name": "Rocio Avina",
+      "title": "Technical Data Specialist",
+      "email": "ravina@vcccd.edu",
+      "phone": "(805) 678-5163"
+    },
+    {
+      "ordering": 4,
+      "name": "John Habal",
+      "title": "Technical Data Specialist",
+      "phone": "(805) 678-5152",
+      "linkedin_url": "https://www.linkedin.com/in/john-habal-2b72b136a"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120421",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:32:43.159893+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms | Oxnard College",
+      "url": "https://www.oxnardcollege.edu/departments/student-services/transfer-center/transfer-options-opportunities/glossary-terms",
+      "summary": "The Oxnard College glossary provides definitions for key terms related to academic programs, degrees, and the transfer process to four-year institutions. It includes insights on degrees like Associate and Bachelor's, as well as educational policies and systems such as Catalog Rights, the Course Identification Numbering System, and Intersegmental General Education Transfer Curriculum (IGETC). Essential for students navigating college courses and pursuing further education, this glossary encapsulates vital academic and administrative concepts.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:32:19.646414+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "PIPELINES UCSB and Ventura Naval Base Internship",
+      "agency": "UC Santa Barbara",
+      "kind": "opportunity",
+      "amount_usd": 4000,
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    },
+    {
+      "title": "SCAG Scholarship Program",
+      "agency": "Southern California Association of Governments (SCAG)",
+      "kind": "opportunity",
+      "amount_usd": 4000,
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    },
+    {
+      "title": "Syracuse University LSAMP Summer Research Program",
+      "agency": "National Science Foundation (NSF)",
+      "kind": "opportunity",
+      "amount_usd": 4000,
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    },
+    {
+      "title": "NSF REU Site in Sustainable Resilient Transportation Systems",
+      "agency": "National Science Foundation (NSF) via University of Delaware",
+      "kind": "opportunity",
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    },
+    {
+      "title": "OC Foundation Scholarships and Grants",
+      "agency": "Oxnard College Foundation",
+      "kind": "opportunity",
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    },
+    {
+      "title": "Quantum Foundry Summer Internship",
+      "agency": "National Science Foundation (NSF) via UC Santa Barbara",
+      "kind": "opportunity",
+      "url": "https://www.oxnardcollege.edu/campaign-february-week-1-0",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "René Corado"
+    },
+    {
+      "name": "Noah Dollenmayer"
+    },
+    {
+      "name": "James Ennis III"
+    },
+    {
+      "name": "Gabriel González",
+      "field": "Athletics"
+    },
+    {
+      "name": "Judith Kelley"
+    },
+    {
+      "name": "Ivan Mirković"
+    },
+    {
+      "name": "Carmen Perez"
+    }
+  ]
+}

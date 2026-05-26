@@ -1,0 +1,733 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:38.265073+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 444130,
+    "slug": "northcentral-university",
+    "name": "Northcentral University",
+    "website_url": "https://www.nu.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92123",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "L361Q3DNFGN4",
+      "opeid": "03813300",
+      "ein": "900171867"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Northcentral University was a private online university with its headquarters in San Diego, California. It was established in 1996 and is classified among \"D/PU: Doctoral/Professional Universities\"; it offers bachelor's, master's, specialist, and doctoral degrees. NCU was acquired by the National University System in 2019.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Northcentral_University",
+    "source_url": "https://en.wikipedia.org/wiki/Northcentral_University",
+    "fetched_at": "2026-05-26T14:38:19.435277+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.9388,
+    "federal_loan_rate": 0.3113,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 12994,
+    "ug_12mo": 112,
+    "grad_12mo": 112,
+    "women_12mo": 9686,
+    "men_12mo": 3308,
+    "fall_total": 9489,
+    "fall_full_time": 60,
+    "fall_part_time": 60,
+    "distance_ed_any": 9489,
+    "distance_ed_exclusive": 9489,
+    "race_ethnicity": {
+      "white": 0.4796,
+      "black": 0.2449,
+      "hispanic": 0.0816,
+      "asian": 0.0102,
+      "ai_an": 0.0102,
+      "nh_pi": 0.0102,
+      "two_or_more": 0.0714,
+      "non_resident": 0.0,
+      "race_unknown": 0.0918
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 577
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 358
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 349
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 348
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 10
+      }
+    ],
+    "program_count": 33,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 1.0,
+    "instr_total_fte": 101
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188429,
+        "slug": "adelphi-university",
+        "name": "Adelphi University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6590713017000761,
+          "yield_rate": 0.1034111034111034,
+          "grad_rate": 0.67,
+          "retention_rate": 0.83,
+          "enrollment": 7603,
+          "avg_net_price": 28348
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 143118,
+        "slug": "aurora-university",
+        "name": "Aurora University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8085066864784547,
+          "yield_rate": 0.15552492533884676,
+          "grad_rate": 0.6,
+          "retention_rate": 0.77,
+          "enrollment": 5923,
+          "avg_net_price": 18992
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 132471,
+        "slug": "barry-university",
+        "name": "Barry University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7723749769330135,
+          "yield_rate": 0.07490144546649145,
+          "grad_rate": 0.37,
+          "retention_rate": 0.63,
+          "enrollment": 6825,
+          "avg_net_price": 22978
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 219709,
+        "slug": "belmont-university",
+        "name": "Belmont University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9527550463720676,
+          "yield_rate": 0.1771644525881814,
+          "grad_rate": 0.7,
+          "retention_rate": 0.87,
+          "enrollment": 8803,
+          "avg_net_price": 32096
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 198516,
+        "slug": "elon-university",
+        "name": "Elon University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6634631317315659,
+          "yield_rate": 0.13378288378288378,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 7239,
+          "avg_net_price": 41048
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 191649,
+        "slug": "hofstra-university",
+        "name": "Hofstra University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6808281043923105,
+          "yield_rate": 0.10296448488406222,
+          "grad_rate": 0.69,
+          "retention_rate": 0.84,
+          "enrollment": 10685,
+          "avg_net_price": 35129
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 488679,
+        "slug": "indiana-wesleyan-university-national-and-global",
+        "name": "Indiana Wesleyan University-National & Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 14331,
+          "avg_net_price": 16767
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 232557,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 178059,
+        "slug": "maryville-university-of-saint-louis",
+        "name": "Maryville University of Saint Louis",
+        "state": "Missouri",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9507936507936507,
+          "yield_rate": 0.22799904602909613,
+          "grad_rate": 0.66,
+          "retention_rate": 0.85,
+          "enrollment": 9261,
+          "avg_net_price": 26047
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 147536,
+        "slug": "national-louis-university",
+        "name": "National Louis University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9505291656411519,
+          "yield_rate": 0.18410150181253238,
+          "grad_rate": 0.3,
+          "retention_rate": 0.5,
+          "enrollment": 8915,
+          "avg_net_price": 16157
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 482705,
+        "slug": "northeastern-university-professional-programs",
+        "name": "Northeastern University Professional Programs",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7411
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 194310,
+        "slug": "pace-university",
+        "name": "Pace University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7591741591741592,
+          "yield_rate": 0.08114746907623475,
+          "grad_rate": 0.6,
+          "retention_rate": 0.75,
+          "enrollment": 13634,
+          "avg_net_price": 31046
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 130226,
+        "slug": "quinnipiac-university",
+        "name": "Quinnipiac University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7215332581736189,
+          "yield_rate": 0.1109375,
+          "grad_rate": 0.76,
+          "retention_rate": 0.89,
+          "enrollment": 9424,
+          "avg_net_price": 39207
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 231651,
+        "slug": "regent-university",
+        "name": "Regent University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3811504635131923,
+          "yield_rate": 0.21515434985968196,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 10657,
+          "avg_net_price": 18749
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 130253,
+        "slug": "sacred-heart-university",
+        "name": "Sacred Heart University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6535919975750227,
+          "yield_rate": 0.1748446340784714,
+          "grad_rate": 0.73,
+          "retention_rate": 0.83,
+          "enrollment": 11022,
+          "avg_net_price": 45459
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 137032,
+        "slug": "saint-leo-university",
+        "name": "Saint Leo University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7839616995810892,
+          "yield_rate": 0.1297709923664122,
+          "grad_rate": 0.44,
+          "retention_rate": 0.59,
+          "enrollment": 9692,
+          "avg_net_price": 18467
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 122931,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 236595,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.769248937175248,
+          "yield_rate": 0.13632176849861835,
+          "grad_rate": 0.76,
+          "retention_rate": 0.84,
+          "enrollment": 7189,
+          "avg_net_price": 34802
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 137564,
+        "slug": "southeastern-university",
+        "name": "Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5297969875573019,
+          "yield_rate": 0.4861969509682736,
+          "grad_rate": 0.44,
+          "retention_rate": 0.7,
+          "enrollment": 11510,
+          "avg_net_price": 30209
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 195809,
+        "slug": "st-john-s-university-new-york",
+        "name": "St. John's University-New York",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8342696629213483,
+          "yield_rate": 0.1163596751832046,
+          "grad_rate": 0.66,
+          "retention_rate": 0.79,
+          "enrollment": 19389,
+          "avg_net_price": 26985
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 168005,
+        "slug": "suffolk-university",
+        "name": "Suffolk University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8233410942956927,
+          "yield_rate": 0.10875456580652763,
+          "grad_rate": 0.61,
+          "retention_rate": 0.75,
+          "enrollment": 6356,
+          "avg_net_price": 30031
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 196592,
+        "slug": "touro-university",
+        "name": "Touro University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.608271375464684,
+          "yield_rate": 0.4346829640947288,
+          "grad_rate": 0.76,
+          "retention_rate": 0.89,
+          "enrollment": 11937,
+          "avg_net_price": 26556
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 174914,
+        "slug": "university-of-st-thomas",
+        "name": "University of St Thomas",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8535911602209945,
+          "yield_rate": 0.20819848975188782,
+          "grad_rate": 0.77,
+          "retention_rate": 0.88,
+          "enrollment": 9410,
+          "avg_net_price": 30525
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 156541,
+        "slug": "university-of-the-cumberlands",
+        "name": "University of the Cumberlands",
+        "state": "Kentucky",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9881461969048403,
+          "yield_rate": 0.33288903698767075,
+          "grad_rate": 0.5,
+          "retention_rate": 0.74,
+          "enrollment": 22120,
+          "avg_net_price": 11286
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 225627,
+        "slug": "university-of-the-incarnate-word",
+        "name": "University of the Incarnate Word",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9813538352774832,
+          "yield_rate": 0.0914903196758217,
+          "grad_rate": 0.5,
+          "retention_rate": 0.71,
+          "enrollment": 7047,
+          "avg_net_price": 20498
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 131113,
+        "slug": "wilmington-university",
+        "name": "Wilmington University",
+        "state": "Delaware",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.22,
+          "retention_rate": 0.61,
+          "enrollment": 13746,
+          "avg_net_price": 15355
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 206622,
+        "slug": "xavier-university",
+        "name": "Xavier University",
+        "state": "Ohio",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.864055771990978,
+          "yield_rate": 0.07332700522069292,
+          "grad_rate": 0.68,
+          "retention_rate": 0.77,
+          "enrollment": 5501,
+          "avg_net_price": 32342
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 197708,
+        "slug": "yeshiva-university",
+        "name": "Yeshiva University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5561561561561561,
+          "yield_rate": 0.6112311015118791,
+          "grad_rate": 0.85,
+          "retention_rate": 0.92,
+          "enrollment": 6965,
+          "avg_net_price": 47560
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=444130",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:38:21.309223+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2015,
+      "title": "2015 National University Strategic Plan",
+      "url": "https://assets.nu.edu/assets/resources/pageResources/2015-national-university-strategic-plan.pdf",
+      "summary": "The 2015 National University Strategic Plan outlines the institution's goals for maintaining academic excellence, enhancing student services, and leveraging technology over the next five years. Key priorities include expanding online education, engaging with military personnel, and fostering innovative faculty development. With a focus on growth, the plan aims to increase student enrollment, bolster the endowment, and sustain excellence through continuous improvement and assessment.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:33:19.236167+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Naydeen González-De Jesús"
+    },
+    {
+      "name": "Kim Cliett Long"
+    },
+    {
+      "name": "Kathy Love",
+      "field": "Academic Administration"
+    },
+    {
+      "name": "Bobby Olszewski"
+    },
+    {
+      "name": "Clovis Watson Jr."
+    }
+  ]
+}

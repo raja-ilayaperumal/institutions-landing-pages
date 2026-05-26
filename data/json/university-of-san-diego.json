@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:18.425440+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122436,
+    "slug": "university-of-san-diego",
+    "name": "University of San Diego",
+    "website_url": "https://www.sandiego.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92110-2492",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "V6S1GT51XD56",
+      "opeid": "01039500",
+      "ein": "952544535"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of San Diego (USD) is a private Catholic research university in San Diego, California, United States. Chartered in 1949 as the independent San Diego College for Women and San Diego University, the two institutions merged in 1972.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_San_Diego",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_San_Diego",
+    "fetched_at": "2026-05-26T14:42:53.357989+05:30"
+  },
+  "admissions": {
+    "applicants": 17008,
+    "admits": 8908,
+    "enrolled": 1104,
+    "first_time_freshmen": 1104,
+    "first_time_freshmen_ft": 1102,
+    "admit_rate": 0.5237535277516463,
+    "yield_rate": 0.12393354288280198
+  },
+  "cost": {
+    "room_and_board": 19918,
+    "avg_net_price": 31265,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0148,
+    "federal_loan_rate": 0.3272,
+    "net_price_by_family_income": {
+      "0_30k": 17543,
+      "30_48k": 18083,
+      "48_75k": 19998,
+      "75_110k": 28397,
+      "110k_plus": 46152
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.84,
+    "grad_4yr_bachelors": 0.69,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.84,
+    "pell_grad_rate": 0.82,
+    "pell_6yr_bachelors_rate": 0.82,
+    "non_pell_grad_rate": 0.85,
+    "non_pell_6yr_bachelors": 0.85,
+    "retention_full_time": 0.91,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 10282,
+    "ug_12mo": 6120,
+    "grad_12mo": 5930,
+    "women_12mo": 5767,
+    "men_12mo": 4515,
+    "fall_total": 9714,
+    "fall_full_time": 5851,
+    "fall_part_time": 5671,
+    "distance_ed_any": 9714,
+    "distance_ed_exclusive": 1470,
+    "race_ethnicity": {
+      "white": 0.456,
+      "black": 0.0457,
+      "hispanic": 0.2552,
+      "asian": 0.0705,
+      "ai_an": 0.0025,
+      "nh_pi": 0.0034,
+      "two_or_more": 0.0753,
+      "non_resident": 0.0626,
+      "race_unknown": 0.0288
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 885
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 284
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 185
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 177
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 175
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 160
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 158
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 150
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 148
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 147
+      }
+    ],
+    "program_count": 87,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 524
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 191241,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 122931,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 236595,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.769248937175248,
+          "yield_rate": 0.13632176849861835,
+          "grad_rate": 0.76,
+          "retention_rate": 0.84,
+          "enrollment": 7189,
+          "avg_net_price": 34802
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 186584,
+        "slug": "seton-hall-university",
+        "name": "Seton Hall University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7326444946722634,
+          "yield_rate": 0.0881996474217717,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 9571,
+          "avg_net_price": 28921
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 202480,
+        "slug": "university-of-dayton",
+        "name": "University of Dayton",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6544743187298121,
+          "yield_rate": 0.1167802029751147,
+          "grad_rate": 0.8,
+          "retention_rate": 0.89,
+          "enrollment": 10506,
+          "avg_net_price": 31236
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 216597,
+        "slug": "villanova-university",
+        "name": "Villanova University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2697798417612659,
+          "yield_rate": 0.27733503347146954,
+          "grad_rate": 0.92,
+          "retention_rate": 0.95,
+          "enrollment": 10041,
+          "avg_net_price": 44876
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.sandiego.edu/ire/",
+    "office_name": "Institutional Research and Effectiveness",
+    "summary": "Institutional Research and Effectiveness facilitates continuous improvement and demonstrates USD’s commitment to student learning, high standards of quality and effectiveness, data-informed decision making, and institutional integrity.",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T14:42:52.068958+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.sandiego.edu/ire/usd-research/",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:42:09.778908+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set - Facts - University of San Diego",
+      "url": "https://www.sandiego.edu/facts/cds/",
+      "summary": "The page provides access to the University of San Diego's Common Data Set information, which typically includes standard data about the institution for use in college surveys and publications. Specific definitions or data points from the Common Data Set are not listed on this page, as it primarily serves as a gateway to the detailed data.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:40:37.770715+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122436",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:42:54.07369+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 1997,
+      "title": "1996-1997 USD Facts",
+      "url": "https://digital.sandiego.edu/usd-factbooks/12/",
+      "summary": "The '1996-1997 USD Facts' is a handbook published by the University of San Diego, covering facts about the university for the years 1996-1997. It contains illustrations and charts over 15 pages. The digital version is published by Copley Library and the document is part of the USD Fact Books collection.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:31:49.673224+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Envisioning 2024",
+      "url": "https://www.sandiego.edu/lighting/about/strategic-plans/envisioning-2024/",
+      "summary": "The 'Envisioning 2024' strategic plan of the University of San Diego seeks to align new strategic goals with the university's current strengths. The plan aims to chart a path forward as the university approaches its 75th anniversary in 2024. As a contemporary Catholic university, it is focused on fostering innovative Changemakers to tackle pressing global challenges.",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:36:15.907542+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Andrew Firestone",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Brooke Raboutou",
+      "field": "Athletics"
+    },
+    {
+      "name": "Dave Camp",
+      "field": "Politics"
+    },
+    {
+      "name": "Judith Keep",
+      "field": "Law"
+    },
+    {
+      "name": "Kris Bryant",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kris_Bryant",
+      "field": "Sports"
+    },
+    {
+      "name": "Lynn Schenk",
+      "field": "Politics"
+    },
+    {
+      "name": "Lowell McAdam",
+      "field": "Telecommunications"
+    },
+    {
+      "name": "Mario Testino",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mario_Testino",
+      "field": "Photography"
+    },
+    {
+      "name": "Ryan Zinke",
+      "field": "Politics"
+    },
+    {
+      "name": "Shelley Berkley",
+      "field": "Politics"
+    },
+    {
+      "name": "Thomas J. Barrack Jr.",
+      "field": "Finance"
+    },
+    {
+      "name": "Bob Maggiore",
+      "field": "Business"
+    },
+    {
+      "name": "Carlos Bustamante",
+      "field": "Politics"
+    },
+    {
+      "name": "Charles LiMandri",
+      "field": "Law"
+    },
+    {
+      "name": "Donald Gibb",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Eric Musselman",
+      "field": "Sports"
+    },
+    {
+      "name": "Edred Utomi",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Frances Townsend",
+      "field": "Politics"
+    },
+    {
+      "name": "George Coker",
+      "field": "Military"
+    },
+    {
+      "name": "Heidi Watney",
+      "field": "Sports Journalism"
+    },
+    {
+      "name": "Jim Parsons",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Parsons",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Jonny Kim",
+      "field": "Science/Exploration"
+    },
+    {
+      "name": "Josh Johnson",
+      "field": "Sports"
+    },
+    {
+      "name": "Miguel Luis Villafuerte",
+      "field": "Politics"
+    },
+    {
+      "name": "Thomas J. Whelan",
+      "field": "Law"
+    },
+    {
+      "name": "Todd Gloria",
+      "field": "Politics"
+    }
+  ]
+}

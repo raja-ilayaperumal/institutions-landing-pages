@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:04.447250+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115861,
+    "slug": "imperial-valley-college",
+    "name": "Imperial Valley College",
+    "website_url": "https://www.imperial.edu",
+    "city": "Imperial",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92251-0158",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XX5DV4Q28A71",
+      "opeid": "00121400",
+      "ein": "956006350"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Imperial Valley College is a public community college in Imperial County, California. It was founded in 1962 and enrolls around 7,000 students per year. The main campus is located on a 160-acre (0.65 km2) site in the city of Imperial with extended campuses in El Centro and Brawley.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Imperial_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Imperial_Valley_College",
+    "fetched_at": "2026-05-26T15:14:26.865251+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 1697,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.502,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 1679,
+      "30_48k": 5387,
+      "48_75k": 4421,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.45,
+    "pell_grad_rate": 0.43,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.55
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 11097,
+    "ug_12mo": 11097,
+    "grad_12mo": 9260,
+    "women_12mo": 6290,
+    "men_12mo": 4807,
+    "fall_total": 8873,
+    "fall_full_time": 8873,
+    "fall_part_time": 7652,
+    "distance_ed_any": 8873,
+    "distance_ed_exclusive": 2521,
+    "race_ethnicity": {
+      "white": 0.0373,
+      "black": 0.0096,
+      "hispanic": 0.9082,
+      "asian": 0.0048,
+      "ai_an": 0.0015,
+      "nh_pi": 0.0004,
+      "two_or_more": 0.0067,
+      "non_resident": 0.0,
+      "race_unknown": 0.0315
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 420
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 373
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 211
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 190
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 161
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 79
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 27
+      }
+    ],
+    "program_count": 81,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 31.0,
+    "instr_total_fte": 160
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110246,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 113573,
+        "slug": "college-of-the-desert",
+        "name": "College of the Desert",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12861,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 115296,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14440,
+          "avg_net_price": 2755
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 115393,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11273,
+          "avg_net_price": 2895
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 118912,
+        "slug": "miracosta-college",
+        "name": "MiraCosta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120971,
+        "slug": "palomar-college",
+        "name": "Palomar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 121886,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 122339,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 13242,
+          "avg_net_price": -818
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 122375,
+        "slug": "san-diego-mesa-college",
+        "name": "San Diego Mesa College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 19212,
+          "avg_net_price": -904
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 122384,
+        "slug": "san-diego-miramar-college",
+        "name": "San Diego Miramar College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 14257,
+          "avg_net_price": -2735
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123800,
+        "slug": "southwestern-college",
+        "name": "Southwestern College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 20986,
+          "avg_net_price": 10893
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 125028,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 12222,
+          "avg_net_price": 2257
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 125091,
+        "slug": "victor-valley-college",
+        "name": "Victor Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 8423,
+          "avg_net_price": 3228
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.imperial.edu/about/institutional-research/index.html",
+    "office_name": "Office of Institutional Research",
+    "summary": "The mission of the Office of Institutional Research is to lead, coordinate, and support initiatives and projects related to planning, assessing, examining, and reporting on the accomplishment of IVC's mission by providing innovative, timely, relevant, and accurate information that supports data-driven decision-making in the Imperial Valley Community College District.",
+    "address": "380 E. Aten Rd., Imperial, CA 92251",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-26T15:14:25.440747+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.imperial.edu/about/institutional-research/dashboards.html",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:12:48.009164+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115861",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:14:28.840027+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Imperial Valley College Fact Book",
+      "url": "https://www.imperial.edu/about/institutional-research/fact-book.html",
+      "summary": "The Imperial Valley College Fact Book contains information about students, staff, programs, and services within the Imperial Community College District. It is intended to assist with program review, grant development, marketing, and resource allocation.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:10:32.431972+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Common College Terms",
+      "url": "https://www.imperial.edu/admissions/glossary-of-terms.html",
+      "summary": "The Glossary of Common College Terms at Imperial Valley College provides definitions and descriptions of various academic and administrative terms that students may encounter. It is designed to help students understand the processes, programs, and requirements they may face while attending the college. Terms like 'Academic Renewal', 'Prerequisite', and 'Zero Textbook Cost' are explained to assist students in navigating their educational journey successfully.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:14:08.679667+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "OER Adoption/Development Projects",
+      "kind": "opportunity",
+      "url": "https://www.imperial.edu/faculty-and-staff/oer-ztc/funding.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Tammy Summers"
+    },
+    {
+      "name": "Karla A. Sigmond"
+    },
+    {
+      "name": "John Cabanilla"
+    },
+    {
+      "name": "Crispina Calsada"
+    },
+    {
+      "name": "Justin Burquist"
+    },
+    {
+      "name": "Melissa Gallegos"
+    },
+    {
+      "name": "Ruth Bermudez Montenegro"
+    },
+    {
+      "name": "Hamza Yusuf"
+    }
+  ]
+}

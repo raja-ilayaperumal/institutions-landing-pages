@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:03.710545+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114266,
+    "slug": "evergreen-valley-college",
+    "name": "Evergreen Valley College",
+    "website_url": "https://www.evc.edu",
+    "city": "San Jose",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95135-1598",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PVMTEEW29ZL5",
+      "opeid": "01245200",
+      "ein": "770100756"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Evergreen Valley College (EVC) is a public community college in San Jose, California. Located in the Evergreen district of East San Jose, California, EVC was founded in 1975 and is part of the California Community College System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evergreen_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Evergreen_Valley_College",
+    "fetched_at": "2026-05-26T14:51:28.073+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 12591,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7353,
+    "federal_loan_rate": 0.0039,
+    "net_price_by_family_income": {
+      "0_30k": 11489,
+      "30_48k": 11739,
+      "48_75k": 14730,
+      "75_110k": 19057,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.41,
+    "pell_grad_rate": 0.4,
+    "retention_full_time": 0.73,
+    "retention_part_time": 0.29
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 15212,
+    "ug_12mo": 15212,
+    "grad_12mo": 12280,
+    "women_12mo": 8218,
+    "men_12mo": 6994,
+    "fall_total": 9336,
+    "fall_full_time": 9336,
+    "fall_part_time": 7688,
+    "distance_ed_any": 9336,
+    "distance_ed_exclusive": 3378,
+    "race_ethnicity": {
+      "white": 0.0943,
+      "black": 0.0339,
+      "hispanic": 0.4511,
+      "asian": 0.3446,
+      "ai_an": 0.0047,
+      "nh_pi": 0.0029,
+      "two_or_more": 0.0316,
+      "non_resident": 0.0094,
+      "race_unknown": 0.0276
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 76
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 71
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 66
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 16
+      }
+    ],
+    "program_count": 36,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 119
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110246,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111939,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112172,
+        "slug": "citrus-college",
+        "name": "Citrus College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10429,
+          "avg_net_price": 3800
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 113096,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 113111,
+        "slug": "crafton-hills-college",
+        "name": "Crafton Hills College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6768,
+          "avg_net_price": 10655
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113980,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 114789,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 28071,
+          "avg_net_price": 1699
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 115296,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14440,
+          "avg_net_price": 2755
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 117894,
+        "slug": "los-medanos-college",
+        "name": "Los Medanos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 8455,
+          "avg_net_price": 5692
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 118976,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 119164,
+        "slug": "mt-san-antonio-college",
+        "name": "Mt San Antonio College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 29971,
+          "avg_net_price": 3107
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 117052,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 8796,
+          "avg_net_price": 1584
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 122180,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 19920,
+          "avg_net_price": 3974
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 122339,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 13242,
+          "avg_net_price": -818
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 123299,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9073,
+          "avg_net_price": 3743
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 123563,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 125028,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 12222,
+          "avg_net_price": 2257
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.evc.edu/why-evc/accreditation/institutional-effectiveness/research",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:51:26.561448+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114266",
+      "stored": false,
+      "fetched_at": "2026-05-26T14:51:29.299916+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President, Administrative Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179411364"
+    },
+    {
+      "title": "Vice President, Student Services - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179412623"
+    },
+    {
+      "title": "Program Coordinator (Umoja-Affirm) - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179441056&Title=Program%20Coordinator%20(Umoja-Affirm)"
+    },
+    {
+      "title": "Academic Services Analyst - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179396350"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

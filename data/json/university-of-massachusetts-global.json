@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-26T10:32:31.730895+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 262086,
+    "slug": "university-of-massachusetts-global",
+    "name": "University of Massachusetts Global",
+    "website_url": "https://www.umassglobal.edu",
+    "city": "Aliso Viejo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92656",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MB5GWJCFBGC7",
+      "opeid": "04161800",
+      "ein": "260152908"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "University of Massachusetts Global, is a private online university headquartered in Aliso Viejo, California. The university offers more than 55 degree, certificate, credential, and professional programs for working adults. Brandman was a separate, regionally-accredited university within the Chapman University system. In September 2021, Brandman separated from the Chapman University system, and formed a new affiliation with the University of Massachusetts, UMass Global. UMass Global is accredited by the WASC Senior College and University Commission.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Global",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Global",
+    "fetched_at": "2026-05-26T15:05:19.583139+05:30"
+  },
+  "admissions": {
+    "applicants": 168,
+    "admits": 156,
+    "enrolled": 76,
+    "first_time_freshmen": 76,
+    "first_time_freshmen_ft": 39,
+    "admit_rate": 0.9285714285714286,
+    "yield_rate": 0.48717948717948717
+  },
+  "cost": {
+    "avg_net_price": 31601,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5951,
+    "federal_loan_rate": 0.3163,
+    "net_price_by_family_income": {
+      "0_30k": 30732,
+      "30_48k": 32490,
+      "48_75k": 31200,
+      "75_110k": 33080,
+      "110k_plus": 33365
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.43,
+    "pell_grad_rate": 0.5,
+    "retention_full_time": 0.62,
+    "retention_part_time": 0.41
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 14135,
+    "ug_12mo": 9030,
+    "grad_12mo": 6945,
+    "women_12mo": 10065,
+    "men_12mo": 4070,
+    "fall_total": 8996,
+    "fall_full_time": 5090,
+    "fall_part_time": 4491,
+    "distance_ed_any": 8996,
+    "distance_ed_exclusive": 8996,
+    "race_ethnicity": {
+      "white": 0.6275,
+      "black": 0.1251,
+      "hispanic": 0.049,
+      "asian": 0.0412,
+      "ai_an": 0.012,
+      "nh_pi": 0.0049,
+      "two_or_more": 0.0563,
+      "non_resident": 0.001,
+      "race_unknown": 0.083
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 552
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 535
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 396
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 308
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 218
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 44
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 13
+      }
+    ],
+    "program_count": 43,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 77
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 413413,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 196264,
+        "slug": "empire-state-university",
+        "name": "Empire State University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8111620795107034,
+          "yield_rate": 0.2544769085768143,
+          "grad_rate": 0.36,
+          "retention_rate": 0.66,
+          "enrollment": 10469,
+          "avg_net_price": 11147
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 202806,
+        "slug": "franklin-university",
+        "name": "Franklin University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.03,
+          "retention_rate": 0.36,
+          "enrollment": 9457,
+          "avg_net_price": 22605
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 151801,
+        "slug": "indiana-wesleyan-university-marion",
+        "name": "Indiana Wesleyan University-Marion",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8893911193831427,
+          "yield_rate": 0.16950672645739912,
+          "grad_rate": 0.66,
+          "retention_rate": 0.83,
+          "enrollment": 2204,
+          "avg_net_price": 23069
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 178721,
+        "slug": "park-university",
+        "name": "Park University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.690426638917794,
+          "yield_rate": 0.3911077618688772,
+          "grad_rate": 0.37,
+          "retention_rate": 0.58,
+          "enrollment": 5736,
+          "avg_net_price": 15529
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 127918,
+        "slug": "regis-university",
+        "name": "Regis University",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.864557846906676,
+          "yield_rate": 0.11825348696179502,
+          "grad_rate": 0.62,
+          "retention_rate": 0.71,
+          "enrollment": 4605,
+          "avg_net_price": 22689
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 233684,
+        "slug": "strayer-university-virginia",
+        "name": "Strayer University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.19,
+          "retention_rate": 0.75,
+          "enrollment": 1998
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 163204,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.55,
+          "enrollment": 63012,
+          "avg_net_price": 14514
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 125231,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 179894,
+        "slug": "webster-university",
+        "name": "Webster University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8622742988859009,
+          "yield_rate": 0.1363332590777456,
+          "grad_rate": 0.64,
+          "retention_rate": 0.69,
+          "enrollment": 8260,
+          "avg_net_price": 26196
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 131113,
+        "slug": "wilmington-university",
+        "name": "Wilmington University",
+        "state": "Delaware",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.22,
+          "retention_rate": 0.61,
+          "enrollment": 13746,
+          "avg_net_price": 15355
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=262086",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:05:20.724351+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "University of Massachusetts Global Fact Book",
+      "url": "https://www.umassglobal.edu/about/fact-book",
+      "summary": "The UMass Global Fact Book provides key institutional data reported to IPEDS, including retention and graduation rates for both traditional and non-traditional students. It supports transparency, planning, and compliance while highlighting their commitment to student success. The Fact Book includes retention rates for first-time bachelor’s degree-seeking students and graduation rates for both first-time and non-first-time degree/certificate-seeking undergraduates.",
+      "stored": false,
+      "fetched_at": "2026-05-26T15:01:31.969084+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Classified School Employee Teacher Credentialing Grants",
+      "kind": "opportunity",
+      "url": "https://www.umassglobal.edu/partner-with-umassglobal/partnership-types/grant-aligned-partnerships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Diverse Education Leaders Pipeline Initiative",
+      "kind": "opportunity",
+      "url": "https://www.umassglobal.edu/partner-with-umassglobal/partnership-types/grant-aligned-partnerships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Early Childhood Teacher Development",
+      "kind": "opportunity",
+      "url": "https://www.umassglobal.edu/partner-with-umassglobal/partnership-types/grant-aligned-partnerships",
+      "source": "institution_site"
+    },
+    {
+      "title": "School Counseling Residency",
+      "kind": "opportunity",
+      "url": "https://www.umassglobal.edu/partner-with-umassglobal/partnership-types/grant-aligned-partnerships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Teacher Residency",
+      "kind": "opportunity",
+      "url": "https://www.umassglobal.edu/partner-with-umassglobal/partnership-types/grant-aligned-partnerships",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Travis Couture",
+      "wikipedia_url": "https://en.wikipedia.org/w/index.php?title=Category:University_of_Massachusetts_Global_alumni&oldid=1227670042"
+    }
+  ]
+}
