@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:36.354699+00:00",
+  "generated_at": "2026-05-26T04:49:24.430276+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 20969,
     "fall_part_time": 15781,
     "distance_ed_any": 20969,
-    "distance_ed_exclusive": 9703
+    "distance_ed_exclusive": 9703,
+    "race_ethnicity": {
+      "white": 0.1464,
+      "black": 0.072,
+      "hispanic": 0.5231,
+      "asian": 0.182,
+      "ai_an": 0.0025,
+      "nh_pi": 0.0062,
+      "two_or_more": 0.0591,
+      "non_resident": 0.0006,
+      "race_unknown": 0.0079
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,174 +153,269 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 109208,
         "slug": "american-river-college",
         "name": "American River College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 30462,
+          "avg_net_price": 4628
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 110246,
         "slug": "butte-college",
         "name": "Butte College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 111887,
         "slug": "cerritos-college",
         "name": "Cerritos College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 21859,
+          "avg_net_price": 693
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 111939,
         "slug": "chaffey-college",
         "name": "Chaffey College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 113096,
         "slug": "cosumnes-river-college",
         "name": "Cosumnes River College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 113980,
         "slug": "el-camino-community-college-district",
         "name": "El Camino Community College District",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 115001,
         "slug": "glendale-community-college-2",
         "name": "Glendale Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 366401,
         "slug": "las-positas-college",
         "name": "Las Positas College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 8103,
+          "avg_net_price": 4175
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 117645,
         "slug": "long-beach-city-college",
         "name": "Long Beach City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 24985,
+          "avg_net_price": 5001
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 117715,
         "slug": "los-angeles-southwest-college",
         "name": "Los Angeles Southwest College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5371,
+          "avg_net_price": 6683
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 118976,
         "slug": "modesto-junior-college",
         "name": "Modesto Junior College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 119164,
         "slug": "mt-san-antonio-college",
         "name": "Mt San Antonio College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 29971,
+          "avg_net_price": 3107
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 121044,
         "slug": "pasadena-city-college",
         "name": "Pasadena City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 24597,
+          "avg_net_price": 3123
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 121886,
         "slug": "rio-hondo-college",
         "name": "Rio Hondo College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 122180,
         "slug": "sacramento-city-college",
         "name": "Sacramento City College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 19920,
+          "avg_net_price": 3974
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 122977,
         "slug": "santa-monica-college",
         "name": "Santa Monica College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 123013,
         "slug": "santa-rosa-junior-college",
         "name": "Santa Rosa Junior College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 17854,
+          "avg_net_price": 5541
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 123341,
         "slug": "sierra-college",
         "name": "Sierra College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 123563,
         "slug": "solano-community-college",
         "name": "Solano Community College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:59.350652+00:00",
+  "generated_at": "2026-05-26T04:52:02.750368+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -73,7 +73,18 @@
     "fall_full_time": 11478,
     "fall_part_time": 10278,
     "distance_ed_any": 11478,
-    "distance_ed_exclusive": 5478
+    "distance_ed_exclusive": 5478,
+    "race_ethnicity": {
+      "white": 0.3453,
+      "black": 0.0358,
+      "hispanic": 0.4364,
+      "asian": 0.0722,
+      "ai_an": 0.0037,
+      "nh_pi": 0.0068,
+      "two_or_more": 0.0655,
+      "non_resident": 0.0082,
+      "race_unknown": 0.0261
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -144,291 +155,426 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 126207,
         "slug": "aims-community-college",
         "name": "Aims Community College",
         "state": "Colorado",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 8542,
+          "avg_net_price": 9535
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 126289,
         "slug": "arapahoe-community-college",
         "name": "Arapahoe Community College",
         "state": "Colorado",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15012,
+          "avg_net_price": 10790
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 208390,
         "slug": "chemeketa-community-college",
         "name": "Chemeketa Community College",
         "state": "Oregon",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8098,
+          "avg_net_price": 8457
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 201928,
         "slug": "cincinnati-state-technical-and-community-college",
         "name": "Cincinnati State Technical and Community College",
         "state": "Ohio",
         "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 9683,
+          "avg_net_price": 7113
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 234933,
         "slug": "clark-college",
         "name": "Clark College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7463,
+          "avg_net_price": 9826
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 142559,
         "slug": "college-of-southern-idaho",
         "name": "College of Southern Idaho",
         "state": "Idaho",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 10176,
+          "avg_net_price": 7005
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 126942,
         "slug": "community-college-of-denver",
         "name": "Community College of Denver",
         "state": "Colorado",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7965,
+          "avg_net_price": 9431
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 224350,
         "slug": "del-mar-college",
         "name": "Del Mar College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 10256,
+          "avg_net_price": 4250
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 130907,
         "slug": "delaware-technical-community-college-terry",
         "name": "Delaware Technical Community College-Terry",
         "state": "Delaware",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13337,
+          "avg_net_price": 8033
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 235103,
         "slug": "edmonds-college",
         "name": "Edmonds College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6549,
+          "avg_net_price": 13461
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 235149,
         "slug": "everett-community-college",
         "name": "Everett Community College",
         "state": "Washington",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6698,
+          "avg_net_price": 10627
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 114716,
         "slug": "foothill-college",
         "name": "Foothill College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12949,
+          "avg_net_price": 7549
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 485111,
         "slug": "georgia-military-college",
         "name": "Georgia Military College",
         "state": "Georgia",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 6575,
+          "avg_net_price": 14693
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 104708,
         "slug": "glendale-community-college",
         "name": "Glendale Community College",
         "state": "Arizona",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13914,
+          "avg_net_price": 12158
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 226134,
         "slug": "laredo-college",
         "name": "Laredo College",
         "state": "Texas",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 11029,
+          "avg_net_price": 5309
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 203748,
         "slug": "lorain-county-community-college",
         "name": "Lorain County Community College",
         "state": "Ohio",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9350,
+          "avg_net_price": 4598
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 227146,
         "slug": "navarro-college",
         "name": "Navarro College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6557,
+          "avg_net_price": 14579
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 227304,
         "slug": "odessa-college",
         "name": "Odessa College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 9981,
+          "avg_net_price": 9296
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 236188,
         "slug": "olympic-college",
         "name": "Olympic College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5784,
+          "avg_net_price": 7755
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 177472,
         "slug": "ozarks-technical-community-college",
         "name": "Ozarks Technical Community College",
         "state": "Missouri",
         "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 11380,
+          "avg_net_price": 7340
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 235237,
         "slug": "pierce-college-district",
         "name": "Pierce College District",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8137,
+          "avg_net_price": 10123
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 127909,
         "slug": "red-rocks-community-college",
         "name": "Red Rocks Community College",
         "state": "Colorado",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8419,
+          "avg_net_price": 9356
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 172200,
         "slug": "schoolcraft-community-college-district",
         "name": "Schoolcraft Community College District",
         "state": "Michigan",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8587,
+          "avg_net_price": 5372
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 236513,
         "slug": "seattle-central-college",
         "name": "Seattle Central College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5396,
+          "avg_net_price": 6329
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 123299,
         "slug": "shasta-college",
         "name": "Shasta College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9073,
+          "avg_net_price": 3743
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 123509,
         "slug": "skyline-college",
         "name": "Skyline College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9572,
+          "avg_net_price": -1180
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 230597,
         "slug": "snow-college",
         "name": "Snow College",
         "state": "Utah",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5577,
+          "avg_net_price": 6071
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 123563,
         "slug": "solano-community-college",
         "name": "Solano Community College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 236692,
         "slug": "spokane-community-college",
         "name": "Spokane Community College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6813,
+          "avg_net_price": 6206
+        }
       },
       {
         "rank": 30,
-        "unitid": null,
+        "unitid": 236753,
         "slug": "tacoma-community-college",
         "name": "Tacoma Community College",
         "state": "Washington",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6199,
+          "avg_net_price": 9321
+        }
       },
       {
         "rank": 31,
-        "unitid": null,
+        "unitid": 182500,
         "slug": "truckee-meadows-community-college",
         "name": "Truckee Meadows Community College",
         "state": "Nevada",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 10885,
+          "avg_net_price": 7457
+        }
       },
       {
         "rank": 32,
-        "unitid": null,
+        "unitid": 125471,
         "slug": "west-los-angeles-college",
         "name": "West Los Angeles College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9255,
+          "avg_net_price": 7131
+        }
       }
     ]
   },

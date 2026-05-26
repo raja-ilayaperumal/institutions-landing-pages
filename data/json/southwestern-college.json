@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:36.024142+00:00",
+  "generated_at": "2026-05-26T04:49:22.297690+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -70,7 +70,18 @@
     "fall_full_time": 20986,
     "fall_part_time": 18614,
     "distance_ed_any": 20986,
-    "distance_ed_exclusive": 6041
+    "distance_ed_exclusive": 6041,
+    "race_ethnicity": {
+      "white": 0.0985,
+      "black": 0.0436,
+      "hispanic": 0.6883,
+      "asian": 0.1046,
+      "ai_an": 0.0019,
+      "nh_pi": 0.004,
+      "two_or_more": 0.0383,
+      "non_resident": 0.0007,
+      "race_unknown": 0.0201
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -141,75 +152,116 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 113218,
         "slug": "cuyamaca-college",
         "name": "Cuyamaca College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 8905,
+          "avg_net_price": 6187
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 115296,
         "slug": "grossmont-college",
         "name": "Grossmont College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14440,
+          "avg_net_price": 2755
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 115861,
         "slug": "imperial-valley-college",
         "name": "Imperial Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 8873,
+          "avg_net_price": 1697
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 118912,
         "slug": "miracosta-college",
         "name": "MiraCosta College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 120971,
         "slug": "palomar-college",
         "name": "Palomar College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 122339,
         "slug": "san-diego-city-college",
         "name": "San Diego City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 13242,
+          "avg_net_price": -818
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 122375,
         "slug": "san-diego-mesa-college",
         "name": "San Diego Mesa College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 19212,
+          "avg_net_price": -904
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 122384,
         "slug": "san-diego-miramar-college",
         "name": "San Diego Miramar College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 14257,
+          "avg_net_price": -2735
+        }
       }
     ]
   },

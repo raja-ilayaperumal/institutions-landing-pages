@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:26.396267+00:00",
+  "generated_at": "2026-05-26T04:48:29.337688+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 33677,
     "fall_part_time": 27753,
     "distance_ed_any": 33677,
-    "distance_ed_exclusive": 12938
+    "distance_ed_exclusive": 12938,
+    "race_ethnicity": {
+      "white": 0.1166,
+      "black": 0.0636,
+      "hispanic": 0.6488,
+      "asian": 0.0616,
+      "ai_an": 0.002,
+      "nh_pi": 0.0016,
+      "two_or_more": 0.0098,
+      "non_resident": 0.0066,
+      "race_unknown": 0.0895
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,57 +153,86 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 113980,
         "slug": "el-camino-community-college-district",
         "name": "El Camino Community College District",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 117788,
         "slug": "los-angeles-city-college",
         "name": "Los Angeles City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 14611,
+          "avg_net_price": 7532
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 117733,
         "slug": "los-angeles-valley-college",
         "name": "Los Angeles Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15999,
+          "avg_net_price": 10200
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 121044,
         "slug": "pasadena-city-college",
         "name": "Pasadena City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 24597,
+          "avg_net_price": 3123
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 121886,
         "slug": "rio-hondo-college",
         "name": "Rio Hondo College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 122977,
         "slug": "santa-monica-college",
         "name": "Santa Monica College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
       }
     ]
   },

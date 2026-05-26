@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:32.053445+00:00",
+  "generated_at": "2026-05-26T04:49:13.571792+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -82,7 +82,18 @@
     "fall_full_time": 11237,
     "fall_part_time": 10794,
     "distance_ed_any": 22115,
-    "distance_ed_exclusive": 18317
+    "distance_ed_exclusive": 18317,
+    "race_ethnicity": {
+      "white": 0.2977,
+      "black": 0.1566,
+      "hispanic": 0.3295,
+      "asian": 0.0706,
+      "ai_an": 0.0075,
+      "nh_pi": 0.0108,
+      "two_or_more": 0.0364,
+      "non_resident": 0.0001,
+      "race_unknown": 0.0908
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -153,147 +164,255 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 449339,
         "slug": "american-public-university-system",
         "name": "American Public University System",
         "state": "West Virginia",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.47,
+          "retention_rate": 0.97,
+          "enrollment": 50715,
+          "avg_net_price": 9104
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 104151,
         "slug": "arizona-state-university-campus-immersion",
         "name": "Arizona State University Campus Immersion",
         "state": "Arizona",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8988833746898263,
+          "yield_rate": 0.22113997113997114,
+          "grad_rate": 0.68,
+          "retention_rate": 0.87,
+          "enrollment": 79818,
+          "avg_net_price": 13670
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 483124,
         "slug": "arizona-state-university-digital-immersion",
         "name": "Arizona State University Digital Immersion",
         "state": "Arizona",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6668562329390355,
+          "yield_rate": 0.5406788333617601,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 72994
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 154022,
         "slug": "ashford-university",
         "name": "Ashford University",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.1,
+          "retention_rate": 0.35,
+          "enrollment": 28004,
+          "avg_net_price": 25321
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 110556,
         "slug": "california-state-university-fresno",
         "name": "California State University-Fresno",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.952604432879513,
+          "yield_rate": 0.17516218721038,
+          "grad_rate": 0.57,
+          "retention_rate": 0.82,
+          "enrollment": 24427,
+          "avg_net_price": 6480
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 413413,
         "slug": "capella-university",
         "name": "Capella University",
         "state": "Minnesota",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 126827,
         "slug": "colorado-technical-university-colorado-springs",
         "name": "Colorado Technical University-Colorado Springs",
         "state": "Colorado",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.14,
+          "retention_rate": 0.51,
+          "enrollment": 31830,
+          "avg_net_price": 14954
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 104717,
         "slug": "grand-canyon-university",
         "name": "Grand Canyon University",
         "state": "Arizona",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 232557,
         "slug": "liberty-university",
         "name": "Liberty University",
         "state": "Virginia",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 489779,
         "slug": "purdue-university-global",
         "name": "Purdue University Global",
         "state": "Indiana",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.57,
+          "enrollment": 45588,
+          "avg_net_price": 12267
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 122409,
         "slug": "san-diego-state-university",
         "name": "San Diego State University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36190148046058773,
+          "yield_rate": 0.20358711341789257,
+          "grad_rate": 0.76,
+          "retention_rate": 0.91,
+          "enrollment": 41137,
+          "avg_net_price": 16174
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 183026,
         "slug": "southern-new-hampshire-university",
         "name": "Southern New Hampshire University",
         "state": "New Hampshire",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9951022434884665,
+          "yield_rate": 0.3801401710177142,
+          "grad_rate": 0.44,
+          "retention_rate": 0.61,
+          "enrollment": 189531,
+          "avg_net_price": 33742
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 459994,
         "slug": "strayer-university-global-region",
         "name": "Strayer University-Global Region",
         "state": "District of Columbia",
         "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.08,
+          "retention_rate": 0.6,
+          "enrollment": 12098,
+          "avg_net_price": 18918
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 484613,
         "slug": "university-of-phoenix-arizona",
         "name": "University of Phoenix-Arizona",
         "state": "Arizona",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.16,
+          "retention_rate": 0.41,
+          "enrollment": 111248,
+          "avg_net_price": 13571
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 125231,
         "slug": "walden-university",
         "name": "Walden University",
         "state": "Minnesota",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 433387,
         "slug": "western-governors-university",
         "name": "Western Governors University",
         "state": "Utah",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.46,
+          "retention_rate": 0.65,
+          "enrollment": 210208,
+          "avg_net_price": 10442
+        }
       }
     ]
   },

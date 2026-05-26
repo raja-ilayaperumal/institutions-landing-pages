@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:31.048464+00:00",
+  "generated_at": "2026-05-26T04:49:01.951341+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 21954,
     "fall_part_time": 21605,
     "distance_ed_any": 24427,
-    "distance_ed_exclusive": 855
+    "distance_ed_exclusive": 855,
+    "race_ethnicity": {
+      "white": 0.1503,
+      "black": 0.0301,
+      "hispanic": 0.6228,
+      "asian": 0.118,
+      "ai_an": 0.0028,
+      "nh_pi": 0.0012,
+      "two_or_more": 0.0239,
+      "non_resident": 0.0243,
+      "race_unknown": 0.0265
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,255 +166,478 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 483124,
         "slug": "arizona-state-university-digital-immersion",
         "name": "Arizona State University Digital Immersion",
         "state": "Arizona",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6668562329390355,
+          "yield_rate": 0.5406788333617601,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 72994
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 150136,
         "slug": "ball-state-university",
         "name": "Ball State University",
         "state": "Indiana",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.854975584317072,
+          "yield_rate": 0.204391704558057,
+          "grad_rate": 0.62,
+          "retention_rate": 0.78,
+          "enrollment": 21089,
+          "avg_net_price": 15898
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 142115,
         "slug": "boise-state-university",
         "name": "Boise State University",
         "state": "Idaho",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.872093023255814,
+          "yield_rate": 0.24092691622103388,
+          "grad_rate": 0.59,
+          "retention_rate": 0.79,
+          "enrollment": 27198,
+          "avg_net_price": 19182
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 110565,
         "slug": "california-state-university-fullerton",
         "name": "California State University-Fullerton",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9052073414365466,
+          "yield_rate": 0.1420527205973351,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 43662,
+          "avg_net_price": 5646
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 110583,
         "slug": "california-state-university-long-beach",
         "name": "California State University-Long Beach",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 110510,
         "slug": "california-state-university-san-bernardino",
         "name": "California State University-San Bernardino",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 198464,
         "slug": "east-carolina-university",
         "name": "East Carolina University",
         "state": "North Carolina",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8921081573059274,
+          "yield_rate": 0.17097432409454175,
+          "grad_rate": 0.63,
+          "retention_rate": 0.83,
+          "enrollment": 26940,
+          "avg_net_price": 16514
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 133669,
         "slug": "florida-atlantic-university",
         "name": "Florida Atlantic University",
         "state": "Florida",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6612928818507823,
+          "yield_rate": 0.20309050772626933,
+          "grad_rate": 0.63,
+          "retention_rate": 0.84,
+          "enrollment": 31607,
+          "avg_net_price": 8001
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 139931,
         "slug": "georgia-southern-university",
         "name": "Georgia Southern University",
         "state": "Georgia",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8789347408829175,
+          "yield_rate": 0.28225146039198556,
+          "grad_rate": 0.55,
+          "retention_rate": 0.78,
+          "enrollment": 27423,
+          "avg_net_price": 16531
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 145813,
         "slug": "illinois-state-university",
         "name": "Illinois State University",
         "state": "Illinois",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8815185648727576,
+          "yield_rate": 0.22532470947047378,
+          "grad_rate": 0.65,
+          "retention_rate": 0.81,
+          "enrollment": 21546,
+          "avg_net_price": 18996
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 232423,
         "slug": "james-madison-university",
         "name": "James Madison University",
         "state": "Virginia",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7151556156968877,
+          "yield_rate": 0.1815733934939233,
+          "grad_rate": 0.8,
+          "retention_rate": 0.92,
+          "enrollment": 22740,
+          "avg_net_price": 21816
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 486840,
         "slug": "kennesaw-state-university",
         "name": "Kennesaw State University",
         "state": "Georgia",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6918973471741637,
+          "yield_rate": 0.37995415711606584,
+          "grad_rate": 0.52,
+          "retention_rate": 0.77,
+          "enrollment": 47764,
+          "avg_net_price": 16972
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 204024,
         "slug": "miami-university-oxford",
         "name": "Miami University-Oxford",
         "state": "Ohio",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7539919151086407,
+          "yield_rate": 0.14046845156318064,
+          "grad_rate": 0.8,
+          "retention_rate": 0.9,
+          "enrollment": 18838,
+          "avg_net_price": 27662
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 220978,
         "slug": "middle-tennessee-state-university",
         "name": "Middle Tennessee State University",
         "state": "Tennessee",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6909066648875842,
+          "yield_rate": 0.3040749324063345,
+          "grad_rate": 0.54,
+          "retention_rate": 0.8,
+          "enrollment": 20488,
+          "avg_net_price": 12599
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 185590,
         "slug": "montclair-state-university",
         "name": "Montclair State University",
         "state": "New Jersey",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8788513539246677,
+          "yield_rate": 0.18166059975732363,
+          "grad_rate": 0.65,
+          "retention_rate": 0.78,
+          "enrollment": 23375,
+          "avg_net_price": 14159
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 105330,
         "slug": "northern-arizona-university",
         "name": "Northern Arizona University",
         "state": "Arizona",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8960968660968661,
+          "yield_rate": 0.1581725113661654,
+          "grad_rate": 0.61,
+          "retention_rate": 0.75,
+          "enrollment": 28467,
+          "avg_net_price": 14922
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 209807,
         "slug": "portland-state-university",
         "name": "Portland State University",
         "state": "Oregon",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9086702655062245,
+          "yield_rate": 0.1821047526673133,
+          "grad_rate": 0.53,
+          "retention_rate": 0.76,
+          "enrollment": 19951,
+          "avg_net_price": 12932
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 184782,
         "slug": "rowan-university",
         "name": "Rowan University",
         "state": "New Jersey",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7766038891440821,
+          "yield_rate": 0.23041535226077814,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 21026,
+          "avg_net_price": 22185
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 227881,
         "slug": "sam-houston-state-university",
         "name": "Sam Houston State University",
         "state": "Texas",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9026136562081611,
+          "yield_rate": 0.21088610860312137,
+          "grad_rate": 0.55,
+          "retention_rate": 0.73,
+          "enrollment": 21039,
+          "avg_net_price": 16025
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 122409,
         "slug": "san-diego-state-university",
         "name": "San Diego State University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36190148046058773,
+          "yield_rate": 0.20358711341789257,
+          "grad_rate": 0.76,
+          "retention_rate": 0.91,
+          "enrollment": 41137,
+          "avg_net_price": 16174
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 122597,
         "slug": "san-francisco-state-university",
         "name": "San Francisco State University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9643527869317176,
+          "yield_rate": 0.08598199522322249,
+          "grad_rate": 0.5,
+          "retention_rate": 0.83,
+          "enrollment": 22563,
+          "avg_net_price": 12882
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 228459,
         "slug": "texas-state-university",
         "name": "Texas State University",
         "state": "Texas",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8931646459321736,
+          "yield_rate": 0.26870614466522397,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 40674,
+          "avg_net_price": 16438
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 227368,
         "slug": "the-university-of-texas-rio-grande-valley",
         "name": "The University of Texas Rio Grande Valley",
         "state": "Texas",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9419382924307559,
+          "yield_rate": 0.4051415366839977,
+          "grad_rate": 0.51,
+          "retention_rate": 0.81,
+          "enrollment": 33881,
+          "avg_net_price": 6500
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 199139,
         "slug": "university-of-north-carolina-at-charlotte",
         "name": "University of North Carolina at Charlotte",
         "state": "North Carolina",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.796039686858961,
+          "yield_rate": 0.24491191164869838,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 31091,
+          "avg_net_price": 14745
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 199148,
         "slug": "university-of-north-carolina-at-greensboro",
         "name": "University of North Carolina at Greensboro",
         "state": "North Carolina",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8850787766450418,
+          "yield_rate": 0.21230366492146596,
+          "grad_rate": 0.56,
+          "retention_rate": 0.79,
+          "enrollment": 18012,
+          "avg_net_price": 10170
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 199218,
         "slug": "university-of-north-carolina-wilmington",
         "name": "University of North Carolina Wilmington",
         "state": "North Carolina",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6424263227578091,
+          "yield_rate": 0.21021296084268376,
+          "grad_rate": 0.71,
+          "retention_rate": 0.88,
+          "enrollment": 18848,
+          "avg_net_price": 19472
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 217484,
         "slug": "university-of-rhode-island",
         "name": "University of Rhode Island",
         "state": "Rhode Island",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7216437544002668,
+          "yield_rate": 0.15378690629011554,
+          "grad_rate": 0.72,
+          "retention_rate": 0.84,
+          "enrollment": 17210,
+          "avg_net_price": 19899
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 216764,
         "slug": "west-chester-university-of-pennsylvania",
         "name": "West Chester University of Pennsylvania",
         "state": "Pennsylvania",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7839818530797418,
+          "yield_rate": 0.22420060835373545,
+          "grad_rate": 0.71,
+          "retention_rate": 0.83,
+          "enrollment": 17171,
+          "avg_net_price": 22673
+        }
       }
     ]
   },

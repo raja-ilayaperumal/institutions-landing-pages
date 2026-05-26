@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T18:00:02.904503+00:00",
+  "generated_at": "2026-05-26T04:52:37.631355+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 8455,
     "fall_part_time": 8385,
     "distance_ed_any": 9724,
-    "distance_ed_exclusive": 1332
+    "distance_ed_exclusive": 1332,
+    "race_ethnicity": {
+      "white": 0.1732,
+      "black": 0.0285,
+      "hispanic": 0.6297,
+      "asian": 0.0893,
+      "ai_an": 0.0021,
+      "nh_pi": 0.0062,
+      "two_or_more": 0.0253,
+      "non_resident": 0.0041,
+      "race_unknown": 0.0416
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,255 +166,479 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 222831,
         "slug": "angelo-state-university",
         "name": "Angelo State University",
         "state": "Texas",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8300857365549493,
+          "yield_rate": 0.28056338028169014,
+          "grad_rate": 0.44,
+          "retention_rate": 0.69,
+          "enrollment": 11542,
+          "avg_net_price": 12915
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 219602,
         "slug": "austin-peay-state-university",
         "name": "Austin Peay State University",
         "state": "Tennessee",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9641446848839046,
+          "yield_rate": 0.274737876802097,
+          "grad_rate": 0.39,
+          "retention_rate": 0.7,
+          "enrollment": 10439,
+          "avg_net_price": 14846
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 165024,
         "slug": "bridgewater-state-university",
         "name": "Bridgewater State University",
         "state": "Massachusetts",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8780782761653474,
+          "yield_rate": 0.1941905596594466,
+          "grad_rate": 0.53,
+          "retention_rate": 0.75,
+          "enrollment": 9727,
+          "avg_net_price": 17970
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 110486,
         "slug": "california-state-university-bakersfield",
         "name": "California State University-Bakersfield",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.938544107642301,
+          "yield_rate": 0.10422036082474227,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 10419,
+          "avg_net_price": 5825
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 128771,
         "slug": "central-connecticut-state-university",
         "name": "Central Connecticut State University",
         "state": "Connecticut",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7332660612176253,
+          "yield_rate": 0.20626911314984708,
+          "grad_rate": 0.48,
+          "retention_rate": 0.77,
+          "enrollment": 9997,
+          "avg_net_price": 16435
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 234827,
         "slug": "central-washington-university",
         "name": "Central Washington University",
         "state": "Washington",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9061553985872856,
+          "yield_rate": 0.20032170254887405,
+          "grad_rate": 0.54,
+          "retention_rate": 0.7,
+          "enrollment": 10811,
+          "avg_net_price": 14715
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 218724,
         "slug": "coastal-carolina-university",
         "name": "Coastal Carolina University",
         "state": "South Carolina",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7527106714856382,
+          "yield_rate": 0.16913065453626486,
+          "grad_rate": 0.48,
+          "retention_rate": 0.77,
+          "enrollment": 11348,
+          "avg_net_price": 13742
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 190558,
         "slug": "college-of-staten-island-cuny",
         "name": "College of Staten Island CUNY",
         "state": "New York",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9233680902728182,
+          "yield_rate": 0.169773377678088,
+          "grad_rate": 0.46,
+          "retention_rate": 0.76,
+          "enrollment": 11033,
+          "avg_net_price": 5115
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 155061,
         "slug": "fort-hays-state-university",
         "name": "Fort Hays State University",
         "state": "Kansas",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9026345933562429,
+          "yield_rate": 0.4183587140439932,
+          "grad_rate": 0.46,
+          "retention_rate": 0.77,
+          "enrollment": 12878,
+          "avg_net_price": 13493
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 101480,
         "slug": "jacksonville-state-university",
         "name": "Jacksonville State University",
         "state": "Alabama",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7769443700330386,
+          "yield_rate": 0.19963222618089874,
+          "grad_rate": 0.55,
+          "retention_rate": 0.65,
+          "enrollment": 9955,
+          "avg_net_price": 14850
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 157401,
         "slug": "murray-state-university",
         "name": "Murray State University",
         "state": "Kentucky",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8567613961472439,
+          "yield_rate": 0.1738646482635797,
+          "grad_rate": 0.64,
+          "retention_rate": 0.76,
+          "enrollment": 10020,
+          "avg_net_price": 9121
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 178624,
         "slug": "northwest-missouri-state-university",
         "name": "Northwest Missouri State University",
         "state": "Missouri",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8609450337512053,
+          "yield_rate": 0.2217741935483871,
+          "grad_rate": 0.54,
+          "retention_rate": 0.74,
+          "enrollment": 9152,
+          "avg_net_price": 14824
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 216038,
         "slug": "slippery-rock-university-of-pennsylvania",
         "name": "Slippery Rock University of Pennsylvania",
         "state": "Pennsylvania",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7147277227722773,
+          "yield_rate": 0.33506493506493507,
+          "grad_rate": 0.66,
+          "retention_rate": 0.84,
+          "enrollment": 8376,
+          "avg_net_price": 19524
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 179557,
         "slug": "southeast-missouri-state-university",
         "name": "Southeast Missouri State University",
         "state": "Missouri",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7352069591817226,
+          "yield_rate": 0.17943050318554155,
+          "grad_rate": 0.58,
+          "retention_rate": 0.76,
+          "enrollment": 9501,
+          "avg_net_price": 14532
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 130493,
         "slug": "southern-connecticut-state-university",
         "name": "Southern Connecticut State University",
         "state": "Connecticut",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9146881744859707,
+          "yield_rate": 0.13611525086934922,
+          "grad_rate": 0.5,
+          "retention_rate": 0.78,
+          "enrollment": 9377,
+          "avg_net_price": 20877
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 228431,
         "slug": "stephen-f-austin-state-university",
         "name": "Stephen F Austin State University",
         "state": "Texas",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9399087967049132,
+          "yield_rate": 0.17106189842710698,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 10472,
+          "avg_net_price": 15152
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 226152,
         "slug": "texas-a-m-international-university",
         "name": "Texas A & M International University",
         "state": "Texas",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44369925873632193,
+          "yield_rate": 0.3614425881728984,
+          "grad_rate": 0.46,
+          "retention_rate": 0.78,
+          "enrollment": 8991,
+          "avg_net_price": 3061
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 187134,
         "slug": "the-college-of-new-jersey",
         "name": "The College of New Jersey",
         "state": "New Jersey",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6229045903180322,
+          "yield_rate": 0.1965543259557344,
+          "grad_rate": 0.86,
+          "retention_rate": 0.91,
+          "enrollment": 8141,
+          "avg_net_price": 25458
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 176965,
         "slug": "university-of-central-missouri",
         "name": "University of Central Missouri",
         "state": "Missouri",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6380378962280857,
+          "yield_rate": 0.286150430197058,
+          "grad_rate": 0.54,
+          "retention_rate": 0.74,
+          "enrollment": 12857,
+          "avg_net_price": 15336
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 206941,
         "slug": "university-of-central-oklahoma",
         "name": "University of Central Oklahoma",
         "state": "Oklahoma",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7812126387702818,
+          "yield_rate": 0.4293834717971141,
+          "grad_rate": 0.37,
+          "retention_rate": 0.65,
+          "enrollment": 12554,
+          "avg_net_price": 18990
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 174233,
         "slug": "university-of-minnesota-duluth",
         "name": "University of Minnesota-Duluth",
         "state": "Minnesota",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8875430603400378,
+          "yield_rate": 0.2252410166520596,
+          "grad_rate": 0.65,
+          "retention_rate": 0.81,
+          "enrollment": 9253,
+          "avg_net_price": 18464
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 101879,
         "slug": "university-of-north-alabama",
         "name": "University of North Alabama",
         "state": "Alabama",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8731195566112431,
+          "yield_rate": 0.22489231466787576,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 10204,
+          "avg_net_price": 11024
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 154095,
         "slug": "university-of-northern-iowa",
         "name": "University of Northern Iowa",
         "state": "Iowa",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9274253731343284,
+          "yield_rate": 0.31100382216857775,
+          "grad_rate": 0.68,
+          "retention_rate": 0.82,
+          "enrollment": 9278,
+          "avg_net_price": 14609
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 240329,
         "slug": "university-of-wisconsin-la-crosse",
         "name": "University of Wisconsin-La Crosse",
         "state": "Wisconsin",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7550448430493274,
+          "yield_rate": 0.4315144766146993,
+          "grad_rate": 0.71,
+          "retention_rate": 0.87,
+          "enrollment": 10446,
+          "avg_net_price": 15374
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 240189,
         "slug": "university-of-wisconsin-whitewater",
         "name": "University of Wisconsin-Whitewater",
         "state": "Wisconsin",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571709040934524,
+          "yield_rate": 0.24736601007787448,
+          "grad_rate": 0.63,
+          "retention_rate": 0.78,
+          "enrollment": 11746,
+          "avg_net_price": 14785
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 229814,
         "slug": "west-texas-a-m-university",
         "name": "West Texas A & M University",
         "state": "Texas",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9868173258003766,
+          "yield_rate": 0.32633587786259544,
+          "grad_rate": 0.48,
+          "retention_rate": 0.7,
+          "enrollment": 9045,
+          "avg_net_price": 20841
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 187444,
         "slug": "william-paterson-university-of-new-jersey",
         "name": "William Paterson University of New Jersey",
         "state": "New Jersey",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9008183306055646,
+          "yield_rate": 0.12560562015503876,
+          "grad_rate": 0.44,
+          "retention_rate": 0.74,
+          "enrollment": 9942,
+          "avg_net_price": 17764
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 206695,
         "slug": "youngstown-state-university",
         "name": "Youngstown State University",
         "state": "Ohio",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8444625407166124,
+          "yield_rate": 0.2936354869816779,
+          "grad_rate": 0.5,
+          "retention_rate": 0.76,
+          "enrollment": 12204,
+          "avg_net_price": 11877
+        }
       }
     ]
   },

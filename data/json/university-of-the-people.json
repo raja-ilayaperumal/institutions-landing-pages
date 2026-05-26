@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:25.466528+00:00",
+  "generated_at": "2026-05-26T04:48:17.197215+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -70,7 +70,18 @@
     "fall_full_time": 36901,
     "fall_part_time": 22688,
     "distance_ed_any": 41961,
-    "distance_ed_exclusive": 41961
+    "distance_ed_exclusive": 41961,
+    "race_ethnicity": {
+      "white": 0.0554,
+      "black": 0.029,
+      "hispanic": 0.0282,
+      "asian": 0.0166,
+      "ai_an": 0.0009,
+      "nh_pi": 0.0007,
+      "two_or_more": 0.0055,
+      "non_resident": 0.0,
+      "race_unknown": 0.8637
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -110,255 +121,390 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 210809,
         "slug": "american-college-of-financial-services",
         "name": "American College of Financial Services",
         "state": "Pennsylvania",
         "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5514
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 496627,
         "slug": "california-northstate-university",
         "name": "California Northstate University",
         "state": "California",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9247311827956989,
+          "yield_rate": 0.05813953488372093,
+          "grad_rate": 1.0,
+          "retention_rate": 0.86,
+          "enrollment": 981
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 420024,
         "slug": "centura-college-chesapeake",
         "name": "Centura College-Chesapeake",
         "state": "Virginia",
         "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 191,
+          "avg_net_price": 26254
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 499176,
         "slug": "college-of-biomedical-equipment-technology",
         "name": "College of Biomedical Equipment Technology",
         "state": "Texas",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 319
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 487445,
         "slug": "florida-career-college-boynton-beach",
         "name": "Florida Career College-Boynton Beach",
         "state": "Florida",
         "carnegie": "Special Focus Two-Year: Health Professions",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "avg_net_price": 32348
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 487409,
         "slug": "florida-career-college-hialeah",
         "name": "Florida Career College-Hialeah",
         "state": "Florida",
         "carnegie": "Special Focus Two-Year: Health Professions",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "avg_net_price": 34326
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 487490,
         "slug": "florida-career-college-houston",
         "name": "Florida Career College-Houston",
         "state": "Texas",
         "carnegie": "Special Focus Two-Year: Health Professions",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "avg_net_price": 33884
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 487418,
         "slug": "florida-career-college-lauderdale-lakes",
         "name": "Florida Career College-Lauderdale Lakes",
         "state": "Florida",
         "carnegie": "Special Focus Two-Year: Health Professions",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "avg_net_price": 35448
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 487454,
         "slug": "florida-career-college-margate",
         "name": "Florida Career College-Margate",
         "state": "Florida",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "avg_net_price": 33485
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 133997,
         "slug": "florida-career-college-miami",
         "name": "Florida Career College-Miami",
         "state": "Florida",
         "carnegie": "Special Focus Two-Year: Technical Professions",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "avg_net_price": 34275
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 487393,
         "slug": "florida-career-college-west-palm-beach",
         "name": "Florida Career College-West Palm Beach",
         "state": "Florida",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "avg_net_price": 34536
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 170286,
         "slug": "hillsdale-college",
         "name": "Hillsdale College",
         "state": "Michigan",
         "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.20716755737189563,
+          "yield_rate": 0.5553869499241275,
+          "grad_rate": 0.9,
+          "retention_rate": 0.97,
+          "enrollment": 1792
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 493947,
         "slug": "idaho-college-of-osteopathic-medicine",
         "name": "Idaho College of Osteopathic Medicine",
         "state": "Idaho",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 632
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 117557,
         "slug": "lincoln-university",
         "name": "Lincoln University",
         "state": "California",
         "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.89,
+          "enrollment": 436
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 484844,
         "slug": "minerva-university",
         "name": "Minerva University",
         "state": "California",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.030375552282768777,
+          "yield_rate": 0.43636363636363634,
+          "grad_rate": 0.89,
+          "retention_rate": 0.98,
+          "enrollment": 669
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 488721,
         "slug": "nationsuniversity",
         "name": "NationsUniversity",
         "state": "Louisiana",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1077
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 159948,
         "slug": "new-orleans-baptist-theological-seminary",
         "name": "New Orleans Baptist Theological Seminary",
         "state": "Louisiana",
         "carnegie": "Associates Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.7,
+          "retention_rate": 0.92,
+          "enrollment": 2349
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 440396,
         "slug": "new-saint-andrews-college",
         "name": "New Saint Andrews College",
         "state": "Idaho",
         "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8388888888888889,
+          "yield_rate": 0.6556291390728477,
+          "grad_rate": 0.66,
+          "retention_rate": 0.85,
+          "enrollment": 413
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 451927,
         "slug": "patrick-henry-college",
         "name": "Patrick Henry College",
         "state": "Virginia",
         "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7744360902255639,
+          "yield_rate": 0.47572815533980584,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 425
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 148016,
         "slug": "principia-college",
         "name": "Principia College",
         "state": "Illinois",
         "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44402985074626866,
+          "yield_rate": 0.7058823529411765,
+          "grad_rate": 0.74,
+          "retention_rate": 0.83,
+          "enrollment": 339
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 493895,
         "slug": "sans-technology-institute",
         "name": "SANS Technology Institute",
         "state": "Maryland",
         "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1963
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 458885,
         "slug": "strayer-university-arkansas",
         "name": "Strayer University-Arkansas",
         "state": "Arkansas",
         "carnegie": "Baccalaureate Colleges: Diverse Fields",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 741
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 453215,
         "slug": "strayer-university-new-jersey",
         "name": "Strayer University-New Jersey",
         "state": "New Jersey",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 796
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 456621,
         "slug": "strayer-university-west-virginia",
         "name": "Strayer University-West Virginia",
         "state": "West Virginia",
         "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 252,
+          "avg_net_price": 16943
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 488800,
         "slug": "teachers-college-of-san-joaquin",
         "name": "Teachers College of San Joaquin",
         "state": "California",
         "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 974
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 157748,
         "slug": "the-southern-baptist-theological-seminary",
         "name": "The Southern Baptist Theological Seminary",
         "state": "Kentucky",
         "carnegie": "Associates Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5586776859504132,
+          "yield_rate": 0.5591715976331361,
+          "grad_rate": 0.35,
+          "retention_rate": 0.79,
+          "enrollment": 4298
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 494603,
         "slug": "the-southwestern-baptist-theological-seminary",
         "name": "The Southwestern Baptist Theological Seminary",
         "state": "Texas",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5770609318996416,
+          "yield_rate": 0.6211180124223602,
+          "grad_rate": 0.21,
+          "retention_rate": 0.83,
+          "enrollment": 2850
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 497107,
         "slug": "university-of-silicon-andhra",
         "name": "University of Silicon Andhra",
         "state": "California",
         "carnegie": null,
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8333333333333334,
+          "enrollment": 238
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:59.183560+00:00",
+  "generated_at": "2026-05-26T04:51:57.671517+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 8417,
     "fall_part_time": 8179,
     "distance_ed_any": 11902,
-    "distance_ed_exclusive": 3062
+    "distance_ed_exclusive": 3062,
+    "race_ethnicity": {
+      "white": 0.3201,
+      "black": 0.0625,
+      "hispanic": 0.423,
+      "asian": 0.0615,
+      "ai_an": 0.0048,
+      "nh_pi": 0.0068,
+      "two_or_more": 0.0576,
+      "non_resident": 0.0195,
+      "race_unknown": 0.0441
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,129 +166,241 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 109785,
         "slug": "azusa-pacific-university",
         "name": "Azusa Pacific University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 110097,
         "slug": "biola-university",
         "name": "Biola University",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 110510,
         "slug": "california-state-university-san-bernardino",
         "name": "California State University-San Bernardino",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 111948,
         "slug": "chapman-university",
         "name": "Chapman University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 112075,
         "slug": "concordia-university-irvine",
         "name": "Concordia University-Irvine",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6598685701336959,
+          "yield_rate": 0.11607142857142858,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 3658,
+          "avg_net_price": 28046
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 117946,
         "slug": "loyola-marymount-university",
         "name": "Loyola Marymount University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 121150,
         "slug": "pepperdine-university",
         "name": "Pepperdine University",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 121309,
         "slug": "point-loma-nazarene-university",
         "name": "Point Loma Nazarene University",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 122931,
         "slug": "santa-clara-university",
         "name": "Santa Clara University",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 117140,
         "slug": "university-of-la-verne",
         "name": "University of La Verne",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 121691,
         "slug": "university-of-redlands",
         "name": "University of Redlands",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 122436,
         "slug": "university-of-san-diego",
         "name": "University of San Diego",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 120883,
         "slug": "university-of-the-pacific",
         "name": "University of the Pacific",
         "state": "California",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 123651,
         "slug": "vanguard-university-of-southern-california",
         "name": "Vanguard University of Southern California",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Medium Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
       }
     ]
   },

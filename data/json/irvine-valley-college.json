@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:54.236430+00:00",
+  "generated_at": "2026-05-26T04:51:20.451693+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 13018,
     "fall_part_time": 10286,
     "distance_ed_any": 13018,
-    "distance_ed_exclusive": 4924
+    "distance_ed_exclusive": 4924,
+    "race_ethnicity": {
+      "white": 0.2867,
+      "black": 0.0218,
+      "hispanic": 0.2495,
+      "asian": 0.2995,
+      "ai_an": 0.0014,
+      "nh_pi": 0.0019,
+      "two_or_more": 0.06,
+      "non_resident": 0.0553,
+      "race_unknown": 0.0239
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,48 +153,73 @@
     "institutions": [
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 112385,
         "slug": "coastline-community-college",
         "name": "Coastline Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 9008,
+          "avg_net_price": 9605
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 113236,
         "slug": "cypress-college",
         "name": "Cypress College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15924,
+          "avg_net_price": 4683
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 115126,
         "slug": "golden-west-college",
         "name": "Golden West College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10721,
+          "avg_net_price": 2861
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 118912,
         "slug": "miracosta-college",
         "name": "MiraCosta College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.96,
+          "retention_rate": 0.91,
+          "enrollment": 11478,
+          "avg_net_price": 7178
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 399212,
         "slug": "santiago-canyon-college",
         "name": "Santiago Canyon College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 11897,
+          "avg_net_price": 3407
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:40.405163+00:00",
+  "generated_at": "2026-05-26T04:50:08.168768+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -66,7 +66,18 @@
     "fall_full_time": 17627,
     "fall_part_time": 15259,
     "distance_ed_any": 17627,
-    "distance_ed_exclusive": 118
+    "distance_ed_exclusive": 118,
+    "race_ethnicity": {
+      "white": 0.2211,
+      "black": 0.0553,
+      "hispanic": 0.5178,
+      "asian": 0.0726,
+      "ai_an": 0.0036,
+      "nh_pi": 0.0042,
+      "two_or_more": 0.0501,
+      "non_resident": 0.0,
+      "race_unknown": 0.0752
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -137,48 +148,73 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 123341,
         "slug": "sierra-college",
         "name": "Sierra College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.7869
+        "similarity_score": 1.7869,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 122658,
         "slug": "san-joaquin-delta-college",
         "name": "San Joaquin Delta College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.7753
+        "similarity_score": 1.7753,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 20969,
+          "avg_net_price": 8508
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 112190,
         "slug": "city-college-of-san-francisco",
         "name": "City College of San Francisco",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.7713
+        "similarity_score": 1.7713,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19267,
+          "avg_net_price": 7272
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 120971,
         "slug": "palomar-college",
         "name": "Palomar College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.7695
+        "similarity_score": 1.7695,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 122180,
         "slug": "sacramento-city-college",
         "name": "Sacramento City College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.7426
+        "similarity_score": 1.7426,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 19920,
+          "avg_net_price": 3974
+        }
       }
     ]
   },

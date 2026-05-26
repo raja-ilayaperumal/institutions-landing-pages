@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:28.740106+00:00",
+  "generated_at": "2026-05-26T04:48:38.053890+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -68,7 +68,18 @@
     "fall_full_time": 28071,
     "fall_part_time": 21251,
     "distance_ed_any": 28071,
-    "distance_ed_exclusive": 8294
+    "distance_ed_exclusive": 8294,
+    "race_ethnicity": {
+      "white": 0.1507,
+      "black": 0.0475,
+      "hispanic": 0.6541,
+      "asian": 0.1058,
+      "ai_an": 0.0043,
+      "nh_pi": 0.0015,
+      "two_or_more": 0.0298,
+      "non_resident": 0.001,
+      "race_unknown": 0.0053
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -139,264 +150,411 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 109208,
         "slug": "american-river-college",
         "name": "American River College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 30462,
+          "avg_net_price": 4628
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 161767,
         "slug": "anne-arundel-community-college",
         "name": "Anne Arundel Community College",
         "state": "Maryland",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 11481,
+          "avg_net_price": 15929
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 175315,
         "slug": "century-college",
         "name": "Century College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 8726,
+          "avg_net_price": 10037
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 144166,
         "slug": "city-colleges-of-chicago-malcolm-x-college",
         "name": "City Colleges of Chicago-Malcolm X College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 9303,
+          "avg_net_price": 3729
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 113096,
         "slug": "cosumnes-river-college",
         "name": "Cosumnes River College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 198376,
         "slug": "davidson-davie-community-college",
         "name": "Davidson-Davie Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 4305,
+          "avg_net_price": 7258
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 113333,
         "slug": "de-anza-college",
         "name": "De Anza College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 17425,
+          "avg_net_price": 4667
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 191083,
         "slug": "erie-community-college",
         "name": "Erie Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 8090,
+          "avg_net_price": 6358
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 198534,
         "slug": "fayetteville-technical-community-college",
         "name": "Fayetteville Technical Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 11755,
+          "avg_net_price": 3723
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 191719,
         "slug": "hudson-valley-community-college",
         "name": "Hudson Valley Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 9227,
+          "avg_net_price": 7118
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 153524,
         "slug": "iowa-central-community-college",
         "name": "Iowa Central Community College",
         "state": "Iowa",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 4949,
+          "avg_net_price": 9601
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 101514,
         "slug": "john-c-calhoun-state-community-college",
         "name": "John C Calhoun State Community College",
         "state": "Alabama",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 9119,
+          "avg_net_price": 7336
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 198774,
         "slug": "johnston-community-college",
         "name": "Johnston Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 5371,
+          "avg_net_price": 3946
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 146296,
         "slug": "joliet-junior-college",
         "name": "Joliet Junior College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 14414,
+          "avg_net_price": 5741
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 226019,
         "slug": "kilgore-college",
         "name": "Kilgore College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 7198,
+          "avg_net_price": 6629
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 213525,
         "slug": "lehigh-carbon-community-college",
         "name": "Lehigh Carbon Community College",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 6221,
+          "avg_net_price": 9568
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 174136,
         "slug": "minneapolis-community-and-technical-college",
         "name": "Minneapolis Community and Technical College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 6733,
+          "avg_net_price": 13235
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 214111,
         "slug": "montgomery-county-community-college",
         "name": "Montgomery County Community College",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 9278,
+          "avg_net_price": 9930
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 187620,
         "slug": "new-mexico-state-university-dona-ana",
         "name": "New Mexico State University-Dona Ana",
         "state": "New Mexico",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 7200,
+          "avg_net_price": 4621
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 186645,
         "slug": "raritan-valley-community-college",
         "name": "Raritan Valley Community College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9862365591397849,
+          "yield_rate": 0.6127344090710859,
+          "retention_rate": 0.68,
+          "enrollment": 6762,
+          "avg_net_price": 6613
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 174738,
         "slug": "rochester-community-and-technical-college",
         "name": "Rochester Community and Technical College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 5205,
+          "avg_net_price": 13148
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 175041,
         "slug": "saint-paul-college",
         "name": "Saint Paul College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 5198,
+          "avg_net_price": 12040
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 122746,
         "slug": "san-jose-city-college",
         "name": "San Jose City College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 8609,
+          "avg_net_price": 16658
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 161545,
         "slug": "southern-maine-community-college",
         "name": "Southern Maine Community College",
         "state": "Maine",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 7900,
+          "avg_net_price": 11638
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 233772,
         "slug": "tidewater-community-college",
         "name": "Tidewater Community College",
         "state": "Virginia",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 16884,
+          "avg_net_price": 7991
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 218894,
         "slug": "trident-technical-college",
         "name": "Trident Technical College",
         "state": "South Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 13552,
+          "avg_net_price": -3220
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 125091,
         "slug": "victor-valley-college",
         "name": "Victor Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 8423,
+          "avg_net_price": 3228
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 233754,
         "slug": "virginia-peninsula-community-college",
         "name": "Virginia Peninsula Community College",
         "state": "Virginia",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 6410,
+          "avg_net_price": 6468
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 233949,
         "slug": "virginia-western-community-college",
         "name": "Virginia Western Community College",
         "state": "Virginia",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6332,
+          "avg_net_price": 5618
+        }
       }
     ]
   },

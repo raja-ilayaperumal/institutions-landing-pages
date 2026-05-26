@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:55.321537+00:00",
+  "generated_at": "2026-05-26T04:51:29.683891+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -70,7 +70,18 @@
     "fall_full_time": 12519,
     "fall_part_time": 9998,
     "distance_ed_any": 12519,
-    "distance_ed_exclusive": 3146
+    "distance_ed_exclusive": 3146,
+    "race_ethnicity": {
+      "white": 0.078,
+      "black": 0.1417,
+      "hispanic": 0.7089,
+      "asian": 0.0284,
+      "ai_an": 0.0025,
+      "nh_pi": 0.001,
+      "two_or_more": 0.0212,
+      "non_resident": 0.0036,
+      "race_unknown": 0.0148
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -141,273 +152,420 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 172918,
         "slug": "alexandria-technical-and-community-college",
         "name": "Alexandria Technical & Community College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 3281,
+          "avg_net_price": 14150
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 222567,
         "slug": "alvin-community-college",
         "name": "Alvin Community College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5872,
+          "avg_net_price": 4233
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 235671,
         "slug": "bates-technical-college",
         "name": "Bates Technical College",
         "state": "Washington",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4083,
+          "avg_net_price": 4176
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 180902,
         "slug": "central-community-college",
         "name": "Central Community College",
         "state": "Nebraska",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6927,
+          "avg_net_price": 6781
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 240116,
         "slug": "chippewa-valley-technical-college",
         "name": "Chippewa Valley Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 8330,
+          "avg_net_price": 12025
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 223320,
         "slug": "coastal-bend-college",
         "name": "Coastal Bend College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 4259,
+          "avg_net_price": 3886
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 485458,
         "slug": "coastal-pines-technical-college",
         "name": "Coastal Pines Technical College",
         "state": "Georgia",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 4130,
+          "avg_net_price": 124
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 104425,
         "slug": "cochise-county-community-college-district",
         "name": "Cochise County Community College District",
         "state": "Arizona",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3905,
+          "avg_net_price": 7420
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 144865,
         "slug": "college-of-dupage",
         "name": "College of DuPage",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 26224,
+          "avg_net_price": 6182
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 238722,
         "slug": "fox-valley-technical-college",
         "name": "Fox Valley Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 10670,
+          "avg_net_price": 10910
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 232414,
         "slug": "j-sargeant-reynolds-community-college",
         "name": "J Sargeant Reynolds Community College",
         "state": "Virginia",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 8681,
+          "avg_net_price": 4553
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 146205,
         "slug": "john-a-logan-college",
         "name": "John A Logan College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 3224,
+          "avg_net_price": 7599
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 170550,
         "slug": "kellogg-community-college",
         "name": "Kellogg Community College",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4036,
+          "avg_net_price": 4867
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 146506,
         "slug": "lake-land-college",
         "name": "Lake Land College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 3960,
+          "avg_net_price": 3271
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 173461,
         "slug": "lake-superior-college",
         "name": "Lake Superior College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 4074,
+          "avg_net_price": 16050
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 157304,
         "slug": "madisonville-community-college",
         "name": "Madisonville Community College",
         "state": "Kentucky",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 3569,
+          "avg_net_price": 5782
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 239220,
         "slug": "mid-state-technical-college",
         "name": "Mid-State Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 3144,
+          "avg_net_price": 10724
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 173638,
         "slug": "minnesota-west-community-and-technical-college",
         "name": "Minnesota West Community and Technical College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 3695,
+          "avg_net_price": 11898
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 239460,
         "slug": "northcentral-technical-college",
         "name": "Northcentral Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 6746,
+          "avg_net_price": 11555
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 154110,
         "slug": "northeast-iowa-community-college",
         "name": "Northeast Iowa Community College",
         "state": "Iowa",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4808,
+          "avg_net_price": 10059
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 204440,
         "slug": "northwest-state-community-college",
         "name": "Northwest State Community College",
         "state": "Ohio",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 4082,
+          "avg_net_price": 13696
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 240198,
         "slug": "northwood-technical-college",
         "name": "Northwood Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 2940,
+          "avg_net_price": 8892
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 160649,
         "slug": "southern-university-at-shreveport",
         "name": "Southern University at Shreveport",
         "state": "Louisiana",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 2951,
+          "avg_net_price": 12890
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 228699,
         "slug": "texarkana-college",
         "name": "Texarkana College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 4290,
+          "avg_net_price": 7236
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 240125,
         "slug": "waukesha-county-technical-college",
         "name": "Waukesha County Technical College",
         "state": "Wisconsin",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 8367,
+          "avg_net_price": 9400
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 154572,
         "slug": "western-iowa-tech-community-college",
         "name": "Western Iowa Tech Community College",
         "state": "Iowa",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 5482,
+          "avg_net_price": 8875
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 216825,
         "slug": "westmoreland-county-community-college",
         "name": "Westmoreland County Community College",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3990,
+          "avg_net_price": 6356
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 156107,
         "slug": "wichita-state-university-campus-of-applied-sciences-and-technology",
         "name": "Wichita State University-Campus of Applied Sciences and Technology",
         "state": "Kansas",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 6106,
+          "avg_net_price": 10741
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 141255,
         "slug": "wiregrass-georgia-technical-college",
         "name": "Wiregrass Georgia Technical College",
         "state": "Georgia",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4466,
+          "avg_net_price": 1228
+        }
       },
       {
         "rank": 30,
-        "unitid": null,
+        "unitid": 455512,
         "slug": "woodland-community-college",
         "name": "Woodland Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
       }
     ]
   },

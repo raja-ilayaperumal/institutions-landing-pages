@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:29.487631+00:00",
+  "generated_at": "2026-05-26T04:48:52.156306+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -69,7 +69,18 @@
     "fall_full_time": 27248,
     "fall_part_time": 22485,
     "distance_ed_any": 27248,
-    "distance_ed_exclusive": 8579
+    "distance_ed_exclusive": 8579,
+    "race_ethnicity": {
+      "white": 0.1778,
+      "black": 0.0157,
+      "hispanic": 0.5311,
+      "asian": 0.0747,
+      "ai_an": 0.002,
+      "nh_pi": 0.0025,
+      "two_or_more": 0.019,
+      "non_resident": 0.0065,
+      "race_unknown": 0.1707
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -140,273 +151,406 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 109350,
         "slug": "antelope-valley-community-college-district",
         "name": "Antelope Valley Community College District",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 13532,
+          "avg_net_price": 8263
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 222992,
         "slug": "austin-community-college-district",
         "name": "Austin Community College District",
         "state": "Texas",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 39727,
+          "avg_net_price": 6306
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 109819,
         "slug": "bakersfield-college",
         "name": "Bakersfield College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "enrollment": 30746,
+          "avg_net_price": 4751
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 132709,
         "slug": "broward-college",
         "name": "Broward College",
         "state": "Florida",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 30728,
+          "avg_net_price": 20077
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 182005,
         "slug": "college-of-southern-nevada",
         "name": "College of Southern Nevada",
         "state": "Nevada",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 28313,
+          "avg_net_price": 6329
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 247834,
         "slug": "collin-county-community-college-district",
         "name": "Collin County Community College District",
         "state": "Texas",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 39548,
+          "avg_net_price": 8986
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 113236,
         "slug": "cypress-college",
         "name": "Cypress College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15924,
+          "avg_net_price": 4683
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 224615,
         "slug": "dallas-college",
         "name": "Dallas College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 69749,
+          "avg_net_price": 4146
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 127200,
         "slug": "front-range-community-college",
         "name": "Front Range Community College",
         "state": "Colorado",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 21970,
+          "avg_net_price": 10854
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 218113,
         "slug": "greenville-technical-college",
         "name": "Greenville Technical College",
         "state": "South Carolina",
         "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 11999,
+          "avg_net_price": 6246
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 170240,
         "slug": "henry-ford-college",
         "name": "Henry Ford College",
         "state": "Michigan",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 11410,
+          "avg_net_price": 576
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 134495,
         "slug": "hillsborough-community-college",
         "name": "Hillsborough Community College",
         "state": "Florida",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 21483,
+          "avg_net_price": 4929
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 225423,
         "slug": "houston-community-college",
         "name": "Houston Community College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 53253,
+          "avg_net_price": 6738
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 227182,
         "slug": "lone-star-college-system",
         "name": "Lone Star College System",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 73077,
+          "avg_net_price": 9322
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 135717,
         "slug": "miami-dade-college",
         "name": "Miami Dade College",
         "state": "Florida",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 58941,
+          "avg_net_price": 5929
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 118976,
         "slug": "modesto-junior-college",
         "name": "Modesto Junior College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 136358,
         "slug": "palm-beach-state-college",
         "name": "Palm Beach State College",
         "state": "Florida",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 25916,
+          "avg_net_price": 9832
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 127820,
         "slug": "pikes-peak-state-college",
         "name": "Pikes Peak State College",
         "state": "Colorado",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12556,
+          "avg_net_price": 9682
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 121886,
         "slug": "rio-hondo-college",
         "name": "Rio Hondo College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 105668,
         "slug": "rio-salado-college",
         "name": "Rio Salado College",
         "state": "Arizona",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 18841,
+          "avg_net_price": 8764
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 179308,
         "slug": "saint-louis-community-college",
         "name": "Saint Louis Community College",
         "state": "Missouri",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15649,
+          "avg_net_price": 6458
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 227924,
         "slug": "san-antonio-college",
         "name": "San Antonio College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 19901,
+          "avg_net_price": 5290
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 122375,
         "slug": "san-diego-mesa-college",
         "name": "San Diego Mesa College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 19212,
+          "avg_net_price": -904
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 227979,
         "slug": "san-jacinto-community-college",
         "name": "San Jacinto Community College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 31812,
+          "avg_net_price": 7540
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 137096,
         "slug": "santa-fe-college",
         "name": "Santa Fe College",
         "state": "Florida",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12758,
+          "avg_net_price": 11154
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 122977,
         "slug": "santa-monica-college",
         "name": "Santa Monica College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 205470,
         "slug": "sinclair-community-college",
         "name": "Sinclair Community College",
         "state": "Ohio",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 19415,
+          "avg_net_price": 5741
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 409315,
         "slug": "south-texas-college",
         "name": "South Texas College",
         "state": "Texas",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.58,
+          "enrollment": 27431,
+          "avg_net_price": 1291
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 229355,
         "slug": "tyler-junior-college",
         "name": "Tyler Junior College",
         "state": "Texas",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.6,
+          "enrollment": 11885,
+          "avg_net_price": 9924
+        }
       },
       {
         "rank": 30,
-        "unitid": null,
+        "unitid": 138187,
         "slug": "valencia-college",
         "name": "Valencia College",
         "state": "Florida",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 47425,
+          "avg_net_price": 10399
+        }
       }
     ]
   },

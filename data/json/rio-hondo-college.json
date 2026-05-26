@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:41.886687+00:00",
+  "generated_at": "2026-05-26T04:50:10.212243+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -69,7 +69,18 @@
     "fall_full_time": 17441,
     "fall_part_time": 15684,
     "distance_ed_any": 17441,
-    "distance_ed_exclusive": 4556
+    "distance_ed_exclusive": 4556,
+    "race_ethnicity": {
+      "white": 0.1041,
+      "black": 0.0213,
+      "hispanic": 0.7103,
+      "asian": 0.0525,
+      "ai_an": 0.0015,
+      "nh_pi": 0.0016,
+      "two_or_more": 0.01,
+      "non_resident": 0.0017,
+      "race_unknown": 0.0971
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -140,48 +151,72 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 122375,
         "slug": "san-diego-mesa-college",
         "name": "San Diego Mesa College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.7781
+        "similarity_score": 1.7781,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 19212,
+          "avg_net_price": -904
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 114716,
         "slug": "foothill-college",
         "name": "Foothill College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.7625
+        "similarity_score": 1.7625,
+        "metrics": {
+          "enrollment": 12949,
+          "avg_net_price": 7549
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 118976,
         "slug": "modesto-junior-college",
         "name": "Modesto Junior College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.752
+        "similarity_score": 1.752,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 122977,
         "slug": "santa-monica-college",
         "name": "Santa Monica College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.7498
+        "similarity_score": 1.7498,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 113236,
         "slug": "cypress-college",
         "name": "Cypress College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.7166
+        "similarity_score": 1.7166,
+        "metrics": {
+          "enrollment": 15924,
+          "avg_net_price": 4683
+        }
       }
     ]
   },

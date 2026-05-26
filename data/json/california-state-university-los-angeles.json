@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:31.389250+00:00",
+  "generated_at": "2026-05-26T04:49:05.562928+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 19586,
     "fall_part_time": 19562,
     "distance_ed_any": 23163,
-    "distance_ed_exclusive": 1217
+    "distance_ed_exclusive": 1217,
+    "race_ethnicity": {
+      "white": 0.0406,
+      "black": 0.0397,
+      "hispanic": 0.7716,
+      "asian": 0.1014,
+      "ai_an": 0.0008,
+      "nh_pi": 0.0006,
+      "two_or_more": 0.0146,
+      "non_resident": 0.0106,
+      "race_unknown": 0.0203
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,102 +166,190 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 110486,
         "slug": "california-state-university-bakersfield",
         "name": "California State University-Bakersfield",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.938544107642301,
+          "yield_rate": 0.10422036082474227,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 10419,
+          "avg_net_price": 5825
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 110547,
         "slug": "california-state-university-dominguez-hills",
         "name": "California State University-Dominguez Hills",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9329852919030169,
+          "yield_rate": 0.09318842139244593,
+          "grad_rate": 0.43,
+          "retention_rate": 0.74,
+          "enrollment": 15182,
+          "avg_net_price": 3659
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 110556,
         "slug": "california-state-university-fresno",
         "name": "California State University-Fresno",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.952604432879513,
+          "yield_rate": 0.17516218721038,
+          "grad_rate": 0.57,
+          "retention_rate": 0.82,
+          "enrollment": 24427,
+          "avg_net_price": 6480
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 110608,
         "slug": "california-state-university-northridge",
         "name": "California State University-Northridge",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9344644750795335,
+          "yield_rate": 0.17972245639063614,
+          "grad_rate": 0.57,
+          "retention_rate": 0.73,
+          "enrollment": 38313,
+          "avg_net_price": 7599
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 110510,
         "slug": "california-state-university-san-bernardino",
         "name": "California State University-San Bernardino",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 190600,
         "slug": "cuny-john-jay-college-of-criminal-justice",
         "name": "CUNY John Jay College of Criminal Justice",
         "state": "New York",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5711092629171431,
+          "yield_rate": 0.19368344407026486,
+          "grad_rate": 0.56,
+          "retention_rate": 0.82,
+          "enrollment": 13763,
+          "avg_net_price": 3046
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 185129,
         "slug": "new-jersey-city-university",
         "name": "New Jersey City University",
         "state": "New Jersey",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9837999647825322,
+          "yield_rate": 0.09826382674064793,
+          "grad_rate": 0.34,
+          "retention_rate": 0.65,
+          "enrollment": 5429,
+          "avg_net_price": 11732
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 207263,
         "slug": "northeastern-state-university",
         "name": "Northeastern State University",
         "state": "Oklahoma",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9959467284308049,
+          "yield_rate": 0.3901162790697674,
+          "grad_rate": 0.35,
+          "retention_rate": 0.6,
+          "enrollment": 6751,
+          "avg_net_price": 11800
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 160038,
         "slug": "northwestern-state-university-of-louisiana",
         "name": "Northwestern State University of Louisiana",
         "state": "Louisiana",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9253731343283582,
+          "yield_rate": 0.37383512544802866,
+          "grad_rate": 0.45,
+          "retention_rate": 0.71,
+          "enrollment": 8523,
+          "avg_net_price": 13809
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 229027,
         "slug": "the-university-of-texas-at-san-antonio",
         "name": "The University of Texas at San Antonio",
         "state": "Texas",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8678703485170325,
+          "yield_rate": 0.27104201604496214,
+          "grad_rate": 0.53,
+          "retention_rate": 0.8,
+          "enrollment": 35770,
+          "avg_net_price": 11234
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 102368,
         "slug": "troy-university",
         "name": "Troy University",
         "state": "Alabama",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9604179860671311,
+          "yield_rate": 0.20672601384767555,
+          "grad_rate": 0.49,
+          "retention_rate": 0.71,
+          "enrollment": 13658,
+          "avg_net_price": 13869
+        }
       }
     ]
   },

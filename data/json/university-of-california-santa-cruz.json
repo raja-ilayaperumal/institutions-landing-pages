@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:37.160467+00:00",
+  "generated_at": "2026-05-26T04:49:30.407920+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -85,7 +85,18 @@
     "fall_full_time": 17940,
     "fall_part_time": 17940,
     "distance_ed_any": 19938,
-    "distance_ed_exclusive": 166
+    "distance_ed_exclusive": 166,
+    "race_ethnicity": {
+      "white": 0.3078,
+      "black": 0.0195,
+      "hispanic": 0.285,
+      "asian": 0.2465,
+      "ai_an": 0.0008,
+      "nh_pi": 0.0013,
+      "two_or_more": 0.0851,
+      "non_resident": 0.031,
+      "race_unknown": 0.023
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -156,318 +167,595 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 196079,
         "slug": "binghamton-university",
         "name": "Binghamton University",
         "state": "New York",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38606221819759656,
+          "yield_rate": 0.15871774824081314,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 18816,
+          "avg_net_price": 21364
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 126775,
         "slug": "colorado-school-of-mines",
         "name": "Colorado School of Mines",
         "state": "Colorado",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6068555438964673,
+          "yield_rate": 0.230835734870317,
+          "grad_rate": 0.82,
+          "retention_rate": 0.93,
+          "enrollment": 8044,
+          "avg_net_price": 29240
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 190576,
         "slug": "cuny-graduate-school-and-university-center",
         "name": "CUNY Graduate School and University Center",
         "state": "New York",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.684931506849315,
+          "yield_rate": 0.12,
+          "enrollment": 9536
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 155399,
         "slug": "kansas-state-university",
         "name": "Kansas State University",
         "state": "Kansas",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8168805209878135,
+          "yield_rate": 0.2748441076643776,
+          "grad_rate": 0.71,
+          "retention_rate": 0.86,
+          "enrollment": 20295,
+          "avg_net_price": 17883
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 203517,
         "slug": "kent-state-university-at-kent",
         "name": "Kent State University at Kent",
         "state": "Ohio",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.863353784892934,
+          "yield_rate": 0.20256024096385541,
+          "grad_rate": 0.64,
+          "retention_rate": 0.81,
+          "enrollment": 26374,
+          "avg_net_price": 19614
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 176080,
         "slug": "mississippi-state-university",
         "name": "Mississippi State University",
         "state": "Mississippi",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7763642594020389,
+          "yield_rate": 0.1984,
+          "grad_rate": 0.67,
+          "retention_rate": 0.83,
+          "enrollment": 23150,
+          "avg_net_price": 15501
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 180461,
         "slug": "montana-state-university",
         "name": "Montana State University",
         "state": "Montana",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8214483650471088,
+          "yield_rate": 0.2030810750028112,
+          "grad_rate": 0.57,
+          "retention_rate": 0.79,
+          "enrollment": 17135,
+          "avg_net_price": 20593
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 185828,
         "slug": "new-jersey-institute-of-technology",
         "name": "New Jersey Institute of Technology",
         "state": "New Jersey",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6507336451592234,
+          "yield_rate": 0.17191807798345807,
+          "grad_rate": 0.73,
+          "retention_rate": 0.9,
+          "enrollment": 13247,
+          "avg_net_price": 16496
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 200332,
         "slug": "north-dakota-state-university-main-campus",
         "name": "North Dakota State University-Main Campus",
         "state": "North Dakota",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9496402877697842,
+          "yield_rate": 0.32007575757575757,
+          "grad_rate": 0.64,
+          "retention_rate": 0.78,
+          "enrollment": 11952,
+          "avg_net_price": 16334
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 204857,
         "slug": "ohio-university-main-campus",
         "name": "Ohio University-Main Campus",
         "state": "Ohio",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8498872153096122,
+          "yield_rate": 0.19216609589041095,
+          "grad_rate": 0.65,
+          "retention_rate": 0.84,
+          "enrollment": 26323,
+          "avg_net_price": 20413
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 207388,
         "slug": "oklahoma-state-university-main-campus",
         "name": "Oklahoma State University-Main Campus",
         "state": "Oklahoma",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7504215174628663,
+          "yield_rate": 0.26908468410634995,
+          "grad_rate": 0.68,
+          "retention_rate": 0.85,
+          "enrollment": 27278,
+          "avg_net_price": 16378
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 232982,
         "slug": "old-dominion-university",
         "name": "Old Dominion University",
         "state": "Virginia",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9036423841059603,
+          "yield_rate": 0.1994137046537193,
+          "grad_rate": 0.46,
+          "retention_rate": 0.77,
+          "enrollment": 23743,
+          "avg_net_price": 14170
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 180489,
         "slug": "the-university-of-montana",
         "name": "The University of Montana",
         "state": "Montana",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9586466165413534,
+          "yield_rate": 0.1929193899782135,
+          "grad_rate": 0.49,
+          "retention_rate": 0.75,
+          "enrollment": 10811,
+          "avg_net_price": 17118
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 228796,
         "slug": "the-university-of-texas-at-el-paso",
         "name": "The University of Texas at El Paso",
         "state": "Texas",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9991663887962654,
+          "yield_rate": 0.33530785916903055,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 25039,
+          "avg_net_price": 10726
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 196060,
         "slug": "university-at-albany",
         "name": "University at Albany",
         "state": "New York",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6909561679304606,
+          "yield_rate": 0.12624910778015702,
+          "grad_rate": 0.61,
+          "retention_rate": 0.83,
+          "enrollment": 17560,
+          "avg_net_price": 18486
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 100663,
         "slug": "university-of-alabama-at-birmingham",
         "name": "University of Alabama at Birmingham",
         "state": "Alabama",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8817998066613938,
+          "yield_rate": 0.20071756029499702,
+          "grad_rate": 0.64,
+          "retention_rate": 0.8,
+          "enrollment": 20905,
+          "avg_net_price": 17727
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 100706,
         "slug": "university-of-alabama-in-huntsville",
         "name": "University of Alabama in Huntsville",
         "state": "Alabama",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6857142857142857,
+          "yield_rate": 0.231651376146789,
+          "grad_rate": 0.64,
+          "retention_rate": 0.84,
+          "enrollment": 8564,
+          "avg_net_price": 19880
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 126562,
         "slug": "university-of-colorado-denver-anschutz-medical-campus",
         "name": "University of Colorado Denver/Anschutz Medical Campus",
         "state": "Colorado",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7468354430379747,
+          "yield_rate": 0.13075060532687652,
+          "grad_rate": 0.46,
+          "retention_rate": 0.73,
+          "enrollment": 23124,
+          "avg_net_price": 19133
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 141574,
         "slug": "university-of-hawaii-at-manoa",
         "name": "University of Hawaii at Manoa",
         "state": "Hawaii",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8659849300322928,
+          "yield_rate": 0.21428078171397003,
+          "grad_rate": 0.64,
+          "retention_rate": 0.81,
+          "enrollment": 20028,
+          "avg_net_price": 13181
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 155317,
         "slug": "university-of-kansas",
         "name": "University of Kansas",
         "state": "Kansas",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9348030228502437,
+          "yield_rate": 0.25462807940684046,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 29792,
+          "avg_net_price": 17365
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 160658,
         "slug": "university-of-louisiana-at-lafayette",
         "name": "University of Louisiana at Lafayette",
         "state": "Louisiana",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8700783854401297,
+          "yield_rate": 0.31728280004142073,
+          "grad_rate": 0.53,
+          "retention_rate": 0.74,
+          "enrollment": 15665,
+          "avg_net_price": 14118
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 157289,
         "slug": "university-of-louisville",
         "name": "University of Louisville",
         "state": "Kentucky",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7941026295634415,
+          "yield_rate": 0.2507635428387719,
+          "grad_rate": 0.61,
+          "retention_rate": 0.81,
+          "enrollment": 23065,
+          "avg_net_price": 17634
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 161253,
         "slug": "university-of-maine",
         "name": "University of Maine",
         "state": "Maine",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9663913414981486,
+          "yield_rate": 0.15421455938697318,
+          "grad_rate": 0.55,
+          "retention_rate": 0.83,
+          "enrollment": 12029,
+          "avg_net_price": 18045
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 163268,
         "slug": "university-of-maryland-baltimore-county",
         "name": "University of Maryland-Baltimore County",
         "state": "Maryland",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7242582897033158,
+          "yield_rate": 0.216,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 13906,
+          "avg_net_price": 18328
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 220862,
         "slug": "university-of-memphis",
         "name": "University of Memphis",
         "state": "Tennessee",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7202996552638558,
+          "yield_rate": 0.1805798435342844,
+          "grad_rate": 0.51,
+          "retention_rate": 0.77,
+          "enrollment": 20276,
+          "avg_net_price": 13253
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 176017,
         "slug": "university-of-mississippi",
         "name": "University of Mississippi",
         "state": "Mississippi",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9658304109342685,
+          "yield_rate": 0.18533345746826801,
+          "grad_rate": 0.72,
+          "retention_rate": 0.87,
+          "enrollment": 26449,
+          "avg_net_price": 13164
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 181464,
         "slug": "university-of-nebraska-lincoln",
         "name": "University of Nebraska-Lincoln",
         "state": "Nebraska",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8748949049941147,
+          "yield_rate": 0.2979050547760907,
+          "grad_rate": 0.67,
+          "retention_rate": 0.86,
+          "enrollment": 24393,
+          "avg_net_price": 17424
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 182290,
         "slug": "university-of-nevada-reno",
         "name": "University of Nevada-Reno",
         "state": "Nevada",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7371457661632446,
+          "yield_rate": 0.26450276243093923,
+          "grad_rate": 0.61,
+          "retention_rate": 0.8,
+          "enrollment": 23024,
+          "avg_net_price": 15402
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 183044,
         "slug": "university-of-new-hampshire-main-campus",
         "name": "University of New Hampshire-Main Campus",
         "state": "New Hampshire",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8815584415584415,
+          "yield_rate": 0.1395510794450099,
+          "grad_rate": 0.76,
+          "retention_rate": 0.87,
+          "enrollment": 13554,
+          "avg_net_price": 23261
+        }
       },
       {
         "rank": 30,
-        "unitid": null,
+        "unitid": 187985,
         "slug": "university-of-new-mexico-main-campus",
         "name": "University of New Mexico-Main Campus",
         "state": "New Mexico",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9518298149808461,
+          "yield_rate": 0.3118684706285323,
+          "grad_rate": 0.54,
+          "retention_rate": 0.76,
+          "enrollment": 23124,
+          "avg_net_price": 17478
+        }
       },
       {
         "rank": 31,
-        "unitid": null,
+        "unitid": 209551,
         "slug": "university-of-oregon",
         "name": "University of Oregon",
         "state": "Oregon",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8829614452412483,
+          "yield_rate": 0.14395675920423354,
+          "grad_rate": 0.72,
+          "retention_rate": 0.86,
+          "enrollment": 24404,
+          "avg_net_price": 21782
+        }
       },
       {
         "rank": 32,
-        "unitid": null,
+        "unitid": 176372,
         "slug": "university-of-southern-mississippi",
         "name": "University of Southern Mississippi",
         "state": "Mississippi",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9912031782065834,
+          "yield_rate": 0.24978528485542514,
+          "grad_rate": 0.49,
+          "retention_rate": 0.72,
+          "enrollment": 13170,
+          "avg_net_price": 14224
+        }
       },
       {
         "rank": 33,
-        "unitid": null,
+        "unitid": 240453,
         "slug": "university-of-wisconsin-milwaukee",
         "name": "University of Wisconsin-Milwaukee",
         "state": "Wisconsin",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9068350021767523,
+          "yield_rate": 0.23756943968177766,
+          "grad_rate": 0.53,
+          "retention_rate": 0.73,
+          "enrollment": 22450,
+          "avg_net_price": 16177
+        }
       },
       {
         "rank": 34,
-        "unitid": null,
+        "unitid": 230728,
         "slug": "utah-state-university",
         "name": "Utah State University",
         "state": "Utah",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9246801782377462,
+          "yield_rate": 0.23825068656407067,
+          "grad_rate": 0.57,
+          "retention_rate": 0.71,
+          "enrollment": 28904,
+          "avg_net_price": 12869
+        }
       },
       {
         "rank": 35,
-        "unitid": null,
+        "unitid": 172644,
         "slug": "wayne-state-university",
         "name": "Wayne State University",
         "state": "Michigan",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8115540898651434,
+          "yield_rate": 0.22385893621653,
+          "grad_rate": 0.58,
+          "retention_rate": 0.83,
+          "enrollment": 23803,
+          "avg_net_price": 14773
+        }
       }
     ]
   },

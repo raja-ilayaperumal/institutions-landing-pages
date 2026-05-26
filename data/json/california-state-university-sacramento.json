@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:26.666162+00:00",
+  "generated_at": "2026-05-26T04:48:30.853204+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 28820,
     "fall_part_time": 28350,
     "distance_ed_any": 31943,
-    "distance_ed_exclusive": 2090
+    "distance_ed_exclusive": 2090,
+    "race_ethnicity": {
+      "white": 0.2176,
+      "black": 0.0664,
+      "hispanic": 0.3862,
+      "asian": 0.2087,
+      "ai_an": 0.0026,
+      "nh_pi": 0.0099,
+      "two_or_more": 0.0585,
+      "non_resident": 0.0153,
+      "race_unknown": 0.0349
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,102 +166,190 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 110538,
         "slug": "california-state-university-chico",
         "name": "California State University-Chico",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9271503301603636,
+          "yield_rate": 0.10160477269574064,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 15257,
+          "avg_net_price": 14838
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 110547,
         "slug": "california-state-university-dominguez-hills",
         "name": "California State University-Dominguez Hills",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9329852919030169,
+          "yield_rate": 0.09318842139244593,
+          "grad_rate": 0.43,
+          "retention_rate": 0.74,
+          "enrollment": 15182,
+          "avg_net_price": 3659
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 110574,
         "slug": "california-state-university-east-bay",
         "name": "California State University-East Bay",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9738771382826326,
+          "yield_rate": 0.06852989530154885,
+          "grad_rate": 0.48,
+          "retention_rate": 0.76,
+          "enrollment": 12326,
+          "avg_net_price": 11276
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 110556,
         "slug": "california-state-university-fresno",
         "name": "California State University-Fresno",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.952604432879513,
+          "yield_rate": 0.17516218721038,
+          "grad_rate": 0.57,
+          "retention_rate": 0.82,
+          "enrollment": 24427,
+          "avg_net_price": 6480
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 110565,
         "slug": "california-state-university-fullerton",
         "name": "California State University-Fullerton",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9052073414365466,
+          "yield_rate": 0.1420527205973351,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 43662,
+          "avg_net_price": 5646
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 110583,
         "slug": "california-state-university-long-beach",
         "name": "California State University-Long Beach",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 110592,
         "slug": "california-state-university-los-angeles",
         "name": "California State University-Los Angeles",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125080218806344,
+          "yield_rate": 0.0942397856664434,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 23163,
+          "avg_net_price": 4113
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 110608,
         "slug": "california-state-university-northridge",
         "name": "California State University-Northridge",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9344644750795335,
+          "yield_rate": 0.17972245639063614,
+          "grad_rate": 0.57,
+          "retention_rate": 0.73,
+          "enrollment": 38313,
+          "avg_net_price": 7599
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 110510,
         "slug": "california-state-university-san-bernardino",
         "name": "California State University-San Bernardino",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 122597,
         "slug": "san-francisco-state-university",
         "name": "San Francisco State University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9643527869317176,
+          "yield_rate": 0.08598199522322249,
+          "grad_rate": 0.5,
+          "retention_rate": 0.83,
+          "enrollment": 22563,
+          "avg_net_price": 12882
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 122755,
         "slug": "san-jose-state-university",
         "name": "San Jose State University",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8461434880965205,
+          "yield_rate": 0.14653553582227313,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 37661,
+          "avg_net_price": 13741
+        }
       }
     ]
   },

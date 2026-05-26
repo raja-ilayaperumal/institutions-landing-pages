@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:54.135267+00:00",
+  "generated_at": "2026-05-26T04:51:18.409916+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 13242,
     "fall_part_time": 10441,
     "distance_ed_any": 13242,
-    "distance_ed_exclusive": 4533
+    "distance_ed_exclusive": 4533,
+    "race_ethnicity": {
+      "white": 0.2285,
+      "black": 0.0948,
+      "hispanic": 0.4881,
+      "asian": 0.1033,
+      "ai_an": 0.0015,
+      "nh_pi": 0.0044,
+      "two_or_more": 0.0667,
+      "non_resident": 0.0011,
+      "race_unknown": 0.0116
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,273 +153,419 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 172963,
         "slug": "anoka-ramsey-community-college",
         "name": "Anoka-Ramsey Community College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 8486,
+          "avg_net_price": 11471
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 232450,
         "slug": "brightpoint-community-college",
         "name": "Brightpoint Community College",
         "state": "Virginia",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 9380,
+          "avg_net_price": 5583
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 183938,
         "slug": "camden-county-college",
         "name": "Camden County College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 7622,
+          "avg_net_price": 5124
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 144184,
         "slug": "city-colleges-of-chicago-harry-s-truman-college",
         "name": "City Colleges of Chicago-Harry S Truman College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 6839,
+          "avg_net_price": 3816
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 144218,
         "slug": "city-colleges-of-chicago-wilbur-wright-college",
         "name": "City Colleges of Chicago-Wilbur Wright College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 7798,
+          "avg_net_price": 2651
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 489201,
         "slug": "clovis-community-college-2",
         "name": "Clovis Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 10358,
+          "avg_net_price": 7118
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 112385,
         "slug": "coastline-community-college",
         "name": "Coastline Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 9008,
+          "avg_net_price": 9605
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 146472,
         "slug": "college-of-lake-county",
         "name": "College of Lake County",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 12530,
+          "avg_net_price": 6212
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 455114,
         "slug": "college-of-western-idaho",
         "name": "College of Western Idaho",
         "state": "Idaho",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 11015,
+          "avg_net_price": 7697
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 126863,
         "slug": "community-college-of-aurora",
         "name": "Community College of Aurora",
         "state": "Colorado",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 8833,
+          "avg_net_price": 7466
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 145682,
         "slug": "illinois-central-college",
         "name": "Illinois Central College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 7906,
+          "avg_net_price": 11510
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 155210,
         "slug": "johnson-county-community-college",
         "name": "Johnson County Community College",
         "state": "Kansas",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 18743,
+          "avg_net_price": 13912
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 209038,
         "slug": "lane-community-college",
         "name": "Lane Community College",
         "state": "Oregon",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6810,
+          "avg_net_price": 7427
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 117788,
         "slug": "los-angeles-city-college",
         "name": "Los Angeles City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 14611,
+          "avg_net_price": 7532
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 117867,
         "slug": "los-angeles-mission-college",
         "name": "Los Angeles Mission College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 10690,
+          "avg_net_price": 11972
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 147004,
         "slug": "mchenry-county-college",
         "name": "McHenry County College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 9399,
+          "avg_net_price": 8093
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 226578,
         "slug": "mclennan-community-college",
         "name": "McLennan Community College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 7850,
+          "avg_net_price": 6185
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 193283,
         "slug": "mohawk-valley-community-college",
         "name": "Mohawk Valley Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 5940,
+          "avg_net_price": 8404
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 174428,
         "slug": "normandale-community-college",
         "name": "Normandale Community College",
         "state": "Minnesota",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 11026,
+          "avg_net_price": 12370
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 147800,
         "slug": "oakton-college",
         "name": "Oakton College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 8329,
+          "avg_net_price": 6188
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 185873,
         "slug": "ocean-county-college",
         "name": "Ocean County College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 7095,
+          "avg_net_price": 10576
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 246354,
         "slug": "palo-alto-college",
         "name": "Palo Alto College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12395,
+          "avg_net_price": 4374
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 105525,
         "slug": "pima-community-college",
         "name": "Pima Community College",
         "state": "Arizona",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 16283,
+          "avg_net_price": 3123
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 117052,
         "slug": "reedley-college",
         "name": "Reedley College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 8796,
+          "avg_net_price": 1584
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 122384,
         "slug": "san-diego-miramar-college",
         "name": "San Diego Miramar College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 14257,
+          "avg_net_price": -2735
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 105747,
         "slug": "scottsdale-community-college",
         "name": "Scottsdale Community College",
         "state": "Arizona",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7065,
+          "avg_net_price": 14380
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 227377,
         "slug": "texas-southmost-college",
         "name": "Texas Southmost College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 8828,
+          "avg_net_price": 5458
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 172617,
         "slug": "washtenaw-community-college",
         "name": "Washtenaw Community College",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 11133,
+          "avg_net_price": 3561
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 172635,
         "slug": "wayne-county-community-college-district",
         "name": "Wayne County Community College District",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 11887,
+          "avg_net_price": 5762
+        }
       },
       {
         "rank": 30,
-        "unitid": null,
+        "unitid": 149842,
         "slug": "william-rainey-harper-college",
         "name": "William Rainey Harper College",
         "state": "Illinois",
         "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 13988,
+          "avg_net_price": 6186
+        }
       }
     ]
   },

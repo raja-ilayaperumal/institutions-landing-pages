@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:29.038611+00:00",
+  "generated_at": "2026-05-26T04:48:39.327341+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -75,7 +75,18 @@
     "fall_full_time": 21113,
     "fall_part_time": 20152,
     "distance_ed_any": 28004,
-    "distance_ed_exclusive": 27981
+    "distance_ed_exclusive": 27981,
+    "race_ethnicity": {
+      "white": 0.3976,
+      "black": 0.2823,
+      "hispanic": 0.2145,
+      "asian": 0.0266,
+      "ai_an": 0.0082,
+      "nh_pi": 0.01,
+      "two_or_more": 0.0439,
+      "non_resident": 0.0016,
+      "race_unknown": 0.0153
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -146,57 +157,93 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 445027,
         "slug": "american-intercontinental-university-system",
         "name": "American InterContinental University System",
         "state": "Arizona",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.06,
+          "retention_rate": 0.36,
+          "enrollment": 11277,
+          "avg_net_price": 14449
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 413413,
         "slug": "capella-university",
         "name": "Capella University",
         "state": "Minnesota",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 104717,
         "slug": "grand-canyon-university",
         "name": "Grand Canyon University",
         "state": "Arizona",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 131803,
         "slug": "strayer-university-district-of-columbia",
         "name": "Strayer University-District of Columbia",
         "state": "District of Columbia",
         "carnegie": "Masters Colleges & Universities: Small Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 188
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 163204,
         "slug": "university-of-maryland-global-campus",
         "name": "University of Maryland Global Campus",
         "state": "Maryland",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.55,
+          "enrollment": 63012,
+          "avg_net_price": 14514
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 125231,
         "slug": "walden-university",
         "name": "Walden University",
         "state": "Minnesota",
         "carnegie": "Doctoral/Professional Universities",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:38.424869+00:00",
+  "generated_at": "2026-05-26T04:49:53.952195+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 7904,
     "fall_part_time": 7554,
     "distance_ed_any": 18625,
-    "distance_ed_exclusive": 350
+    "distance_ed_exclusive": 350,
+    "race_ethnicity": {
+      "white": 0.2416,
+      "black": 0.0791,
+      "hispanic": 0.1766,
+      "asian": 0.2747,
+      "ai_an": 0.0079,
+      "nh_pi": 0.0024,
+      "two_or_more": 0.0958,
+      "non_resident": 0.1178,
+      "race_unknown": 0.0041
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,93 +166,173 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 217156,
         "slug": "brown-university",
         "name": "Brown University",
         "state": "Rhode Island",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05394241779813512,
+          "yield_rate": 0.6516300227445034,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 11956,
+          "avg_net_price": 26572
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 190150,
         "slug": "columbia-university-in-the-city-of-new-york",
         "name": "Columbia University in the City of New York",
         "state": "New York",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03992347999667304,
+          "yield_rate": 0.6491666666666667,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 35173,
+          "avg_net_price": 20148
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 190415,
         "slug": "cornell-university",
         "name": "Cornell University",
         "state": "New York",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08756528503167019,
+          "yield_rate": 0.639050036258158,
+          "grad_rate": 0.95,
+          "retention_rate": 0.98,
+          "enrollment": 26793,
+          "avg_net_price": 32337
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 182670,
         "slug": "dartmouth-college",
         "name": "Dartmouth College",
         "state": "New Hampshire",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.054018195602729344,
+          "yield_rate": 0.6912280701754386,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 6938,
+          "avg_net_price": 28619
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 166027,
         "slug": "harvard-university",
         "name": "Harvard University",
         "state": "Massachusetts",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.036476077618130646,
+          "yield_rate": 0.8360406091370558,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 30259,
+          "avg_net_price": 16816
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 162928,
         "slug": "johns-hopkins-university",
         "name": "Johns Hopkins University",
         "state": "Maryland",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.06436430983767295,
+          "yield_rate": 0.470209884901828,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 30210,
+          "avg_net_price": 18161
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 166683,
         "slug": "massachusetts-institute-of-technology",
         "name": "Massachusetts Institute of Technology",
         "state": "Massachusetts",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.04548030603570417,
+          "yield_rate": 0.8582554517133957,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 11886,
+          "avg_net_price": 19813
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 186131,
         "slug": "princeton-university",
         "name": "Princeton University",
         "state": "New Jersey",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.046159928832657904,
+          "yield_rate": 0.7548179871520343,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 9137,
+          "avg_net_price": 10555
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 215062,
         "slug": "university-of-pennsylvania",
         "name": "University of Pennsylvania",
         "state": "Pennsylvania",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05401220372244197,
+          "yield_rate": 0.6798183366449049,
+          "grad_rate": 0.97,
+          "retention_rate": 0.99,
+          "enrollment": 29109,
+          "avg_net_price": 31229
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 130794,
         "slug": "yale-university",
         "name": "Yale University",
         "state": "Connecticut",
         "carnegie": "Doctoral Universities: Very High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03871898742980336,
+          "yield_rate": 0.6977997305792546,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 15564,
+          "avg_net_price": 27818
+        }
       }
     ]
   },

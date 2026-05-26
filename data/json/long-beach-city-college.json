@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:30.169980+00:00",
+  "generated_at": "2026-05-26T04:48:58.574753+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 24985,
     "fall_part_time": 22427,
     "distance_ed_any": 24985,
-    "distance_ed_exclusive": 7218
+    "distance_ed_exclusive": 7218,
+    "race_ethnicity": {
+      "white": 0.1199,
+      "black": 0.1195,
+      "hispanic": 0.6004,
+      "asian": 0.0899,
+      "ai_an": 0.0016,
+      "nh_pi": 0.0062,
+      "two_or_more": 0.053,
+      "non_resident": 0.0035,
+      "race_unknown": 0.0061
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,264 +153,410 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 183743,
         "slug": "bergen-community-college",
         "name": "Bergen Community College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 11720,
+          "avg_net_price": 9376
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 223427,
         "slug": "blinn-college-district",
         "name": "Blinn College District",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 18095,
+          "avg_net_price": 17225
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 111887,
         "slug": "cerritos-college",
         "name": "Cerritos College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 21859,
+          "avg_net_price": 693
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 111939,
         "slug": "chaffey-college",
         "name": "Chaffey College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 112172,
         "slug": "citrus-college",
         "name": "Citrus College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10429,
+          "avg_net_price": 3800
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 123217,
         "slug": "college-of-the-sequoias",
         "name": "College of the Sequoias",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14494,
+          "avg_net_price": 29
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 215239,
         "slug": "community-college-of-philadelphia",
         "name": "Community College of Philadelphia",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 12926,
+          "avg_net_price": 13306
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 217475,
         "slug": "community-college-of-rhode-island",
         "name": "Community College of Rhode Island",
         "state": "Rhode Island",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 12275,
+          "avg_net_price": 5240
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 190521,
         "slug": "cuny-borough-of-manhattan-community-college",
         "name": "CUNY Borough of Manhattan Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 20123,
+          "avg_net_price": 4907
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 190628,
         "slug": "cuny-laguardia-community-college",
         "name": "CUNY LaGuardia Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 14494,
+          "avg_net_price": 5699
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 113634,
         "slug": "diablo-valley-college",
         "name": "Diablo Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 17228,
+          "avg_net_price": 6142
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 113980,
         "slug": "el-camino-community-college-district",
         "name": "El Camino Community College District",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 224642,
         "slug": "el-paso-community-college",
         "name": "El Paso Community College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 25567,
+          "avg_net_price": 4154
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 114859,
         "slug": "fullerton-college",
         "name": "Fullerton College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19521,
+          "avg_net_price": 8090
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 244437,
         "slug": "georgia-state-university-perimeter-college",
         "name": "Georgia State University-Perimeter College",
         "state": "Georgia",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9077487952268033,
+          "yield_rate": 0.2651049127833488,
+          "retention_rate": 0.66,
+          "enrollment": 17437,
+          "avg_net_price": 10102
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 115001,
         "slug": "glendale-community-college-2",
         "name": "Glendale Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 115296,
         "slug": "grossmont-college",
         "name": "Grossmont College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14440,
+          "avg_net_price": 2755
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 118718,
         "slug": "merced-college",
         "name": "Merced College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 12472,
+          "avg_net_price": 4260
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 177995,
         "slug": "metropolitan-community-college-kansas-city",
         "name": "Metropolitan Community College-Kansas City",
         "state": "Missouri",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 13523,
+          "avg_net_price": 8165
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 119137,
         "slug": "moorpark-college",
         "name": "Moorpark College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 14583,
+          "avg_net_price": 742
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 193478,
         "slug": "nassau-community-college",
         "name": "Nassau Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 12301,
+          "avg_net_price": 5736
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 120342,
         "slug": "orange-coast-college",
         "name": "Orange Coast College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 17096,
+          "avg_net_price": 4754
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 121044,
         "slug": "pasadena-city-college",
         "name": "Pasadena City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 24597,
+          "avg_net_price": 3123
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 121901,
         "slug": "riverside-city-college",
         "name": "Riverside City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 21730,
+          "avg_net_price": 4026
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 122889,
         "slug": "santa-barbara-city-college",
         "name": "Santa Barbara City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12334,
+          "avg_net_price": 10029
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 123800,
         "slug": "southwestern-college",
         "name": "Southwestern College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 20986,
+          "avg_net_price": 10893
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 366395,
         "slug": "suffolk-county-community-college",
         "name": "Suffolk County Community College",
         "state": "New York",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 19973,
+          "avg_net_price": 4882
+        }
       },
       {
         "rank": 28,
-        "unitid": null,
+        "unitid": 228547,
         "slug": "tarrant-county-college-district",
         "name": "Tarrant County College District",
         "state": "Texas",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 43928,
+          "avg_net_price": 6073
+        }
       },
       {
         "rank": 29,
-        "unitid": null,
+        "unitid": 199856,
         "slug": "wake-technical-community-college",
         "name": "Wake Technical Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 24609,
+          "avg_net_price": 6935
+        }
       }
     ]
   },

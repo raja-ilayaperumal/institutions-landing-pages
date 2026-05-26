@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:37.372453+00:00",
+  "generated_at": "2026-05-26T04:49:32.451359+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 19920,
     "fall_part_time": 17657,
     "distance_ed_any": 19920,
-    "distance_ed_exclusive": 10926
+    "distance_ed_exclusive": 10926,
+    "race_ethnicity": {
+      "white": 0.2673,
+      "black": 0.094,
+      "hispanic": 0.325,
+      "asian": 0.159,
+      "ai_an": 0.0044,
+      "nh_pi": 0.0126,
+      "two_or_more": 0.0669,
+      "non_resident": 0.0031,
+      "race_unknown": 0.0677
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,246 +153,381 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 222576,
         "slug": "amarillo-college",
         "name": "Amarillo College",
         "state": "Texas",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 9262,
+          "avg_net_price": 6040
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 437103,
         "slug": "baton-rouge-community-college",
         "name": "Baton Rouge Community College",
         "state": "Louisiana",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 11182,
+          "avg_net_price": 10171
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 156392,
         "slug": "bluegrass-community-and-technical-college",
         "name": "Bluegrass Community and Technical College",
         "state": "Kentucky",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 12965,
+          "avg_net_price": 5920
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 183859,
         "slug": "brookdale-community-college",
         "name": "Brookdale Community College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 9900,
+          "avg_net_price": 8882
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 112190,
         "slug": "city-college-of-san-francisco",
         "name": "City College of San Francisco",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19267,
+          "avg_net_price": 7272
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 101161,
         "slug": "coastal-alabama-community-college",
         "name": "Coastal Alabama Community College",
         "state": "Alabama",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 7553,
+          "avg_net_price": 9514
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 434672,
         "slug": "community-college-of-baltimore-county",
         "name": "Community College of Baltimore County",
         "state": "Maryland",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 16451,
+          "avg_net_price": 6643
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 211927,
         "slug": "delaware-county-community-college",
         "name": "Delaware County Community College",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 7402,
+          "avg_net_price": 7395
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 158662,
         "slug": "delgado-community-college",
         "name": "Delgado Community College",
         "state": "Louisiana",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 12712,
+          "avg_net_price": 11926
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 198552,
         "slug": "forsyth-technical-community-college",
         "name": "Forsyth Technical Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 9099,
+          "avg_net_price": 6342
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 170055,
         "slug": "grand-rapids-community-college",
         "name": "Grand Rapids Community College",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 12468,
+          "avg_net_price": 11153
+        }
       },
       {
         "rank": 12,
-        "unitid": null,
+        "unitid": 198622,
         "slug": "guilford-technical-community-college",
         "name": "Guilford Technical Community College",
         "state": "North Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 11485,
+          "avg_net_price": 13926
+        }
       },
       {
         "rank": 13,
-        "unitid": null,
+        "unitid": 218140,
         "slug": "horry-georgetown-technical-college",
         "name": "Horry-Georgetown Technical College",
         "state": "South Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 7923,
+          "avg_net_price": 3719
+        }
       },
       {
         "rank": 14,
-        "unitid": null,
+        "unitid": 184995,
         "slug": "hudson-county-community-college",
         "name": "Hudson County Community College",
         "state": "New Jersey",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 7763,
+          "avg_net_price": 5902
+        }
       },
       {
         "rank": 15,
-        "unitid": null,
+        "unitid": 170657,
         "slug": "lansing-community-college",
         "name": "Lansing Community College",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 9821,
+          "avg_net_price": 4003
+        }
       },
       {
         "rank": 16,
-        "unitid": null,
+        "unitid": 170790,
         "slug": "macomb-community-college",
         "name": "Macomb Community College",
         "state": "Michigan",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 16300,
+          "avg_net_price": 5725
+        }
       },
       {
         "rank": 17,
-        "unitid": null,
+        "unitid": 218353,
         "slug": "midlands-technical-college",
         "name": "Midlands Technical College",
         "state": "South Carolina",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.49,
+          "enrollment": 9226,
+          "avg_net_price": 5462
+        }
       },
       {
         "rank": 18,
-        "unitid": null,
+        "unitid": 119164,
         "slug": "mt-san-antonio-college",
         "name": "Mt San Antonio College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 29971,
+          "avg_net_price": 3107
+        }
       },
       {
         "rank": 19,
-        "unitid": null,
+        "unitid": 119216,
         "slug": "mt-san-jacinto-community-college-district",
         "name": "Mt San Jacinto Community College District",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 17627,
+          "avg_net_price": 7098
+        }
       },
       {
         "rank": 20,
-        "unitid": null,
+        "unitid": 214379,
         "slug": "northampton-county-area-community-college",
         "name": "Northampton County Area Community College",
         "state": "Pennsylvania",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 8810,
+          "avg_net_price": 10666
+        }
       },
       {
         "rank": 21,
-        "unitid": null,
+        "unitid": 176178,
         "slug": "northwest-mississippi-community-college",
         "name": "Northwest Mississippi Community College",
         "state": "Mississippi",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 7867,
+          "avg_net_price": 7665
+        }
       },
       {
         "rank": 22,
-        "unitid": null,
+        "unitid": 120971,
         "slug": "palomar-college",
         "name": "Palomar College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 19550,
+          "avg_net_price": 5247
+        }
       },
       {
         "rank": 23,
-        "unitid": null,
+        "unitid": 176239,
         "slug": "pearl-river-community-college",
         "name": "Pearl River Community College",
         "state": "Mississippi",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 6011,
+          "avg_net_price": 4881
+        }
       },
       {
         "rank": 24,
-        "unitid": null,
+        "unitid": 123527,
         "slug": "san-bernardino-valley-college",
         "name": "San Bernardino Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 14055,
+          "avg_net_price": 8234
+        }
       },
       {
         "rank": 25,
-        "unitid": null,
+        "unitid": 122658,
         "slug": "san-joaquin-delta-college",
         "name": "San Joaquin Delta College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 20969,
+          "avg_net_price": 8508
+        }
       },
       {
         "rank": 26,
-        "unitid": null,
+        "unitid": 123341,
         "slug": "sierra-college",
         "name": "Sierra College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
       },
       {
         "rank": 27,
-        "unitid": null,
+        "unitid": 207935,
         "slug": "tulsa-community-college",
         "name": "Tulsa Community College",
         "state": "Oklahoma",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 15655,
+          "avg_net_price": 5999
+        }
       }
     ]
   },

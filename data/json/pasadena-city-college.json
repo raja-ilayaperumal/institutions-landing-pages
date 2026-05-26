@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:30.316524+00:00",
+  "generated_at": "2026-05-26T04:48:59.992490+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -71,7 +71,18 @@
     "fall_full_time": 24597,
     "fall_part_time": 21466,
     "distance_ed_any": 24597,
-    "distance_ed_exclusive": 6364
+    "distance_ed_exclusive": 6364,
+    "race_ethnicity": {
+      "white": 0.1701,
+      "black": 0.0342,
+      "hispanic": 0.4759,
+      "asian": 0.2363,
+      "ai_an": 0.0016,
+      "nh_pi": 0.0012,
+      "two_or_more": 0.0371,
+      "non_resident": 0.0261,
+      "race_unknown": 0.0175
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -142,102 +153,157 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 111887,
         "slug": "cerritos-college",
         "name": "Cerritos College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 21859,
+          "avg_net_price": 693
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 111939,
         "slug": "chaffey-college",
         "name": "Chaffey College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 112172,
         "slug": "citrus-college",
         "name": "Citrus College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10429,
+          "avg_net_price": 3800
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 111461,
         "slug": "college-of-the-canyons",
         "name": "College of the Canyons",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 18075,
+          "avg_net_price": 2114
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 113980,
         "slug": "el-camino-community-college-district",
         "name": "El Camino Community College District",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 115001,
         "slug": "glendale-community-college-2",
         "name": "Glendale Community College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
       },
       {
         "rank": 7,
-        "unitid": null,
+        "unitid": 117645,
         "slug": "long-beach-city-college",
         "name": "Long Beach City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 24985,
+          "avg_net_price": 5001
+        }
       },
       {
         "rank": 8,
-        "unitid": null,
+        "unitid": 119164,
         "slug": "mt-san-antonio-college",
         "name": "Mt San Antonio College",
         "state": "California",
         "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 29971,
+          "avg_net_price": 3107
+        }
       },
       {
         "rank": 9,
-        "unitid": null,
+        "unitid": 121886,
         "slug": "rio-hondo-college",
         "name": "Rio Hondo College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
       },
       {
         "rank": 10,
-        "unitid": null,
+        "unitid": 122889,
         "slug": "santa-barbara-city-college",
         "name": "Santa Barbara City College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-High Traditional",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12334,
+          "avg_net_price": 10029
+        }
       },
       {
         "rank": 11,
-        "unitid": null,
+        "unitid": 122977,
         "slug": "santa-monica-college",
         "name": "Santa Monica College",
         "state": "California",
         "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T17:59:38.656759+00:00",
+  "generated_at": "2026-05-26T04:50:02.648034+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -66,7 +66,18 @@
     "fall_full_time": 18075,
     "fall_part_time": 15832,
     "distance_ed_any": 18075,
-    "distance_ed_exclusive": 5786
+    "distance_ed_exclusive": 5786,
+    "race_ethnicity": {
+      "white": 0.2527,
+      "black": 0.0527,
+      "hispanic": 0.5277,
+      "asian": 0.0903,
+      "ai_an": 0.0012,
+      "nh_pi": 0.0033,
+      "two_or_more": 0.0373,
+      "non_resident": 0.0075,
+      "race_unknown": 0.0273
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -137,48 +148,72 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 122205,
         "slug": "saddleback-college",
         "name": "Saddleback College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.7943
+        "similarity_score": 1.7943,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 20764,
+          "avg_net_price": 2976
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 117733,
         "slug": "los-angeles-valley-college",
         "name": "Los Angeles Valley College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.7496
+        "similarity_score": 1.7496,
+        "metrics": {
+          "enrollment": 15999,
+          "avg_net_price": 10200
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 117706,
         "slug": "los-angeles-pierce-college",
         "name": "Los Angeles Pierce College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.741
+        "similarity_score": 1.741,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 16906,
+          "avg_net_price": 11196
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 123013,
         "slug": "santa-rosa-junior-college",
         "name": "Santa Rosa Junior College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.7273
+        "similarity_score": 1.7273,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 17854,
+          "avg_net_price": 5541
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 115126,
         "slug": "golden-west-college",
         "name": "Golden West College",
         "state": "California",
         "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
-        "similarity_score": 1.6687
+        "similarity_score": 1.6687,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10721,
+          "avg_net_price": 2861
+        }
       }
     ]
   },

@@ -271,17 +271,19 @@ def _section_enrollment(enrollment: dict, scorecard: dict) -> dict | None:
         "fall_part_time":            enrollment.get("fall_part_time"),
         "distance_ed_any":           enrollment.get("distance_ed_any"),
         "distance_ed_exclusive":     enrollment.get("distance_ed_exclusive"),
-        # Race/ethnicity from College Scorecard (already 0-1 ratios)
+        # Race/ethnicity from College Scorecard (demo_* fields, already 0-1 ratios).
+        # Note: Scorecard uses `demo_*` column names, not `pct_*` — getting these
+        # right is what surfaces the bar chart in the rendered page.
         "race_ethnicity": _clean_dict({
-            "white":              scorecard.get("pct_white"),
-            "black":              scorecard.get("pct_black"),
-            "hispanic":           scorecard.get("pct_hispanic"),
-            "asian":              scorecard.get("pct_asian"),
-            "ai_an":              scorecard.get("pct_ai_an"),
-            "nh_pi":              scorecard.get("pct_nh_pi"),
-            "two_or_more":        scorecard.get("pct_two_or_more"),
-            "non_resident":       scorecard.get("pct_non_resident"),
-            "race_unknown":       scorecard.get("pct_race_unknown"),
+            "white":              scorecard.get("demo_white"),
+            "black":              scorecard.get("demo_black"),
+            "hispanic":           scorecard.get("demo_hispanic"),
+            "asian":              scorecard.get("demo_asian"),
+            "ai_an":              scorecard.get("demo_aian"),
+            "nh_pi":              scorecard.get("demo_nhpi"),
+            "two_or_more":        scorecard.get("demo_two_or_more"),
+            "non_resident":       scorecard.get("demo_non_resident_alien"),
+            "race_unknown":       scorecard.get("demo_unknown"),
         }) or None,
     }
     return _to_jsonable({k: v for k, v in out.items() if v is not None})
@@ -315,21 +317,83 @@ def _section_faculty(faculty: dict) -> dict | None:
     return _to_jsonable(_clean_dict(faculty))
 
 
-def _section_peers(peers: list[dict], source_label: str) -> dict | None:
+def _section_peers(peers: list[dict], source_label: str, conn) -> dict | None:
+    """Build the peers section, enriching each peer with a `metrics` object
+    so the frontend can render a radar/table without loading per-peer JSONs.
+
+    Metrics included (from IPEDS + College Scorecard):
+      - admit_rate, yield_rate (latest year IPEDS admissions)
+      - grad_rate (latest 6-yr Bachelor's grad rate)
+      - retention_rate (latest fall full-time retention)
+      - enrollment (fall total headcount)
+      - avg_net_price (Scorecard, falls back public→private)
+    """
     if not peers:
         return None
+
+    slugs = [p.get("slug") for p in peers if p.get("slug")]
+    metrics_by_slug: dict[str, dict] = {}
+    if slugs:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT
+                  li.slug,
+                  li.unitid,
+                  (SELECT a.admssn::float / NULLIF(a.applcn, 0)
+                     FROM ipeds.admissions a
+                     WHERE a.unitid=li.unitid
+                     ORDER BY data_year DESC LIMIT 1) AS admit_rate,
+                  (SELECT a.enrlt::float / NULLIF(a.admssn, 0)
+                     FROM ipeds.admissions a
+                     WHERE a.unitid=li.unitid
+                     ORDER BY data_year DESC LIMIT 1) AS yield_rate,
+                  (SELECT g.gba6rtt::float / 100
+                     FROM ipeds.drv_graduation_rates g
+                     WHERE g.unitid=li.unitid
+                     ORDER BY data_year DESC LIMIT 1) AS grad_rate,
+                  (SELECT r.ret_pcf::float / 100
+                     FROM ipeds.fall_enrollment_retention r
+                     WHERE r.unitid=li.unitid
+                     ORDER BY data_year DESC LIMIT 1) AS retention_rate,
+                  (SELECT e.eftotlt FROM ipeds.fall_enrollment_2024 e
+                     WHERE e.unitid=li.unitid AND e.efalevel=1 LIMIT 1) AS enrollment,
+                  (SELECT COALESCE(f.avg_net_price_private, f.avg_net_price_public)::int
+                     FROM score_card.fact_institution_yearly f
+                     WHERE f.institution_id=li.unitid
+                     ORDER BY f.academic_year_id DESC NULLS LAST LIMIT 1) AS avg_net_price
+                FROM landing.institutions li
+                WHERE li.slug = ANY(%s)
+                """,
+                (slugs,),
+            )
+            for r in cur.fetchall():
+                # _to_jsonable handles Decimal → float; drop None-valued fields
+                # so the frontend can see at-a-glance which metrics are available.
+                m = {
+                    k: _to_jsonable(r[k])
+                    for k in ("admit_rate", "yield_rate", "grad_rate",
+                              "retention_rate", "enrollment", "avg_net_price")
+                    if r.get(k) is not None
+                }
+                metrics_by_slug[r["slug"]] = {
+                    "unitid":  r["unitid"],
+                    "metrics": m,
+                }
+
     return {
         "source":        "dfr_v1" if "DFR" in source_label else "carnegie_state_control_v1",
         "source_label":  source_label,
         "institutions": [
             {
                 "rank":      p.get("rank"),
-                "unitid":    None,  # peer_unitid not exposed by _fetch_peers, fine for frontend
+                "unitid":    (metrics_by_slug.get(p.get("slug") or "") or {}).get("unitid"),
                 "slug":      p.get("slug"),
                 "name":      p.get("name"),
                 "state":     p.get("state"),
                 "carnegie":  p.get("carnegie"),
                 "similarity_score": _to_jsonable(p.get("score")),
+                "metrics":   (metrics_by_slug.get(p.get("slug") or "") or {}).get("metrics") or {},
             }
             for p in peers
         ],
@@ -504,6 +568,9 @@ def build_landing_json(unitid: int | None = None,
         faculty    = _fetch_faculty(conn, row["unitid"])
         programs   = _fetch_programs(conn, row["unitid"])
         grants     = _fetch_grants(conn, row["unitid"])
+        # Build peers section inside the connection scope so we can enrich
+        # each peer with the radar/table metrics in one shared transaction.
+        peers_section = _section_peers(peers, peers_label, conn)
 
     is_private = (row.get("control_label") or "").lower().startswith("private")
 
@@ -524,7 +591,7 @@ def build_landing_json(unitid: int | None = None,
         "programs":        _section_programs(programs),
         "faculty":         _section_faculty(faculty),
 
-        "peers":           _section_peers(peers, peers_label),
+        "peers":           peers_section,
         "research_funding": _section_research_funding(research_summary),
 
         "ir_office":       _section_ir_office(ir_page),

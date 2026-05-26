@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T18:00:02.170552+00:00",
+  "generated_at": "2026-05-26T04:52:25.676436+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 8865,
     "fall_part_time": 8577,
     "distance_ed_any": 10419,
-    "distance_ed_exclusive": 1212
+    "distance_ed_exclusive": 1212,
+    "race_ethnicity": {
+      "white": 0.1235,
+      "black": 0.0422,
+      "hispanic": 0.6883,
+      "asian": 0.0692,
+      "ai_an": 0.0031,
+      "nh_pi": 0.0009,
+      "two_or_more": 0.0213,
+      "non_resident": 0.0145,
+      "race_unknown": 0.0372
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,57 +166,105 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 115755,
         "slug": "california-state-polytechnic-university-humboldt",
         "name": "California State Polytechnic University-Humboldt",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9820031796502384,
+          "yield_rate": 0.05886543193886802,
+          "grad_rate": 0.49,
+          "retention_rate": 0.76,
+          "enrollment": 6237,
+          "avg_net_price": 13167
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 441937,
         "slug": "california-state-university-channel-islands",
         "name": "California State University-Channel Islands",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Small Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9481271282633371,
+          "yield_rate": 0.062253082724769544,
+          "grad_rate": 0.51,
+          "retention_rate": 0.72,
+          "enrollment": 5592,
+          "avg_net_price": 9792
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 110547,
         "slug": "california-state-university-dominguez-hills",
         "name": "California State University-Dominguez Hills",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9329852919030169,
+          "yield_rate": 0.09318842139244593,
+          "grad_rate": 0.43,
+          "retention_rate": 0.74,
+          "enrollment": 15182,
+          "avg_net_price": 3659
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 409698,
         "slug": "california-state-university-monterey-bay",
         "name": "California State University-Monterey Bay",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9740172771713654,
+          "yield_rate": 0.09755929872808525,
+          "grad_rate": 0.59,
+          "retention_rate": 0.8,
+          "enrollment": 7713,
+          "avg_net_price": 14487
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 366711,
         "slug": "california-state-university-san-marcos",
         "name": "California State University-San Marcos",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9510166827239998,
+          "yield_rate": 0.13990935750466543,
+          "grad_rate": 0.55,
+          "retention_rate": 0.79,
+          "enrollment": 16237,
+          "avg_net_price": 10550
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 110495,
         "slug": "california-state-university-stanislaus",
         "name": "California State University-Stanislaus",
         "state": "California",
         "carnegie": "Masters Colleges & Universities: Larger Programs",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9813618748846651,
+          "yield_rate": 0.19142534787514104,
+          "grad_rate": 0.53,
+          "retention_rate": 0.82,
+          "enrollment": 9724,
+          "avg_net_price": 5671
+        }
       }
     ]
   },

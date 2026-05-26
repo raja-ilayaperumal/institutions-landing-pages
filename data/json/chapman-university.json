@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T18:00:02.760456+00:00",
+  "generated_at": "2026-05-26T04:52:33.298575+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -84,7 +84,18 @@
     "fall_full_time": 7713,
     "fall_part_time": 7478,
     "distance_ed_any": 9760,
-    "distance_ed_exclusive": 1
+    "distance_ed_exclusive": 1,
+    "race_ethnicity": {
+      "white": 0.4822,
+      "black": 0.0225,
+      "hispanic": 0.1861,
+      "asian": 0.1646,
+      "ai_an": 0.0013,
+      "nh_pi": 0.0025,
+      "two_or_more": 0.0886,
+      "non_resident": 0.0286,
+      "race_unknown": 0.0235
+    }
   },
   "programs": {
     "top_cip_families": [
@@ -155,57 +166,105 @@
     "institutions": [
       {
         "rank": 1,
-        "unitid": null,
+        "unitid": 190044,
         "slug": "clarkson-university",
         "name": "Clarkson University",
         "state": "New York",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7736075664314668,
+          "yield_rate": 0.094896176984281,
+          "grad_rate": 0.75,
+          "retention_rate": 0.85,
+          "enrollment": 3348,
+          "avg_net_price": 31955
+        }
       },
       {
         "rank": 2,
-        "unitid": null,
+        "unitid": 212106,
         "slug": "duquesne-university",
         "name": "Duquesne University",
         "state": "Pennsylvania",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8355696889785155,
+          "yield_rate": 0.13376032674278288,
+          "grad_rate": 0.77,
+          "retention_rate": 0.84,
+          "enrollment": 8234,
+          "avg_net_price": 34978
+        }
       },
       {
         "rank": 3,
-        "unitid": null,
+        "unitid": 191241,
         "slug": "fordham-university",
         "name": "Fordham University",
         "state": "New York",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
       },
       {
         "rank": 4,
-        "unitid": null,
+        "unitid": 117946,
         "slug": "loyola-marymount-university",
         "name": "Loyola Marymount University",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
       },
       {
         "rank": 5,
-        "unitid": null,
+        "unitid": 140447,
         "slug": "mercer-university",
         "name": "Mercer University",
         "state": "Georgia",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6888820951798634,
+          "yield_rate": 0.12707100591715975,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 9196,
+          "avg_net_price": 22350
+        }
       },
       {
         "rank": 6,
-        "unitid": null,
+        "unitid": 122436,
         "slug": "university-of-san-diego",
         "name": "University of San Diego",
         "state": "California",
         "carnegie": "Doctoral Universities: High Research Activity",
-        "similarity_score": 1.0
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
       }
     ]
   },
