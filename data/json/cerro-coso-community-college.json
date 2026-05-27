@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:09.342345+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111896,
+    "slug": "cerro-coso-community-college",
+    "name": "Cerro Coso Community College",
+    "website_url": "https://cerrocoso.edu",
+    "city": "Ridgecrest",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93555-9571",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "P7V8KE5J24T8",
+      "opeid": "01011100",
+      "ein": "956006644"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Cerro Coso Community College is a public community college in the Eastern Sierra region of Southern California. It was established in 1973 as a separate college within the Kern Community College District. The college offers traditional and online courses and two-year degrees. The college serves an area of approximately 18,000-square-miles. Cerro Coso has five instructional sites: Eastern Sierra Center Bishop and Mammoth Lakes, Indian Wells Valley, Kern River Valley, and South Kern. The college also has an Incarcerated Student Education Program in two locations, the California City Correctional Facility and Tehachapi California Correctional Institution.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cerro_Coso_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Cerro_Coso_Community_College",
+    "fetched_at": "2026-05-27T22:23:09.294776+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 6078,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.8189,
+    "federal_loan_rate": 0.0102,
+    "net_price_by_family_income": {
+      "0_30k": 5151,
+      "30_48k": 5016,
+      "48_75k": 8352,
+      "75_110k": 11915,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.25,
+    "pell_grad_rate": 0.3,
+    "retention_full_time": 0.27,
+    "retention_part_time": 0.15
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 9239,
+    "ug_12mo": 9239,
+    "grad_12mo": 6093,
+    "women_12mo": 5389,
+    "men_12mo": 3850,
+    "fall_total": 5549,
+    "fall_full_time": 5549,
+    "fall_part_time": 3171,
+    "distance_ed_any": 5549,
+    "distance_ed_exclusive": 2589,
+    "race_ethnicity": {
+      "white": 0.3816,
+      "black": 0.0675,
+      "hispanic": 0.4422,
+      "asian": 0.0412,
+      "ai_an": 0.0163,
+      "nh_pi": 0.0034,
+      "two_or_more": 0.042,
+      "non_resident": 0.0003,
+      "race_unknown": 0.0054
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 321
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 39
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 12
+      }
+    ],
+    "program_count": 39,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 66
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109907,
+        "slug": "barstow-community-college",
+        "name": "Barstow Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3226,
+          "avg_net_price": 12347
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111434,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6625,
+          "avg_net_price": 10
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118347,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 4838,
+          "avg_net_price": 15517
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 117195,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 4040,
+          "avg_net_price": 10975
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117274,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2038,
+          "avg_net_price": 7677
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120421,
+        "slug": "oxnard-college",
+        "name": "Oxnard College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 7361,
+          "avg_net_price": 659
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 120953,
+        "slug": "palo-verde-college",
+        "name": "Palo Verde College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 3833,
+          "avg_net_price": 10543
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 124113,
+        "slug": "taft-college",
+        "name": "Taft College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4464,
+          "avg_net_price": 2699
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cerrocoso.edu/about/institutional-research/index.html",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research at Cerro Coso Community College strives to support the college's mission and commitment to academic learning and student success by providing quality, accessible, and relevant information to facilitate decision-making and planning processes, enhance institutional effectiveness, and promote a culture of evidence-based inquiry.",
+    "phone": "760-384-6105",
+    "email": "research@cerrocoso.edu",
+    "address": "3000 College Heights Blvd, Ridgecrest, CA 93555",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:23:08.252272+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.cerrocoso.edu/about/institutional-research/cc-tableau-public.html",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:23:04.38526+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=111896",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:23:10.643237+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research Glossary",
+      "url": "https://www.cerrocoso.edu/about/institutional-research/",
+      "summary": "The Institutional Research page for Cerro Coso Community College outlines its mission to provide relevant data supporting decision-making and institutional effectiveness, emphasizing evidence-based inquiry to promote academic learning and student success.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:22:51.900393+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Cerro Coso Community College 2025-2030 Strategic Plan",
+      "url": "https://www.cerrocoso.edu/about/college-goals.html",
+      "summary": "The Cerro Coso Community College 2025-2030 Strategic Plan outlines key goals to enhance student access, equity, and success. By focusing on persistence, diverse student engagement, and the establishment of new campuses, the college aims to improve educational outcomes and community involvement. The plan also emphasizes innovation in instructional offerings and strengthening the college's role as a cultural hub and supportive work environment.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:21:06.947113+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

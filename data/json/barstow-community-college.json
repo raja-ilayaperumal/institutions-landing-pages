@@ -1,0 +1,583 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:06.800980+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 109907,
+    "slug": "barstow-community-college",
+    "name": "Barstow Community College",
+    "website_url": "https://www.barstow.edu",
+    "city": "Barstow",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92311",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "YTVKLVLQY2R5",
+      "opeid": "00111900",
+      "ein": "956006415"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Barstow Community College is a public community college in Barstow, California. It is an open-admission college serving more than 3,700 students in degree and certificate programs with approximately 120 faculty. It provides the first two years of college or university study as part of the California Community Colleges. The college's educational program includes lower-division course work, general education offerings, and vocational courses for transfer to baccalaureate degree institutions. The college offers occupational programs designed to prepare students for entry into the workforce. Service learning and self-enrichment classes are also offered to the community.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Barstow_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Barstow_Community_College",
+    "fetched_at": "2026-05-28T00:06:53.8284+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 12347,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.5648,
+    "federal_loan_rate": 0.1231,
+    "net_price_by_family_income": {
+      "0_30k": 12140,
+      "30_48k": 12029,
+      "48_75k": 13871,
+      "75_110k": 15648,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.39,
+    "pell_grad_rate": 0.37,
+    "non_pell_grad_rate": 0.4,
+    "retention_full_time": 0.67,
+    "retention_part_time": 0.35
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 5085,
+    "ug_12mo": 5085,
+    "grad_12mo": 4279,
+    "women_12mo": 3211,
+    "men_12mo": 1874,
+    "fall_total": 3226,
+    "fall_full_time": 3226,
+    "fall_part_time": 2657,
+    "distance_ed_any": 3226,
+    "distance_ed_exclusive": 2610,
+    "race_ethnicity": {
+      "white": 0.2139,
+      "black": 0.1981,
+      "hispanic": 0.4476,
+      "asian": 0.0375,
+      "ai_an": 0.0062,
+      "nh_pi": 0.0081,
+      "two_or_more": 0.075,
+      "non_resident": 0.0015,
+      "race_unknown": 0.012
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 51
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 45
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "12",
+        "cip_family_label": "Personal/Culinary",
+        "completions": 13
+      }
+    ],
+    "program_count": 43,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 42
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 138956,
+        "slug": "augusta-technical-college",
+        "name": "Augusta Technical College",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 4455,
+          "avg_net_price": 8509
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110246,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 121707,
+        "slug": "college-of-the-redwoods",
+        "name": "College of the Redwoods",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 4706,
+          "avg_net_price": 3214
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 175652,
+        "slug": "east-mississippi-community-college",
+        "name": "East Mississippi Community College",
+        "state": "Mississippi",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 3841,
+          "avg_net_price": 3880
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 218025,
+        "slug": "florence-darlington-technical-college",
+        "name": "Florence-Darlington Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 3522,
+          "avg_net_price": 598
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 101240,
+        "slug": "gadsden-state-community-college",
+        "name": "Gadsden State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 5071,
+          "avg_net_price": 3568
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 101286,
+        "slug": "george-c-wallace-community-college-dothan",
+        "name": "George C Wallace Community College-Dothan",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4044,
+          "avg_net_price": 2697
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 101295,
+        "slug": "george-c-wallace-state-community-college-hanceville",
+        "name": "George C Wallace State Community College-Hanceville",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 6424,
+          "avg_net_price": 14042
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 441760,
+        "slug": "lamar-institute-of-technology",
+        "name": "Lamar Institute of Technology",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 5680,
+          "avg_net_price": 8167
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 226204,
+        "slug": "lee-college",
+        "name": "Lee College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 8323,
+          "avg_net_price": 7519
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 483212,
+        "slug": "louisiana-delta-community-college",
+        "name": "Louisiana Delta Community College",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 3463,
+          "avg_net_price": 8306
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 159407,
+        "slug": "louisiana-state-university-eunice",
+        "name": "Louisiana State University-Eunice",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 3670,
+          "avg_net_price": 9619
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 239248,
+        "slug": "milwaukee-area-technical-college",
+        "name": "Milwaukee Area Technical College",
+        "state": "Wisconsin",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 13792,
+          "avg_net_price": 9589
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 176071,
+        "slug": "mississippi-gulf-coast-community-college",
+        "name": "Mississippi Gulf Coast Community College",
+        "state": "Mississippi",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 8694,
+          "avg_net_price": 7372
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 200305,
+        "slug": "north-dakota-state-college-of-science",
+        "name": "North Dakota State College of Science",
+        "state": "North Dakota",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 3367,
+          "avg_net_price": 10802
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 218520,
+        "slug": "piedmont-technical-college",
+        "name": "Piedmont Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 5143,
+          "avg_net_price": 10862
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 121363,
+        "slug": "porterville-college",
+        "name": "Porterville College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 4784,
+          "avg_net_price": 3728
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 157711,
+        "slug": "somerset-community-college",
+        "name": "Somerset Community College",
+        "state": "Kentucky",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 6155,
+          "avg_net_price": 3913
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 434061,
+        "slug": "south-louisiana-community-college",
+        "name": "South Louisiana Community College",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 6238,
+          "avg_net_price": 9684
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 160579,
+        "slug": "sowela-technical-community-college",
+        "name": "SOWELA Technical Community College",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 3446,
+          "avg_net_price": 8861
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 167905,
+        "slug": "springfield-technical-community-college",
+        "name": "Springfield Technical Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 5447,
+          "avg_net_price": 8196
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 174756,
+        "slug": "st-cloud-technical-and-community-college",
+        "name": "St Cloud Technical and Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 4030,
+          "avg_net_price": 10956
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 177977,
+        "slug": "state-technical-college-of-missouri",
+        "name": "State Technical College of Missouri",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 2346,
+          "avg_net_price": 13958
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 487320,
+        "slug": "texas-state-technical-college",
+        "name": "Texas State Technical College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 12077,
+          "avg_net_price": 10280
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 218885,
+        "slug": "tri-county-technical-college",
+        "name": "Tri-County Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 5890,
+          "avg_net_price": 5807
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 240170,
+        "slug": "western-technical-college-3",
+        "name": "Western Technical College",
+        "state": "Wisconsin",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 3625,
+          "avg_net_price": 12069
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 229841,
+        "slug": "wharton-county-junior-college",
+        "name": "Wharton County Junior College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 5504,
+          "avg_net_price": 5021
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://barstow.edu/ir/",
+    "summary": "The page for Barstow Community College's Office of Institutional Research does not currently exist or contains minimal information. The homepage includes links to various campus resources, enrollment information, and contact details for the main campus. A link to the BCC Fact Book is provided, along with general contact information and social media links.",
+    "email": "research@barstow.edu",
+    "address": "2700 Barstow Road, Barstow, CA 92311",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-28T00:06:52.700948+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=109907",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:06:55.263472+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Barstow Community College Strategic Plan for Transformational Improvement",
+      "url": "https://barstow.edu/about-bcc/institutional-effectiveness/strategic-plan",
+      "summary": "Barstow Community College's Strategic Plan focuses on connecting fiscal, physical, human, and technological resources to enhance student learning and address community needs. The planning process involves collaborative dialogue to examine evidence, identify issues, and develop solutions. The ultimate goal is continuous quality improvement in all college operations.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:01:12.003998+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President for Enrollment Management & Student Success",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179411856"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Joe Baca",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Baca",
+      "field": "Politics"
+    },
+    {
+      "name": "Al Bloomingdale"
+    }
+  ]
+}

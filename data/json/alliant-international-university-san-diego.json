@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:13.886547+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110468,
+    "slug": "alliant-international-university-san-diego",
+    "name": "Alliant International University-San Diego",
+    "website_url": "https://www.alliant.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92131",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "S6WKSK87M615",
+      "opeid": "01111700",
+      "ein": "205683516"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Alliant University is a private for-profit university with its main campus in San Diego, five additional campuses in California and one campus in Phoenix, Arizona. Its enrollment is approximately 4,000 students, of whom 95% are graduate students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alliant_International_University",
+    "source_url": "https://en.wikipedia.org/wiki/Alliant_International_University",
+    "fetched_at": "2026-05-27T23:05:29.791666+05:30"
+  },
+  "admissions": {
+    "applicants": 6,
+    "admits": 0,
+    "enrolled": 0,
+    "first_time_freshmen": 0,
+    "first_time_freshmen_ft": 0
+  },
+  "cost": {
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 1.0,
+    "federal_loan_rate": 0.2226,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.22,
+    "grad_4yr_bachelors": 0.22,
+    "grad_5yr_bachelors": 0.22,
+    "grad_6yr_bachelors": 0.22,
+    "pell_grad_rate": 0.0,
+    "pell_6yr_bachelors_rate": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 5576,
+    "ug_12mo": 664,
+    "grad_12mo": 664,
+    "women_12mo": 4062,
+    "men_12mo": 1514,
+    "fall_total": 4530,
+    "fall_full_time": 391,
+    "fall_part_time": 391,
+    "distance_ed_any": 4530,
+    "distance_ed_exclusive": 2811,
+    "race_ethnicity": {
+      "white": 0.4169,
+      "black": 0.062,
+      "hispanic": 0.369,
+      "asian": 0.0479,
+      "ai_an": 0.0085,
+      "nh_pi": 0.0028,
+      "two_or_more": 0.0085,
+      "non_resident": 0.031,
+      "race_unknown": 0.0535
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 389
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 388
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 242
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 109
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 1
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 0
+      }
+    ],
+    "program_count": 36,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 169
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 115083,
+        "slug": "golden-gate-university",
+        "name": "Golden Gate University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3098
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 147536,
+        "slug": "national-louis-university",
+        "name": "National Louis University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9505291656411519,
+          "yield_rate": 0.18410150181253238,
+          "grad_rate": 0.3,
+          "retention_rate": 0.5,
+          "enrollment": 8915,
+          "avg_net_price": 16157
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 143978,
+        "slug": "the-chicago-school-at-chicago",
+        "name": "The Chicago School at Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3448275862068966,
+          "yield_rate": 0.4,
+          "enrollment": 1100
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110468",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:05:31.039312+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "Alliant International University-San Diego Strategic Plan",
+      "url": "https://files.alliant.edu/marketing/supporting-collateral/alliant-2022-strategic-plan-brochure.pdf",
+      "summary": "Alliant International University aims to maintain its status as a high-quality academic institution through its strategic Alliant 2022 plan. This five-year plan focuses on maximizing student and alumni success by promoting professional development, fostering inclusive excellence, and expanding innovative practices. By developing strong partnerships and pursuing sustainable growth, Alliant is committed to adapting to the evolving landscape of higher education while maintaining financial independence and academic quality.",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:01:33.685729+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

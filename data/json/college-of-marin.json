@@ -1,0 +1,734 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:50.247227+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118347,
+    "slug": "college-of-marin",
+    "name": "College of Marin",
+    "website_url": "https://www.marin.edu",
+    "city": "Kentfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94904-2590",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DJY3A37YKHS3",
+      "opeid": "00117800",
+      "ein": "680194359"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The College of Marin, is a public community college in Marin County, California, with two campuses, one in Kentfield, and the second in Novato. It is the only institution operated by the Marin Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_Marin",
+    "source_url": "https://en.wikipedia.org/wiki/College_of_Marin",
+    "fetched_at": "2026-05-27T22:45:37.99011+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 15517,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6986,
+    "federal_loan_rate": 0.0086,
+    "net_price_by_family_income": {
+      "0_30k": 13784,
+      "30_48k": 16826,
+      "48_75k": 17329,
+      "75_110k": 20371,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.39,
+    "pell_grad_rate": 0.48,
+    "retention_full_time": 0.71,
+    "retention_part_time": 0.51
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6945,
+    "ug_12mo": 6945,
+    "grad_12mo": 5560,
+    "women_12mo": 3939,
+    "men_12mo": 3006,
+    "fall_total": 4838,
+    "fall_full_time": 4838,
+    "fall_part_time": 4042,
+    "distance_ed_any": 4838,
+    "distance_ed_exclusive": 615,
+    "race_ethnicity": {
+      "white": 0.4483,
+      "black": 0.0344,
+      "hispanic": 0.361,
+      "asian": 0.0619,
+      "ai_an": 0.0013,
+      "nh_pi": 0.0031,
+      "two_or_more": 0.0634,
+      "non_resident": 0.0135,
+      "race_unknown": 0.0132
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 58
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 42
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 6
+      }
+    ],
+    "program_count": 66,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 119
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 197887,
+        "slug": "asheville-buncombe-technical-community-college",
+        "name": "Asheville-Buncombe Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 6510,
+          "avg_net_price": 12851
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 198251,
+        "slug": "central-carolina-community-college",
+        "name": "Central Carolina Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 5882,
+          "avg_net_price": 616
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 223816,
+        "slug": "central-texas-college",
+        "name": "Central Texas College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 8373,
+          "avg_net_price": 6408
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 144193,
+        "slug": "city-colleges-of-chicago-richard-j-daley-college",
+        "name": "City Colleges of Chicago-Richard J Daley College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6296,
+          "avg_net_price": 3166
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 202222,
+        "slug": "columbus-state-community-college",
+        "name": "Columbus State Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 28081,
+          "avg_net_price": 7233
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 202356,
+        "slug": "cuyahoga-community-college-district",
+        "name": "Cuyahoga Community College District",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 17840,
+          "avg_net_price": 4538
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 153214,
+        "slug": "des-moines-area-community-college",
+        "name": "Des Moines Area Community College",
+        "state": "Iowa",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 23697,
+          "avg_net_price": 11050
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 198455,
+        "slug": "durham-technical-community-college",
+        "name": "Durham Technical Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 5157,
+          "avg_net_price": 1183
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 104577,
+        "slug": "eastern-arizona-college",
+        "name": "Eastern Arizona College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5213,
+          "avg_net_price": 9765
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 153311,
+        "slug": "eastern-iowa-community-college-district",
+        "name": "Eastern Iowa Community College District",
+        "state": "Iowa",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 7426,
+          "avg_net_price": 9722
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 156648,
+        "slug": "elizabethtown-community-and-technical-college",
+        "name": "Elizabethtown Community and Technical College",
+        "state": "Kentucky",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 6420,
+          "avg_net_price": 5594
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 155195,
+        "slug": "hutchinson-community-college",
+        "name": "Hutchinson Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 5119,
+          "avg_net_price": 5300
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 153630,
+        "slug": "iowa-western-community-college",
+        "name": "Iowa Western Community College",
+        "state": "Iowa",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 5540,
+          "avg_net_price": 11574
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 150987,
+        "slug": "ivy-tech-community-college",
+        "name": "Ivy Tech Community College",
+        "state": "Indiana",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 110710,
+          "avg_net_price": 6544
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 156921,
+        "slug": "jefferson-community-and-technical-college",
+        "name": "Jefferson Community and Technical College",
+        "state": "Kentucky",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 13429,
+          "avg_net_price": 6058
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 141796,
+        "slug": "kapiolani-community-college",
+        "name": "Kapiolani Community College",
+        "state": "Hawaii",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 5914,
+          "avg_net_price": 5194
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 117247,
+        "slug": "laney-college",
+        "name": "Laney College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 9328,
+          "avg_net_price": 15805
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 232575,
+        "slug": "laurel-ridge-community-college",
+        "name": "Laurel Ridge Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 5902,
+          "avg_net_price": 5586
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 146685,
+        "slug": "lincoln-land-community-college",
+        "name": "Lincoln Land Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 5677,
+          "avg_net_price": 5294
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 118772,
+        "slug": "merritt-college",
+        "name": "Merritt College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 7022,
+          "avg_net_price": 14742
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 181303,
+        "slug": "metropolitan-community-college-area",
+        "name": "Metropolitan Community College Area",
+        "state": "Nebraska",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 16642,
+          "avg_net_price": 4005
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 193326,
+        "slug": "monroe-community-college",
+        "name": "Monroe Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 8641,
+          "avg_net_price": 6569
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 147378,
+        "slug": "moraine-valley-community-college",
+        "name": "Moraine Valley Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 11296,
+          "avg_net_price": 1771
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 224110,
+        "slug": "north-central-texas-college",
+        "name": "North Central Texas College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 8106,
+          "avg_net_price": 6714
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 204945,
+        "slug": "owens-community-college",
+        "name": "Owens Community College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 7854,
+          "avg_net_price": 10202
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 147916,
+        "slug": "parkland-college",
+        "name": "Parkland College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 6014,
+          "avg_net_price": 8271
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 199333,
+        "slug": "pitt-community-college",
+        "name": "Pitt Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 7684,
+          "avg_net_price": 7150
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 148380,
+        "slug": "rock-valley-college",
+        "name": "Rock Valley College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 5978,
+          "avg_net_price": 7325
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 199494,
+        "slug": "rowan-cabarrus-community-college",
+        "name": "Rowan-Cabarrus Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 7028,
+          "avg_net_price": 4842
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 143215,
+        "slug": "southwestern-illinois-college",
+        "name": "Southwestern Illinois College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 8492,
+          "avg_net_price": 7210
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 227854,
+        "slug": "st-philip-s-college",
+        "name": "St Philip's College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 17299,
+          "avg_net_price": 4873
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 149532,
+        "slug": "triton-college",
+        "name": "Triton College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 9842,
+          "avg_net_price": 4427
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 149727,
+        "slug": "waubonsee-community-college",
+        "name": "Waubonsee Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 8305,
+          "avg_net_price": 6113
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://prie.marin.edu/fact-book",
+    "office_name": "Planning, Research and Institutional Effectiveness",
+    "summary": "The College of Marin's Planning, Research and Institutional Effectiveness (PRIE) office provides dashboards with data on student enrollment, demographics, degrees, and outcomes. The Fact Book dashboards are compiled from internal and external data sources and are regularly updated. The page also provides contact details and the physical address for the office.",
+    "phone": "415-485-9514",
+    "address": "Academic Center, AC 215, Kentfield Campus",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:45:37.017151+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Holley Shafer, Ed.D.",
+      "title": "Director of Institutional Effectiveness",
+      "phone": "628-234-7514"
+    },
+    {
+      "ordering": 1,
+      "name": "Mary Kesler",
+      "title": "Administrative Assistant III",
+      "phone": "628-234-7563",
+      "linkedin_url": "https://www.linkedin.com/in/mary-kesler-b977b339"
+    },
+    {
+      "ordering": 2,
+      "name": "Alyssa Graff",
+      "title": "Classified Professional Development Program Coordinator",
+      "phone": "628-234-7570",
+      "linkedin_url": "https://www.linkedin.com/in/alyssa01"
+    },
+    {
+      "ordering": 3,
+      "name": "Soma Srinivasan",
+      "title": "Data Systems Research Analyst",
+      "phone": "628-234-7435"
+    },
+    {
+      "ordering": 4,
+      "name": "Satomi Furuichi",
+      "title": "Senior Institutional Research Analyst",
+      "phone": "628-234-7393"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118347",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:45:39.695909+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2015,
+      "title": "Fact Book | Dream.Learn.Achieve",
+      "url": "https://marin.edu/fact-book",
+      "summary": "The Fact Book for College of Marin provides detailed information on the college's enrollment statistics, student characteristics, academic programs, student outcomes, and institutional effectiveness. Key metrics include total student enrollment, success and retention rates, degrees awarded, and transfers to four-year institutions. It covers data up to the year 2015 and gives an overview of the college's services, demographics, and academic offerings. The Fact Book is published by the Planning & Research office.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:42:23.193404+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "College of Marin Glossary of Terms",
+      "url": "https://ss.marin.edu/tcc/glossary",
+      "summary": "The College of Marin Glossary of Terms provides an extensive list of definitions related to various academic and administrative concepts frequently encountered by students. The glossary includes definitions of academic processes such as academic renewal, degrees like associate and bachelor’s, descriptions of educational structures like general education and elective courses, and procedural terms such as accreditation and articulation agreements. It aims to clarify terms not only relevant to current students but also those planning transfers or further academic pursuits.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:44:54.549073+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Plan 2030: Defining Our Future",
+      "url": "https://prie.marin.edu/plan-2030-defining-our-future",
+      "summary": "Plan 2030: Defining Our Future is the College of Marin's strategic guide for institutional planning and decision-making over the next five years. It encompasses three strategic pillars: enhancing learning environments, fostering a supportive workplace, and driving positive community change. Developed with extensive input and data-driven methodologies, the plan sets forth specific goals and implementation strategies to address educational, operational, and community engagement priorities, reflecting a commitment to equity and sustainable practices.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:42:57.35517+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Research & Planning Analyst - College of Marin - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179360960"
+    }
+  ],
+  "grants": [
+    {
+      "title": "2018 Rising Star Grant",
+      "agency": "National Coalition for Campus Children’s Centers (N4C)",
+      "kind": "award",
+      "url": "https://marin.edu/news/nominations-grant-awards-conference-presentations-and-honors",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Don Barksdale",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Barksdale",
+      "field": "Athletics"
+    },
+    {
+      "name": "Dian Fossey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dian_Fossey",
+      "field": "Science"
+    },
+    {
+      "name": "Kathleen Quinlan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kathleen_Quinlan",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Robin Williams",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robin_Williams",
+      "field": "Entertainment"
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:03.411694+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 109651,
+    "slug": "art-center-college-of-design",
+    "name": "Art Center College of Design",
+    "website_url": "https://www.artcenter.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91103",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Small Programs",
+    "carnegie_slug": "masters-small",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "H14MY7ENHRT1",
+      "opeid": "00111600",
+      "ein": "951921340"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The ArtCenter College of Design is a private art college in Pasadena, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ArtCenter_College_of_Design",
+    "source_url": "https://en.wikipedia.org/wiki/ArtCenter_College_of_Design",
+    "fetched_at": "2026-05-28T00:54:49.719279+05:30"
+  },
+  "admissions": {
+    "applicants": 1461,
+    "admits": 1089,
+    "enrolled": 343,
+    "first_time_freshmen": 343,
+    "first_time_freshmen_ft": 343,
+    "admit_rate": 0.7453798767967146,
+    "yield_rate": 0.3149678604224059
+  },
+  "cost": {
+    "avg_net_price": 50209,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.1144,
+    "federal_loan_rate": 0.3564,
+    "net_price_by_family_income": {
+      "0_30k": 42545,
+      "30_48k": 40905,
+      "48_75k": 46301,
+      "75_110k": 52165,
+      "110k_plus": 60976
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.79,
+    "grad_4yr_bachelors": 0.35,
+    "grad_5yr_bachelors": 0.68,
+    "grad_6yr_bachelors": 0.79,
+    "pell_grad_rate": 0.74,
+    "pell_6yr_bachelors_rate": 0.74,
+    "non_pell_grad_rate": 0.67,
+    "non_pell_6yr_bachelors": 0.67,
+    "retention_full_time": 0.86
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2923,
+    "ug_12mo": 2582,
+    "grad_12mo": 2545,
+    "women_12mo": 1677,
+    "men_12mo": 1246,
+    "fall_total": 2308,
+    "fall_full_time": 2038,
+    "fall_part_time": 2017,
+    "distance_ed_any": 2308,
+    "distance_ed_exclusive": 28,
+    "race_ethnicity": {
+      "white": 0.0944,
+      "black": 0.0151,
+      "hispanic": 0.1013,
+      "asian": 0.3043,
+      "ai_an": 0.0,
+      "nh_pi": 0.0024,
+      "two_or_more": 0.0394,
+      "non_resident": 0.443,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 323
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 114
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 95
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 45
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 10
+      }
+    ],
+    "program_count": 12,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 87
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108232,
+        "slug": "academy-of-art-university",
+        "name": "Academy of Art University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.75,
+          "enrollment": 5498,
+          "avg_net_price": 39778
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110404,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.02569284064665127,
+          "yield_rate": 0.6123595505617978,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2430,
+          "avg_net_price": 18902
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 202046,
+        "slug": "cleveland-institute-of-art",
+        "name": "Cleveland Institute of Art",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6134969325153374,
+          "yield_rate": 0.19833333333333333,
+          "grad_rate": 0.58,
+          "retention_rate": 0.88,
+          "enrollment": 545,
+          "avg_net_price": 41480
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 169442,
+        "slug": "college-for-creative-studies",
+        "name": "College for Creative Studies",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9193697868396663,
+          "yield_rate": 0.24899193548387097,
+          "grad_rate": 0.71,
+          "retention_rate": 0.82,
+          "enrollment": 1433,
+          "avg_net_price": 33342
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 202170,
+        "slug": "columbus-college-of-art-and-design",
+        "name": "Columbus College of Art & Design",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6765523632993512,
+          "yield_rate": 0.32054794520547947,
+          "grad_rate": 0.56,
+          "retention_rate": 0.8,
+          "enrollment": 916,
+          "avg_net_price": 30139
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 235024,
+        "slug": "cornish-college-of-the-arts",
+        "name": "Cornish College of the Arts",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.622097678142514,
+          "yield_rate": 0.19305019305019305,
+          "grad_rate": 0.56,
+          "retention_rate": 0.69,
+          "enrollment": 505,
+          "avg_net_price": 39060
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 177746,
+        "slug": "kansas-city-art-institute",
+        "name": "Kansas City Art Institute",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5475555555555556,
+          "yield_rate": 0.35064935064935066,
+          "grad_rate": 0.58,
+          "retention_rate": 0.78,
+          "enrollment": 813,
+          "avg_net_price": 29555
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 166674,
+        "slug": "massachusetts-college-of-art-and-design",
+        "name": "Massachusetts College of Art and Design",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.762699564586357,
+          "yield_rate": 0.17269267364414842,
+          "grad_rate": 0.69,
+          "retention_rate": 0.89,
+          "enrollment": 1989,
+          "avg_net_price": 23764
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 239309,
+        "slug": "milwaukee-institute-of-art-and-design",
+        "name": "Milwaukee Institute of Art & Design",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6053897978825794,
+          "yield_rate": 0.3322734499205087,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 838,
+          "avg_net_price": 27514
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 174127,
+        "slug": "minneapolis-college-of-art-and-design",
+        "name": "Minneapolis College of Art and Design",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4847775175644028,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 831,
+          "avg_net_price": 25935
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 118888,
+        "slug": "northeastern-university-oakland",
+        "name": "Northeastern University Oakland",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.16650027731558514,
+          "yield_rate": 0.1485676215856096,
+          "grad_rate": 0.62,
+          "retention_rate": 0.0,
+          "enrollment": 640
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 209603,
+        "slug": "pacific-northwest-college-of-art",
+        "name": "Pacific Northwest College of Art",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7484536082474227,
+          "yield_rate": 0.2809917355371901,
+          "grad_rate": 0.29,
+          "retention_rate": 0.69,
+          "enrollment": 466,
+          "avg_net_price": 40846
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 194578,
+        "slug": "pratt-institute-main",
+        "name": "Pratt Institute-Main",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7325292656970557,
+          "yield_rate": 0.18321226795803067,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 5356,
+          "avg_net_price": 50647
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 217493,
+        "slug": "rhode-island-school-of-design",
+        "name": "Rhode Island School of Design",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18664076509264793,
+          "yield_rate": 0.41473178542834266,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 2520,
+          "avg_net_price": 46253
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 136774,
+        "slug": "ringling-college-of-art-and-design",
+        "name": "Ringling College of Art and Design",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696524064171123,
+          "yield_rate": 0.2348048624440179,
+          "grad_rate": 0.72,
+          "retention_rate": 0.86,
+          "enrollment": 1666,
+          "avg_net_price": 55390
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 140951,
+        "slug": "savannah-college-of-art-and-design",
+        "name": "Savannah College of Art and Design",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298445725745801,
+          "yield_rate": 0.26402839664677896,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 18550,
+          "avg_net_price": 45450
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 243744,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03605693751526358,
+          "yield_rate": 0.8190614417029511,
+          "grad_rate": 0.92,
+          "retention_rate": 0.98,
+          "enrollment": 18625,
+          "avg_net_price": 12136
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 215105,
+        "slug": "university-of-the-arts",
+        "name": "University of the Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820043891733723,
+          "yield_rate": 0.23386342376052385,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "avg_net_price": 44154
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=109651",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:54:52.505926+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Michael Bay",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Bay",
+      "field": "Film and Graduate Film"
+    },
+    {
+      "name": "Roger Avary",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roger_Avary",
+      "field": "Film and Graduate Film"
+    },
+    {
+      "name": "Ralph McQuarrie",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ralph_McQuarrie",
+      "field": "Entertainment Design"
+    },
+    {
+      "name": "Syd Mead",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Syd_Mead",
+      "field": "Entertainment Design"
+    },
+    {
+      "name": "SangYup Lee",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/SangYup_Lee",
+      "field": "Transportation Design"
+    },
+    {
+      "name": "Larry Shinoda",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Larry_Shinoda",
+      "field": "Transportation Design"
+    },
+    {
+      "name": "Franz von Holzhausen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Franz_von_Holzhausen",
+      "field": "Transportation Design"
+    },
+    {
+      "name": "Chip Foose",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chip_Foose",
+      "field": "Transportation Design"
+    },
+    {
+      "name": "Henrik Fisker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henrik_Fisker",
+      "field": "Transportation Design"
+    },
+    {
+      "name": "Floyd Norman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Floyd_Norman",
+      "field": "Illustration"
+    },
+    {
+      "name": "Andy Park",
+      "field": "Entertainment Design"
+    },
+    {
+      "name": "Stefan G. Bucher",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Joe Hahn",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joe_Hahn",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Mike Shinoda",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Shinoda",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Matthew Rolston",
+      "field": "Film and Graduate Film"
+    },
+    {
+      "name": "Drew Struzan",
+      "field": "Illustration"
+    },
+    {
+      "name": "Tara McPherson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tara_McPherson",
+      "field": "Illustration"
+    },
+    {
+      "name": "Ini Archibong",
+      "field": "Spatial Experience Design"
+    },
+    {
+      "name": "Yves Béhar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yves_B%C3%A9har",
+      "field": "Product Design"
+    }
+  ]
+}

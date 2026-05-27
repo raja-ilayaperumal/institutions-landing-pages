@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:56.819976+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123554,
+    "slug": "saint-mary-s-college-of-california",
+    "name": "Saint Mary's College of California",
+    "website_url": "https://www.stmarys-ca.edu",
+    "city": "Moraga",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94575",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LEJGNN7CS3N7",
+      "opeid": "00130200",
+      "ein": "941156599"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Saint Mary's College of California is a private Catholic college in Moraga, California, United States. Established in 1863, it is administered by the De La Salle Brothers. The college offers undergraduate and graduate programs with a total student count at under 4,000 as of 2018.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Mary's_College_of_California",
+    "source_url": "https://en.wikipedia.org/wiki/Saint_Mary's_College_of_California",
+    "fetched_at": "2026-05-28T00:21:21.885639+05:30"
+  },
+  "admissions": {
+    "applicants": 5175,
+    "admits": 4478,
+    "enrolled": 424,
+    "first_time_freshmen": 424,
+    "first_time_freshmen_ft": 421,
+    "admit_rate": 0.8653140096618358,
+    "yield_rate": 0.09468512728896829
+  },
+  "cost": {
+    "avg_net_price": 31198,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.041,
+    "federal_loan_rate": 0.661,
+    "net_price_by_family_income": {
+      "0_30k": 17981,
+      "30_48k": 17139,
+      "48_75k": 24408,
+      "75_110k": 28746,
+      "110k_plus": 39616
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.7,
+    "grad_4yr_bachelors": 0.62,
+    "grad_5yr_bachelors": 0.68,
+    "grad_6yr_bachelors": 0.7,
+    "pell_grad_rate": 0.68,
+    "pell_6yr_bachelors_rate": 0.68,
+    "non_pell_grad_rate": 0.69,
+    "non_pell_6yr_bachelors": 0.69,
+    "retention_full_time": 0.85,
+    "retention_part_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3108,
+    "ug_12mo": 2265,
+    "grad_12mo": 2254,
+    "women_12mo": 1796,
+    "men_12mo": 1312,
+    "fall_total": 2734,
+    "fall_full_time": 1954,
+    "fall_part_time": 1947,
+    "distance_ed_any": 2734,
+    "distance_ed_exclusive": 134,
+    "race_ethnicity": {
+      "white": 0.3824,
+      "black": 0.0519,
+      "hispanic": 0.3137,
+      "asian": 0.0949,
+      "ai_an": 0.0025,
+      "nh_pi": 0.0124,
+      "two_or_more": 0.0929,
+      "non_resident": 0.0267,
+      "race_unknown": 0.0227
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 321
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 125
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 64
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 53
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 29
+      }
+    ],
+    "program_count": 82,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 200
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 122931,
+        "slug": "santa-clara-university",
+        "name": "Santa Clara University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4799683711122826,
+          "yield_rate": 0.17693574958813837,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 9728,
+          "avg_net_price": 50959
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 236595,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.769248937175248,
+          "yield_rate": 0.13632176849861835,
+          "grad_rate": 0.76,
+          "retention_rate": 0.84,
+          "enrollment": 7189,
+          "avg_net_price": 34802
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 209825,
+        "slug": "university-of-portland",
+        "name": "University of Portland",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8916636506213054,
+          "yield_rate": 0.0961980787444189,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 3285,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.stmarys-ca.edu/offices-services/academic-affairs/institutional-and-educational-effectiveness/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Institutional and Educational Effectiveness",
+    "summary": "The Institutional Research office at Saint Mary's College of California is dedicated to fostering a culture of data-driven excellence and informed, equity minded, decision-making. Our mission is to empower our community with accurate, timely, and insightful information that supports strategic planning, enhances student success, and promotes institutional effectiveness.",
+    "address": "1928 St. Marys Rd, Moraga, CA 94575",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-28T00:21:20.639842+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Milena Angelova, Ph.D., Ed.D., M.sc.",
+      "title": "Director of Institutional Research"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2023,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2024-04/CDS_2023_2024_final_040424.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/cds_2021-22.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/2020-21_cds_final_4.23.21_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2019-20-SaintMarysCollege-Final-5-18-20.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS%202018-19.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2017-2018%20-Final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2016-2017%20Final_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS%202014-15%20-%20FINAL.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2013-2014%20-%20final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.stmarys-ca.edu/sites/default/files/2023-01/CDS_2012-2013.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Data Governance | Saint Mary's College",
+      "url": "https://www.stmarys-ca.edu/offices-services/academic-affairs/institutional-and-educational-effectiveness/data-governance",
+      "summary": "The Data Governance page at Saint Mary's College of California outlines the institution's approach to managing and utilizing data as a strategic asset. The Data Governance Committee collaborates with IEE and AIS to ensure data integrity, security, and effective usage across the institution's various operational phases, including collection, pathways, integration, analysis, and distribution. The page also specifies policies related to instructional programs, data definitions, access privileges, and the roles of various teams and offices in maintaining the institution's data governance framework.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:20:33.320837+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Data Governance | Saint Mary's College",
+      "url": "https://www.stmarys-ca.edu/offices-services/academic-affairs/institutional-and-educational-effectiveness/data-governance",
+      "summary": "The Data Governance page of Saint Mary's College of California details the institution's planned strategies for managing data through policies, practices and operations, aiming to support evidence-based decision making. The college-wide data strategies facilitate a comprehensive system for data management, including collection, pathways, integration, analysis, and distribution of data. The Data Governance Committee is responsible for transforming data into a strategic asset by establishing data definitions, maintaining data security, and fostering continuous improvement. This page includes information about their organizational structure, roles of committee members, data access regulations, and policies governing data integrity and security. Additionally, it introduces the data dictionary process and various data reports and dashboards within the institutional framework.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:19:37.175677+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123554",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:21:23.141373+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2020,
+      "title": "2020-2028 Strategic Plan",
+      "url": "https://digitalcommons.stmarys-ca.edu/strategic-plans/2/",
+      "summary": "The 2020-2028 Strategic Plan of Saint Mary's College of California outlines the strategic direction of the institution over an eight-year period. Authored by the College, the plan was published in 2020 and is accessible via their Digital Commons. It serves as a guiding document for decision-making and institutional development through 2028.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:17:42.236806+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Budget, Financial Planning & Institutional Strategy",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179357149"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Mahershala Ali",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mahershala_Ali",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Jennifer Chambliss Bertman",
+      "field": "Arts"
+    },
+    {
+      "name": "Brandon Elefante",
+      "field": "Politics"
+    },
+    {
+      "name": "Robert Hass",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Hass",
+      "field": "Arts"
+    },
+    {
+      "name": "Valerie Fleming",
+      "field": "Athletics"
+    },
+    {
+      "name": "Matthew Dellavedova",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Matthew_Dellavedova",
+      "field": "Athletics"
+    },
+    {
+      "name": "Patty Mills",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Patty_Mills",
+      "field": "Athletics"
+    },
+    {
+      "name": "Bob Ladouceur",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Ladouceur",
+      "field": "Athletics"
+    },
+    {
+      "name": "Mario Alioto",
+      "field": "Business"
+    },
+    {
+      "name": "Joseph Alioto",
+      "field": "Politics"
+    },
+    {
+      "name": "Don Perata",
+      "field": "Politics"
+    },
+    {
+      "name": "George Schmitt",
+      "field": "Business"
+    },
+    {
+      "name": "John Henry Johnson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Henry_Johnson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Angélica Garcia",
+      "field": "Education"
+    }
+  ]
+}

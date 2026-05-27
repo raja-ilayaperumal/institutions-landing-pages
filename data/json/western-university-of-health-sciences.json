@@ -1,0 +1,500 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:52.833485+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112525,
+    "slug": "western-university-of-health-sciences",
+    "name": "Western University of Health Sciences",
+    "website_url": "https://www.westernu.edu",
+    "city": "Pomona",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91766-1854",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NFFLPSHMNJN4",
+      "opeid": "02482700",
+      "ein": "953127273"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Western University of Health Sciences (WesternU) is a private medical university in Pomona, California, United States. With an enrollment of 3,724 students (2022–23), WesternU offers more than twenty academic programs in multiple colleges. It also operates an additional campus in Lebanon, Oregon.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Western_University_of_Health_Sciences",
+    "source_url": "https://en.wikipedia.org/wiki/Western_University_of_Health_Sciences",
+    "fetched_at": "2026-05-27T23:46:42.414407+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "is_private_for_net_price": true,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 3760,
+    "women_12mo": 2380,
+    "men_12mo": 1380,
+    "fall_total": 3665,
+    "distance_ed_any": 3665,
+    "distance_ed_exclusive": 1
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 935
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 106
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 4
+      }
+    ],
+    "program_count": 17,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 308
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 100858,
+        "slug": "auburn-university",
+        "name": "Auburn University",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4592414995640802,
+          "yield_rate": 0.24137794652744818,
+          "grad_rate": 0.82,
+          "retention_rate": 0.95,
+          "enrollment": 34145,
+          "avg_net_price": 23897
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 181002,
+        "slug": "creighton-university",
+        "name": "Creighton University",
+        "state": "Nebraska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7975211837612243,
+          "yield_rate": 0.17856010149064383,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 8581,
+          "avg_net_price": 32380
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 154156,
+        "slug": "des-moines-university-osteopathic-medical-center",
+        "name": "Des Moines University-Osteopathic Medical Center",
+        "state": "Iowa",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1534
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 231970,
+        "slug": "eastern-virginia-medical-school",
+        "name": "Eastern Virginia Medical School",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1216
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 123943,
+        "slug": "marshall-b-ketchum-university",
+        "name": "Marshall B Ketchum University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 653
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 143853,
+        "slug": "midwestern-university-downers-grove",
+        "name": "Midwestern University-Downers Grove",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2567
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 423643,
+        "slug": "midwestern-university-glendale",
+        "name": "Midwestern University-Glendale",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3738
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 119173,
+        "slug": "mount-saint-mary-s-university",
+        "name": "Mount Saint Mary's University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7312576812781647,
+          "yield_rate": 0.11988795518207283,
+          "grad_rate": 0.48,
+          "retention_rate": 0.71,
+          "enrollment": 2312,
+          "avg_net_price": 25009
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 136215,
+        "slug": "nova-southeastern-university",
+        "name": "Nova Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7321137067267098,
+          "yield_rate": 0.15608180839612487,
+          "grad_rate": 0.63,
+          "retention_rate": 0.76,
+          "enrollment": 20910,
+          "avg_net_price": 31303
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 209490,
+        "slug": "oregon-health-and-science-university",
+        "name": "Oregon Health & Science University",
+        "state": "Oregon",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2942
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 215123,
+        "slug": "philadelphia-college-of-osteopathic-medicine",
+        "name": "Philadelphia College of Osteopathic Medicine",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2901
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 122296,
+        "slug": "samuel-merritt-university",
+        "name": "Samuel Merritt University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1926
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 196592,
+        "slug": "touro-university",
+        "name": "Touro University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.608271375464684,
+          "yield_rate": 0.4346829640947288,
+          "grad_rate": 0.76,
+          "retention_rate": 0.89,
+          "enrollment": 11937,
+          "avg_net_price": 26556
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 168148,
+        "slug": "tufts-university",
+        "name": "Tufts University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1149221654275093,
+          "yield_rate": 0.4551427849380844,
+          "grad_rate": 0.94,
+          "retention_rate": 0.95,
+          "enrollment": 13599,
+          "avg_net_price": 35435
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 110644,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4182816798834763,
+          "yield_rate": 0.1636398810243513,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 40065,
+          "avg_net_price": 15288
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 110699,
+        "slug": "university-of-california-san-francisco",
+        "name": "University of California-San Francisco",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3007
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.westernu.edu/ire/",
+    "office_name": "Office of Institutional Research and Effectiveness",
+    "summary": "Our unit is committed to providing data that supports decision making and planning at Western University of Health Sciences.",
+    "phone": "(909) 623-6116",
+    "email": "ire@westernu.edu",
+    "address": "309 E. Second St. Pomona, CA 91766-1854",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T23:46:41.259909+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Satoko Siegel, Ph.D.",
+      "title": "Associate Vice Provost",
+      "email": "ssiegel@westernu.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Heather Simmons",
+      "title": "Operations Associate",
+      "email": "hsimmons@westernu.edu",
+      "linkedin_url": "https://www.linkedin.com/in/heather-simmons-92311248"
+    },
+    {
+      "ordering": 2,
+      "name": "En-Hsien Liu, Ed.D.",
+      "title": "Assistant Director",
+      "email": "liue@westernu.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Delia Padilla Kallemeyn, M.A.",
+      "title": "Research Analyst",
+      "email": "pkallemeyn@westernu.edu"
+    },
+    {
+      "ordering": 4,
+      "name": "Carl Todaro, B.S.",
+      "title": "Senior Programmer Analyst",
+      "email": "ctodaro@westernu.edu"
+    },
+    {
+      "ordering": 5,
+      "name": "Kevin Yang",
+      "title": "Research Analyst",
+      "email": "yangk@westernu.edu",
+      "linkedin_url": "https://www.linkedin.com/in/kevin-yang-b1256275"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.westernu.edu/ire/fast-facts/",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:46:23.072072+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112525",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:46:43.648195+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Strategic Plan: Western University of Health Sciences",
+      "url": "https://www.westernu.edu/university/strategic-plan/",
+      "summary": "Western University of Health Sciences has developed a Strategic Plan to guide the institution through 2025-2030. The plan focuses on innovation, compassion, and an unwavering commitment to health and healing, aiming to build a humanistic healthcare workforce for the future. The strategic planning process involves collaboration across governance branches and seeks to engage the entire WesternU community.",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:43:17.781016+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Research Analyst - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179391383"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Lee Burnett"
+    },
+    {
+      "name": "Gabriel Chiu"
+    },
+    {
+      "name": "Ben Thomson",
+      "field": "Medicine"
+    }
+  ]
+}

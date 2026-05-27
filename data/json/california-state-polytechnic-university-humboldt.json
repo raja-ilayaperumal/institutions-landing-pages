@@ -1,0 +1,770 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:49.369180+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115755,
+    "slug": "california-state-polytechnic-university-humboldt",
+    "name": "California State Polytechnic University-Humboldt",
+    "website_url": "https://www.humboldt.edu",
+    "city": "Arcata",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95521-8299",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K1S8M8RU4FK7",
+      "opeid": "00114900",
+      "ein": "946001347"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State Polytechnic University, Humboldt is a public university in Arcata, California. It is one of three polytechnic universities in the California State University (CSU) system and the northernmost campus in the system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_Polytechnic_University,_Humboldt",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_Polytechnic_University,_Humboldt",
+    "fetched_at": "2026-05-27T22:17:36.151731+05:30"
+  },
+  "admissions": {
+    "applicants": 15725,
+    "admits": 15442,
+    "enrolled": 909,
+    "first_time_freshmen": 909,
+    "first_time_freshmen_ft": 887,
+    "admit_rate": 0.9820031796502384,
+    "yield_rate": 0.05886543193886802
+  },
+  "cost": {
+    "avg_net_price": 13167,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1098,
+    "federal_loan_rate": 0.3708,
+    "net_price_by_family_income": {
+      "0_30k": 8090,
+      "30_48k": 9623,
+      "48_75k": 13095,
+      "75_110k": 17692,
+      "110k_plus": 22695
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.49,
+    "grad_4yr_bachelors": 0.26,
+    "grad_5yr_bachelors": 0.42,
+    "grad_6yr_bachelors": 0.49,
+    "pell_grad_rate": 0.43,
+    "pell_6yr_bachelors_rate": 0.43,
+    "non_pell_grad_rate": 0.54,
+    "non_pell_6yr_bachelors": 0.54,
+    "retention_full_time": 0.76,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6780,
+    "ug_12mo": 6136,
+    "grad_12mo": 5980,
+    "women_12mo": 3869,
+    "men_12mo": 2911,
+    "fall_total": 6237,
+    "fall_full_time": 5661,
+    "fall_part_time": 5612,
+    "distance_ed_any": 6237,
+    "distance_ed_exclusive": 548,
+    "race_ethnicity": {
+      "white": 0.5096,
+      "black": 0.0262,
+      "hispanic": 0.2972,
+      "asian": 0.0306,
+      "ai_an": 0.0118,
+      "nh_pi": 0.0031,
+      "two_or_more": 0.0727,
+      "non_resident": 0.0027,
+      "race_unknown": 0.0461
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 306
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 178
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 160
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 133
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 99
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 96
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 74
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 69
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 52
+      }
+    ],
+    "program_count": 62,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 264
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110422,
+        "slug": "california-polytechnic-state-university-san-luis-obispo",
+        "name": "California Polytechnic State University-San Luis Obispo",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3132322183381843,
+          "yield_rate": 0.2461243929772133,
+          "grad_rate": 0.86,
+          "retention_rate": 0.96,
+          "enrollment": 23069,
+          "avg_net_price": 15624
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110529,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7517419509851033,
+          "yield_rate": 0.12462378479158344,
+          "grad_rate": 0.68,
+          "retention_rate": 0.87,
+          "enrollment": 27636,
+          "avg_net_price": 11580
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110486,
+        "slug": "california-state-university-bakersfield",
+        "name": "California State University-Bakersfield",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.938544107642301,
+          "yield_rate": 0.10422036082474227,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 10419,
+          "avg_net_price": 5825
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 441937,
+        "slug": "california-state-university-channel-islands",
+        "name": "California State University-Channel Islands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9481271282633371,
+          "yield_rate": 0.062253082724769544,
+          "grad_rate": 0.51,
+          "retention_rate": 0.72,
+          "enrollment": 5592,
+          "avg_net_price": 9792
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 110538,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9271503301603636,
+          "yield_rate": 0.10160477269574064,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 15257,
+          "avg_net_price": 14838
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110547,
+        "slug": "california-state-university-dominguez-hills",
+        "name": "California State University-Dominguez Hills",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9329852919030169,
+          "yield_rate": 0.09318842139244593,
+          "grad_rate": 0.43,
+          "retention_rate": 0.74,
+          "enrollment": 15182,
+          "avg_net_price": 3659
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 110574,
+        "slug": "california-state-university-east-bay",
+        "name": "California State University-East Bay",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9738771382826326,
+          "yield_rate": 0.06852989530154885,
+          "grad_rate": 0.48,
+          "retention_rate": 0.76,
+          "enrollment": 12326,
+          "avg_net_price": 11276
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 110556,
+        "slug": "california-state-university-fresno",
+        "name": "California State University-Fresno",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.952604432879513,
+          "yield_rate": 0.17516218721038,
+          "grad_rate": 0.57,
+          "retention_rate": 0.82,
+          "enrollment": 24427,
+          "avg_net_price": 6480
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 110565,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9052073414365466,
+          "yield_rate": 0.1420527205973351,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 43662,
+          "avg_net_price": 5646
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 110583,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 110592,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125080218806344,
+          "yield_rate": 0.0942397856664434,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 23163,
+          "avg_net_price": 4113
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 409698,
+        "slug": "california-state-university-monterey-bay",
+        "name": "California State University-Monterey Bay",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9740172771713654,
+          "yield_rate": 0.09755929872808525,
+          "grad_rate": 0.59,
+          "retention_rate": 0.8,
+          "enrollment": 7713,
+          "avg_net_price": 14487
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 110608,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9344644750795335,
+          "yield_rate": 0.17972245639063614,
+          "grad_rate": 0.57,
+          "retention_rate": 0.73,
+          "enrollment": 38313,
+          "avg_net_price": 7599
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 110617,
+        "slug": "california-state-university-sacramento",
+        "name": "California State University-Sacramento",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9398599379106202,
+          "yield_rate": 0.15321093870026117,
+          "grad_rate": 0.56,
+          "retention_rate": 0.82,
+          "enrollment": 31943,
+          "avg_net_price": 10512
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 110510,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 366711,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9510166827239998,
+          "yield_rate": 0.13990935750466543,
+          "grad_rate": 0.55,
+          "retention_rate": 0.79,
+          "enrollment": 16237,
+          "avg_net_price": 10550
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 110495,
+        "slug": "california-state-university-stanislaus",
+        "name": "California State University-Stanislaus",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9813618748846651,
+          "yield_rate": 0.19142534787514104,
+          "grad_rate": 0.53,
+          "retention_rate": 0.82,
+          "enrollment": 9724,
+          "avg_net_price": 5671
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 122409,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36190148046058773,
+          "yield_rate": 0.20358711341789257,
+          "grad_rate": 0.76,
+          "retention_rate": 0.91,
+          "enrollment": 41137,
+          "avg_net_price": 16174
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 122597,
+        "slug": "san-francisco-state-university",
+        "name": "San Francisco State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9643527869317176,
+          "yield_rate": 0.08598199522322249,
+          "grad_rate": 0.5,
+          "retention_rate": 0.83,
+          "enrollment": 22563,
+          "avg_net_price": 12882
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 122755,
+        "slug": "san-jose-state-university",
+        "name": "San Jose State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8461434880965205,
+          "yield_rate": 0.14653553582227313,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 37661,
+          "avg_net_price": 13741
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 123572,
+        "slug": "sonoma-state-university",
+        "name": "Sonoma State University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9342877467544015,
+          "yield_rate": 0.08308746549919102,
+          "grad_rate": 0.58,
+          "retention_rate": 0.79,
+          "enrollment": 5891,
+          "avg_net_price": 13801
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.humboldt.edu/irar",
+    "office_name": "Office of Institutional Research, Analytics, and Reporting",
+    "summary": "We strive to provide you with quick and easy access to the information you need to make data-informed decisions.",
+    "phone": "(707) 826-5338",
+    "fax": "(707) 826-5332",
+    "email": "IRAR@humboldt.edu",
+    "address": "1 Harpst Street, Arcata, CA 95521",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:17:35.052252+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Michael \"Data\" Le",
+      "title": "Director, Institutional Research, Analytics, and Reporting",
+      "phone": "(707) 826-3011",
+      "linkedin_url": "https://www.linkedin.com/in/michaeldatale"
+    },
+    {
+      "ordering": 0,
+      "name": "Michael Le",
+      "title": "Director, Institutional Research, Analytics, and Reporting",
+      "email": "Michael.Le@humboldt.edu",
+      "phone": "(707) 826-5489",
+      "linkedin_url": "https://www.linkedin.com/in/michaeldatale"
+    },
+    {
+      "ordering": 1,
+      "name": "Matthew Koelling",
+      "title": "Analyst/Programmer",
+      "email": "Matt.koelling@humboldt.edu",
+      "phone": "(707) 826-4230"
+    },
+    {
+      "ordering": 2,
+      "name": "Gay Hylton",
+      "title": "Research Analyst",
+      "email": "Gay.Hylton@humboldt.edu",
+      "phone": "(707) 826-5340"
+    },
+    {
+      "ordering": 3,
+      "name": "Jeff Stebbins",
+      "title": "Analyst/Programmer",
+      "email": "Jeff.stebbins@humboldt.edu",
+      "phone": "(707) 826-3522",
+      "linkedin_url": "https://www.linkedin.com/in/jeff-stebbins-a8313243"
+    },
+    {
+      "ordering": 4,
+      "name": "Sky McKinley",
+      "title": "Analyst/Programmer",
+      "email": "Sky.McKinley@humboldt.edu",
+      "phone": "(707) 826-5334",
+      "linkedin_url": "https://www.linkedin.com/in/sky-mckinley"
+    },
+    {
+      "ordering": 5,
+      "name": "Seth Bradley",
+      "title": "Research Analyst",
+      "email": "Seth.Bradley@humboldt.edu",
+      "phone": "(707) 826-6193"
+    },
+    {
+      "ordering": 6,
+      "name": "Stephanie Souter",
+      "title": "Research Analyst",
+      "email": "Stephanie.Souter@humboldt.edu",
+      "phone": "(707) 826-5339"
+    },
+    {
+      "ordering": 7,
+      "name": "Steven Margell",
+      "title": "Research Analyst",
+      "email": "Steven.Margell@humboldt.edu",
+      "phone": "(707) 826-5487"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2025-12/cds-2025-26-cal-poly-humboldt.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2025,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-11/2024-2025-cds-cal-poly-humboldt-printable.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-07/cdscalpolyhumboldt20232024-web.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-07/cds2022-2023-3irarweb2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-07/cds2021-2022-wide0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-07/cds2020-2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.humboldt.edu/sites/default/files/irar/2024-07/cds2019-2020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "http://pine.humboldt.edu/~anstud/cds_f18/2017-2018CDS%20FINAL.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "http://pine.humboldt.edu/~anstud/cds_f16/CDS_HSU_2016-2017.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "http://pine.humboldt.edu/~anstud/cds_f15/CDS_2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "http://pine.humboldt.edu/~anstud/cds_f14/CDS_2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "http://pine.humboldt.edu/~anstud/cds_f13/CDS_2013-2014.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Got Data?",
+      "url": "https://www.humboldt.edu/irar/got-data/got-data",
+      "summary": "The 'Got Data?' page at Cal Poly Humboldt provides access to a variety of data tools and reports related to university admissions, enrollment, and student outcomes. It includes links to Fast Facts, Tableau Cloud, historical enrollment data, and other resources aimed at improving data access and analysis for decision-making and academic purposes.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:13:20.711742+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2018,
+      "title": "ODD fields - Data Dictionary for On-Demand-Datasets",
+      "url": "http://pine.humboldt.edu/cgi-bin/cgiwrap/anstud/filter.pl?relevant=oddfield.out",
+      "summary": "This data dictionary provides a comprehensive list of terms and definitions used in On-Demand datasets at California State Polytechnic University-Humboldt. It covers key aspects such as academic standing, admission processes, financial aid, course details, student demographics, and performance metrics. The terms provide insights into the students' educational journey, including grades, major details, cohort information, financial status, and other attributes important for institutional reporting and analysis. This resource is essential for accurately interpreting and utilizing the university's data for decision making and assessment.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:11:52.94565+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115755",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:17:37.572794+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Humboldt IRAR Data Glossary",
+      "url": "https://www.humboldt.edu/irar/got-data/data-glossary",
+      "summary": "The Humboldt IRAR Data Glossary provides definitions for data elements and abbreviations used by Institutional Research, Analysis, and Reporting at California State Polytechnic University-Humboldt. It includes terms related to academic structures, classifications, enrollment, and various descriptive data fields necessary for institutional data use and reporting.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:14:26.63902+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "2021-2026 Strategic Plan: A bold vision for the future of Cal Poly Humboldt",
+      "url": "https://humboldt.edu/strategic-plan/",
+      "summary": "The 2021-2026 Strategic Plan for Cal Poly Humboldt sets out a bold vision focused on enhancing academic excellence, promoting inclusive and diverse environments, and ensuring a sustainable future. Signed by President Tom Jackson, Jr., the plan emphasizes interdisciplinary study, community collaboration, and holistic student success. With a framework built on creativity, equity, and sustainability, the plan aims to prepare the university to thrive amidst future challenges while honoring its commitment to social responsibility and civic engagement.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:09:29.719479+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Improving Undergraduate STEM Education: Hispanic-Serving Institutions Grant Opportunities",
+      "agency": "National Science Foundation",
+      "kind": "opportunity",
+      "url": "https://pmc.humboldt.edu/portal/national-science-foundation-announces-improving-undergraduate-stem-education-hispanic-serving",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Rick Rosenthal",
+      "field": "Cinematography"
+    },
+    {
+      "name": "R. W. Hicks",
+      "field": "Athletics"
+    },
+    {
+      "name": "Kaitlin Yarnall",
+      "field": "Publishing"
+    },
+    {
+      "name": "Monroe Spaght",
+      "field": "Business"
+    },
+    {
+      "name": "Bruce Jackson",
+      "field": "Space Industry"
+    },
+    {
+      "name": "Kenneth L. Fisher",
+      "field": "Finance"
+    },
+    {
+      "name": "John Ballard",
+      "field": "Business"
+    },
+    {
+      "name": "Karen Diemer",
+      "field": "Public Service"
+    },
+    {
+      "name": "Anand Gopal",
+      "field": "Environmental Science"
+    },
+    {
+      "name": "Rakin “Rock” Hall",
+      "field": "Education"
+    },
+    {
+      "name": "Tory Starr",
+      "field": "Healthcare"
+    }
+  ]
+}

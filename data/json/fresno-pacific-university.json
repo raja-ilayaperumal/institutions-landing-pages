@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:00.772024+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114813,
+    "slug": "fresno-pacific-university",
+    "name": "Fresno Pacific University",
+    "website_url": "https://www.fresno.edu",
+    "city": "Fresno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93702-4709",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00125300",
+      "ein": "941021164"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Fresno Pacific University (FPU) is a private Christian university in Fresno, California, United States. It was founded as the Pacific Bible Institute in 1944 by the Pacific District Conference of U.S. Conference of Mennonite Brethren Churches. The university awarded its first Bachelor of Arts degree in 1965. The first master's degree program was introduced in 1975.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fresno_Pacific_University",
+    "source_url": "https://en.wikipedia.org/wiki/Fresno_Pacific_University",
+    "fetched_at": "2026-05-28T00:14:56.912132+05:30"
+  },
+  "admissions": {
+    "applicants": 1773,
+    "admits": 1136,
+    "enrolled": 196,
+    "first_time_freshmen": 196,
+    "first_time_freshmen_ft": 193,
+    "admit_rate": 0.640721940214326,
+    "yield_rate": 0.17253521126760563
+  },
+  "cost": {
+    "avg_net_price": 14317,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.4064,
+    "federal_loan_rate": 0.4725,
+    "net_price_by_family_income": {
+      "0_30k": 13059,
+      "30_48k": 11874,
+      "48_75k": 11116,
+      "75_110k": 15205,
+      "110k_plus": 20235
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.38,
+    "pell_6yr_bachelors_rate": 0.38,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3531,
+    "ug_12mo": 1909,
+    "grad_12mo": 1905,
+    "women_12mo": 2627,
+    "men_12mo": 904,
+    "fall_total": 2879,
+    "fall_full_time": 1545,
+    "fall_part_time": 1544,
+    "distance_ed_any": 2879,
+    "distance_ed_exclusive": 713,
+    "race_ethnicity": {
+      "white": 0.2032,
+      "black": 0.0539,
+      "hispanic": 0.6152,
+      "asian": 0.0496,
+      "ai_an": 0.0087,
+      "nh_pi": 0.0056,
+      "two_or_more": 0.0087,
+      "non_resident": 0.0341,
+      "race_unknown": 0.0211
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 202
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 136
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 117
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 108
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 70
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 20
+      }
+    ],
+    "program_count": 72,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 87
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 210775,
+        "slug": "alvernia-university",
+        "name": "Alvernia University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5805774278215223,
+          "yield_rate": 0.13321277878239904,
+          "grad_rate": 0.56,
+          "retention_rate": 0.72,
+          "enrollment": 2796,
+          "avg_net_price": 28329
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 232043,
+        "slug": "eastern-mennonite-university",
+        "name": "Eastern Mennonite University",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.12448979591836734,
+          "grad_rate": 0.67,
+          "retention_rate": 0.76,
+          "enrollment": 1154,
+          "avg_net_price": 23615
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 213996,
+        "slug": "messiah-university",
+        "name": "Messiah University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.78966639544345,
+          "yield_rate": 0.29057187017001546,
+          "grad_rate": 0.75,
+          "retention_rate": 0.89,
+          "enrollment": 3373,
+          "avg_net_price": 27686
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 214272,
+        "slug": "neumann-university",
+        "name": "Neumann University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8128113879003559,
+          "yield_rate": 0.10186806771745475,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 2244,
+          "avg_net_price": 28714
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 172264,
+        "slug": "siena-heights-university",
+        "name": "Siena Heights University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6889985895627645,
+          "yield_rate": 0.3633572159672467,
+          "grad_rate": 0.39,
+          "retention_rate": 0.7,
+          "enrollment": 1781,
+          "avg_net_price": 17185
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 221892,
+        "slug": "trevecca-nazarene-university",
+        "name": "Trevecca Nazarene University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6944444444444444,
+          "yield_rate": 0.26823529411764707,
+          "grad_rate": 0.53,
+          "retention_rate": 0.74,
+          "enrollment": 3195,
+          "avg_net_price": 14459
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 206437,
+        "slug": "walsh-university",
+        "name": "Walsh University",
+        "state": "Ohio",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7074235807860262,
+          "yield_rate": 0.1949588477366255,
+          "grad_rate": 0.58,
+          "retention_rate": 0.72,
+          "enrollment": 2192,
+          "avg_net_price": 20004
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114813",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:14:58.202227+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms | Fresno Pacific University",
+      "url": "https://www.fresno.edu/departments/student-financial-services/glossary-terms",
+      "summary": "The glossary from Fresno Pacific University provides definitions for 82 terms related to student financial services, including key concepts like Adjusted Gross Income, FAFSA, Direct Loans, and Cost of Attendance. The glossary serves as an essential resource for students navigating financial aid options, varying loan programs, and understanding the financial responsibilities associated with higher education.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:14:52.415703+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "Expanding the Possibilities: Revised and Extended Strategic Map 2022-2025",
+      "url": "https://www.fresno.edu/sites/default/files/documents/presidents-office/strategic-map-2022-2025-2022-03-15-accessible.pdf",
+      "summary": "Fresno Pacific University has laid out a strategic plan for 2022-2025 titled 'Expanding the Possibilities,' focusing on growth, engagement, innovation, service, and transformation. Key priorities include increasing student population and retention rates, doubling scholarship funds, promoting a Christ-centered worldview, and enhancing diversity and inclusion. With the impact of the COVID pandemic in mind, the plan aims to ensure financial health, broaden non-tuition revenue, and boost community engagement through creative and strategic initiatives.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:11:34.124865+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Social Work Education Capacity Expansion grant",
+      "agency": "California Department of Health Care Access & Information (HCAI)",
+      "kind": "award",
+      "amount_usd": 1500000,
+      "url": "https://news.fresno.edu/article/02/15/2023/15m-grant-funds-new-master-social-work-fresno-pacific-university",
+      "source": "institution_site",
+      "award_date": "2023-02-01"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Dean Lee",
+      "field": "Health Care"
+    },
+    {
+      "name": "Joe Hernandez",
+      "field": "Education"
+    },
+    {
+      "name": "Yammilette Rodriguez",
+      "field": "Nonprofit/Youth"
+    },
+    {
+      "name": "Max Steinert",
+      "field": "Business"
+    },
+    {
+      "name": "Priscilla Robbins",
+      "field": "Ministry/Human Services"
+    },
+    {
+      "name": "Pascal Kulungu",
+      "field": "International Relations"
+    },
+    {
+      "name": "Lynne Ashbeck",
+      "field": "Public Service"
+    }
+  ]
+}

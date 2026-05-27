@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:56.519353+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121707,
+    "slug": "college-of-the-redwoods",
+    "name": "College of the Redwoods",
+    "website_url": "https://www.redwoods.edu",
+    "city": "Eureka",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95501-9300",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VUCPZ5TZLRR1",
+      "opeid": "00118500",
+      "ein": "946002186"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "College of the Redwoods (CR) is a public community college with its main campus south of Eureka, California, United States. It is part of the California Community Colleges System and serves three counties. It has two branch campuses, as well as three additional sites. It is one of twelve community colleges in California that offer on-campus housing for students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_the_Redwoods",
+    "source_url": "https://en.wikipedia.org/wiki/College_of_the_Redwoods",
+    "fetched_at": "2026-05-27T22:56:09.503085+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3214,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.617,
+    "federal_loan_rate": 0.0539,
+    "net_price_by_family_income": {
+      "0_30k": 2129,
+      "30_48k": 3237,
+      "48_75k": 6106,
+      "75_110k": 9044,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "pell_grad_rate": 0.33,
+    "retention_full_time": 0.56,
+    "retention_part_time": 0.39
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6103,
+    "ug_12mo": 6103,
+    "grad_12mo": 4824,
+    "women_12mo": 3152,
+    "men_12mo": 2951,
+    "fall_total": 4706,
+    "fall_full_time": 4706,
+    "fall_part_time": 3829,
+    "distance_ed_any": 4706,
+    "distance_ed_exclusive": 1290,
+    "race_ethnicity": {
+      "white": 0.5088,
+      "black": 0.0361,
+      "hispanic": 0.2351,
+      "asian": 0.029,
+      "ai_an": 0.0569,
+      "nh_pi": 0.0026,
+      "two_or_more": 0.0965,
+      "non_resident": 0.0003,
+      "race_unknown": 0.0347
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 298
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 172
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 11
+      }
+    ],
+    "program_count": 61,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 101
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110246,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111920,
+        "slug": "chabot-college",
+        "name": "Chabot College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 12842,
+          "avg_net_price": 4616
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 123484,
+        "slug": "college-of-the-siskiyous",
+        "name": "College of the Siskiyous",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1575,
+          "avg_net_price": 7241
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112826,
+        "slug": "contra-costa-college",
+        "name": "Contra Costa College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 6538,
+          "avg_net_price": 6522
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 114433,
+        "slug": "feather-river-community-college-district",
+        "name": "Feather River Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.6,
+          "enrollment": 2055,
+          "avg_net_price": 6520
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 115861,
+        "slug": "imperial-valley-college",
+        "name": "Imperial Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 8873,
+          "avg_net_price": 1697
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 119331,
+        "slug": "napa-valley-college",
+        "name": "Napa Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 4844,
+          "avg_net_price": 14046
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 123299,
+        "slug": "shasta-college",
+        "name": "Shasta College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9073,
+          "avg_net_price": 3743
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 126119,
+        "slug": "yuba-college",
+        "name": "Yuba College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6320,
+          "avg_net_price": 3573
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.redwoods.edu/about/ir/",
+    "office_name": "Office of Institutional Effectiveness",
+    "parent_division": "College of the Redwoods",
+    "summary": "The Office of Institutional Effectiveness fosters a culture of inquiry and evidence-based decision-making to advance student success and institutional improvement. Through Institutional Research, assessment, and strategic analysis, we provide accurate, timely, and relevant data to inform policy, planning, and accreditation efforts.",
+    "email": "institutional-research@redwoods.edu",
+    "address": "College of the Redwoods, Eureka Campus, Location: AD205",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:56:08.528547+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Amy Moffat, Ph.D.",
+      "title": "Director, Institutional Effectiveness and Research, Accreditation Liaison Officer (ALO)",
+      "email": "Amy-Moffat@redwoods.edu",
+      "phone": "(707) 476-4315",
+      "linkedin_url": "https://www.linkedin.com/in/amymoffat"
+    },
+    {
+      "ordering": 1,
+      "name": "Tim Wolcott",
+      "title": "Research Analyst",
+      "email": "Timothy-Wolcott@redwoods.edu",
+      "phone": "(707) 476-4162"
+    },
+    {
+      "ordering": 2,
+      "name": "Sky Kirsch",
+      "title": "Research Analyst",
+      "email": "Schuyler-Kirsch@redwoods.edu",
+      "phone": "(707) 476-4312"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.redwoods.edu/about/ir/index.php",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:55:52.639839+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121707",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:56:10.825286+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Ashley Eriksmoen"
+    },
+    {
+      "name": "James Lee",
+      "field": "Athletics"
+    },
+    {
+      "name": "John McEwen",
+      "field": "Athletics"
+    },
+    {
+      "name": "Mike Petersen",
+      "field": "Sports"
+    }
+  ]
+}

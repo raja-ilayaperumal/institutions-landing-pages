@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:14.398125+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119173,
+    "slug": "mount-saint-mary-s-university",
+    "name": "Mount Saint Mary's University",
+    "website_url": "https://www.msmu.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90049-1599",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CFLWSHQJQ2L7",
+      "opeid": "00124300",
+      "ein": "951641455"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Mount Saint Mary's University is a private, Catholic university primarily for women, in Los Angeles, California, United States.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Saint_Mary's_University_(Los_Angeles)",
+    "source_url": "https://en.wikipedia.org/wiki/Mount_Saint_Mary's_University_(Los_Angeles)",
+    "fetched_at": "2026-05-28T00:56:20.778464+05:30"
+  },
+  "admissions": {
+    "applicants": 4882,
+    "admits": 3570,
+    "enrolled": 428,
+    "first_time_freshmen": 428,
+    "first_time_freshmen_ft": 428,
+    "admit_rate": 0.7312576812781647,
+    "yield_rate": 0.11988795518207283
+  },
+  "cost": {
+    "room_and_board": 15518,
+    "avg_net_price": 25009,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0767,
+    "federal_loan_rate": 0.6906,
+    "net_price_by_family_income": {
+      "0_30k": 17327,
+      "30_48k": 23266,
+      "48_75k": 25413,
+      "75_110k": 26738,
+      "110k_plus": 36716
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.53,
+    "grad_4yr_bachelors": 0.33,
+    "grad_5yr_bachelors": 0.45,
+    "grad_6yr_bachelors": 0.48,
+    "pell_grad_rate": 0.52,
+    "pell_6yr_bachelors_rate": 0.47,
+    "non_pell_grad_rate": 0.53,
+    "non_pell_6yr_bachelors": 0.48,
+    "retention_full_time": 0.71,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2797,
+    "ug_12mo": 2042,
+    "grad_12mo": 1955,
+    "women_12mo": 2444,
+    "men_12mo": 353,
+    "fall_total": 2312,
+    "fall_full_time": 1731,
+    "fall_part_time": 1719,
+    "distance_ed_any": 2312,
+    "distance_ed_exclusive": 201,
+    "race_ethnicity": {
+      "white": 0.0905,
+      "black": 0.0538,
+      "hispanic": 0.5447,
+      "asian": 0.1901,
+      "ai_an": 0.0092,
+      "nh_pi": 0.0029,
+      "two_or_more": 0.0172,
+      "non_resident": 0.0052,
+      "race_unknown": 0.0865
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 267
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 163
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 56
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 10
+      }
+    ],
+    "program_count": 81,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 122
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 238193,
+        "slug": "alverno-college",
+        "name": "Alverno College",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8573717948717948,
+          "yield_rate": 0.16635514018691588,
+          "grad_rate": 0.51,
+          "retention_rate": 0.61,
+          "enrollment": 1317,
+          "avg_net_price": 16722
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 211556,
+        "slug": "chatham-university",
+        "name": "Chatham University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6195589088798608,
+          "yield_rate": 0.12740046838407496,
+          "grad_rate": 0.63,
+          "retention_rate": 0.78,
+          "enrollment": 2309,
+          "avg_net_price": 25717
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 181604,
+        "slug": "college-of-saint-mary",
+        "name": "College of Saint Mary",
+        "state": "Nebraska",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44652908067542213,
+          "yield_rate": 0.35294117647058826,
+          "grad_rate": 0.61,
+          "retention_rate": 0.8,
+          "enrollment": 786,
+          "avg_net_price": 14986
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 113698,
+        "slug": "dominican-university-of-california",
+        "name": "Dominican University of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8349950149551346,
+          "yield_rate": 0.1271641791044776,
+          "grad_rate": 0.78,
+          "retention_rate": 0.85,
+          "enrollment": 1900,
+          "avg_net_price": 50218
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 118888,
+        "slug": "northeastern-university-oakland",
+        "name": "Northeastern University Oakland",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.16650027731558514,
+          "yield_rate": 0.1485676215856096,
+          "grad_rate": 0.62,
+          "retention_rate": 0.0,
+          "enrollment": 640
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 123554,
+        "slug": "saint-mary-s-college-of-california",
+        "name": "Saint Mary's College of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8653140096618358,
+          "yield_rate": 0.09468512728896829,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 2734,
+          "avg_net_price": 31198
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 193399,
+        "slug": "university-of-mount-saint-vincent",
+        "name": "University of Mount Saint Vincent",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8510998307952623,
+          "yield_rate": 0.1358515573227303,
+          "grad_rate": 0.57,
+          "retention_rate": 0.73,
+          "enrollment": 3774,
+          "avg_net_price": 19920
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 125763,
+        "slug": "whittier-college",
+        "name": "Whittier College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8078694014231896,
+          "yield_rate": 0.054145077720207255,
+          "grad_rate": 0.6,
+          "retention_rate": 0.66,
+          "enrollment": 795,
+          "avg_net_price": 29871
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119173",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:56:21.997917+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Educating Global Leaders for the Next Century",
+      "url": "https://www.msmu.edu/newsroom/news-articles/2021/2021-2026-strategic-plan/",
+      "summary": "Mount Saint Mary's University has launched its 2021-2026 strategic plan titled 'Educating Global Leaders for the Next Century,' focusing on six strategic themes that include pillars such as innovative teaching, women's leadership, and global awareness. This plan aims to invest in students, challenging and inspiring them to become leaders in their communities and around the world. The strategic vision continues the work of the University in strengthening its mission and culture through a community-driven process.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:46:43.362952+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

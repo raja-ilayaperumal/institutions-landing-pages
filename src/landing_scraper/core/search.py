@@ -1,14 +1,21 @@
 """Unified web-search interface.
 
-Tries Google CSE → Tavily → DuckDuckGo (HTML scrape fallback).
-Google CSE first because it's free (100 queries/day on the standard tier)
-while Tavily costs credits per call. We fall back to the next provider
-when the current one returns ZERO results, not just on exceptions —
-quota-blocked Tavily often returns an error AFTER consuming a credit,
-so the priority order matters even when later providers are reachable.
+Provider chain (priority order):
+  Serper → Tavily (multi-key) → Google CSE (off by default) → DuckDuckGo
 
-Returns SearchResult list. All providers are optional; the first
-available one is used unless `provider` is forced.
+Rationale (post-2026-05-27 CSE cost incident, see project memory):
+  - **Serper.dev** is the cheapest paid search at ~$0.001/query and currently
+    has credits. First in line.
+  - **Tavily** costs more per credit but has multi-key round-robin; falls
+    through automatically when a key hits monthly quota.
+  - **Google CSE** is GATED behind `settings.enable_google_cse=True`. After
+    ~9,700 queries burned ₹4,000 in one day, we refuse to call CSE unless
+    explicitly opted in — and the user is expected to set a GCP-side daily
+    quota cap before flipping the flag.
+  - **DuckDuckGo** HTML scrape is last-resort, free, lower recall.
+
+Fall-through rule: empty results AND exceptions both advance to the next
+provider. Returns SearchResult list. All paid providers are optional.
 """
 from __future__ import annotations
 
@@ -25,7 +32,7 @@ from ..config import settings
 
 log = structlog.get_logger(__name__)
 
-Provider = Literal["tavily", "google_cse", "ddg"]
+Provider = Literal["serper", "tavily", "google_cse", "ddg"]
 
 
 @dataclass
@@ -56,7 +63,9 @@ async def search(
     last_error: Exception | None = None
     for p in providers:
         try:
-            if p == "tavily":
+            if p == "serper":
+                results = await _search_serper(q, limit)
+            elif p == "tavily":
                 results = await _search_tavily(q, limit)
             elif p == "google_cse":
                 results = await _search_google_cse(q, limit)
@@ -81,19 +90,48 @@ async def search(
 
 
 def _available_providers() -> list[Provider]:
-    """Priority order: Google CSE (free) → Tavily (paid credit) → DDG (free, lower quality).
+    """Priority order: Serper → Tavily → Google CSE (gated) → DDG.
 
-    Reorder rationale: each provider returns roughly comparable results for
-    institutional queries, and CSE has a free daily allowance. Putting
-    Tavily second means we only spend credits on queries CSE couldn't answer
-    (or when CSE quota is exhausted).
+    See module docstring for the rationale and the 2026-05-27 cost incident.
     """
     out: list[Provider] = []
-    if settings.has_google_cse:
-        out.append("google_cse")
+    if settings.has_serper:
+        out.append("serper")
     if settings.has_tavily:
         out.append("tavily")
+    if settings.google_cse_active:  # gated by enable_google_cse flag
+        out.append("google_cse")
     out.append("ddg")  # always-available last-resort
+    return out
+
+
+async def _search_serper(query: str, limit: int) -> list[SearchResult]:
+    """Serper.dev — Google results, ~$0.001/credit. POST /search."""
+    if not settings.serper_api_key:
+        return []
+    async with httpx.AsyncClient(timeout=20.0) as client:
+        r = await client.post(
+            "https://google.serper.dev/search",
+            headers={
+                "X-API-KEY": settings.serper_api_key,
+                "Content-Type": "application/json",
+            },
+            json={"q": query, "num": min(max(limit, 1), 10)},
+        )
+    if r.status_code == 429:
+        log.warning("search.serper_rate_limited", status=r.status_code)
+        raise httpx.HTTPStatusError("serper 429", request=r.request, response=r)
+    r.raise_for_status()
+    data = r.json()
+    out: list[SearchResult] = []
+    for item in (data.get("organic") or [])[:limit]:
+        out.append(SearchResult(
+            title=item.get("title", "") or "",
+            url=item.get("link", "") or "",
+            snippet=item.get("snippet", "") or "",
+            provider="serper",
+            raw_score=item.get("position"),
+        ))
     return out
 
 

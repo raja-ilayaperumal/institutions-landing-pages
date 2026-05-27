@@ -1,0 +1,658 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:05.208466+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115083,
+    "slug": "golden-gate-university",
+    "name": "Golden Gate University",
+    "website_url": "https://www.ggu.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94105-2968",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "D5TQTRHK65A7",
+      "opeid": "00120500",
+      "ein": "941585735"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Golden Gate University is a private university in San Francisco, California, United States. Founded in 1901, GGU specializes in educating professionals through its schools of law, business, taxation, technology, accounting, and undergraduate studies. The university offers 4 undergraduate degrees and 18 graduate degree programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_Gate_University",
+    "source_url": "https://en.wikipedia.org/wiki/Golden_Gate_University",
+    "fetched_at": "2026-05-28T00:07:52.762176+05:30"
+  },
+  "admissions": {
+    "applicants": 0
+  },
+  "cost": {
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.5109,
+    "federal_loan_rate": 0.1797,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 5866,
+    "ug_12mo": 1291,
+    "grad_12mo": 1158,
+    "women_12mo": 2761,
+    "men_12mo": 3105,
+    "fall_total": 3098,
+    "fall_full_time": 271,
+    "fall_part_time": 259,
+    "distance_ed_any": 3098,
+    "distance_ed_exclusive": 1533,
+    "race_ethnicity": {
+      "white": 0.2873,
+      "black": 0.1691,
+      "hispanic": 0.1691,
+      "asian": 0.0855,
+      "ai_an": 0.0182,
+      "nh_pi": 0.0273,
+      "two_or_more": 0.0,
+      "non_resident": 0.0182,
+      "race_unknown": 0.2255
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 645
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 212
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 91
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 61
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 39
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 7
+      }
+    ],
+    "program_count": 27,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 29
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 217633,
+        "slug": "anderson-university-2",
+        "name": "Anderson University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5470536499560247,
+          "yield_rate": 0.32516077170418006,
+          "grad_rate": 0.66,
+          "retention_rate": 0.82,
+          "enrollment": 4710,
+          "avg_net_price": 28183
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 164739,
+        "slug": "bentley-university",
+        "name": "Bentley University",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4505085361423901,
+          "yield_rate": 0.21286031042128603,
+          "grad_rate": 0.87,
+          "retention_rate": 0.93,
+          "enrollment": 5333,
+          "avg_net_price": 38787
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 217165,
+        "slug": "bryant-university",
+        "name": "Bryant University",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6545547073791349,
+          "yield_rate": 0.1373036852744519,
+          "grad_rate": 0.8,
+          "retention_rate": 0.87,
+          "enrollment": 3636,
+          "avg_net_price": 40846
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 238458,
+        "slug": "carroll-university",
+        "name": "Carroll University",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6683971447112265,
+          "yield_rate": 0.17524271844660194,
+          "grad_rate": 0.71,
+          "retention_rate": 0.78,
+          "enrollment": 3138,
+          "avg_net_price": 24362
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 177065,
+        "slug": "columbia-college-2",
+        "name": "Columbia College",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.43,
+          "retention_rate": 0.75,
+          "enrollment": 5689,
+          "avg_net_price": 24051
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 144351,
+        "slug": "concordia-university-chicago",
+        "name": "Concordia University-Chicago",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9278571428571428,
+          "yield_rate": 0.07698229407236336,
+          "grad_rate": 0.36,
+          "retention_rate": 0.61,
+          "enrollment": 4770,
+          "avg_net_price": 16774
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 169479,
+        "slug": "davenport-university",
+        "name": "Davenport University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9783648371669323,
+          "yield_rate": 0.13524208566108006,
+          "grad_rate": 0.55,
+          "retention_rate": 0.82,
+          "enrollment": 4815,
+          "avg_net_price": 19988
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 144962,
+        "slug": "elmhurst-university",
+        "name": "Elmhurst University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7364291433146517,
+          "yield_rate": 0.12524461839530332,
+          "grad_rate": 0.7,
+          "retention_rate": 0.8,
+          "enrollment": 3997,
+          "avg_net_price": 21063
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 165699,
+        "slug": "endicott-college",
+        "name": "Endicott College",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7120608475190149,
+          "yield_rate": 0.2126144455747711,
+          "grad_rate": 0.75,
+          "retention_rate": 0.84,
+          "enrollment": 4394,
+          "avg_net_price": 39324
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 184603,
+        "slug": "fairleigh-dickinson-university-metropolitan-campus",
+        "name": "Fairleigh Dickinson University-Metropolitan Campus",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9071404050806728,
+          "yield_rate": 0.11788079470198676,
+          "grad_rate": 0.54,
+          "retention_rate": 0.77,
+          "enrollment": 8045,
+          "avg_net_price": 15266
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 141644,
+        "slug": "hawaii-pacific-university",
+        "name": "Hawaii Pacific University",
+        "state": "Hawaii",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8586512741095312,
+          "yield_rate": 0.03812100344318741,
+          "grad_rate": 0.35,
+          "retention_rate": 0.56,
+          "enrollment": 4921,
+          "avg_net_price": 30557
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 240392,
+        "slug": "herzing-university-madison",
+        "name": "Herzing University-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9429530201342282,
+          "yield_rate": 0.6886120996441281,
+          "grad_rate": 0.22,
+          "retention_rate": 0.4,
+          "enrollment": 5274,
+          "avg_net_price": 20319
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 225399,
+        "slug": "houston-christian-university",
+        "name": "Houston Christian University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8443524541691307,
+          "yield_rate": 0.10519680627538872,
+          "grad_rate": 0.49,
+          "retention_rate": 0.69,
+          "enrollment": 4276,
+          "avg_net_price": 19710
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 191931,
+        "slug": "iona-university",
+        "name": "Iona University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8694421511970751,
+          "yield_rate": 0.12913727618014106,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 3958,
+          "avg_net_price": 27951
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 134945,
+        "slug": "jacksonville-university",
+        "name": "Jacksonville University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5694037145650049,
+          "yield_rate": 0.1630901287553648,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 4247,
+          "avg_net_price": 26255
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 217235,
+        "slug": "johnson-and-wales-university-providence",
+        "name": "Johnson & Wales University-Providence",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8841338783852836,
+          "yield_rate": 0.1577806675335934,
+          "grad_rate": 0.5,
+          "retention_rate": 0.82,
+          "enrollment": 4303,
+          "avg_net_price": 32478
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 132657,
+        "slug": "lynn-university",
+        "name": "Lynn University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7346602608098833,
+          "yield_rate": 0.1335949177877429,
+          "grad_rate": 0.52,
+          "retention_rate": 0.77,
+          "enrollment": 3514,
+          "avg_net_price": 38222
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 185572,
+        "slug": "monmouth-university",
+        "name": "Monmouth University",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8902478274863213,
+          "yield_rate": 0.09978308026030369,
+          "grad_rate": 0.72,
+          "retention_rate": 0.8,
+          "enrollment": 4767,
+          "avg_net_price": 31650
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 193973,
+        "slug": "niagara-university",
+        "name": "Niagara University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8737193233261854,
+          "yield_rate": 0.14535042268884646,
+          "grad_rate": 0.74,
+          "retention_rate": 0.8,
+          "enrollment": 4033,
+          "avg_net_price": 18740
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 230995,
+        "slug": "norwich-university",
+        "name": "Norwich University",
+        "state": "Vermont",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7444005270092227,
+          "yield_rate": 0.13754740834386853,
+          "grad_rate": 0.6,
+          "retention_rate": 0.79,
+          "enrollment": 3149,
+          "avg_net_price": 25600
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 217402,
+        "slug": "providence-college",
+        "name": "Providence College",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5089050395335836,
+          "yield_rate": 0.19193345888261143,
+          "grad_rate": 0.86,
+          "retention_rate": 0.94,
+          "enrollment": 4666,
+          "avg_net_price": 45538
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 186283,
+        "slug": "rider-university",
+        "name": "Rider University",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7864164432529044,
+          "yield_rate": 0.09090909090909091,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 4003,
+          "avg_net_price": 25287
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 195544,
+        "slug": "st-joseph-s-university-new-york",
+        "name": "St. Joseph's University-New York",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7204958100558659,
+          "yield_rate": 0.12599951538647927,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 3899,
+          "avg_net_price": 17622
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 137546,
+        "slug": "stetson-university",
+        "name": "Stetson University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7160356347438753,
+          "yield_rate": 0.08206723292259839,
+          "grad_rate": 0.62,
+          "retention_rate": 0.78,
+          "enrollment": 3775,
+          "avg_net_price": 21318
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 215929,
+        "slug": "university-of-scranton",
+        "name": "University of Scranton",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8123318849575832,
+          "yield_rate": 0.1129648497198166,
+          "grad_rate": 0.8,
+          "retention_rate": 0.85,
+          "enrollment": 4724,
+          "avg_net_price": 30528
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 197045,
+        "slug": "utica-university",
+        "name": "Utica University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.919524709694842,
+          "yield_rate": 0.12657856093979442,
+          "grad_rate": 0.56,
+          "retention_rate": 0.71,
+          "enrollment": 3627,
+          "avg_net_price": 21869
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115083",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:07:52.88793+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Richard Rosenberg",
+      "field": "Banking"
+    },
+    {
+      "name": "General John Jumper",
+      "field": "Military"
+    },
+    {
+      "name": "General John Campbell",
+      "field": "Military"
+    },
+    {
+      "name": "Randall Exley",
+      "field": "Military"
+    },
+    {
+      "name": "Joe Boscacci",
+      "field": "Healthcare Administration"
+    },
+    {
+      "name": "Victor Abrunzo",
+      "field": "Education/Law"
+    }
+  ]
+}

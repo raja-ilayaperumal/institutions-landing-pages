@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:05.838297+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119678,
+    "slug": "naval-postgraduate-school",
+    "name": "Naval Postgraduate School",
+    "website_url": "https://www.nps.edu",
+    "city": "Monterey",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93943",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CEPCN5K7EKU8",
+      "opeid": "00131000",
+      "ein": "311575142"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Naval Postgraduate School (NPS) is a Naval command with a graduate university mission, operated by the United States Navy and located in Monterey, California, United States.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naval_Postgraduate_School",
+    "source_url": "https://en.wikipedia.org/wiki/Naval_Postgraduate_School",
+    "fetched_at": "2026-05-28T00:36:53.880889+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "is_private_for_net_price": false,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 4186,
+    "women_12mo": 876,
+    "men_12mo": 3310,
+    "fall_total": 2441,
+    "distance_ed_any": 2441,
+    "distance_ed_exclusive": 990
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 367
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 254
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 157
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 86
+      },
+      {
+        "cip_family_code": "29",
+        "cip_family_label": "Military Tech",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 4
+      }
+    ],
+    "program_count": 51,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "instr_total_fte": 234
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 128328,
+        "slug": "united-states-air-force-academy",
+        "name": "United States Air Force Academy",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1408658093648768,
+          "yield_rate": 0.7846689895470383,
+          "grad_rate": 0.88,
+          "retention_rate": 0.97,
+          "enrollment": 4114
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 130624,
+        "slug": "united-states-coast-guard-academy",
+        "name": "United States Coast Guard Academy",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.22439526505404014,
+          "yield_rate": 0.6605504587155964,
+          "grad_rate": 0.93,
+          "retention_rate": 0.99,
+          "enrollment": 1108
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 197027,
+        "slug": "united-states-merchant-marine-academy",
+        "name": "United States Merchant Marine Academy",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3423555230431602,
+          "yield_rate": 0.6410256410256411,
+          "grad_rate": 0.82,
+          "retention_rate": 0.84,
+          "enrollment": 976,
+          "avg_net_price": 7506
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 197036,
+        "slug": "united-states-military-academy",
+        "name": "United States Military Academy",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12451298701298702,
+          "yield_rate": 0.7790091264667536,
+          "grad_rate": 0.87,
+          "retention_rate": 0.95,
+          "enrollment": 4473
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 164155,
+        "slug": "united-states-naval-academy",
+        "name": "United States Naval Academy",
+        "state": "Maryland",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09274539573569213,
+          "yield_rate": 0.8419928825622776,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 4474
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119678",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:36:54.321671+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Keith B. Alexander",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Keith_B._Alexander",
+      "field": "Military"
+    },
+    {
+      "name": "Scott Altman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Altman",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Qamar Javed Bajwa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Qamar_Javed_Bajwa",
+      "field": "Military"
+    },
+    {
+      "name": "Mark Kelly",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Kelly",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Victor Glover",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Glover",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Gerald Carr",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Carr",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Gene Cernan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gene_Cernan",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Ronald Evans",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ronald_Evans_(astronaut)",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Michael Foreman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Foreman_(astronaut)",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Michael López-Alegría",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_L%C3%B3pez-Alegr%C3%ADa",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Lisa Nowak",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lisa_Nowak",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Robert F. Overmyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_F._Overmyer",
+      "field": "Astronautics"
+    }
+  ]
+}

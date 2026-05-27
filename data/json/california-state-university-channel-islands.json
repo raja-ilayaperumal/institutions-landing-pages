@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:51.908897+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 441937,
+    "slug": "california-state-university-channel-islands",
+    "name": "California State University-Channel Islands",
+    "website_url": "https://www.csuci.edu",
+    "city": "Camarillo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93012",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Small Programs",
+    "carnegie_slug": "masters-small",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FGK7C4BSUVK3",
+      "opeid": "03980300",
+      "ein": "912153805"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California State University Channel Islands is a public university in Ventura County, California. Located near the city of Camarillo, it opened in 2002 as the 23rd campus in the California State University system. CSUCI is located on the Central Coast of California, at the intersection of the Oxnard Plain and northernmost edge of the Santa Monica Mountains range. The Channel Islands are nearby where the university operates a scientific research station on Santa Rosa Island.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University_Channel_Islands",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University_Channel_Islands",
+    "fetched_at": "2026-05-27T22:23:31.631712+05:30"
+  },
+  "admissions": {
+    "applicants": 8810,
+    "admits": 8353,
+    "enrolled": 520,
+    "first_time_freshmen": 520,
+    "first_time_freshmen_ft": 500,
+    "admit_rate": 0.9481271282633371,
+    "yield_rate": 0.062253082724769544
+  },
+  "cost": {
+    "avg_net_price": 9792,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.2317,
+    "federal_loan_rate": 0.2595,
+    "net_price_by_family_income": {
+      "0_30k": 7077,
+      "30_48k": 7350,
+      "48_75k": 9293,
+      "75_110k": 15043,
+      "110k_plus": 20871
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.51,
+    "grad_4yr_bachelors": 0.3,
+    "grad_5yr_bachelors": 0.47,
+    "grad_6yr_bachelors": 0.51,
+    "pell_grad_rate": 0.5,
+    "pell_6yr_bachelors_rate": 0.5,
+    "non_pell_grad_rate": 0.54,
+    "non_pell_6yr_bachelors": 0.54,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.23
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6662,
+    "ug_12mo": 6163,
+    "grad_12mo": 6053,
+    "women_12mo": 4314,
+    "men_12mo": 2348,
+    "fall_total": 5592,
+    "fall_full_time": 5118,
+    "fall_part_time": 5013,
+    "distance_ed_any": 5592,
+    "distance_ed_exclusive": 929,
+    "race_ethnicity": {
+      "white": 0.2315,
+      "black": 0.0218,
+      "hispanic": 0.6008,
+      "asian": 0.0652,
+      "ai_an": 0.0017,
+      "nh_pi": 0.0017,
+      "two_or_more": 0.0373,
+      "non_resident": 0.0082,
+      "race_unknown": 0.0317
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 330
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 301
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 268
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 162
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 110
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 89
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 70
+      }
+    ],
+    "program_count": 34,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 222
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 175342,
+        "slug": "alcorn-state-university",
+        "name": "Alcorn State University",
+        "state": "Mississippi",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45330679730557255,
+          "yield_rate": 0.2060114826072273,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 2995,
+          "avg_net_price": 14040
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 173124,
+        "slug": "bemidji-state-university",
+        "name": "Bemidji State University",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5598111227701994,
+          "yield_rate": 0.24179943767572634,
+          "grad_rate": 0.46,
+          "retention_rate": 0.73,
+          "enrollment": 4072,
+          "avg_net_price": 17050
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 219046,
+        "slug": "black-hills-state-university",
+        "name": "Black Hills State University",
+        "state": "South Dakota",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9633136094674556,
+          "yield_rate": 0.300982800982801,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 3346,
+          "avg_net_price": 17001
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 206914,
+        "slug": "cameron-university",
+        "name": "Cameron University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.38,
+          "retention_rate": 0.67,
+          "enrollment": 3696,
+          "avg_net_price": 10705
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 231712,
+        "slug": "christopher-newport-university",
+        "name": "Christopher Newport University",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8603732461517505,
+          "yield_rate": 0.1804939835338822,
+          "grad_rate": 0.72,
+          "retention_rate": 0.81,
+          "enrollment": 4454,
+          "avg_net_price": 22197
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 162283,
+        "slug": "coppin-state-university",
+        "name": "Coppin State University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4583053878828527,
+          "yield_rate": 0.11756097560975609,
+          "grad_rate": 0.26,
+          "retention_rate": 0.66,
+          "enrollment": 2210,
+          "avg_net_price": 6007
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 190691,
+        "slug": "cuny-york-college",
+        "name": "CUNY York College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6410075178307524,
+          "yield_rate": 0.07678428227746592,
+          "grad_rate": 0.32,
+          "retention_rate": 0.57,
+          "enrollment": 6174,
+          "avg_net_price": 4734
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 129215,
+        "slug": "eastern-connecticut-state-university",
+        "name": "Eastern Connecticut State University",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.82976428901556,
+          "yield_rate": 0.1500185666542889,
+          "grad_rate": 0.57,
+          "retention_rate": 0.84,
+          "enrollment": 4355,
+          "avg_net_price": 20480
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 208646,
+        "slug": "eastern-oregon-university",
+        "name": "Eastern Oregon University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9831144465290806,
+          "yield_rate": 0.2010178117048346,
+          "grad_rate": 0.43,
+          "retention_rate": 0.71,
+          "enrollment": 2894,
+          "avg_net_price": 15987
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 237367,
+        "slug": "fairmont-state-university",
+        "name": "Fairmont State University",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9861892583120204,
+          "yield_rate": 0.33765560165975106,
+          "grad_rate": 0.44,
+          "retention_rate": 0.67,
+          "enrollment": 3305,
+          "avg_net_price": 9055
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 139719,
+        "slug": "fort-valley-state-university",
+        "name": "Fort Valley State University",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6587194770236493,
+          "yield_rate": 0.22796263864565092,
+          "grad_rate": 0.41,
+          "retention_rate": 0.79,
+          "enrollment": 2897,
+          "avg_net_price": 11609
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 151388,
+        "slug": "indiana-university-east",
+        "name": "Indiana University-East",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6722358722358722,
+          "yield_rate": 0.2916666666666667,
+          "grad_rate": 0.39,
+          "retention_rate": 0.62,
+          "enrollment": 3203,
+          "avg_net_price": 9082
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 151333,
+        "slug": "indiana-university-kokomo",
+        "name": "Indiana University-Kokomo",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8648090815273478,
+          "yield_rate": 0.3156324582338902,
+          "grad_rate": 0.45,
+          "retention_rate": 0.69,
+          "enrollment": 2921,
+          "avg_net_price": 6276
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 151360,
+        "slug": "indiana-university-northwest",
+        "name": "Indiana University-Northwest",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.733948087431694,
+          "yield_rate": 0.23499302000930666,
+          "grad_rate": 0.37,
+          "retention_rate": 0.71,
+          "enrollment": 3041,
+          "avg_net_price": 5970
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 207209,
+        "slug": "langston-university",
+        "name": "Langston University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.54,
+          "enrollment": 1937,
+          "avg_net_price": 11359
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 166692,
+        "slug": "massachusetts-maritime-academy",
+        "name": "Massachusetts Maritime Academy",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9470355731225296,
+          "yield_rate": 0.3814691151919866,
+          "grad_rate": 0.74,
+          "retention_rate": 0.87,
+          "enrollment": 1488,
+          "avg_net_price": 26661
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 176035,
+        "slug": "mississippi-university-for-women",
+        "name": "Mississippi University for Women",
+        "state": "Mississippi",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9030520646319569,
+          "yield_rate": 0.34592445328031807,
+          "grad_rate": 0.47,
+          "retention_rate": 0.67,
+          "enrollment": 2193,
+          "avg_net_price": 13198
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 176044,
+        "slug": "mississippi-valley-state-university",
+        "name": "Mississippi Valley State University",
+        "state": "Mississippi",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9237510955302366,
+          "yield_rate": 0.3225806451612903,
+          "grad_rate": 0.27,
+          "retention_rate": 0.7,
+          "enrollment": 2205,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 178341,
+        "slug": "missouri-southern-state-university",
+        "name": "Missouri Southern State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9702567313713212,
+          "yield_rate": 0.20458212326556954,
+          "grad_rate": 0.4,
+          "retention_rate": 0.63,
+          "enrollment": 4147,
+          "avg_net_price": 11653
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 178387,
+        "slug": "missouri-western-state-university",
+        "name": "Missouri Western State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.39,
+          "retention_rate": 0.54,
+          "enrollment": 3716,
+          "avg_net_price": 12638
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 180416,
+        "slug": "montana-technological-university",
+        "name": "Montana Technological University",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9105466593042518,
+          "yield_rate": 0.21346270466949666,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 1702,
+          "avg_net_price": 16240
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 187967,
+        "slug": "new-mexico-institute-of-mining-and-technology",
+        "name": "New Mexico Institute of Mining and Technology",
+        "state": "New Mexico",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44494818652849744,
+          "yield_rate": 0.27074235807860264,
+          "grad_rate": 0.57,
+          "retention_rate": 0.77,
+          "enrollment": 1622,
+          "avg_net_price": 8265
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 219259,
+        "slug": "northern-state-university",
+        "name": "Northern State University",
+        "state": "South Dakota",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9300184162062615,
+          "yield_rate": 0.35247524752475246,
+          "grad_rate": 0.55,
+          "retention_rate": 0.77,
+          "enrollment": 3708,
+          "avg_net_price": 17094
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 207306,
+        "slug": "northwestern-oklahoma-state-university",
+        "name": "Northwestern Oklahoma State University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6545454545454545,
+          "yield_rate": 0.38666666666666666,
+          "grad_rate": 0.3,
+          "retention_rate": 0.65,
+          "enrollment": 2079,
+          "avg_net_price": 11366
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 214801,
+        "slug": "pennsylvania-state-university-penn-state-abington",
+        "name": "Pennsylvania State University-Penn State Abington",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9676737160120846,
+          "yield_rate": 0.1117702154230409,
+          "grad_rate": 0.2,
+          "retention_rate": 0.77,
+          "enrollment": 2885,
+          "avg_net_price": 17818
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 214591,
+        "slug": "pennsylvania-state-university-penn-state-erie-behrend-college",
+        "name": "Pennsylvania State University-Penn State Erie-Behrend College",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9683286296644716,
+          "yield_rate": 0.14523963730569947,
+          "grad_rate": 0.43,
+          "retention_rate": 0.83,
+          "enrollment": 3336,
+          "avg_net_price": 22951
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 214607,
+        "slug": "pennsylvania-state-university-penn-state-great-valley",
+        "name": "Pennsylvania State University-Penn State Great Valley",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 212
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 214652,
+        "slug": "pennsylvania-state-university-penn-state-scranton",
+        "name": "Pennsylvania State University-Penn State Scranton",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9851508120649652,
+          "yield_rate": 0.08572774375883184,
+          "grad_rate": 0.4,
+          "retention_rate": 0.79,
+          "enrollment": 800,
+          "avg_net_price": 18934
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 214829,
+        "slug": "pennsylvania-state-university-penn-state-york",
+        "name": "Pennsylvania State University-Penn State York",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9741334712881531,
+          "yield_rate": 0.10727562400424855,
+          "grad_rate": 0.15,
+          "retention_rate": 0.77,
+          "enrollment": 677,
+          "avg_net_price": 18922
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 140960,
+        "slug": "savannah-state-university",
+        "name": "Savannah State University",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46142344497607657,
+          "yield_rate": 0.15770144739684597,
+          "grad_rate": 0.28,
+          "retention_rate": 0.75,
+          "enrollment": 3193,
+          "avg_net_price": 8683
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 205443,
+        "slug": "shawnee-state-university",
+        "name": "Shawnee State University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6891398206575888,
+          "yield_rate": 0.3455421686746988,
+          "grad_rate": 0.54,
+          "retention_rate": 0.72,
+          "enrollment": 3231,
+          "avg_net_price": 15389
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 237792,
+        "slug": "shepherd-university",
+        "name": "Shepherd University",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9678007290400972,
+          "yield_rate": 0.3170119271814187,
+          "grad_rate": 0.51,
+          "retention_rate": 0.71,
+          "enrollment": 3339,
+          "avg_net_price": 12391
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 218733,
+        "slug": "south-carolina-state-university",
+        "name": "South Carolina State University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8261777253335754,
+          "yield_rate": 0.11448033399252912,
+          "grad_rate": 0.37,
+          "retention_rate": 0.56,
+          "enrollment": 3242,
+          "avg_net_price": 18268
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 196158,
+        "slug": "suny-at-fredonia",
+        "name": "SUNY at Fredonia",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7769704628020849,
+          "yield_rate": 0.1402724130920919,
+          "grad_rate": 0.5,
+          "retention_rate": 0.76,
+          "enrollment": 3179,
+          "avg_net_price": 15644
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 196167,
+        "slug": "suny-college-at-geneseo",
+        "name": "SUNY College at Geneseo",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6644870202053227,
+          "yield_rate": 0.09555205668175556,
+          "grad_rate": 0.71,
+          "retention_rate": 0.87,
+          "enrollment": 3945,
+          "avg_net_price": 18021
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 196291,
+        "slug": "suny-maritime-college",
+        "name": "SUNY Maritime College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7241379310344828,
+          "yield_rate": 0.29508196721311475,
+          "grad_rate": 0.66,
+          "retention_rate": 0.83,
+          "enrollment": 1413,
+          "avg_net_price": 21781
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 183257,
+        "slug": "university-of-new-hampshire-college-of-professional-studies-online",
+        "name": "University of New Hampshire College of Professional Studies Online",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.23,
+          "retention_rate": 0.63,
+          "enrollment": 1478,
+          "avg_net_price": 14106
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 218645,
+        "slug": "university-of-south-carolina-aiken",
+        "name": "University of South Carolina Aiken",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7853577371048253,
+          "yield_rate": 0.28220338983050847,
+          "grad_rate": 0.4,
+          "retention_rate": 0.67,
+          "enrollment": 4022,
+          "avg_net_price": 11611
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 237899,
+        "slug": "west-virginia-state-university",
+        "name": "West Virginia State University",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.959597598572124,
+          "yield_rate": 0.055123435914778494,
+          "grad_rate": 0.39,
+          "retention_rate": 0.57,
+          "enrollment": 3246,
+          "avg_net_price": 10191
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.csuci.edu/ir/",
+    "office_name": "Office of Institutional Research",
+    "summary": "The office of Institutional Research curates CSUCI’s institutional data and tells the complex stories of the campus community. We help the University understand itself and make data-informed decisions by building interactive data tools and conducting in-depth analyses.",
+    "email": "ir@csuci.edu",
+    "address": "Madera Hall 1900, 1 University Dr., Camarillo CA, 93012",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:23:30.55952+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Matthew Zivot, Ph.D.",
+      "title": "Director of Institutional Research and Chief Data Officer",
+      "phone": "805-437-3828"
+    },
+    {
+      "ordering": 1,
+      "name": "Kristin Jordan, Ph.D.",
+      "title": "Data Scientist",
+      "phone": "805-437-1620"
+    },
+    {
+      "ordering": 2,
+      "name": "Paul Peterson, Ph.D.",
+      "title": "Senior Data and Research Analyst",
+      "phone": "805-437-3635"
+    },
+    {
+      "ordering": 3,
+      "name": "Amber Sánchez, Ph.D.",
+      "title": "Senior Data & Research Analyst"
+    },
+    {
+      "ordering": 4,
+      "name": "Karl Atkins",
+      "title": "Data Manager and Research Analyst",
+      "linkedin_url": "https://www.linkedin.com/in/karl-atkins-27398030"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=441937",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:23:33.64233+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "CI for 2030+",
+      "url": "https://www.csuci.edu/president/planning-operations/strategic-planning/index.htm",
+      "summary": "The California State University Channel Islands is conducting a strategic planning effort, known as 'CI for 2030+', expected to complete by April 2025. The plan includes four strategic directions: Academic & Campus Identity, Student Experience, Campus Culture, and Sustainability, Growth & Resources. It builds on past initiatives and aims to create a forward-looking strategy with measurable goals to guide the university through 2030 and beyond.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:20:36.169059+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "CSU Growth in Undergraduate Innovation, Discovery and Engagement (GUIDE)",
+      "agency": "CSU Chancellor’s Office",
+      "kind": "opportunity",
+      "url": "https://www.csuci.edu/rsp/award-cycle/find-funding.htm",
+      "source": "institution_site"
+    },
+    {
+      "title": "CSU Learning Innovation for Future Forward Teaching (LIFT)",
+      "agency": "CSU System",
+      "kind": "opportunity",
+      "url": "https://www.csuci.edu/rsp/award-cycle/find-funding.htm",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Elisabeth Freeman",
+      "field": "Biology"
+    },
+    {
+      "name": "Gary Cushing",
+      "field": "Political Science"
+    },
+    {
+      "name": "Allison MacDonald",
+      "field": "Psychology"
+    },
+    {
+      "name": "Kirsten Skinner",
+      "field": "Business"
+    },
+    {
+      "name": "Andrew Skinner",
+      "field": "Business"
+    },
+    {
+      "name": "Channing Lenert",
+      "field": "Political Science"
+    },
+    {
+      "name": "Dr. Jeffery Alexander, Jr.",
+      "field": "Communication"
+    },
+    {
+      "name": "Gabrielle Vignone",
+      "field": "English"
+    },
+    {
+      "name": "Dhruv Pandya",
+      "field": "Computer Science"
+    },
+    {
+      "name": "David Seery",
+      "field": "Business & Economics"
+    },
+    {
+      "name": "Ashley Seery",
+      "field": "Chemistry"
+    }
+  ]
+}

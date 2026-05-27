@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:15.135111+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447050,
+    "slug": "united-states-university",
+    "name": "United States University",
+    "website_url": "https://www.usuniversity.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92108",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XY68U4KR1JN5",
+      "opeid": "04005300",
+      "ein": "822829649"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "United States University (USU) is a private for-profit university in San Diego, California. It offers graduate and undergraduate degrees in health sciences, business, and nursing as well as California Teaching Credentials. It is owned by the Aspen Group, Inc., a publicly held, for-profit post-secondary education company headquartered in New York.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/United_States_University",
+    "source_url": "https://en.wikipedia.org/wiki/United_States_University",
+    "fetched_at": "2026-05-28T00:28:38.076485+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 21557,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.5449,
+    "federal_loan_rate": 0.1604,
+    "net_price_by_family_income": {
+      "0_30k": 21557,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 3431,
+    "ug_12mo": 245,
+    "grad_12mo": 224,
+    "women_12mo": 2784,
+    "men_12mo": 647,
+    "fall_total": 2454,
+    "fall_full_time": 159,
+    "fall_part_time": 153,
+    "distance_ed_any": 2454,
+    "distance_ed_exclusive": 970,
+    "race_ethnicity": {
+      "white": 0.4371,
+      "black": 0.0958,
+      "hispanic": 0.3353,
+      "asian": 0.0838,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.012,
+      "non_resident": 0.0,
+      "race_unknown": 0.0359
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 837
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 1
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 0
+      }
+    ],
+    "program_count": 18,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 8
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 433004,
+        "slug": "american-university-of-health-sciences",
+        "name": "American University of Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5,
+          "yield_rate": 1.0,
+          "grad_rate": 0.5,
+          "retention_rate": 1.0,
+          "enrollment": 473
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 487375,
+        "slug": "arizona-college-of-nursing-las-vegas",
+        "name": "Arizona College of Nursing-Las Vegas",
+        "state": "Nevada",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.926829268292683,
+          "grad_rate": 0.82,
+          "retention_rate": 0.77,
+          "enrollment": 1222,
+          "avg_net_price": 32603
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 454829,
+        "slug": "aspen-university",
+        "name": "Aspen University",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.27,
+          "enrollment": 3511
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 444088,
+        "slug": "brookline-college-albuquerque",
+        "name": "Brookline College-Albuquerque",
+        "state": "New Mexico",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.09,
+          "retention_rate": 0.0,
+          "enrollment": 560,
+          "avg_net_price": 39885
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 488554,
+        "slug": "burrell-college-of-osteopathic-medicine",
+        "name": "Burrell College of Osteopathic Medicine",
+        "state": "New Mexico",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 841
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 454245,
+        "slug": "chamberlain-university-arizona",
+        "name": "Chamberlain University-Arizona",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9090909090909091,
+          "yield_rate": 0.7,
+          "grad_rate": 0.5,
+          "retention_rate": 0.67,
+          "enrollment": 693,
+          "avg_net_price": 37002
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 489353,
+        "slug": "chamberlain-university-california",
+        "name": "Chamberlain University-California",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 751
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 457129,
+        "slug": "chamberlain-university-florida",
+        "name": "Chamberlain University-Florida",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9090909090909091,
+          "yield_rate": 1.0,
+          "grad_rate": 0.33,
+          "retention_rate": 0.63,
+          "enrollment": 821,
+          "avg_net_price": 29539
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 475732,
+        "slug": "chamberlain-university-georgia",
+        "name": "Chamberlain University-Georgia",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9142857142857143,
+          "yield_rate": 0.84375,
+          "grad_rate": 0.5,
+          "retention_rate": 0.4,
+          "enrollment": 1940,
+          "avg_net_price": 31471
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 454227,
+        "slug": "chamberlain-university-illinois",
+        "name": "Chamberlain University-Illinois",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8264462809917356,
+          "yield_rate": 0.66,
+          "grad_rate": 0.42,
+          "retention_rate": 0.73,
+          "enrollment": 32944,
+          "avg_net_price": 26933
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 486947,
+        "slug": "chamberlain-university-michigan",
+        "name": "Chamberlain University-Michigan",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 0.6666666666666666,
+          "grad_rate": 1.0,
+          "retention_rate": 0.6,
+          "enrollment": 629,
+          "avg_net_price": 26870
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 486956,
+        "slug": "chamberlain-university-new-jersey",
+        "name": "Chamberlain University-New Jersey",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6666666666666666,
+          "grad_rate": 0.33,
+          "retention_rate": 0.8,
+          "enrollment": 1226,
+          "avg_net_price": 36438
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 466930,
+        "slug": "chamberlain-university-texas",
+        "name": "Chamberlain University-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8387096774193549,
+          "yield_rate": 0.6923076923076923,
+          "grad_rate": 0.25,
+          "retention_rate": 0.61,
+          "enrollment": 2270,
+          "avg_net_price": 32247
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 460871,
+        "slug": "chamberlain-university-virginia",
+        "name": "Chamberlain University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9,
+          "yield_rate": 0.7777777777777778,
+          "grad_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 557
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 454856,
+        "slug": "denver-college-of-nursing",
+        "name": "Denver College of Nursing",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 811
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 156471,
+        "slug": "galen-college-of-nursing-louisville",
+        "name": "Galen College of Nursing-Louisville",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.23,
+          "retention_rate": 0.8,
+          "enrollment": 5585
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 451103,
+        "slug": "miami-regional-university",
+        "name": "Miami Regional University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8425531914893617,
+          "yield_rate": 1.0,
+          "grad_rate": 0.84,
+          "retention_rate": 0.97,
+          "enrollment": 916,
+          "avg_net_price": 28535
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 444787,
+        "slug": "nightingale-college",
+        "name": "Nightingale College",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.26,
+          "retention_rate": 0.5,
+          "enrollment": 6036,
+          "avg_net_price": 29378
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 414595,
+        "slug": "pacific-college-of-health-and-science-2",
+        "name": "Pacific College of Health and Science",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 736,
+          "avg_net_price": 46892
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 115746,
+        "slug": "pacifica-graduate-institute",
+        "name": "Pacifica Graduate Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 833
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 380438,
+        "slug": "provo-college",
+        "name": "Provo College",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.47,
+          "retention_rate": 0.67,
+          "enrollment": 669,
+          "avg_net_price": 30255
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 475495,
+        "slug": "rocky-mountain-university-of-health-professions",
+        "name": "Rocky Mountain University of Health Professions",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1686
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 480790,
+        "slug": "rocky-vista-university",
+        "name": "Rocky Vista University",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1903
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 449898,
+        "slug": "south-university-tampa",
+        "name": "South University-Tampa",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.18,
+          "retention_rate": 0.5,
+          "enrollment": 752,
+          "avg_net_price": 24280
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 133465,
+        "slug": "south-university-west-palm-beach",
+        "name": "South University-West Palm Beach",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 1.0,
+          "enrollment": 433,
+          "avg_net_price": 20494
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 367954,
+        "slug": "university-of-st-augustine-for-health-sciences",
+        "name": "University of St. Augustine for Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4370
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 489858,
+        "slug": "west-coast-university-center-for-graduate-studies",
+        "name": "West Coast University-Center for Graduate Studies",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 548
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 443331,
+        "slug": "west-coast-university-los-angeles",
+        "name": "West Coast University-Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9230769230769231,
+          "yield_rate": 0.5,
+          "grad_rate": 0.31,
+          "retention_rate": 1.0,
+          "enrollment": 2673,
+          "avg_net_price": 51992
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 485272,
+        "slug": "west-coast-university-miami",
+        "name": "West Coast University-Miami",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.33,
+          "retention_rate": 0.6,
+          "enrollment": 961,
+          "avg_net_price": 38218
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 458229,
+        "slug": "west-coast-university-ontario",
+        "name": "West Coast University-Ontario",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8809523809523809,
+          "yield_rate": 0.5675675675675675,
+          "grad_rate": 0.39,
+          "retention_rate": 0.89,
+          "enrollment": 2671,
+          "avg_net_price": 49752
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 458210,
+        "slug": "west-coast-university-orange-county",
+        "name": "West Coast University-Orange County",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9534883720930233,
+          "yield_rate": 0.4146341463414634,
+          "grad_rate": 0.6,
+          "retention_rate": 1.0,
+          "enrollment": 4586,
+          "avg_net_price": 36836
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=447050",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:28:39.035206+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "USU 2022-2027 Strategic Plan",
+      "url": "https://www.usuniversity.edu/about/strategic-and-academic-plans",
+      "summary": "The United States University's 2022-2027 Strategic Plan outlines the institution's primary goals and initiatives for the next five years. While specific strategic themes and priorities are not detailed in the provided text, the plan aligns with the university's mission and values to enhance academic and operational excellence. This strategic plan underscores USU's commitment to growth, innovation, and quality education.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:26:31.091348+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

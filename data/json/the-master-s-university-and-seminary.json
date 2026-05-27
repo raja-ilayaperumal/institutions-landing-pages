@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:01.199082+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117751,
+    "slug": "the-master-s-university-and-seminary",
+    "name": "The Master's University and Seminary",
+    "website_url": "https://www.masters.edu",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91321-1200",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "WTM6XM98JDA9",
+      "opeid": "00122000",
+      "ein": "956001907"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Master's University (TMU) is a private non-denominational Christian university in Santa Clarita, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Master's_University",
+    "source_url": "https://en.wikipedia.org/wiki/The_Master's_University",
+    "fetched_at": "2026-05-28T00:24:13.077861+05:30"
+  },
+  "admissions": {
+    "applicants": 1051,
+    "admits": 883,
+    "enrolled": 404,
+    "first_time_freshmen": 404,
+    "first_time_freshmen_ft": 402,
+    "admit_rate": 0.840152235965747,
+    "yield_rate": 0.4575311438278596
+  },
+  "cost": {
+    "avg_net_price": 32121,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.2547,
+    "federal_loan_rate": 0.3841,
+    "net_price_by_family_income": {
+      "0_30k": 31026,
+      "30_48k": 27113,
+      "48_75k": 27969,
+      "75_110k": 33288,
+      "110k_plus": 33808
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.68,
+    "grad_4yr_bachelors": 0.55,
+    "grad_5yr_bachelors": 0.62,
+    "grad_6yr_bachelors": 0.67,
+    "pell_grad_rate": 0.7,
+    "pell_6yr_bachelors_rate": 0.7,
+    "non_pell_grad_rate": 0.72,
+    "non_pell_6yr_bachelors": 0.72,
+    "retention_full_time": 0.85,
+    "retention_part_time": 0.88
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3118,
+    "ug_12mo": 2059,
+    "grad_12mo": 1744,
+    "women_12mo": 1185,
+    "men_12mo": 1933,
+    "fall_total": 2860,
+    "fall_full_time": 1908,
+    "fall_part_time": 1622,
+    "distance_ed_any": 2860,
+    "distance_ed_exclusive": 780,
+    "race_ethnicity": {
+      "white": 0.609,
+      "black": 0.0255,
+      "hispanic": 0.2042,
+      "asian": 0.0648,
+      "ai_an": 0.0037,
+      "nh_pi": 0.0044,
+      "two_or_more": 0.0579,
+      "non_resident": 0.0,
+      "race_unknown": 0.0305
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 245
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 119
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 9
+      }
+    ],
+    "program_count": 40,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 68
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 217749,
+        "slug": "bob-jones-university",
+        "name": "Bob Jones University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8615819209039548,
+          "yield_rate": 0.6502732240437158,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 2734,
+          "avg_net_price": 17529
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 201654,
+        "slug": "cedarville-university",
+        "name": "Cedarville University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6528878822197055,
+          "yield_rate": 0.33998265394622723,
+          "grad_rate": 0.73,
+          "retention_rate": 0.9,
+          "enrollment": 6318,
+          "avg_net_price": 25022
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 210331,
+        "slug": "corban-university",
+        "name": "Corban University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9389587073608617,
+          "yield_rate": 0.2734225621414914,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 1029,
+          "avg_net_price": 25525
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 104717,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 232557,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 147369,
+        "slug": "moody-bible-institute",
+        "name": "Moody Bible Institute",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8268733850129198,
+          "yield_rate": 0.659375,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 2202,
+          "avg_net_price": 25007
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 112084,
+        "slug": "san-diego-christian-college",
+        "name": "San Diego Christian College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3081081081081081,
+          "yield_rate": 0.15789473684210525,
+          "grad_rate": 0.2,
+          "retention_rate": 0.86,
+          "enrollment": 96,
+          "avg_net_price": 7871
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 157748,
+        "slug": "the-southern-baptist-theological-seminary",
+        "name": "The Southern Baptist Theological Seminary",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5586776859504132,
+          "yield_rate": 0.5591715976331361,
+          "grad_rate": 0.35,
+          "retention_rate": 0.79,
+          "enrollment": 4298
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117751",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:24:14.978739+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research Glossary – The Master's University and Seminary",
+      "url": "https://masters.edu/institutional-research/glossary",
+      "summary": "The Master's University's Institutional Research Glossary page appears to be missing or not accessible, as indicated by a 404 error message. It is part of the university's website, which includes accessible areas such as admissions, academics, arts and events, and resources. The webpage includes detailed cookie consent information but lacks the glossary content, meaning specific terms and definitions customized by the institution are not presented.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:21:48.751012+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "The Master’s University Strategic Plan",
+      "url": "https://strategicplan.masters.edu/",
+      "summary": "The Master's University strategic plan focuses on a biblical approach to education, emphasizing commitment to Christ and Scripture. With nearly a century of experience, TMU aims to develop leaders with wisdom and convictions, ensuring graduates contribute meaningfully to God's Kingdom. The plan includes fostering biblical distinctives, financial planning, and a comprehensive curriculum for maturing disciples.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:18:09.81918+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "K-12 Christian Education Supplement Grant",
+      "kind": "opportunity",
+      "url": "https://www.masters.edu/admissions-aid/financial-aid-and-tuition/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Abby Talavera-Castanoli"
+    },
+    {
+      "name": "Alfredo Roesadi"
+    },
+    {
+      "name": "Alison Brown"
+    },
+    {
+      "name": "Amber Kaiser"
+    },
+    {
+      "name": "Hannah Dupea"
+    },
+    {
+      "name": "Kate Alfaro"
+    },
+    {
+      "name": "Laura San Nicolas"
+    },
+    {
+      "name": "Matthew Christie"
+    },
+    {
+      "name": "Nancy Lewis"
+    }
+  ]
+}

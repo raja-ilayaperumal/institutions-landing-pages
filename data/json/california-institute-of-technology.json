@@ -1,0 +1,544 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:03.800962+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110404,
+    "slug": "california-institute-of-technology",
+    "name": "California Institute of Technology",
+    "website_url": "https://www.caltech.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91125",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "U2JMKHNS5TG4",
+      "opeid": "00113100",
+      "ein": "951643307"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of Technology (branded as Caltech) is a private research university in Pasadena, California, United States. The university is responsible for many modern scientific advancements and is among a small group of institutes of technology in the United States that are devoted to the instruction of pure and applied sciences.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Institute_of_Technology",
+    "source_url": "https://en.wikipedia.org/wiki/California_Institute_of_Technology",
+    "fetched_at": "2026-05-28T00:40:55.746805+05:30"
+  },
+  "admissions": {
+    "applicants": 13856,
+    "admits": 356,
+    "enrolled": 218,
+    "first_time_freshmen": 218,
+    "first_time_freshmen_ft": 218,
+    "admit_rate": 0.02569284064665127,
+    "yield_rate": 0.6123595505617978
+  },
+  "cost": {
+    "avg_net_price": 18902,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0356,
+    "net_price_by_family_income": {
+      "0_30k": 1667,
+      "30_48k": 1023,
+      "48_75k": 7003,
+      "75_110k": 22073,
+      "110k_plus": 56275
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.94,
+    "grad_4yr_bachelors": 0.77,
+    "grad_5yr_bachelors": 0.9,
+    "grad_6yr_bachelors": 0.94,
+    "pell_grad_rate": 0.96,
+    "pell_6yr_bachelors_rate": 0.96,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.97
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2548,
+    "ug_12mo": 1044,
+    "grad_12mo": 1044,
+    "women_12mo": 991,
+    "men_12mo": 1557,
+    "fall_total": 2430,
+    "fall_full_time": 987,
+    "fall_part_time": 987,
+    "distance_ed_any": 2430,
+    "race_ethnicity": {
+      "white": 0.1994,
+      "black": 0.0371,
+      "hispanic": 0.1896,
+      "asian": 0.3539,
+      "ai_an": 0.002,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0899,
+      "non_resident": 0.1232,
+      "race_unknown": 0.0049
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 245
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 159
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 96
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 0
+      }
+    ],
+    "program_count": 42,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 3.0,
+    "instr_total_fte": 325
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 211440,
+        "slug": "carnegie-mellon-university",
+        "name": "Carnegie Mellon University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1166435874016676,
+          "yield_rate": 0.45668098004546603,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 15888,
+          "avg_net_price": 31671
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 190150,
+        "slug": "columbia-university-in-the-city-of-new-york",
+        "name": "Columbia University in the City of New York",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03992347999667304,
+          "yield_rate": 0.6491666666666667,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 35173,
+          "avg_net_price": 20148
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 190415,
+        "slug": "cornell-university",
+        "name": "Cornell University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08756528503167019,
+          "yield_rate": 0.639050036258158,
+          "grad_rate": 0.95,
+          "retention_rate": 0.98,
+          "enrollment": 26793,
+          "avg_net_price": 32337
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 139755,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1407115021157738,
+          "yield_rate": 0.455961012718412,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 53363,
+          "avg_net_price": 13289
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 166027,
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.036476077618130646,
+          "yield_rate": 0.8360406091370558,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 30259,
+          "avg_net_price": 16816
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 166683,
+        "slug": "massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.04548030603570417,
+          "yield_rate": 0.8582554517133957,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 11886,
+          "avg_net_price": 19813
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 193900,
+        "slug": "new-york-university",
+        "name": "New York University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09234073659606343,
+          "yield_rate": 0.5537529319781079,
+          "grad_rate": 0.88,
+          "retention_rate": 0.96,
+          "enrollment": 56832,
+          "avg_net_price": 35035
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 186131,
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.046159928832657904,
+          "yield_rate": 0.7548179871520343,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 9137,
+          "avg_net_price": 10555
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 227757,
+        "slug": "rice-university",
+        "name": "Rice University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07997413235611123,
+          "yield_rate": 0.4420485175202156,
+          "grad_rate": 0.95,
+          "retention_rate": 0.97,
+          "enrollment": 8961,
+          "avg_net_price": 12640
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 243744,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03605693751526358,
+          "yield_rate": 0.8190614417029511,
+          "grad_rate": 0.92,
+          "retention_rate": 0.98,
+          "enrollment": 18625,
+          "avg_net_price": 12136
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 110635,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10977769192382608,
+          "yield_rate": 0.45985776083290564,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 45882,
+          "avg_net_price": 14979
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 144050,
+        "slug": "university-of-chicago",
+        "name": "University of Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.044827111804090616,
+          "yield_rate": 0.8828644501278773,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 18566,
+          "avg_net_price": 18967
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 215062,
+        "slug": "university-of-pennsylvania",
+        "name": "University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05401220372244197,
+          "yield_rate": 0.6798183366449049,
+          "grad_rate": 0.97,
+          "retention_rate": 0.99,
+          "enrollment": 29109,
+          "avg_net_price": 31229
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 130794,
+        "slug": "yale-university",
+        "name": "Yale University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03871898742980336,
+          "yield_rate": 0.6977997305792546,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 15564,
+          "avg_net_price": 27818
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110404",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:40:57.525197+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Marc Aaronson",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "George O. Abell",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Eric G. Adelberger",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Berni Alder",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Carl D. Anderson",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Eric Betzig",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Andrea M. Ghez",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Donald A. Glaser",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Peter Shor",
+      "field": "Mathematics and Computer Science"
+    },
+    {
+      "name": "Eric Becklin",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Charles R. Alcock",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "James M. Bardeen",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "J. Richard Bond",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "John Clauser",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Edmund Bertschinger",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Roger Angel",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "William H. Press",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Robert N. Hall",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Douglas D. Osheroff",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Kip Thorne",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Leland H. Hartwell",
+      "field": "Biology, Biological Engineering, and Medicine"
+    },
+    {
+      "name": "John McCarthy",
+      "field": "Mathematics and Computer Science"
+    },
+    {
+      "name": "Ivan Sutherland",
+      "field": "Mathematics and Computer Science"
+    },
+    {
+      "name": "Linus Pauling",
+      "field": "Chemistry and Chemical Engineering"
+    },
+    {
+      "name": "Andrea Ghez",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Philip J. Hanlon",
+      "field": "Mathematics and Computer Science"
+    },
+    {
+      "name": "Eugene Parker",
+      "field": "Physics and Astronomy"
+    },
+    {
+      "name": "Harold Stark",
+      "field": "Mathematics and Computer Science"
+    },
+    {
+      "name": "John S. Waugh",
+      "field": "Chemistry and Chemical Engineering"
+    },
+    {
+      "name": "Kenneth G. Wilson",
+      "field": "Physics and Astronomy"
+    }
+  ]
+}

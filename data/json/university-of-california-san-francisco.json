@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:54.966402+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110699,
+    "slug": "university-of-california-san-francisco",
+    "name": "University of California-San Francisco",
+    "website_url": "https://ucsf.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94143-0244",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+    "carnegie_slug": "associates-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KMH5K9V7S518",
+      "opeid": "00131900",
+      "ein": "946036493"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California, San Francisco is a public land-grant research university in San Francisco, California, United States. It is part of the University of California system and is dedicated entirely to health science and life science. It conducts research and teaching in medical and biological sciences.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California,_San_Francisco",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California,_San_Francisco",
+    "fetched_at": "2026-05-28T00:13:40.861038+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "is_private_for_net_price": false,
+    "net_price_by_family_income": {
+      "0_30k": null,
+      "30_48k": null,
+      "48_75k": null,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {},
+  "enrollment": {
+    "enrollment_12mo_total": 3184,
+    "women_12mo": 2046,
+    "men_12mo": 1138,
+    "fall_total": 3007,
+    "distance_ed_any": 3007,
+    "distance_ed_exclusive": 8
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 752
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 105
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 0
+      }
+    ],
+    "program_count": 38,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 3414
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 231970,
+        "slug": "eastern-virginia-medical-school",
+        "name": "Eastern Virginia Medical School",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1216
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 218335,
+        "slug": "medical-university-of-south-carolina",
+        "name": "Medical University of South Carolina",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3246
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 209490,
+        "slug": "oregon-health-and-science-university",
+        "name": "Oregon Health & Science University",
+        "state": "Oregon",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2942
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 229337,
+        "slug": "texas-tech-university-health-sciences-center",
+        "name": "Texas Tech University Health Sciences Center",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5098
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 487010,
+        "slug": "the-university-of-tennessee-health-science-center",
+        "name": "The University of Tennessee Health Science Center",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3101
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 229300,
+        "slug": "the-university-of-texas-health-science-center-at-houston",
+        "name": "The University of Texas Health Science Center at Houston",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4938
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 228644,
+        "slug": "the-university-of-texas-health-science-center-at-san-antonio",
+        "name": "The University of Texas Health Science Center at San Antonio",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3786
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 228653,
+        "slug": "the-university-of-texas-medical-branch-at-galveston",
+        "name": "The University of Texas Medical Branch at Galveston",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3241
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 106263,
+        "slug": "university-of-arkansas-for-medical-sciences",
+        "name": "University of Arkansas for Medical Sciences",
+        "state": "Arkansas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3485
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 163259,
+        "slug": "university-of-maryland-baltimore",
+        "name": "University of Maryland, Baltimore",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6636
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 166708,
+        "slug": "university-of-massachusetts-chan-medical-school",
+        "name": "University of Massachusetts Chan Medical School",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1489
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 181428,
+        "slug": "university-of-nebraska-medical-center",
+        "name": "University of Nebraska Medical Center",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3988
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 207342,
+        "slug": "university-of-oklahoma-health-sciences-center",
+        "name": "University of Oklahoma-Health Sciences Center",
+        "state": "Oklahoma",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3680
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 228635,
+        "slug": "university-of-texas-southwestern-medical-center",
+        "name": "University of Texas Southwestern Medical Center",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2549
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://oir.ucsf.edu/welcome",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research is responsible for campus-wide institutional research activities and initiatives, including the organization, collection and analysis of campus data in response to requests from internal and external organizations.",
+    "phone": "415/476-6881",
+    "address": "500 Parnassus Avenue, MU 200W, San Francisco CA 94143-0244",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-28T00:13:39.639163+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ning Wang, PhD",
+      "title": "Director"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Data and Analytics Governance at UCSF",
+      "url": "https://data.ucsf.edu/governance",
+      "summary": "UCSF's Data and Analytics Governance program aims to promote responsible data management, privacy, and data-driven decision-making. The program emphasizes literacy, integrity, and culture while providing a framework for managing data processes in alignment with UCSF’s mission. It focuses on committee structures, business stewardship, data compliance, data management, reporting governance, and training and education.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:11:07.774811+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110699",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:13:41.497724+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Strategic Plan | UCSF School of Medicine",
+      "url": "https://medschool.ucsf.edu/about/strategic-plan",
+      "summary": "The UCSF School of Medicine's strategic plan outlines a commitment to advancing health globally by prioritizing education, research, healthcare, and public service. It identifies seven thematic areas, including opportunity, belonging, and anti-discrimination, with specific tactics prioritized to achieve the school's future vision. The plan will be finalized and implemented in 2025 following stakeholder engagement and refinement of tactics.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:09:18.027661+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Institutional Research, Analytics, and Research Systems",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425329"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Carolyn Bertozzi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carolyn_Bertozzi",
+      "field": "Biochemistry"
+    },
+    {
+      "name": "David Agard",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Agard",
+      "field": "Biophysics"
+    },
+    {
+      "name": "Priscilla Chan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Priscilla_Chan",
+      "field": "Philanthropy"
+    },
+    {
+      "name": "Susan Desmond-Hellmann",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Susan_Desmond-Hellmann",
+      "field": "Medicine and Biotechnology"
+    },
+    {
+      "name": "Julie Gerberding",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Julie_Gerberding",
+      "field": "Public Health"
+    },
+    {
+      "name": "Michael V. Drake",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_V._Drake",
+      "field": "Higher Education Administration"
+    },
+    {
+      "name": "Stanton Glantz",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stanton_Glantz",
+      "field": "Tobacco Control Research"
+    },
+    {
+      "name": "Adam Gazzaley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adam_Gazzaley",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Linda Aranaydo",
+      "field": "Medicine"
+    },
+    {
+      "name": "Hal V. Barron",
+      "field": "Pharmaceuticals"
+    }
+  ]
+}

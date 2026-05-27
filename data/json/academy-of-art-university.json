@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:01.861307+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 108232,
+    "slug": "academy-of-art-university",
+    "name": "Academy of Art University",
+    "website_url": "https://www.academyart.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94105",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UYCBU5C6KNW7",
+      "opeid": "00753100",
+      "ein": "941637804"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Academy of Art University formerly Academy of Art College and Richard Stephens Academy of Art, is a private for-profit art school in San Francisco, California. It was founded as the Academy of Advertising Art by Richard S. Stephens in 1929. The school is one of the largest property owners in San Francisco, with the main campus located on New Montgomery Street in the South of Market district.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Academy_of_Art_University",
+    "source_url": "https://en.wikipedia.org/wiki/Academy_of_Art_University",
+    "fetched_at": "2026-05-27T22:30:18.921258+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 39778,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.4776,
+    "federal_loan_rate": 0.5049,
+    "net_price_by_family_income": {
+      "0_30k": 37962,
+      "30_48k": 37492,
+      "48_75k": 40285,
+      "75_110k": 44633,
+      "110k_plus": 41099
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "grad_4yr_bachelors": 0.06,
+    "grad_5yr_bachelors": 0.21,
+    "grad_6yr_bachelors": 0.34,
+    "pell_grad_rate": 0.23,
+    "pell_6yr_bachelors_rate": 0.22,
+    "non_pell_grad_rate": 0.17,
+    "non_pell_6yr_bachelors": 0.15,
+    "retention_full_time": 0.75,
+    "retention_part_time": 0.42
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 8463,
+    "ug_12mo": 5662,
+    "grad_12mo": 5544,
+    "women_12mo": 5120,
+    "men_12mo": 3343,
+    "fall_total": 5498,
+    "fall_full_time": 3644,
+    "fall_part_time": 3587,
+    "distance_ed_any": 5498,
+    "distance_ed_exclusive": 2948,
+    "race_ethnicity": {
+      "white": 0.2583,
+      "black": 0.1169,
+      "hispanic": 0.1997,
+      "asian": 0.0649,
+      "ai_an": 0.0044,
+      "nh_pi": 0.0053,
+      "two_or_more": 0.0605,
+      "non_resident": 0.1467,
+      "race_unknown": 0.1433
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 406
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 292
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 178
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 170
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 1
+      }
+    ],
+    "program_count": 39,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0,
+    "instr_total_fte": 94
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 445027,
+        "slug": "american-intercontinental-university-system",
+        "name": "American InterContinental University System",
+        "state": "Arizona",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.06,
+          "retention_rate": 0.36,
+          "enrollment": 11277,
+          "avg_net_price": 14449
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 449339,
+        "slug": "american-public-university-system",
+        "name": "American Public University System",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.47,
+          "retention_rate": 0.97,
+          "enrollment": 50715,
+          "avg_net_price": 9104
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 450933,
+        "slug": "columbia-southern-university",
+        "name": "Columbia Southern University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.26,
+          "retention_rate": 0.71,
+          "enrollment": 17763,
+          "avg_net_price": 14975
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 134237,
+        "slug": "full-sail-university",
+        "name": "Full Sail University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.45,
+          "retention_rate": 0.53,
+          "enrollment": 27169,
+          "avg_net_price": 31759
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 130183,
+        "slug": "post-university",
+        "name": "Post University",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9654338057379882,
+          "yield_rate": 0.4163981382026495,
+          "grad_rate": 0.24,
+          "retention_rate": 0.33,
+          "enrollment": 16178,
+          "avg_net_price": 19196
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 139579,
+        "slug": "south-university-savannah",
+        "name": "South University-Savannah",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.22,
+          "enrollment": 716,
+          "avg_net_price": 24116
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 453163,
+        "slug": "strayer-university-north-carolina",
+        "name": "Strayer University-North Carolina",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "enrollment": 3037
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 233684,
+        "slug": "strayer-university-virginia",
+        "name": "Strayer University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.19,
+          "retention_rate": 0.75,
+          "enrollment": 1998
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 484631,
+        "slug": "university-of-phoenix-california",
+        "name": "University of Phoenix-California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.23,
+          "enrollment": 34
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=108232",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:30:20.019494+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "Academy of Art University Strategic Plan 2022-2027",
+      "url": "https://www.academyart.edu/about-us/strategic-plan/",
+      "summary": "The Academy of Art University Strategic Plan 2022-2027, launched by President Stephens, aims to ensure educational excellence by adapting to the evolving needs of students and the industry. It was developed through a collaborative process involving students, faculty, staff, alumni, and the Board of Directors. The Strategic Planning Committee will oversee the plan's implementation and provide regular updates to the Academy community.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:26:41.996341+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Data Policy and Institutional Research - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179411140"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Transfer Scholarship",
+      "agency": "Academy of Art University",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.academyart.edu/admissions/cost-financial-aid/grants-scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "International Student Scholarships",
+      "agency": "Academy of Art University",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://www.academyart.edu/admissions/cost-financial-aid/grants-scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Ahead of the Curve - Summer 2026 New High School Graduate Scholarship",
+      "agency": "Academy of Art University",
+      "kind": "opportunity",
+      "amount_usd": 3000,
+      "url": "https://www.academyart.edu/admissions/cost-financial-aid/grants-scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Art Educators Studio Program",
+      "agency": "Academy of Art University",
+      "kind": "opportunity",
+      "url": "https://www.academyart.edu/admissions/cost-financial-aid/grants-scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Reserve Officers’ Training Corps Scholarship (ROTC)",
+      "agency": "Academy of Art University",
+      "kind": "opportunity",
+      "url": "https://www.academyart.edu/admissions/cost-financial-aid/grants-scholarships/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Richard Jennings",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Jan Philip Cramer",
+      "field": "Animation & Visual Effects"
+    },
+    {
+      "name": "Beau Oyler",
+      "field": "Industrial Design"
+    },
+    {
+      "name": "Jason Sperling",
+      "field": "Advertising"
+    },
+    {
+      "name": "Lauren Conrad",
+      "field": "Television and Fashion"
+    },
+    {
+      "name": "Raven-Symoné",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Rick Baker",
+      "field": "Special Effects"
+    },
+    {
+      "name": "Flying Lotus",
+      "field": "Music"
+    },
+    {
+      "name": "Gabrielle E.W. Carter",
+      "field": "Art"
+    },
+    {
+      "name": "Stan Musilek",
+      "field": "Photography"
+    }
+  ]
+}

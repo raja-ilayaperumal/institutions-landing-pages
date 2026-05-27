@@ -44,11 +44,17 @@ async def find_url(
     registrable_domain: str,
     target_description: str,
     target_examples: str = "",
-    max_steps: int = 12,
+    max_steps: int = 8,
+    web_search_budget: int = 3,
     model: str = "gpt-4o-mini",
 ) -> AgentResult:
     """Find the exact URL of one target page for one institution via agentic
-    reasoning. Returns AgentResult with found_url, confidence, and trace info."""
+    reasoning. Returns AgentResult with found_url, confidence, and trace info.
+
+    `web_search_budget` caps the number of paid web_search calls per run; once
+    exceeded the agent must reason with probe_url + fetch_snippet (both free).
+    `max_steps` lowered from 12→8 post-2026-05-27 cost review — convergence
+    typically happens in 4-6 steps when the prompt prioritizes probe_url."""
     if not settings.has_openai:
         return AgentResult(found_url=None, confidence=0.0,
                            reason="no OPENAI_API_KEY", tool_calls=0)
@@ -58,6 +64,7 @@ async def find_url(
     llm = ChatOpenAI(
         api_key=settings.openai_api_key, model=model, temperature=0,
     ).bind_tools(tools)
+    web_search_used = 0
 
     user_prompt = (
         f"Institution: {institution_name}\n"
@@ -91,9 +98,21 @@ async def find_url(
             tool = tools_by_name.get(name)
             if tool is None:
                 result = json.dumps({"error": f"unknown tool {name}"})
+            elif name == "web_search" and web_search_used >= web_search_budget:
+                # Hard cap: agent must finish using probe_url/fetch_snippet.
+                # See url_finder cost notes in module docstring.
+                result = json.dumps({
+                    "error": (f"web_search budget exhausted ({web_search_budget}). "
+                              "Use probe_url for URL patterns "
+                              "(ir.<domain>/, <domain>/ir/, <domain>/factbook/, "
+                              "<domain>/about/institutional-research/) and "
+                              "fetch_snippet on candidates you already have.")
+                })
             else:
                 try:
                     result = await tool.coroutine(**args)
+                    if name == "web_search":
+                        web_search_used += 1
                 except Exception as e:  # noqa: BLE001
                     result = json.dumps({"error": str(e)})
             messages.append(ToolMessage(

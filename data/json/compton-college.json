@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:11.786711+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112686,
+    "slug": "compton-college",
+    "name": "Compton College",
+    "website_url": "https://www.compton.edu",
+    "city": "Compton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90221-5393",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PGBABZNWYG66",
+      "opeid": "04281700",
+      "ein": "956004983"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Compton College is a public community college in Compton, California. From 2006, when it lost its regional accreditation, to 2017, when it regained that accreditation, it operated as a part of El Camino College. Before and after the partnership with El Camino College, the college was operated by the Compton Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Compton_College",
+    "source_url": "https://en.wikipedia.org/wiki/Compton_College",
+    "fetched_at": "2026-05-27T22:41:33.307889+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 11103,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.664,
+    "federal_loan_rate": 0.0174,
+    "net_price_by_family_income": {
+      "0_30k": 11072,
+      "30_48k": 10652,
+      "48_75k": 11087,
+      "75_110k": 15334,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.27,
+    "pell_grad_rate": 0.26,
+    "retention_full_time": 0.5,
+    "retention_part_time": 0.26
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7164,
+    "ug_12mo": 7164,
+    "grad_12mo": 4665,
+    "women_12mo": 4472,
+    "men_12mo": 2692,
+    "fall_total": 5225,
+    "fall_full_time": 5225,
+    "fall_part_time": 3142,
+    "distance_ed_any": 5225,
+    "distance_ed_exclusive": 1387,
+    "race_ethnicity": {
+      "white": 0.0285,
+      "black": 0.3457,
+      "hispanic": 0.5356,
+      "asian": 0.0219,
+      "ai_an": 0.0014,
+      "nh_pi": 0.0042,
+      "two_or_more": 0.033,
+      "non_resident": 0.0,
+      "race_unknown": 0.0299
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 446
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 81
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 64
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 5
+      }
+    ],
+    "program_count": 43,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 127
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 161864,
+        "slug": "baltimore-city-community-college",
+        "name": "Baltimore City Community College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 4375,
+          "avg_net_price": 9769
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111887,
+        "slug": "cerritos-college",
+        "name": "Cerritos College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 21859,
+          "avg_net_price": 693
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 117715,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5371,
+          "avg_net_price": 6683
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 117724,
+        "slug": "los-angeles-trade-technical-college",
+        "name": "Los Angeles Trade Technical College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12519,
+          "avg_net_price": 10658
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 118772,
+        "slug": "merritt-college",
+        "name": "Merritt College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 7022,
+          "avg_net_price": 14742
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 125471,
+        "slug": "west-los-angeles-college",
+        "name": "West Los Angeles College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9255,
+          "avg_net_price": 7131
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.compton.edu/about/institutional-effectiveness/index.aspx",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:39:44.35934+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112686",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:41:35.469523+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2024,
+      "title": "Annual Fact Book",
+      "url": "https://www.compton.edu/about/institutional-effectiveness/factbook.aspx",
+      "summary": "The Compton College Annual Fact Book provides information on enrollment trends, special programs, student achievement, and employee characteristics. It guides users to access information via a table of contents for direct navigation to specific sections of the report.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:35:12.840767+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2019,
+      "title": "Compton College 2024",
+      "url": "https://www.compton.edu/about/masterplan/docs/Compton-College-2024.pdf",
+      "summary": "The Compton College 2024 strategic plan outlines a comprehensive framework for the next five to 10 years, focusing on student learning and success. The plan prioritizes access and completion, student success, innovation, workforce development, and community partnerships. It aims to align educational programs with labor market needs, enhance technology for teaching and learning, and foster strong connections with community and educational partners.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:41:32.177939+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

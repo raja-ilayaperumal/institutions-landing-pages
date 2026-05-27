@@ -274,7 +274,6 @@ async def _try_agent_escalation(ctx, target, validator_reason: str) -> tuple[str
             institution_name=ctx.name,
             registrable_domain=ctx.registrable_domain or ctx.domain or "",
             target_description=target.description,
-            max_steps=10,
         )
         return result.found_url, result.confidence, result.reason, result.tool_calls
     except Exception as e:  # noqa: BLE001

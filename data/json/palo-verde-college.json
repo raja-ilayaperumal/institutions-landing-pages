@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:11.547297+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120953,
+    "slug": "palo-verde-college",
+    "name": "Palo Verde College",
+    "website_url": "https://www.paloverde.edu",
+    "city": "Blythe",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92225",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00125900",
+      "ein": "330833195"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Palo Verde College, formerly Palo Verde Junior College, is a public community college in Blythe, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palo_Verde_College",
+    "source_url": "https://en.wikipedia.org/wiki/Palo_Verde_College",
+    "fetched_at": "2026-05-27T23:46:17.764294+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 10543,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7776,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 10487,
+      "30_48k": 9070,
+      "48_75k": 11606,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.31,
+    "pell_grad_rate": 0.43,
+    "retention_full_time": 0.52,
+    "retention_part_time": 0.23
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 5790,
+    "ug_12mo": 5790,
+    "grad_12mo": 5059,
+    "women_12mo": 941,
+    "men_12mo": 4849,
+    "fall_total": 3833,
+    "fall_full_time": 3833,
+    "fall_part_time": 3381,
+    "distance_ed_any": 3833,
+    "distance_ed_exclusive": 1989,
+    "race_ethnicity": {
+      "white": 0.2413,
+      "black": 0.1189,
+      "hispanic": 0.5125,
+      "asian": 0.0358,
+      "ai_an": 0.0117,
+      "nh_pi": 0.0065,
+      "two_or_more": 0.0265,
+      "non_resident": 0.0,
+      "race_unknown": 0.0468
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 177
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2
+      }
+    ],
+    "program_count": 35,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 36
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 197966,
+        "slug": "beaufort-county-community-college",
+        "name": "Beaufort County Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 1856,
+          "avg_net_price": 5105
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 231536,
+        "slug": "blue-ridge-community-college-2",
+        "name": "Blue Ridge Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 3790,
+          "avg_net_price": 8755
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 198084,
+        "slug": "brunswick-community-college",
+        "name": "Brunswick Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2009,
+          "avg_net_price": 8785
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 143613,
+        "slug": "carl-sandburg-college",
+        "name": "Carl Sandburg College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 1603,
+          "avg_net_price": 1036
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 190053,
+        "slug": "clinton-community-college",
+        "name": "Clinton Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 1067,
+          "avg_net_price": 9385
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 404426,
+        "slug": "coconino-community-college",
+        "name": "Coconino Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 2524,
+          "avg_net_price": 12455
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 190169,
+        "slug": "columbia-greene-community-college",
+        "name": "Columbia-Greene Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 1616,
+          "avg_net_price": 5576
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 106795,
+        "slug": "cossatot-community-college-of-the-university-of-arkansas",
+        "name": "Cossatot Community College of the University of Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 1312,
+          "avg_net_price": 5200
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 198367,
+        "slug": "craven-community-college",
+        "name": "Craven Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 3103,
+          "avg_net_price": 4402
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 101143,
+        "slug": "enterprise-state-community-college",
+        "name": "Enterprise State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 2699,
+          "avg_net_price": 8187
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 155201,
+        "slug": "independence-community-college",
+        "name": "Independence Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 764,
+          "avg_net_price": 6262
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 198710,
+        "slug": "isothermal-community-college",
+        "name": "Isothermal Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 1918,
+          "avg_net_price": 6723
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 220400,
+        "slug": "jackson-state-community-college",
+        "name": "Jackson State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 3518,
+          "avg_net_price": 7343
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 198729,
+        "slug": "james-sprunt-community-college",
+        "name": "James Sprunt Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 1519,
+          "avg_net_price": 3852
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 191986,
+        "slug": "jamestown-community-college",
+        "name": "Jamestown Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 4054,
+          "avg_net_price": 9507
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 192022,
+        "slug": "jefferson-community-college",
+        "name": "Jefferson Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 2319,
+          "avg_net_price": 11012
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 117274,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2038,
+          "avg_net_price": 7677
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 403478,
+        "slug": "lincoln-trail-college",
+        "name": "Lincoln Trail College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "avg_net_price": 8719
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 179344,
+        "slug": "missouri-state-university-west-plains",
+        "name": "Missouri State University-West Plains",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1919,
+          "avg_net_price": 9384
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 187912,
+        "slug": "new-mexico-military-institute",
+        "name": "New Mexico Military Institute",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.526,
+          "yield_rate": 0.6806083650190115,
+          "retention_rate": 0.5,
+          "enrollment": 463,
+          "avg_net_price": 4686
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 233019,
+        "slug": "patrick-and-henry-community-college",
+        "name": "Patrick & Henry Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1908,
+          "avg_net_price": 3430
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 199421,
+        "slug": "randolph-community-college",
+        "name": "Randolph Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 2814,
+          "avg_net_price": 7242
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 105792,
+        "slug": "south-mountain-community-college",
+        "name": "South Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4516,
+          "avg_net_price": 11942
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 210155,
+        "slug": "southwestern-oregon-community-college",
+        "name": "Southwestern Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1551,
+          "avg_net_price": 8815
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 172291,
+        "slug": "st-clair-county-community-college",
+        "name": "St Clair County Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3317,
+          "avg_net_price": 8145
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 247603,
+        "slug": "sussex-county-community-college",
+        "name": "Sussex County Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2247,
+          "avg_net_price": 7054
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 210270,
+        "slug": "umpqua-community-college",
+        "name": "Umpqua Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2582,
+          "avg_net_price": 10168
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 218681,
+        "slug": "university-of-south-carolina-salkehatchie",
+        "name": "University of South Carolina-Salkehatchie",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.759941089837997,
+          "yield_rate": 0.23062015503875968,
+          "retention_rate": 0.43,
+          "enrollment": 799,
+          "avg_net_price": 12395
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.paloverde.edu/rpie/index.html",
+    "office_name": "Research, Planning & Institutional Effectiveness",
+    "summary": "The RPIE department at Palo Verde College provides comprehensive data and analysis that guides informed decision-making for the administration, faculty, and staff. By fostering a commitment to continuous improvement, we strive to cultivate a culture of excellence within our college community.",
+    "phone": "760-921-5500",
+    "address": "One College Drive, Blythe, CA 92225",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T23:46:16.743336+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Baba Adam",
+      "title": "Dean of Research, Planning and Institutional Effectiveness",
+      "email": "baba.adam@paloverde.edu",
+      "phone": "760-921-5474"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120953",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:46:19.119148+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Palo Verde College Mission and Strategic Plan",
+      "url": "https://www.paloverde.edu/about-us/mission.html",
+      "summary": "Palo Verde College's strategic plan is focused on fostering excellence in education, social, economic, and cultural facets. It provides opportunities for personal and professional growth with an emphasis on diversity, equity, and inclusion. The plan's priorities include promoting lifelong learning, maintaining high ethical standards, celebrating diversity, and encouraging civic responsibility.",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:40:40.509827+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

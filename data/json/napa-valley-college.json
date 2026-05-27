@@ -1,0 +1,672 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:54.564702+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119331,
+    "slug": "napa-valley-college",
+    "name": "Napa Valley College",
+    "website_url": "https://www.napavalley.edu",
+    "city": "Napa",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94558-6236",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HRALRKH6TMG8",
+      "opeid": "00124700",
+      "ein": "680314463"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Napa Valley College, formerly Napa Junior College and Napa Community College, is a public community college in Napa, California. The tree-lined main campus is on 160 acres (65 ha) overlooking the Napa River and includes a performing arts center, a child development center, a business development center, a Visual Arts Center including a Gallery and Ceramics Studio, and the Napa Valley Vintners Teaching Winery. An Upper Valley Campus in St. Helena includes the Napa Valley Cooking School, training aspiring chefs. In 2014–2015, the total enrollment was about 8,559.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Napa_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/Napa_Valley_College",
+    "fetched_at": "2026-05-27T22:48:13.680264+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 14046,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6222,
+    "federal_loan_rate": 0.0047,
+    "net_price_by_family_income": {
+      "0_30k": 12146,
+      "30_48k": 12868,
+      "48_75k": 16815,
+      "75_110k": 17843,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.43,
+    "pell_grad_rate": 0.48,
+    "retention_full_time": 0.72,
+    "retention_part_time": 0.51
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6279,
+    "ug_12mo": 6279,
+    "grad_12mo": 4595,
+    "women_12mo": 3649,
+    "men_12mo": 2630,
+    "fall_total": 4844,
+    "fall_full_time": 4844,
+    "fall_part_time": 3813,
+    "distance_ed_any": 4844,
+    "distance_ed_exclusive": 1516,
+    "race_ethnicity": {
+      "white": 0.2262,
+      "black": 0.0406,
+      "hispanic": 0.4889,
+      "asian": 0.1385,
+      "ai_an": 0.0031,
+      "nh_pi": 0.0066,
+      "two_or_more": 0.0546,
+      "non_resident": 0.0009,
+      "race_unknown": 0.0406
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 85
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 73
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 52
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 35
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 18
+      }
+    ],
+    "program_count": 57,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 97
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 183655,
+        "slug": "atlantic-cape-community-college",
+        "name": "Atlantic Cape Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 4052,
+          "avg_net_price": 8502
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 106625,
+        "slug": "black-river-technical-college",
+        "name": "Black River Technical College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1705,
+          "avg_net_price": 6053
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 206923,
+        "slug": "carl-albert-state-college",
+        "name": "Carl Albert State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.1,
+          "enrollment": 1851,
+          "avg_net_price": 6855
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 219879,
+        "slug": "cleveland-state-community-college",
+        "name": "Cleveland State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.49468417761100686,
+          "retention_rate": 0.52,
+          "enrollment": 3282,
+          "avg_net_price": 6183
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 154925,
+        "slug": "coffeyville-community-college",
+        "name": "Coffeyville Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 1466,
+          "avg_net_price": 5481
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 112561,
+        "slug": "columbia-college",
+        "name": "Columbia College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2828,
+          "avg_net_price": 15468
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 395362,
+        "slug": "copper-mountain-community-college",
+        "name": "Copper Mountain Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2019,
+          "avg_net_price": 7962
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 113111,
+        "slug": "crafton-hills-college",
+        "name": "Crafton Hills College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6768,
+          "avg_net_price": 10655
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 475565,
+        "slug": "cuny-stella-and-charles-guttman-community-college",
+        "name": "CUNY Stella and Charles Guttman Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 1048,
+          "avg_net_price": 5643
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 220057,
+        "slug": "dyersburg-state-community-college",
+        "name": "Dyersburg State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 3296,
+          "avg_net_price": 4322
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 207050,
+        "slug": "eastern-oklahoma-state-college",
+        "name": "Eastern Oklahoma State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1285,
+          "avg_net_price": 11020
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 191302,
+        "slug": "fulton-montgomery-community-college",
+        "name": "Fulton-Montgomery Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 1865,
+          "avg_net_price": 7803
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 155104,
+        "slug": "garden-city-community-college",
+        "name": "Garden City Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2079,
+          "avg_net_price": 8681
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 162609,
+        "slug": "garrett-college",
+        "name": "Garrett College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 679,
+          "avg_net_price": 6396
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 166133,
+        "slug": "holyoke-community-college",
+        "name": "Holyoke Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4200,
+          "avg_net_price": 6860
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 101648,
+        "slug": "marion-military-institute",
+        "name": "Marion Military Institute",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9702970297029703,
+          "yield_rate": 0.5102040816326531,
+          "retention_rate": 0.46,
+          "enrollment": 332,
+          "avg_net_price": 10137
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 178217,
+        "slug": "mineral-area-college",
+        "name": "Mineral Area College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 2447,
+          "avg_net_price": 11123
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 207236,
+        "slug": "murray-state-college",
+        "name": "Murray State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2949,
+          "avg_net_price": 15071
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 194240,
+        "slug": "orange-county-community-college",
+        "name": "Orange County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 5704,
+          "avg_net_price": 7442
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 107549,
+        "slug": "ozarka-college",
+        "name": "Ozarka College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 1069,
+          "avg_net_price": 4396
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 227687,
+        "slug": "ranger-college",
+        "name": "Ranger College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.46,
+          "enrollment": 2522,
+          "avg_net_price": 6565
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 221397,
+        "slug": "roane-state-community-college",
+        "name": "Roane State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.99568345323741,
+          "yield_rate": 0.6796724470134875,
+          "retention_rate": 0.58,
+          "enrollment": 5002,
+          "avg_net_price": 6017
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 199467,
+        "slug": "roanoke-chowan-community-college",
+        "name": "Roanoke-Chowan Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 668,
+          "avg_net_price": 8076
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 167631,
+        "slug": "roxbury-community-college",
+        "name": "Roxbury Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.36,
+          "enrollment": 2044,
+          "avg_net_price": 12544
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 207740,
+        "slug": "seminole-state-college",
+        "name": "Seminole State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 1488,
+          "avg_net_price": 15328
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 188438,
+        "slug": "suny-adirondack",
+        "name": "SUNY Adirondack",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 2576,
+          "avg_net_price": 10363
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 179645,
+        "slug": "three-rivers-college",
+        "name": "Three Rivers College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2604,
+          "avg_net_price": 9980
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 107585,
+        "slug": "university-of-arkansas-community-college-morrilton",
+        "name": "University of Arkansas Community College-Morrilton",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5226700251889169,
+          "retention_rate": 0.61,
+          "enrollment": 2248,
+          "avg_net_price": 11718
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 107664,
+        "slug": "university-of-arkansas-pulaski-technical-college",
+        "name": "University of Arkansas-Pulaski Technical College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 4478,
+          "avg_net_price": 15000
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.napavalley.edu/about/institutional-planning/index.html",
+    "office_name": "Office of Research, Planning and Institutional Effectiveness",
+    "summary": "The Office of Research, Planning and Institutional Effectiveness (RPIE) supports college planning activities by providing data and analysis to inform decision-making and monitor institutional effectiveness, coordinating the development and implementation of institutional plans, ensuring a regular cycle of evaluation aimed at improving programs and services, promoting outcomes assessment as a means of measuring and improving student learning and institutional effectiveness, and fostering a culture that values and addresses accreditation requirements.",
+    "phone": "707-256-7192",
+    "address": "2277 Napa-Vallejo Highway, Napa, CA 94558",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:48:12.692565+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Robyn Wornall, Ph.D.",
+      "title": "Dean of Research, Planning & Institutional Effectiveness",
+      "email": "rwornall@napavalley.edu",
+      "phone": "(707) 256-7192"
+    },
+    {
+      "ordering": 1,
+      "name": "Ryan Grimm, Ph.D.",
+      "title": "Director of Institutional Research",
+      "email": "ryan.grimm@napavalley.edu",
+      "phone": "(707) 256-7194",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-grimm-phd"
+    },
+    {
+      "ordering": 2,
+      "name": "Hallam Stevens, Ph.D.",
+      "title": "Grants Manager",
+      "email": "hallam.stevens@napavalley.edu",
+      "phone": "(707) 256-7191"
+    },
+    {
+      "ordering": 3,
+      "name": "Alexis Crisostomo",
+      "title": "Administrative Assistant",
+      "email": "alexis.crisostomo@napavalley.edu",
+      "phone": "(707) 256-7193"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.napavalley.edu/about/institutional-planning/research-and-data-analysis.html",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:46:21.259494+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119331",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:48:15.084336+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "url": "https://www.napavalley.edu/about/institutional-planning/institutional-plans.html",
+      "summary": "The Napa Valley College Strategic Plan outlines several institutional plans aimed at enhancing educational outcomes from 2024 to 2029. These plans include the Educational Master Plan, Facilities Master Plan, Technology Master Plan, and others, encompassing aspects like equity, strategic enrollment, and guided pathways. The plans are intended to foster institutional effectiveness, align with accreditation requirements, and enhance the college's educational offerings and infrastructure.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:42:57.602745+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Perkins, Title 1C",
+      "agency": "Federal Department of Education",
+      "kind": "award",
+      "url": "https://www.napavalley.edu/about/institutional-planning/grants.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Michael Gage",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Gage_(politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Rockwell D. Hunt"
+    },
+    {
+      "name": "L. B. Mallory"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:57.614896+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110097,
+    "slug": "biola-university",
+    "name": "Biola University",
+    "website_url": "https://www.biola.edu",
+    "city": "La Mirada",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90639-0001",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VNN8HLZ64P14",
+      "opeid": "00112200",
+      "ein": "950549600"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Biola University is a private, nondenominational, evangelical Christian university in La Mirada, California, United States. It was founded in 1908 as the Bible Institute of Los Angeles as a center for biblical and missionary training. Its campus in downtown Los Angeles features iconic \"Jesus Saves\" signs and a 3,500-seat auditorium. In 1949, it became Biola College and later adopted the name Biola University in 1981. The school relocated to La Mirada, California, in 1959 and has maintained a strong evangelical identity rooted in conservative theology, as reflected in its association with The Fundamentals: A Testimony to the Truth.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biola_University",
+    "source_url": "https://en.wikipedia.org/wiki/Biola_University",
+    "fetched_at": "2026-05-27T22:33:36.562008+05:30"
+  },
+  "admissions": {
+    "applicants": 3781,
+    "admits": 2811,
+    "enrolled": 836,
+    "first_time_freshmen": 836,
+    "first_time_freshmen_ft": 818,
+    "admit_rate": 0.7434541126686062,
+    "yield_rate": 0.2974030594094628
+  },
+  "cost": {
+    "avg_net_price": 28101,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0779,
+    "federal_loan_rate": 0.4467,
+    "net_price_by_family_income": {
+      "0_30k": 23001,
+      "30_48k": 21504,
+      "48_75k": 25038,
+      "75_110k": 28830,
+      "110k_plus": 35263
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.68,
+    "grad_4yr_bachelors": 0.54,
+    "grad_5yr_bachelors": 0.65,
+    "grad_6yr_bachelors": 0.68,
+    "pell_grad_rate": 0.61,
+    "pell_6yr_bachelors_rate": 0.61,
+    "non_pell_grad_rate": 0.68,
+    "non_pell_6yr_bachelors": 0.68,
+    "retention_full_time": 0.84,
+    "retention_part_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 5846,
+    "ug_12mo": 3625,
+    "grad_12mo": 3562,
+    "women_12mo": 3126,
+    "men_12mo": 2720,
+    "fall_total": 5434,
+    "fall_full_time": 3481,
+    "fall_part_time": 3474,
+    "distance_ed_any": 5434,
+    "distance_ed_exclusive": 1227,
+    "race_ethnicity": {
+      "white": 0.4032,
+      "black": 0.031,
+      "hispanic": 0.2363,
+      "asian": 0.1286,
+      "ai_an": 0.0012,
+      "nh_pi": 0.0018,
+      "two_or_more": 0.0858,
+      "non_resident": 0.0678,
+      "race_unknown": 0.0442
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 176
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 173
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 160
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 135
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 112
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 98
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 69
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 41
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 40
+      }
+    ],
+    "program_count": 81,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 219
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 222178,
+        "slug": "abilene-christian-university",
+        "name": "Abilene Christian University",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6602541475467703,
+          "yield_rate": 0.1210906174819567,
+          "grad_rate": 0.59,
+          "retention_rate": 0.81,
+          "enrollment": 5219,
+          "avg_net_price": 27401
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 169080,
+        "slug": "calvin-university",
+        "name": "Calvin University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7090686702778263,
+          "yield_rate": 0.21439132577624445,
+          "grad_rate": 0.74,
+          "retention_rate": 0.87,
+          "enrollment": 3681,
+          "avg_net_price": 24783
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 112075,
+        "slug": "concordia-university-irvine",
+        "name": "Concordia University-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6598685701336959,
+          "yield_rate": 0.11607142857142858,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 3658,
+          "avg_net_price": 28046
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 238616,
+        "slug": "concordia-university-wisconsin",
+        "name": "Concordia University-Wisconsin",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820025348542459,
+          "yield_rate": 0.1406807131280389,
+          "grad_rate": 0.69,
+          "retention_rate": 0.78,
+          "enrollment": 5253,
+          "avg_net_price": 26067
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 165936,
+        "slug": "gordon-college",
+        "name": "Gordon College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6923076923076923,
+          "yield_rate": 0.21550671550671552,
+          "grad_rate": 0.69,
+          "retention_rate": 0.84,
+          "enrollment": 1595,
+          "avg_net_price": 24817
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 104717,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 232557,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 474863,
+        "slug": "los-angeles-pacific-university",
+        "name": "Los Angeles Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.57,
+          "enrollment": 1881,
+          "avg_net_price": 20170
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.biola.edu/university-analytics/about",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Biola University",
+    "summary": "The Office provides data about the University, conducts analyses, research and evaluation, and offers consulting to activate data-informed decision-making for improving student success and experience.",
+    "email": "institutional.research@biola.edu",
+    "address": "13800 Biola Ave, La Mirada CA 90639",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:33:35.548108+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2017,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/5bb63ea1ab1c6c0001a016c4/2017-2018_Common_Data_Set_181003_update.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2016,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/5938247a75b0613a371bcd58/2016_-_2017_Common_Data_Set.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/5757360775b061584483e942/CDS_2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/568fec87dd4c2e68ad00001e/CDS_2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/568fec87dd4c2e68ad000020/CDS_2013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/568fec88dd4c2e68ad000022/CDS_2012-2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/568fec88dd4c2e68ad000024/CDS_2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/58dea62b8eca315ae4cdf03a/2010-2011_Common_Data_Set.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/58dea62475b0614f40a21a5e/2009-2010_Common_Data_Set.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/58dea61b8eca315ae4cdf037/2008-2009_Common_Data_Set.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://assets.biola.edu/4396738754672012438/attachment/58dea61275b0614f40a21a5b/2007-2008_Common_Data_Set.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "url": "https://www.biola.edu/university-analytics/reports",
+      "summary": "The Data Dictionary page for Biola University's University Analytics provides access to various data reports and consumer information, including enrollment profiles, common data sets from 2007 to 2026, university and program learning outcomes, career outcomes, and retention and graduation rates. It also mentions the availability of enrollment profiles upon request and that graduation rate disclosures are published in the Academic Catalog.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:31:03.498109+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110097",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:33:37.92481+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Data and Reports - University Analytics - Biola University",
+      "url": "https://www.biola.edu/university-analytics/reports",
+      "summary": "This page from Biola University's University Analytics provides data and reports regarding the institution's enrollment statistics, common data sets, educational outcomes, and graduation rate disclosures. The reports are curated by the University Analytics office, providing insights into university learning outcomes, program learning outcomes, and career outcomes. The most recent common data set covered is for the year 2025-26. Enrollment profiles can be requested for more detailed information, and graduation rates are disclosed in the academic catalog.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:29:32.280143+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Course Development Grants",
+      "agency": "Biola University Center for Christian Thought",
+      "kind": "opportunity",
+      "amount_usd": 15000,
+      "url": "https://cct.biola.edu/grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Neil T. Anderson",
+      "field": "Theology"
+    },
+    {
+      "name": "Scott Derrickson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Derrickson",
+      "field": "Film"
+    },
+    {
+      "name": "Judith Hill",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Judith_Hill",
+      "field": "Music"
+    },
+    {
+      "name": "Josh McDowell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Josh_McDowell",
+      "field": "Theology"
+    },
+    {
+      "name": "Nabeel Qureshi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nabeel_Qureshi_(author)",
+      "field": "Writing"
+    },
+    {
+      "name": "John Thune",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Thune",
+      "field": "Politics"
+    },
+    {
+      "name": "Charles E. Fuller",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_E._Fuller",
+      "field": "Ministry"
+    }
+  ]
+}

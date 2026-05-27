@@ -1,0 +1,671 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:50.933328+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123572,
+    "slug": "sonoma-state-university",
+    "name": "Sonoma State University",
+    "website_url": "https://sonoma.edu",
+    "city": "Rohnert Park",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94928-3609",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GZ6NCMJFL6R4",
+      "opeid": "00115600",
+      "ein": "680338225"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Sonoma State University is a public university in Rohnert Park, Sonoma County, California, United States. It is part of the California State University system and has three academic colleges: the College of Education, Counseling and Ethnic Studies; the College of Humanities, Social Sciences and the Arts; and the College of Science, Technology and Business. The school offers 62 bachelor's degree programs, 13 master's degree programs, and 24 teaching credentials.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sonoma_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/Sonoma_State_University",
+    "fetched_at": "2026-05-27T22:18:54.41007+05:30"
+  },
+  "admissions": {
+    "applicants": 11246,
+    "admits": 10507,
+    "enrolled": 873,
+    "first_time_freshmen": 873,
+    "first_time_freshmen_ft": 856,
+    "admit_rate": 0.9342877467544015,
+    "yield_rate": 0.08308746549919102
+  },
+  "cost": {
+    "avg_net_price": 13801,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.1243,
+    "federal_loan_rate": 0.2701,
+    "net_price_by_family_income": {
+      "0_30k": 9406,
+      "30_48k": 11158,
+      "48_75k": 12751,
+      "75_110k": 16423,
+      "110k_plus": 22141
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.58,
+    "grad_4yr_bachelors": 0.39,
+    "grad_5yr_bachelors": 0.54,
+    "grad_6yr_bachelors": 0.58,
+    "pell_grad_rate": 0.52,
+    "pell_6yr_bachelors_rate": 0.52,
+    "non_pell_grad_rate": 0.58,
+    "non_pell_6yr_bachelors": 0.58,
+    "retention_full_time": 0.79,
+    "retention_part_time": 0.58
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6695,
+    "ug_12mo": 6040,
+    "grad_12mo": 5875,
+    "women_12mo": 4147,
+    "men_12mo": 2548,
+    "fall_total": 5891,
+    "fall_full_time": 5272,
+    "fall_part_time": 5166,
+    "distance_ed_any": 5891,
+    "distance_ed_exclusive": 210,
+    "race_ethnicity": {
+      "white": 0.4042,
+      "black": 0.0272,
+      "hispanic": 0.4168,
+      "asian": 0.0493,
+      "ai_an": 0.0032,
+      "nh_pi": 0.0037,
+      "two_or_more": 0.0566,
+      "non_resident": 0.005,
+      "race_unknown": 0.0341
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 366
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 238
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 168
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 105
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 105
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 69
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 68
+      }
+    ],
+    "program_count": 57,
+    "highest_degree": 8,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 229
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 115755,
+        "slug": "california-state-polytechnic-university-humboldt",
+        "name": "California State Polytechnic University-Humboldt",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9820031796502384,
+          "yield_rate": 0.05886543193886802,
+          "grad_rate": 0.49,
+          "retention_rate": 0.76,
+          "enrollment": 6237,
+          "avg_net_price": 13167
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110486,
+        "slug": "california-state-university-bakersfield",
+        "name": "California State University-Bakersfield",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.938544107642301,
+          "yield_rate": 0.10422036082474227,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 10419,
+          "avg_net_price": 5825
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 441937,
+        "slug": "california-state-university-channel-islands",
+        "name": "California State University-Channel Islands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9481271282633371,
+          "yield_rate": 0.062253082724769544,
+          "grad_rate": 0.51,
+          "retention_rate": 0.72,
+          "enrollment": 5592,
+          "avg_net_price": 9792
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110538,
+        "slug": "california-state-university-chico",
+        "name": "California State University-Chico",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9271503301603636,
+          "yield_rate": 0.10160477269574064,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 15257,
+          "avg_net_price": 14838
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 110574,
+        "slug": "california-state-university-east-bay",
+        "name": "California State University-East Bay",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9738771382826326,
+          "yield_rate": 0.06852989530154885,
+          "grad_rate": 0.48,
+          "retention_rate": 0.76,
+          "enrollment": 12326,
+          "avg_net_price": 11276
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 409698,
+        "slug": "california-state-university-monterey-bay",
+        "name": "California State University-Monterey Bay",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9740172771713654,
+          "yield_rate": 0.09755929872808525,
+          "grad_rate": 0.59,
+          "retention_rate": 0.8,
+          "enrollment": 7713,
+          "avg_net_price": 14487
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 366711,
+        "slug": "california-state-university-san-marcos",
+        "name": "California State University-San Marcos",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9510166827239998,
+          "yield_rate": 0.13990935750466543,
+          "grad_rate": 0.55,
+          "retention_rate": 0.79,
+          "enrollment": 16237,
+          "avg_net_price": 10550
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 110495,
+        "slug": "california-state-university-stanislaus",
+        "name": "California State University-Stanislaus",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9813618748846651,
+          "yield_rate": 0.19142534787514104,
+          "grad_rate": 0.53,
+          "retention_rate": 0.82,
+          "enrollment": 9724,
+          "avg_net_price": 5671
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 196042,
+        "slug": "farmingdale-state-college",
+        "name": "Farmingdale State College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.632861927800521,
+          "yield_rate": 0.2678623934137018,
+          "grad_rate": 0.57,
+          "retention_rate": 0.82,
+          "enrollment": 10039,
+          "avg_net_price": 9173
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 186201,
+        "slug": "ramapo-college-of-new-jersey",
+        "name": "Ramapo College of New Jersey",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7064393939393939,
+          "yield_rate": 0.17757451506071598,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 5981,
+          "avg_net_price": 20360
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 196176,
+        "slug": "state-university-of-new-york-at-new-paltz",
+        "name": "State University of New York at New Paltz",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6160631383472609,
+          "yield_rate": 0.10691409193669932,
+          "grad_rate": 0.72,
+          "retention_rate": 0.85,
+          "enrollment": 7898,
+          "avg_net_price": 18481
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 196167,
+        "slug": "suny-college-at-geneseo",
+        "name": "SUNY College at Geneseo",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6644870202053227,
+          "yield_rate": 0.09555205668175556,
+          "grad_rate": 0.71,
+          "retention_rate": 0.87,
+          "enrollment": 3945,
+          "avg_net_price": 18021
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 178615,
+        "slug": "truman-state-university",
+        "name": "Truman State University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8376690946930281,
+          "yield_rate": 0.25921325051759836,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 3664,
+          "avg_net_price": 12030
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 232681,
+        "slug": "university-of-mary-washington",
+        "name": "University of Mary Washington",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7978142076502732,
+          "yield_rate": 0.17734833659491195,
+          "grad_rate": 0.66,
+          "retention_rate": 0.84,
+          "enrollment": 3826,
+          "avg_net_price": 21108
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 377555,
+        "slug": "university-of-washington-bothell-campus",
+        "name": "University of Washington-Bothell Campus",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9060324825986079,
+          "yield_rate": 0.23858301323090056,
+          "grad_rate": 0.65,
+          "retention_rate": 0.86,
+          "enrollment": 6058,
+          "avg_net_price": 10898
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://data.sonoma.edu/",
+    "office_name": "Office of Institutional Effectiveness",
+    "parent_division": "Division of Academic Affairs",
+    "summary": "The Office of Institutional Effectiveness serves Sonoma State University by providing consistent and accurate information that helps decision-makers act on behalf of students and the community to foster student success and academic excellence.",
+    "email": "oiedata@sonoma.edu",
+    "address": "Salazar Hall, Academic Affairs Suite 1801 E Cotati Ave. Rohnert Park, CA 94928",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:18:53.252108+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Heather Brown",
+      "title": "Associate Vice President, Institutional Effectiveness",
+      "email": "heather.brown@sonoma.edu",
+      "linkedin_url": "https://www.linkedin.com/in/heatherbrownphd"
+    },
+    {
+      "ordering": 1,
+      "name": "Kathryn Atwood",
+      "title": "Data Analyst",
+      "email": "kathryn.atwood@sonoma.edu",
+      "linkedin_url": "https://www.linkedin.com/in/kathryn-atwood-235404340"
+    },
+    {
+      "ordering": 2,
+      "name": "Giovanni Mejia",
+      "title": "Data Analyst",
+      "email": "giovanni.mejia@sonoma.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Vanessa Pedro",
+      "title": "Data Analyst",
+      "email": "vanessa.pedro@sonoma.edu",
+      "linkedin_url": "https://www.linkedin.com/in/vanessa-pedro-mpa-072360a2"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://data.sonoma.edu/sites/data/files/cds18.pdf",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Data Glossary | Institutional Effectiveness at Sonoma State University",
+      "url": "https://data.sonoma.edu/resources/glossary",
+      "summary": "The page provides a glossary of terms and acronyms used in Institutional Effectiveness data at Sonoma State University. It includes definitions of key metrics and classifications related to enrollment, demographics, faculty, and student performance, assisting in data understanding and reporting across the university system.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:18:16.121412+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123572",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:18:55.916511+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Building Our Future @ SSU | Strategic Plan 2025 at Sonoma State University",
+      "url": "https://strategicplan.sonoma.edu/building-our-future-ssu",
+      "summary": "Sonoma State University's Strategic Plan 2025 outlines a vision to become a national model for public higher education by 2025, focusing on student success, academic excellence, leadership cultivation, and transformative impact. The plan emphasizes the development of innovative programs, real-world learning, and community engagement as key components of preparing students for 21st-century challenges. Through dedicated faculty and staff efforts, Sonoma State aims to transform students' lives and make significant contributions to local and global communities.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:16:10.618126+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Accreditation and Assessment Specialist, Administrative Analyst ...",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179407865"
+    }
+  ],
+  "grants": [
+    {
+      "title": "NSF: Faculty Early Career Development Program (CAREER)",
+      "agency": "National Science Foundation",
+      "kind": "opportunity",
+      "amount_usd": 400000,
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Caplan Foundation for Early Childhood",
+      "agency": "Caplan Foundation",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Medline Educational Program Grants",
+      "agency": "Medline",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "National Endowment of the Arts (NEA) Grants for Arts Projects",
+      "agency": "National Endowment of the Arts",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "NIGMS Institutional Biomedical Undergraduate Research Training (BURT) Program (T34)",
+      "agency": "National Institutes of Health",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "NSF: Computer and Information Science and Engineering (CISE): Future Computing Research (Future CoRe)",
+      "agency": "National Science Foundation",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "NSF: Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)",
+      "agency": "National Science Foundation",
+      "kind": "opportunity",
+      "url": "https://orsp.sonoma.edu/pre-award/current-funding-opportunities",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Abdul Rahman Dahlan",
+      "field": "Politics"
+    },
+    {
+      "name": "Dan Antonioli"
+    },
+    {
+      "name": "Tony Arnerich"
+    },
+    {
+      "name": "Jennifer Barrett"
+    },
+    {
+      "name": "Christina Bell"
+    },
+    {
+      "name": "Ianthe Elizabeth Brautigan"
+    },
+    {
+      "name": "Kate Braverman",
+      "field": "Literature"
+    },
+    {
+      "name": "David V. Brewer",
+      "field": "Law"
+    },
+    {
+      "name": "Wendell Burton",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Kevin Danaher",
+      "field": "Activism"
+    },
+    {
+      "name": "Sharon N. DeWitte",
+      "field": "Anthropology"
+    },
+    {
+      "name": "Cameron Dokey",
+      "field": "Literature"
+    },
+    {
+      "name": "Gary Farrell",
+      "field": "Winemaking"
+    },
+    {
+      "name": "Samantha Ginn",
+      "field": "Theatre"
+    },
+    {
+      "name": "Lane Ryo Hirabayashi",
+      "field": "History"
+    },
+    {
+      "name": "Dominik Jakubek",
+      "field": "Athletics"
+    },
+    {
+      "name": "Sheila Leslie",
+      "field": "Politics"
+    },
+    {
+      "name": "Mike McGuire",
+      "field": "Politics"
+    },
+    {
+      "name": "William McNamara"
+    },
+    {
+      "name": "Carole Migden",
+      "field": "Politics"
+    },
+    {
+      "name": "Tendai Mukomberanwa"
+    },
+    {
+      "name": "Len A. Pennacchio",
+      "field": "Science"
+    },
+    {
+      "name": "Claire Porter",
+      "field": "Dance"
+    },
+    {
+      "name": "Nancy Potok",
+      "field": "Government"
+    },
+    {
+      "name": "Neil Ramiller"
+    },
+    {
+      "name": "Ulf-Dietrich Reips",
+      "field": "Psychology"
+    },
+    {
+      "name": "Jason Robinson",
+      "field": "Music"
+    },
+    {
+      "name": "Larry Robinson",
+      "field": "Poetry"
+    },
+    {
+      "name": "Caroline Sinavaiana-Gabbard",
+      "field": "Literature"
+    },
+    {
+      "name": "Gary Zukav",
+      "field": "Literature"
+    }
+  ]
+}

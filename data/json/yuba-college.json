@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:57.151569+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 126119,
+    "slug": "yuba-college",
+    "name": "Yuba College",
+    "website_url": "https://yc.yccd.edu",
+    "city": "Marysville",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95901",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-career-technical-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GZJ4C839SNB1",
+      "opeid": "00134400",
+      "ein": "680447767"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Yuba College is a public community college in Marysville, Yuba County, California. It is part of the Yuba Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yuba_College",
+    "source_url": "https://en.wikipedia.org/wiki/Yuba_College",
+    "fetched_at": "2026-05-27T22:05:11.952135+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3573,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6882,
+    "federal_loan_rate": 0.0069,
+    "net_price_by_family_income": {
+      "0_30k": 3575,
+      "30_48k": 2021,
+      "48_75k": 4445,
+      "75_110k": 8992,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.4,
+    "pell_grad_rate": 0.39,
+    "retention_full_time": 0.62,
+    "retention_part_time": 0.44
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 8679,
+    "ug_12mo": 8679,
+    "grad_12mo": 6374,
+    "women_12mo": 5234,
+    "men_12mo": 3445,
+    "fall_total": 6320,
+    "fall_full_time": 6320,
+    "fall_part_time": 4779,
+    "distance_ed_any": 6320,
+    "distance_ed_exclusive": 2960,
+    "race_ethnicity": {
+      "white": 0.2839,
+      "black": 0.0309,
+      "hispanic": 0.405,
+      "asian": 0.1538,
+      "ai_an": 0.0063,
+      "nh_pi": 0.0037,
+      "two_or_more": 0.0733,
+      "non_resident": 0.0,
+      "race_unknown": 0.0431
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 193
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 193
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 116
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 81
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 65
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 60
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 51
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 23
+      }
+    ],
+    "program_count": 60,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 26
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109208,
+        "slug": "american-river-college",
+        "name": "American River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 30462,
+          "avg_net_price": 4628
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110246,
+        "slug": "butte-college",
+        "name": "Butte College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 10968,
+          "avg_net_price": 4632
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118347,
+        "slug": "college-of-marin",
+        "name": "College of Marin",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 4838,
+          "avg_net_price": 15517
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 113096,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 444219,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11098,
+          "avg_net_price": 3661
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 119331,
+        "slug": "napa-valley-college",
+        "name": "Napa Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 4844,
+          "avg_net_price": 14046
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 236610,
+        "slug": "shoreline-community-college",
+        "name": "Shoreline Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4477,
+          "avg_net_price": 10116
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 123563,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.yccd.edu/district-services/education-and-planning/institutional-effectiveness/",
+    "office_name": "Office of Institutional Effectiveness",
+    "parent_division": "Education and Planning",
+    "summary": "The office of institutional effectiveness supports the Yuba Community College District cyclic process of continuous quality improvement. It is the systematic, integrated, and ongoing process of planning and data analysis to inform decision making in support of the district mission.",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:05:11.008472+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Supreeth Prasad",
+      "title": "Interim Director of Institutional Effectiveness",
+      "email": "sprasad@yccd.edu"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.yccd.edu/district-services/education-and-planning/institutional-effectiveness/external-data/",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:04:38.811083+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=126119",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:05:14.263773+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "YCCD Strategic Plan 2021-2030",
+      "url": "https://www.yccd.edu/district-services/education-and-planning/strategic-plan/",
+      "summary": "The Yuba Community College District's Strategic Plan for 2021-2030 focuses on enhancing student success and access through systematic quality improvement. The plan emphasizes integrating community needs in education, preparing for the future of learning, and leveraging partnerships to broaden educational access. The district aims for a collaborative and equitable planning process that anticipates the evolving needs of students and communities.",
+      "stored": false,
+      "fetched_at": "2026-05-27T21:58:19.687763+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Director of Dual Enrollment - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/state/details.cfm?JobCode=179450852&Title=Director%20of%20Dual%20Enrollment"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Cam Worthy",
+      "field": "Athletics"
+    },
+    {
+      "name": "Johan Asiata",
+      "field": "Athletics"
+    },
+    {
+      "name": "Rodney Hannah",
+      "field": "Athletics"
+    },
+    {
+      "name": "Rohnie Sykes",
+      "field": "Athletics"
+    },
+    {
+      "name": "Josh Beach",
+      "field": "Athletics"
+    }
+  ]
+}

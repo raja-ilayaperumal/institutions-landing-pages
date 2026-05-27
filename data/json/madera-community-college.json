@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:13.639223+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 497046,
+    "slug": "madera-community-college",
+    "name": "Madera Community College",
+    "website_url": "https://www.maderacollege.edu",
+    "city": "Madera",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93638-8321",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HAMKDP7NM8C6",
+      "opeid": "04296100",
+      "ein": "941574802"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Madera Community College, established in 2020, is a community college located in Madera, California. It originally opened in 1996 as Madera Community College Center, a campus of the State Center Community College District.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Madera_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Madera_Community_College",
+    "fetched_at": "2026-05-27T22:04:58.32727+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": -489,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.8471,
+    "federal_loan_rate": 0.0011,
+    "net_price_by_family_income": {
+      "0_30k": -2313,
+      "30_48k": -90,
+      "48_75k": 2917,
+      "75_110k": 7149,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.35,
+    "pell_grad_rate": 0.33,
+    "retention_full_time": 0.67,
+    "retention_part_time": 0.37
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 10714,
+    "ug_12mo": 10714,
+    "grad_12mo": 7130,
+    "women_12mo": 6964,
+    "men_12mo": 3750,
+    "fall_total": 6636,
+    "fall_full_time": 6636,
+    "fall_part_time": 4808,
+    "distance_ed_any": 6636,
+    "distance_ed_exclusive": 3314,
+    "race_ethnicity": {
+      "white": 0.17,
+      "black": 0.0293,
+      "hispanic": 0.6778,
+      "asian": 0.0807,
+      "ai_an": 0.0039,
+      "nh_pi": 0.001,
+      "two_or_more": 0.0286,
+      "non_resident": 0.0,
+      "race_unknown": 0.0086
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 125
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 64
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 58
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 12
+      }
+    ],
+    "program_count": 59,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 81
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 158088,
+        "slug": "central-louisiana-technical-community-college",
+        "name": "Central Louisiana Technical Community College",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1345,
+          "avg_net_price": 5497
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 369668,
+        "slug": "central-pennsylvania-institute-of-science-and-technology",
+        "name": "Central Pennsylvania Institute of Science and Technology",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9619565217391305,
+          "yield_rate": 0.711864406779661,
+          "retention_rate": 0.87,
+          "enrollment": 171,
+          "avg_net_price": 10498
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 170620,
+        "slug": "lake-michigan-college",
+        "name": "Lake Michigan College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 2937,
+          "avg_net_price": 11209
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 418533,
+        "slug": "lancaster-county-career-and-technology-center",
+        "name": "Lancaster County Career and Technology Center",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 279,
+          "avg_net_price": 15866
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117803,
+        "slug": "los-angeles-county-college-of-nursing-and-allied-health",
+        "name": "Los Angeles County College of Nursing and Allied Health",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 204
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 181765,
+        "slug": "nebraska-college-of-technical-agriculture",
+        "name": "Nebraska College of Technical Agriculture",
+        "state": "Nebraska",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 222,
+          "avg_net_price": 13843
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 160010,
+        "slug": "northwest-louisiana-technical-community-college",
+        "name": "Northwest Louisiana Technical Community College",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 1065,
+          "avg_net_price": 9847
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 233338,
+        "slug": "richard-bland-college",
+        "name": "Richard Bland College",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8926342072409488,
+          "yield_rate": 0.3321678321678322,
+          "retention_rate": 0.57,
+          "enrollment": 2788,
+          "avg_net_price": 8920
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.maderacollege.edu/about/college-planning/research-and-planning/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:04:57.239919+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Research Terms | Madera Community College",
+      "url": "https://www.maderacollege.edu/about/college-planning/research-and-planning/research-terms.html",
+      "summary": "The page provides definitions of key research terms used at Madera Community College, covering a range of educational metrics and research methodologies used to evaluate and report student and faculty performance within the institution.",
+      "stored": false,
+      "fetched_at": "2026-05-27T21:56:21.111925+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=497046",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:04:59.393788+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Madera Community College Strategic Plan",
+      "url": "https://www.maderacollege.edu/about/college-planning/strategic-planning.html",
+      "summary": "The Madera Community College Strategic Plan focuses on empowering students to succeed amid an ever-changing world by providing quality instruction and fostering strong community partnerships. The plan highlights the college's commitment to offering innovative and transformative opportunities in a diverse and inclusive environment. Strategic themes include improving student academic and workforce outcomes, enhancing personal and social growth, and reinforcing the college's role in community strengthening and partnerships.",
+      "stored": false,
+      "fetched_at": "2026-05-27T21:55:02.446921+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Vice President, Equity & Institutional Effectiveness (Academic ...",
+      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179016276"
+    },
+    {
+      "title": "Interim District Director, Competency Based Education (Full-Time ...",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441193"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": []
+}

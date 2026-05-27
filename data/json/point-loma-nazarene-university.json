@@ -1,0 +1,705 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:59.709097+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121309,
+    "slug": "point-loma-nazarene-university",
+    "name": "Point Loma Nazarene University",
+    "website_url": "https://www.pointloma.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92106-2899",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "H534D2GJMQD3",
+      "opeid": "00126200",
+      "ein": "951644035"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Point Loma Nazarene University (PLNU) is a private university in Point Loma in San Diego, California, United States. It was founded in 1902 as a Bible college by the Church of the Nazarene.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Point_Loma_Nazarene_University",
+    "source_url": "https://en.wikipedia.org/wiki/Point_Loma_Nazarene_University",
+    "fetched_at": "2026-05-27T22:59:12.781786+05:30"
+  },
+  "admissions": {
+    "applicants": 3265,
+    "admits": 2732,
+    "enrolled": 585,
+    "first_time_freshmen": 585,
+    "first_time_freshmen_ft": 584,
+    "admit_rate": 0.8367534456355283,
+    "yield_rate": 0.21412884333821378
+  },
+  "cost": {
+    "room_and_board": 13650,
+    "avg_net_price": 50168,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.1232,
+    "federal_loan_rate": 0.4981,
+    "net_price_by_family_income": {
+      "0_30k": 44837,
+      "30_48k": 47378,
+      "48_75k": 49500,
+      "75_110k": 51106,
+      "110k_plus": 51154
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.77,
+    "grad_4yr_bachelors": 0.68,
+    "grad_5yr_bachelors": 0.77,
+    "grad_6yr_bachelors": 0.77,
+    "pell_grad_rate": 0.72,
+    "pell_6yr_bachelors_rate": 0.72,
+    "non_pell_grad_rate": 0.74,
+    "non_pell_6yr_bachelors": 0.74,
+    "retention_full_time": 0.86
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 5331,
+    "ug_12mo": 3521,
+    "grad_12mo": 3436,
+    "women_12mo": 3613,
+    "men_12mo": 1718,
+    "fall_total": 4757,
+    "fall_full_time": 3246,
+    "fall_part_time": 3188,
+    "distance_ed_any": 4757,
+    "distance_ed_exclusive": 1243,
+    "race_ethnicity": {
+      "white": 0.5297,
+      "black": 0.0204,
+      "hispanic": 0.2634,
+      "asian": 0.0651,
+      "ai_an": 0.0032,
+      "nh_pi": 0.0029,
+      "two_or_more": 0.0811,
+      "non_resident": 0.0115,
+      "race_unknown": 0.0227
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 255
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 215
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 202
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 110
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 74
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 32
+      }
+    ],
+    "program_count": 66,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 168
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 222178,
+        "slug": "abilene-christian-university",
+        "name": "Abilene Christian University",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6602541475467703,
+          "yield_rate": 0.1210906174819567,
+          "grad_rate": 0.59,
+          "retention_rate": 0.81,
+          "enrollment": 5219,
+          "avg_net_price": 27401
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 150066,
+        "slug": "anderson-university",
+        "name": "Anderson University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7934413871089333,
+          "yield_rate": 0.0833729216152019,
+          "grad_rate": 0.53,
+          "retention_rate": 0.6,
+          "enrollment": 1228,
+          "avg_net_price": 22144
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 156213,
+        "slug": "asbury-university",
+        "name": "Asbury University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.63402811439651,
+          "yield_rate": 0.26146788990825687,
+          "grad_rate": 0.65,
+          "retention_rate": 0.83,
+          "enrollment": 2100,
+          "avg_net_price": 20428
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 173160,
+        "slug": "bethel-university-2",
+        "name": "Bethel University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8779931584948689,
+          "yield_rate": 0.2694805194805195,
+          "grad_rate": 0.71,
+          "retention_rate": 0.86,
+          "enrollment": 3603,
+          "avg_net_price": 28439
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 169080,
+        "slug": "calvin-university",
+        "name": "Calvin University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7090686702778263,
+          "yield_rate": 0.21439132577624445,
+          "grad_rate": 0.74,
+          "retention_rate": 0.87,
+          "enrollment": 3681,
+          "avg_net_price": 24783
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 208822,
+        "slug": "george-fox-university",
+        "name": "George Fox University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9351081530782029,
+          "yield_rate": 0.18073207930859175,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 4916,
+          "avg_net_price": 29981
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 165936,
+        "slug": "gordon-college",
+        "name": "Gordon College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6923076923076923,
+          "yield_rate": 0.21550671550671552,
+          "grad_rate": 0.69,
+          "retention_rate": 0.84,
+          "enrollment": 1595,
+          "avg_net_price": 24817
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 213996,
+        "slug": "messiah-university",
+        "name": "Messiah University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.78966639544345,
+          "yield_rate": 0.29057187017001546,
+          "grad_rate": 0.75,
+          "retention_rate": 0.89,
+          "enrollment": 3373,
+          "avg_net_price": 27686
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 147679,
+        "slug": "north-park-university",
+        "name": "North Park University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6850777442562079,
+          "yield_rate": 0.14329268292682926,
+          "grad_rate": 0.58,
+          "retention_rate": 0.62,
+          "enrollment": 2557,
+          "avg_net_price": 18191
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 142461,
+        "slug": "northwest-nazarene-university",
+        "name": "Northwest Nazarene University",
+        "state": "Idaho",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6473668001231906,
+          "yield_rate": 0.0994291151284491,
+          "grad_rate": 0.71,
+          "retention_rate": 0.77,
+          "enrollment": 1635,
+          "avg_net_price": 25537
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 147828,
+        "slug": "olivet-nazarene-university",
+        "name": "Olivet Nazarene University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.558645707376058,
+          "yield_rate": 0.24458874458874458,
+          "grad_rate": 0.61,
+          "retention_rate": 0.71,
+          "enrollment": 3339,
+          "avg_net_price": 21539
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 136330,
+        "slug": "palm-beach-atlantic-university",
+        "name": "Palm Beach Atlantic University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8199322689888727,
+          "yield_rate": 0.09924474864290772,
+          "grad_rate": 0.55,
+          "retention_rate": 0.68,
+          "enrollment": 4147,
+          "avg_net_price": 32751
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 152530,
+        "slug": "taylor-university",
+        "name": "Taylor University",
+        "state": "Indiana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7352577319587629,
+          "yield_rate": 0.32305103757711723,
+          "grad_rate": 0.74,
+          "retention_rate": 0.89,
+          "enrollment": 2548,
+          "avg_net_price": 24327
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 130590,
+        "slug": "trinity-college",
+        "name": "Trinity College",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2924932975871314,
+          "yield_rate": 0.24839596700274977,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 2238,
+          "avg_net_price": 35009
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 221971,
+        "slug": "union-university",
+        "name": "Union University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6040609137055838,
+          "yield_rate": 0.30084033613445377,
+          "grad_rate": 0.66,
+          "retention_rate": 0.89,
+          "enrollment": 2713,
+          "avg_net_price": 26815
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 237066,
+        "slug": "whitworth-university",
+        "name": "Whitworth University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8977841315225161,
+          "yield_rate": 0.1393312101910828,
+          "grad_rate": 0.71,
+          "retention_rate": 0.78,
+          "enrollment": 2314,
+          "avg_net_price": 25884
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://pointloma.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research at Point Loma Nazarene University provides a range of data publications, including annual DataPoint reports and the Common Data Set (CDS) in various formats. The office's contact information includes a phone number, physical address, and links to recent data publications and the CDS.",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:59:11.793708+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.pointloma.edu/offices/institutional-research",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121309",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:59:14.14997+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Institutional Research - Point Loma Nazarene University",
+      "url": "https://www.pointloma.edu/offices/institutional-research",
+      "summary": "The Institutional Research page at Point Loma Nazarene University provides access to DataPoint publications and the Common Data Set from recent years. Key metrics include enrollment, admissions, graduation and retention rates, and California License Examination Passage Rates. The DataPoints are available for various years up to 2025, and Common Data Set information is provided for the same period.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:50:13.610956+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research",
+      "url": "https://www.pointloma.edu/offices/institutional-research",
+      "summary": "This section of Point Loma Nazarene University's website provides details about the Institutional Research office, including a list of publications like the PLNU DataPoint and Common Data Set. It offers links to view data sets and reports across several years (from 2013 to 2025) in various formats, such as Word, PDF, and Excel, focusing on metrics like enrollment, admissions, and graduation rates.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:55:46.483531+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "OnePLNU",
+      "url": "https://www.pointloma.edu/about/oneplnu",
+      "summary": "The OnePLNU initiative by Point Loma Nazarene University is a strategic plan to assess opportunities and prepare for future challenges within the context of higher education. It focuses on cultivating a faith-centered mission, fostering a community of belonging, shaping a future-oriented academy, and stewarding resources wisely. The plan underscores the importance of innovation, engagement with diverse perspectives, and alignment with the university's core Christian values.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:51:23.060442+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Micah Albert"
+    },
+    {
+      "name": "Ally Beardsley"
+    },
+    {
+      "name": "Ron Benefiel"
+    },
+    {
+      "name": "Ed Blakely"
+    },
+    {
+      "name": "Warren S. Brown"
+    },
+    {
+      "name": "Larry Alan Burns"
+    },
+    {
+      "name": "Robert D. Clark"
+    },
+    {
+      "name": "Destin Daniel Cretton"
+    },
+    {
+      "name": "Jordan Cunningham"
+    },
+    {
+      "name": "Natalie Harp"
+    },
+    {
+      "name": "Hoku"
+    },
+    {
+      "name": "Darlene Hooley"
+    },
+    {
+      "name": "James Franklin Kay"
+    },
+    {
+      "name": "Susan Kunze"
+    },
+    {
+      "name": "Greg Laswell"
+    },
+    {
+      "name": "Steven Lenhart"
+    },
+    {
+      "name": "Haldor Lillenas"
+    },
+    {
+      "name": "Mark Lorenzen"
+    },
+    {
+      "name": "Susan Meissner"
+    },
+    {
+      "name": "Floyd W. Nease"
+    },
+    {
+      "name": "Orval J. Nease"
+    },
+    {
+      "name": "Lynne Pancrazi"
+    },
+    {
+      "name": "Stanley E. Porter"
+    },
+    {
+      "name": "Linda Reksten"
+    },
+    {
+      "name": "Fred J. Shields"
+    },
+    {
+      "name": "Brad Strawn"
+    },
+    {
+      "name": "Brent A. Strawn"
+    },
+    {
+      "name": "Doug TenNapel"
+    },
+    {
+      "name": "Mildred Bangs Wynkoop"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:05.619400+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117195,
+    "slug": "lake-tahoe-community-college",
+    "name": "Lake Tahoe Community College",
+    "website_url": "https://www.ltcc.edu",
+    "city": "South Lake Tahoe",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "96150",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "QDT6AJ24LLS7",
+      "opeid": "01290700",
+      "ein": "942317114"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Lake Tahoe Community College (LTCC) is a public community college in South Lake Tahoe, California. It was established in 1975. At an altitude of 6,229 feet (1,899 m), it is at the highest elevation of any college in the state.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_Tahoe_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Lake_Tahoe_Community_College",
+    "fetched_at": "2026-05-27T23:44:45.283273+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 10975,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7669,
+    "federal_loan_rate": 0.0153,
+    "net_price_by_family_income": {
+      "0_30k": 10979,
+      "30_48k": 10798,
+      "48_75k": 11159,
+      "75_110k": null,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.45,
+    "pell_grad_rate": 0.53,
+    "retention_full_time": 0.44,
+    "retention_part_time": 0.26
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 9293,
+    "ug_12mo": 9293,
+    "grad_12mo": 7627,
+    "women_12mo": 3795,
+    "men_12mo": 5498,
+    "fall_total": 4040,
+    "fall_full_time": 4040,
+    "fall_part_time": 3660,
+    "distance_ed_any": 4040,
+    "distance_ed_exclusive": 1439,
+    "race_ethnicity": {
+      "white": 0.4283,
+      "black": 0.0468,
+      "hispanic": 0.2901,
+      "asian": 0.0681,
+      "ai_an": 0.012,
+      "nh_pi": 0.0086,
+      "two_or_more": 0.0265,
+      "non_resident": 0.0038,
+      "race_unknown": 0.1158
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 107
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 6
+      }
+    ],
+    "program_count": 57,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 35
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109819,
+        "slug": "bakersfield-college",
+        "name": "Bakersfield College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "enrollment": 30746,
+          "avg_net_price": 4751
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109907,
+        "slug": "barstow-community-college",
+        "name": "Barstow Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3226,
+          "avg_net_price": 12347
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111896,
+        "slug": "cerro-coso-community-college",
+        "name": "Cerro Coso Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.27,
+          "enrollment": 5549,
+          "avg_net_price": 6078
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 121707,
+        "slug": "college-of-the-redwoods",
+        "name": "College of the Redwoods",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 4706,
+          "avg_net_price": 3214
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 123484,
+        "slug": "college-of-the-siskiyous",
+        "name": "College of the Siskiyous",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1575,
+          "avg_net_price": 7241
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 112561,
+        "slug": "columbia-college",
+        "name": "Columbia College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2828,
+          "avg_net_price": 15468
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 395362,
+        "slug": "copper-mountain-community-college",
+        "name": "Copper Mountain Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2019,
+          "avg_net_price": 7962
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 114433,
+        "slug": "feather-river-community-college-district",
+        "name": "Feather River Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.6,
+          "enrollment": 2055,
+          "avg_net_price": 6520
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 117274,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2038,
+          "avg_net_price": 7677
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 120953,
+        "slug": "palo-verde-college",
+        "name": "Palo Verde College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 3833,
+          "avg_net_price": 10543
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 121363,
+        "slug": "porterville-college",
+        "name": "Porterville College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 4784,
+          "avg_net_price": 3728
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.ltcc.edu/about/institutional-effectiveness/",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness (IE) at Lake Tahoe Community College aims to continuously build and support a culture of inquiry and evidence-based decision making. The department supports student success and pursues institutional excellence by providing support and leadership in the areas of accreditation, planning, research, assessment, and evaluation.",
+    "email": "effectiveness@ltcc.edu",
+    "address": "One College Drive, South Lake Tahoe, CA 96150",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T23:44:44.329776+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dr. Elizabeth Balint",
+      "title": "Director of Institutional Effectiveness",
+      "email": "balint@ltcc.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Mariah Meagher",
+      "title": "Program Assistant",
+      "email": "mariah.meagher@ltcc.edu",
+      "linkedin_url": "https://www.linkedin.com/in/mariah-meagher-b48458203"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.ltcc.edu/about/institutional-effectiveness/misdata.php",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:44:08.08651+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Institutional Data",
+      "url": "https://www.ltcc.edu/about/institutional-effectiveness/reports.php",
+      "summary": "The Lake Tahoe Community College's Institutional Data page details various tools and reports related to data presentation and analysis, managed by the Office of Institutional Effectiveness (IE). It highlights the use of SAP Business Objects and Tableau for data visualization, covers annual fact sheets, program reviews, and scorecards for tracking college performance and goals, and it conforms to state and federal regulations such as the Student Right-to-Know disclosure and IPEDS reporting.",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:43:37.229341+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117195",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:44:46.827388+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "Institutional Data - Lake Tahoe Community College",
+      "url": "https://www.ltcc.edu/about/institutional-effectiveness/reports.php",
+      "summary": "The Institutional Data page for Lake Tahoe Community College provides organized and visualized data to support evidence-based decisions and operations at the college, focusing on metrics like enrollment, graduation rates, and course success. The data is primarily managed by the Office of Institutional Effectiveness using tools like SAP Business Objects and Tableau. Key reports include the LTCC Scorecard, Program Review Reports, and Student Right-to-Know disclosures, aimed at maintaining accountability and meeting accreditation and regulatory standards.",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:40:24.270671+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Schiller Foundation Economics Scholarship",
+      "agency": "Schiller Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://ltcc.edu/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Mark Davis Hospitality Scholarship",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://ltcc.edu/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Byron Marlowe Scholarship",
+      "kind": "opportunity",
+      "url": "https://ltcc.edu/scholarships/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

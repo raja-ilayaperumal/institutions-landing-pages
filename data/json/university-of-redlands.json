@@ -1,0 +1,461 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:56.098746+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121691,
+    "slug": "university-of-redlands",
+    "name": "University of Redlands",
+    "website_url": "https://www.redlands.edu",
+    "city": "Redlands",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92373-0999",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "D22VFH3G7JM6",
+      "opeid": "00132200",
+      "ein": "951643389"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Redlands is a private university in Redlands, California, United States. The university's main, residential campus is situated on 160 acres near downtown Redlands. An additional eight regional locations throughout California largely provide programs for working adults. Woodbury University has been a subsidiary of University of Redlands since 2024.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Redlands",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Redlands",
+    "fetched_at": "2026-05-28T00:06:53.78866+05:30"
+  },
+  "admissions": {
+    "applicants": 3766,
+    "admits": 3115,
+    "enrolled": 494,
+    "first_time_freshmen": 494,
+    "first_time_freshmen_ft": 494,
+    "admit_rate": 0.8271375464684015,
+    "yield_rate": 0.15858747993579456
+  },
+  "cost": {
+    "avg_net_price": 22867,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0993,
+    "federal_loan_rate": 0.5664,
+    "net_price_by_family_income": {
+      "0_30k": 21520,
+      "30_48k": 18008,
+      "48_75k": 20649,
+      "75_110k": 20500,
+      "110k_plus": 32855
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.67,
+    "grad_4yr_bachelors": 0.56,
+    "grad_5yr_bachelors": 0.67,
+    "grad_6yr_bachelors": 0.67,
+    "pell_grad_rate": 0.64,
+    "pell_6yr_bachelors_rate": 0.64,
+    "non_pell_grad_rate": 0.78,
+    "non_pell_6yr_bachelors": 0.78,
+    "retention_full_time": 0.84,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3643,
+    "ug_12mo": 2211,
+    "grad_12mo": 2200,
+    "women_12mo": 2175,
+    "men_12mo": 1468,
+    "fall_total": 3087,
+    "fall_full_time": 2049,
+    "fall_part_time": 2049,
+    "distance_ed_any": 3087,
+    "distance_ed_exclusive": 448,
+    "race_ethnicity": {
+      "white": 0.368,
+      "black": 0.0501,
+      "hispanic": 0.4305,
+      "asian": 0.0496,
+      "ai_an": 0.0095,
+      "nh_pi": 0.0048,
+      "two_or_more": 0.0644,
+      "non_resident": 0.0095,
+      "race_unknown": 0.0134
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 388
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 252
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 74
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 28
+      }
+    ],
+    "program_count": 81,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 222
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 201195,
+        "slug": "baldwin-wallace-university",
+        "name": "Baldwin Wallace University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.757003527702843,
+          "yield_rate": 0.19188596491228072,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3305,
+          "avg_net_price": 27654
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 150163,
+        "slug": "butler-university",
+        "name": "Butler University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8508077288565093,
+          "yield_rate": 0.12881608339538347,
+          "grad_rate": 0.79,
+          "retention_rate": 0.87,
+          "enrollment": 5746,
+          "avg_net_price": 38472
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 153269,
+        "slug": "drake-university",
+        "name": "Drake University",
+        "state": "Iowa",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6385090651271144,
+          "yield_rate": 0.09803299492385786,
+          "grad_rate": 0.73,
+          "retention_rate": 0.84,
+          "enrollment": 4345,
+          "avg_net_price": 30042
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 173665,
+        "slug": "hamline-university",
+        "name": "Hamline University",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8762589928057554,
+          "yield_rate": 0.15862068965517243,
+          "grad_rate": 0.6,
+          "retention_rate": 0.78,
+          "enrollment": 2565,
+          "avg_net_price": 21385
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 185572,
+        "slug": "monmouth-university",
+        "name": "Monmouth University",
+        "state": "New Jersey",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8902478274863213,
+          "yield_rate": 0.09978308026030369,
+          "grad_rate": 0.72,
+          "retention_rate": 0.8,
+          "enrollment": 4767,
+          "avg_net_price": 31650
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 442356,
+        "slug": "saint-joseph-s-university-lancaster",
+        "name": "Saint Joseph's University - Lancaster",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.412109375,
+          "yield_rate": 0.4075829383886256,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 1439,
+          "avg_net_price": 37208
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 215929,
+        "slug": "university-of-scranton",
+        "name": "University of Scranton",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8123318849575832,
+          "yield_rate": 0.1129648497198166,
+          "grad_rate": 0.8,
+          "retention_rate": 0.85,
+          "enrollment": 4724,
+          "avg_net_price": 30528
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 230807,
+        "slug": "westminster-university",
+        "name": "Westminster University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6656545209176788,
+          "yield_rate": 0.09731373542828181,
+          "grad_rate": 0.64,
+          "retention_rate": 0.76,
+          "enrollment": 1155,
+          "avg_net_price": 26536
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.redlands.edu/offices-directory/offices/office-of-the-provost/institutional-research",
+    "office_name": "Institutional Research",
+    "parent_division": "Office of the Provost",
+    "summary": "Institutional Research supports internal decision making and external inquiries by aggregating and analyzing data, and translates insights to address questions about the past, present, and future.",
+    "email": "ir@redlands.edu",
+    "address": "1200 E. Colton Ave. P.O. Box 3080, Redlands, CA 92373 United States",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-28T00:06:52.799964+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Eric Maczka",
+      "title": "University Registrar",
+      "email": "eric_maczka@redlands.edu",
+      "phone": "(909) 748-8019",
+      "linkedin_url": "https://www.linkedin.com/in/eric-maczka"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121691",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:06:55.587149+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Diseases of the Ear",
+      "url": "https://inspire.redlands.edu/works/publication-dissertation/c1bw9-tjs54",
+      "summary": "The thesis \"Diseases of the Ear\" by Joyce Larayne Miller, published on January 1, 1959, is an undergraduate honors paper that discusses four common infectious diseases of the ear. The objective is to provide insights into the etiology, pathology, symptoms, prognosis, treatment, and speech pathology associated with these diseases for laymen and students in speech pathology.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:06:31.015982+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Forward Together",
+      "url": "https://www.redlands.edu/strategicplan",
+      "summary": "The University of Redlands' strategic plan, titled 'Forward Together', aims to provide a student-focused and personalized education by 2032, positioning itself as a leader in California. The plan focuses on three main themes: launching student success, enhancing a sustainable educational environment, and fostering future-focused innovation. With key priorities including diversity, financial sustainability, and technological enhancement, the university seeks to deliver on its mission of nurturing a diverse community for meaningful and impactful lives.",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:04:11.369035+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Pete Aguilar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pete_Aguilar",
+      "field": "Politics"
+    },
+    {
+      "name": "Gerald Albright",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gerald_Albright",
+      "field": "Music"
+    },
+    {
+      "name": "David Boies",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Boies",
+      "field": "Law"
+    },
+    {
+      "name": "Warren Christopher",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Warren_Christopher",
+      "field": "Politics"
+    },
+    {
+      "name": "Christopher Coppola",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_Coppola",
+      "field": "Film"
+    },
+    {
+      "name": "Don Davis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Davis_(Florida_politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Lisa Cano Burkhead",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lisa_Cano_Burkhead",
+      "field": "Politics"
+    },
+    {
+      "name": "Jerry Tarkanian",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jerry_Tarkanian",
+      "field": "Sports"
+    },
+    {
+      "name": "Angel Blue",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angel_Blue",
+      "field": "Music"
+    },
+    {
+      "name": "Alan Shugart",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Shugart",
+      "field": "Technology"
+    }
+  ]
+}

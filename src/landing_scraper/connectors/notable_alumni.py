@@ -41,28 +41,52 @@ _STOP_WORDS = {"of", "the", "and", "at", "in", "for", "a", "an", "&"}
 def _url_matches_institution(url: str, inst_name: str) -> bool:
     """Verify a Wikipedia List_of_X_alumni URL really refers to inst_name.
 
-    Extracts the institution segment between 'List_of_' and '_alumni' (or
-    'Category:' + '_alumni'), normalizes underscores to spaces, and requires
-    that EVERY significant word from inst_name appears in that segment.
-    This catches partial-match traps like:
-      Martin University → /List_of_Wittenberg_University_alumni  (wrong)
-      Houston Community College → /List_of_Sam_Houston_State_alumni  (wrong)
+    Bidirectional significant-word match:
+      (a) Every significant word from inst_name appears in the URL segment.
+      (b) Every significant word in the URL segment appears in inst_name.
+
+    (a) alone caught partial-match traps like:
+        Martin University → /List_of_Wittenberg_University_alumni  (wrong)
+    (b) catches *prefix-extension* traps where the URL refers to a DIFFERENT,
+    longer-named institution that shares all of inst_name's words:
+        Canada College → /List_of_Upper_Canada_College_alumni  (wrong — that
+            is Upper Canada College, a Toronto prep school, not Cañada
+            College in Redwood City CA).
+
+    Both directions use the same _STOP_WORDS list so connecting words like
+    "of" / "the" don't influence the decision. Wikipedia disambiguator
+    parens (e.g. `_(California)`) and punctuation like "Mt." are stripped
+    before tokenizing so they don't cause false rejections.
     """
     import re as _re
+    # Anchor the suffix to the end of the path segment so `_alumni|_people|
+    # _faculty` doesn't match against `_People_alumni` (UoPeople trap).
     m = _re.search(
-        r"/(?:List_of_|Category:)([^/?]+?)(?:_alumni|_people|_faculty)",
+        r"/(?:List_of_|Category:)(.+?)(?:_alumni|_people|_faculty)(?:$|[/?#])",
         url, _re.IGNORECASE,
     )
     if not m:
         return False
-    url_inst = m.group(1).replace("_", " ").lower()
-    significant = [
-        w for w in inst_name.lower().replace("-", " ").replace(",", "").split()
-        if w not in _STOP_WORDS and len(w) > 1
-    ]
-    if not significant:
+    url_seg = m.group(1)
+    # Drop Wikipedia disambiguator suffix like `_(California)`, `_(New_York)`.
+    url_seg = _re.sub(r"_?\([^)]*\)", "", url_seg)
+
+    def _normalize(s: str) -> str:
+        # Lowercase, remove punctuation that varies (".,-"), collapse to spaces.
+        s = s.lower().replace("_", " ")
+        s = _re.sub(r"[.,\-]", " ", s)
+        return s
+
+    def _significant_words(s: str) -> list[str]:
+        return [w for w in _normalize(s).split()
+                if w not in _STOP_WORDS and len(w) > 1]
+
+    inst_words = _significant_words(inst_name)
+    url_words = _significant_words(url_seg)
+    if not inst_words or not url_words:
         return False
-    return all(w in url_inst for w in significant)
+    return (all(w in url_words for w in inst_words)
+            and all(w in inst_words for w in url_words))
 
 
 @dataclass

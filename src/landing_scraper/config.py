@@ -28,6 +28,12 @@ class Settings(BaseSettings):
     tavily_api_key_3: str = ""
     google_api_key: str = ""
     google_cse_id: str = ""
+    # Defense against the 2026-05-27 incident (~9.7k CSE queries in one
+    # day → ₹4k). Even with key+CX present, CSE is skipped unless this
+    # flag is explicitly set. Re-enable only AFTER configuring a daily
+    # quota cap in GCP Console → IAM/Quotas → customsearch.googleapis.com.
+    enable_google_cse: bool = False
+    serper_api_key: str = ""
     brandfetch_api_key: str = ""
     higheredjobs_api_key: str = ""
 
@@ -62,6 +68,14 @@ class Settings(BaseSettings):
     @property
     def has_google_cse(self) -> bool:
         return bool(self.google_api_key and self.google_cse_id)
+
+    @property
+    def google_cse_active(self) -> bool:
+        return self.has_google_cse and self.enable_google_cse
+
+    @property
+    def has_serper(self) -> bool:
+        return bool(self.serper_api_key)
 
     @property
     def has_brandfetch(self) -> bool:

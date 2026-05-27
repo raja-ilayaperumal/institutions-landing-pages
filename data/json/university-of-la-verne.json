@@ -1,0 +1,784 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:58.248245+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117140,
+    "slug": "university-of-la-verne",
+    "name": "University of La Verne",
+    "website_url": "https://www.laverne.edu",
+    "city": "La Verne",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91750-4401",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KGP6EXJ2DEM1",
+      "opeid": "00121600",
+      "ein": "951644026"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of La Verne (ULV) is a private university in La Verne, California, United States. Founded in 1891, the university is composed of the College of Arts & Sciences, College of Business & Public Management, the LaFetra College of Education, College of Law, College of Health and Community Well-Being, an online adult school, two military centers, and a Regional Campus Administration that oversees six regional campuses. It awards undergraduate, graduate, and doctoral degrees. Many of their classes are taught at smaller campuses throughout the greater Los Angeles area and Kern County.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_La_Verne",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_La_Verne",
+    "fetched_at": "2026-05-27T22:40:24.043664+05:30"
+  },
+  "admissions": {
+    "applicants": 7110,
+    "admits": 5060,
+    "enrolled": 496,
+    "first_time_freshmen": 496,
+    "first_time_freshmen_ft": 483,
+    "admit_rate": 0.7116736990154712,
+    "yield_rate": 0.09802371541501977
+  },
+  "cost": {
+    "avg_net_price": 26925,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.1347,
+    "federal_loan_rate": 0.5733,
+    "net_price_by_family_income": {
+      "0_30k": 26754,
+      "30_48k": 56392,
+      "48_75k": 54632,
+      "75_110k": null,
+      "110k_plus": 44064
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.63,
+    "grad_4yr_bachelors": 0.61,
+    "grad_5yr_bachelors": 0.63,
+    "grad_6yr_bachelors": 0.63,
+    "pell_grad_rate": 0.61,
+    "pell_6yr_bachelors_rate": 0.61,
+    "non_pell_grad_rate": 0.67,
+    "non_pell_6yr_bachelors": 0.67,
+    "retention_full_time": 0.64,
+    "retention_part_time": 0.33
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6589,
+    "ug_12mo": 4031,
+    "grad_12mo": 3922,
+    "women_12mo": 4208,
+    "men_12mo": 2381,
+    "fall_total": 5021,
+    "fall_full_time": 3050,
+    "fall_part_time": 3050,
+    "distance_ed_any": 5021,
+    "distance_ed_exclusive": 377,
+    "race_ethnicity": {
+      "white": 0.1565,
+      "black": 0.079,
+      "hispanic": 0.6324,
+      "asian": 0.0527,
+      "ai_an": 0.0021,
+      "nh_pi": 0.0036,
+      "two_or_more": 0.0371,
+      "non_resident": 0.0207,
+      "race_unknown": 0.0159
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 427
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 373
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 150
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 101
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 84
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 64
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 42
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 41
+      }
+    ],
+    "program_count": 80,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 224
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 236230,
+        "slug": "pacific-lutheran-university",
+        "name": "Pacific Lutheran University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7802483974358975,
+          "yield_rate": 0.14120667522464697,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 2797,
+          "avg_net_price": 21370
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 209612,
+        "slug": "pacific-university",
+        "name": "Pacific University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8955823293172691,
+          "yield_rate": 0.1311659192825112,
+          "grad_rate": 0.67,
+          "retention_rate": 0.79,
+          "enrollment": 3427,
+          "avg_net_price": 35350
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 123554,
+        "slug": "saint-mary-s-college-of-california",
+        "name": "Saint Mary's College of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8653140096618358,
+          "yield_rate": 0.09468512728896829,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 2734,
+          "avg_net_price": 31198
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 236595,
+        "slug": "seattle-university",
+        "name": "Seattle University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.769248937175248,
+          "yield_rate": 0.13632176849861835,
+          "grad_rate": 0.76,
+          "retention_rate": 0.84,
+          "enrollment": 7189,
+          "avg_net_price": 34802
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 209825,
+        "slug": "university-of-portland",
+        "name": "University of Portland",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8916636506213054,
+          "yield_rate": 0.0961980787444189,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 3285,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 236328,
+        "slug": "university-of-puget-sound",
+        "name": "University of Puget Sound",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.722466119488452,
+          "yield_rate": 0.11360634081902246,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 1864,
+          "avg_net_price": 38920
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 237057,
+        "slug": "whitman-college",
+        "name": "Whitman College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3814717658428828,
+          "yield_rate": 0.14115092290988057,
+          "grad_rate": 0.81,
+          "retention_rate": 0.87,
+          "enrollment": 1561,
+          "avg_net_price": 35506
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 125763,
+        "slug": "whittier-college",
+        "name": "Whittier College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8078694014231896,
+          "yield_rate": 0.054145077720207255,
+          "grad_rate": 0.6,
+          "retention_rate": 0.66,
+          "enrollment": 795,
+          "avg_net_price": 29871
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://laverne.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research at the University of La Verne provides accurate, timely, and insightful data to inform decision-making, enhance institutional effectiveness, and promote student success.",
+    "address": "1950 Third Street\nLa Verne, CA 91750",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:40:22.510589+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2014,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/CDS_2014-2015_University-of-La-Verne.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/CDS_2013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/CDS_2012-2013_Final1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/CDS-2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/CDS-2010-2011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/1st-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/2nd-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/3rdd.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/4th-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2005,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/5th-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2004,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/6th-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2003,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/7th-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2002,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/8th-pdf.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2001,
+      "url": "https://www.laverne.edu/institutional-research/wp-content/uploads/sites/27/2011/10/9th-pdf.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117140",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:40:25.295655+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2022,
+      "title": "Previous Fact Books",
+      "url": "https://laverne.edu/institutional-research/reports-studies/fact-books/",
+      "summary": "This webpage contains previous editions of the University of La Verne's Fact Books published by the Office of Institutional Research. These Fact Books provide comprehensive data on various key metrics such as student enrollment, demographic data, applications and admissions statistics, student headcount, retention rates, graduation rates, and degrees conferred over recent years. The most recent data extends up to the year 2022, with multiple links to detailed reports and summaries covering trends over various time periods.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:36:51.778161+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Terms and Definitions",
+      "url": "https://www.laverne.edu/institutional-research/terms-definitions/",
+      "summary": "The University of La Verne's Office of Institutional Research provides a glossary of terms and definitions primarily based on the IPEDS framework. The glossary lists various institutional research terms and definitions, accommodating La Verne's specific usage. Terms such as 'academic program', 'credit hour', and 'graduation rate' define key components of postsecondary education operations.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:39:31.583778+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2020,
+      "title": "2025 Strategic Vision",
+      "url": "https://www.laverne.edu/2025-vision/",
+      "summary": "The University of La Verne's 2025 Strategic Vision addresses the crossroads in higher education, focusing on distinctiveness through program offerings and quality delivery. The plan emphasizes educational excellence, inclusive environments, and accommodating demographic trends with a particular focus on Latinx, adult, veteran, transfer, and low-income students. By leveraging its Hispanic-Serving Institution status and traditional strength with adult learners, the university aims to become a destination of choice through personalized, career-focused education in an inclusive environment.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:36:16.803519+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Assistant Director of Analytics & Research - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179375756"
+    },
+    {
+      "title": "Program Manager, Fieldwork Placement & Outreach - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179247771"
+    }
+  ],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Art Acevedo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Art_Acevedo",
+      "field": "Law Enforcement"
+    },
+    {
+      "name": "Yaw Osei Adutwum",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yaw_Osei_Adutwum",
+      "field": "Politics"
+    },
+    {
+      "name": "Joseph Ashton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Ashton_(actor)",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Nancy Dahlstrom",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nancy_Dahlstrom",
+      "field": "Politics"
+    },
+    {
+      "name": "Ross Mathews",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ross_Mathews",
+      "field": "Television"
+    },
+    {
+      "name": "Jessica Dominguez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jessica_Dominguez",
+      "field": "Law"
+    },
+    {
+      "name": "Dan Quisenberry",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dan_Quisenberry",
+      "field": "Sports"
+    },
+    {
+      "name": "Sandra Hutchens",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sandra_Hutchens",
+      "field": "Law Enforcement"
+    },
+    {
+      "name": "Victor Gordo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Victor_Gordo",
+      "field": "Politics"
+    }
+  ]
+}

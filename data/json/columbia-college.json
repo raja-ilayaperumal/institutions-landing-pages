@@ -1,0 +1,792 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T19:59:55.749034+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112561,
+    "slug": "columbia-college",
+    "name": "Columbia College",
+    "website_url": "https://www.gocolumbia.edu",
+    "city": "Sonora",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95370",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DLVKVBMZME64",
+      "opeid": "00770700",
+      "ein": "521566989"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Columbia College is the oldest undergraduate college of Columbia University, a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, it is the oldest institution of higher learning in the state of New York and the fifth oldest in the United States.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Columbia_College,_Columbia_University",
+    "source_url": "https://en.wikipedia.org/wiki/Columbia_College,_Columbia_University",
+    "fetched_at": "2026-05-28T00:21:57.084785+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 15468,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.627,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 14182,
+      "30_48k": 17022,
+      "48_75k": 17735,
+      "75_110k": 19215,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.27,
+    "pell_grad_rate": 0.34,
+    "retention_full_time": 0.58,
+    "retention_part_time": 0.3
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3653,
+    "ug_12mo": 3653,
+    "grad_12mo": 2722,
+    "women_12mo": 1974,
+    "men_12mo": 1679,
+    "fall_total": 2828,
+    "fall_full_time": 2828,
+    "fall_part_time": 1984,
+    "distance_ed_any": 2828,
+    "distance_ed_exclusive": 916,
+    "race_ethnicity": {
+      "white": 0.6641,
+      "black": 0.035,
+      "hispanic": 0.2457,
+      "asian": 0.0203,
+      "ai_an": 0.0162,
+      "nh_pi": 0.0026,
+      "two_or_more": 0.0047,
+      "non_resident": 0.0005,
+      "race_unknown": 0.011
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 119
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 14
+      }
+    ],
+    "program_count": 46,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 58
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 183655,
+        "slug": "atlantic-cape-community-college",
+        "name": "Atlantic Cape Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 4052,
+          "avg_net_price": 8502
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 106625,
+        "slug": "black-river-technical-college",
+        "name": "Black River Technical College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1705,
+          "avg_net_price": 6053
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 206923,
+        "slug": "carl-albert-state-college",
+        "name": "Carl Albert State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.1,
+          "enrollment": 1851,
+          "avg_net_price": 6855
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 219879,
+        "slug": "cleveland-state-community-college",
+        "name": "Cleveland State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.49468417761100686,
+          "retention_rate": 0.52,
+          "enrollment": 3282,
+          "avg_net_price": 6183
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 154925,
+        "slug": "coffeyville-community-college",
+        "name": "Coffeyville Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 1466,
+          "avg_net_price": 5481
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 395362,
+        "slug": "copper-mountain-community-college",
+        "name": "Copper Mountain Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2019,
+          "avg_net_price": 7962
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113111,
+        "slug": "crafton-hills-college",
+        "name": "Crafton Hills College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6768,
+          "avg_net_price": 10655
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 475565,
+        "slug": "cuny-stella-and-charles-guttman-community-college",
+        "name": "CUNY Stella and Charles Guttman Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 1048,
+          "avg_net_price": 5643
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 220057,
+        "slug": "dyersburg-state-community-college",
+        "name": "Dyersburg State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 3296,
+          "avg_net_price": 4322
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 207050,
+        "slug": "eastern-oklahoma-state-college",
+        "name": "Eastern Oklahoma State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1285,
+          "avg_net_price": 11020
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 191302,
+        "slug": "fulton-montgomery-community-college",
+        "name": "Fulton-Montgomery Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 1865,
+          "avg_net_price": 7803
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 155104,
+        "slug": "garden-city-community-college",
+        "name": "Garden City Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2079,
+          "avg_net_price": 8681
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 162609,
+        "slug": "garrett-college",
+        "name": "Garrett College",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 679,
+          "avg_net_price": 6396
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 166133,
+        "slug": "holyoke-community-college",
+        "name": "Holyoke Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 4200,
+          "avg_net_price": 6860
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 101648,
+        "slug": "marion-military-institute",
+        "name": "Marion Military Institute",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9702970297029703,
+          "yield_rate": 0.5102040816326531,
+          "retention_rate": 0.46,
+          "enrollment": 332,
+          "avg_net_price": 10137
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 178217,
+        "slug": "mineral-area-college",
+        "name": "Mineral Area College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 2447,
+          "avg_net_price": 11123
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 207236,
+        "slug": "murray-state-college",
+        "name": "Murray State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2949,
+          "avg_net_price": 15071
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 119331,
+        "slug": "napa-valley-college",
+        "name": "Napa Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 4844,
+          "avg_net_price": 14046
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 194240,
+        "slug": "orange-county-community-college",
+        "name": "Orange County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 5704,
+          "avg_net_price": 7442
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 107549,
+        "slug": "ozarka-college",
+        "name": "Ozarka College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 1069,
+          "avg_net_price": 4396
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 227687,
+        "slug": "ranger-college",
+        "name": "Ranger College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.46,
+          "enrollment": 2522,
+          "avg_net_price": 6565
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 221397,
+        "slug": "roane-state-community-college",
+        "name": "Roane State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.99568345323741,
+          "yield_rate": 0.6796724470134875,
+          "retention_rate": 0.58,
+          "enrollment": 5002,
+          "avg_net_price": 6017
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 199467,
+        "slug": "roanoke-chowan-community-college",
+        "name": "Roanoke-Chowan Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 668,
+          "avg_net_price": 8076
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 167631,
+        "slug": "roxbury-community-college",
+        "name": "Roxbury Community College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.36,
+          "enrollment": 2044,
+          "avg_net_price": 12544
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 207740,
+        "slug": "seminole-state-college",
+        "name": "Seminole State College",
+        "state": "Oklahoma",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 1488,
+          "avg_net_price": 15328
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 188438,
+        "slug": "suny-adirondack",
+        "name": "SUNY Adirondack",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 2576,
+          "avg_net_price": 10363
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 179645,
+        "slug": "three-rivers-college",
+        "name": "Three Rivers College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2604,
+          "avg_net_price": 9980
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 107585,
+        "slug": "university-of-arkansas-community-college-morrilton",
+        "name": "University of Arkansas Community College-Morrilton",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5226700251889169,
+          "retention_rate": 0.61,
+          "enrollment": 2248,
+          "avg_net_price": 11718
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 107664,
+        "slug": "university-of-arkansas-pulaski-technical-college",
+        "name": "University of Arkansas-Pulaski Technical College",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 4478,
+          "avg_net_price": 15000
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://gocolumbia.edu/administration/research_planning/planning.html",
+    "office_name": "College Research & Planning",
+    "summary": "Planning informs the college about its priorities, strategies, and resources and how to better serve students and the community. It requires ongoing institutional evaluation and improvement achieved through a systematic cycle of evaluation using the Cyclic Review Plan with oversight by the Institutional Effectiveness Council.",
+    "email": "claimjumpers@yosemite.edu",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-28T00:21:56.063495+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Matthew Connot",
+      "title": "Senior Research Analyst",
+      "email": "connotm@yosemite.edu",
+      "phone": "209-588-2108",
+      "linkedin_url": "https://www.linkedin.com/in/matthew-connot-ba3491125"
+    },
+    {
+      "ordering": 1,
+      "name": "Michelle Sandhoff",
+      "title": "Research Analyst",
+      "email": "sandhoffm@yosemite.edu",
+      "phone": "209-588-5376",
+      "linkedin_url": "https://www.linkedin.com/in/sandhoff"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://gocolumbia.edu/administration/research_planning/index.html",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:21:44.441656+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112561",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:21:58.446324+05:30"
+    }
+  ],
+  "ir_jobs": [
+    {
+      "title": "Data & Research Analyst - HigherEdJobs",
+      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179419263"
+    }
+  ],
+  "grants": [
+    {
+      "title": "AmeriCorps Education Award",
+      "agency": "State of California",
+      "kind": "award",
+      "url": "https://gocolumbia.edu/financial_aid/federal_state_grants.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "John Jay",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Jay",
+      "field": "Politics"
+    },
+    {
+      "name": "Alexander Hamilton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
+      "field": "Politics"
+    },
+    {
+      "name": "Egbert Benson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Egbert_Benson",
+      "field": "Politics"
+    },
+    {
+      "name": "Robert Livingston",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Livingston_(chancellor)",
+      "field": "Politics"
+    },
+    {
+      "name": "Gouverneur Morris",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gouverneur_Morris",
+      "field": "Politics"
+    },
+    {
+      "name": "Clement Clarke Moore",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Clement_Clarke_Moore",
+      "field": "Literature"
+    },
+    {
+      "name": "Felix Adler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Felix_Adler_(professor)",
+      "field": "Philosophy"
+    },
+    {
+      "name": "William Milligan Sloane",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Milligan_Sloane",
+      "field": "History"
+    },
+    {
+      "name": "Brander Matthews",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brander_Matthews",
+      "field": "Dramatic Literature"
+    },
+    {
+      "name": "Richard T. Ely",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_T._Ely",
+      "field": "Economics"
+    },
+    {
+      "name": "Edward Sapir",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Sapir",
+      "field": "Linguistics"
+    },
+    {
+      "name": "Joseph Campbell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Campbell",
+      "field": "Mythology"
+    },
+    {
+      "name": "Meyer Schapiro",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Meyer_Schapiro",
+      "field": "Art History"
+    },
+    {
+      "name": "Lionel Trilling",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lionel_Trilling",
+      "field": "Literature"
+    },
+    {
+      "name": "Jacques Barzun",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jacques_Barzun",
+      "field": "Cultural History"
+    },
+    {
+      "name": "Edwin Robert Anderson Seligman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edwin_Robert_Anderson_Seligman",
+      "field": "Economics"
+    },
+    {
+      "name": "John Dewey",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Dewey",
+      "field": "Philosophy"
+    },
+    {
+      "name": "Frederick Paul Keppel",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Frederick_Paul_Keppel",
+      "field": "Education"
+    },
+    {
+      "name": "Carlton J. H. Hayes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carlton_J._H._Hayes",
+      "field": "History"
+    },
+    {
+      "name": "Benjamin Graham",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Benjamin_Graham",
+      "field": "Economics"
+    },
+    {
+      "name": "Edward Washburn Hopkins",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Washburn_Hopkins",
+      "field": "Linguistics"
+    },
+    {
+      "name": "Henry Drisler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Drisler",
+      "field": "Classics"
+    },
+    {
+      "name": "John Anthon",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Anthon",
+      "field": "Law"
+    },
+    {
+      "name": "Julius Sachs",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Julius_Sachs",
+      "field": "Education"
+    },
+    {
+      "name": "Arthur Melvin Okun",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Okun",
+      "field": "Economics"
+    },
+    {
+      "name": "Joseph Greenberg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Greenberg",
+      "field": "Linguistics"
+    },
+    {
+      "name": "Robert Nozick",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Nozick",
+      "field": "Philosophy"
+    },
+    {
+      "name": "Richard James Horatio Gottheil",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_James_Horatio_Gottheil",
+      "field": "Zionism"
+    },
+    {
+      "name": "Mortimer Lamson Earle",
+      "field": "Classics"
+    },
+    {
+      "name": "Charles Sears Baldwin",
+      "field": "Rhetoric"
+    }
+  ]
+}

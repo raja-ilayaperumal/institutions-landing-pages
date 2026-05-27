@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:01.539868+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121363,
+    "slug": "porterville-college",
+    "name": "Porterville College",
+    "website_url": "https://www.portervillecollege.edu",
+    "city": "Porterville",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93257",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RK4XPB8PN3L4",
+      "opeid": "00126800",
+      "ein": "956006644"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Porterville College is a public community college in Porterville, California. It was established in 1927.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Porterville_College",
+    "source_url": "https://en.wikipedia.org/wiki/Porterville_College",
+    "fetched_at": "2026-05-27T22:47:26.09716+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 3728,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.6494,
+    "federal_loan_rate": 0.001,
+    "net_price_by_family_income": {
+      "0_30k": 2910,
+      "30_48k": 3734,
+      "48_75k": 5394,
+      "75_110k": 10255,
+      "110k_plus": null
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.34,
+    "pell_grad_rate": 0.38,
+    "retention_full_time": 0.51,
+    "retention_part_time": 0.12
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7010,
+    "ug_12mo": 7010,
+    "grad_12mo": 4178,
+    "women_12mo": 4193,
+    "men_12mo": 2817,
+    "fall_total": 4784,
+    "fall_full_time": 4784,
+    "fall_part_time": 2834,
+    "distance_ed_any": 4784,
+    "distance_ed_exclusive": 1597,
+    "race_ethnicity": {
+      "white": 0.1971,
+      "black": 0.0231,
+      "hispanic": 0.7294,
+      "asian": 0.0205,
+      "ai_an": 0.0043,
+      "nh_pi": 0.0011,
+      "two_or_more": 0.0223,
+      "non_resident": 0.0007,
+      "race_unknown": 0.0014
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 149
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 111
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 91
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 11
+      }
+    ],
+    "program_count": 47,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 77
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109907,
+        "slug": "barstow-community-college",
+        "name": "Barstow Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3226,
+          "avg_net_price": 12347
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 123484,
+        "slug": "college-of-the-siskiyous",
+        "name": "College of the Siskiyous",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1575,
+          "avg_net_price": 7241
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 112561,
+        "slug": "columbia-college",
+        "name": "Columbia College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2828,
+          "avg_net_price": 15468
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 395362,
+        "slug": "copper-mountain-community-college",
+        "name": "Copper Mountain Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2019,
+          "avg_net_price": 7962
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 114433,
+        "slug": "feather-river-community-college-district",
+        "name": "Feather River Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.6,
+          "enrollment": 2055,
+          "avg_net_price": 6520
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 117195,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 4040,
+          "avg_net_price": 10975
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117274,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2038,
+          "avg_net_price": 7677
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120953,
+        "slug": "palo-verde-college",
+        "name": "Palo Verde College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 3833,
+          "avg_net_price": 10543
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.portervillecollege.edu/about-pc/research-and-planning/index.html",
+    "office_name": "Office of Research and Planning",
+    "summary": "This site will serve as the public display forum for information on research activities at Porterville College. Our research agenda and all of our research is public.",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T22:47:22.384318+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Michael Carley",
+      "title": "Director of Institutional Research and Planning",
+      "email": "mcarley@portervillecollege.edu",
+      "phone": "559-791-2275"
+    },
+    {
+      "ordering": 1,
+      "name": "DJ Vanderwerff",
+      "title": "Research and Planning Analyst",
+      "email": "dj.vanderwerff@portervillecollege.edu",
+      "phone": "559-791-2290",
+      "linkedin_url": "https://www.linkedin.com/in/d-j-vanderwerff-74b16b63"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121363",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:47:29.279554+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms - Porterville College",
+      "url": "https://www.portervillecollege.edu/employees/communications-and-marketing/glossary-of-terms.html",
+      "summary": "The glossary from Porterville College provides clear definitions of various terms related to digital and traditional marketing, mobile conquesting, and marketing automation. Covering 38 key concepts, it serves as a resource for understanding industry-specific language used in marketing processes.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:47:14.753123+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Porterville College Strategic Plan",
+      "url": "https://www.portervillecollege.edu/about-pc/research-and-planning/planning-documents.html",
+      "summary": "Porterville College's Strategic Plan outlines the institution's priorities and goals for the period 2025 to 2030. The plan aligns with the Vision 2030 and maintains a focus on Guided Pathways to streamline programs and processes for better student outcomes. It aims to track and achieve enrollment growth targets while addressing gaps in student achievement through strategic initiatives.",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:45:13.572702+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Arnnon Geshuri"
+    },
+    {
+      "name": "Devon Mathis"
+    }
+  ]
+}

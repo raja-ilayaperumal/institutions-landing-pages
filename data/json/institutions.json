@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:44.568257+00:00",
+  "generated_at": "2026-05-27T20:00:30.468230+00:00",
   "source": "Clema Landing Page Builder",
   "meta": {
     "title": "Federal data for every U.S. college, made readable.",
@@ -29,9 +29,9 @@
     ]
   },
   "stats": {
-    "institutions_indexed": 133,
+    "institutions_indexed": 180,
     "states_count": 2,
-    "combined_enrollment": 2331808,
+    "combined_enrollment": 2541824,
     "federal_data_sources": 6
   },
   "filters": {
@@ -39,7 +39,7 @@
       {
         "code": "CA",
         "name": "California",
-        "count": 132
+        "count": 179
       },
       {
         "code": "MA",
@@ -51,29 +51,29 @@
       {
         "label": "Public",
         "slug": "public",
-        "count": 117
+        "count": 144
       },
       {
         "label": "Private",
         "slug": "private-np",
-        "count": 14
+        "count": 29
       },
       {
         "label": "Private",
         "slug": "private-fp",
-        "count": 2
+        "count": 7
       }
     ],
     "carnegie_tiers": [
       {
         "label": "Community College",
         "slug": "community-college",
-        "count": 74
+        "count": 95
       },
       {
         "label": "Master's",
         "slug": "masters",
-        "count": 15
+        "count": 28
       },
       {
         "label": "Baccalaureate/Associate's",
@@ -83,21 +83,41 @@
       {
         "label": "R2 Research",
         "slug": "r2",
-        "count": 11
+        "count": 13
       },
       {
         "label": "R1 Research",
         "slug": "r1",
-        "count": 11
+        "count": 12
       },
       {
         "label": "Doctoral/Professional",
         "slug": "doctoral-professional",
-        "count": 7
+        "count": 11
+      },
+      {
+        "label": "Associates Colleges: High Transfer-High Nontraditional",
+        "slug": "associates-colleges-high-transfer-high-n",
+        "count": 2
+      },
+      {
+        "label": "Associates Colleges: High Career & Technical-High Traditional",
+        "slug": "associates-colleges-high-career-&-techni",
+        "count": 1
+      },
+      {
+        "label": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "slug": "associates-colleges-mixed-transfer/caree",
+        "count": 1
       },
       {
         "label": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
         "slug": "associates-colleges-mixed-transfer/caree",
+        "count": 1
+      },
+      {
+        "label": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "slug": "associates-colleges-high-transfer-mixed-",
         "count": 1
       }
     ],
@@ -110,17 +130,17 @@
       {
         "label": "HSI",
         "slug": "hsi",
-        "count": 111
+        "count": 142
       },
       {
         "label": "Land-grant",
         "slug": "land-grant",
-        "count": 10
+        "count": 11
       },
       {
         "label": "Medical",
         "slug": "medical",
-        "count": 8
+        "count": 11
       },
       {
         "label": "Tribal",
@@ -135,7 +155,7 @@
         "name": "California",
         "code": "CA",
         "slug": "california",
-        "count": 132
+        "count": 179
       },
       {
         "name": "Massachusetts",
@@ -148,12 +168,12 @@
       {
         "label": "Community College",
         "slug": "community-college",
-        "count": 74
+        "count": 95
       },
       {
         "label": "Master's",
         "slug": "masters",
-        "count": 15
+        "count": 28
       },
       {
         "label": "Baccalaureate/Associate's",
@@ -163,12 +183,12 @@
       {
         "label": "R2 Research",
         "slug": "r2",
-        "count": 11
+        "count": 13
       },
       {
         "label": "R1 Research",
         "slug": "r1",
-        "count": 11
+        "count": 12
       }
     ],
     "by_designation": [
@@ -180,12 +200,12 @@
       {
         "label": "HSIs",
         "slug": "hsi",
-        "count": 111
+        "count": 142
       },
       {
         "label": "Land-grant",
         "slug": "land-grant",
-        "count": 10
+        "count": 11
       },
       {
         "label": "Tribal",
@@ -195,6 +215,31 @@
     ]
   },
   "institutions": [
+    {
+      "unitid": 108232,
+      "slug": "academy-of-art-university",
+      "name": "Academy of Art University",
+      "website_url": "https://www.academyart.edu",
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-fp",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.34,
+        "admit_rate": null,
+        "enrollment": 5498,
+        "avg_net_price": 39778
+      }
+    },
     {
       "unitid": 108807,
       "slug": "allan-hancock-college",
@@ -221,6 +266,31 @@
         "admit_rate": null,
         "enrollment": 11463,
         "avg_net_price": 4638
+      }
+    },
+    {
+      "unitid": 110468,
+      "slug": "alliant-international-university-san-diego",
+      "name": "Alliant International University-San Diego",
+      "website_url": "https://www.alliant.edu",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-fp",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [],
+      "tags": [
+        "Doctoral/Professional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.22,
+        "admit_rate": 0.0,
+        "enrollment": 4530,
+        "avg_net_price": null
       }
     },
     {
@@ -280,6 +350,31 @@
       }
     },
     {
+      "unitid": 109651,
+      "slug": "art-center-college-of-design",
+      "name": "Art Center College of Design",
+      "website_url": "https://www.artcenter.edu",
+      "city": "Pasadena",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Small Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.79,
+        "admit_rate": 0.7453798767967146,
+        "enrollment": 2308,
+        "avg_net_price": 50209
+      }
+    },
+    {
       "unitid": 154022,
       "slug": "ashford-university",
       "name": "Ashford University",
@@ -302,6 +397,34 @@
         "admit_rate": null,
         "enrollment": 28004,
         "avg_net_price": 25321
+      }
+    },
+    {
+      "unitid": 109785,
+      "slug": "azusa-pacific-university",
+      "name": "Azusa Pacific University",
+      "website_url": "https://www.apu.edu",
+      "city": "Azusa",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "R2 Research",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.62,
+        "admit_rate": 0.8842538190364277,
+        "enrollment": 6272,
+        "avg_net_price": 19798
       }
     },
     {
@@ -330,6 +453,87 @@
         "admit_rate": null,
         "enrollment": 30746,
         "avg_net_price": 4751
+      }
+    },
+    {
+      "unitid": 109907,
+      "slug": "barstow-community-college",
+      "name": "Barstow Community College",
+      "website_url": "https://www.barstow.edu",
+      "city": "Barstow",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 3226,
+        "avg_net_price": 12347
+      }
+    },
+    {
+      "unitid": 125170,
+      "slug": "berkeley-city-college",
+      "name": "Berkeley City College",
+      "website_url": "https://www.berkeleycitycollege.edu",
+      "city": "Berkeley",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6278,
+        "avg_net_price": 8957
+      }
+    },
+    {
+      "unitid": 110097,
+      "slug": "biola-university",
+      "name": "Biola University",
+      "website_url": "https://www.biola.edu",
+      "city": "La Mirada",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [],
+      "tags": [
+        "Doctoral/Professional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.68,
+        "admit_rate": 0.7434541126686062,
+        "enrollment": 5434,
+        "avg_net_price": 28101
       }
     },
     {
@@ -417,6 +621,59 @@
       }
     },
     {
+      "unitid": 110404,
+      "slug": "california-institute-of-technology",
+      "name": "California Institute of Technology",
+      "website_url": "https://www.caltech.edu",
+      "city": "Pasadena",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: Very High Research Activity",
+      "carnegie_tier": "R1 Research",
+      "carnegie_tier_slug": "r1",
+      "designations": [],
+      "tags": [
+        "R1 Research",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.94,
+        "admit_rate": 0.02569284064665127,
+        "enrollment": 2430,
+        "avg_net_price": 18902
+      }
+    },
+    {
+      "unitid": 110413,
+      "slug": "california-lutheran-university",
+      "name": "California Lutheran University",
+      "website_url": "https://www.callutheran.edu",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.7,
+        "admit_rate": 0.7567027477102415,
+        "enrollment": 3351,
+        "avg_net_price": 26433
+      }
+    },
+    {
       "unitid": 110422,
       "slug": "california-polytechnic-state-university-san-luis-obispo",
       "name": "California Polytechnic State University-San Luis Obispo",
@@ -442,6 +699,34 @@
         "admit_rate": 0.3132322183381843,
         "enrollment": 23069,
         "avg_net_price": 15624
+      }
+    },
+    {
+      "unitid": 115755,
+      "slug": "california-state-polytechnic-university-humboldt",
+      "name": "California State Polytechnic University-Humboldt",
+      "website_url": "https://www.humboldt.edu",
+      "city": "Arcata",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.49,
+        "admit_rate": 0.9820031796502384,
+        "enrollment": 6237,
+        "avg_net_price": 13167
       }
     },
     {
@@ -498,6 +783,34 @@
         "admit_rate": 0.938544107642301,
         "enrollment": 10419,
         "avg_net_price": 5825
+      }
+    },
+    {
+      "unitid": 441937,
+      "slug": "california-state-university-channel-islands",
+      "name": "California State University-Channel Islands",
+      "website_url": "https://www.csuci.edu",
+      "city": "Camarillo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Small Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.51,
+        "admit_rate": 0.9481271282633371,
+        "enrollment": 5592,
+        "avg_net_price": 9792
       }
     },
     {
@@ -865,6 +1178,34 @@
       }
     },
     {
+      "unitid": 111434,
+      "slug": "canada-college",
+      "name": "Canada College",
+      "website_url": "https://canadacollege.edu",
+      "city": "Redwood City",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6625,
+        "avg_net_price": 10
+      }
+    },
+    {
       "unitid": 111887,
       "slug": "cerritos-college",
       "name": "Cerritos College",
@@ -890,6 +1231,34 @@
         "admit_rate": null,
         "enrollment": 21859,
         "avg_net_price": 693
+      }
+    },
+    {
+      "unitid": 111896,
+      "slug": "cerro-coso-community-college",
+      "name": "Cerro Coso Community College",
+      "website_url": "https://cerrocoso.edu",
+      "city": "Ridgecrest",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 5549,
+        "avg_net_price": 6078
       }
     },
     {
@@ -1058,6 +1427,34 @@
       }
     },
     {
+      "unitid": 125462,
+      "slug": "coalinga-college",
+      "name": "Coalinga College",
+      "website_url": "https://www.westhillscollege.com/coalinga",
+      "city": "Coalinga",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4175,
+        "avg_net_price": 8626
+      }
+    },
+    {
       "unitid": 112385,
       "slug": "coastline-community-college",
       "name": "Coastline Community College",
@@ -1083,6 +1480,59 @@
         "admit_rate": null,
         "enrollment": 9008,
         "avg_net_price": 9605
+      }
+    },
+    {
+      "unitid": 108667,
+      "slug": "college-of-alameda",
+      "name": "College of Alameda",
+      "website_url": "https://alameda.edu",
+      "city": "Alameda",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6141,
+        "avg_net_price": 9280
+      }
+    },
+    {
+      "unitid": 118347,
+      "slug": "college-of-marin",
+      "name": "College of Marin",
+      "website_url": "https://www.marin.edu",
+      "city": "Kentfield",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4838,
+        "avg_net_price": 15517
       }
     },
     {
@@ -1170,6 +1620,34 @@
       }
     },
     {
+      "unitid": 121707,
+      "slug": "college-of-the-redwoods",
+      "name": "College of the Redwoods",
+      "website_url": "https://www.redwoods.edu",
+      "city": "Eureka",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4706,
+        "avg_net_price": 3214
+      }
+    },
+    {
       "unitid": 123217,
       "slug": "college-of-the-sequoias",
       "name": "College of the Sequoias",
@@ -1195,6 +1673,87 @@
         "admit_rate": null,
         "enrollment": 14494,
         "avg_net_price": 29
+      }
+    },
+    {
+      "unitid": 112561,
+      "slug": "columbia-college",
+      "name": "Columbia College",
+      "website_url": "https://www.gocolumbia.edu",
+      "city": "Sonora",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [],
+      "tags": [
+        "Community College",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 2828,
+        "avg_net_price": 15468
+      }
+    },
+    {
+      "unitid": 112686,
+      "slug": "compton-college",
+      "name": "Compton College",
+      "website_url": "https://www.compton.edu",
+      "city": "Compton",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 5225,
+        "avg_net_price": 11103
+      }
+    },
+    {
+      "unitid": 112826,
+      "slug": "contra-costa-college",
+      "name": "Contra Costa College",
+      "website_url": "https://www.contracosta.edu",
+      "city": "San Pablo",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6538,
+        "avg_net_price": 6522
       }
     },
     {
@@ -1553,6 +2112,34 @@
       }
     },
     {
+      "unitid": 114813,
+      "slug": "fresno-pacific-university",
+      "name": "Fresno Pacific University",
+      "website_url": "https://www.fresno.edu",
+      "city": "Fresno",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.5,
+        "admit_rate": 0.640721940214326,
+        "enrollment": 2879,
+        "avg_net_price": 14317
+      }
+    },
+    {
       "unitid": 114859,
       "slug": "fullerton-college",
       "name": "Fullerton College",
@@ -1581,6 +2168,34 @@
       }
     },
     {
+      "unitid": 114938,
+      "slug": "gavilan-college",
+      "name": "Gavilan College",
+      "website_url": "https://www.gavilan.edu",
+      "city": "Gilroy",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6083,
+        "avg_net_price": 2244
+      }
+    },
+    {
       "unitid": 115001,
       "slug": "glendale-community-college-2",
       "name": "Glendale Community College",
@@ -1606,6 +2221,31 @@
         "admit_rate": null,
         "enrollment": 12075,
         "avg_net_price": 7461
+      }
+    },
+    {
+      "unitid": 115083,
+      "slug": "golden-gate-university",
+      "name": "Golden Gate University",
+      "website_url": "https://www.ggu.edu",
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 3098,
+        "avg_net_price": null
       }
     },
     {
@@ -1746,6 +2386,34 @@
       }
     },
     {
+      "unitid": 117195,
+      "slug": "lake-tahoe-community-college",
+      "name": "Lake Tahoe Community College",
+      "website_url": "https://www.ltcc.edu",
+      "city": "South Lake Tahoe",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4040,
+        "avg_net_price": 10975
+      }
+    },
+    {
       "unitid": 117247,
       "slug": "laney-college",
       "name": "Laney College",
@@ -1796,6 +2464,64 @@
         "admit_rate": null,
         "enrollment": 8103,
         "avg_net_price": 4175
+      }
+    },
+    {
+      "unitid": 448594,
+      "slug": "lemoore-college",
+      "name": "Lemoore College",
+      "website_url": "https://www.westhillscollege.com/lemoore",
+      "city": "Lemoore",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4404,
+        "avg_net_price": 7961
+      }
+    },
+    {
+      "unitid": 117636,
+      "slug": "loma-linda-university",
+      "name": "Loma Linda University",
+      "website_url": "https://www.llu.edu/index.html",
+      "city": "Loma Linda",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral Universities: High Research Activity",
+      "carnegie_tier": "R2 Research",
+      "carnegie_tier_slug": "r2",
+      "designations": [
+        "hsi",
+        "medical"
+      ],
+      "tags": [
+        "R2 Research",
+        "Private",
+        "HSI",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4210,
+        "avg_net_price": null
       }
     },
     {
@@ -1852,6 +2578,31 @@
         "admit_rate": null,
         "enrollment": 14611,
         "avg_net_price": 7532
+      }
+    },
+    {
+      "unitid": 436429,
+      "slug": "los-angeles-film-school",
+      "name": "Los Angeles Film School",
+      "website_url": "https://www.lafilm.edu",
+      "city": "Hollywood",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-fp",
+      "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier": "Associates Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier_slug": "associates-colleges-high-career-&-techni",
+      "designations": [],
+      "tags": [
+        "Associates Colleges: High Career & Technical-High Traditional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.34,
+        "admit_rate": null,
+        "enrollment": 5472,
+        "avg_net_price": 33130
       }
     },
     {
@@ -2051,6 +2802,33 @@
       }
     },
     {
+      "unitid": 497046,
+      "slug": "madera-community-college",
+      "name": "Madera Community College",
+      "website_url": "https://www.maderacollege.edu",
+      "city": "Madera",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": null,
+      "carnegie_tier": null,
+      "carnegie_tier_slug": null,
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6636,
+        "avg_net_price": 0
+      }
+    },
+    {
       "unitid": 166683,
       "slug": "massachusetts-institute-of-technology",
       "name": "Massachusetts Institute of Technology",
@@ -2076,6 +2854,34 @@
         "admit_rate": 0.04548030603570417,
         "enrollment": 11886,
         "avg_net_price": 19813
+      }
+    },
+    {
+      "unitid": 118684,
+      "slug": "mendocino-college",
+      "name": "Mendocino College",
+      "website_url": "https://www.mendocino.edu",
+      "city": "Ukiah",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4225,
+        "avg_net_price": 7500
       }
     },
     {
@@ -2303,6 +3109,34 @@
       }
     },
     {
+      "unitid": 119173,
+      "slug": "mount-saint-mary-s-university",
+      "name": "Mount Saint Mary's University",
+      "website_url": "https://www.msmu.edu",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.48,
+        "admit_rate": 0.7312576812781647,
+        "enrollment": 2312,
+        "avg_net_price": 25009
+      }
+    },
+    {
       "unitid": 119164,
       "slug": "mt-san-antonio-college",
       "name": "Mt San Antonio College",
@@ -2359,6 +3193,34 @@
       }
     },
     {
+      "unitid": 119331,
+      "slug": "napa-valley-college",
+      "name": "Napa Valley College",
+      "website_url": "https://www.napavalley.edu",
+      "city": "Napa",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4844,
+        "avg_net_price": 14046
+      }
+    },
+    {
       "unitid": 119605,
       "slug": "national-university",
       "name": "National University",
@@ -2384,6 +3246,31 @@
         "admit_rate": 0.5454545454545454,
         "enrollment": 22115,
         "avg_net_price": 31058
+      }
+    },
+    {
+      "unitid": 119678,
+      "slug": "naval-postgraduate-school",
+      "name": "Naval Postgraduate School",
+      "website_url": "https://www.nps.edu",
+      "city": "Monterey",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Public"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 2441,
+        "avg_net_price": null
       }
     },
     {
@@ -2524,6 +3411,34 @@
       }
     },
     {
+      "unitid": 120953,
+      "slug": "palo-verde-college",
+      "name": "Palo Verde College",
+      "website_url": "https://www.paloverde.edu",
+      "city": "Blythe",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 3833,
+        "avg_net_price": 10543
+      }
+    },
+    {
       "unitid": 120971,
       "slug": "palomar-college",
       "name": "Palomar College",
@@ -2602,6 +3517,59 @@
         "admit_rate": 0.6285788651743883,
         "enrollment": 8976,
         "avg_net_price": 45409
+      }
+    },
+    {
+      "unitid": 121309,
+      "slug": "point-loma-nazarene-university",
+      "name": "Point Loma Nazarene University",
+      "website_url": "https://www.pointloma.edu",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [],
+      "tags": [
+        "Master's",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.77,
+        "admit_rate": 0.8367534456355283,
+        "enrollment": 4757,
+        "avg_net_price": 50168
+      }
+    },
+    {
+      "unitid": 121363,
+      "slug": "porterville-college",
+      "name": "Porterville College",
+      "website_url": "https://www.portervillecollege.edu",
+      "city": "Porterville",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4784,
+        "avg_net_price": 3728
       }
     },
     {
@@ -2742,6 +3710,34 @@
         "admit_rate": null,
         "enrollment": 20764,
         "avg_net_price": 2976
+      }
+    },
+    {
+      "unitid": 123554,
+      "slug": "saint-mary-s-college-of-california",
+      "name": "Saint Mary's College of California",
+      "website_url": "https://www.stmarys-ca.edu",
+      "city": "Moraga",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.7,
+        "admit_rate": 0.8653140096618358,
+        "enrollment": 2734,
+        "avg_net_price": 31198
       }
     },
     {
@@ -3268,6 +4264,34 @@
       }
     },
     {
+      "unitid": 123572,
+      "slug": "sonoma-state-university",
+      "name": "Sonoma State University",
+      "website_url": "https://sonoma.edu",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.58,
+        "admit_rate": 0.9342877467544015,
+        "enrollment": 5891,
+        "avg_net_price": 13801
+      }
+    },
+    {
       "unitid": 123800,
       "slug": "southwestern-college",
       "name": "Southwestern College",
@@ -3321,6 +4345,84 @@
         "admit_rate": 0.03605693751526358,
         "enrollment": 18625,
         "avg_net_price": 12136
+      }
+    },
+    {
+      "unitid": 124113,
+      "slug": "taft-college",
+      "name": "Taft College",
+      "website_url": "https://www.taftcollege.edu",
+      "city": "Taft",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4464,
+        "avg_net_price": 2699
+      }
+    },
+    {
+      "unitid": 117751,
+      "slug": "the-master-s-university-and-seminary",
+      "name": "The Master's University and Seminary",
+      "website_url": "https://www.masters.edu",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [],
+      "tags": [
+        "Doctoral/Professional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.67,
+        "admit_rate": 0.840152235965747,
+        "enrollment": 2860,
+        "avg_net_price": 32121
+      }
+    },
+    {
+      "unitid": 447050,
+      "slug": "united-states-university",
+      "name": "United States University",
+      "website_url": "https://www.usuniversity.edu",
+      "city": "San Diego",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-fp",
+      "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Associates Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier_slug": "associates-colleges-high-transfer-high-n",
+      "designations": [],
+      "tags": [
+        "Associates Colleges: High Transfer-High Nontraditional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 2454,
+        "avg_net_price": 21557
       }
     },
     {
@@ -3542,6 +4644,36 @@
       }
     },
     {
+      "unitid": 110699,
+      "slug": "university-of-california-san-francisco",
+      "name": "University of California-San Francisco",
+      "website_url": "https://ucsf.edu",
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+      "carnegie_tier_slug": "associates-colleges-mixed-transfer/caree",
+      "designations": [
+        "land-grant",
+        "medical"
+      ],
+      "tags": [
+        "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "Public",
+        "Land-grant",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 3007,
+        "avg_net_price": null
+      }
+    },
+    {
       "unitid": 110705,
       "slug": "university-of-california-santa-barbara",
       "name": "University of California-Santa Barbara",
@@ -3602,6 +4734,34 @@
       }
     },
     {
+      "unitid": 117140,
+      "slug": "university-of-la-verne",
+      "name": "University of La Verne",
+      "website_url": "https://www.laverne.edu",
+      "city": "La Verne",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Doctoral/Professional Universities",
+      "carnegie_tier": "Doctoral/Professional",
+      "carnegie_tier_slug": "doctoral-professional",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Doctoral/Professional",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.63,
+        "admit_rate": 0.7116736990154712,
+        "enrollment": 5021,
+        "avg_net_price": 26925
+      }
+    },
+    {
       "unitid": 262086,
       "slug": "university-of-massachusetts-global",
       "name": "University of Massachusetts Global",
@@ -3624,6 +4784,34 @@
         "admit_rate": 0.9285714285714286,
         "enrollment": 8996,
         "avg_net_price": 31601
+      }
+    },
+    {
+      "unitid": 121691,
+      "slug": "university-of-redlands",
+      "name": "University of Redlands",
+      "website_url": "https://www.redlands.edu",
+      "city": "Redlands",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Masters Colleges & Universities: Larger Programs",
+      "carnegie_tier": "Master's",
+      "carnegie_tier_slug": "masters",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Master's",
+        "Private",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": 0.67,
+        "admit_rate": 0.8271375464684015,
+        "enrollment": 3087,
+        "avg_net_price": 22867
       }
     },
     {
@@ -3813,6 +5001,31 @@
       }
     },
     {
+      "unitid": 458210,
+      "slug": "west-coast-university-orange-county",
+      "name": "West Coast University-Orange County",
+      "website_url": "https://westcoastuniversity.edu",
+      "city": "Anaheim",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-fp",
+      "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier": "Associates Colleges: High Transfer-High Nontraditional",
+      "carnegie_tier_slug": "associates-colleges-high-transfer-high-n",
+      "designations": [],
+      "tags": [
+        "Associates Colleges: High Transfer-High Nontraditional",
+        "Private"
+      ],
+      "stats": {
+        "grad_rate": 0.6,
+        "admit_rate": 0.9534883720930233,
+        "enrollment": 4586,
+        "avg_net_price": 36836
+      }
+    },
+    {
       "unitid": 125471,
       "slug": "west-los-angeles-college",
       "name": "West Los Angeles College",
@@ -3891,6 +5104,90 @@
         "admit_rate": 0.7315155981331368,
         "enrollment": 7686,
         "avg_net_price": 26455
+      }
+    },
+    {
+      "unitid": 112525,
+      "slug": "western-university-of-health-sciences",
+      "name": "Western University of Health Sciences",
+      "website_url": "https://www.westernu.edu",
+      "city": "Pomona",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Private",
+      "control_slug": "private-np",
+      "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+      "carnegie_tier_slug": "associates-colleges-high-transfer-mixed-",
+      "designations": [
+        "medical"
+      ],
+      "tags": [
+        "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "Private",
+        "Medical"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 3665,
+        "avg_net_price": null
+      }
+    },
+    {
+      "unitid": 455512,
+      "slug": "woodland-community-college",
+      "name": "Woodland Community College",
+      "website_url": "https://wcc.yccd.edu",
+      "city": "Woodland",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 4128,
+        "avg_net_price": 4097
+      }
+    },
+    {
+      "unitid": 126119,
+      "slug": "yuba-college",
+      "name": "Yuba College",
+      "website_url": "https://yc.yccd.edu",
+      "city": "Marysville",
+      "state": "CA",
+      "state_name": "California",
+      "control": "Public",
+      "control_slug": "public",
+      "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+      "carnegie_tier": "Community College",
+      "carnegie_tier_slug": "community-college",
+      "designations": [
+        "hsi"
+      ],
+      "tags": [
+        "Community College",
+        "Public",
+        "HSI"
+      ],
+      "stats": {
+        "grad_rate": null,
+        "admit_rate": null,
+        "enrollment": 6320,
+        "avg_net_price": 3573
       }
     }
   ]

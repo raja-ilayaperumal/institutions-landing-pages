@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:10.778072+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118684,
+    "slug": "mendocino-college",
+    "name": "Mendocino College",
+    "website_url": "https://www.mendocino.edu",
+    "city": "Ukiah",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95482",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VA7BJPWMS681",
+      "opeid": "01167200",
+      "ein": "946002711"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Mendocino College is a public community college in Ukiah, California. It was founded in 1973. The main campus is located on 127 acres (0.51 km2) of hilltop land north of downtown Ukiah in the Ukiah valley. It has about 4,000 students, 55 full-time faculty, and 200 adjunct faculty members. Three branches of the college exist, in Lakeport, Willits, and Fort Bragg.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mendocino_College",
+    "source_url": "https://en.wikipedia.org/wiki/Mendocino_College",
+    "fetched_at": "2026-05-27T23:17:26.288381+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 7500,
+    "is_private_for_net_price": false,
+    "pell_grant_rate": 0.7067,
+    "federal_loan_rate": 0.0214,
+    "net_price_by_family_income": {
+      "0_30k": 6575,
+      "30_48k": 7604,
+      "48_75k": 8184,
+      "75_110k": 14494,
+      "110k_plus": 15096
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.25,
+    "pell_grad_rate": 0.36,
+    "retention_full_time": 0.63,
+    "retention_part_time": 0.32
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 6485,
+    "ug_12mo": 6485,
+    "grad_12mo": 4341,
+    "women_12mo": 4119,
+    "men_12mo": 2366,
+    "fall_total": 4225,
+    "fall_full_time": 4225,
+    "fall_part_time": 2870,
+    "distance_ed_any": 4225,
+    "distance_ed_exclusive": 1443,
+    "race_ethnicity": {
+      "white": 0.3913,
+      "black": 0.0231,
+      "hispanic": 0.3861,
+      "asian": 0.0378,
+      "ai_an": 0.0522,
+      "nh_pi": 0.0035,
+      "two_or_more": 0.0165,
+      "non_resident": 0.0004,
+      "race_unknown": 0.0893
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 160
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 86
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 6
+      }
+    ],
+    "program_count": 71,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 60
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 154697,
+        "slug": "barton-county-community-college",
+        "name": "Barton County Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5092,
+          "avg_net_price": 11865
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 125170,
+        "slug": "berkeley-city-college",
+        "name": "Berkeley City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 6278,
+          "avg_net_price": 8957
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446774,
+        "slug": "blue-ridge-community-and-technical-college",
+        "name": "Blue Ridge Community and Technical College",
+        "state": "West Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 4203,
+          "avg_net_price": 4443
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 198039,
+        "slug": "blue-ridge-community-college",
+        "name": "Blue Ridge Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 2723,
+          "avg_net_price": 8829
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111434,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6625,
+          "avg_net_price": 10
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 189839,
+        "slug": "cayuga-county-community-college",
+        "name": "Cayuga County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3580,
+          "avg_net_price": 7278
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 231697,
+        "slug": "central-virginia-community-college",
+        "name": "Central Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 3481,
+          "avg_net_price": 5525
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 111896,
+        "slug": "cerro-coso-community-college",
+        "name": "Cerro Coso Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.27,
+          "enrollment": 5549,
+          "avg_net_price": 6078
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 208406,
+        "slug": "clackamas-community-college",
+        "name": "Clackamas Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 5545,
+          "avg_net_price": 8236
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 108667,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6141,
+          "avg_net_price": 9280
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 191199,
+        "slug": "finger-lakes-community-college",
+        "name": "Finger Lakes Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 6004,
+          "avg_net_price": 14186
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 384342,
+        "slug": "heartland-community-college",
+        "name": "Heartland Community College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 4855,
+          "avg_net_price": 11389
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 225371,
+        "slug": "hill-college",
+        "name": "Hill College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 4158,
+          "avg_net_price": 6615
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 173799,
+        "slug": "inver-hills-community-college",
+        "name": "Inver Hills Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 3804,
+          "avg_net_price": 10651
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 141811,
+        "slug": "leeward-community-college",
+        "name": "Leeward Community College",
+        "state": "Hawaii",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 6471,
+          "avg_net_price": 7636
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 117715,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5371,
+          "avg_net_price": 6683
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 198987,
+        "slug": "mitchell-community-college",
+        "name": "Mitchell Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 3979,
+          "avg_net_price": 5761
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 178448,
+        "slug": "moberly-area-community-college",
+        "name": "Moberly Area Community College",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 5384,
+          "avg_net_price": 6935
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 174376,
+        "slug": "north-hennepin-community-college",
+        "name": "North Hennepin Community College",
+        "state": "Minnesota",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 5563,
+          "avg_net_price": 9804
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 227401,
+        "slug": "paris-junior-college",
+        "name": "Paris Junior College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 4533,
+          "avg_net_price": 6662
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 233116,
+        "slug": "piedmont-virginia-community-college",
+        "name": "Piedmont Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 5263,
+          "avg_net_price": 6347
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 233310,
+        "slug": "rappahannock-community-college",
+        "name": "Rappahannock Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 2962,
+          "avg_net_price": 5310
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 195322,
+        "slug": "schenectady-county-community-college",
+        "name": "Schenectady County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 3490,
+          "avg_net_price": 5298
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 236610,
+        "slug": "shoreline-community-college",
+        "name": "Shoreline Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4477,
+          "avg_net_price": 10116
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 102076,
+        "slug": "snead-state-community-college",
+        "name": "Snead State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 2917,
+          "avg_net_price": 6369
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 197850,
+        "slug": "south-piedmont-community-college",
+        "name": "South Piedmont Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 4013,
+          "avg_net_price": 4072
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 149365,
+        "slug": "south-suburban-college",
+        "name": "South Suburban College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 3818,
+          "avg_net_price": 2919
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 233639,
+        "slug": "southside-virginia-community-college",
+        "name": "Southside Virginia Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 3306,
+          "avg_net_price": 6194
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 190442,
+        "slug": "suny-corning-community-college",
+        "name": "SUNY Corning Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 3720,
+          "avg_net_price": 8488
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 124113,
+        "slug": "taft-college",
+        "name": "Taft College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4464,
+          "avg_net_price": 2699
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 196565,
+        "slug": "tompkins-cortland-community-college",
+        "name": "Tompkins Cortland Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 4958,
+          "avg_net_price": 12851
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 196699,
+        "slug": "ulster-county-community-college",
+        "name": "Ulster County Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 3091,
+          "avg_net_price": 4586
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.mendocino.edu/about/administration/administrative-departments/institutional-research-department",
+    "office_name": "Institutional Research Department",
+    "summary": "The Office of Institutional Research provides information to support college decision-making through a variety of analytic activities, data-gathering tasks, and research projects.",
+    "phone": "707-468-3227",
+    "email": "ilopez@mendocino.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-27T23:17:25.374702+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Minerva Flores",
+      "title": "Director of Institutional Effectiveness, Research and Grants",
+      "email": "mflores@mendocino.edu",
+      "phone": "707-468-3011",
+      "linkedin_url": "https://www.linkedin.com/in/minerva-flores-ed-d-300007242"
+    },
+    {
+      "ordering": 1,
+      "name": "Isabel Lopez",
+      "title": "Data Analyst",
+      "email": "ilopez@mendocino.edu",
+      "phone": "707-468-3227",
+      "linkedin_url": "https://www.linkedin.com/in/isabel-lopez-a508ab34b"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118684",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:17:28.667965+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Bureau of Indian Affairs (BIA)/Tribal Grants",
+      "agency": "Bureau of Indian Affairs",
+      "kind": "opportunity",
+      "url": "https://mendocino.edu/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant B and C",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://mendocino.edu/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grant",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://mendocino.edu/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "url": "https://mendocino.edu/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

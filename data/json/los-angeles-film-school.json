@@ -1,0 +1,341 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-27T20:00:06.150055+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 436429,
+    "slug": "los-angeles-film-school",
+    "name": "Los Angeles Film School",
+    "website_url": "https://www.lafilm.edu",
+    "city": "Hollywood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90028",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DALKWYJDAGD5",
+      "opeid": "04037300",
+      "ein": "954725724"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Los Angeles Film School is a private for-profit college in Los Angeles, California, United States. It was founded in 1999 and is accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC). The school encompasses the Los Angeles Recording School and offers associate and bachelor's degrees in entertainment industry fields that are taught by experienced practitioners.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_Film_School",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Film_School",
+    "fetched_at": "2026-05-27T22:32:17.777558+05:30"
+  },
+  "admissions": {},
+  "cost": {
+    "avg_net_price": 33130,
+    "is_private_for_net_price": true,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7454,
+    "net_price_by_family_income": {
+      "0_30k": 33303,
+      "30_48k": 33268,
+      "48_75k": 32681,
+      "75_110k": 31961,
+      "110k_plus": 32745
+    }
+  },
+  "graduation": {
+    "grad_rate_total": 0.41,
+    "grad_4yr_bachelors": 0.33,
+    "grad_5yr_bachelors": 0.34,
+    "grad_6yr_bachelors": 0.34,
+    "pell_grad_rate": 0.38,
+    "pell_6yr_bachelors_rate": 0.32,
+    "non_pell_grad_rate": 0.53,
+    "non_pell_6yr_bachelors": 0.42,
+    "retention_full_time": 0.51
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7487,
+    "ug_12mo": 7487,
+    "grad_12mo": 7487,
+    "women_12mo": 2772,
+    "men_12mo": 4715,
+    "fall_total": 5472,
+    "fall_full_time": 5472,
+    "fall_part_time": 5472,
+    "distance_ed_any": 5472,
+    "distance_ed_exclusive": 4243,
+    "race_ethnicity": {
+      "white": 0.2465,
+      "black": 0.2974,
+      "hispanic": 0.1056,
+      "asian": 0.0274,
+      "ai_an": 0.0144,
+      "nh_pi": 0.0024,
+      "two_or_more": 0.0681,
+      "non_resident": 0.019,
+      "race_unknown": 0.2191
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 1164
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 105
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 12
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 31.0,
+    "instr_total_fte": 203
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142887,
+        "slug": "american-academy-of-art-college",
+        "name": "American Academy of Art College",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.45,
+          "retention_rate": 0.5,
+          "avg_net_price": 34298
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 113582,
+        "slug": "design-institute-of-san-diego",
+        "name": "Design Institute of San Diego",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2857142857142857,
+          "grad_rate": 0.8,
+          "retention_rate": 0.0,
+          "enrollment": 94,
+          "avg_net_price": 31293
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 191205,
+        "slug": "five-towns-college",
+        "name": "Five Towns College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5381750465549349,
+          "yield_rate": 0.4290657439446367,
+          "grad_rate": 0.55,
+          "retention_rate": 0.7,
+          "enrollment": 974,
+          "avg_net_price": 20799
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 449384,
+        "slug": "gnomon",
+        "name": "Gnomon",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.41818181818181815,
+          "yield_rate": 0.7391304347826086,
+          "grad_rate": 1.0,
+          "retention_rate": 0.9,
+          "enrollment": 526,
+          "avg_net_price": 45824
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 446385,
+        "slug": "los-angeles-college-of-music",
+        "name": "Los Angeles College of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8771084337349397,
+          "yield_rate": 0.1813186813186813,
+          "grad_rate": 0.28,
+          "retention_rate": 0.61,
+          "enrollment": 261,
+          "avg_net_price": 40853
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 461148,
+        "slug": "new-york-film-academy",
+        "name": "New York Film Academy",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.68,
+          "retention_rate": 0.66,
+          "enrollment": 1132,
+          "avg_net_price": 46420
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 377546,
+        "slug": "northwest-college-of-art-and-design",
+        "name": "Northwest College of Art & Design",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6597938144329897,
+          "yield_rate": 0.40625,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 139,
+          "avg_net_price": 20185
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 368452,
+        "slug": "nossi-college-of-art-and-design",
+        "name": "Nossi College of Art and Design",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46308724832214765,
+          "yield_rate": 0.5,
+          "grad_rate": 0.42,
+          "retention_rate": 0.88,
+          "enrollment": 247,
+          "avg_net_price": 23591
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 488448,
+        "slug": "seattle-film-institute",
+        "name": "Seattle Film Institute",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 85,
+          "avg_net_price": 41429
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 481094,
+        "slug": "sotheby-s-institute-of-art-ny",
+        "name": "Sotheby's Institute of Art-NY",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 188
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=436429",
+      "stored": false,
+      "fetched_at": "2026-05-27T22:32:18.897614+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Momentum Scholarship",
+      "agency": "The Los Angeles Film School",
+      "kind": "opportunity",
+      "url": "https://www.lafilm.edu/admissions/scholarships-and-grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Phillip Bladh",
+      "field": "Film"
+    },
+    {
+      "name": "Paquita Hughes",
+      "field": "Film"
+    },
+    {
+      "name": "Jeff Barnes",
+      "field": "Music"
+    },
+    {
+      "name": "Hannah Lux Davis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hannah_Lux_Davis",
+      "field": "Film and Music Video Direction"
+    },
+    {
+      "name": "Kyle Newacheck",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kyle_Newacheck",
+      "field": "Film and Television Production"
+    },
+    {
+      "name": "Storm Saulter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Storm_Saulter",
+      "field": "Film"
+    },
+    {
+      "name": "Diego Vicentini",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Diego_Vicentini",
+      "field": "Film"
+    }
+  ]
+}
