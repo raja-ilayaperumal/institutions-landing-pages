@@ -44,7 +44,7 @@ async def find_url(
     registrable_domain: str,
     target_description: str,
     target_examples: str = "",
-    max_steps: int = 8,
+    max_steps: int = 12,
     web_search_budget: int = 3,
     model: str = "gpt-4o-mini",
 ) -> AgentResult:
@@ -53,8 +53,12 @@ async def find_url(
 
     `web_search_budget` caps the number of paid web_search calls per run; once
     exceeded the agent must reason with probe_url + fetch_snippet (both free).
-    `max_steps` lowered from 12→8 post-2026-05-27 cost review — convergence
-    typically happens in 4-6 steps when the prompt prioritizes probe_url."""
+    `max_steps` was reduced to 8 in the 2026-05-27 cost trim but raised back
+    to 12 after the NPS audit — sites with Cloudflare anti-bot return 403 to
+    probe_url and the agent needs extra steps to fetch_snippet (browser) on
+    each candidate to verify the page is real. The cost trim is preserved by
+    `web_search_budget`, not by step count: probe_url and fetch_snippet are
+    free, so extra steps cost only LLM tokens, not paid search credits."""
     if not settings.has_openai:
         return AgentResult(found_url=None, confidence=0.0,
                            reason="no OPENAI_API_KEY", tool_calls=0)

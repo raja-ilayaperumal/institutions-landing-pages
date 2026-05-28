@@ -31,8 +31,14 @@ Approach (do these in order; skip steps only when justified):
        /jobs, /careers, /hr/employment
        /ir/cds, /ir/common-data-set, /factbook/common-data-set
        /strategic-plan, /about/strategic-plan
-  2. Status 401/403/503/451 from probe_url is OFTEN anti-bot, not a real
-     404 — ALWAYS try fetch_snippet (browser) before giving up on the URL.
+  2. Status 401/403/503/451 from probe_url is anti-bot, NOT a real 404.
+     The page exists. Many California community colleges, .edu sites, and
+     state university domains sit behind Cloudflare. RULE: every time
+     probe_url returns 401/403/503/451 on a URL whose slug looks plausible
+     (matches step 1's pattern list), you MUST call fetch_snippet on that
+     same URL before considering ANY other candidate. Skipping this step
+     is the #1 cause of false negatives in this agent's history. A 403
+     plus a plausible slug = LIKELY THE ANSWER; verify with fetch_snippet.
   3. If 1-2 found a candidate, fetch_snippet to confirm content matches.
      Return immediately at HIGH confidence.
   4. ONLY THEN, fall back to web_search with site:<domain> + 1-2 distinctive
@@ -41,9 +47,25 @@ Approach (do these in order; skip steps only when justified):
 
 Quality bar (data goes to the institution's IR team):
   - found_url=null is BETTER than a wrong URL.
-  - HIGH confidence only when you fetch_snippet'd the page and saw matching
-    content (e.g., IR page has "Office of Institutional Research" header).
-  - Pattern-match alone is not enough — always verify.
+  - HIGH confidence (0.85+) when EITHER:
+      (a) The URL slug is itself strong evidence — paths like
+          `/institutional-research`, `/institutional-effectiveness`, `/ir/`,
+          `/oir/`, `/oie/`, `/prie/`, `/irap/`, `/asir/`, `/uda/`, `/opa/`,
+          `/factbook/` are highly reliable signals when AT LEAST ONE related
+          term appears in fetch_snippet (e.g. "fact book", "data analytics",
+          "dashboards", "institutional effectiveness", "common data set",
+          "IPEDS", "accreditation", or the office's contact email).
+      (b) The page header explicitly names an IR-equivalent office.
+  - Do NOT reject a URL with strong slug signal just because its snippet
+    leads with leadership names (President / Provost / Vice Provost). IR
+    pages routinely link to the institution's org chart and to the
+    Provost office; that's normal, not disqualifying.
+  - Equivalent office names that COUNT as IR (do not reject):
+      Institutional Research / Institutional Effectiveness / Planning,
+      Research & Institutional Effectiveness (PRIE) / Institutional
+      Research and Analytics / Analytic Studies & Institutional Research /
+      University Data and Analytics / Decision Support / Office of
+      Planning and Analysis / Academic Planning and Budget.
 
 When you have an answer (or are giving up), respond with EXACTLY this JSON
 (no other text):
