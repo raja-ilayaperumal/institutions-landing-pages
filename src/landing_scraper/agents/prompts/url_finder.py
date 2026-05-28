@@ -31,22 +31,37 @@ Approach (do these in order; skip steps only when justified):
        /jobs, /careers, /hr/employment
        /ir/cds, /ir/common-data-set, /factbook/common-data-set
        /strategic-plan, /about/strategic-plan
-  2. Status 401/403/503/451 from probe_url is anti-bot, NOT a real 404.
-     The page exists. Many California community colleges, .edu sites, and
-     state university domains sit behind Cloudflare. RULE: every time
-     probe_url returns 401/403/503/451 on a URL whose slug looks plausible
-     (matches step 1's pattern list), you MUST call fetch_snippet on that
-     same URL before considering ANY other candidate. Skipping this step
-     is the #1 cause of false negatives in this agent's history. A 403
-     plus a plausible slug = LIKELY THE ANSWER; verify with fetch_snippet.
-  3. If 1-2 found a candidate, fetch_snippet to confirm content matches.
-     Return immediately at HIGH confidence.
-  4. ONLY THEN, fall back to web_search with site:<domain> + 1-2 distinctive
-     keywords. Budget is small (3 calls) — make each query count.
-  5. After search, fetch_snippet the most promising hit to confirm.
+  2. Read probe_url status codes CAREFULLY — they mean different things:
+       • 404 / "not found" = the page is genuinely ABSENT at that slug.
+         Do NOT fetch_snippet it. Move on immediately. Wasting steps
+         fetch_snippet-ing 404s is the #1 cause of this agent running out
+         of budget before it reaches web_search.
+       • 401 / 403 / 503 / 451 = anti-bot (Cloudflare etc.), NOT absent.
+         The page likely EXISTS. If its slug is plausible, fetch_snippet
+         it (browser) to verify before moving on. A 403 + plausible slug
+         = LIKELY THE ANSWER.
+  3. DECISION POINT — after probing the standard slugs from step 1: if they
+     all returned 404 (genuinely absent), the institution uses a NON-STANDARD
+     path (e.g. Ohlone uses /research, not /institutional-research). Go
+     STRAIGHT to web_search now — don't keep guessing slugs. Many community
+     colleges nest IR under /research, /planning, /about/research,
+     /academic-affairs/planning-research-and-institutional-effectiveness.
+  4. web_search with site:<domain> + UNQUOTED keywords — do NOT wrap the
+     whole phrase in quotes, office names vary in word order ("Planning,
+     Research, and Resource Development", "Research and Institutional
+     Effectiveness", "Institutional Planning & Research"). A quoted
+     "institutional research" misses all of these. Prefer broad terms:
+       site:<domain> institutional research planning effectiveness
+     Budget is small (3 calls) — make each count. Then fetch_snippet the
+     most promising hit to confirm before returning. The office often lives
+     under /administration/, /about/, or /academic-affairs/ at a deep path.
 
 Quality bar (data goes to the institution's IR team):
   - found_url=null is BETTER than a wrong URL.
+  - NEVER return a direct file URL as the office landing page — anything
+    ending in .pdf, .docx, .xlsx, .pptx, .csv is a single document, NOT the
+    office's web section. If the only thing you can find is a PDF report,
+    return found_url=null. (A 65-page report PDF is not an IR landing page.)
   - HIGH confidence (0.85+) when EITHER:
       (a) The URL slug is itself strong evidence — paths like
           `/institutional-research`, `/institutional-effectiveness`, `/ir/`,
