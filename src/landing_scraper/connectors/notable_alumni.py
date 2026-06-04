@@ -1,41 +1,78 @@
-"""Notable Alumni connector — official-first, Wikipedia-as-fallback.
+"""Notable Alumni connector — Wikipedia-authoritative.
 
-Strategy (per user's source-trust ranking):
-  1. OFFICIAL institutional "notable alumni" page (highest trust — the
-     university verified their own alumni). Tavily search:
-       site:{registrable_domain} "notable alumni"
-     or:
-       "{institution_name}" "notable alumni" site:.edu
-  2. Wikipedia "List of {institution} alumni" or "Category:{institution}
-     alumni" page — best for scale, lower trust (must verify).
-  3. Main Wikipedia article "Notable alumni" section as last resort.
+Strategy:
+  1. Locate Wikipedia's curated "List of {institution} alumni" /
+     "List of {institution} people" / "Category:{institution} alumni" page.
+     Discovery is QUOTA-FREE — direct URL probes over normalized name variants
+     (IPEDS "University of California-Berkeley" → Wikipedia
+     "University of California, Berkeley") plus the free Wikipedia REST search
+     API. No paid Serper/Tavily call, so the connector is safe to run across
+     all ~6k institutions.
+  2. Extract with an LLM that is given the institution's STATE + DOMAIN and is
+     instructed to return [] when the page is about a DIFFERENT same-named
+     institution (e.g. Sofia University CA vs. Sofia University Bulgaria).
 
-For each chosen source page:
-  - Fetch via crawl4ai
-  - LLM extract: [{name, field, graduation_year, role, source_url}]
-  - Persist to landing.notable_alumni with source attribution
-
-Quality rules:
-  - Skip if no name + no source URL
-  - Prefer entries with a wikipedia_url (each alumnus's own page) for linkability
-  - Tag source per row (official_site / wikipedia / dbpedia) so frontend can show provenance
+Why Wikipedia-only: institutional "notable alumni" pages are frequently a
+single club or department roster (e.g. bases.stanford.edu, an entrepreneurship
+club) — unrepresentative and below the IR-facing quality bar. Wikipedia lists
+are editorially balanced and carry per-person citations. Schools with no
+Wikipedia list ship no alumni section (null > unrepresentative).
 """
 from __future__ import annotations
 
-import asyncio
-from dataclasses import dataclass, field
+import re
+from dataclasses import dataclass
 
+import httpx
 import structlog
 
-from ..core import crawler, llm, search
+from ..core import crawler, llm
 from ..core.html import visible_text
 from ..db.engine import get_conn
 from .base import BaseConnector, ConnectorResult, InstitutionContext
 
 log = structlog.get_logger(__name__)
 
+_WIKI_UA = "ClemaLandingBot/1.0 (institutional research; contact: data@clema.ai)"
 
 _STOP_WORDS = {"of", "the", "and", "at", "in", "for", "a", "an", "&"}
+
+# IPEDS records branch campuses as "{System}-{Campus}" and tacks on verbose
+# suffixes ("-Main Campus", " Campus Immersion") that Wikipedia never uses.
+# To hit Wikipedia's canonical "List of {name} alumni" article directly —
+# WITHOUT spending a paid search query — we probe a few normalized variants.
+_DROP_SUFFIXES = re.compile(
+    r"\s*[-,]?\s*(Main Campus|Campus Immersion|Digital Immersion|"
+    r"Online|All Campuses)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _name_variants(name: str) -> list[str]:
+    """Yield distinct Wikipedia-friendly spellings of an IPEDS institution name.
+
+    Order matters: the most likely canonical form first. Examples:
+        "University of California-Berkeley"
+            → "University of California, Berkeley"  (Wikipedia uses a comma)
+        "Texas A&M University-College Station"
+            → "Texas A&M University, College Station"
+        "Pennsylvania State University-Main Campus"
+            → "Pennsylvania State University"       (suffix dropped)
+    """
+    base = _DROP_SUFFIXES.sub("", name).strip()
+    variants = [base]
+    # First hyphen separates system from campus on most IPEDS branch names;
+    # Wikipedia writes that as ", ".
+    if "-" in base:
+        variants.append(base.replace("-", ", ", 1))
+        variants.append(base.replace("-", " ", 1))
+    # De-dupe preserving order; also keep the raw IPEDS name as a last resort.
+    out: list[str] = []
+    for v in (*variants, name):
+        v = v.strip()
+        if v and v not in out:
+            out.append(v)
+    return out
 
 
 def _url_matches_institution(url: str, inst_name: str) -> bool:
@@ -92,19 +129,9 @@ def _url_matches_institution(url: str, inst_name: str) -> bool:
 @dataclass
 class _Page:
     url: str
-    source_tier: str          # 'official' | 'wikipedia_list' | 'wikipedia_main'
+    source_tier: str          # 'wikipedia_list'
     title: str = ""
     snippet: str = ""
-
-
-FIND_OFFICIAL_PROMPT = """\
-You are picking the BEST official institutional "Notable Alumni" page from
-search results. Accept: institution's own /alumni, /notable-alumni,
-/distinguished-alumni, /about/alumni page on its .edu domain. Reject:
-fundraising appeals, alumni magazines, single-person bio pages, news
-articles about one alumnus.
-
-Reply ONLY with JSON: {"best_index": int (1..N) or 0 if none, "confidence": 0-1, "reason": str}"""
 
 
 EXTRACT_PROMPT = """\
@@ -190,95 +217,72 @@ class NotableAlumniConnector(BaseConnector):
 
     # ────────────────────────────────────────────────────────────────────
 
-    async def _find_official(self, ctx: InstitutionContext) -> _Page | None:
-        domain = ctx.registrable_domain or ctx.domain
-        if not domain:
-            return None
-        queries = [
-            f'site:{domain} "notable alumni"',
-            f'site:{domain} "distinguished alumni"',
-            f'"{ctx.name}" "notable alumni" site:.edu',
-        ]
-        candidates: list[_Page] = []
-        seen: set[str] = set()
-        for q in queries:
-            try:
-                results = await search.search(q, limit=5)
-            except Exception as e:  # noqa: BLE001
-                log.warning("alumni.search_failed", q=q, error=str(e))
-                continue
-            for r in results:
-                if r.url in seen:
-                    continue
-                # Must be on the institution's own domain (Tier 1 = official only)
-                if domain not in r.url.lower():
-                    continue
-                seen.add(r.url)
-                candidates.append(_Page(url=r.url, source_tier="official",
-                                        title=r.title, snippet=r.snippet))
-        if not candidates:
-            return None
-
-        # LLM picks the best (or rejects all)
-        if not llm.settings.has_llm:
-            return candidates[0]
-
-        enumerated = "\n".join(
-            f"{i+1}. URL: {p.url}\n   Title: {p.title}\n   Snippet: {p.snippet[:200]}"
-            for i, p in enumerate(candidates[:6])
-        )
-        r = await llm.call(
-            system=FIND_OFFICIAL_PROMPT,
-            user=f"Institution: {ctx.name}\n\nCandidates:\n{enumerated}",
-            tier="judge", max_tokens=200, expect_json=True,
-        )
-        if isinstance(r.data, dict):
-            idx = int(r.data.get("best_index", 0) or 0) - 1
-            if 0 <= idx < len(candidates):
-                return candidates[idx]
-        return None
-
     async def _find_wikipedia_list(self, ctx: InstitutionContext) -> _Page | None:
-        # Probe well-known Wikipedia patterns (these are direct, won't mis-match)
-        name_underscored = ctx.name.replace(" ", "_")
-        wiki_candidates = [
-            f"https://en.wikipedia.org/wiki/List_of_{name_underscored}_alumni",
-            f"https://en.wikipedia.org/wiki/List_of_{name_underscored}_people",
-            f"https://en.wikipedia.org/wiki/Category:{name_underscored}_alumni",
-        ]
-        for url in wiki_candidates:
-            try:
-                f = await crawler.fetch(url, timeout=15.0)
-                if f.success and f.status_code and 200 <= f.status_code < 300:
-                    if "does not have an article" in (f.markdown or f.html or "").lower():
-                        continue
-                    return _Page(url=url, source_tier="wikipedia_list",
-                                 title=ctx.name + " alumni")
-            except Exception:
-                continue
+        """Locate the Wikipedia alumni list for this institution.
 
-        # Fallback: search Wikipedia — BUT verify the URL really matches THIS
-        # institution. Without this guard, Tavily can return "List_of_Sam_Houston_State_alumni"
-        # for "Houston Community College", "List_of_Wittenberg_University_alumni"
-        # for "Martin University", etc. (partial word matches).
-        try:
-            results = await search.search(
-                f'site:en.wikipedia.org "{ctx.name}" alumni list',
-                limit=5,
-            )
-            for r in results:
-                if not ("wikipedia.org/wiki/List_of" in r.url
-                        or "wikipedia.org/wiki/Category" in r.url):
-                    continue
-                if not _url_matches_institution(r.url, ctx.name):
-                    log.info("alumni.wiki_url_rejected",
-                             url=r.url, institution=ctx.name,
-                             reason="URL institution segment doesn't match all significant name words")
-                    continue
-                return _Page(url=r.url, source_tier="wikipedia_list",
-                             title=r.title, snippet=r.snippet)
-        except Exception:
-            pass
+        Quota-safe by design — uses ONLY direct Wikipedia URL probes and the
+        free Wikipedia REST search API. No paid Serper/Tavily call, so this is
+        safe to run across all 6k institutions. Every candidate URL is gated by
+        ``_url_matches_institution`` so a different same-named school's list is
+        rejected (the extractor's state/domain guard is the second line).
+        """
+        variants = _name_variants(ctx.name)
+        async with httpx.AsyncClient(
+            timeout=15.0, headers={"User-Agent": _WIKI_UA},
+            follow_redirects=True,
+        ) as client:
+            # 1) Direct URL probes for each name variant (lightweight httpx —
+            #    NO browser escalation, critical at 6k scale). Wikipedia writes
+            #    branch campuses with a comma ("University of California,
+            #    Berkeley"), which _name_variants reconstructs from the IPEDS
+            #    hyphenated form. A missing article returns HTTP 404.
+            for variant in variants:
+                seg = variant.replace(" ", "_")
+                for url in (
+                    f"https://en.wikipedia.org/wiki/List_of_{seg}_alumni",
+                    f"https://en.wikipedia.org/wiki/List_of_{seg}_people",
+                    f"https://en.wikipedia.org/wiki/Category:{seg}_alumni",
+                ):
+                    try:
+                        resp = await client.get(url)
+                    except Exception:
+                        continue
+                    if resp.is_success:
+                        return _Page(url=str(resp.url),
+                                     source_tier="wikipedia_list",
+                                     title=ctx.name + " alumni")
+
+            # 2) Free Wikipedia REST search (no paid quota). Resolves redirects
+            #    and punctuation we didn't guess; gated by name-word match so a
+            #    DIFFERENT-named school's list can't slip in (same-NAME namesakes
+            #    are caught later by the extractor's state/domain guard).
+            seen: set[str] = set()
+            for variant in variants:
+                for q in (f"List of {variant} alumni", f"{variant} alumni"):
+                    try:
+                        resp = await client.get(
+                            "https://en.wikipedia.org/w/rest.php/v1/search/page",
+                            params={"q": q, "limit": 5},
+                        )
+                        if not resp.is_success:
+                            continue
+                    except Exception:
+                        continue
+                    for pg in resp.json().get("pages", []):
+                        key = pg.get("key") or ""
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                        if not (key.startswith("List_of_")
+                                or key.startswith("Category:")):
+                            continue
+                        url = f"https://en.wikipedia.org/wiki/{key}"
+                        if not _url_matches_institution(url, ctx.name):
+                            log.info("alumni.wiki_url_rejected",
+                                     url=url, institution=ctx.name)
+                            continue
+                        return _Page(url=url, source_tier="wikipedia_list",
+                                     title=pg.get("title") or ctx.name)
         return None
 
     async def _extract_from_page(self, ctx: InstitutionContext, page: _Page) -> tuple[list[dict], float]:
