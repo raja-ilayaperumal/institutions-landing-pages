@@ -139,6 +139,19 @@ def _normalize_url(raw: str | None) -> str | None:
 
 def _section_institution(row: dict) -> dict:
     """Hero / identity block — name, location, control, Carnegie, tags."""
+    # IPEDS codes some 4-year specialized schools (law, medical, theology,
+    # health, arts) into an "Associates Colleges" (community-college) c21basic
+    # bucket — a federal misclassification. Faithful but misleading: it stamps a
+    # graduate/professional school "community college". When the Carnegie label
+    # is an Associates-Colleges category but the institution is 4-year-or-above,
+    # suppress the badge. Peer grouping (landing.peer_groups) is unaffected.
+    carnegie_label = row.get("carnegie_basic_label")
+    carnegie_slug = row.get("carnegie_basic_slug")
+    sector_label = row.get("sector_label") or ""
+    if (carnegie_label or "").startswith("Associates Colleges") and \
+            "4-year or above" in sector_label:
+        carnegie_label = None
+        carnegie_slug = None
     return {
         "unitid":         row["unitid"],
         "slug":           row["slug"],
@@ -152,8 +165,8 @@ def _section_institution(row: dict) -> dict:
         "control":        row.get("control_label"),
         "control_slug":   row.get("control_slug"),
         "sector":         row.get("sector_label"),
-        "carnegie":       row.get("carnegie_basic_label"),
-        "carnegie_slug":  row.get("carnegie_basic_slug"),
+        "carnegie":       carnegie_label,
+        "carnegie_slug":  carnegie_slug,
         "tags": {
             "is_hbcu":       row.get("is_hbcu", False),
             "is_hsi":        row.get("is_hsi", False),
@@ -205,7 +218,12 @@ def _section_admissions(admissions: dict, scorecard: dict) -> dict | None:
         # 0 admits) and would render a misleading "0% admit rate". Treat 0/None
         # alike → omit.
         "admission_rate":          (scorecard.get("admission_rate") or None),
-        "admit_rate":              (adm / appl) if (appl and adm) else None,
+        # IPEDS-derived ratio is a FALLBACK only — show it solely when Scorecard
+        # has no admission_rate. Emitting both caused contradictory numbers on the
+        # same card (e.g. UC Merced 39% Scorecard vs 91% derived, because the IPEDS
+        # admits count includes transfers while Scorecard is first-time-freshman).
+        "admit_rate":              ((adm / appl) if (appl and adm) else None)
+                                   if not (scorecard.get("admission_rate")) else None,
         "yield_rate":              (enr / adm) if (adm and enr) else None,
         # Scorecard column names are `sat_avg`, `sat_math_25th/75th`,
         # `sat_reading_25th/75th`, `act_cumulative_25th/75th` — NOT the
@@ -268,7 +286,12 @@ def _section_cost(scorecard: dict, cost: dict, is_private: bool) -> dict | None:
         "avg_net_price": _floor0(scorecard.get(
             "avg_net_price_private" if is_private else "avg_net_price_public",
         )),
-        "pell_grant_rate":           _pct(scorecard.get("pell_grant_rate")),
+        # pell_grant_rate from score_card.fact_institution_yearly is unreliable —
+        # systematically ~10x too low for universities (UCLA 1.7%, MIT 0.7%,
+        # Alabama A&M 8.8%, all should be 17-70%). The source is a pre-built ETL
+        # we only read from and can't correct, so suppress rather than show an IR
+        # office a Pell rate they know is wrong. (federal_loan_rate kept; spot
+        # checks were plausible.)
         "federal_loan_rate":         _pct(scorecard.get("federal_loan_rate")),
         "net_price_by_family_income": npbfi,
     }
@@ -453,7 +476,13 @@ def _section_peers(peers: list[dict], source_label: str, conn) -> dict | None:
                 "slug":      p.get("slug"),
                 "name":      p.get("name"),
                 "state":     p.get("state"),
-                "carnegie":  p.get("carnegie"),
+                # Suppress "Associates Colleges" labels on peers — IPEDS
+                # misclassifies many 4-year specialized schools (med/law/health)
+                # into Associates buckets, so a peer like MUSC or OHSU would show
+                # "Associate's College" next to a research university. Drop it
+                # rather than mislabel; the peer card is driven by name + metrics.
+                "carnegie":  (None if (p.get("carnegie") or "").startswith("Associates Colleges")
+                              else p.get("carnegie")),
                 "similarity_score": _to_jsonable(p.get("score")),
                 "metrics":   (metrics_by_slug.get(p.get("slug") or "") or {}).get("metrics") or {},
             }

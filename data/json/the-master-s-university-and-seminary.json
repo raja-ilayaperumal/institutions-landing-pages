@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-04T04:57:15.990664+00:00",
+  "generated_at": "2026-06-04T06:15:50.427939+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -48,14 +48,12 @@
     "first_time_freshmen": 404,
     "first_time_freshmen_ft": 402,
     "admission_rate": 0.7589,
-    "admit_rate": 0.840152235965747,
     "yield_rate": 0.4575311438278596
   },
   "cost": {
     "in_state_tuition": 36930,
     "out_of_state_tuition": 36930,
     "avg_net_price": 32121,
-    "pell_grant_rate": 0.2547,
     "federal_loan_rate": 0.3841,
     "net_price_by_family_income": {
       "0_30k": 31026,
@@ -86,7 +84,7 @@
     "women_12mo": 1185,
     "men_12mo": 1933,
     "fall_total": 2860,
-    "distance_ed_any": 2860,
+    "distance_ed_any": 810,
     "distance_ed_exclusive": 780,
     "race_ethnicity": {
       "white": 0.609,
@@ -309,7 +307,7 @@
         "slug": "moody-bible-institute",
         "name": "Moody Bible Institute",
         "state": "Illinois",
-        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.8268733850129198,
@@ -377,7 +375,7 @@
         "slug": "the-southern-baptist-theological-seminary",
         "name": "The Southern Baptist Theological Seminary",
         "state": "Kentucky",
-        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.5586776859504132,
@@ -479,33 +477,5 @@
       "source": "institution_site"
     }
   ],
-  "notable_alumni": [
-    {
-      "name": "Abby Talavera-Castanoli"
-    },
-    {
-      "name": "Alfredo Roesadi"
-    },
-    {
-      "name": "Alison Brown"
-    },
-    {
-      "name": "Amber Kaiser"
-    },
-    {
-      "name": "Hannah Dupea"
-    },
-    {
-      "name": "Kate Alfaro"
-    },
-    {
-      "name": "Laura San Nicolas"
-    },
-    {
-      "name": "Matthew Christie"
-    },
-    {
-      "name": "Nancy Lewis"
-    }
-  ]
+  "notable_alumni": []
 }

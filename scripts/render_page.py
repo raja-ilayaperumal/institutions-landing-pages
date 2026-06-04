@@ -147,19 +147,26 @@ def _fetch_enrollment(conn, unitid: int) -> dict:
         for r in cur.fetchall():
             if r.get("efalevel") == 1:
                 out["fall_total"] = r["eftotlt"]
-        # Online-only (distance ed) — exclusively distance
+        # Distance education (efdelev=1 = all students). The columns are
+        # efdeexc=exclusively distance, efdesom=some-but-not-all distance,
+        # efdenon=no distance, efdetot=grand total of ALL students. "Any distance"
+        # = efdeexc + efdesom — NOT efdetot (using the grand total implied 100% of
+        # a residential campus was online; e.g. UCLA showed 47,335 vs the real
+        # 6,320).
         cur.execute(
             """
-            SELECT efdetot, efdeexc
+            SELECT efdeexc, efdesom
             FROM ipeds.fall_enrollment_distance_2024
-            WHERE unitid=%s AND efdelev IN (1, 12) LIMIT 1
+            WHERE unitid=%s AND efdelev = 1 LIMIT 1
             """,
             (unitid,),
         )
         d = cur.fetchone()
         if d:
-            out["distance_ed_any"] = d.get("efdetot")
-            out["distance_ed_exclusive"] = d.get("efdeexc")
+            exc, som = d.get("efdeexc"), d.get("efdesom")
+            out["distance_ed_exclusive"] = exc
+            if isinstance(exc, (int, float)) or isinstance(som, (int, float)):
+                out["distance_ed_any"] = (exc or 0) + (som or 0)
     return out
 
 

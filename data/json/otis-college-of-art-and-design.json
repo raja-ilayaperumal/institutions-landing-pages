@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-04T04:57:41.242943+00:00",
+  "generated_at": "2026-06-04T06:16:12.134785+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -19,8 +19,8 @@
     "control": "Private not-for-profit",
     "control_slug": "private-np",
     "sector": "Private not-for-profit, 4-year or above",
-    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
-    "carnegie_slug": "associates-career-technical-traditional",
+    "carnegie": null,
+    "carnegie_slug": null,
     "tags": {
       "is_hbcu": false,
       "is_hsi": false,
@@ -48,14 +48,12 @@
     "first_time_freshmen": 218,
     "first_time_freshmen_ft": 218,
     "admission_rate": 0.8398,
-    "admit_rate": 0.8175755198116909,
     "yield_rate": 0.10460652591170826
   },
   "cost": {
     "in_state_tuition": 55513,
     "out_of_state_tuition": 55513,
     "avg_net_price": 45864,
-    "pell_grant_rate": 0.0217,
     "federal_loan_rate": 0.418,
     "net_price_by_family_income": {
       "0_30k": 40358,
@@ -149,7 +147,7 @@
         "slug": "california-college-of-the-arts",
         "name": "California College of the Arts",
         "state": "California",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.911008013496415,
@@ -183,7 +181,7 @@
         "slug": "maryland-institute-college-of-art",
         "name": "Maryland Institute College of Art",
         "state": "Maryland",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.767885035926273,
@@ -200,7 +198,7 @@
         "slug": "pratt-institute-main",
         "name": "Pratt Institute-Main",
         "state": "New York",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.7325292656970557,
@@ -251,7 +249,7 @@
         "slug": "school-of-the-art-institute-of-chicago",
         "name": "School of the Art Institute of Chicago",
         "state": "Illinois",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.7746755206761243,
@@ -372,67 +370,5 @@
   ],
   "ir_jobs": [],
   "grants": [],
-  "notable_alumni": [
-    {
-      "name": "Harwell Hamilton Harris",
-      "field": "Architecture"
-    },
-    {
-      "name": "John Hench",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Hench",
-      "field": "Art and Animation"
-    },
-    {
-      "name": "Wilfred Jackson",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Wilfred_Jackson",
-      "field": "Animation"
-    },
-    {
-      "name": "Tyrus Wong",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Tyrus_Wong",
-      "field": "Art"
-    },
-    {
-      "name": "Robert Irwin",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Irwin_(artist)",
-      "field": "Art"
-    },
-    {
-      "name": "Billy Al Bengston",
-      "field": "Art"
-    },
-    {
-      "name": "Ken Price",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Price",
-      "field": "Sculpture"
-    },
-    {
-      "name": "Kerry James Marshall",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Kerry_James_Marshall",
-      "field": "Visual Art"
-    },
-    {
-      "name": "Rick Owens",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Owens",
-      "field": "Fashion Design"
-    },
-    {
-      "name": "Alison Saar",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Alison_Saar",
-      "field": "Sculpture"
-    },
-    {
-      "name": "Patssi Valdez",
-      "field": "Art"
-    },
-    {
-      "name": "Jeffrey Vallance",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_Vallance",
-      "field": "Art"
-    },
-    {
-      "name": "Jane Bauman",
-      "field": "Art"
-    }
-  ]
+  "notable_alumni": []
 }

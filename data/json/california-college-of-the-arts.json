@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-04T04:55:53.984169+00:00",
+  "generated_at": "2026-06-04T06:14:41.336165+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -19,8 +19,8 @@
     "control": "Private not-for-profit",
     "control_slug": "private-np",
     "sector": "Private not-for-profit, 4-year or above",
-    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
-    "carnegie_slug": "associates-career-technical-traditional",
+    "carnegie": null,
+    "carnegie_slug": null,
     "tags": {
       "is_hbcu": false,
       "is_hsi": false,
@@ -48,14 +48,12 @@
     "first_time_freshmen": 172,
     "first_time_freshmen_ft": 171,
     "admission_rate": 0.734,
-    "admit_rate": 0.911008013496415,
     "yield_rate": 0.07962962962962963
   },
   "cost": {
     "in_state_tuition": 57946,
     "out_of_state_tuition": 57946,
     "avg_net_price": 42168,
-    "pell_grant_rate": 0.0697,
     "federal_loan_rate": 0.4564,
     "net_price_by_family_income": {
       "0_30k": 32800,
@@ -86,7 +84,7 @@
     "women_12mo": 1098,
     "men_12mo": 534,
     "fall_total": 1308,
-    "distance_ed_any": 1308,
+    "distance_ed_any": 42,
     "distance_ed_exclusive": 1,
     "race_ethnicity": {
       "white": 0.2012,
@@ -197,7 +195,7 @@
         "slug": "columbus-college-of-art-and-design",
         "name": "Columbus College of Art & Design",
         "state": "Ohio",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.6765523632993512,
@@ -214,7 +212,7 @@
         "slug": "maryland-institute-college-of-art",
         "name": "Maryland Institute College of Art",
         "state": "Maryland",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.767885035926273,
@@ -231,7 +229,7 @@
         "slug": "minneapolis-college-of-art-and-design",
         "name": "Minneapolis College of Art and Design",
         "state": "Minnesota",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.4847775175644028,
@@ -248,7 +246,7 @@
         "slug": "otis-college-of-art-and-design",
         "name": "Otis College of Art and Design",
         "state": "California",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.8175755198116909,
@@ -265,7 +263,7 @@
         "slug": "pratt-institute-main",
         "name": "Pratt Institute-Main",
         "state": "New York",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.7325292656970557,
@@ -299,7 +297,7 @@
         "slug": "ringling-college-of-art-and-design",
         "name": "Ringling College of Art and Design",
         "state": "Florida",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.696524064171123,
@@ -316,7 +314,7 @@
         "slug": "school-of-the-art-institute-of-chicago",
         "name": "School of the Art Institute of Chicago",
         "state": "Illinois",
-        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "carnegie": null,
         "similarity_score": 1.0,
         "metrics": {
           "admit_rate": 0.7746755206761243,
@@ -411,45 +409,5 @@
       "source": "institution_site"
     }
   ],
-  "notable_alumni": [
-    {
-      "name": "Nazgol Ansarinia"
-    },
-    {
-      "name": "Edward Blake"
-    },
-    {
-      "name": "Maggie Fost"
-    },
-    {
-      "name": "Zach Gibson"
-    },
-    {
-      "name": "Matt Johnson & Chris Yamane"
-    },
-    {
-      "name": "Wioleta Kaminska"
-    },
-    {
-      "name": "Kristin Neidlinger"
-    },
-    {
-      "name": "Melissa Martin"
-    },
-    {
-      "name": "Heidi Meredith & Renee Walker"
-    },
-    {
-      "name": "Nazanin Oveisi"
-    },
-    {
-      "name": "Jennifer Sonderby"
-    },
-    {
-      "name": "Joel Stillman"
-    },
-    {
-      "name": "Rosanna Yau"
-    }
-  ]
+  "notable_alumni": []
 }

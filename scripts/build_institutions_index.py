@@ -146,6 +146,14 @@ def main(json_dir: Path, out: Path, kv_base_url: str | None) -> None:
 
     institutions: list[dict] = []
     for r in rows:
+        # Mirror the detail-page rule: IPEDS codes some 4-year specialized schools
+        # (law/med/health/theology) into an "Associates Colleges" bucket. Suppress
+        # that misleading label on 4-year schools so the index and the detail page
+        # agree (e.g. Charles R Drew, a medical university).
+        carn_label = r.get("carnegie_basic_label")
+        if (carn_label or "").startswith("Associates Colleges") and \
+                "4-year or above" in (r.get("sector_label") or ""):
+            r = {**r, "carnegie_basic_label": None, "carnegie_basic_slug": None}
         tier_label, tier_slug = carnegie_tier(r.get("carnegie_basic_label"))
         ctrl_label, ctrl_slug = control_short(r.get("control_label"))
 
