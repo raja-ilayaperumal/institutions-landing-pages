@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:31.300328+00:00",
+  "generated_at": "2026-06-04T04:58:10.182153+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,29 @@
   },
   "brand": null,
   "about": {
-    "summary": "College of the Sequoias (COS) is a public two-year community college in Visalia, California. The college is named for the Giant Sequoia trees native to the nearby Sierra Nevada mountain range.",
+    "summary": "College of the Sequoias is a public community college located in Visalia, California, with multiple campuses including Hanford and Tulare. It offers various programs, including noncredit classes for specializations such as English as a Second Language. The college was founded to provide accessible education and develops a broad range of academic and vocational courses.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_the_Sequoias",
     "source_url": "https://en.wikipedia.org/wiki/College_of_the_Sequoias",
-    "fetched_at": "2026-05-25T21:32:32.833261+05:30"
+    "fetched_at": "2026-06-03T19:47:55.194833+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1394,
+    "out_of_state_tuition": 8338,
     "avg_net_price": 29,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5402,
     "federal_loan_rate": 0.0074,
     "net_price_by_family_income": {
-      "0_30k": -788,
-      "30_48k": -348,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 1785,
       "75_110k": 4987,
       "110k_plus": 4223
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.366,
     "grad_rate_total": 0.39,
     "pell_grad_rate": 0.38,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17735,
     "ug_12mo": 17735,
-    "grad_12mo": 13936,
+    "grad_12mo": 0,
     "women_12mo": 10224,
     "men_12mo": 7511,
     "fall_total": 14494,
-    "fall_full_time": 14494,
-    "fall_part_time": 11562,
     "distance_ed_any": 14494,
     "distance_ed_exclusive": 2018,
     "race_ethnicity": {

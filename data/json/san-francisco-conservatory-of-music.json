@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:00.151215+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122506,
+    "slug": "san-francisco-conservatory-of-music",
+    "name": "San Francisco Conservatory of Music",
+    "website_url": "https://sfcm.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94102-6011",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00127800",
+      "ein": "941156610"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The San Francisco Conservatory of Music is a music institution located in San Francisco, California. Notable focus areas include various music majors such as brass, composition, historical performance, and technology and applied composition. The institution offers a variety of programs, including pre-college and continuing education.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_Conservatory_of_Music",
+    "source_url": "https://en.wikipedia.org/wiki/San_Francisco_Conservatory_of_Music",
+    "fetched_at": "2026-06-03T16:39:22.700969+05:30"
+  },
+  "admissions": {
+    "applicants": 428,
+    "admits": 235,
+    "enrolled": 64,
+    "first_time_freshmen": 64,
+    "first_time_freshmen_ft": 64,
+    "admission_rate": 0.5194,
+    "admit_rate": 0.5490654205607477,
+    "yield_rate": 0.2723404255319149
+  },
+  "cost": {
+    "in_state_tuition": 54550,
+    "out_of_state_tuition": 54550,
+    "avg_net_price": 42448,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.4751,
+    "net_price_by_family_income": {
+      "0_30k": 30283,
+      "30_48k": 38209,
+      "48_75k": 43138,
+      "75_110k": 40423,
+      "110k_plus": 45384
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5246,
+    "grad_rate_total": 0.74,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.72,
+    "grad_6yr_bachelors": 0.74,
+    "pell_grad_rate": 0.57,
+    "pell_6yr_bachelors_rate": 0.57,
+    "non_pell_grad_rate": 0.74,
+    "non_pell_6yr_bachelors": 0.74,
+    "retention_full_time": 0.93
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 417,
+    "ug_12mo": 221,
+    "grad_12mo": 196,
+    "women_12mo": 179,
+    "men_12mo": 238,
+    "fall_total": 439,
+    "distance_ed_any": 439,
+    "race_ethnicity": {
+      "white": 0.3023,
+      "black": 0.0372,
+      "hispanic": 0.1349,
+      "asian": 0.0744,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.1023,
+      "non_resident": 0.3023,
+      "race_unknown": 0.0465
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 120
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 8,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 5.0,
+    "instr_total_fte": 34
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 202073,
+        "slug": "cleveland-institute-of-music",
+        "name": "Cleveland Institute of Music",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.47306791569086654,
+          "yield_rate": 0.1485148514851485,
+          "grad_rate": 0.72,
+          "retention_rate": 0.9,
+          "enrollment": 293,
+          "avg_net_price": 32623
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 192712,
+        "slug": "manhattan-school-of-music",
+        "name": "Manhattan School of Music",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4078291814946619,
+          "yield_rate": 0.2530541012216405,
+          "grad_rate": 0.78,
+          "retention_rate": 0.93,
+          "enrollment": 1084,
+          "avg_net_price": 47599
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 192110,
+        "slug": "the-juilliard-school",
+        "name": "The Juilliard School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09152542372881356,
+          "yield_rate": 0.6349206349206349,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1073,
+          "avg_net_price": 37903
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 167057,
+        "slug": "the-new-england-conservatory-of-music",
+        "name": "The New England Conservatory of Music",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.41097122302158273,
+          "yield_rate": 0.29540481400437635,
+          "grad_rate": 0.73,
+          "retention_rate": 0.88,
+          "enrollment": 853,
+          "avg_net_price": 42556
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122506",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:31:05.301894+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Professional Development Grants",
+      "agency": "San Francisco Conservatory of Music",
+      "kind": "opportunity",
+      "url": "https://sfcm.edu/discover/student-resources/pdec/professional-development-grant",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "John Adams",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Adams_(composer)",
+      "field": "Music"
+    },
+    {
+      "name": "Sérgio Assad",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Assad",
+      "field": "Music"
+    },
+    {
+      "name": "George Duke",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Duke",
+      "field": "Music"
+    },
+    {
+      "name": "Gordon Getty",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gordon_Getty",
+      "field": "Music"
+    },
+    {
+      "name": "Eddie Henderson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eddie_Henderson_(musician)",
+      "field": "Music"
+    },
+    {
+      "name": "Aaron Jay Kernis",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aaron_Jay_Kernis",
+      "field": "Music"
+    },
+    {
+      "name": "Carla Kihlstedt",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carla_Kihlstedt",
+      "field": "Music"
+    },
+    {
+      "name": "Lise Lindstrom",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lise_Lindstrom",
+      "field": "Music"
+    },
+    {
+      "name": "Terry Riley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Riley",
+      "field": "Music"
+    },
+    {
+      "name": "Rob Wasserman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rob_Wasserman",
+      "field": "Music"
+    },
+    {
+      "name": "Isaac Stern",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Isaac_Stern",
+      "field": "Music"
+    }
+  ]
+}

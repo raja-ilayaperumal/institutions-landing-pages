@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:45.456523+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 488387,
+    "slug": "claremont-lincoln-university",
+    "name": "Claremont Lincoln University",
+    "website_url": "https://claremontlincoln.edu",
+    "city": "Claremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91711-4744",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MYXHXNFTFDL1",
+      "opeid": "04253600",
+      "ein": "451171945"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Claremont Lincoln University is a nonprofit institution located in Claremont, California, focused on online education. It offers a range of programs including bachelor's and master's degrees, as well as graduate certificates, emphasizing social, economic, and environmental challenges. The university was founded in 2011 and has an enrollment of approximately 300 students, with a student-to-faculty ratio of 14:1.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Claremont_Lincoln_University",
+    "source_url": "https://en.wikipedia.org/wiki/Claremont_Lincoln_University",
+    "fetched_at": "2026-06-03T16:38:41.110333+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 339,
+    "ug_12mo": 39,
+    "grad_12mo": 300,
+    "women_12mo": 252,
+    "men_12mo": 87,
+    "fall_total": 271,
+    "distance_ed_any": 271,
+    "distance_ed_exclusive": 271,
+    "race_ethnicity": {
+      "white": 0.2941,
+      "black": 0.2353,
+      "hispanic": 0.2941,
+      "asian": 0.1176,
+      "ai_an": 0.0,
+      "nh_pi": 0.0588,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 61
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 1
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 3
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 487649,
+        "slug": "california-institute-of-advanced-management",
+        "name": "California Institute of Advanced Management",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.746,
+        "metrics": {
+          "enrollment": 344
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 117557,
+        "slug": "lincoln-university",
+        "name": "Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.6632,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.89,
+          "enrollment": 436
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118693,
+        "slug": "menlo-college",
+        "name": "Menlo College",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.6141,
+        "metrics": {
+          "admit_rate": 0.6847099417726978,
+          "yield_rate": 0.052598425196850394,
+          "grad_rate": 0.54,
+          "retention_rate": 0.7,
+          "enrollment": 810,
+          "avg_net_price": 27032
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 486433,
+        "slug": "presidio-graduate-school",
+        "name": "Presidio Graduate School",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.6044,
+        "metrics": {
+          "enrollment": 74
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 120838,
+        "slug": "pacific-states-university",
+        "name": "Pacific States University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.5628,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 101
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

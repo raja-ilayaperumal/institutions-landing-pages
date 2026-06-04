@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:12.205296+00:00",
+  "generated_at": "2026-06-04T04:57:26.233879+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Mission College may refer to:Asia-Pacific International University, formerly known as Mission College\nMission College (California), a two-year community college in Santa Clara, California\nLos Angeles Mission College, a two-year community college in the Sylmar district of Los Angeles, California\nThe College of Missions, a defunct Danish government agency that funded and directed Lutheran missions\nMission College Preparatory High School, in San Luis Obispo, California",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mission_College",
-    "source_url": "https://en.wikipedia.org/wiki/Mission_College",
-    "fetched_at": "2026-05-26T15:45:16.982188+05:30"
+    "summary": "Mission College is a public community college in Santa Clara, California. It is part of the West Valley–Mission Community College District. The land the college is on was bought between 1966 and 1967. Mission College opened for its first year in 1975. In 1979 it had grown to \"3,500 students, 8 administrators, and 73 instructors\".",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mission_College_(California)",
+    "source_url": "https://en.wikipedia.org/wiki/Mission_College_(California)",
+    "fetched_at": "2026-06-04T09:35:41.989637+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1438,
+    "out_of_state_tuition": 12220,
     "avg_net_price": 5198,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.732,
     "federal_loan_rate": 0.0035,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7959,
       "75_110k": 9157,
       "110k_plus": 7049
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4619,
     "grad_rate_total": 0.39,
     "pell_grad_rate": 0.38,
     "retention_full_time": 0.73,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11404,
     "ug_12mo": 11404,
-    "grad_12mo": 9215,
+    "grad_12mo": 0,
     "women_12mo": 6092,
     "men_12mo": 5312,
     "fall_total": 6909,
-    "fall_full_time": 6909,
-    "fall_part_time": 5784,
     "distance_ed_any": 6909,
     "distance_ed_exclusive": 2484,
     "race_ethnicity": {

@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:03.541462+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 122728,
+    "slug": "william-jessup-university",
+    "name": "William Jessup University",
+    "website_url": "https://www.jessup.edu",
+    "city": "Rocklin",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95765-3707",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FBXYMNPM5KS6",
+      "opeid": "00128100",
+      "ein": "941279803"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Jessup University is a private Christian university in Rocklin, California, United States, with additional sites in San Jose, California, and Portland, Oregon. The university had 1,743 students during the 2019–20 academic year. Founded in 1939, it had a total undergraduate enrollment of 1,289 in the fall of 2020 on a 126-acre (51 ha) campus.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jessup_University",
+    "source_url": "https://en.wikipedia.org/wiki/Jessup_University",
+    "fetched_at": "2026-06-01T21:45:32.660829+05:30"
+  },
+  "admissions": {
+    "applicants": 1289,
+    "admits": 1203,
+    "enrolled": 236,
+    "first_time_freshmen": 236,
+    "first_time_freshmen_ft": 231,
+    "admission_rate": 0.7682,
+    "admit_rate": 0.9332816136539953,
+    "yield_rate": 0.19617622610141314
+  },
+  "cost": {
+    "in_state_tuition": 37150,
+    "out_of_state_tuition": 37150,
+    "avg_net_price": 25300,
+    "pell_grant_rate": 0.1146,
+    "federal_loan_rate": 0.4731,
+    "net_price_by_family_income": {
+      "0_30k": 23837,
+      "30_48k": 22404,
+      "48_75k": 18555,
+      "75_110k": 25613,
+      "110k_plus": 30800
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6071,
+    "grad_rate_total": 0.56,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.54,
+    "grad_6yr_bachelors": 0.56,
+    "pell_grad_rate": 0.51,
+    "pell_6yr_bachelors_rate": 0.51,
+    "non_pell_grad_rate": 0.71,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.77,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2109,
+    "ug_12mo": 1517,
+    "grad_12mo": 592,
+    "women_12mo": 1167,
+    "men_12mo": 942,
+    "fall_total": 1865,
+    "distance_ed_any": 1865,
+    "distance_ed_exclusive": 434,
+    "race_ethnicity": {
+      "white": 0.4466,
+      "black": 0.0558,
+      "hispanic": 0.2488,
+      "asian": 0.0431,
+      "ai_an": 0.0176,
+      "nh_pi": 0.0127,
+      "two_or_more": 0.0578,
+      "non_resident": 0.0343,
+      "race_unknown": 0.0833
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 108
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 6
+      }
+    ],
+    "program_count": 38,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 14
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 63
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 126669,
+        "slug": "colorado-christian-university",
+        "name": "Colorado Christian University",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9432375613174492,
+          "yield_rate": 0.4049034175334324,
+          "grad_rate": 0.63,
+          "retention_rate": 0.84,
+          "enrollment": 9951,
+          "avg_net_price": 25458
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 114813,
+        "slug": "fresno-pacific-university",
+        "name": "Fresno Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.640721940214326,
+          "yield_rate": 0.17253521126760563,
+          "grad_rate": 0.5,
+          "retention_rate": 0.72,
+          "enrollment": 2879,
+          "avg_net_price": 14317
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 123457,
+        "slug": "simpson-university",
+        "name": "Simpson University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8602673147023087,
+          "yield_rate": 0.24152542372881355,
+          "grad_rate": 0.49,
+          "retention_rate": 0.6,
+          "enrollment": 992,
+          "avg_net_price": 27923
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 152530,
+        "slug": "taylor-university",
+        "name": "Taylor University",
+        "state": "Indiana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7352577319587629,
+          "yield_rate": 0.32305103757711723,
+          "grad_rate": 0.74,
+          "retention_rate": 0.89,
+          "enrollment": 2548,
+          "avg_net_price": 24327
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 117751,
+        "slug": "the-master-s-university-and-seminary",
+        "name": "The Master's University and Seminary",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.840152235965747,
+          "yield_rate": 0.4575311438278596,
+          "grad_rate": 0.67,
+          "retention_rate": 0.85,
+          "enrollment": 2860,
+          "avg_net_price": 32121
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://jessup.edu/about/office-of-academic-research/",
+    "office_name": "Office of Academic Research",
+    "summary": "The Office of Academic Research exists to inspire and coordinate scholarship across academic disciplines for the various schools and institutes, assisting faculty in contributing to the knowledge base in their disciplines while ensuring alignment with Jessup’s mission and goals.",
+    "phone": "916-577-2252",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:45:31.038849+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Dr. Liz Stanley",
+      "title": "Office of Academic Research Director"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=122728",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:07.823776+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Robert Whaples",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Whaples"
+    }
+  ]
+}

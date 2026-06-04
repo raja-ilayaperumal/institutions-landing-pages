@@ -1,0 +1,564 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:39.301615+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447795,
+    "slug": "american-institute-of-massage-therapy",
+    "name": "American Institute of Massage Therapy",
+    "website_url": "https://www.aimtinc.com",
+    "city": "Santa Ana",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92705-5411",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "C6NMSVPCCCB3",
+      "opeid": "03962300",
+      "ein": "900044328"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The American Institute of Massage Therapy is a private postsecondary institution located in Santa Ana, California, focusing on massage therapy training. It offers programs that emphasize hands-on experience, with curriculum hours that are specified at 624 and 1029 hours. The founding year is not mentioned on the page.",
+    "source_url": "https://www.aimtinc.com/about",
+    "fetched_at": "2026-06-03T19:08:15.643996+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 14762,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0385,
+    "net_price_by_family_income": {
+      "30_48k": 14277,
+      "48_75k": 15896
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9877,
+    "grad_rate_total": 0.98,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 82,
+    "ug_12mo": 82,
+    "grad_12mo": 0,
+    "women_12mo": 69,
+    "men_12mo": 13,
+    "fall_total": 19,
+    "distance_ed_any": 19,
+    "race_ethnicity": {
+      "white": 0.2353,
+      "black": 0.0,
+      "hispanic": 0.1176,
+      "asian": 0.6471,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 1,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 446084,
+        "slug": "calc-institute-of-technology",
+        "name": "CALC Institute of Technology",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 83
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 497912,
+        "slug": "concorde-career-college-broadway",
+        "name": "Concorde Career College-Broadway",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6578947368421053,
+          "enrollment": 26,
+          "avg_net_price": 24417
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 486770,
+        "slug": "cortiva-institute-arlington",
+        "name": "Cortiva Institute-Arlington",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 155,
+          "avg_net_price": 33971
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 496715,
+        "slug": "ctk-healthcare-and-career-institute",
+        "name": "CTK Healthcare & Career Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 114,
+          "avg_net_price": 4779
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 455071,
+        "slug": "healing-arts-center",
+        "name": "Healing Arts Center",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 113
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 446303,
+        "slug": "healthcare-training-institute",
+        "name": "Healthcare Training Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4166666666666667,
+          "yield_rate": 1.0,
+          "retention_rate": 0.95,
+          "enrollment": 48,
+          "avg_net_price": 5699
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 496751,
+        "slug": "institute-of-allied-healthcare",
+        "name": "Institute of Allied Healthcare",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.05,
+          "enrollment": 60,
+          "avg_net_price": 5403
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 475282,
+        "slug": "marian-health-careers-center-van-nuys-campus",
+        "name": "Marian Health Careers Center-Van Nuys Campus",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 90,
+          "avg_net_price": 32543
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 476595,
+        "slug": "medical-allied-career-center",
+        "name": "Medical Allied Career Center",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 48,
+          "avg_net_price": 29617
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 488217,
+        "slug": "medical-career-and-technical-college",
+        "name": "Medical Career & Technical College",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9574468085106383,
+          "yield_rate": 0.6222222222222222,
+          "retention_rate": 0.88,
+          "enrollment": 235,
+          "avg_net_price": 22218
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 372028,
+        "slug": "north-west-college-glendale",
+        "name": "North-West College-Glendale",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.9259259259259259,
+          "retention_rate": 0.8,
+          "enrollment": 71,
+          "avg_net_price": 34899
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 461412,
+        "slug": "northern-virginia-school-of-therapeutic-massage",
+        "name": "Northern Virginia School of Therapeutic Massage",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 101
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 456515,
+        "slug": "ross-medical-education-center-battle-creek",
+        "name": "Ross Medical Education Center-Battle Creek",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 50,
+          "avg_net_price": 22416
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 480550,
+        "slug": "ross-medical-education-center-bowling-green",
+        "name": "Ross Medical Education Center-Bowling Green",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 57,
+          "avg_net_price": 21401
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 481906,
+        "slug": "ross-medical-education-center-charleston",
+        "name": "Ross Medical Education Center-Charleston",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 65,
+          "avg_net_price": 21927
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 488952,
+        "slug": "ross-medical-education-center-elyria",
+        "name": "Ross Medical Education Center-Elyria",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 74,
+          "avg_net_price": 20586
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 481890,
+        "slug": "ross-medical-education-center-erlanger",
+        "name": "Ross Medical Education Center-Erlanger",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.42,
+          "enrollment": 77,
+          "avg_net_price": 22211
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 484349,
+        "slug": "ross-medical-education-center-evansville",
+        "name": "Ross Medical Education Center-Evansville",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 91,
+          "avg_net_price": 20553
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 481863,
+        "slug": "ross-medical-education-center-kokomo",
+        "name": "Ross Medical Education Center-Kokomo",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 75,
+          "avg_net_price": 22946
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 486752,
+        "slug": "ross-medical-education-center-muncie",
+        "name": "Ross Medical Education Center-Muncie",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 63,
+          "avg_net_price": 21127
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 460118,
+        "slug": "ross-medical-education-center-niles",
+        "name": "Ross Medical Education Center-Niles",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 99,
+          "avg_net_price": 20805
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 247409,
+        "slug": "ross-medical-education-center-saginaw",
+        "name": "Ross Medical Education Center-Saginaw",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.42,
+          "enrollment": 84,
+          "avg_net_price": 20796
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 367158,
+        "slug": "ross-medical-education-center-taylor",
+        "name": "Ross Medical Education Center-Taylor",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 75,
+          "avg_net_price": 20273
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 498331,
+        "slug": "san-francisco-school-of-massage-and-bodywork",
+        "name": "San Francisco School of Massage & Bodywork",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 139,
+          "avg_net_price": 22464
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 495934,
+        "slug": "san-joaquin-valley-college-delano",
+        "name": "San Joaquin Valley College-Delano",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 69,
+          "avg_net_price": 20843
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 228282,
+        "slug": "southwest-school-of-business-and-technical-careers-san-antonio",
+        "name": "Southwest School of Business and Technical Careers-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 21,
+          "avg_net_price": 22508
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 179511,
+        "slug": "st-louis-college-of-health-careers-st-louis",
+        "name": "St Louis College of Health Careers-St Louis",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 153,
+          "avg_net_price": 26422
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 491084,
+        "slug": "unitech-training-academy-baton-rouge",
+        "name": "Unitech Training Academy-Baton Rouge",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 72,
+          "avg_net_price": 22687
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 448646,
+        "slug": "unitech-training-academy-houma",
+        "name": "Unitech Training Academy-Houma",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 47,
+          "avg_net_price": 21938
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 485801,
+        "slug": "westchester-school-for-medical-and-dental-assistants",
+        "name": "Westchester School for Medical & Dental Assistants",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 67,
+          "avg_net_price": 16352
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 488138,
+        "slug": "williams-technical-college",
+        "name": "Williams Technical College",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.22,
+          "enrollment": 28,
+          "avg_net_price": 15577
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 481146,
+        "slug": "woodruff-medical-and-wellness-training",
+        "name": "Woodruff Medical and Wellness Training",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 60,
+          "avg_net_price": 19813
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=447795",
+      "stored": false,
+      "fetched_at": "2026-06-03T19:08:27.785562+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

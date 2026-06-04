@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:04.555368+00:00",
+  "generated_at": "2026-06-04T04:56:08.269890+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 5422,
     "first_time_freshmen": 5422,
     "first_time_freshmen_ft": 5401,
+    "admission_rate": 0.633,
     "admit_rate": 0.7639022877618522,
     "yield_rate": 0.12227409061182148
   },
   "cost": {
+    "in_state_tuition": 14170,
+    "out_of_state_tuition": 44947,
     "room_and_board": 20691,
+    "total_cost_in_state": 34861,
+    "total_cost_out_of_state": 65638,
     "avg_net_price": 13707,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0294,
     "federal_loan_rate": 0.3281,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 12449,
       "75_110k": 17297,
       "110k_plus": 29624
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.7656,
     "grad_rate_total": 0.76,
     "grad_4yr_bachelors": 0.65,
     "grad_5yr_bachelors": 0.74,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 28335,
     "ug_12mo": 24342,
-    "grad_12mo": 24289,
+    "grad_12mo": 3993,
     "women_12mo": 14086,
     "men_12mo": 14249,
     "fall_total": 26384,
-    "fall_full_time": 22600,
-    "fall_part_time": 22593,
     "distance_ed_any": 26384,
     "distance_ed_exclusive": 263,
     "race_ethnicity": {
@@ -873,20 +877,7 @@
       "fetched_at": "2026-05-25T18:40:16.64086+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Research Administrator 3 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179387522"
-    },
-    {
-      "title": "Coordinator for Curriculum and Assessment - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179214514"
-    },
-    {
-      "title": "Evaluation & Assessment Analyst - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179351745"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "UCR Research Seed Funding and Grant Program",

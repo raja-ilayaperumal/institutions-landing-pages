@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:22.457803+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111966,
+    "slug": "charles-r-drew-university-of-medicine-and-science",
+    "name": "Charles R Drew University of Medicine and Science",
+    "website_url": "https://www.cdrewu.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90059",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PFBDNBDS57H3",
+      "opeid": "01036500",
+      "ein": "956151774"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Charles R. Drew University of Medicine and Science (CDU) is a private research university in Willowbrook, California, focused on health sciences. It was founded in 1966 in response to inadequate medical access within the Watts region of Los Angeles, California. The university is named in honor of Charles R. Drew, a physician and medical researcher whose pioneering work in blood transfusion and blood banking during World War II laid the foundation for modern transfusion medicine. CDU is a federally designated Historically Black Graduate Institutions, one of only four historically Black medical colleges in the United States and the only such institution west of the Mississippi.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Charles_R._Drew_University_of_Medicine_and_Science",
+    "source_url": "https://en.wikipedia.org/wiki/Charles_R._Drew_University_of_Medicine_and_Science",
+    "fetched_at": "2026-06-02T11:17:45.494971+05:30"
+  },
+  "admissions": {
+    "applicants": 808,
+    "admits": 313,
+    "enrolled": 11,
+    "first_time_freshmen": 11,
+    "first_time_freshmen_ft": 11,
+    "admission_rate": 0.3878,
+    "admit_rate": 0.3873762376237624,
+    "yield_rate": 0.03514376996805112
+  },
+  "cost": {
+    "in_state_tuition": 18933,
+    "out_of_state_tuition": 18933,
+    "avg_net_price": 27789,
+    "pell_grant_rate": 0.2575,
+    "federal_loan_rate": 0.687,
+    "net_price_by_family_income": {
+      "0_30k": 30176,
+      "30_48k": 25714,
+      "48_75k": 29238
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5,
+    "grad_rate_total": 0.3,
+    "grad_4yr_bachelors": 0.15,
+    "grad_5yr_bachelors": 0.15,
+    "grad_6yr_bachelors": 0.3,
+    "pell_grad_rate": 0.32,
+    "pell_6yr_bachelors_rate": 0.32,
+    "retention_full_time": 0.5,
+    "retention_part_time": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1107,
+    "ug_12mo": 340,
+    "grad_12mo": 767,
+    "women_12mo": 774,
+    "men_12mo": 333,
+    "fall_total": 852,
+    "distance_ed_any": 852,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0343,
+      "black": 0.3433,
+      "hispanic": 0.206,
+      "asian": 0.0987,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.2833,
+      "non_resident": 0.0,
+      "race_unknown": 0.0343
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 279
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 35
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 4.0,
+    "instr_total_fte": 107
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 100724,
+        "slug": "alabama-state-university",
+        "name": "Alabama State University",
+        "state": "Alabama",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9755152856550007,
+          "yield_rate": 0.1497447532614861,
+          "grad_rate": 0.3,
+          "retention_rate": 0.7,
+          "enrollment": 4081,
+          "avg_net_price": 13889
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 180878,
+        "slug": "bryan-college-of-health-sciences",
+        "name": "Bryan College of Health Sciences",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6736842105263158,
+          "yield_rate": 0.671875,
+          "grad_rate": 0.63,
+          "retention_rate": 0.71,
+          "enrollment": 765,
+          "avg_net_price": 25884
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 198109,
+        "slug": "cabarrus-college-of-health-sciences",
+        "name": "Cabarrus College of Health Sciences",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.23376623376623376,
+          "yield_rate": 0.4444444444444444,
+          "retention_rate": 1.0,
+          "enrollment": 924,
+          "avg_net_price": 17271
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 138947,
+        "slug": "clark-atlanta-university",
+        "name": "Clark Atlanta University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6422095797394017,
+          "yield_rate": 0.057152654740812714,
+          "grad_rate": 0.49,
+          "retention_rate": 0.71,
+          "enrollment": 4252,
+          "avg_net_price": 35115
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 220792,
+        "slug": "meharry-medical-college",
+        "name": "Meharry Medical College",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1226
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 140562,
+        "slug": "morehouse-school-of-medicine",
+        "name": "Morehouse School of Medicine",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 967
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 147590,
+        "slug": "national-university-of-health-sciences",
+        "name": "National University of Health Sciences",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 511
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 418126,
+        "slug": "new-york-college-of-health-professions",
+        "name": "New York College of Health Professions",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7878787878787878,
+          "yield_rate": 0.5384615384615384,
+          "enrollment": 96,
+          "avg_net_price": 42908
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 122296,
+        "slug": "samuel-merritt-university",
+        "name": "Samuel Merritt University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1926
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 112525,
+        "slug": "western-university-of-health-sciences",
+        "name": "Western University of Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3665
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.cdrewu.edu/cpsc_dir_department_secondary/inst-research-eff/",
+    "office_name": "Inst Research & Eff",
+    "summary": "The page contains contact information for the Inst Research & Eff office at Charles R. Drew University of Medicine and Science, including the name and title of Samuel Pendar, the Institutional Data Analyst. The physical address and contact phone number of the university are also provided.",
+    "address": "1731 E. 120th St.  Los Angeles, CA 90059",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T11:17:44.342431+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Samuel Pendar",
+      "title": "Institutional Data Anlst"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=111966",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:17:46.642141+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "MD Program Strategic Plan",
+      "url": "https://www.cdrewu.edu/academics/program/cdumd/md-program-strategic-plan/",
+      "summary": "The Charles R. Drew University of Medicine and Science has developed a strategic plan for the years 2021-2026 to establish an independent Four-Year Medical Program. This effort builds upon the 2016-2020 strategic plan and aims to capitalize on the newly obtained preliminary accreditation from the Liaison Committee on Medical Education. The plan focuses on guiding the university towards enrolling its first class in the late summer of 2023, aligning with the broader university themes.",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:14:09.489895+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "The California Endowment Awards CDU $3 Million for the College of Medicine and Health Professions Education Building",
+      "agency": "The California Endowment",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "W.M. Keck Foundation Awards CDU $3 Million Grant for Health Professions Education Building",
+      "agency": "W.M. Keck Foundation",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "NIH/NIAID Award Funds UCLA-CDU CFAR",
+      "agency": "NIH/NIAID",
+      "kind": "award",
+      "amount_usd": 2200000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "CDU Awarded $2 Million Grant From The California Wellness Foundation",
+      "agency": "The California Wellness Foundation",
+      "kind": "award",
+      "amount_usd": 2000000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "CDU Awarded $2 Million Grant From the National Institutes of Health",
+      "agency": "National Institutes of Health",
+      "kind": "award",
+      "amount_usd": 2000000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "CDU Receives $150K from Grifols to Support Scholarships and Saturday Science Academy",
+      "agency": "Grifols",
+      "kind": "award",
+      "amount_usd": 150000,
+      "url": "https://www.cdrewu.edu/category/partnerships-and-grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

@@ -1,0 +1,533 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:44.469469+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114585,
+    "slug": "five-branches-university",
+    "name": "Five Branches University",
+    "website_url": "https://www.fivebranches.edu",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95062",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JMSZTCNMY5Z7",
+      "opeid": "03131300",
+      "ein": "455273465"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Five Branches University is a graduate school located in Santa Cruz and San Jose, California, focusing on Traditional Chinese Medicine (TCM). The institution offers various master's and doctoral programs in the field. The founding year is not explicitly mentioned.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Five_Branches_University",
+    "source_url": "https://en.wikipedia.org/wiki/Five_Branches_University",
+    "fetched_at": "2026-06-03T16:16:37.02314+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 360,
+    "women_12mo": 278,
+    "men_12mo": 82,
+    "fall_total": 321,
+    "distance_ed_any": 321,
+    "distance_ed_exclusive": 34
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 134
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 1
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 487995,
+        "slug": "alhambra-medical-university",
+        "name": "Alhambra Medical University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 140
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 446002,
+        "slug": "american-academy-of-health-and-wellness",
+        "name": "American Academy of Health and Wellness",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 29
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 429085,
+        "slug": "american-college-of-acupuncture-and-oriental-med",
+        "name": "American College of Acupuncture and Oriental Med",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 76
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 429094,
+        "slug": "aoma-graduate-school-of-integrative-medicine",
+        "name": "AOMA Graduate School of Integrative Medicine",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 5,
+        "unitid": 446039,
+        "slug": "arizona-school-of-acupuncture-and-oriental-medicine",
+        "name": "Arizona School of Acupuncture and Oriental Medicine",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 19
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 488572,
+        "slug": "california-health-sciences-university",
+        "name": "California Health Sciences University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 607
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 448239,
+        "slug": "careers-unlimited",
+        "name": "Careers Unlimited",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 118
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 475741,
+        "slug": "chamberlain-university-indiana",
+        "name": "Chamberlain University-Indiana",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6666666666666666,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 144,
+          "avg_net_price": 36219
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 466921,
+        "slug": "chamberlain-university-missouri",
+        "name": "Chamberlain University-Missouri",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7777777777777778,
+          "grad_rate": 1.0,
+          "retention_rate": 0.5,
+          "enrollment": 284,
+          "avg_net_price": 34947
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 486938,
+        "slug": "chamberlain-university-nevada",
+        "name": "Chamberlain University-Nevada",
+        "state": "Nevada",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7647058823529411,
+          "yield_rate": 0.8461538461538461,
+          "grad_rate": 0.2,
+          "retention_rate": 0.75,
+          "enrollment": 652,
+          "avg_net_price": 40925
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 489344,
+        "slug": "chamberlain-university-north-carolina",
+        "name": "Chamberlain University-North Carolina",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.5,
+          "enrollment": 202,
+          "avg_net_price": 21664
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 454236,
+        "slug": "chamberlain-university-ohio",
+        "name": "Chamberlain University-Ohio",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.875,
+          "yield_rate": 0.8571428571428571,
+          "grad_rate": 0.29,
+          "retention_rate": 0.33,
+          "enrollment": 257,
+          "avg_net_price": 32074
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 381352,
+        "slug": "colorado-chinese-medicine-university",
+        "name": "Colorado Chinese Medicine University",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 455178,
+        "slug": "daoist-traditions-college-of-chinese-medical-arts",
+        "name": "Daoist Traditions College of Chinese Medical Arts",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 102
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 447421,
+        "slug": "eagle-gate-college-layton",
+        "name": "Eagle Gate College-Layton",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.42,
+          "retention_rate": 0.67,
+          "enrollment": 226,
+          "avg_net_price": 32097
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 230366,
+        "slug": "eagle-gate-college-murray",
+        "name": "Eagle Gate College-Murray",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 1.0,
+          "enrollment": 410,
+          "avg_net_price": 28945
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 439394,
+        "slug": "east-west-college-of-natural-medicine",
+        "name": "East West College of Natural Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 27
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 446224,
+        "slug": "eastern-school-of-acupuncture-and-traditional-medicine",
+        "name": "Eastern School of Acupuncture and Traditional Medicine",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 42
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 114114,
+        "slug": "emperor-s-college-of-traditional-oriental-medicine",
+        "name": "Emperor's College of Traditional Oriental Medicine",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 150
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 434441,
+        "slug": "florida-college-of-integrative-medicine",
+        "name": "Florida College of Integrative Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 54
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 444699,
+        "slug": "institute-of-clinical-acupuncture-and-oriental-medicine",
+        "name": "Institute of Clinical Acupuncture & Oriental Medicine",
+        "state": "Hawaii",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 61
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 488776,
+        "slug": "john-patrick-university-of-health-and-applied-sciences",
+        "name": "John Patrick University of Health and Applied Sciences",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8235294117647058,
+          "yield_rate": 0.44285714285714284,
+          "enrollment": 674,
+          "avg_net_price": 23304
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 491808,
+        "slug": "meridian-university",
+        "name": "Meridian University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 297
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 383020,
+        "slug": "midwest-college-of-oriental-medicine-racine",
+        "name": "Midwest College of Oriental Medicine-Racine",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 37
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 439020,
+        "slug": "midwest-college-of-oriental-medicine-skokie",
+        "name": "Midwest College of Oriental Medicine-Skokie",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 30
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 447698,
+        "slug": "phoenix-institute-of-herbal-medicine-and-acupuncture",
+        "name": "Phoenix Institute of Herbal Medicine & Acupuncture",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 118
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 260813,
+        "slug": "platt-college-aurora",
+        "name": "Platt College-Aurora",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36363636363636365,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.83,
+          "avg_net_price": 42287
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 494010,
+        "slug": "ponce-health-sciences-university-st-louis",
+        "name": "Ponce Health Sciences University-St Louis",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 164
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 178989,
+        "slug": "research-college-of-nursing",
+        "name": "Research College of Nursing",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 205
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 481720,
+        "slug": "south-university-high-point",
+        "name": "South University-High Point",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 67,
+          "avg_net_price": 27634
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 459259,
+        "slug": "south-university-richmond",
+        "name": "South University-Richmond",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.67,
+          "enrollment": 395,
+          "avg_net_price": 26205
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 430704,
+        "slug": "texas-health-and-science-university",
+        "name": "Texas Health and Science University",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 92
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 447801,
+        "slug": "university-of-east-west-medicine",
+        "name": "University of East-West Medicine",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 81
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114585",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:13:55.222835+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

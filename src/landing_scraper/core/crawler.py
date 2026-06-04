@@ -10,14 +10,97 @@ Falls back to plain httpx + BeautifulSoup if crawl4ai/playwright errors out
 from __future__ import annotations
 
 import asyncio
+import os
 from dataclasses import dataclass
 from typing import Any
+from urllib.parse import urlparse
 
 import httpx
 import structlog
 from bs4 import BeautifulSoup
 
 log = structlog.get_logger(__name__)
+
+# Per-domain browser circuit breaker. Some sites (esp. for-profit trade schools
+# behind Cloudflare/Imperva) return 403 to BOTH httpx AND the headless browser —
+# they block every bot. Escalating each probed URL to a browser there is pure
+# waste (observed: 139/146 browser escalations on uei.edu came back 403/empty)
+# and it dominates wall-time on the for-profit tail. After a few proven-blocked
+# browser escalations on a host, stop escalating to the browser for that host
+# and fall straight to Wayback. No data is lost — the live site yields nothing
+# to any bot — and the bulk of browser launches disappear.
+_BROWSER_BLOCK_THRESHOLD = 3
+_domain_browser_fails: dict[str, int] = {}
+_domain_browser_blocked: set[str] = set()
+
+
+def _host(url: str) -> str:
+    return (urlparse(url).netloc or "").lower()
+
+
+def _is_block_signal(res: "FetchResult") -> bool:
+    """A browser result that looks like an anti-bot block (not a real 404)."""
+    if res.status_code in (401, 403, 429, 503):
+        return True
+    return not res.status_code and len(res.markdown or "") < 50
+
+
+def _note_browser_outcome(url: str, res: "FetchResult | None", *, errored: bool) -> None:
+    h = _host(url)
+    if not h:
+        return
+    blocked = errored or (res is not None and _is_block_signal(res))
+    if blocked:
+        _domain_browser_fails[h] = _domain_browser_fails.get(h, 0) + 1
+        if _domain_browser_fails[h] >= _BROWSER_BLOCK_THRESHOLD:
+            _domain_browser_blocked.add(h)
+    elif res is not None and res.success:
+        # A genuine success means the host isn't uniformly blocking — reset.
+        _domain_browser_fails.pop(h, None)
+        _domain_browser_blocked.discard(h)
+
+# Global cap on concurrent headless-browser fetches. Each crawl4ai call launches
+# a Chromium instance (~250MB); without this, high institution-concurrency ×
+# per-target browser escalations spawn hundreds of browsers and thrash the
+# machine (observed load avg >190 on an 8-core/16GB box). This semaphore bounds
+# the browser count globally regardless of how many institutions/targets run in
+# parallel — non-browser work (httpx, search, DB) is unaffected. Tune via
+# CRAWL4AI_MAX_BROWSERS (default 6, ~cores minus headroom).
+_browser_sem: asyncio.Semaphore | None = None
+
+
+def _browser_semaphore() -> asyncio.Semaphore:
+    global _browser_sem
+    if _browser_sem is None:
+        _browser_sem = asyncio.Semaphore(int(os.getenv("CRAWL4AI_MAX_BROWSERS", "6")))
+    return _browser_sem
+
+
+# ONE long-lived browser shared across the whole run. The previous code created
+# a fresh AsyncWebCrawler (a whole Chromium) per fetch and tore it down on exit;
+# under parallelism the crawlers collided — one fetch's teardown closed the
+# browser out from under in-flight fetches ("Target page/context/browser has
+# been closed"), so concurrent institutions got NO data while sequential ones
+# worked. A single shared crawler with concurrent .arun() calls (each gets its
+# own page) is crawl4ai's intended concurrency model and is collision-free; the
+# semaphore above bounds concurrent pages for memory.
+_shared_crawler: Any = None
+_crawler_lock: asyncio.Lock | None = None
+
+
+async def _get_crawler() -> Any:
+    global _shared_crawler, _crawler_lock
+    if _crawler_lock is None:
+        _crawler_lock = asyncio.Lock()
+    if _shared_crawler is None:
+        async with _crawler_lock:
+            if _shared_crawler is None:
+                from crawl4ai import AsyncWebCrawler, BrowserConfig
+                c = AsyncWebCrawler(config=BrowserConfig(
+                    headless=True, user_agent=DEFAULT_UA, verbose=False))
+                await c.start()
+                _shared_crawler = c
+    return _shared_crawler
 
 DEFAULT_UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -61,6 +144,14 @@ async def fetch(url: str, *, timeout: float = 30.0,
         r = await _fetch_httpx(url, timeout=min(timeout, 15.0))
         if _httpx_result_is_good(r):
             return r
+        # Circuit breaker: this host already proved it blocks the browser too.
+        # Skip the (futile, expensive) browser launch and go straight to Wayback.
+        if _host(url) in _domain_browser_blocked:
+            log.info("fetch.browser_circuit_open", url=url, host=_host(url))
+            wb = await _fetch_wayback(url, timeout=timeout)
+            if wb.success and len(wb.markdown or "") >= 300:
+                return wb
+            return r
         log.info("fetch.escalating_to_browser",
                  url=url, status=r.status_code,
                  body_chars=len(r.markdown or ""),
@@ -70,7 +161,9 @@ async def fetch(url: str, *, timeout: float = 30.0,
     try:
         c4 = await _fetch_crawl4ai(url, timeout=timeout)
         if c4.success and len(c4.markdown or "") >= 300:
+            _note_browser_outcome(url, c4, errored=False)
             return c4
+        _note_browser_outcome(url, c4, errored=False)
         # crawl4ai returned a response but it's empty/broken — let it fall
         # through to Wayback unless the failure was a real 4xx (in which case
         # the page is genuinely gone, not blocked).
@@ -79,6 +172,7 @@ async def fetch(url: str, *, timeout: float = 30.0,
         log.info("fetch.escalating_to_wayback", url=url,
                  status=c4.status_code, body_chars=len(c4.markdown or ""))
     except Exception as e:  # noqa: BLE001
+        _note_browser_outcome(url, None, errored=True)
         log.warning("fetch.crawl4ai_failed", url=url, error=str(e))
 
     # Last-resort: Wayback Machine. Useful for institution sites that
@@ -131,29 +225,37 @@ def _escalation_reason(r: "FetchResult") -> str:
 
 
 async def _fetch_crawl4ai(url: str, *, timeout: float) -> FetchResult:
-    from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
+    from crawl4ai import CacheMode, CrawlerRunConfig
 
-    browser = BrowserConfig(
-        headless=True,
-        user_agent=DEFAULT_UA,
-        verbose=False,
-    )
     run = CrawlerRunConfig(
         cache_mode=CacheMode.BYPASS,
         page_timeout=int(timeout * 1000),
         word_count_threshold=1,
     )
-    async with AsyncWebCrawler(config=browser) as crawler:
-        result = await crawler.arun(url, config=run)
-        return FetchResult(
-            url=result.url or url,
-            success=bool(result.success),
-            status_code=result.status_code if hasattr(result, "status_code") else None,
-            html=result.html or "",
-            markdown=(result.markdown.raw_markdown if hasattr(result.markdown, "raw_markdown") else (result.markdown or "")) or "",
-            fetcher="crawl4ai",
-            error=getattr(result, "error_message", None),
-        )
+    crawler = await _get_crawler()  # shared, long-lived — see _get_crawler
+    # Semaphore bounds concurrent pages on the shared browser (memory). The hard
+    # asyncio cap turns a hung navigation into a clean failure instead of a
+    # 6-minute frozen slot (page_timeout is only Playwright's internal wait).
+    async with _browser_semaphore():
+        try:
+            result = await asyncio.wait_for(
+                crawler.arun(url, config=run), timeout=timeout + 10.0
+            )
+        except (asyncio.TimeoutError, TimeoutError):
+            log.warning("crawler.crawl4ai_hard_timeout", url=url, limit=timeout + 10.0)
+            return FetchResult(
+                url=url, success=False, status_code=None, html="", markdown="",
+                fetcher="crawl4ai", error=f"hard timeout >{timeout + 10.0:.0f}s",
+            )
+    return FetchResult(
+        url=result.url or url,
+        success=bool(result.success),
+        status_code=result.status_code if hasattr(result, "status_code") else None,
+        html=result.html or "",
+        markdown=(result.markdown.raw_markdown if hasattr(result.markdown, "raw_markdown") else (result.markdown or "")) or "",
+        fetcher="crawl4ai",
+        error=getattr(result, "error_message", None),
+    )
 
 
 async def _fetch_wayback(url: str, *, timeout: float) -> FetchResult:
@@ -267,7 +369,7 @@ async def _deep_crawl_crawl4ai(
     allowed_domain: str | None,
     timeout: float,
 ) -> list[CrawlCandidate]:
-    from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
+    from crawl4ai import CacheMode, CrawlerRunConfig
     from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
     from crawl4ai.deep_crawling import BestFirstCrawlingStrategy
     from crawl4ai.deep_crawling.filters import (
@@ -291,7 +393,6 @@ async def _deep_crawl_crawl4ai(
         max_pages=max_pages,
     )
 
-    browser = BrowserConfig(headless=True, user_agent=DEFAULT_UA, verbose=False)
     run = CrawlerRunConfig(
         deep_crawl_strategy=strategy,
         scraping_strategy=LXMLWebScrapingStrategy(),
@@ -301,8 +402,20 @@ async def _deep_crawl_crawl4ai(
         word_count_threshold=1,
     )
     candidates: list[CrawlCandidate] = []
-    async with AsyncWebCrawler(config=browser) as crawler:
-        results = await crawler.arun(root_url, config=run)
+    crawler = await _get_crawler()  # shared, long-lived
+    async with _browser_semaphore():
+        # Generous hard cap: deep crawl legitimately visits up to max_pages,
+        # each bounded by page_timeout, so budget per-page time but still kill a
+        # truly hung browser. Scaled so it won't fire on healthy multi-page
+        # crawls but bounds the worst case to a few minutes, not forever.
+        deep_cap = timeout * min(max_pages, 8) + 30.0
+        try:
+            results = await asyncio.wait_for(
+                crawler.arun(root_url, config=run), timeout=deep_cap
+            )
+        except (asyncio.TimeoutError, TimeoutError):
+            log.warning("crawler.deep_crawl_hard_timeout", url=root_url, limit=deep_cap)
+            return []
         if not isinstance(results, list):
             results = [results]
         for r in results:

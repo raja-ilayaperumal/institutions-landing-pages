@@ -1,0 +1,544 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:37.183970+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120078,
+    "slug": "north-west-college-west-covina",
+    "name": "North-West College-West Covina",
+    "website_url": "https://www.nw.edu/locations/west-covina-campus",
+    "city": "West Covina",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91790",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MK8JCPKED286",
+      "opeid": "01170700",
+      "ein": "951729727"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "North-West College is a private for-profit system of colleges in California. North-West College offers diploma, associate degree and certification programs at each of its seven campuses throughout the Los Angeles and Riverside areas. North-West College was established in 1966 by Marsha Fuerst. Fuerst's family has been involved in the allied health field since the early 1950s. North-West College continues to be owned and operated by the Fuerst family.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/North-West_College",
+    "source_url": "https://en.wikipedia.org/wiki/North-West_College",
+    "wikidata_qid": "Q17040031",
+    "fetched_at": "2026-06-03T15:57:36.761115+05:30"
+  },
+  "admissions": {
+    "applicants": 178,
+    "admits": 178,
+    "enrolled": 138,
+    "first_time_freshmen": 138,
+    "first_time_freshmen_ft": 138,
+    "admit_rate": 1.0,
+    "yield_rate": 0.7752808988764045
+  },
+  "cost": {
+    "avg_net_price": 28408,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7096,
+    "net_price_by_family_income": {
+      "0_30k": 27661,
+      "30_48k": 28691,
+      "48_75k": 28742,
+      "75_110k": 31420,
+      "110k_plus": 31835
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6143,
+    "grad_rate_total": 0.68,
+    "pell_grad_rate": 0.68,
+    "non_pell_grad_rate": 0.71,
+    "retention_full_time": 0.76
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1036,
+    "ug_12mo": 1036,
+    "grad_12mo": 0,
+    "women_12mo": 888,
+    "men_12mo": 148,
+    "fall_total": 653,
+    "distance_ed_any": 653,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1984,
+      "black": 0.0551,
+      "hispanic": 0.4205,
+      "asian": 0.1071,
+      "ai_an": 0.0142,
+      "nh_pi": 0.0094,
+      "two_or_more": 0.1953,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 22
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 13
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 103909,
+        "slug": "carrington-college-mesa",
+        "name": "Carrington College-Mesa",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.553030303030303,
+          "yield_rate": 0.4794520547945205,
+          "retention_rate": 0.79,
+          "enrollment": 528,
+          "avg_net_price": 47290
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 437936,
+        "slug": "carrington-college-san-jose",
+        "name": "Carrington College-San Jose",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9340659340659341,
+          "yield_rate": 0.7058823529411765,
+          "retention_rate": 0.76,
+          "enrollment": 645,
+          "avg_net_price": 31043
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 460181,
+        "slug": "concorde-career-college-dallas",
+        "name": "Concorde Career College-Dallas",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9044943820224719,
+          "yield_rate": 0.5403726708074534,
+          "retention_rate": 0.78,
+          "enrollment": 194,
+          "avg_net_price": 22977
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 123679,
+        "slug": "concorde-career-college-garden-grove",
+        "name": "Concorde Career College-Garden Grove",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9741935483870968,
+          "yield_rate": 0.6059602649006622,
+          "retention_rate": 0.95,
+          "enrollment": 214,
+          "avg_net_price": 22610
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 441742,
+        "slug": "concorde-career-college-grand-prairie",
+        "name": "Concorde Career College-Grand Prairie",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7529411764705882,
+          "retention_rate": 0.77,
+          "enrollment": 268,
+          "avg_net_price": 24729
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 124937,
+        "slug": "concorde-career-college-north-hollywood",
+        "name": "Concorde Career College-North Hollywood",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5702127659574469,
+          "retention_rate": 0.67,
+          "enrollment": 158,
+          "avg_net_price": 23584
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120661,
+        "slug": "concorde-career-college-san-diego",
+        "name": "Concorde Career College-San Diego",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6811594202898551,
+          "retention_rate": 0.95,
+          "enrollment": 147,
+          "avg_net_price": 24477
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 439738,
+        "slug": "fortis-college-baton-rouge",
+        "name": "Fortis College-Baton Rouge",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 482,
+          "avg_net_price": 23826
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 205179,
+        "slug": "fortis-college-centerville",
+        "name": "Fortis College-Centerville",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 547,
+          "avg_net_price": 24335
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 450067,
+        "slug": "fortis-college-cincinnati",
+        "name": "Fortis College-Cincinnati",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 500,
+          "avg_net_price": 23813
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 460020,
+        "slug": "fortis-college-columbia",
+        "name": "Fortis College-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 582,
+          "avg_net_price": 27508
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 487302,
+        "slug": "fortis-college-cuyahoga-falls",
+        "name": "Fortis College-Cuyahoga Falls",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 583,
+          "avg_net_price": 26023
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 233329,
+        "slug": "fortis-college-norfolk",
+        "name": "Fortis College-Norfolk",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.35,
+          "enrollment": 399,
+          "avg_net_price": 29556
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 382957,
+        "slug": "fortis-college-richmond",
+        "name": "Fortis College-Richmond",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 502,
+          "avg_net_price": 19803
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 372921,
+        "slug": "fortis-college-smyrna",
+        "name": "Fortis College-Smyrna",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 607,
+          "avg_net_price": 24705
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 455628,
+        "slug": "fortis-institute-birmingham",
+        "name": "Fortis Institute-Birmingham",
+        "state": "Alabama",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 613,
+          "avg_net_price": 22914
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 452124,
+        "slug": "fortis-institute-nashville",
+        "name": "Fortis Institute-Nashville",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 393,
+          "avg_net_price": 29669
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 455479,
+        "slug": "fortis-institute-pensacola",
+        "name": "Fortis Institute-Pensacola",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 760,
+          "avg_net_price": 24076
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 445744,
+        "slug": "fortis-institute-port-saint-lucie",
+        "name": "Fortis Institute-Port Saint Lucie",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 546,
+          "avg_net_price": 25465
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 457536,
+        "slug": "midwestern-career-college",
+        "name": "Midwestern Career College",
+        "state": "Illinois",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 887,
+          "avg_net_price": 11466
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 105543,
+        "slug": "pima-medical-institute-albuquerque",
+        "name": "Pima Medical Institute-Albuquerque",
+        "state": "New Mexico",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 562,
+          "avg_net_price": 20348
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 434140,
+        "slug": "pima-medical-institute-chula-vista",
+        "name": "Pima Medical Institute-Chula Vista",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 537,
+          "avg_net_price": 21925
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 486813,
+        "slug": "pima-medical-institute-el-paso",
+        "name": "Pima Medical Institute-El Paso",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 617,
+          "avg_net_price": 23746
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 449074,
+        "slug": "pima-medical-institute-renton",
+        "name": "Pima Medical Institute-Renton",
+        "state": "Washington",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 456,
+          "avg_net_price": 31193
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 492449,
+        "slug": "pima-medical-institute-san-marcos",
+        "name": "Pima Medical Institute-San Marcos",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 573,
+          "avg_net_price": 29950
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 483814,
+        "slug": "standard-healthcare-services-college-of-nursing",
+        "name": "Standard Healthcare Services-College of Nursing",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2793522267206478,
+          "yield_rate": 0.9130434782608695,
+          "retention_rate": 0.83,
+          "enrollment": 730,
+          "avg_net_price": 35630
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 480824,
+        "slug": "the-college-of-health-care-professions-dallas",
+        "name": "The College of Health Care Professions-Dallas",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 720,
+          "avg_net_price": 26236
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 489283,
+        "slug": "the-college-of-health-care-professions-mcallen-campus",
+        "name": "The College of Health Care Professions-McAllen Campus",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 787,
+          "avg_net_price": 24842
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120078",
+      "stored": false,
+      "fetched_at": "2026-06-02T19:29:06.171088+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

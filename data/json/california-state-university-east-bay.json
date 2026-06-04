@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:44.671858+00:00",
+  "generated_at": "2026-06-04T04:56:01.991942+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 792,
     "first_time_freshmen": 792,
     "first_time_freshmen_ft": 767,
+    "admission_rate": 0.9681,
     "admit_rate": 0.9738771382826326,
     "yield_rate": 0.06852989530154885
   },
   "cost": {
+    "in_state_tuition": 7055,
+    "out_of_state_tuition": 18935,
     "avg_net_price": 11276,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.2361,
     "federal_loan_rate": 0.2857,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 11087,
       "75_110k": 15190,
       "110k_plus": 20930
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4551,
     "grad_rate_total": 0.48,
     "grad_4yr_bachelors": 0.22,
     "grad_5yr_bachelors": 0.41,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 15103,
     "ug_12mo": 12028,
-    "grad_12mo": 11788,
+    "grad_12mo": 3075,
     "women_12mo": 8984,
     "men_12mo": 6119,
     "fall_total": 12326,
-    "fall_full_time": 9909,
-    "fall_part_time": 9809,
     "distance_ed_any": 12326,
     "distance_ed_exclusive": 4497,
     "race_ethnicity": {
@@ -740,16 +742,7 @@
       "fetched_at": "2026-05-25T21:55:39.160852+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "DISARC Coordinator - SSP II (Temporary) - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179181197"
-    },
-    {
-      "title": "Housing Coordinator (Temporary) - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179358670"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Research, Scholarship, and Creative Activity (RSCA) Grant Program",

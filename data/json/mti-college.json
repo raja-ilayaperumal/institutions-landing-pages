@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:20.966783+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118198,
+    "slug": "mti-college",
+    "name": "MTI College",
+    "website_url": "https://campus.edu",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95841-9817",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-career-technical-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "ZDNVBLDJDUS9",
+      "opeid": "01291200",
+      "ein": "941620973"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Campus, formerly MTI College, is a private for-profit junior college in Sacramento, California. Founded in 1965, it focuses on education in the fields of information technology, law, business, health care, and cosmetology. The college has been accredited by the Accrediting Commission for Community and Junior Colleges of the Western Association of Schools and Colleges since 1999. According to US News & World Report, in 2018 Campus had a total enrollment of 787 students. The Department of Education's College Scorecard database reports that Campus has a 71% graduation rate.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Campus_(college)",
+    "source_url": "https://en.wikipedia.org/wiki/Campus_(college)",
+    "wikidata_qid": "Q17026946",
+    "fetched_at": "2026-06-02T00:25:23.921952+05:30"
+  },
+  "admissions": {
+    "applicants": 1704,
+    "admits": 1080,
+    "enrolled": 441,
+    "first_time_freshmen": 441,
+    "first_time_freshmen_ft": 194,
+    "admission_rate": 0.8193,
+    "admit_rate": 0.6338028169014085,
+    "yield_rate": 0.4083333333333333
+  },
+  "cost": {
+    "avg_net_price": 20336,
+    "pell_grant_rate": 0.1259,
+    "federal_loan_rate": 0.3065,
+    "net_price_by_family_income": {
+      "0_30k": 18273,
+      "30_48k": 20529,
+      "48_75k": 22316,
+      "75_110k": 24203,
+      "110k_plus": 25072
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6849,
+    "grad_rate_total": 0.77,
+    "pell_grad_rate": 0.67,
+    "non_pell_grad_rate": 0.95,
+    "retention_full_time": 0.77,
+    "retention_part_time": 0.52
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2158,
+    "ug_12mo": 2158,
+    "grad_12mo": 0,
+    "women_12mo": 1680,
+    "men_12mo": 478,
+    "fall_total": 2000,
+    "distance_ed_any": 2000,
+    "distance_ed_exclusive": 1584,
+    "race_ethnicity": {
+      "white": 0.2702,
+      "black": 0.1707,
+      "hispanic": 0.3668,
+      "asian": 0.0898,
+      "ai_an": 0.0049,
+      "nh_pi": 0.0127,
+      "two_or_more": 0.0654,
+      "non_resident": 0.0,
+      "race_unknown": 0.0195
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 10
+      }
+    ],
+    "program_count": 16,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 16
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 145239,
+        "slug": "fox-college",
+        "name": "Fox College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7021276595744681,
+          "yield_rate": 0.3939393939393939,
+          "retention_rate": 0.69,
+          "enrollment": 200,
+          "avg_net_price": 13506
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 431141,
+        "slug": "institute-of-technology",
+        "name": "Institute of Technology",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 1377,
+          "avg_net_price": 23027
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 367361,
+        "slug": "interactive-college-of-technology",
+        "name": "Interactive College of Technology",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 65,
+          "avg_net_price": 13358
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 138655,
+        "slug": "interactive-college-of-technology-chamblee",
+        "name": "Interactive College of Technology-Chamblee",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 521,
+          "avg_net_price": 13775
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 460826,
+        "slug": "miller-motte-college-augusta",
+        "name": "Miller-Motte College-Augusta",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 506,
+          "avg_net_price": 22173
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 449861,
+        "slug": "milwaukee-career-college",
+        "name": "Milwaukee Career College",
+        "state": "Wisconsin",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7285714285714285,
+          "yield_rate": 0.5294117647058824,
+          "retention_rate": 0.5,
+          "enrollment": 67,
+          "avg_net_price": 22881
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 455868,
+        "slug": "national-career-college",
+        "name": "National Career College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 398,
+          "avg_net_price": 17772
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 445948,
+        "slug": "northwest-career-college",
+        "name": "Northwest Career College",
+        "state": "Nevada",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2937,
+          "avg_net_price": 14842
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 486822,
+        "slug": "pima-medical-institute-phoenix",
+        "name": "Pima Medical Institute-Phoenix",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 780,
+          "avg_net_price": 6939
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 448600,
+        "slug": "stautzenberger-college-brecksville",
+        "name": "Stautzenberger College-Brecksville",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 62,
+          "avg_net_price": 20743
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 149310,
+        "slug": "taylor-business-institute",
+        "name": "Taylor Business Institute",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9122807017543859,
+          "yield_rate": 1.0,
+          "retention_rate": 0.64,
+          "enrollment": 115,
+          "avg_net_price": 14735
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118198",
+      "stored": false,
+      "fetched_at": "2026-06-02T00:25:25.319907+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

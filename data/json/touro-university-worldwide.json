@@ -1,0 +1,660 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:05.093207+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 459727,
+    "slug": "touro-university-worldwide",
+    "name": "Touro University Worldwide",
+    "website_url": "https://www.tuw.edu",
+    "city": "Los Alamitos",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90720",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CAY4K2RTLBR3",
+      "opeid": "04142500",
+      "ein": "133838740"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Touro University Worldwide is a nonprofit institution of higher education located in California, providing both on-campus and online academic programs. It offers degrees at the bachelor's, master's, and doctorate levels, with a notable focus on liberal arts education, behavioral sciences, and healthcare fields. The institution was established in 2012 and is part of the larger Touro College and University System.",
+    "source_url": "https://www.tuw.edu/about",
+    "fetched_at": "2026-06-04T09:35:53.573812+05:30"
+  },
+  "admissions": {
+    "applicants": 130,
+    "admits": 44,
+    "enrolled": 32,
+    "first_time_freshmen": 32,
+    "first_time_freshmen_ft": 22,
+    "admit_rate": 0.3384615384615385,
+    "yield_rate": 0.7272727272727273
+  },
+  "cost": {
+    "in_state_tuition": 14600,
+    "out_of_state_tuition": 14600,
+    "avg_net_price": 16599,
+    "pell_grant_rate": 0.3654,
+    "federal_loan_rate": 0.4782,
+    "net_price_by_family_income": {
+      "0_30k": 15310,
+      "30_48k": 14353,
+      "48_75k": 18397,
+      "75_110k": 19620,
+      "110k_plus": 17452
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4231,
+    "grad_rate_total": 0.29,
+    "grad_4yr_bachelors": 0.29,
+    "grad_5yr_bachelors": 0.29,
+    "grad_6yr_bachelors": 0.29,
+    "pell_grad_rate": 0.25,
+    "pell_6yr_bachelors_rate": 0.25,
+    "non_pell_grad_rate": 0.0,
+    "non_pell_6yr_bachelors": 0.0,
+    "retention_full_time": 0.65,
+    "retention_part_time": 0.42
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3187,
+    "ug_12mo": 627,
+    "grad_12mo": 2560,
+    "women_12mo": 2381,
+    "men_12mo": 806,
+    "fall_total": 2358,
+    "distance_ed_any": 2358,
+    "distance_ed_exclusive": 2324,
+    "race_ethnicity": {
+      "white": 0.3245,
+      "black": 0.2212,
+      "hispanic": 0.0793,
+      "asian": 0.0337,
+      "ai_an": 0.0024,
+      "nh_pi": 0.0072,
+      "two_or_more": 0.1058,
+      "non_resident": 0.0024,
+      "race_unknown": 0.2236
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 455
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 197
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 141
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 0
+      }
+    ],
+    "program_count": 23,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 17
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188641,
+        "slug": "alfred-university",
+        "name": "Alfred University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7383720930232558,
+          "yield_rate": 0.0991039913114309,
+          "grad_rate": 0.57,
+          "retention_rate": 0.78,
+          "enrollment": 2007,
+          "avg_net_price": 22701
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 164632,
+        "slug": "bay-path-university",
+        "name": "Bay Path University",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8519579751671442,
+          "yield_rate": 0.15582959641255606,
+          "grad_rate": 0.44,
+          "retention_rate": 0.73,
+          "enrollment": 2605,
+          "avg_net_price": 14590
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 219718,
+        "slug": "bethel-university-3",
+        "name": "Bethel University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6022880215343204,
+          "yield_rate": 0.3217877094972067,
+          "grad_rate": 0.17,
+          "retention_rate": 0.54,
+          "enrollment": 2936,
+          "avg_net_price": 21803
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 189705,
+        "slug": "canisius-university",
+        "name": "Canisius University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7235928143712574,
+          "yield_rate": 0.13141343925852367,
+          "grad_rate": 0.66,
+          "retention_rate": 0.73,
+          "enrollment": 2451,
+          "avg_net_price": 18322
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 201548,
+        "slug": "capital-university",
+        "name": "Capital University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.702212389380531,
+          "yield_rate": 0.11783238815374922,
+          "grad_rate": 0.6,
+          "retention_rate": 0.76,
+          "enrollment": 2263,
+          "avg_net_price": 23585
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 224004,
+        "slug": "concordia-university-texas",
+        "name": "Concordia University Texas",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125364431486881,
+          "yield_rate": 0.08032861706983113,
+          "grad_rate": 0.45,
+          "retention_rate": 0.58,
+          "enrollment": 1396,
+          "avg_net_price": 22240
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 173665,
+        "slug": "hamline-university",
+        "name": "Hamline University",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8762589928057554,
+          "yield_rate": 0.15862068965517243,
+          "grad_rate": 0.6,
+          "retention_rate": 0.78,
+          "enrollment": 2565,
+          "avg_net_price": 21385
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 212984,
+        "slug": "holy-family-university",
+        "name": "Holy Family University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7103508263264714,
+          "yield_rate": 0.21142857142857144,
+          "grad_rate": 0.6,
+          "retention_rate": 0.78,
+          "enrollment": 3225,
+          "avg_net_price": 12251
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 151290,
+        "slug": "indiana-institute-of-technology",
+        "name": "Indiana Institute of Technology",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7038809144072302,
+          "yield_rate": 0.13343403826787512,
+          "grad_rate": 0.47,
+          "retention_rate": 0.59,
+          "enrollment": 2770,
+          "avg_net_price": 21318
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 203368,
+        "slug": "john-carroll-university",
+        "name": "John Carroll University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.808998485831711,
+          "yield_rate": 0.15935828877005348,
+          "grad_rate": 0.79,
+          "retention_rate": 0.83,
+          "enrollment": 2864,
+          "avg_net_price": 28617
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 170675,
+        "slug": "lawrence-technological-university",
+        "name": "Lawrence Technological University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5589652548820695,
+          "yield_rate": 0.17785843920145192,
+          "grad_rate": 0.6,
+          "retention_rate": 0.78,
+          "enrollment": 3693,
+          "avg_net_price": 33995
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 198835,
+        "slug": "lenoir-rhyne-university",
+        "name": "Lenoir-Rhyne University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8458810692853246,
+          "yield_rate": 0.10996452757175104,
+          "grad_rate": 0.48,
+          "retention_rate": 0.76,
+          "enrollment": 2256,
+          "avg_net_price": 23393
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 164270,
+        "slug": "mcdaniel-college",
+        "name": "McDaniel College",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7793249940995988,
+          "yield_rate": 0.13718958207147183,
+          "grad_rate": 0.63,
+          "retention_rate": 0.76,
+          "enrollment": 2868,
+          "avg_net_price": 20923
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 178244,
+        "slug": "missouri-baptist-university",
+        "name": "Missouri Baptist University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.686046511627907,
+          "yield_rate": 0.409387222946545,
+          "grad_rate": 0.46,
+          "retention_rate": 0.65,
+          "enrollment": 5699,
+          "avg_net_price": 25807
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 119173,
+        "slug": "mount-saint-mary-s-university",
+        "name": "Mount Saint Mary's University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7312576812781647,
+          "yield_rate": 0.11988795518207283,
+          "grad_rate": 0.48,
+          "retention_rate": 0.71,
+          "enrollment": 2312,
+          "avg_net_price": 25009
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 193584,
+        "slug": "nazareth-university",
+        "name": "Nazareth University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7471579772638182,
+          "yield_rate": 0.11516264428121721,
+          "grad_rate": 0.73,
+          "retention_rate": 0.85,
+          "enrollment": 2401,
+          "avg_net_price": 30521
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 147679,
+        "slug": "north-park-university",
+        "name": "North Park University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6850777442562079,
+          "yield_rate": 0.14329268292682926,
+          "grad_rate": 0.58,
+          "retention_rate": 0.62,
+          "enrollment": 2557,
+          "avg_net_price": 18191
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 142461,
+        "slug": "northwest-nazarene-university",
+        "name": "Northwest Nazarene University",
+        "state": "Idaho",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6473668001231906,
+          "yield_rate": 0.0994291151284491,
+          "grad_rate": 0.71,
+          "retention_rate": 0.77,
+          "enrollment": 1635,
+          "avg_net_price": 25537
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 243823,
+        "slug": "parker-university",
+        "name": "Parker University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.5,
+          "enrollment": 2308,
+          "avg_net_price": 25491
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 179043,
+        "slug": "rockhurst-university",
+        "name": "Rockhurst University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6959490213928083,
+          "yield_rate": 0.19162851536952255,
+          "grad_rate": 0.74,
+          "retention_rate": 0.79,
+          "enrollment": 3577,
+          "avg_net_price": 23165
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 215743,
+        "slug": "saint-francis-university",
+        "name": "Saint Francis University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7682043461685093,
+          "yield_rate": 0.1955334987593052,
+          "grad_rate": 0.74,
+          "retention_rate": 0.83,
+          "enrollment": 2963,
+          "avg_net_price": 19173
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 206862,
+        "slug": "southern-nazarene-university",
+        "name": "Southern Nazarene University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.49,
+          "retention_rate": 0.73,
+          "enrollment": 2198,
+          "avg_net_price": 17838
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 179326,
+        "slug": "southwest-baptist-university",
+        "name": "Southwest Baptist University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.683921568627451,
+          "yield_rate": 0.34288990825688076,
+          "grad_rate": 0.53,
+          "retention_rate": 0.65,
+          "enrollment": 2199,
+          "avg_net_price": 21082
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 172334,
+        "slug": "spring-arbor-university",
+        "name": "Spring Arbor University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5152354570637119,
+          "yield_rate": 0.1651305683563748,
+          "grad_rate": 0.63,
+          "retention_rate": 0.77,
+          "enrollment": 2441,
+          "avg_net_price": 20899
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 195234,
+        "slug": "the-college-of-saint-rose",
+        "name": "The College of Saint Rose",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7339936328263177,
+          "yield_rate": 0.13879518072289157,
+          "grad_rate": 0.51,
+          "retention_rate": 0.72,
+          "avg_net_price": 23819
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 206048,
+        "slug": "tiffin-university",
+        "name": "Tiffin University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8004706673390486,
+          "yield_rate": 0.10856782864342714,
+          "grad_rate": 0.4,
+          "retention_rate": 0.72,
+          "enrollment": 3831,
+          "avg_net_price": 23758
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 224323,
+        "slug": "university-of-dallas",
+        "name": "University of Dallas",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5343886462882096,
+          "yield_rate": 0.2017364657814096,
+          "grad_rate": 0.73,
+          "retention_rate": 0.77,
+          "enrollment": 2078,
+          "avg_net_price": 25470
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 240107,
+        "slug": "viterbo-university",
+        "name": "Viterbo University",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7243367935409458,
+          "yield_rate": 0.1592356687898089,
+          "grad_rate": 0.68,
+          "retention_rate": 0.76,
+          "enrollment": 2094,
+          "avg_net_price": 22633
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 229780,
+        "slug": "wayland-baptist-university",
+        "name": "Wayland Baptist University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5595667870036101,
+          "yield_rate": 0.31981566820276497,
+          "grad_rate": 0.19,
+          "retention_rate": 0.45,
+          "enrollment": 2809,
+          "avg_net_price": 20540
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=459727",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:45:16.40571+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

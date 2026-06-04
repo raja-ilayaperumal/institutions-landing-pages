@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:35.130468+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 484631,
+    "slug": "university-of-phoenix-california",
+    "name": "University of Phoenix-California",
+    "website_url": "https://www.phoenix.edu",
+    "city": "Ontario",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91761",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EK36TZEAL385",
+      "opeid": "32098800",
+      "ein": "942473210"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Phoenix (UoPX) is a private for-profit university headquartered in Phoenix, Arizona. Founded in 1976, the university confers certificates and degrees at the certificate, associate, bachelor's, master's, and doctoral degree levels. It is institutionally accredited by the Higher Learning Commission and has an open enrollment admissions policy for many undergraduate programs. The school is owned by Phoenix Education Partners.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Phoenix",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Phoenix",
+    "fetched_at": "2026-06-03T18:52:51.618493+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.347,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.1837,
+    "grad_rate_total": 0.22,
+    "grad_4yr_bachelors": 0.05,
+    "grad_5yr_bachelors": 0.13,
+    "grad_6yr_bachelors": 0.23,
+    "pell_grad_rate": 0.3,
+    "pell_6yr_bachelors_rate": 0.3
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 412,
+    "ug_12mo": 285,
+    "grad_12mo": 127,
+    "women_12mo": 239,
+    "men_12mo": 173,
+    "fall_total": 34,
+    "distance_ed_any": 34,
+    "distance_ed_exclusive": 28,
+    "race_ethnicity": {
+      "white": 0.0968,
+      "black": 0.1097,
+      "hispanic": 0.3548,
+      "asian": 0.0452,
+      "ai_an": 0.0065,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0065,
+      "non_resident": 0.0,
+      "race_unknown": 0.3806
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 74
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 0
+      }
+    ],
+    "program_count": 23,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 3
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108232,
+        "slug": "academy-of-art-university",
+        "name": "Academy of Art University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.5146,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.75,
+          "enrollment": 5498,
+          "avg_net_price": 39778
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 139579,
+        "slug": "south-university-savannah",
+        "name": "South University-Savannah",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.1033,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.22,
+          "enrollment": 716,
+          "avg_net_price": 24116
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 233684,
+        "slug": "strayer-university-virginia",
+        "name": "Strayer University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0347,
+        "metrics": {
+          "grad_rate": 0.19,
+          "retention_rate": 0.75,
+          "enrollment": 1998
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 157793,
+        "slug": "sullivan-university",
+        "name": "Sullivan University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.031,
+        "metrics": {
+          "enrollment": 2498,
+          "avg_net_price": 25785
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0294,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Excellence in Publishing Award",
+      "agency": "University of Phoenix",
+      "kind": "award",
+      "amount_usd": 200,
+      "url": "https://www.phoenix.edu/research/scholarship-support.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Faculty Honorarium Program",
+      "agency": "University of Phoenix",
+      "kind": "award",
+      "amount_usd": 200,
+      "url": "https://www.phoenix.edu/research/scholarship-support.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Top-tiered Research Conference Award",
+      "agency": "University of Phoenix",
+      "kind": "award",
+      "amount_usd": 200,
+      "url": "https://www.phoenix.edu/research/scholarship-support.html",
+      "source": "institution_site"
+    },
+    {
+      "title": "Project-Based Research Grants",
+      "agency": "University of Phoenix",
+      "kind": "opportunity",
+      "url": "https://www.phoenix.edu/research/scholarship-support.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

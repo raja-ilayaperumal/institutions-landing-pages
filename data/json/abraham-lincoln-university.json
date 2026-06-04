@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:45.149522+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 488031,
+    "slug": "abraham-lincoln-university",
+    "name": "Abraham Lincoln University",
+    "website_url": "https://www.alu.edu",
+    "city": "Glendale",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91210",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-career-technical-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RFB8SKNBQCX5",
+      "opeid": "04243800",
+      "ein": "954591138"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Abraham Lincoln University is a private distance-learning institution located in the United States, focusing on providing online degree programs in various fields, including law and business. The founding year is not mentioned on the available information.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abraham_Lincoln_University",
+    "source_url": "https://en.wikipedia.org/wiki/Abraham_Lincoln_University",
+    "fetched_at": "2026-06-04T09:35:52.623236+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 10440,
+    "out_of_state_tuition": 10440,
+    "avg_net_price": 24825,
+    "pell_grant_rate": 0.0204,
+    "federal_loan_rate": 0.4894,
+    "net_price_by_family_income": {
+      "0_30k": 24825
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.0,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.0,
+    "grad_6yr_bachelors": 0.0,
+    "retention_full_time": 0.33
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 208,
+    "ug_12mo": 59,
+    "grad_12mo": 149,
+    "women_12mo": 111,
+    "men_12mo": 97,
+    "fall_total": 112,
+    "distance_ed_any": 112,
+    "distance_ed_exclusive": 112,
+    "race_ethnicity": {
+      "white": 0.449,
+      "black": 0.1224,
+      "hispanic": 0.2245,
+      "asian": 0.0408,
+      "ai_an": 0.0204,
+      "nh_pi": 0.0204,
+      "two_or_more": 0.0612,
+      "non_resident": 0.0,
+      "race_unknown": 0.0612
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 2
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 2.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 484862,
+        "slug": "university-of-west-los-angeles",
+        "name": "University of West Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.6738,
+        "metrics": {
+          "enrollment": 367
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 455868,
+        "slug": "national-career-college",
+        "name": "National Career College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.6049,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 398,
+          "avg_net_price": 17772
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118198,
+        "slug": "mti-college",
+        "name": "MTI College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.5289,
+        "metrics": {
+          "admit_rate": 0.6338028169014085,
+          "yield_rate": 0.4083333333333333,
+          "retention_rate": 0.77,
+          "enrollment": 2000,
+          "avg_net_price": 20336
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 431141,
+        "slug": "institute-of-technology",
+        "name": "Institute of Technology",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.5276,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 1377,
+          "avg_net_price": 23027
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 445948,
+        "slug": "northwest-career-college",
+        "name": "Northwest Career College",
+        "state": "Nevada",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.3171,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2937,
+          "avg_net_price": 14842
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

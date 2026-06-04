@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:52.179423+00:00",
+  "generated_at": "2026-06-04T04:55:42.201676+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Allan_Hancock_College",
     "fetched_at": "2026-05-25T22:55:38.386621+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1156,
+    "out_of_state_tuition": 9436,
     "avg_net_price": 4638,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6112,
     "federal_loan_rate": 0.0079,
     "net_price_by_family_income": {
       "0_30k": 3829,
       "30_48k": 3944,
       "48_75k": 6312,
-      "75_110k": 7797,
-      "110k_plus": null
-    }
+      "75_110k": 7797
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.351,
     "grad_rate_total": 0.26,
     "pell_grad_rate": 0.26,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 16308,
     "ug_12mo": 16308,
-    "grad_12mo": 10830,
+    "grad_12mo": 0,
     "women_12mo": 8633,
     "men_12mo": 7675,
     "fall_total": 11463,
-    "fall_full_time": 11463,
-    "fall_part_time": 8052,
     "distance_ed_any": 11463,
     "distance_ed_exclusive": 1432,
     "race_ethnicity": {

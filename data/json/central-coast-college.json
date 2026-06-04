@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:54.303044+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 378105,
+    "slug": "central-coast-college",
+    "name": "Central Coast College",
+    "website_url": "https://www.centralcoastcollege.edu",
+    "city": "Salinas",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93906",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Other Fields",
+    "carnegie_slug": "special-focus-2yr-other",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "S399NH1BVFK5",
+      "opeid": "02602300",
+      "ein": "271254797"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Central Coast College is a nationally accredited institution located in California, focused on career-specific education in the allied health and veterinary fields. It has been training graduates for over thirty years and offers a range of programs including medical assisting, veterinary technology, and various short-term programs. The college emphasizes hands-on experience and individualized support for student success.",
+    "source_url": "https://centralcoastcollege.edu/admissions/about-ccc/",
+    "fetched_at": "2026-06-03T19:50:19.021756+05:30"
+  },
+  "admissions": {
+    "applicants": 162,
+    "admits": 155,
+    "enrolled": 114,
+    "first_time_freshmen": 114,
+    "first_time_freshmen_ft": 114,
+    "admit_rate": 0.9567901234567902,
+    "yield_rate": 0.7354838709677419
+  },
+  "cost": {
+    "avg_net_price": 26640,
+    "pell_grant_rate": 0.0959,
+    "federal_loan_rate": 0.4561,
+    "net_price_by_family_income": {
+      "0_30k": 26064,
+      "30_48k": 26380,
+      "48_75k": 26997,
+      "75_110k": 28478,
+      "110k_plus": 29520
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.84,
+    "grad_rate_total": 0.67,
+    "pell_grad_rate": 0.67,
+    "non_pell_grad_rate": 0.76,
+    "retention_full_time": 0.89,
+    "retention_part_time": 0.57
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 859,
+    "ug_12mo": 859,
+    "grad_12mo": 0,
+    "women_12mo": 812,
+    "men_12mo": 47,
+    "fall_total": 631,
+    "distance_ed_any": 631,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0551,
+      "black": 0.0082,
+      "hispanic": 0.849,
+      "asian": 0.0143,
+      "ai_an": 0.0041,
+      "nh_pi": 0.0041,
+      "two_or_more": 0.0224,
+      "non_resident": 0.0,
+      "race_unknown": 0.0429
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 1
+      }
+    ],
+    "program_count": 12,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 21
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 103501,
+        "slug": "alaska-career-college",
+        "name": "Alaska Career College",
+        "state": "Alaska",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 250,
+          "avg_net_price": 18091
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 494986,
+        "slug": "apex-college-of-veterinary-technology",
+        "name": "Apex College of Veterinary Technology",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 27,
+          "avg_net_price": 10030
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 476683,
+        "slug": "athena-career-academy",
+        "name": "Athena Career Academy",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7804878048780488,
+          "yield_rate": 1.0,
+          "retention_rate": 0.55,
+          "enrollment": 516,
+          "avg_net_price": 25171
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 246974,
+        "slug": "carrington-college-san-leandro-campus",
+        "name": "Carrington College-San Leandro Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.918918918918919,
+          "yield_rate": 0.6617647058823529,
+          "retention_rate": 0.6,
+          "enrollment": 326,
+          "avg_net_price": 32368
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 450696,
+        "slug": "carrington-college-stockton",
+        "name": "Carrington College-Stockton",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.676056338028169,
+          "yield_rate": 0.6354166666666666,
+          "retention_rate": 0.72,
+          "enrollment": 436,
+          "avg_net_price": 30387
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 456977,
+        "slug": "cbt-technology-institute-cutler-bay",
+        "name": "CBT Technology Institute-Cutler Bay",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 326,
+          "avg_net_price": 17375
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 379782,
+        "slug": "center-for-advanced-legal-studies",
+        "name": "Center for Advanced Legal Studies",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.328125,
+          "yield_rate": 0.38095238095238093,
+          "enrollment": 271,
+          "avg_net_price": 10914
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 150251,
+        "slug": "college-of-court-reporting-inc",
+        "name": "College of Court Reporting Inc",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 182,
+          "avg_net_price": 41410
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 367361,
+        "slug": "interactive-college-of-technology",
+        "name": "Interactive College of Technology",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 65,
+          "avg_net_price": 13358
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 442435,
+        "slug": "interactive-college-of-technology-gainesville",
+        "name": "Interactive College of Technology-Gainesville",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 50,
+          "avg_net_price": 14834
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 138664,
+        "slug": "interactive-college-of-technology-morrow",
+        "name": "Interactive College of Technology-Morrow",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 117,
+          "avg_net_price": 14970
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 192509,
+        "slug": "long-island-business-institute",
+        "name": "Long Island Business Institute",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7323943661971831,
+          "yield_rate": 0.4807692307692308,
+          "retention_rate": 0.16,
+          "avg_net_price": 11166
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 460817,
+        "slug": "miller-motte-college-jacksonville",
+        "name": "Miller-Motte College-Jacksonville",
+        "state": "North Carolina",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 195,
+          "avg_net_price": 22465
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 475060,
+        "slug": "miller-motte-college-macon",
+        "name": "Miller-Motte College-Macon",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 230,
+          "avg_net_price": 22139
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 203739,
+        "slug": "ohio-business-college-sandusky",
+        "name": "Ohio Business College-Sandusky",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 22,
+          "avg_net_price": 28674
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 203720,
+        "slug": "ohio-business-college-sheffield",
+        "name": "Ohio Business College-Sheffield",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 224,
+          "avg_net_price": 21181
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 437750,
+        "slug": "professional-golfers-career-college",
+        "name": "Professional Golfers Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 70,
+          "avg_net_price": 31397
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 481775,
+        "slug": "san-joaquin-valley-college-lancaster",
+        "name": "San Joaquin Valley College-Lancaster",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 257,
+          "avg_net_price": 23940
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 123642,
+        "slug": "south-coast-college",
+        "name": "South Coast College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 306,
+          "avg_net_price": 22480
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 226903,
+        "slug": "southern-careers-institute-austin",
+        "name": "Southern Careers Institute-Austin",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 746,
+          "avg_net_price": 23458
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=378105",
+      "stored": false,
+      "fetched_at": "2026-06-02T20:36:14.55071+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

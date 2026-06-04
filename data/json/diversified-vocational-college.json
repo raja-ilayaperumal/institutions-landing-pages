@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:02.526395+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 395690,
+    "slug": "diversified-vocational-college",
+    "name": "Diversified Vocational College",
+    "website_url": "https://www.dvcla.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90017-1604",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KNW6MU56J5G9",
+      "opeid": "02553600",
+      "ein": "952925542"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Diversified Vocational College is a private vocational institution located in Los Angeles, California. It focuses on programs in Transportation and Logistics Technology and Business Office Administration, though specific founding year and size details are not mentioned on the About page.",
+    "source_url": "https://www.dvcla.edu/about",
+    "fetched_at": "2026-06-03T16:41:47.856757+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 21444,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.336,
+    "net_price_by_family_income": {
+      "0_30k": 21444
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7323,
+    "grad_rate_total": 0.96,
+    "pell_grad_rate": 0.98,
+    "non_pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 459,
+    "ug_12mo": 459,
+    "grad_12mo": 0,
+    "women_12mo": 132,
+    "men_12mo": 327,
+    "fall_total": 264,
+    "distance_ed_any": 264,
+    "race_ethnicity": {
+      "white": 0.2232,
+      "black": 0.5357,
+      "hispanic": 0.1696,
+      "asian": 0.0134,
+      "ai_an": 0.0089,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0179,
+      "non_resident": 0.0,
+      "race_unknown": 0.0313
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 4,
+    "highest_degree": 1,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 422835,
+        "slug": "american-college-of-healthcare-and-technology",
+        "name": "American College of Healthcare and Technology",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 272,
+          "avg_net_price": 15115
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 497736,
+        "slug": "american-college-of-healthcare-and-technology-santa-ana",
+        "name": "American College of Healthcare and Technology-Santa Ana",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 51,
+          "avg_net_price": 14794
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 450951,
+        "slug": "arizona-culinary-institute",
+        "name": "Arizona Culinary Institute",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 149,
+          "avg_net_price": 37938
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 479992,
+        "slug": "brand-college",
+        "name": "Brand College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 0.5,
+          "retention_rate": 1.0,
+          "enrollment": 15
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 442985,
+        "slug": "california-healing-arts-college",
+        "name": "California Healing Arts College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 243,
+          "avg_net_price": 19024
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 158617,
+        "slug": "crescent-city-bartending-school",
+        "name": "Crescent City Bartending School",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 570,
+          "avg_net_price": 19078
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 486390,
+        "slug": "culinary-tech-center",
+        "name": "Culinary Tech Center",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 15763
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 492139,
+        "slug": "dsdt",
+        "name": "DSDT",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 132,
+          "avg_net_price": 25919
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 488253,
+        "slug": "focus-personal-training-institute",
+        "name": "Focus Personal Training Institute",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 64,
+          "avg_net_price": 18870
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 457819,
+        "slug": "institute-of-culinary-education",
+        "name": "Institute of Culinary Education",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 589
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 487904,
+        "slug": "kentucky-horseshoeing-school",
+        "name": "Kentucky Horseshoeing School",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 31,
+          "avg_net_price": 30111
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 135559,
+        "slug": "merryfield-academy",
+        "name": "Merryfield Academy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 70,
+          "avg_net_price": 10019
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 496478,
+        "slug": "motion-picture-institute",
+        "name": "Motion Picture Institute",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.896551724137931,
+          "yield_rate": 0.9615384615384616,
+          "enrollment": 53
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 488280,
+        "slug": "national-personal-training-institute",
+        "name": "National Personal Training Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 36,
+          "avg_net_price": 12583
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 490018,
+        "slug": "national-personal-training-institute-tampa",
+        "name": "National Personal Training Institute-Tampa",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15,
+          "avg_net_price": 13709
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 443216,
+        "slug": "p-c-age-jersey-city",
+        "name": "P C Age-Jersey City",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 106,
+          "avg_net_price": 22327
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 443225,
+        "slug": "pc-age-metropark",
+        "name": "PC AGE-Metropark",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 46,
+          "avg_net_price": 22528
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 491534,
+        "slug": "pets-playground-grooming-school",
+        "name": "Pets Playground Grooming School",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 22
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 495138,
+        "slug": "professional-culinary-academy",
+        "name": "Professional Culinary Academy",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 17,
+          "avg_net_price": 37471
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 460127,
+        "slug": "ross-medical-education-center-canton",
+        "name": "Ross Medical Education Center-Canton",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.47,
+          "enrollment": 92,
+          "avg_net_price": 26387
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 444529,
+        "slug": "stellar-career-college",
+        "name": "Stellar Career College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 46,
+          "avg_net_price": 13155
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 430564,
+        "slug": "studio-jewelers",
+        "name": "Studio Jewelers",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 74,
+          "avg_net_price": 9590
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 491251,
+        "slug": "the-culinary-school-of-fort-worth",
+        "name": "The Culinary School of Fort Worth",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7752808988764045,
+          "yield_rate": 1.0,
+          "retention_rate": 0.91,
+          "enrollment": 92,
+          "avg_net_price": 23861
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=395690",
+      "stored": false,
+      "fetched_at": "2026-06-03T08:34:41.323298+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:30.973569+00:00",
+  "generated_at": "2026-06-04T04:58:30.915831+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,29 @@
   },
   "brand": null,
   "about": {
-    "summary": "West Valley College is a public community college in Saratoga, California. It is part of the California Community College system.",
+    "summary": "West Valley College is a public community college located in Saratoga, California, on a 143-acre campus in the foothills of the Santa Cruz Mountains. The college offers various academic programs across multiple disciplines, including art, health, language arts, and science. It primarily focuses on preparing students for transfer to four-year institutions and career readiness, with a notable record of over 1,400 degrees awarded in the 2024-2025 academic year.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/West_Valley_College",
     "source_url": "https://en.wikipedia.org/wiki/West_Valley_College",
-    "fetched_at": "2026-05-26T15:29:39.350789+05:30"
+    "fetched_at": "2026-06-03T19:49:02.951144+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1490,
+    "out_of_state_tuition": 8702,
     "avg_net_price": 1842,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6211,
     "federal_loan_rate": 0.0031,
     "net_price_by_family_income": {
-      "0_30k": -1351,
+      "0_30k": 0,
       "30_48k": 2436,
       "48_75k": 5505,
       "75_110k": 6532,
       "110k_plus": 10299
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5281,
     "grad_rate_total": 0.51,
     "pell_grad_rate": 0.47,
     "retention_full_time": 0.78,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11247,
     "ug_12mo": 11247,
-    "grad_12mo": 9120,
+    "grad_12mo": 0,
     "women_12mo": 6359,
     "men_12mo": 4888,
     "fall_total": 7655,
-    "fall_full_time": 7655,
-    "fall_part_time": 6416,
     "distance_ed_any": 7655,
     "distance_ed_exclusive": 2975,
     "race_ethnicity": {
@@ -291,16 +292,7 @@
       "fetched_at": "2026-05-26T15:28:32.278591+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President of Finance and Administration - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179384655"
-    },
-    {
-      "title": "Dean of Science, Technology, Engineering, Agriculture & Math ...",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179221660"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "FAAST Workforce Program Grant",

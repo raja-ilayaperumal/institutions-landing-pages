@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:00.464343+00:00",
+  "generated_at": "2026-06-04T04:55:41.405633+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/College_of_Alameda",
     "fetched_at": "2026-05-27T22:14:21.117094+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1148,
+    "out_of_state_tuition": 8684,
     "avg_net_price": 9280,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.8664,
     "federal_loan_rate": 0.0036,
     "net_price_by_family_income": {
       "0_30k": 8181,
       "30_48k": 8959,
       "48_75k": 11901,
-      "75_110k": 15552,
-      "110k_plus": null
-    }
+      "75_110k": 15552
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3917,
     "grad_rate_total": 0.33,
     "pell_grad_rate": 0.31,
     "retention_full_time": 0.62,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 10376,
     "ug_12mo": 10376,
-    "grad_12mo": 7741,
+    "grad_12mo": 0,
     "women_12mo": 6034,
     "men_12mo": 4342,
     "fall_total": 6141,
-    "fall_full_time": 6141,
-    "fall_part_time": 4487,
     "distance_ed_any": 6141,
     "distance_ed_exclusive": 4152,
     "race_ethnicity": {

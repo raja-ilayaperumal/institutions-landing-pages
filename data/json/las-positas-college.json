@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:34.627763+00:00",
+  "generated_at": "2026-06-04T04:58:47.365499+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Las Positas College (LPC) is a public community college in Livermore, California.",
+    "summary": "Las Positas College is a public community college located in Livermore, California, established in 1963 as an extension of Chabot College. The college currently enrolls nearly 8,500 students and offers a variety of programs, including 24 Occupational Associate Degrees, 17 Transfer Associate Degrees, and 44 Certificate Programs, focusing on career preparation, university transfer, and personal enrichment.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Las_Positas_College",
     "source_url": "https://en.wikipedia.org/wiki/Las_Positas_College",
-    "fetched_at": "2026-05-26T15:25:08.983391+05:30"
+    "fetched_at": "2026-06-03T19:47:46.269134+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1168,
+    "out_of_state_tuition": 8176,
     "avg_net_price": 4175,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6191,
     "federal_loan_rate": 0.0024,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5945,
       "75_110k": 10001,
       "110k_plus": 11071
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5271,
     "grad_rate_total": 0.53,
     "pell_grad_rate": 0.52,
     "retention_full_time": 0.81,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11170,
     "ug_12mo": 11170,
-    "grad_12mo": 9929,
+    "grad_12mo": 0,
     "women_12mo": 5862,
     "men_12mo": 5308,
     "fall_total": 8103,
-    "fall_full_time": 8103,
-    "fall_part_time": 7299,
     "distance_ed_any": 8103,
     "distance_ed_exclusive": 623,
     "race_ethnicity": {

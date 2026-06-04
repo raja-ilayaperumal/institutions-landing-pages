@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:41.534245+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 486488,
+    "slug": "california-jazz-conservatory",
+    "name": "California Jazz Conservatory",
+    "website_url": "https://www.cjc.edu",
+    "city": "Berkeley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94704-1268",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "04237600",
+      "ein": "431983168"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Jazzschool at California Jazz Conservatory is a community music school and former private conservatory in Berkeley, California. It was the only independent music conservatory in the United States devoted solely to jazz and related styles of music. Located in the Downtown Berkeley Arts District, the CJC offered Associate, Bachelor's, and Master's degrees in Jazz Studies. The conservatory also offers community education classes and workshops for instrumentalists and vocalists and precollege youth programs for beginning, intermediate and advanced musicians. In July 2024, the conservatory announced that it would end its degree programs due to \"significantly decreased enrollment and financial constraints.\" The degree programs ended after the fall 2024 semester, but community music programs continue under the name Jazzschool.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Jazz_Conservatory",
+    "source_url": "https://en.wikipedia.org/wiki/California_Jazz_Conservatory",
+    "fetched_at": "2026-06-03T19:21:03.408027+05:30"
+  },
+  "admissions": {
+    "applicants": 3,
+    "admits": 2,
+    "enrolled": 1,
+    "first_time_freshmen": 1,
+    "first_time_freshmen_ft": 1,
+    "admission_rate": 1.0,
+    "admit_rate": 0.6666666666666666,
+    "yield_rate": 0.5
+  },
+  "cost": {
+    "in_state_tuition": 23700,
+    "out_of_state_tuition": 23700,
+    "pell_grant_rate": 0.3,
+    "federal_loan_rate": 0.5217,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5,
+    "grad_rate_total": 1.0,
+    "grad_4yr_bachelors": 0.5,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 1.0,
+    "retention_full_time": 0.0,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 24,
+    "ug_12mo": 24,
+    "grad_12mo": 0,
+    "women_12mo": 7,
+    "men_12mo": 17,
+    "fall_total": 6,
+    "distance_ed_any": 6,
+    "race_ethnicity": {
+      "white": 0.5,
+      "black": 0.0,
+      "hispanic": 0.45,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.05,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 6
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 4.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108870,
+        "slug": "american-film-institute-conservatory",
+        "name": "American Film Institute Conservatory",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 379
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 201061,
+        "slug": "art-academy-of-cincinnati",
+        "name": "Art Academy of Cincinnati",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34493426140757927,
+          "yield_rate": 0.11434977578475336,
+          "grad_rate": 0.41,
+          "retention_rate": 0.51,
+          "enrollment": 213,
+          "avg_net_price": 38041
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 164872,
+        "slug": "boston-architectural-college",
+        "name": "Boston Architectural College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.75,
+          "enrollment": 853,
+          "avg_net_price": 37891
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112570,
+        "slug": "california-college-of-asu",
+        "name": "California College of ASU",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4952919020715631,
+          "yield_rate": 0.3612167300380228,
+          "grad_rate": 0.37,
+          "retention_rate": 0.25,
+          "enrollment": 71,
+          "avg_net_price": 30320
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 201867,
+        "slug": "cincinnati-college-of-mortuary-science",
+        "name": "Cincinnati College of Mortuary Science",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 107
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 202046,
+        "slug": "cleveland-institute-of-art",
+        "name": "Cleveland Institute of Art",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6134969325153374,
+          "yield_rate": 0.19833333333333333,
+          "grad_rate": 0.58,
+          "retention_rate": 0.88,
+          "enrollment": 545,
+          "avg_net_price": 41480
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 202073,
+        "slug": "cleveland-institute-of-music",
+        "name": "Cleveland Institute of Music",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.47306791569086654,
+          "yield_rate": 0.1485148514851485,
+          "grad_rate": 0.72,
+          "retention_rate": 0.9,
+          "enrollment": 293,
+          "avg_net_price": 32623
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 169442,
+        "slug": "college-for-creative-studies",
+        "name": "College for Creative Studies",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9193697868396663,
+          "yield_rate": 0.24899193548387097,
+          "grad_rate": 0.71,
+          "retention_rate": 0.82,
+          "enrollment": 1433,
+          "avg_net_price": 33342
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 202170,
+        "slug": "columbus-college-of-art-and-design",
+        "name": "Columbus College of Art & Design",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6765523632993512,
+          "yield_rate": 0.32054794520547947,
+          "grad_rate": 0.56,
+          "retention_rate": 0.8,
+          "enrollment": 916,
+          "avg_net_price": 30139
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 235024,
+        "slug": "cornish-college-of-the-arts",
+        "name": "Cornish College of the Arts",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.622097678142514,
+          "yield_rate": 0.19305019305019305,
+          "grad_rate": 0.56,
+          "retention_rate": 0.69,
+          "enrollment": 505,
+          "avg_net_price": 39060
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 169424,
+        "slug": "cranbrook-academy-of-art",
+        "name": "Cranbrook Academy of Art",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 113
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 211893,
+        "slug": "curtis-institute-of-music",
+        "name": "Curtis Institute of Music",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.045774647887323945,
+          "yield_rate": 0.9230769230769231,
+          "grad_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 161
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 177746,
+        "slug": "kansas-city-art-institute",
+        "name": "Kansas City Art Institute",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5475555555555556,
+          "yield_rate": 0.35064935064935066,
+          "grad_rate": 0.58,
+          "retention_rate": 0.78,
+          "enrollment": 813,
+          "avg_net_price": 29555
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 117168,
+        "slug": "laguna-college-of-art-and-design",
+        "name": "Laguna College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9431818181818182,
+          "yield_rate": 0.23092369477911648,
+          "grad_rate": 0.52,
+          "retention_rate": 0.84,
+          "enrollment": 775,
+          "avg_net_price": 42354
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 166489,
+        "slug": "longy-school-of-music-of-bard-college",
+        "name": "Longy School of Music of Bard College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8440366972477065,
+          "yield_rate": 0.13043478260869565,
+          "retention_rate": 0.86,
+          "enrollment": 317,
+          "avg_net_price": 43291
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 161509,
+        "slug": "maine-college-of-art-and-design",
+        "name": "Maine College of Art & Design",
+        "state": "Maine",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7605633802816901,
+          "yield_rate": 0.16137566137566137,
+          "grad_rate": 0.52,
+          "retention_rate": 0.72,
+          "enrollment": 475,
+          "avg_net_price": 36443
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 490753,
+        "slug": "maine-media-college",
+        "name": "Maine Media College",
+        "state": "Maine",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 42
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 192712,
+        "slug": "manhattan-school-of-music",
+        "name": "Manhattan School of Music",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4078291814946619,
+          "yield_rate": 0.2530541012216405,
+          "grad_rate": 0.78,
+          "retention_rate": 0.93,
+          "enrollment": 1084,
+          "avg_net_price": 47599
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 166674,
+        "slug": "massachusetts-college-of-art-and-design",
+        "name": "Massachusetts College of Art and Design",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.762699564586357,
+          "yield_rate": 0.17269267364414842,
+          "grad_rate": 0.69,
+          "retention_rate": 0.89,
+          "enrollment": 1989,
+          "avg_net_price": 23764
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 239309,
+        "slug": "milwaukee-institute-of-art-and-design",
+        "name": "Milwaukee Institute of Art & Design",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6053897978825794,
+          "yield_rate": 0.3322734499205087,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 838,
+          "avg_net_price": 27514
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 174127,
+        "slug": "minneapolis-college-of-art-and-design",
+        "name": "Minneapolis College of Art and Design",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4847775175644028,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 831,
+          "avg_net_price": 25935
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 214148,
+        "slug": "moore-college-of-art-and-design",
+        "name": "Moore College of Art and Design",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5645684620376379,
+          "yield_rate": 0.16551724137931034,
+          "grad_rate": 0.57,
+          "retention_rate": 0.81,
+          "enrollment": 549,
+          "avg_net_price": 43369
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 366368,
+        "slug": "new-york-academy-of-art",
+        "name": "New York Academy of Art",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 106
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 194116,
+        "slug": "new-york-school-of-interior-design",
+        "name": "New York School of Interior Design",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6289308176100629,
+          "yield_rate": 0.29,
+          "grad_rate": 0.71,
+          "retention_rate": 1.0,
+          "enrollment": 573,
+          "avg_net_price": 41358
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 214971,
+        "slug": "pennsylvania-academy-of-the-fine-arts",
+        "name": "Pennsylvania Academy of the Fine Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.58,
+          "retention_rate": 0.0,
+          "enrollment": 41,
+          "avg_net_price": 45022
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 215053,
+        "slug": "pennsylvania-college-of-art-and-design",
+        "name": "Pennsylvania College of Art and Design",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9924433249370277,
+          "yield_rate": 0.3248730964467005,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 414,
+          "avg_net_price": 29266
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 194578,
+        "slug": "pratt-institute-main",
+        "name": "Pratt Institute-Main",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7325292656970557,
+          "yield_rate": 0.18321226795803067,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 5356,
+          "avg_net_price": 50647
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 136774,
+        "slug": "ringling-college-of-art-and-design",
+        "name": "Ringling College of Art and Design",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696524064171123,
+          "yield_rate": 0.2348048624440179,
+          "grad_rate": 0.72,
+          "retention_rate": 0.86,
+          "enrollment": 1666,
+          "avg_net_price": 55390
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 122506,
+        "slug": "san-francisco-conservatory-of-music",
+        "name": "San Francisco Conservatory of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5490654205607477,
+          "yield_rate": 0.2723404255319149,
+          "grad_rate": 0.74,
+          "retention_rate": 0.93,
+          "enrollment": 439,
+          "avg_net_price": 42448
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 192110,
+        "slug": "the-juilliard-school",
+        "name": "The Juilliard School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09152542372881356,
+          "yield_rate": 0.6349206349206349,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1073,
+          "avg_net_price": 37903
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 167057,
+        "slug": "the-new-england-conservatory-of-music",
+        "name": "The New England Conservatory of Music",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.41097122302158273,
+          "yield_rate": 0.29540481400437635,
+          "grad_rate": 0.73,
+          "retention_rate": 0.88,
+          "enrollment": 853,
+          "avg_net_price": 42556
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 199184,
+        "slug": "university-of-north-carolina-school-of-the-arts",
+        "name": "University of North Carolina School of the Arts",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2997218358831711,
+          "yield_rate": 0.5545243619489559,
+          "grad_rate": 0.78,
+          "retention_rate": 0.93,
+          "enrollment": 1111,
+          "avg_net_price": 12372
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 215105,
+        "slug": "university-of-the-arts",
+        "name": "University of the Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820043891733723,
+          "yield_rate": 0.23386342376052385,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "avg_net_price": 44154
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=486488",
+      "stored": false,
+      "fetched_at": "2026-06-03T19:21:05.839629+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

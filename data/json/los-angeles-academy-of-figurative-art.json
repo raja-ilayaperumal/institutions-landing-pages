@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:52.177418+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 490124,
+    "slug": "los-angeles-academy-of-figurative-art",
+    "name": "Los Angeles Academy of Figurative Art",
+    "website_url": "https://laafa.edu",
+    "city": "Van Nuys",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91406-2127",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "ZNWPLKNFCGJ2",
+      "opeid": "04248300",
+      "ein": "711043879"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Los Angeles Academy of Figurative Art (LAAFA) is an art education institution located in Van Nuys, California. Founded in 2002, it offers continuing education, certificates, and degree programs focusing on various disciplines including studio art, digital media, design, and craft.",
+    "source_url": "https://laafa.edu/about",
+    "fetched_at": "2026-06-03T19:21:37.868238+05:30"
+  },
+  "admissions": {
+    "applicants": 0
+  },
+  "cost": {
+    "in_state_tuition": 31618,
+    "out_of_state_tuition": 31618,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.8,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 1.0,
+    "grad_4yr_bachelors": 1.0,
+    "grad_5yr_bachelors": 1.0,
+    "grad_6yr_bachelors": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 4,
+    "ug_12mo": 4,
+    "grad_12mo": 0,
+    "women_12mo": 3,
+    "men_12mo": 1,
+    "fall_total": 2,
+    "distance_ed_any": 2,
+    "race_ethnicity": {
+      "white": 0.25,
+      "black": 0.0,
+      "hispanic": 0.25,
+      "asian": 0.5,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 0
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 1.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 116226,
+        "slug": "interior-designers-institute",
+        "name": "Interior Designers Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 102
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 119270,
+        "slug": "musicians-institute",
+        "name": "Musicians Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7794759825327511,
+          "yield_rate": 0.4061624649859944,
+          "grad_rate": 0.47,
+          "retention_rate": 0.8,
+          "enrollment": 824,
+          "avg_net_price": 37793
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446525,
+        "slug": "sae-institute-of-technology-nashville",
+        "name": "SAE Institute of Technology-Nashville",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1712,
+          "avg_net_price": 21299
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 475839,
+        "slug": "sessions-college-for-professional-design",
+        "name": "Sessions College for Professional Design",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 0.7777777777777778,
+          "retention_rate": 0.67,
+          "enrollment": 194,
+          "avg_net_price": 15156
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 205391,
+        "slug": "the-modern-college-of-design",
+        "name": "The Modern College of Design",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9169811320754717,
+          "yield_rate": 0.2962962962962963,
+          "enrollment": 214,
+          "avg_net_price": 34709
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 215637,
+        "slug": "walnut-hill-college",
+        "name": "Walnut Hill College",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42718446601941745,
+          "yield_rate": 0.5227272727272727,
+          "retention_rate": 0.86,
+          "enrollment": 175,
+          "avg_net_price": 33578
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=490124",
+      "stored": false,
+      "fetched_at": "2026-06-03T19:21:48.369052+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

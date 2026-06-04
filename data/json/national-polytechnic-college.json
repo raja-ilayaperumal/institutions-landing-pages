@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:37.476872+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447759,
+    "slug": "national-polytechnic-college",
+    "name": "National Polytechnic College",
+    "website_url": "https://npcollege.edu",
+    "city": "Lakewood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90712",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HMZRA9AWLJ25",
+      "opeid": "03910400",
+      "ein": "954696502"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "National Polytechnic College is a private institution located in Lakewood, California, founded in 1996. The college offers specialized training in various allied health careers, particularly focused on medical imaging technologies such as sonography and radiologic technology. It has received multiple accreditations, including national accreditation by ACCSC and approval by the California Bureau for Private Postsecondary Education.",
+    "source_url": "https://npcollege.edu/about",
+    "fetched_at": "2026-06-03T16:32:25.854899+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 31626,
+    "pell_grant_rate": 0.0836,
+    "federal_loan_rate": 0.6492,
+    "net_price_by_family_income": {
+      "0_30k": 28067,
+      "30_48k": 32812,
+      "110k_plus": 32812
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4211,
+    "grad_rate_total": 0.47,
+    "pell_grad_rate": 0.45,
+    "non_pell_grad_rate": 0.33,
+    "retention_full_time": 1.0,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 530,
+    "ug_12mo": 530,
+    "grad_12mo": 0,
+    "women_12mo": 383,
+    "men_12mo": 147,
+    "fall_total": 516,
+    "distance_ed_any": 516,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1104,
+      "black": 0.0803,
+      "hispanic": 0.5953,
+      "asian": 0.1639,
+      "ai_an": 0.0234,
+      "nh_pi": 0.0033,
+      "two_or_more": 0.01,
+      "non_resident": 0.0134,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 55
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 6
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109040,
+        "slug": "american-career-college-los-angeles",
+        "name": "American Career College-Los Angeles",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 2168,
+          "avg_net_price": 27508
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 433013,
+        "slug": "career-networks-institute",
+        "name": "Career Networks Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 1133,
+          "avg_net_price": 28292
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111638,
+        "slug": "casa-loma-college-los-angeles",
+        "name": "Casa Loma College-Los Angeles",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.425531914893617,
+          "yield_rate": 1.0,
+          "enrollment": 759,
+          "avg_net_price": 27721
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 439367,
+        "slug": "cbd-college",
+        "name": "CBD College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1581,
+          "avg_net_price": 21100
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 123679,
+        "slug": "concorde-career-college-garden-grove",
+        "name": "Concorde Career College-Garden Grove",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9741935483870968,
+          "yield_rate": 0.6059602649006622,
+          "retention_rate": 0.95,
+          "enrollment": 214,
+          "avg_net_price": 22610
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 459213,
+        "slug": "gurnick-academy-of-medical-arts",
+        "name": "Gurnick Academy of Medical Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3437,
+          "avg_net_price": 30558
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 450960,
+        "slug": "healthcare-career-college",
+        "name": "Healthcare Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 447,
+          "avg_net_price": 14534
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 371928,
+        "slug": "modern-technology-school",
+        "name": "Modern Technology School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5151515151515151,
+          "yield_rate": 0.9411764705882353,
+          "retention_rate": 0.64,
+          "enrollment": 101,
+          "avg_net_price": 23046
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 484367,
+        "slug": "north-west-college-anaheim",
+        "name": "North-West College-Anaheim",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6727272727272727,
+          "retention_rate": 0.87,
+          "enrollment": 513,
+          "avg_net_price": 31140
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 372028,
+        "slug": "north-west-college-glendale",
+        "name": "North-West College-Glendale",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.9259259259259259,
+          "retention_rate": 0.8,
+          "enrollment": 71,
+          "avg_net_price": 34899
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 484376,
+        "slug": "north-west-college-long-beach",
+        "name": "North-West College-Long Beach",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6790123456790124,
+          "retention_rate": 0.75,
+          "enrollment": 652,
+          "avg_net_price": 32474
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 120078,
+        "slug": "north-west-college-west-covina",
+        "name": "North-West College-West Covina",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7752808988764045,
+          "retention_rate": 0.76,
+          "enrollment": 653,
+          "avg_net_price": 28408
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 439871,
+        "slug": "pci-college",
+        "name": "PCI College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 149,
+          "avg_net_price": 24046
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 260789,
+        "slug": "platt-college-los-angeles",
+        "name": "Platt College-Los Angeles",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 570,
+          "avg_net_price": 28014
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 441229,
+        "slug": "smith-chason-college",
+        "name": "Smith Chason College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 2447,
+          "avg_net_price": 34402
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=447759",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:38:46.472289+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

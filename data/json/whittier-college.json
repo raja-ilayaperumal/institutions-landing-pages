@@ -1,0 +1,563 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:32.353189+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125763,
+    "slug": "whittier-college",
+    "name": "Whittier College",
+    "website_url": "https://www.whittier.edu",
+    "city": "Whittier",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90601",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "D9N4MUHLQES3",
+      "opeid": "00134200",
+      "ein": "951644048"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Whittier College is a private liberal arts college in Whittier, California, United States. Founded by Quakers in 1887, it is a federally-designated Hispanic-Serving Institution. As of fall 2025, it had 797 undergraduate and graduate students. Whittier athletic teams compete in NCAA Division III.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Whittier_College",
+    "source_url": "https://en.wikipedia.org/wiki/Whittier_College",
+    "fetched_at": "2026-06-02T11:36:39.783352+05:30"
+  },
+  "admissions": {
+    "applicants": 4778,
+    "admits": 3860,
+    "enrolled": 209,
+    "first_time_freshmen": 209,
+    "first_time_freshmen_ft": 209,
+    "admission_rate": 0.8538,
+    "admit_rate": 0.8078694014231896,
+    "yield_rate": 0.054145077720207255
+  },
+  "cost": {
+    "in_state_tuition": 49864,
+    "out_of_state_tuition": 49864,
+    "avg_net_price": 29871,
+    "pell_grant_rate": 0.032,
+    "federal_loan_rate": 0.5847,
+    "net_price_by_family_income": {
+      "0_30k": 22678,
+      "30_48k": 30119,
+      "48_75k": 28096,
+      "75_110k": 27433,
+      "110k_plus": 35090
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6339,
+    "grad_rate_total": 0.6,
+    "grad_4yr_bachelors": 0.53,
+    "grad_5yr_bachelors": 0.58,
+    "grad_6yr_bachelors": 0.6,
+    "pell_grad_rate": 0.59,
+    "pell_6yr_bachelors_rate": 0.59,
+    "non_pell_grad_rate": 0.61,
+    "non_pell_6yr_bachelors": 0.61,
+    "retention_full_time": 0.66
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 899,
+    "ug_12mo": 848,
+    "grad_12mo": 51,
+    "women_12mo": 535,
+    "men_12mo": 364,
+    "fall_total": 795,
+    "distance_ed_any": 795,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.2278,
+      "black": 0.0369,
+      "hispanic": 0.4901,
+      "asian": 0.053,
+      "ai_an": 0.0,
+      "nh_pi": 0.0025,
+      "two_or_more": 0.069,
+      "non_resident": 0.1158,
+      "race_unknown": 0.0049
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 42
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 15
+      }
+    ],
+    "program_count": 44,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 90
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 222983,
+        "slug": "austin-college",
+        "name": "Austin College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.47652404392275655,
+          "yield_rate": 0.14183551847437426,
+          "grad_rate": 0.67,
+          "retention_rate": 0.79,
+          "enrollment": 1217,
+          "avg_net_price": 23451
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 189088,
+        "slug": "bard-college",
+        "name": "Bard College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5211657655281551,
+          "yield_rate": 0.1277834008097166,
+          "grad_rate": 0.68,
+          "retention_rate": 0.85,
+          "enrollment": 2911,
+          "avg_net_price": 31771
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 150455,
+        "slug": "earlham-college",
+        "name": "Earlham College",
+        "state": "Indiana",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7310843373493976,
+          "yield_rate": 0.13909030982201714,
+          "grad_rate": 0.69,
+          "retention_rate": 0.77,
+          "enrollment": 753,
+          "avg_net_price": 24516
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 162654,
+        "slug": "goucher-college",
+        "name": "Goucher College",
+        "state": "Maryland",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7770838989953842,
+          "yield_rate": 0.09678546470999301,
+          "grad_rate": 0.57,
+          "retention_rate": 0.79,
+          "enrollment": 1459,
+          "avg_net_price": 23774
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 198613,
+        "slug": "guilford-college",
+        "name": "Guilford College",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7999524262607041,
+          "yield_rate": 0.10110020814748737,
+          "grad_rate": 0.46,
+          "retention_rate": 0.65,
+          "enrollment": 1180,
+          "avg_net_price": 21200
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 232308,
+        "slug": "hollins-university",
+        "name": "Hollins University",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6795189246551114,
+          "yield_rate": 0.09578344612181156,
+          "grad_rate": 0.65,
+          "retention_rate": 0.74,
+          "enrollment": 761,
+          "avg_net_price": 22263
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 146427,
+        "slug": "knox-college",
+        "name": "Knox College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.70789957134109,
+          "yield_rate": 0.11476355247981546,
+          "grad_rate": 0.68,
+          "retention_rate": 0.83,
+          "enrollment": 1136,
+          "avg_net_price": 24875
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 146481,
+        "slug": "lake-forest-college",
+        "name": "Lake Forest College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5681478715459298,
+          "yield_rate": 0.13637857377587906,
+          "grad_rate": 0.78,
+          "retention_rate": 0.9,
+          "enrollment": 1837,
+          "avg_net_price": 27499
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 175980,
+        "slug": "millsaps-college",
+        "name": "Millsaps College",
+        "state": "Mississippi",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4311965811965812,
+          "yield_rate": 0.1774033696729435,
+          "grad_rate": 0.57,
+          "retention_rate": 0.58,
+          "enrollment": 593,
+          "avg_net_price": 25291
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 233301,
+        "slug": "randolph-college",
+        "name": "Randolph College",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9370860927152318,
+          "yield_rate": 0.11749116607773852,
+          "grad_rate": 0.46,
+          "retention_rate": 0.75,
+          "enrollment": 816,
+          "avg_net_price": 18436
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 228343,
+        "slug": "southwestern-university",
+        "name": "Southwestern University",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.43054015523522887,
+          "yield_rate": 0.13760117733627666,
+          "grad_rate": 0.73,
+          "retention_rate": 0.81,
+          "enrollment": 1440,
+          "avg_net_price": 27468
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 216524,
+        "slug": "ursinus-college",
+        "name": "Ursinus College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9176755447941889,
+          "yield_rate": 0.12467018469656992,
+          "grad_rate": 0.73,
+          "retention_rate": 0.87,
+          "enrollment": 1502,
+          "avg_net_price": 30485
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 218973,
+        "slug": "wofford-college",
+        "name": "Wofford College",
+        "state": "South Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5193989683785603,
+          "yield_rate": 0.18436960276338515,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 1817,
+          "avg_net_price": 28984
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.whittier.edu/academics/ira",
+    "office_name": "Office of Institutional Research and Effectiveness",
+    "summary": "The Office of Institutional Research and Effectiveness supports the mission and strategic values of the college through a culture of evidence-based planning. The mission is to provide timely, accurate, and unbiased data to support strategic planning and to facilitate the assessment work of faculty and administrators.",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T11:36:38.830893+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2022,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202021-2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202020-2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202019-2020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202018-2019.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202017-2018.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202016-2017.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.whittier.edu/sites/default/files/media/Institutional%20Effectiveness/CDS%202012-2013.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125763",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:36:41.135874+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2024,
+      "title": "Fact Book 2024-2025",
+      "url": "https://www.whittier.edu/academics/ira/facts",
+      "summary": "The Office of Institutional Research and Effectiveness at Whittier College maintains the Fact Book and other resources containing institutional data on students, faculty, and staff. These resources are designed to assist with planning, assessment, and continuous improvement efforts for the college.",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:27:35.027733+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Richard M. Nixon",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Nixon",
+      "field": "Politics and Law"
+    },
+    {
+      "name": "Zilpha (Keatley) Snyder",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zilpha_Keatley_Snyder",
+      "field": "Entertainment, Arts, and Literature"
+    },
+    {
+      "name": "Arthur Allan Seidelman",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Arthur_Allan_Seidelman",
+      "field": "Entertainment, Arts, and Literature"
+    },
+    {
+      "name": "Cheryl Boone Isaacs",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cheryl_Boone_Isaacs",
+      "field": "Entertainment, Arts, and Literature"
+    },
+    {
+      "name": "Fred Anderson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fred_D._Anderson_(businessman)",
+      "field": "Business and Industry"
+    },
+    {
+      "name": "Jessamyn West",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jessamyn_West_(writer)",
+      "field": "Entertainment, Arts, and Literature"
+    },
+    {
+      "name": "Howard House",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/House_Ear_Institute",
+      "field": "Science, Medicine, and Biotechnology"
+    },
+    {
+      "name": "Abdullah Alireza",
+      "field": "Politics and Law"
+    },
+    {
+      "name": "Linda Biehl",
+      "field": "Social Advocacy and Service"
+    },
+    {
+      "name": "Guy Webster",
+      "field": "Entertainment, Arts, and Literature"
+    }
+  ]
+}

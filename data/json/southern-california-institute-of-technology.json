@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:03.709269+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 399869,
+    "slug": "southern-california-institute-of-technology",
+    "name": "Southern California Institute of Technology",
+    "website_url": "https://www.scitech.edu",
+    "city": "Anaheim",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92801-3758",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FDX6BCGK3MN8",
+      "opeid": "03113600",
+      "ein": "330456153"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of Technology (branded as Caltech) is a private research university in Pasadena, California, United States. The university is responsible for many modern scientific advancements and is among a small group of institutes of technology in the United States that are devoted to the instruction of pure and applied sciences.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Institute_of_Technology",
+    "source_url": "https://en.wikipedia.org/wiki/California_Institute_of_Technology",
+    "fetched_at": "2026-06-02T22:47:52.045487+05:30"
+  },
+  "admissions": {
+    "applicants": 155,
+    "admits": 115,
+    "enrolled": 106,
+    "first_time_freshmen": 106,
+    "first_time_freshmen_ft": 106,
+    "admission_rate": 0.875,
+    "admit_rate": 0.7419354838709677,
+    "yield_rate": 0.9217391304347826
+  },
+  "cost": {
+    "in_state_tuition": 20515,
+    "out_of_state_tuition": 20515,
+    "avg_net_price": 27735,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6756,
+    "net_price_by_family_income": {
+      "0_30k": 26219,
+      "30_48k": 27306,
+      "48_75k": 30074,
+      "75_110k": 31065,
+      "110k_plus": 33673
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7944,
+    "grad_rate_total": 0.74,
+    "grad_4yr_bachelors": 0.39,
+    "grad_5yr_bachelors": 0.4,
+    "grad_6yr_bachelors": 0.42,
+    "pell_grad_rate": 0.74,
+    "pell_6yr_bachelors_rate": 0.43,
+    "non_pell_grad_rate": 0.87,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 838,
+    "ug_12mo": 838,
+    "grad_12mo": 0,
+    "women_12mo": 38,
+    "men_12mo": 800,
+    "fall_total": 510,
+    "distance_ed_any": 510,
+    "distance_ed_exclusive": 28,
+    "race_ethnicity": {
+      "white": 0.1538,
+      "black": 0.0525,
+      "hispanic": 0.6023,
+      "asian": 0.0957,
+      "ai_an": 0.0019,
+      "nh_pi": 0.0113,
+      "two_or_more": 0.0582,
+      "non_resident": 0.0,
+      "race_unknown": 0.0244
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 0
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 15
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110404,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.02569284064665127,
+          "yield_rate": 0.6123595505617978,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2430,
+          "avg_net_price": 18902
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110565,
+        "slug": "california-state-university-fullerton",
+        "name": "California State University-Fullerton",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9052073414365466,
+          "yield_rate": 0.1420527205973351,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 43662,
+          "avg_net_price": 5646
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110583,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110592,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125080218806344,
+          "yield_rate": 0.0942397856664434,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 23163,
+          "avg_net_price": 4113
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 114859,
+        "slug": "fullerton-college",
+        "name": "Fullerton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19521,
+          "avg_net_price": 8090
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 432144,
+        "slug": "south-orange-county-community-college-district",
+        "name": "South Orange County Community College District",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 7,
+        "unitid": 446561,
+        "slug": "stanbridge-university",
+        "name": "Stanbridge University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1,
+          "yield_rate": 0.9397590361445783,
+          "retention_rate": 0.84,
+          "enrollment": 2928,
+          "avg_net_price": 25114
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 110653,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28569099992664976,
+          "yield_rate": 0.1921606664004108,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 37297,
+          "avg_net_price": 12840
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 110662,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08965488952089258,
+          "yield_rate": 0.5040414823852372,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 47335,
+          "avg_net_price": 14013
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Catalog and Disclosures | SCIT Southern California Institute of Technology",
+      "url": "https://www.scitech.edu/disclosures",
+      "summary": "This page from the Southern California Institute of Technology provides important information regarding the institution's accreditation status, strategic plans, student achievement rates, and available programs. Additionally, it includes detailed disclosures about federal and state regulations compliance, such as annual security reports and consumer information. Definitions pertinent to understanding student achievement metrics are outlined, and information regarding financial aid grants under the CARES Act is also available.",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:46:00.533882+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=399869",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:47:53.359265+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -105,34 +105,97 @@ def _available_providers() -> list[Provider]:
     return out
 
 
+_serper_key_idx = 0
+_serper_quota_blocked: set[str] = set()
+
+# 429 = rate-limited (transient). Retry the same key with linear backoff before
+# giving up on a single query; do NOT retire the key. Tunable so the value lives
+# in one place rather than scattered as magic numbers in the request loop.
+_SERPER_429_RETRIES = 3
+_SERPER_429_BACKOFF = 1.5  # seconds, multiplied by attempt number
+
+
+def _next_serper_key() -> str | None:
+    """Pick the next Serper key that hasn't been quota-blocked this run.
+
+    Round-robins across all populated keys. Once a key returns a 429 /
+    credit-exhausted error it's skipped until the process restarts (Serper
+    credit balances don't refill within a session). Returns None when every
+    key is blocked — caller should fall through to the next provider.
+    """
+    global _serper_key_idx
+    keys = settings.serper_api_keys
+    if not keys:
+        return None
+    for _ in range(len(keys)):
+        k = keys[_serper_key_idx % len(keys)]
+        _serper_key_idx += 1
+        if k not in _serper_quota_blocked:
+            return k
+    return None
+
+
 async def _search_serper(query: str, limit: int) -> list[SearchResult]:
-    """Serper.dev — Google results, ~$0.001/credit. POST /search."""
-    if not settings.serper_api_key:
-        return []
-    async with httpx.AsyncClient(timeout=20.0) as client:
-        r = await client.post(
-            "https://google.serper.dev/search",
-            headers={
-                "X-API-KEY": settings.serper_api_key,
-                "Content-Type": "application/json",
-            },
-            json={"q": query, "num": min(max(limit, 1), 10)},
-        )
-    if r.status_code == 429:
-        log.warning("search.serper_rate_limited", status=r.status_code)
-        raise httpx.HTTPStatusError("serper 429", request=r.request, response=r)
-    r.raise_for_status()
-    data = r.json()
-    out: list[SearchResult] = []
-    for item in (data.get("organic") or [])[:limit]:
-        out.append(SearchResult(
-            title=item.get("title", "") or "",
-            url=item.get("link", "") or "",
-            snippet=item.get("snippet", "") or "",
-            provider="serper",
-            raw_score=item.get("position"),
-        ))
-    return out
+    """Serper.dev — Google results, ~$0.001/credit. POST /search.
+
+    Round-robins across all populated Serper keys; a key that returns 429 /
+    credit-exhausted is retired for the rest of the run and the next key is
+    tried before falling through to the next provider.
+    """
+    tried = 0
+    total = len(settings.serper_api_keys)
+    while tried < total:
+        key = _next_serper_key()
+        if not key:
+            log.warning("search.serper_all_keys_exhausted", query=query[:80])
+            return []
+        tried += 1
+        # A 429 is *rate-limiting* (transient), NOT credit exhaustion — Serper
+        # signals a spent key with 400 + "Not enough credits". So back off and
+        # retry the SAME key a few times before giving up; never retire it for a
+        # 429. Without this, high search concurrency triggers 429s that would
+        # otherwise permanently kill a perfectly good key (the bug that surfaced
+        # the moment we raised concurrency).
+        r = None
+        for attempt in range(_SERPER_429_RETRIES + 1):
+            async with httpx.AsyncClient(timeout=20.0) as client:
+                r = await client.post(
+                    "https://google.serper.dev/search",
+                    headers={"X-API-KEY": key, "Content-Type": "application/json"},
+                    json={"q": query, "num": min(max(limit, 1), 10)},
+                )
+            if r.status_code != 429:
+                break
+            if attempt < _SERPER_429_RETRIES:
+                await asyncio.sleep(_SERPER_429_BACKOFF * (attempt + 1))
+        # Still rate-limited after retries: skip this query (return nothing) but
+        # KEEP the key — it's healthy, just throttled this instant.
+        if r.status_code == 429:
+            log.info("search.serper_rate_limited", query=query[:60])
+            return []
+        # Retire the key only when it is genuinely spent/disabled:
+        #   402 payment required, 403 disabled, OR 400 + "Not enough credits".
+        credit_400 = r.status_code == 400 and "credit" in (r.text or "").lower()
+        if r.status_code in (403, 402) or credit_400:
+            _serper_quota_blocked.add(key)
+            log.warning("search.serper_key_retired", status=r.status_code,
+                        keys_left=total - len(_serper_quota_blocked))
+            continue
+        r.raise_for_status()
+        data = r.json()
+        out: list[SearchResult] = []
+        for item in (data.get("organic") or [])[:limit]:
+            out.append(SearchResult(
+                title=item.get("title", "") or "",
+                url=item.get("link", "") or "",
+                snippet=item.get("snippet", "") or "",
+                provider="serper",
+                raw_score=item.get("position"),
+            ))
+        return out
+    # Every key got retired mid-loop.
+    log.warning("search.serper_all_keys_exhausted", query=query[:80])
+    return []
 
 
 _tavily_key_idx = 0

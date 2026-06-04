@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:43.120610+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 108870,
+    "slug": "american-film-institute-conservatory",
+    "name": "American Film Institute Conservatory",
+    "website_url": "https://www.afi.com",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90027-1625",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CWC8EAJ3TDR4",
+      "opeid": "02222000",
+      "ein": "526072925"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The American Film Institute (AFI) is an American nonprofit film organization that educates filmmakers and honors the heritage of the motion picture arts in the United States. AFI is supported by private funding and public membership fees.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/American_Film_Institute",
+    "source_url": "https://en.wikipedia.org/wiki/American_Film_Institute",
+    "wikidata_qid": "Q207460",
+    "fetched_at": "2026-06-03T15:56:57.767379+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 448,
+    "women_12mo": 254,
+    "men_12mo": 194,
+    "fall_total": 379,
+    "distance_ed_any": 379
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 157
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 7,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "instr_total_fte": 12
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 144281,
+        "slug": "columbia-college-chicago",
+        "name": "Columbia College Chicago",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8946178838819042,
+          "yield_rate": 0.1514290225801358,
+          "grad_rate": 0.52,
+          "retention_rate": 0.66,
+          "enrollment": 5570,
+          "avg_net_price": 26788
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 190150,
+        "slug": "columbia-university-in-the-city-of-new-york",
+        "name": "Columbia University in the City of New York",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03992347999667304,
+          "yield_rate": 0.6491666666666667,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 35173,
+          "avg_net_price": 20148
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 193900,
+        "slug": "new-york-university",
+        "name": "New York University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09234073659606343,
+          "yield_rate": 0.5537529319781079,
+          "grad_rate": 0.88,
+          "retention_rate": 0.96,
+          "enrollment": 56832,
+          "avg_net_price": 35035
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 140951,
+        "slug": "savannah-college-of-art-and-design",
+        "name": "Savannah College of Art and Design",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298445725745801,
+          "yield_rate": 0.26402839664677896,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 18550,
+          "avg_net_price": 45450
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=108870",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:20:21.821919+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

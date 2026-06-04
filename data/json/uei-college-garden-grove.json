@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:14.415531+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 468909,
+    "slug": "uei-college-garden-grove",
+    "name": "UEI College-Garden Grove",
+    "website_url": "https://www.uei.edu",
+    "city": "Garden Grove",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92840-2409",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "S8B4RQ8PMA65",
+      "opeid": "02559312",
+      "ein": "954232466"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "UEI College is a private for-profit career college with locations in the U.S. states of California, Washington, Arizona, Nevada, Texas, New Mexico, and Georgia. It specializes in short-term technical and vocational education to prepare students for entry-level positions in industries such as healthcare, business, and skilled trades. UEI College is owned by International Education Corporation. The school was founded in 1982 as United Education Institute and changed its name to UEI College in 2009.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/UEI_College",
+    "source_url": "https://en.wikipedia.org/wiki/UEI_College",
+    "fetched_at": "2026-06-02T01:40:18.417581+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 23923,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7408,
+    "net_price_by_family_income": {
+      "0_30k": 23871,
+      "30_48k": 23632,
+      "48_75k": 24235,
+      "75_110k": 29684,
+      "110k_plus": 29684
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5588,
+    "grad_rate_total": 0.63,
+    "pell_grad_rate": 0.62,
+    "non_pell_grad_rate": 0.78,
+    "retention_full_time": 0.76
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1818,
+    "ug_12mo": 1818,
+    "grad_12mo": 0,
+    "women_12mo": 684,
+    "men_12mo": 1134,
+    "fall_total": 1073,
+    "distance_ed_any": 1073,
+    "race_ethnicity": {
+      "white": 0.0265,
+      "black": 0.0091,
+      "hispanic": 0.236,
+      "asian": 0.0165,
+      "ai_an": 0.0055,
+      "nh_pi": 0.0027,
+      "two_or_more": 0.0027,
+      "non_resident": 0.0,
+      "race_unknown": 0.7008
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 8,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 184092,
+        "slug": "american-institute-clifton",
+        "name": "American Institute-Clifton",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 778,
+          "avg_net_price": 17695
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 163347,
+        "slug": "fortis-institute-towson",
+        "name": "Fortis Institute-Towson",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 354,
+          "avg_net_price": 25346
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 183725,
+        "slug": "fortis-institute-wayne",
+        "name": "Fortis Institute-Wayne",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 502,
+          "avg_net_price": 22441
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 191728,
+        "slug": "hunter-business-school",
+        "name": "Hunter Business School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 1261,
+          "avg_net_price": 25136
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 184056,
+        "slug": "lincoln-technical-institute-iselin",
+        "name": "Lincoln Technical Institute-Iselin",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 638,
+          "avg_net_price": 40179
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 433101,
+        "slug": "lincoln-technical-institute-lincoln",
+        "name": "Lincoln Technical Institute-Lincoln",
+        "state": "Rhode Island",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 659,
+          "avg_net_price": 30860
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 374574,
+        "slug": "lincoln-technical-institute-moorestown",
+        "name": "Lincoln Technical Institute-Moorestown",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 782,
+          "avg_net_price": 38792
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 129923,
+        "slug": "lincoln-technical-institute-new-britain",
+        "name": "Lincoln Technical Institute-New Britain",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 928,
+          "avg_net_price": 30180
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 442073,
+        "slug": "lincoln-technical-institute-paramus",
+        "name": "Lincoln Technical Institute-Paramus",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 495,
+          "avg_net_price": 39706
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 445911,
+        "slug": "lincoln-technical-institute-shelton",
+        "name": "Lincoln Technical Institute-Shelton",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 875,
+          "avg_net_price": 35543
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 437556,
+        "slug": "midwest-technical-institute-illinois",
+        "name": "Midwest Technical Institute-Illinois",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 1326,
+          "avg_net_price": 26815
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 456931,
+        "slug": "miller-motte-college-stvt-corpus-christi",
+        "name": "Miller-Motte College-STVT-Corpus Christi",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 533,
+          "avg_net_price": 20581
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 119553,
+        "slug": "national-holistic-institute",
+        "name": "National Holistic Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 1258,
+          "avg_net_price": 29199
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 482291,
+        "slug": "uei-college-bakersfield",
+        "name": "UEI College-Bakersfield",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 1415,
+          "avg_net_price": 27712
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 447607,
+        "slug": "uei-college-chula-vista",
+        "name": "UEI College-Chula Vista",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 1373,
+          "avg_net_price": 26798
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 397942,
+        "slug": "uei-college-fresno",
+        "name": "UEI College-Fresno",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 1009,
+          "avg_net_price": 28271
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 124681,
+        "slug": "uei-college-huntington-park",
+        "name": "UEI College-Huntington Park",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 1079,
+          "avg_net_price": 26959
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 496955,
+        "slug": "uei-college-mesa",
+        "name": "UEI College-Mesa",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 657,
+          "avg_net_price": 33845
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 468848,
+        "slug": "uei-college-oceanside",
+        "name": "UEI College-Oceanside",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 814,
+          "avg_net_price": 25560
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 384236,
+        "slug": "uei-college-ontario",
+        "name": "UEI College-Ontario",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 1045,
+          "avg_net_price": 25076
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 487481,
+        "slug": "uei-college-phoenix",
+        "name": "UEI College-Phoenix",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 1234,
+          "avg_net_price": 31673
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 384245,
+        "slug": "uei-college-reseda",
+        "name": "UEI College-Reseda",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 1201,
+          "avg_net_price": 25949
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 470038,
+        "slug": "uei-college-riverside",
+        "name": "UEI College-Riverside",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 1616,
+          "avg_net_price": 25704
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 494357,
+        "slug": "uei-college-sacramento",
+        "name": "UEI College-Sacramento",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1217,
+          "avg_net_price": 26924
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 480471,
+        "slug": "uei-college-stockton",
+        "name": "UEI College-Stockton",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 868,
+          "avg_net_price": 25283
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 497958,
+        "slug": "uei-college-tacoma",
+        "name": "UEI College-Tacoma",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 689,
+          "avg_net_price": 34928
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 444945,
+        "slug": "unitech-training-academy-lafayette",
+        "name": "Unitech Training Academy-Lafayette",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 229,
+          "avg_net_price": 25472
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 496919,
+        "slug": "united-education-institute-las-vegas",
+        "name": "United Education Institute-Las Vegas",
+        "state": "Nevada",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 855,
+          "avg_net_price": 33051
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 413893,
+        "slug": "united-education-institute-morrow",
+        "name": "United Education Institute-Morrow",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1160,
+          "avg_net_price": 34305
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 497949,
+        "slug": "united-education-institute-stone-mountain",
+        "name": "United Education Institute-Stone Mountain",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 911,
+          "avg_net_price": 33189
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 156134,
+        "slug": "wichita-technical-institute",
+        "name": "Wichita Technical Institute",
+        "state": "Kansas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 778,
+          "avg_net_price": 18524
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=468909",
+      "stored": false,
+      "fetched_at": "2026-06-02T01:40:19.661465+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

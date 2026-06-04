@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:50.443476+00:00",
+  "generated_at": "2026-06-04T04:59:03.385718+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Santiago_Canyon_College",
     "fetched_at": "2026-05-25T22:53:13.989539+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1164,
+    "out_of_state_tuition": 9612,
     "avg_net_price": 3407,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.781,
     "federal_loan_rate": 0.0096,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5798,
       "75_110k": 9150,
       "110k_plus": 11304
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4991,
     "grad_rate_total": 0.48,
     "pell_grad_rate": 0.46,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 18581,
     "ug_12mo": 18581,
-    "grad_12mo": 15743,
+    "grad_12mo": 0,
     "women_12mo": 7849,
     "men_12mo": 10732,
     "fall_total": 11897,
-    "fall_full_time": 11897,
-    "fall_part_time": 10579,
     "distance_ed_any": 11897,
     "distance_ed_exclusive": 4087,
     "race_ethnicity": {

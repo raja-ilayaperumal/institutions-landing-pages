@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:57.129417+00:00",
+  "generated_at": "2026-06-04T04:57:27.416408+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Modesto_Junior_College",
     "fetched_at": "2026-05-25T20:08:53.002342+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1270,
+    "out_of_state_tuition": 8870,
     "avg_net_price": 10176,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6147,
     "federal_loan_rate": 0.0022,
     "net_price_by_family_income": {
       "0_30k": 8525,
       "30_48k": 11815,
       "48_75k": 12677,
-      "75_110k": 13215,
-      "110k_plus": null
-    }
+      "75_110k": 13215
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.261,
     "grad_rate_total": 0.3,
     "grad_4yr_bachelors": 0.0,
     "grad_5yr_bachelors": 0.0,
@@ -68,12 +70,10 @@
   "enrollment": {
     "enrollment_12mo_total": 23515,
     "ug_12mo": 23515,
-    "grad_12mo": 20035,
+    "grad_12mo": 0,
     "women_12mo": 14375,
     "men_12mo": 9140,
     "fall_total": 18258,
-    "fall_full_time": 18258,
-    "fall_part_time": 15109,
     "distance_ed_any": 18258,
     "distance_ed_exclusive": 6025,
     "race_ethnicity": {

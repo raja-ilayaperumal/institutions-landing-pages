@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:40.575859+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 448372,
+    "slug": "san-joaquin-valley-college-rancho-cordova",
+    "name": "San Joaquin Valley College-Rancho Cordova",
+    "website_url": "https://www.sjvc.edu",
+    "city": "Rancho Cordova",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95670-5642",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJLJT5ZE65J6",
+      "opeid": "02120707",
+      "ein": "942589126"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Valley College (SJVC) is a private for-profit college with locations in California and an online division. SJVC was founded in 1977 by Robert and Shirley Perry. The college offers certificates, Associate of Science degrees, and continuing education opportunities in the criminal justice and industrial trade fields.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "fetched_at": "2026-06-03T16:33:49.709537+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 27288,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6796,
+    "net_price_by_family_income": {
+      "0_30k": 26019,
+      "30_48k": 27326,
+      "48_75k": 25061,
+      "75_110k": 29993,
+      "110k_plus": 29993
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8387,
+    "grad_rate_total": 0.76,
+    "pell_grad_rate": 0.7,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 312,
+    "ug_12mo": 312,
+    "grad_12mo": 0,
+    "women_12mo": 180,
+    "men_12mo": 132,
+    "fall_total": 224,
+    "distance_ed_any": 224,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.4115,
+      "black": 0.0531,
+      "hispanic": 0.2257,
+      "asian": 0.2257,
+      "ai_an": 0.0044,
+      "nh_pi": 0.0354,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0442
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 108
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 9
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447713,
+        "slug": "california-career-college",
+        "name": "California Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7894,
+        "metrics": {
+          "enrollment": 190
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 461263,
+        "slug": "american-medical-sciences-center",
+        "name": "American Medical Sciences Center",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7382,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 365,
+          "avg_net_price": 23566
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 124937,
+        "slug": "concorde-career-college-north-hollywood",
+        "name": "Concorde Career College-North Hollywood",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.6828,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5702127659574469,
+          "retention_rate": 0.67,
+          "enrollment": 158,
+          "avg_net_price": 23584
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 447759,
+        "slug": "national-polytechnic-college",
+        "name": "National Polytechnic College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.6766,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 516,
+          "avg_net_price": 31626
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 438258,
+        "slug": "carrington-college-pleasant-hill-campus",
+        "name": "Carrington College-Pleasant Hill Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.6405,
+        "metrics": {
+          "admit_rate": 0.8125,
+          "yield_rate": 0.6153846153846154,
+          "retention_rate": 0.77,
+          "enrollment": 416,
+          "avg_net_price": 30749
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

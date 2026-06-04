@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:13.318223+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111081,
+    "slug": "california-institute-of-the-arts",
+    "name": "California Institute of the Arts",
+    "website_url": "https://www.calarts.edu",
+    "city": "Valencia",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91355-2397",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KQ3ULU8FP5V7",
+      "opeid": "00113200",
+      "ein": "956102146"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of the Arts (CalArts) is a private art school in Santa Clarita, California. It was incorporated in 1961 as the first degree-granting institution of higher learning in the US created specifically for students of both the visual and performing arts. It offers Bachelor of Fine Arts, Master of Fine Arts, Master of Arts, and Doctor of Musical Arts degrees. It is located about 30 miles northwest of downtown Los Angeles.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Institute_of_the_Arts",
+    "source_url": "https://en.wikipedia.org/wiki/California_Institute_of_the_Arts",
+    "fetched_at": "2026-06-01T22:40:45.711794+05:30"
+  },
+  "admissions": {
+    "applicants": 2004,
+    "admits": 648,
+    "enrolled": 181,
+    "first_time_freshmen": 181,
+    "first_time_freshmen_ft": 181,
+    "admission_rate": 0.2595,
+    "admit_rate": 0.32335329341317365,
+    "yield_rate": 0.279320987654321
+  },
+  "cost": {
+    "in_state_tuition": 56724,
+    "out_of_state_tuition": 56724,
+    "avg_net_price": 47183,
+    "pell_grant_rate": 0.0102,
+    "federal_loan_rate": 0.3404,
+    "net_price_by_family_income": {
+      "0_30k": 33802,
+      "30_48k": 37082,
+      "48_75k": 35788,
+      "75_110k": 44448,
+      "110k_plus": 59106
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6415,
+    "grad_rate_total": 0.67,
+    "grad_4yr_bachelors": 0.41,
+    "grad_5yr_bachelors": 0.63,
+    "grad_6yr_bachelors": 0.67,
+    "pell_grad_rate": 0.67,
+    "pell_6yr_bachelors_rate": 0.67,
+    "non_pell_grad_rate": 0.73,
+    "non_pell_6yr_bachelors": 0.73,
+    "retention_full_time": 0.82,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1386,
+    "ug_12mo": 947,
+    "grad_12mo": 439,
+    "women_12mo": 838,
+    "men_12mo": 548,
+    "fall_total": 1277,
+    "distance_ed_any": 1277,
+    "race_ethnicity": {
+      "white": 0.3303,
+      "black": 0.0465,
+      "hispanic": 0.151,
+      "asian": 0.0885,
+      "ai_an": 0.0023,
+      "nh_pi": 0.0011,
+      "two_or_more": 0.0749,
+      "non_resident": 0.2736,
+      "race_unknown": 0.0318
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 291
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 7
+      }
+    ],
+    "program_count": 25,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 147
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188854,
+        "slug": "american-musical-and-dramatic-academy",
+        "name": "American Musical and Dramatic Academy",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.24479785969084422,
+          "yield_rate": 0.2738312082574378,
+          "grad_rate": 0.52,
+          "retention_rate": 0.83,
+          "enrollment": 1452,
+          "avg_net_price": 41019
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 192712,
+        "slug": "manhattan-school-of-music",
+        "name": "Manhattan School of Music",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4078291814946619,
+          "yield_rate": 0.2530541012216405,
+          "grad_rate": 0.78,
+          "retention_rate": 0.93,
+          "enrollment": 1084,
+          "avg_net_price": 47599
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 174127,
+        "slug": "minneapolis-college-of-art-and-design",
+        "name": "Minneapolis College of Art and Design",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4847775175644028,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 831,
+          "avg_net_price": 25935
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 194578,
+        "slug": "pratt-institute-main",
+        "name": "Pratt Institute-Main",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7325292656970557,
+          "yield_rate": 0.18321226795803067,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 5356,
+          "avg_net_price": 50647
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 217493,
+        "slug": "rhode-island-school-of-design",
+        "name": "Rhode Island School of Design",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18664076509264793,
+          "yield_rate": 0.41473178542834266,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 2520,
+          "avg_net_price": 46253
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 136774,
+        "slug": "ringling-college-of-art-and-design",
+        "name": "Ringling College of Art and Design",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696524064171123,
+          "yield_rate": 0.2348048624440179,
+          "grad_rate": 0.72,
+          "retention_rate": 0.86,
+          "enrollment": 1666,
+          "avg_net_price": 55390
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 122506,
+        "slug": "san-francisco-conservatory-of-music",
+        "name": "San Francisco Conservatory of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5490654205607477,
+          "yield_rate": 0.2723404255319149,
+          "grad_rate": 0.74,
+          "retention_rate": 0.93,
+          "enrollment": 439,
+          "avg_net_price": 42448
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 192110,
+        "slug": "the-juilliard-school",
+        "name": "The Juilliard School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09152542372881356,
+          "yield_rate": 0.6349206349206349,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1073,
+          "avg_net_price": 37903
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 215105,
+        "slug": "university-of-the-arts",
+        "name": "University of the Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820043891733723,
+          "yield_rate": 0.23386342376052385,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "avg_net_price": 44154
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://calarts.edu/about-calarts/institutional-effectiveness",
+    "office_name": "Office of Institutional Research and Effectiveness",
+    "parent_division": "California Institute of the Arts",
+    "summary": "The page includes extensive information about cookie consent and usage but does not provide any specific details about the Institutional Effectiveness office at California Institute of the Arts. It mostly outlines how different types of cookies are used on their website for necessary, preference, statistics, marketing, and unclassified purposes.",
+    "address": "24700 McBean Parkway, Valencia, CA 91355",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:40:44.482988+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=111081",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:40:47.08857+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Factbook",
+      "url": "https://calarts.edu/about-calarts/factbook",
+      "summary": "This page is part of the California Institute of the Arts website and includes a variety of sections related to the institution, such as academics, admissions, life at the institute, and more. The page includes various links to different resources, support services, and information about campus life. No specific key metrics or detailed data about the institution's performance or statistics are provided in the given text. The site also contains comprehensive cookie and privacy policy information, indicating its commitment to user privacy and data management.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:34:03.131652+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Shaping CalArts Future",
+      "url": "https://strategicframework.calarts.edu/",
+      "summary": "The strategic framework 'Shaping CalArts Future' outlines a bold vision for the institution's next 50 years, emphasizing a multidisciplinary approach to arts education. Key pillars include maximizing the educational experience, removing access barriers, and ensuring long-term institutional sustainability. The plan consists of seven strategic goals focusing on sustainability, inclusivity, and expansion of CalArts' reach and impact both locally and globally.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:34:11.497393+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Tim Disney Prize for Excellence in the Storytelling Arts",
+      "kind": "award",
+      "amount_usd": 2500,
+      "url": "https://calarts.edu/academic-support/awards-grants-and-project-support",
+      "source": "institution_site"
+    },
+    {
+      "title": "Nick England Intercultural Arts Project (ICAP) Awards",
+      "kind": "award",
+      "url": "https://calarts.edu/academic-support/awards-grants-and-project-support",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Sofia Coppola",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sofia_Coppola",
+      "field": "Film"
+    },
+    {
+      "name": "Catherine Opie",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Catherine_Opie",
+      "field": "Art"
+    },
+    {
+      "name": "Tim Burton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Burton",
+      "field": "Film"
+    },
+    {
+      "name": "Ed Harris",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ed_Harris",
+      "field": "Acting"
+    },
+    {
+      "name": "Don Cheadle",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Cheadle",
+      "field": "Acting"
+    },
+    {
+      "name": "John Lasseter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Lasseter",
+      "field": "Film"
+    },
+    {
+      "name": "Genndy Tartakovsky",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Genndy_Tartakovsky",
+      "field": "Animation"
+    },
+    {
+      "name": "Paul Reubens",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Reubens",
+      "field": "Comedy"
+    },
+    {
+      "name": "Mark Bradford",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Bradford",
+      "field": "Art"
+    },
+    {
+      "name": "James Mangold",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Mangold",
+      "field": "Film"
+    }
+  ]
+}

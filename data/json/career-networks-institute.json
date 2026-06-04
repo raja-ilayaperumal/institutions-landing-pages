@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:15.488931+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 433013,
+    "slug": "career-networks-institute",
+    "name": "Career Networks Institute",
+    "website_url": "https://www.cnicollege.edu",
+    "city": "Santa Ana",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92705",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KXC7R3YNZVC7",
+      "opeid": "03242300",
+      "ein": "330607608"
+    }
+  },
+  "brand": null,
+  "about": null,
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 28292,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6922,
+    "net_price_by_family_income": {
+      "0_30k": 23202,
+      "48_75k": 27738,
+      "75_110k": 31097,
+      "110k_plus": 31097
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7692,
+    "grad_rate_total": 0.89,
+    "pell_grad_rate": 0.88,
+    "non_pell_grad_rate": 0.8,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1386,
+    "ug_12mo": 1386,
+    "grad_12mo": 0,
+    "women_12mo": 963,
+    "men_12mo": 423,
+    "fall_total": 1133,
+    "distance_ed_any": 1133,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1432,
+      "black": 0.0752,
+      "hispanic": 0.4408,
+      "asian": 0.2698,
+      "ai_an": 0.0216,
+      "nh_pi": 0.0144,
+      "two_or_more": 0.0185,
+      "non_resident": 0.0134,
+      "race_unknown": 0.0031
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 336
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 25
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 443599,
+        "slug": "american-college-of-healthcare-sciences",
+        "name": "American College of Healthcare Sciences",
+        "state": "Oregon",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5348837209302325,
+          "yield_rate": 0.5942028985507246,
+          "retention_rate": 1.0,
+          "enrollment": 1052,
+          "avg_net_price": 24016
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 104090,
+        "slug": "brookline-college-phoenix",
+        "name": "Brookline College-Phoenix",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.38,
+          "retention_rate": 0.25,
+          "enrollment": 739
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446109,
+        "slug": "cambridge-college-of-healthcare-and-technology",
+        "name": "Cambridge College of Healthcare & Technology",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.0,
+          "enrollment": 381,
+          "avg_net_price": 17057
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 125532,
+        "slug": "carrington-college-sacramento",
+        "name": "Carrington College-Sacramento",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8869565217391304,
+          "yield_rate": 0.7745098039215687,
+          "enrollment": 2207,
+          "avg_net_price": 37143
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 126687,
+        "slug": "concorde-career-college-aurora",
+        "name": "Concorde Career College-Aurora",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9045643153526971,
+          "yield_rate": 0.5779816513761468,
+          "enrollment": 256,
+          "avg_net_price": 16547
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 184959,
+        "slug": "eastwick-college-ramsey",
+        "name": "Eastwick College-Ramsey",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.37349397590361444,
+          "yield_rate": 0.967741935483871,
+          "grad_rate": 0.83,
+          "enrollment": 1203,
+          "avg_net_price": 28162
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 452948,
+        "slug": "galen-college-of-nursing-cincinnati",
+        "name": "Galen College of Nursing-Cincinnati",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 645,
+          "avg_net_price": 29150
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 406033,
+        "slug": "galen-college-of-nursing-san-antonio",
+        "name": "Galen College of Nursing-San Antonio",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.61,
+          "enrollment": 2953,
+          "avg_net_price": 29824
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 406024,
+        "slug": "galen-college-of-nursing-tampa-bay",
+        "name": "Galen College of Nursing-Tampa Bay",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.54,
+          "enrollment": 1465,
+          "avg_net_price": 29598
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 115010,
+        "slug": "glendale-career-college",
+        "name": "Glendale Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7078651685393258,
+          "retention_rate": 0.9,
+          "enrollment": 896,
+          "avg_net_price": 46212
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 459213,
+        "slug": "gurnick-academy-of-medical-arts",
+        "name": "Gurnick Academy of Medical Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3437,
+          "avg_net_price": 30558
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 447263,
+        "slug": "joyce-university-of-nursing-and-health-sciences",
+        "name": "Joyce University of Nursing and Health Sciences",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6187683284457478,
+          "yield_rate": 0.7962085308056872,
+          "grad_rate": 0.0,
+          "retention_rate": 0.86,
+          "enrollment": 2073,
+          "avg_net_price": 31013
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 182148,
+        "slug": "las-vegas-college",
+        "name": "Las Vegas College",
+        "state": "Nevada",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 536,
+          "avg_net_price": 29115
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 105534,
+        "slug": "pima-medical-institute-tucson",
+        "name": "Pima Medical Institute-Tucson",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2676
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 122685,
+        "slug": "san-joaquin-valley-college-visalia",
+        "name": "San Joaquin Valley College-Visalia",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2318,
+          "avg_net_price": 29092
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 441229,
+        "slug": "smith-chason-college",
+        "name": "Smith Chason College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.92,
+          "enrollment": 2447,
+          "avg_net_price": 34402
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 428170,
+        "slug": "southeastern-college-west-palm-beach",
+        "name": "Southeastern College-West Palm Beach",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8704103671706264,
+          "yield_rate": 0.6203473945409429,
+          "retention_rate": 0.67,
+          "enrollment": 564,
+          "avg_net_price": 33952
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 451556,
+        "slug": "southwest-university-at-el-paso",
+        "name": "Southwest University at El Paso",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.67,
+          "retention_rate": 0.64,
+          "enrollment": 2130,
+          "avg_net_price": 17803
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 446561,
+        "slug": "stanbridge-university",
+        "name": "Stanbridge University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1,
+          "yield_rate": 0.9397590361445783,
+          "retention_rate": 0.84,
+          "enrollment": 2928,
+          "avg_net_price": 25114
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 208512,
+        "slug": "sumner-college",
+        "name": "Sumner College",
+        "state": "Oregon",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8888888888888888,
+          "yield_rate": 0.875,
+          "retention_rate": 1.0,
+          "enrollment": 532,
+          "avg_net_price": 28309
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 392257,
+        "slug": "the-college-of-health-care-professions-northwest",
+        "name": "The College of Health Care Professions-Northwest",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4530,
+          "avg_net_price": 25937
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 459204,
+        "slug": "unitek-college",
+        "name": "Unitek College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.63,
+          "retention_rate": 0.89,
+          "enrollment": 5725,
+          "avg_net_price": 25719
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=433013",
+      "stored": false,
+      "fetched_at": "2026-06-02T00:48:18.697758+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:38.633048+00:00",
+  "generated_at": "2026-06-04T04:56:25.268937+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/City_College_of_San_Francisco",
     "fetched_at": "2026-05-25T19:55:55.580232+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1696,
+    "out_of_state_tuition": 14656,
     "avg_net_price": 7272,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6752,
     "federal_loan_rate": 0.0071,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9465,
       "75_110k": 13263,
       "110k_plus": 9070
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4241,
     "grad_rate_total": 0.4,
     "pell_grad_rate": 0.46,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 26918,
     "ug_12mo": 26918,
-    "grad_12mo": 24031,
+    "grad_12mo": 0,
     "women_12mo": 14409,
     "men_12mo": 12509,
     "fall_total": 19267,
-    "fall_full_time": 19267,
-    "fall_part_time": 17348,
     "distance_ed_any": 19267,
     "distance_ed_exclusive": 5361,
     "race_ethnicity": {
@@ -538,7 +539,6 @@
     "office_name": "Office of Research & Planning",
     "parent_division": "Institutional Advancement and Effectiveness",
     "summary": "Research, Planning, and Institutional Effectiveness supports continuous improvement to advance the College’s Mission, emphasizing student equity and success. We promote deeper understanding of CCSF students, programs, and community through institutional research, outcomes assessment, and integrated planning.",
-    "email": "[email protected]",
     "confidence": 0.9,
     "needs_review": false,
     "fetched_at": "2026-05-25T19:55:54.334553+05:30"

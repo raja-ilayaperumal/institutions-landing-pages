@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:26.246771+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 124937,
+    "slug": "concorde-career-college-north-hollywood",
+    "name": "Concorde Career College-North Hollywood",
+    "website_url": "https://www.concorde.edu/campus/north-hollywood-california",
+    "city": "North Hollywood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91606-3134",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MN3GREZA5AR9",
+      "opeid": "00760700",
+      "ein": "952052920"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Concorde Career College-North Hollywood is a post-secondary educational institution located in North Hollywood, California. It is part of Concorde Career Colleges, which operates multiple campuses across the U.S. and offers various programs with a notable focus on healthcare training, including Nursing, Dental, Diagnostic, and Patient Care programs.",
+    "source_url": "https://www.concorde.edu/about",
+    "fetched_at": "2026-06-03T16:32:19.224778+05:30"
+  },
+  "admissions": {
+    "applicants": 235,
+    "admits": 235,
+    "enrolled": 134,
+    "first_time_freshmen": 134,
+    "first_time_freshmen_ft": 104,
+    "admission_rate": 0.9902,
+    "admit_rate": 1.0,
+    "yield_rate": 0.5702127659574469
+  },
+  "cost": {
+    "avg_net_price": 23584,
+    "pell_grant_rate": 0.1608,
+    "federal_loan_rate": 0.6809,
+    "net_price_by_family_income": {
+      "0_30k": 22756,
+      "30_48k": 23751,
+      "48_75k": 24347,
+      "75_110k": 27120,
+      "110k_plus": 27120
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6525,
+    "grad_rate_total": 0.78,
+    "pell_grad_rate": 0.78,
+    "non_pell_grad_rate": 0.72,
+    "retention_full_time": 0.67,
+    "retention_part_time": 0.82
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 512,
+    "ug_12mo": 512,
+    "grad_12mo": 0,
+    "women_12mo": 348,
+    "men_12mo": 164,
+    "fall_total": 158,
+    "distance_ed_any": 158,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.035,
+      "black": 0.0769,
+      "hispanic": 0.5734,
+      "asian": 0.049,
+      "ai_an": 0.007,
+      "nh_pi": 0.007,
+      "two_or_more": 0.007,
+      "non_resident": 0.0,
+      "race_unknown": 0.2448
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 95
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 21
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447759,
+        "slug": "national-polytechnic-college",
+        "name": "National Polytechnic College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7898,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 516,
+          "avg_net_price": 31626
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 438258,
+        "slug": "carrington-college-pleasant-hill-campus",
+        "name": "Carrington College-Pleasant Hill Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7306,
+        "metrics": {
+          "admit_rate": 0.8125,
+          "yield_rate": 0.6153846153846154,
+          "retention_rate": 0.77,
+          "enrollment": 416,
+          "avg_net_price": 30749
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 461263,
+        "slug": "american-medical-sciences-center",
+        "name": "American Medical Sciences Center",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7303,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 365,
+          "avg_net_price": 23566
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 123679,
+        "slug": "concorde-career-college-garden-grove",
+        "name": "Concorde Career College-Garden Grove",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7282,
+        "metrics": {
+          "admit_rate": 0.9741935483870968,
+          "yield_rate": 0.6059602649006622,
+          "retention_rate": 0.95,
+          "enrollment": 214,
+          "avg_net_price": 22610
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 450960,
+        "slug": "healthcare-career-college",
+        "name": "Healthcare Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7048,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 447,
+          "avg_net_price": 14534
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

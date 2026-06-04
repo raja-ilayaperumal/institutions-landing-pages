@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:56.417561+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 491659,
+    "slug": "icohs-college",
+    "name": "ICOHS College",
+    "website_url": "https://icohs.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92101",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "D66CU59MAAN1",
+      "opeid": "04265500",
+      "ein": "272176329"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "ICOHS College is a non-denominational Christian institution of higher education located in San Diego, California. It offers a variety of programs focused on health and wellness, information technology, and artificial intelligence, with an emphasis on biblical values and professional excellence. The college's specific areas of study include integrated health, professional massage therapy, and cybersecurity, among others.",
+    "source_url": "https://icohs.edu/about",
+    "fetched_at": "2026-06-03T16:32:10.687722+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 58899,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.2879,
+    "net_price_by_family_income": {
+      "0_30k": 58952,
+      "30_48k": 57319,
+      "48_75k": 59164
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7518,
+    "grad_rate_total": 0.8,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.74
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 334,
+    "ug_12mo": 334,
+    "grad_12mo": 0,
+    "women_12mo": 108,
+    "men_12mo": 226,
+    "fall_total": 171,
+    "distance_ed_any": 171,
+    "distance_ed_exclusive": 29,
+    "race_ethnicity": {
+      "white": 0.2558,
+      "black": 0.2698,
+      "hispanic": 0.3163,
+      "asian": 0.0837,
+      "ai_an": 0.0186,
+      "nh_pi": 0.0326,
+      "two_or_more": 0.0093,
+      "non_resident": 0.0,
+      "race_unknown": 0.014
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 487658,
+        "slug": "academy-of-interactive-entertainment-2",
+        "name": "Academy of Interactive Entertainment",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4258373205741627,
+          "yield_rate": 0.4606741573033708,
+          "retention_rate": 0.75,
+          "enrollment": 89,
+          "avg_net_price": 33319
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 108852,
+        "slug": "american-academy-of-dramatic-arts-los-angeles",
+        "name": "American Academy of Dramatic Arts-Los Angeles",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8279569892473119,
+          "yield_rate": 0.18181818181818182,
+          "retention_rate": 0.73,
+          "enrollment": 112,
+          "avg_net_price": 40991
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 188915,
+        "slug": "arnot-ogden-medical-center",
+        "name": "Arnot Ogden Medical Center",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6666666666666666,
+          "yield_rate": 0.8333333333333334,
+          "retention_rate": 1.0,
+          "enrollment": 52,
+          "avg_net_price": 19982
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 214023,
+        "slug": "aspira-city-college",
+        "name": "ASPIRA City College",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5,
+          "yield_rate": 1.0,
+          "retention_rate": 0.67,
+          "enrollment": 26,
+          "avg_net_price": 15727
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 233480,
+        "slug": "bon-secours-st-mary-s-hospital-school-of-medical-imaging",
+        "name": "Bon Secours St Mary's Hospital School of Medical Imaging",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 35
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 487968,
+        "slug": "caan-academy-of-nursing",
+        "name": "CAAN Academy of Nursing",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 96
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 450401,
+        "slug": "clary-sage-college",
+        "name": "Clary Sage College",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 415,
+          "avg_net_price": 22746
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 490498,
+        "slug": "digital-media-institute",
+        "name": "Digital Media Institute",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2608695652173913,
+          "yield_rate": 0.8333333333333334,
+          "retention_rate": 0.82,
+          "enrollment": 7,
+          "avg_net_price": 11872
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 477233,
+        "slug": "evangel-university-james-river-assembly-of-god-church",
+        "name": "Evangel University-James River Assembly of God Church",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7404580152671756,
+          "yield_rate": 0.4536082474226804,
+          "retention_rate": 0.84,
+          "enrollment": 89,
+          "avg_net_price": 21887
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 493798,
+        "slug": "new-york-seminary",
+        "name": "New York Seminary",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7602339181286549,
+          "yield_rate": 0.7461538461538462,
+          "retention_rate": 0.94,
+          "enrollment": 97,
+          "avg_net_price": 11077
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 483647,
+        "slug": "ohio-institute-of-allied-health",
+        "name": "Ohio Institute of Allied Health",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 121,
+          "avg_net_price": 38315
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 469629,
+        "slug": "oklahoma-technical-college",
+        "name": "Oklahoma Technical College",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 128,
+          "avg_net_price": 28311
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 495147,
+        "slug": "pacific-northwest-christian-college",
+        "name": "Pacific Northwest Christian College",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 130,
+          "avg_net_price": 5857
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=491659",
+      "stored": false,
+      "fetched_at": "2026-06-03T12:18:58.630838+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

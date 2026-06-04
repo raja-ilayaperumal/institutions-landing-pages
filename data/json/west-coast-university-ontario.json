@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:02.785299+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 458229,
+    "slug": "west-coast-university-ontario",
+    "name": "West Coast University-Ontario",
+    "website_url": "https://westcoastuniversity.edu",
+    "city": "Ontario",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91761-7698",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LWLNQHQLCBK5",
+      "opeid": "03698302",
+      "ein": "954647739"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "West Coast University (WCU) is a private, for-profit university focused on healthcare degrees with campus locations in Los Angeles, Anaheim, and Ontario, California; Richardson, Texas; and Miami, Florida. David Pyle founded American Career College in 1979 under the name of American College of Optics. Originally the school focused only on optical dispensing. In May 1997, Pyle purchased West Coast University, which was chartered by the State of California in 1909, out of bankruptcy, and developed a program for the training of registered nurses.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/West_Coast_University",
+    "source_url": "https://en.wikipedia.org/wiki/West_Coast_University",
+    "fetched_at": "2026-05-28T00:30:11.500057+05:30"
+  },
+  "admissions": {
+    "applicants": 42,
+    "admits": 37,
+    "enrolled": 21,
+    "first_time_freshmen": 21,
+    "first_time_freshmen_ft": 21,
+    "admit_rate": 0.8809523809523809,
+    "yield_rate": 0.5675675675675675
+  },
+  "cost": {
+    "in_state_tuition": 37194,
+    "out_of_state_tuition": 37194,
+    "avg_net_price": 49752,
+    "pell_grant_rate": 0.1753,
+    "federal_loan_rate": 0.8837,
+    "net_price_by_family_income": {
+      "0_30k": 45505,
+      "110k_plus": 50601
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5,
+    "grad_rate_total": 0.39,
+    "grad_4yr_bachelors": 0.39,
+    "grad_5yr_bachelors": 0.39,
+    "grad_6yr_bachelors": 0.39,
+    "pell_grad_rate": 0.42,
+    "pell_6yr_bachelors_rate": 0.42,
+    "non_pell_grad_rate": 0.4,
+    "non_pell_6yr_bachelors": 0.4,
+    "retention_full_time": 0.89
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3644,
+    "ug_12mo": 3644,
+    "grad_12mo": 0,
+    "women_12mo": 2795,
+    "men_12mo": 849,
+    "fall_total": 2671,
+    "distance_ed_any": 2671,
+    "distance_ed_exclusive": 43,
+    "race_ethnicity": {
+      "white": 0.1254,
+      "black": 0.0499,
+      "hispanic": 0.5017,
+      "asian": 0.2308,
+      "ai_an": 0.0019,
+      "nh_pi": 0.0117,
+      "two_or_more": 0.0737,
+      "non_resident": 0.003,
+      "race_unknown": 0.0019
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 925
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 63
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 133872,
+        "slug": "adventhealth-university",
+        "name": "AdventHealth University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3371757925072046,
+          "yield_rate": 0.3247863247863248,
+          "grad_rate": 0.37,
+          "retention_rate": 0.64,
+          "enrollment": 1861,
+          "avg_net_price": 31885
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 152798,
+        "slug": "allen-college",
+        "name": "Allen College",
+        "state": "Iowa",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 483
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 177719,
+        "slug": "barnes-jewish-college-goldfarb-school-of-nursing",
+        "name": "Barnes-Jewish College Goldfarb School of Nursing",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 539
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 238324,
+        "slug": "bellin-college",
+        "name": "Bellin College",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.971830985915493,
+          "yield_rate": 0.855072463768116,
+          "grad_rate": 0.63,
+          "retention_rate": 0.95,
+          "enrollment": 927,
+          "avg_net_price": 27313
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 143297,
+        "slug": "blessing-rieman-college-of-nursing-and-health-sciences",
+        "name": "Blessing Rieman College of Nursing and Health Sciences",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 193
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 180878,
+        "slug": "bryan-college-of-health-sciences",
+        "name": "Bryan College of Health Sciences",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6736842105263158,
+          "yield_rate": 0.671875,
+          "grad_rate": 0.63,
+          "retention_rate": 0.71,
+          "enrollment": 765,
+          "avg_net_price": 25884
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 454245,
+        "slug": "chamberlain-university-arizona",
+        "name": "Chamberlain University-Arizona",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9090909090909091,
+          "yield_rate": 0.7,
+          "grad_rate": 0.5,
+          "retention_rate": 0.67,
+          "enrollment": 693,
+          "avg_net_price": 37002
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 454227,
+        "slug": "chamberlain-university-illinois",
+        "name": "Chamberlain University-Illinois",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8264462809917356,
+          "yield_rate": 0.66,
+          "grad_rate": 0.42,
+          "retention_rate": 0.73,
+          "enrollment": 32944,
+          "avg_net_price": 26933
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 454236,
+        "slug": "chamberlain-university-ohio",
+        "name": "Chamberlain University-Ohio",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.875,
+          "yield_rate": 0.8571428571428571,
+          "grad_rate": 0.29,
+          "retention_rate": 0.33,
+          "enrollment": 257,
+          "avg_net_price": 32074
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 180832,
+        "slug": "clarkson-college",
+        "name": "Clarkson College",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7818181818181819,
+          "yield_rate": 1.0,
+          "grad_rate": 0.36,
+          "retention_rate": 0.61,
+          "enrollment": 1121,
+          "avg_net_price": 15928
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 176770,
+        "slug": "cox-college",
+        "name": "Cox College",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 1.0,
+          "retention_rate": 0.0,
+          "enrollment": 724
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 190716,
+        "slug": "d-youville-university",
+        "name": "D'Youville  University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8137114142139268,
+          "yield_rate": 0.11116012351124835,
+          "grad_rate": 0.67,
+          "retention_rate": 0.73,
+          "enrollment": 2556,
+          "avg_net_price": 19585
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 166869,
+        "slug": "mgh-institute-of-health-professions",
+        "name": "MGH Institute of Health Professions",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1672
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 204176,
+        "slug": "mount-carmel-college-of-nursing",
+        "name": "Mount Carmel College of Nursing",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8428571428571429,
+          "yield_rate": 0.6610169491525424,
+          "grad_rate": 0.54,
+          "retention_rate": 0.81,
+          "enrollment": 670,
+          "avg_net_price": 12939
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 181297,
+        "slug": "nebraska-methodist-college-of-nursing-and-allied-health",
+        "name": "Nebraska Methodist College of Nursing & Allied Health",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7341040462427746,
+          "yield_rate": 0.5196850393700787,
+          "grad_rate": 0.49,
+          "retention_rate": 0.86,
+          "enrollment": 1067,
+          "avg_net_price": 19474
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 167598,
+        "slug": "regis-college",
+        "name": "Regis College",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6978438228438228,
+          "yield_rate": 0.07515657620041753,
+          "grad_rate": 0.71,
+          "retention_rate": 0.79,
+          "enrollment": 2517,
+          "avg_net_price": 28346
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 149028,
+        "slug": "saint-anthony-college-of-nursing",
+        "name": "Saint Anthony College of Nursing",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 263
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 148575,
+        "slug": "saint-francis-medical-center-college-of-nursing",
+        "name": "Saint Francis Medical Center College of Nursing",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 605
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 122296,
+        "slug": "samuel-merritt-university",
+        "name": "Samuel Merritt University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=458229",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:30:12.81135+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

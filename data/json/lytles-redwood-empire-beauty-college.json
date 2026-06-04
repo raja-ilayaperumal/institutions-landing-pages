@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:20.593759+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118161,
+    "slug": "lytles-redwood-empire-beauty-college",
+    "name": "Lytles Redwood Empire Beauty College",
+    "website_url": "https://www.lytlesrebc.edu",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95403",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CL64NETJ2LG3",
+      "opeid": "01324000",
+      "ein": "942834181"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Lytles Redwood Empire Beauty College is a nationally accredited beauty college located in Santa Rosa, California, focusing on cosmetology and esthetics education. Founded over 50 years ago, it offers programs with comprehensive training in hair design, skincare, and related business practices.",
+    "source_url": "https://www.lytlesrebc.edu/about",
+    "fetched_at": "2026-06-03T16:12:02.708898+05:30"
+  },
+  "admissions": {
+    "applicants": 21,
+    "admits": 21,
+    "enrolled": 21,
+    "first_time_freshmen": 21,
+    "first_time_freshmen_ft": 21,
+    "admit_rate": 1.0,
+    "yield_rate": 1.0
+  },
+  "cost": {
+    "avg_net_price": 24603,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.3443,
+    "net_price_by_family_income": {
+      "0_30k": 24603
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7308,
+    "grad_rate_total": 0.82,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 0.6,
+    "retention_full_time": 0.86
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 188,
+    "ug_12mo": 188,
+    "grad_12mo": 0,
+    "women_12mo": 185,
+    "men_12mo": 3,
+    "fall_total": 86,
+    "distance_ed_any": 86,
+    "race_ethnicity": {
+      "white": 0.5439,
+      "black": 0.0088,
+      "hispanic": 0.3947,
+      "asian": 0.0175,
+      "ai_an": 0.0351,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 2,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 451097,
+        "slug": "academy-of-career-training",
+        "name": "Academy of Career Training",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 100
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 262369,
+        "slug": "adrian-s-beauty-college-of-turlock",
+        "name": "Adrian's Beauty College of Turlock",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "avg_net_price": 24393
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 461555,
+        "slug": "aveda-institute-new-mexico",
+        "name": "Aveda Institute-New Mexico",
+        "state": "New Mexico",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 161,
+          "avg_net_price": 16998
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112181,
+        "slug": "citrus-heights-beauty-college",
+        "name": "Citrus Heights Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 114,
+          "avg_net_price": 30408
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 450988,
+        "slug": "coastline-beauty-college",
+        "name": "Coastline Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 203,
+          "avg_net_price": 14231
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 371830,
+        "slug": "cru-institute-of-cosmetology-and-barbering",
+        "name": "CRU Institute of Cosmetology and Barbering",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 91,
+          "avg_net_price": 18165
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 485397,
+        "slug": "empire-beauty-school-cheltenham",
+        "name": "Empire Beauty School-Cheltenham",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 152,
+          "avg_net_price": 18891
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 450614,
+        "slug": "empire-beauty-school-concord",
+        "name": "Empire Beauty School-Concord",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 110,
+          "avg_net_price": 15759
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 157678,
+        "slug": "empire-beauty-school-florence",
+        "name": "Empire Beauty School-Florence",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 124,
+          "avg_net_price": 15669
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 444291,
+        "slug": "empire-beauty-school-owings-mills",
+        "name": "Empire Beauty School-Owings Mills",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 121,
+          "avg_net_price": 16462
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 481748,
+        "slug": "empire-beauty-school-stone-park",
+        "name": "Empire Beauty School-Stone Park",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 136,
+          "avg_net_price": 16869
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 488411,
+        "slug": "hoss-lee-academy",
+        "name": "Hoss Lee Academy",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.98,
+          "enrollment": 112,
+          "avg_net_price": 24417
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 176716,
+        "slug": "house-of-heavilin-beauty-college-blue-springs",
+        "name": "House of Heavilin Beauty College-Blue Springs",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 109,
+          "avg_net_price": 21832
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 483106,
+        "slug": "innovate-salon-academy",
+        "name": "Innovate Salon Academy",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 288,
+          "avg_net_price": 38617
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 457475,
+        "slug": "keune-academy-by-124",
+        "name": "Keune Academy by 124",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 117,
+          "avg_net_price": 15992
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 457749,
+        "slug": "montana-academy-of-salons",
+        "name": "Montana Academy of Salons",
+        "state": "Montana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 126,
+          "avg_net_price": 13158
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 391005,
+        "slug": "p-a-scholars-beauty-school",
+        "name": "P&A Scholars Beauty School",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 90,
+          "avg_net_price": 9759
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 484093,
+        "slug": "paul-mitchell-the-school-farmington-hills",
+        "name": "Paul Mitchell the School-Farmington Hills",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 99,
+          "avg_net_price": 23226
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 136109,
+        "slug": "paul-mitchell-the-school-jacksonville",
+        "name": "Paul Mitchell the School-Jacksonville",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 118,
+          "avg_net_price": 21529
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 488998,
+        "slug": "paul-mitchell-the-school-nampa",
+        "name": "Paul Mitchell the School-Nampa",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 117,
+          "avg_net_price": 19777
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 231280,
+        "slug": "paul-mitchell-the-school-roanoke",
+        "name": "Paul Mitchell the School-Roanoke",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 169,
+          "avg_net_price": 17280
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 421610,
+        "slug": "paul-mitchell-the-school-st-george",
+        "name": "Paul Mitchell the School-St. George",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 109,
+          "avg_net_price": 16082
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 376677,
+        "slug": "queen-city-college",
+        "name": "Queen City College",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 373696,
+        "slug": "rob-roy-academy-worcester",
+        "name": "Rob Roy Academy-Worcester",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 109,
+          "avg_net_price": 22542
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 383279,
+        "slug": "robert-fiance-beauty-schools-north-plainfield",
+        "name": "Robert Fiance Beauty Schools-North Plainfield",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 190,
+          "avg_net_price": 18940
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 444857,
+        "slug": "skinworks-school-of-advanced-skincare",
+        "name": "Skinworks School of Advanced Skincare",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 117,
+          "avg_net_price": 26352
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 235352,
+        "slug": "toni-and-guy-hairdressing-academy-shoreline",
+        "name": "Toni & Guy Hairdressing Academy-Shoreline",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 131,
+          "avg_net_price": 18668
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 367088,
+        "slug": "tricoci-university-of-beauty-culture-llc-bloomington",
+        "name": "Tricoci University of Beauty Culture LLC-Bloomington",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 109,
+          "avg_net_price": 16075
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 151607,
+        "slug": "tricoci-university-of-beauty-culture-lafayette",
+        "name": "Tricoci University of Beauty Culture-Lafayette",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 126,
+          "avg_net_price": 20276
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 491905,
+        "slug": "winonah-s-international-school-of-cosmetology",
+        "name": "Winonah's International School of Cosmetology",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 120,
+          "avg_net_price": 12675
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118161",
+      "stored": false,
+      "fetched_at": "2026-06-03T16:11:58.825426+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

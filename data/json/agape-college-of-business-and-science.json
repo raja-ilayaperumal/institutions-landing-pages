@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:08.541917+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 496399,
+    "slug": "agape-college-of-business-and-science",
+    "name": "Agape College of Business and Science",
+    "website_url": "https://www.acbscollege.org",
+    "city": "Fresno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93721-1827",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GNAUDYZBSKN3",
+      "opeid": "04292900",
+      "ein": "770518457"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Agape College of Business and Science is a non-profit institution located in Fresno, California that offers various degree programs and certificates in high-demand fields such as allied health, business administration, and social work. The college provides both in-person and online instructional options to accommodate diverse learning needs.",
+    "source_url": "https://www.acbscollege.org/",
+    "fetched_at": "2026-06-03T19:47:20.696384+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 8132,
+    "out_of_state_tuition": 8132,
+    "avg_net_price": 6330,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 6229,
+      "48_75k": 7336
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.78,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 69,
+    "ug_12mo": 69,
+    "grad_12mo": 0,
+    "women_12mo": 62,
+    "men_12mo": 7,
+    "fall_total": 43,
+    "distance_ed_any": 43,
+    "race_ethnicity": {
+      "white": 0.0488,
+      "black": 0.3171,
+      "hispanic": 0.6341,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 5.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 128586,
+        "slug": "bais-binyomin-academy",
+        "name": "Bais Binyomin Academy",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 46,
+          "avg_net_price": 18646
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 189273,
+        "slug": "beth-hamedrash-shaarei-yosher-institute",
+        "name": "Beth Hamedrash Shaarei Yosher Institute",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8974358974358975,
+          "yield_rate": 1.0,
+          "grad_rate": 0.13,
+          "retention_rate": 0.93,
+          "enrollment": 91,
+          "avg_net_price": 4596
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 499149,
+        "slug": "herzing-university-nashville",
+        "name": "Herzing University-Nashville",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9272727272727272,
+          "yield_rate": 0.6862745098039216,
+          "retention_rate": 0.8,
+          "enrollment": 201
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 496973,
+        "slug": "herzing-university-tampa",
+        "name": "Herzing University-Tampa",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.896551724137931,
+          "yield_rate": 0.6923076923076923,
+          "retention_rate": 1.0,
+          "enrollment": 251,
+          "avg_net_price": 20486
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 496706,
+        "slug": "lakewood-university",
+        "name": "Lakewood University",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 103
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 497833,
+        "slug": "marian-university-ancilla",
+        "name": "Marian University-Ancilla",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9168831168831169,
+          "yield_rate": 0.3314447592067989,
+          "retention_rate": 0.38,
+          "enrollment": 230,
+          "avg_net_price": 25172
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 194189,
+        "slug": "ohr-hameir-theological-seminary",
+        "name": "Ohr Hameir Theological Seminary",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "enrollment": 100
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 497000,
+        "slug": "remington-college-online-dallas",
+        "name": "Remington College-Online Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 178,
+          "avg_net_price": 21571
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 405058,
+        "slug": "yeshivas-novominsk",
+        "name": "Yeshivas Novominsk",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9038461538461539,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.83,
+          "enrollment": 157,
+          "avg_net_price": 6465
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=496399",
+      "stored": false,
+      "fetched_at": "2026-06-03T18:35:55.677513+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

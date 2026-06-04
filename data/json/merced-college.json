@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:19.761971+00:00",
+  "generated_at": "2026-06-04T04:57:23.665040+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Merced College is a public community college in Merced, California.",
+    "summary": "Merced College, founded in 1962, is a public community college located in Merced, California. The college serves approximately 18,673 students and offers 87 associate degree programs and 82 certificate programs, focusing on education, workforce training, and career-oriented programs.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Merced_College",
     "source_url": "https://en.wikipedia.org/wiki/Merced_College",
-    "fetched_at": "2026-05-25T21:53:55.71383+05:30"
+    "fetched_at": "2026-06-03T19:49:45.026485+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1194,
+    "out_of_state_tuition": 8154,
     "avg_net_price": 4260,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5091,
     "federal_loan_rate": 0.0054,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6053,
       "75_110k": 9198,
       "110k_plus": 10577
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3495,
     "grad_rate_total": 0.36,
     "pell_grad_rate": 0.38,
     "retention_full_time": 0.63,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17345,
     "ug_12mo": 17345,
-    "grad_12mo": 13501,
+    "grad_12mo": 0,
     "women_12mo": 10141,
     "men_12mo": 7204,
     "fall_total": 12472,
-    "fall_full_time": 12472,
-    "fall_part_time": 10001,
     "distance_ed_any": 12472,
     "distance_ed_exclusive": 5000,
     "race_ethnicity": {
@@ -587,12 +588,7 @@
       "fetched_at": "2026-05-25T21:53:56.717144+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Head of Digital Transformation/CTO onsite at Merced College",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179435522"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

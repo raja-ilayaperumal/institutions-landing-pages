@@ -1,0 +1,506 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:57.384993+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 383084,
+    "slug": "hacienda-la-puente-adult-education",
+    "name": "Hacienda La Puente Adult Education",
+    "website_url": "https://www.hlpae.com",
+    "city": "La Puente",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91746-0002",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, less-than 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "QP6JCCYF2ME8",
+      "opeid": "00565500",
+      "ein": "952623262"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Hacienda La Puente Adult Education (HLPAE) is an adult education institution located in La Puente, California. It focuses on providing programs such as Adult Basic Education, ESL, High School Diploma, HiSET GED testing, and various career education programs. The exact founding year is not mentioned, and the size of the institution is not specified.",
+    "source_url": "https://www.hlpae.com/about",
+    "fetched_at": "2026-06-03T16:40:08.669715+05:30"
+  },
+  "admissions": {
+    "applicants": 459,
+    "admits": 459,
+    "enrolled": 455,
+    "first_time_freshmen": 455,
+    "first_time_freshmen_ft": 372,
+    "admission_rate": 0.8352,
+    "admit_rate": 1.0,
+    "yield_rate": 0.9912854030501089
+  },
+  "cost": {
+    "avg_net_price": 4211,
+    "pell_grant_rate": 0.2419,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 4015,
+      "30_48k": 5656,
+      "48_75k": 3533
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8735,
+    "grad_rate_total": 0.77,
+    "pell_grad_rate": 0.76,
+    "retention_full_time": 0.91,
+    "retention_part_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 768,
+    "ug_12mo": 768,
+    "grad_12mo": 0,
+    "women_12mo": 414,
+    "men_12mo": 354,
+    "fall_total": 491,
+    "distance_ed_any": 491,
+    "race_ethnicity": {
+      "white": 0.0484,
+      "black": 0.0242,
+      "hispanic": 0.7923,
+      "asian": 0.1169,
+      "ai_an": 0.0,
+      "nh_pi": 0.004,
+      "two_or_more": 0.002,
+      "non_resident": 0.0,
+      "race_unknown": 0.0121
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 15,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 25.0,
+    "instr_total_fte": 23
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 491464,
+        "slug": "abc-adult-school",
+        "name": "ABC Adult School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.17,
+          "enrollment": 173,
+          "avg_net_price": 16096
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 237729,
+        "slug": "academy-of-careers-and-technology",
+        "name": "Academy of Careers and Technology",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 168,
+          "avg_net_price": 3350
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 383312,
+        "slug": "buckeye-joint-vocational-school",
+        "name": "Buckeye Joint Vocational School",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.18,
+          "enrollment": 80,
+          "avg_net_price": 9600
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 364946,
+        "slug": "caddo-kiowa-technology-center",
+        "name": "Caddo Kiowa Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 358,
+          "avg_net_price": 5085
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 430795,
+        "slug": "carver-career-center",
+        "name": "Carver Career Center",
+        "state": "West Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 169,
+          "avg_net_price": 6161
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 446206,
+        "slug": "culpeper-cosmetology-training-center",
+        "name": "Culpeper Cosmetology Training Center",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 34,
+          "avg_net_price": 15211
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 441210,
+        "slug": "east-valley-institute-of-technology",
+        "name": "East Valley Institute of Technology",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.15,
+          "enrollment": 377,
+          "avg_net_price": 16847
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 418065,
+        "slug": "eastern-suffolk-boces",
+        "name": "Eastern Suffolk BOCES",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7894736842105263,
+          "yield_rate": 0.9416666666666667,
+          "retention_rate": 0.78,
+          "enrollment": 310,
+          "avg_net_price": 23478
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 127158,
+        "slug": "emily-griffith-technical-college",
+        "name": "Emily Griffith Technical College",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 6123,
+          "avg_net_price": 7003
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 459329,
+        "slug": "fred-k-marchman-technical-college",
+        "name": "Fred K Marchman Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 568,
+          "avg_net_price": 7938
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 237844,
+        "slug": "fred-w-eberle-technical-center",
+        "name": "Fred W Eberle Technical Center",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 109,
+          "avg_net_price": 2268
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 246895,
+        "slug": "gateway-community-college-central-city",
+        "name": "GateWay Community College-Central City",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 595,
+          "avg_net_price": 4239
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 428019,
+        "slug": "green-country-technology-center",
+        "name": "Green Country Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8461538461538461,
+          "yield_rate": 0.9696969696969697,
+          "retention_rate": 0.82,
+          "enrollment": 385
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 409591,
+        "slug": "lorain-county-joint-vocational-school-district",
+        "name": "Lorain County Joint Vocational School District",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 87,
+          "avg_net_price": 11870
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 441414,
+        "slug": "m-dcps-the-english-center",
+        "name": "M-DCPS The English Center",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 203
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 418320,
+        "slug": "mid-america-technology-center",
+        "name": "Mid-America Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 1121
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 431017,
+        "slug": "mid-del-technology-center",
+        "name": "Mid-Del Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 371,
+          "avg_net_price": 12239
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 433068,
+        "slug": "okaloosa-technical-college",
+        "name": "Okaloosa Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 421,
+          "avg_net_price": 13545
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 138372,
+        "slug": "orange-technical-college-west-campus",
+        "name": "Orange Technical College-West Campus",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 1266,
+          "avg_net_price": 10256
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 364627,
+        "slug": "pioneer-technology-center",
+        "name": "Pioneer Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 420,
+          "avg_net_price": 8935
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 372082,
+        "slug": "pomona-unified-school-district-adult-and-career-education",
+        "name": "Pomona Unified School District Adult and Career Education",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 71,
+          "avg_net_price": 6005
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 178828,
+        "slug": "poplar-bluff-technical-career-center",
+        "name": "Poplar Bluff Technical Career Center",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.05,
+          "avg_net_price": 22631
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 137245,
+        "slug": "sheridan-technical-college",
+        "name": "Sheridan Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1573,
+          "avg_net_price": 8663
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 126915,
+        "slug": "technical-college-of-the-rockies",
+        "name": "Technical College of the Rockies",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 304,
+          "avg_net_price": 3790
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 204459,
+        "slug": "toledo-public-schools-adult-and-continuing-education",
+        "name": "Toledo Public Schools Adult and Continuing Education",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8596491228070176,
+          "yield_rate": 0.5918367346938775,
+          "retention_rate": 0.79,
+          "enrollment": 33,
+          "avg_net_price": 12685
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 137865,
+        "slug": "tom-p-haney-technical-college",
+        "name": "Tom P. Haney Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 494,
+          "avg_net_price": 5182
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 418302,
+        "slug": "western-technology-center",
+        "name": "Western Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 532,
+          "avg_net_price": 1095
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=383084",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:09:15.189661+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

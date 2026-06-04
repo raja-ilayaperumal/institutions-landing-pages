@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:55.372057+00:00",
+  "generated_at": "2026-06-04T04:56:05.801351+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 6767,
     "first_time_freshmen": 6767,
     "first_time_freshmen_ft": 6615,
+    "admission_rate": 0.4163,
     "admit_rate": 0.4182816798834763,
     "yield_rate": 0.1636398810243513
   },
   "cost": {
+    "in_state_tuition": 15247,
+    "out_of_state_tuition": 46024,
     "room_and_board": 19426,
+    "total_cost_in_state": 34673,
+    "total_cost_out_of_state": 65450,
     "avg_net_price": 15288,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0273,
     "federal_loan_rate": 0.2322,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 12304,
       "75_110k": 17988,
       "110k_plus": 31258
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.8507,
     "grad_rate_total": 0.86,
     "grad_4yr_bachelors": 0.71,
     "grad_5yr_bachelors": 0.83,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 41916,
     "ug_12mo": 33618,
-    "grad_12mo": 33555,
+    "grad_12mo": 8298,
     "women_12mo": 24534,
     "men_12mo": 17382,
     "fall_total": 40065,
-    "fall_full_time": 32273,
-    "fall_part_time": 32253,
     "distance_ed_any": 40065,
     "distance_ed_exclusive": 336,
     "race_ethnicity": {
@@ -791,16 +795,7 @@
       "fetched_at": "2026-05-25T17:36:42.015367+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Program Data & Implementation Specialist High Fidelity ...",
-      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179449810&Title=Program%20Data%20%26amp%3B%20Implementation%20Specialist%20High%20Fidelity%20Wraparound%20(Publ%20Educ%20Spec%203)"
-    },
-    {
-      "title": "Hospital Operations Business Intelligence Analyst - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179449932&Title=Hospital%20Operations%20Business%20Intelligence%20Analyst"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

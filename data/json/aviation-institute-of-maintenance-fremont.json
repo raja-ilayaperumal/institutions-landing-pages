@@ -1,0 +1,724 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:43.380957+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 486558,
+    "slug": "aviation-institute-of-maintenance-fremont",
+    "name": "Aviation Institute of Maintenance-Fremont",
+    "website_url": "https://aviationmaintenance.edu/campuses/fremont-ca",
+    "city": "Fremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94539",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HGZYAKMCM4E8",
+      "opeid": "04240200",
+      "ein": "232900403"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Aviation Institute of Maintenance-Fremont is a hands-on trade school located in Fremont, California, part of a larger network of accredited aircraft maintenance technician schools. It offers various aviation maintenance programs and is accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC), focusing on preparing students for careers in aviation-related fields.",
+    "source_url": "https://aviationmaintenance.edu/about",
+    "fetched_at": "2026-06-03T16:35:58.54112+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 16757,
+    "out_of_state_tuition": 16757,
+    "avg_net_price": 25273,
+    "pell_grant_rate": 0.2539,
+    "federal_loan_rate": 0.7833,
+    "net_price_by_family_income": {
+      "0_30k": 23567,
+      "30_48k": 23591,
+      "48_75k": 25650,
+      "75_110k": 28159,
+      "110k_plus": 27558
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3793,
+    "grad_rate_total": 0.57,
+    "pell_grad_rate": 0.57,
+    "non_pell_grad_rate": 0.86,
+    "retention_full_time": 0.7
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 499,
+    "ug_12mo": 499,
+    "grad_12mo": 0,
+    "women_12mo": 42,
+    "men_12mo": 457,
+    "fall_total": 343,
+    "distance_ed_any": 343,
+    "race_ethnicity": {
+      "white": 0.125,
+      "black": 0.1836,
+      "hispanic": 0.3672,
+      "asian": 0.1875,
+      "ai_an": 0.0,
+      "nh_pi": 0.0508,
+      "two_or_more": 0.0859,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 2,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 497374,
+        "slug": "academia-medical-institute",
+        "name": "Academia Medical Institute",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6426735218508998,
+          "yield_rate": 1.0,
+          "retention_rate": 0.7,
+          "enrollment": 466,
+          "avg_net_price": 24751
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 492023,
+        "slug": "americare-technical-school",
+        "name": "Americare Technical School",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 25,
+          "avg_net_price": 44843
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 482990,
+        "slug": "arizona-college-mesa",
+        "name": "Arizona College-Mesa",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 140,
+          "avg_net_price": 26682
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 494764,
+        "slug": "aviation-institute-of-maintenance-charlotte",
+        "name": "Aviation Institute of Maintenance-Charlotte",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 344,
+          "avg_net_price": 21256
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 497745,
+        "slug": "aviation-institute-of-maintenance-chicago",
+        "name": "Aviation Institute of Maintenance-Chicago",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 333,
+          "avg_net_price": 24862
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 441788,
+        "slug": "aviation-institute-of-maintenance-dallas",
+        "name": "Aviation Institute of Maintenance-Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 495,
+          "avg_net_price": 26227
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 227748,
+        "slug": "aviation-institute-of-maintenance-houston",
+        "name": "Aviation Institute of Maintenance-Houston",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 360,
+          "avg_net_price": 23284
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 441496,
+        "slug": "aviation-institute-of-maintenance-kansas-city",
+        "name": "Aviation Institute of Maintenance-Kansas City",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 253,
+          "avg_net_price": 27159
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 482255,
+        "slug": "aviation-institute-of-maintenance-las-vegas",
+        "name": "Aviation Institute of Maintenance-Las Vegas",
+        "state": "Nevada",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 429,
+          "avg_net_price": 25155
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 445762,
+        "slug": "aviation-institute-of-maintenance-manassas",
+        "name": "Aviation Institute of Maintenance-Manassas",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 272,
+          "avg_net_price": 24834
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 427973,
+        "slug": "aviation-institute-of-maintenance-norfolk",
+        "name": "Aviation Institute of Maintenance-Norfolk",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 270,
+          "avg_net_price": 22841
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 457411,
+        "slug": "aviation-institute-of-maintenance-orlando",
+        "name": "Aviation Institute of Maintenance-Orlando",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 376,
+          "avg_net_price": 22952
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 250285,
+        "slug": "aviation-institute-of-maintenance-philadelphia",
+        "name": "Aviation Institute of Maintenance-Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 385,
+          "avg_net_price": 21244
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 499662,
+        "slug": "aviation-institute-of-maintenance-phoenix",
+        "name": "Aviation Institute of Maintenance-Phoenix",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 105
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 187000,
+        "slug": "aviation-institute-of-maintenance-teterboro",
+        "name": "Aviation Institute of Maintenance-Teterboro",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 695,
+          "avg_net_price": 22592
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 455707,
+        "slug": "cardiac-and-vascular-institute-of-ultrasound",
+        "name": "Cardiac and Vascular Institute of Ultrasound",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 56
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 169187,
+        "slug": "carnegie-institute",
+        "name": "Carnegie Institute",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 93,
+          "avg_net_price": 14418
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 419183,
+        "slug": "central-california-school-of-continuing-education",
+        "name": "Central California School of Continuing Education",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 41,
+          "avg_net_price": 14364
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 377449,
+        "slug": "centura-college-newport-news",
+        "name": "Centura College-Newport News",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 203,
+          "avg_net_price": 25752
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 427982,
+        "slug": "centura-college-richmond-main",
+        "name": "Centura College-Richmond Main",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "avg_net_price": 25920
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 381732,
+        "slug": "colorado-school-of-healing-arts",
+        "name": "Colorado School of Healing Arts",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 52
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 449700,
+        "slug": "dayton-school-of-medical-massage",
+        "name": "Dayton School of Medical Massage",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 376,
+          "avg_net_price": 30710
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 499185,
+        "slug": "dorsey-college-grand-rapids",
+        "name": "Dorsey College-Grand Rapids",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 82
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 460482,
+        "slug": "dorsey-college-saginaw",
+        "name": "Dorsey College-Saginaw",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 183,
+          "avg_net_price": 23242
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 247153,
+        "slug": "dorsey-college-wayne",
+        "name": "Dorsey College-Wayne",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.39,
+          "enrollment": 196,
+          "avg_net_price": 24752
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 495837,
+        "slug": "dorsey-college-woodhaven",
+        "name": "Dorsey College-Woodhaven",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 223,
+          "avg_net_price": 26241
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 446251,
+        "slug": "estelle-medical-academy",
+        "name": "Estelle Medical Academy",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 66,
+          "avg_net_price": 9765
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 493813,
+        "slug": "falcon-institute-of-health-and-science",
+        "name": "Falcon Institute of Health and Science",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.87,
+          "enrollment": 137,
+          "avg_net_price": 45181
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 481207,
+        "slug": "institute-of-health-sciences",
+        "name": "Institute of Health Sciences",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 87,
+          "avg_net_price": 22028
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 491570,
+        "slug": "institute-of-medical-ultrasound",
+        "name": "Institute of Medical Ultrasound",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 50,
+          "avg_net_price": 53558
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 439455,
+        "slug": "mdt-college-of-health-sciences",
+        "name": "MDT College of Health Sciences",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6421052631578947,
+          "yield_rate": 0.6967213114754098,
+          "retention_rate": 0.53,
+          "enrollment": 575,
+          "avg_net_price": 27375
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 493479,
+        "slug": "medical-career-college-of-northern-california",
+        "name": "Medical Career College of Northern California",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6666666666666666,
+          "yield_rate": 1.0,
+          "retention_rate": 0.83,
+          "enrollment": 14,
+          "avg_net_price": 28047
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 498757,
+        "slug": "medical-solutions-academy",
+        "name": "Medical Solutions Academy",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.19,
+          "enrollment": 108
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 428000,
+        "slug": "miami-ad-school",
+        "name": "Miami Ad School",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 32
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 140827,
+        "slug": "miami-ad-school-atlanta",
+        "name": "Miami Ad School-Atlanta",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.67,
+          "enrollment": 65,
+          "avg_net_price": 28032
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 476355,
+        "slug": "miami-ad-school-new-york",
+        "name": "Miami Ad School-New York",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 31
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 425986,
+        "slug": "mildred-elley-pittsfield-campus",
+        "name": "Mildred Elley-Pittsfield Campus",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 46,
+          "avg_net_price": 25069
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 130174,
+        "slug": "porter-and-chester-institute",
+        "name": "Porter & Chester Institute",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.49,
+          "enrollment": 1373,
+          "avg_net_price": 17332
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 129002,
+        "slug": "porter-and-chester-institute-of-hamden",
+        "name": "Porter & Chester Institute of Hamden",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.3,
+          "enrollment": 402,
+          "avg_net_price": 19011
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 213932,
+        "slug": "roxborough-memorial-hospital-school-of-nursing",
+        "name": "Roxborough Memorial Hospital School of Nursing",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 161
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 215983,
+        "slug": "sharon-regional-school-of-nursing",
+        "name": "Sharon Regional School of Nursing",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 42,
+        "unitid": 455974,
+        "slug": "south-texas-training-center",
+        "name": "South Texas Training Center",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 120,
+          "avg_net_price": 5495
+        }
+      },
+      {
+        "rank": 43,
+        "unitid": 232919,
+        "slug": "tidewater-tech-trades",
+        "name": "Tidewater Tech-Trades",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 367,
+          "avg_net_price": 24671
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=486558",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:50:50.562623+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Scholarship Match Program",
+      "agency": "Aviation Institute of Maintenance",
+      "kind": "opportunity",
+      "url": "https://aviationmaintenance.edu/admissions/financing/scholarship/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

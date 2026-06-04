@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:10.425451+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123280,
+    "slug": "shasta-bible-college-and-graduate-school",
+    "name": "Shasta Bible College and Graduate School",
+    "website_url": "https://www.shasta.edu",
+    "city": "Redding",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "96002",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02359300",
+      "ein": "942245517"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "\n\nShasta Bible College and Graduate School (SBC&GS) is a private Baptist college and graduate school in Redding, California. It is accredited by the Transnational Association of Christian Colleges and Schools (TRACS). SBC&GS has online and on-campus programs leading to certificates, diplomas and degrees in Biblical Studies and Christian Teacher Education, and both undergraduate and graduate degrees.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shasta_Bible_College_and_Graduate_School",
+    "source_url": "https://en.wikipedia.org/wiki/Shasta_Bible_College_and_Graduate_School",
+    "fetched_at": "2026-06-03T19:01:07.978089+05:30"
+  },
+  "admissions": {
+    "applicants": 12,
+    "admits": 12,
+    "enrolled": 10,
+    "first_time_freshmen": 10,
+    "first_time_freshmen_ft": 5,
+    "admission_rate": 1.0,
+    "admit_rate": 1.0,
+    "yield_rate": 0.8333333333333334
+  },
+  "cost": {
+    "in_state_tuition": 14535,
+    "out_of_state_tuition": 14535,
+    "pell_grant_rate": 0.6667,
+    "federal_loan_rate": 0.2083,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3333,
+    "grad_rate_total": 1.0,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 1.0,
+    "pell_6yr_bachelors_rate": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 28,
+    "ug_12mo": 20,
+    "grad_12mo": 8,
+    "women_12mo": 10,
+    "men_12mo": 18,
+    "fall_total": 25,
+    "distance_ed_any": 25,
+    "distance_ed_exclusive": 16,
+    "race_ethnicity": {
+      "white": 0.6667,
+      "black": 0.0,
+      "hispanic": 0.1667,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.1667,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 0
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 3.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 112127,
+        "slug": "church-divinity-school-of-the-pacific",
+        "name": "Church Divinity School of the Pacific",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.6167,
+        "metrics": {
+          "enrollment": 40
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 457271,
+        "slug": "academy-for-jewish-religion-california",
+        "name": "Academy for Jewish Religion California",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.6024,
+        "metrics": {
+          "enrollment": 58
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 123916,
+        "slug": "starr-king-school-for-the-ministry",
+        "name": "Starr King School for the Ministry",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.6,
+        "metrics": {
+          "enrollment": 77
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 114734,
+        "slug": "franciscan-school-of-theology",
+        "name": "Franciscan School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.5857,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 125718,
+        "slug": "westminster-theological-seminary-in-california",
+        "name": "Westminster Theological Seminary in California",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.5771,
+        "metrics": {
+          "enrollment": 108
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

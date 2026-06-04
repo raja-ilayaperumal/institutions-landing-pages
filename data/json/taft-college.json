@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:07.546950+00:00",
+  "generated_at": "2026-06-04T04:58:23.913320+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,34 +41,36 @@
     "source_url": "https://en.wikipedia.org/wiki/Taft_College",
     "fetched_at": "2026-05-27T23:08:56.782223+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1108,
+    "out_of_state_tuition": 9076,
     "room_and_board": 8095,
+    "total_cost_in_state": 9203,
+    "total_cost_out_of_state": 17171,
     "avg_net_price": 2699,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7295,
     "federal_loan_rate": 0.0049,
     "net_price_by_family_income": {
       "0_30k": 2182,
       "30_48k": 2000,
       "48_75k": 4518,
-      "75_110k": 8225,
-      "110k_plus": null
-    }
+      "75_110k": 8225
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3835,
     "grad_rate_total": 0.28,
     "pell_grad_rate": 0.31
   },
   "enrollment": {
     "enrollment_12mo_total": 8130,
     "ug_12mo": 8130,
-    "grad_12mo": 6505,
+    "grad_12mo": 0,
     "women_12mo": 3357,
     "men_12mo": 4773,
     "fall_total": 4464,
-    "fall_full_time": 4464,
-    "fall_part_time": 3556,
     "distance_ed_any": 4464,
     "distance_ed_exclusive": 1264,
     "race_ethnicity": {
@@ -643,12 +645,7 @@
       "fetched_at": "2026-05-27T23:08:58.35816+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President, Student Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179412805"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

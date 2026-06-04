@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:36.235101+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 139755,
+    "slug": "georgia-institute-of-technology-main-campus",
+    "name": "Georgia Institute of Technology-Main Campus",
+    "website_url": "https://www.gatech.edu",
+    "city": "Atlanta",
+    "state": "GA",
+    "state_name": "Georgia",
+    "zip": "30332-0530",
+    "region": "Southeast",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NLYTWDL1RBS7",
+      "opeid": "00156900",
+      "ein": "586002023"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The main campus of the Georgia Institute of Technology occupies part of Midtown Atlanta, primarily bordered by 10th Street to the north, North Avenue to the south, and the Downtown Connector to the East, placing it well in sight of the Atlanta skyline. In 1996, the campus was the site of the athletes' village and a venue for a number of athletic events for the 1996 Summer Olympics. The construction of the Olympic Village, along with subsequent gentrification of the surrounding areas, significantly changed the campus.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Main_campus_of_the_Georgia_Institute_of_Technology",
+    "source_url": "https://en.wikipedia.org/wiki/Main_campus_of_the_Georgia_Institute_of_Technology",
+    "wikidata_qid": "Q4976154",
+    "fetched_at": "2026-05-24T14:13:48.866156+05:30"
+  },
+  "admissions": {
+    "applicants": 59789,
+    "admits": 8413,
+    "enrolled": 3836,
+    "first_time_freshmen": 3836,
+    "first_time_freshmen_ft": 3828,
+    "admission_rate": 0.1646,
+    "admit_rate": 0.1407115021157738,
+    "yield_rate": 0.455961012718412,
+    "sat_average": 1447,
+    "sat_math_25_75": [
+      680,
+      790
+    ],
+    "sat_reading_25_75": [
+      650,
+      740
+    ],
+    "act_composite_25_75": [
+      28,
+      34
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 11764,
+    "out_of_state_tuition": 32876,
+    "avg_net_price": 13289,
+    "pell_grant_rate": 0.0645,
+    "federal_loan_rate": 0.193,
+    "net_price_by_family_income": {
+      "0_30k": 7491,
+      "30_48k": 9083,
+      "48_75k": 13349,
+      "75_110k": 16601,
+      "110k_plus": 17250
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9228,
+    "grad_rate_total": 0.94,
+    "grad_4yr_bachelors": 0.64,
+    "grad_5yr_bachelors": 0.92,
+    "grad_6yr_bachelors": 0.94,
+    "pell_grad_rate": 0.86,
+    "pell_6yr_bachelors_rate": 0.86,
+    "non_pell_grad_rate": 0.92,
+    "non_pell_6yr_bachelors": 0.92,
+    "retention_full_time": 0.98,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 57952,
+    "ug_12mo": 20887,
+    "grad_12mo": 37065,
+    "women_12mo": 18376,
+    "men_12mo": 39576,
+    "fall_total": 53363,
+    "distance_ed_any": 53363,
+    "distance_ed_exclusive": 25257,
+    "race_ethnicity": {
+      "white": 0.3602,
+      "black": 0.0827,
+      "hispanic": 0.0848,
+      "asian": 0.3273,
+      "ai_an": 0.0004,
+      "nh_pi": 0.0004,
+      "two_or_more": 0.0464,
+      "non_resident": 0.0882,
+      "race_unknown": 0.0096
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 4877
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 3742
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 2093
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 379
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 236
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 196
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 183
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 122
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 69
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 64
+      }
+    ],
+    "program_count": 66,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 1341
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110404,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.02569284064665127,
+          "yield_rate": 0.6123595505617978,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2430,
+          "avg_net_price": 18902
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 211440,
+        "slug": "carnegie-mellon-university",
+        "name": "Carnegie Mellon University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1166435874016676,
+          "yield_rate": 0.45668098004546603,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 15888,
+          "avg_net_price": 31671
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 190415,
+        "slug": "cornell-university",
+        "name": "Cornell University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08756528503167019,
+          "yield_rate": 0.639050036258158,
+          "grad_rate": 0.95,
+          "retention_rate": 0.98,
+          "enrollment": 26793,
+          "avg_net_price": 32337
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 166683,
+        "slug": "massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.04548030603570417,
+          "yield_rate": 0.8582554517133957,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 11886,
+          "avg_net_price": 19813
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 214777,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6055629648048102,
+          "yield_rate": 0.17113048022546146,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 50737,
+          "avg_net_price": 32598
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 243780,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49872372849069785,
+          "yield_rate": 0.2919892035037686,
+          "grad_rate": 0.83,
+          "retention_rate": 0.93,
+          "enrollment": 58658,
+          "avg_net_price": 13945
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 243744,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03605693751526358,
+          "yield_rate": 0.8190614417029511,
+          "grad_rate": 0.92,
+          "retention_rate": 0.98,
+          "enrollment": 18625,
+          "avg_net_price": 12136
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 228778,
+        "slug": "the-university-of-texas-at-austin",
+        "name": "The University of Texas at Austin",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2664059820264801,
+          "yield_rate": 0.47432662100221457,
+          "grad_rate": 0.89,
+          "retention_rate": 0.97,
+          "enrollment": 53864,
+          "avg_net_price": 19678
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 110635,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10977769192382608,
+          "yield_rate": 0.45985776083290564,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 45882,
+          "avg_net_price": 14979
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 110662,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08965488952089258,
+          "yield_rate": 0.5040414823852372,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 47335,
+          "avg_net_price": 14013
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 145637,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42373409997016626,
+          "yield_rate": 0.28828367523282233,
+          "grad_rate": 0.85,
+          "retention_rate": 0.95,
+          "enrollment": 59238,
+          "avg_net_price": 15201
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 170976,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.15637269860644898,
+          "yield_rate": 0.4734274377154752,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 52855,
+          "avg_net_price": 14832
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 236948,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.39146401411097936,
+          "yield_rate": 0.265770423991727,
+          "grad_rate": 0.85,
+          "retention_rate": 0.95,
+          "enrollment": 56997,
+          "avg_net_price": 13485
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 240444,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4519683127447112,
+          "yield_rate": 0.2858773755959976,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 51044,
+          "avg_net_price": 16928
+        }
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": null,
+    "nih_total_usd": null,
+    "usaspending_total_usd": 550000,
+    "all_sources_total_usd": 550000,
+    "recent_3y_total_usd": null,
+    "award_count_nih": 0,
+    "award_count_nsf": 0,
+    "award_count_usaspending": 1,
+    "award_count_total": 1,
+    "latest_award_end": "2024-07-14"
+  },
+  "ir_office": null,
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jason Wang, Ph.D.",
+      "title": "Senior Director",
+      "email": "jason.wang@irp.gatech.edu",
+      "phone": "404-385-5727"
+    },
+    {
+      "ordering": 1,
+      "name": "Samantha James",
+      "title": "Director - Institutional Research & Data Portfolio Management",
+      "email": "samantha.james@irp.gatech.edu",
+      "phone": "404-385-2352"
+    },
+    {
+      "ordering": 2,
+      "name": "Meghan Mullaney",
+      "title": "Data Scientist",
+      "email": "meghan.mullaney@gatech.edu",
+      "phone": "404-894-3311"
+    },
+    {
+      "ordering": 3,
+      "name": "Rashmi Dawadi",
+      "title": "IRP Data Management Specialist",
+      "email": "rashmi.dawadi@irp.gatech.edu",
+      "phone": "404-894-1645"
+    },
+    {
+      "ordering": 4,
+      "name": "Karla Villalta",
+      "title": "IRP Project Manager",
+      "email": "karla.villalta@irp.gatech.edu",
+      "phone": "404-894-9685"
+    },
+    {
+      "ordering": 5,
+      "name": "Samantha Lunsford",
+      "title": "Business Analyst",
+      "email": "samantha.lunsford@irp.gatech.edu",
+      "phone": "404-894-8692"
+    },
+    {
+      "ordering": 6,
+      "name": "Valerie Roberts",
+      "title": "Business Analyst",
+      "email": "valerie.roberts@irp.gatech.edu",
+      "phone": "404-894-9956"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "year": 2023,
+      "title": "DG Data Element Dictionary",
+      "url": "https://edm.gatech.edu/data-governance/data-element-dictionary",
+      "summary": "The DG Data Element Dictionary by Georgia Tech provides a common understanding of key data elements within the institution by detailing their name, definition, applicable categorizations, and other important aspects. It assists in understanding data across various data domains and information systems. This document includes procedures for creating and maintaining documentation about information systems and key data elements, emphasizing data quality controls, and maintaining a business glossary to standardize enterprise-wide language. The dictionary requires documentation primarily for key data elements of mission-critical systems.",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:28:15.312925+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=139755",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:15:13.944143+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "Fact Book",
+      "url": "https://irp.gatech.edu/files/FactBook/FactBook_2023.pdf",
+      "summary": "The 2023 Fact Book published by the Office of Institutional Research and Planning at Georgia Institute of Technology provides comprehensive data on admissions, enrollment, degrees conferred, retention and graduation rates, and other institutional metrics. It includes detailed statistics on freshman, transfer, and graduate admissions by college and demographic, as well as average SAT and ACT scores. The book also covers enrollment figures by level, class, and geographic origin, and outlines degree conferral trends over a ten-year period. Additionally, the document provides insights into institutional facilities, finances, licensing, research activities, faculty and staff demographics, and accreditation details.",
+      "stored": false,
+      "fetched_at": "2026-05-24T14:13:48.866156+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

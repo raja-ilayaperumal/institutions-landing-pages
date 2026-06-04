@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:59.164917+00:00",
+  "generated_at": "2026-06-04T04:55:48.749056+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Bakersfield_College",
     "fetched_at": "2026-05-25T17:45:01.866943+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1430,
+    "out_of_state_tuition": 10310,
     "avg_net_price": 4751,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7113,
     "federal_loan_rate": 0.0085,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7190,
       "75_110k": 10237,
       "110k_plus": 12508
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2263,
     "grad_rate_total": 0.21,
     "grad_4yr_bachelors": 0.5,
     "grad_5yr_bachelors": 0.5,
@@ -66,12 +69,10 @@
   "enrollment": {
     "enrollment_12mo_total": 45178,
     "ug_12mo": 45178,
-    "grad_12mo": 25031,
+    "grad_12mo": 0,
     "women_12mo": 24547,
     "men_12mo": 20631,
     "fall_total": 30746,
-    "fall_full_time": 30746,
-    "fall_part_time": 17280,
     "distance_ed_any": 30746,
     "distance_ed_exclusive": 7554,
     "race_ethnicity": {
@@ -329,12 +330,7 @@
       "fetched_at": "2026-05-25T17:41:43.354764+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Executive Director, Institutional Research, Planning ... - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179408420"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Funding Opportunity Announcement for Science, Technology, Engineering and Mathematics (STEM) Workforce Development for Enrolled K-12 and College Students and Navy Workforce",

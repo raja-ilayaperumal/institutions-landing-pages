@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:15.853892+00:00",
+  "generated_at": "2026-06-04T04:57:41.984687+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Oxnard_College",
     "fetched_at": "2026-05-26T15:32:41.360337+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1416,
+    "out_of_state_tuition": 8179,
     "avg_net_price": 659,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7099,
     "federal_loan_rate": 0.009,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 44,
       "75_110k": 695,
       "110k_plus": 8880
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3718,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.35,
     "retention_full_time": 0.76,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11453,
     "ug_12mo": 11453,
-    "grad_12mo": 9423,
+    "grad_12mo": 0,
     "women_12mo": 6195,
     "men_12mo": 5258,
     "fall_total": 7361,
-    "fall_full_time": 7361,
-    "fall_part_time": 6240,
     "distance_ed_any": 7361,
     "distance_ed_exclusive": 3177,
     "race_ethnicity": {

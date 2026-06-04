@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:31.164141+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112570,
+    "slug": "california-college-of-asu",
+    "name": "California College of ASU",
+    "website_url": "https://californiacollege.asu.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90015",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02110200",
+      "ein": "952077629"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California College of ASU, known as Columbia College Hollywood until 2023, was a private college in Los Angeles, California, United States. Founded in 1953 as a branch campus of Columbia College Chicago, it offered a curriculum focused on the radio, television, and film industries. It was one of 20 film schools in the United States to be a full member of the International Association of Film and Television Schools (CILECT) and was accredited by the Western Association of Schools and Colleges Senior College and University Commission.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_College_of_ASU",
+    "source_url": "https://en.wikipedia.org/wiki/California_College_of_ASU",
+    "fetched_at": "2026-06-03T16:43:55.777742+05:30"
+  },
+  "admissions": {
+    "applicants": 531,
+    "admits": 263,
+    "enrolled": 95,
+    "first_time_freshmen": 95,
+    "first_time_freshmen_ft": 88,
+    "admit_rate": 0.4952919020715631,
+    "yield_rate": 0.3612167300380228
+  },
+  "cost": {
+    "in_state_tuition": 26175,
+    "out_of_state_tuition": 26175,
+    "avg_net_price": 30320,
+    "pell_grant_rate": 0.8591,
+    "federal_loan_rate": 0.6055,
+    "net_price_by_family_income": {
+      "0_30k": 30658,
+      "30_48k": 27458,
+      "48_75k": 30758,
+      "110k_plus": 30319
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4842,
+    "grad_rate_total": 0.37,
+    "grad_4yr_bachelors": 0.34,
+    "grad_5yr_bachelors": 0.34,
+    "grad_6yr_bachelors": 0.37,
+    "pell_grad_rate": 0.39,
+    "pell_6yr_bachelors_rate": 0.39,
+    "non_pell_grad_rate": 0.42,
+    "non_pell_6yr_bachelors": 0.42,
+    "retention_full_time": 0.25,
+    "retention_part_time": 0.25
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 164,
+    "ug_12mo": 164,
+    "grad_12mo": 0,
+    "women_12mo": 70,
+    "men_12mo": 94,
+    "fall_total": 71,
+    "distance_ed_any": 71,
+    "distance_ed_exclusive": 6,
+    "race_ethnicity": {
+      "white": 0.4094,
+      "black": 0.1879,
+      "hispanic": 0.094,
+      "asian": 0.0872,
+      "ai_an": 0.0268,
+      "nh_pi": 0.0067,
+      "two_or_more": 0.047,
+      "non_resident": 0.0067,
+      "race_unknown": 0.1342
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 7
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 4
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 122506,
+        "slug": "san-francisco-conservatory-of-music",
+        "name": "San Francisco Conservatory of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.618,
+        "metrics": {
+          "admit_rate": 0.5490654205607477,
+          "yield_rate": 0.2723404255319149,
+          "grad_rate": 0.74,
+          "retention_rate": 0.93,
+          "enrollment": 439,
+          "avg_net_price": 42448
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 108870,
+        "slug": "american-film-institute-conservatory",
+        "name": "American Film Institute Conservatory",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.6098,
+        "metrics": {
+          "enrollment": 379
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 117168,
+        "slug": "laguna-college-of-art-and-design",
+        "name": "Laguna College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5551,
+        "metrics": {
+          "admit_rate": 0.9431818181818182,
+          "yield_rate": 0.23092369477911648,
+          "grad_rate": 0.52,
+          "retention_rate": 0.84,
+          "enrollment": 775,
+          "avg_net_price": 42354
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 486488,
+        "slug": "california-jazz-conservatory",
+        "name": "California Jazz Conservatory",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5439,
+        "metrics": {
+          "admit_rate": 0.6666666666666666,
+          "yield_rate": 0.5,
+          "grad_rate": 1.0,
+          "retention_rate": 0.0,
+          "enrollment": 6
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5367,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

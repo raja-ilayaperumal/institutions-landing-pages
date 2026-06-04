@@ -1,0 +1,501 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:39.144226+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 168421,
+    "slug": "worcester-polytechnic-institute",
+    "name": "Worcester Polytechnic Institute",
+    "website_url": "https://www.wpi.edu",
+    "city": "Worcester",
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "zip": "01609-2280",
+    "region": "New England",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HJNQME41NBU4",
+      "opeid": "00223300",
+      "ein": "042121659"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Worcester Polytechnic Institute (WPI) is a private research university in Worcester, Massachusetts, United States. Founded in 1865, WPI was one of the United States' first engineering and technology universities and now has 14 academic departments with over 50 bachelor's, master's, and Ph.D. degree programs. It is classified among \"R1: Doctoral Universities – Very high research activity\".",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Worcester_Polytechnic_Institute",
+    "source_url": "https://en.wikipedia.org/wiki/Worcester_Polytechnic_Institute",
+    "fetched_at": "2026-06-03T19:46:40.982537+05:30"
+  },
+  "admissions": {
+    "applicants": 12559,
+    "admits": 7555,
+    "enrolled": 1366,
+    "first_time_freshmen": 1366,
+    "first_time_freshmen_ft": 1365,
+    "admission_rate": 0.585,
+    "admit_rate": 0.6015606338084243,
+    "yield_rate": 0.18080741230972866
+  },
+  "cost": {
+    "in_state_tuition": 59070,
+    "out_of_state_tuition": 59070,
+    "avg_net_price": 43273,
+    "pell_grant_rate": 0.0185,
+    "federal_loan_rate": 0.505,
+    "net_price_by_family_income": {
+      "0_30k": 23870,
+      "30_48k": 22286,
+      "48_75k": 29195,
+      "75_110k": 37713,
+      "110k_plus": 51567
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8843,
+    "grad_rate_total": 0.9,
+    "grad_4yr_bachelors": 0.84,
+    "grad_5yr_bachelors": 0.89,
+    "grad_6yr_bachelors": 0.9,
+    "pell_grad_rate": 0.85,
+    "pell_6yr_bachelors_rate": 0.85,
+    "non_pell_grad_rate": 0.9,
+    "non_pell_6yr_bachelors": 0.9,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 8009,
+    "ug_12mo": 5756,
+    "grad_12mo": 2253,
+    "women_12mo": 2761,
+    "men_12mo": 5248,
+    "fall_total": 7584,
+    "distance_ed_any": 7584,
+    "distance_ed_exclusive": 666,
+    "race_ethnicity": {
+      "white": 0.6475,
+      "black": 0.0284,
+      "hispanic": 0.0835,
+      "asian": 0.1267,
+      "ai_an": 0.0006,
+      "nh_pi": 0.0007,
+      "two_or_more": 0.0359,
+      "non_resident": 0.0664,
+      "race_unknown": 0.0103
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1244
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 390
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 192
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 104
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 45
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 10
+      }
+    ],
+    "program_count": 67,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 446
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 211440,
+        "slug": "carnegie-mellon-university",
+        "name": "Carnegie Mellon University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1166435874016676,
+          "yield_rate": 0.45668098004546603,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 15888,
+          "avg_net_price": 31671
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 190044,
+        "slug": "clarkson-university",
+        "name": "Clarkson University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7736075664314668,
+          "yield_rate": 0.094896176984281,
+          "grad_rate": 0.75,
+          "retention_rate": 0.85,
+          "enrollment": 3348,
+          "avg_net_price": 31955
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 145725,
+        "slug": "illinois-institute-of-technology",
+        "name": "Illinois Institute of Technology",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5492796332678455,
+          "yield_rate": 0.07734724292101341,
+          "grad_rate": 0.75,
+          "retention_rate": 0.86,
+          "enrollment": 8834,
+          "avg_net_price": 19353
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 213543,
+        "slug": "lehigh-university",
+        "name": "Lehigh University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2593155520690331,
+          "yield_rate": 0.2837965588958215,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 7692,
+          "avg_net_price": 33549
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 167358,
+        "slug": "northeastern-university",
+        "name": "Northeastern University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.052151384302768604,
+          "yield_rate": 0.5375024352230664,
+          "grad_rate": 0.91,
+          "retention_rate": 0.97,
+          "enrollment": 32553,
+          "avg_net_price": 32116
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 194824,
+        "slug": "rensselaer-polytechnic-institute",
+        "name": "Rensselaer Polytechnic Institute",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347016011644833,
+          "yield_rate": 0.12053940005504082,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 7040,
+          "avg_net_price": 33139
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 227757,
+        "slug": "rice-university",
+        "name": "Rice University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07997413235611123,
+          "yield_rate": 0.4420485175202156,
+          "grad_rate": 0.95,
+          "retention_rate": 0.97,
+          "enrollment": 8961,
+          "avg_net_price": 12640
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 195003,
+        "slug": "rochester-institute-of-technology",
+        "name": "Rochester Institute of Technology",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.669341836551897,
+          "yield_rate": 0.16283053206294829,
+          "grad_rate": 0.71,
+          "retention_rate": 0.89,
+          "enrollment": 17098,
+          "avg_net_price": 29694
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 186867,
+        "slug": "stevens-institute-of-technology",
+        "name": "Stevens Institute of Technology",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4757800056216621,
+          "yield_rate": 0.20775896022055929,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 8469,
+          "avg_net_price": 40468
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 196413,
+        "slug": "syracuse-university",
+        "name": "Syracuse University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45924010791366904,
+          "yield_rate": 0.187741714397611,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 22589,
+          "avg_net_price": 41026
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 216597,
+        "slug": "villanova-university",
+        "name": "Villanova University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2697798417612659,
+          "yield_rate": 0.27733503347146954,
+          "grad_rate": 0.92,
+          "retention_rate": 0.95,
+          "enrollment": 10041,
+          "avg_net_price": 44876
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.wpi.edu/offices/institutional-research-analytics-assessment",
+    "office_name": "Office of Institutional Research, Analytics & Assessment",
+    "parent_division": "Office of the Provost",
+    "summary": "IRAA is the university’s trusted source for accurate, timely, and well‑governed institutional data. We ensure information is consistent, reliable, and actionable across reporting, academic operations, and evidence‑based decision‑making.",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:44:49.063361+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Elissa Lu",
+      "title": "Executive Director of Institutional Research & Assessment",
+      "phone": "508-831-5000"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2023,
+      "url": "https://www.wpi.edu/sites/default/files/2023-02/WPI_CDS_2022-2023_2-27-23.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.wpi.edu/offices/strategic-initiatives-university-analytics/data-dashboards",
+      "stored": false,
+      "fetched_at": "2026-05-25T12:22:45.20517+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2025,
+      "title": "Data Organization & Documentation - Data Management and Record Keeping - Guides at Worcester Polytechnic Institute",
+      "url": "https://libguides.wpi.edu/datamanagement/organization",
+      "summary": "This guide from Worcester Polytechnic Institute's Gordon Library provides tools, tips, and checklists for effective data management and record-keeping. It covers crucial aspects such as data organization principles, metadata, file naming conventions, and data documentation to assist researchers and students in developing a structured approach to managing data. This resource also highlights the importance of metadata, data dictionaries, and adherence to metadata standards for data sharing and retrieval.",
+      "stored": false,
+      "fetched_at": "2026-05-25T12:22:45.113483+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=168421",
+      "stored": false,
+      "fetched_at": "2026-05-25T12:23:52.44957+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2016,
+      "title": "2016 Fact Book",
+      "url": "https://www.wpi.edu/sites/default/files/inline-image/Offices/Institutional-Research/2016%20Fact%20Book_0.pdf",
+      "summary": "The 2016 Fact Book of Worcester Polytechnic Institute provides comprehensive data on student enrollment, retention, admissions, and graduation statistics at the institute. It details undergraduate and graduate enrollment profiles, segmented by gender, race/ethnicity, and major, alongside domestic and international student distributions. The document also covers first-time freshmen admissions data from 2012 to 2016, including retention and graduation rates of class cohorts. Additionally, it provides insights into transfer admissions and the academic progress of students across various departments through productivity measures such as declared majors and completions.",
+      "stored": false,
+      "fetched_at": "2026-05-25T12:21:27.226152+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 1997,
+      "title": "Worcester Polytechnic Institute Factbook",
+      "url": "https://www.wpi.edu/sites/default/files/docs/Offices/Institutional-Research/1997_FactBook.pdf",
+      "summary": "The 1997 Factbook for Worcester Polytechnic Institute provides detailed information on key institutional metrics, including total enrollment, graduation rates, and faculty count, compiled by the Office of Institutional Research.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:44:57.29211+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "LEAD WITH PURPOSE The Strategic Plan for WPI",
+      "url": "https://www.wpi.edu/sites/default/files/2023-05/WPI_StrategicPlanReportCard_2023_0.pdf",
+      "summary": "Worcester Polytechnic Institute's strategic plan, 'Lead with Purpose', focuses on enhancing student well-being, expanding inclusive excellence, and evolving STEM education. The plan emphasizes reducing financial barriers and increasing diversity through initiatives like the Center for Well-Being and enhanced recruitment of BIPOC students. Additionally, the strategic plan aims to integrate online learning into its STEM curriculum and foster an inclusive community through professional development and engaging in WPI's mission and values.",
+      "stored": false,
+      "fetched_at": "2026-05-25T12:22:18.810718+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Todd Akin",
+      "field": "Politics"
+    },
+    {
+      "name": "Paul Allaire",
+      "field": "Business"
+    },
+    {
+      "name": "Harold Stephen Black",
+      "field": "Engineering"
+    },
+    {
+      "name": "Giovanni Capriglione",
+      "field": "Politics"
+    },
+    {
+      "name": "Curtis Carlson",
+      "field": "Business"
+    },
+    {
+      "name": "David Gewirtz",
+      "field": "Journalism"
+    },
+    {
+      "name": "Robert H. Goddard",
+      "field": "Engineering"
+    },
+    {
+      "name": "Elwood Haynes",
+      "field": "Engineering"
+    },
+    {
+      "name": "Dean Kamen",
+      "field": "Engineering and Invention"
+    },
+    {
+      "name": "Naveen Selvadurai",
+      "field": "Technology"
+    },
+    {
+      "name": "James Smith",
+      "field": "Education and Engineering"
+    }
+  ]
+}

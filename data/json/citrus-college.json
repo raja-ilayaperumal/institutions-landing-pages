@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:58.058583+00:00",
+  "generated_at": "2026-06-04T04:56:24.514305+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Citrus_College",
     "fetched_at": "2026-05-25T23:08:30.950868+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1204,
+    "out_of_state_tuition": 9844,
     "avg_net_price": 3800,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5146,
     "federal_loan_rate": 0.012,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6611,
       "75_110k": 8151,
       "110k_plus": 10545
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4818,
     "grad_rate_total": 0.41,
     "pell_grad_rate": 0.38,
     "retention_full_time": 0.7,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 14780,
     "ug_12mo": 14780,
-    "grad_12mo": 12156,
+    "grad_12mo": 0,
     "women_12mo": 8301,
     "men_12mo": 6479,
     "fall_total": 10429,
-    "fall_full_time": 10429,
-    "fall_part_time": 8286,
     "distance_ed_any": 10429,
     "distance_ed_exclusive": 3209,
     "race_ethnicity": {

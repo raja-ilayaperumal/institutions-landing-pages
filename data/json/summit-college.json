@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:04.659534+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 400080,
+    "slug": "summit-college",
+    "name": "Summit College",
+    "website_url": "https://www.summitcollege.edu",
+    "city": "San Bernardino",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92408",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "03108100",
+      "ein": "330430969"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Summit College is a vocational institution located in Southern California, established in 1991. It has four campuses in San Bernardino, Colton, Santa Ana, and El Cajon, offering programs primarily in allied health and trade & technical fields. The college focuses on providing hands-on training and accelerated programs to prepare students for careers with long-term earning potential.",
+    "source_url": "https://www.summitcollege.edu/about",
+    "fetched_at": "2026-06-03T19:54:20.831765+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 24161,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.3092,
+    "net_price_by_family_income": {
+      "0_30k": 23747,
+      "30_48k": 24583,
+      "48_75k": 25823,
+      "75_110k": 27454
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7411,
+    "grad_rate_total": 0.62,
+    "pell_grad_rate": 0.51,
+    "non_pell_grad_rate": 0.37,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1551,
+    "ug_12mo": 1551,
+    "grad_12mo": 0,
+    "women_12mo": 379,
+    "men_12mo": 1172,
+    "fall_total": 989,
+    "distance_ed_any": 989,
+    "race_ethnicity": {
+      "white": 0.1744,
+      "black": 0.1174,
+      "hispanic": 0.5901,
+      "asian": 0.0347,
+      "ai_an": 0.0033,
+      "nh_pi": 0.014,
+      "two_or_more": 0.0562,
+      "non_resident": 0.0,
+      "race_unknown": 0.0099
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 7,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 418658,
+        "slug": "all-state-career-school-pittsburgh",
+        "name": "All-State Career School-Pittsburgh",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 410,
+          "avg_net_price": 13066
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 373784,
+        "slug": "all-state-career-baltimore",
+        "name": "All-State Career-Baltimore",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 563,
+          "avg_net_price": 19553
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 188890,
+        "slug": "apex-technical-school",
+        "name": "Apex Technical School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 1400,
+          "avg_net_price": 16076
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 487791,
+        "slug": "arclabs",
+        "name": "Arclabs",
+        "state": "South Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 744,
+          "avg_net_price": 24965
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 211006,
+        "slug": "automotive-training-center-exton",
+        "name": "Automotive Training Center-Exton",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 366,
+          "avg_net_price": 11732
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 447023,
+        "slug": "delta-technical-college-mississippi",
+        "name": "Delta Technical College-Mississippi",
+        "state": "Mississippi",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2307,
+          "avg_net_price": 16771
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 235501,
+        "slug": "international-air-and-hospitality-academy",
+        "name": "International Air and Hospitality Academy",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "avg_net_price": 26404
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 129181,
+        "slug": "lincoln-technical-institute-east-windsor",
+        "name": "Lincoln Technical Institute-East Windsor",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 1008,
+          "avg_net_price": 26269
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 420343,
+        "slug": "lincoln-technical-institute-mahwah",
+        "name": "Lincoln Technical Institute-Mahwah",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 1080,
+          "avg_net_price": 29211
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 185396,
+        "slug": "lincoln-technical-institute-union",
+        "name": "Lincoln Technical Institute-Union",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 1785,
+          "avg_net_price": 25407
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 449320,
+        "slug": "lincoln-technical-institute-whitestone",
+        "name": "Lincoln Technical Institute-Whitestone",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 1131,
+          "avg_net_price": 32648
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 482097,
+        "slug": "midwest-technical-institute-missouri",
+        "name": "Midwest Technical Institute-Missouri",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 396,
+          "avg_net_price": 23412
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 460172,
+        "slug": "miller-motte-college-stvt-san-antonio",
+        "name": "Miller-Motte College-STVT-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 762,
+          "avg_net_price": 21496
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 378956,
+        "slug": "national-aviation-academy-of-tampa-bay",
+        "name": "National Aviation Academy of Tampa Bay",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 713,
+          "avg_net_price": 28485
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 129932,
+        "slug": "new-england-tractor-trailer-training-school-of-connecticut",
+        "name": "New England Tractor Trailer Training School of Connecticut",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 289,
+          "avg_net_price": 15448
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 480903,
+        "slug": "new-england-tractor-trailer-training-school-of-ct-bridgeport",
+        "name": "New England Tractor Trailer Training School of CT-Bridgeport",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 428,
+          "avg_net_price": 16151
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 468963,
+        "slug": "new-england-tractor-trailer-training-school-of-massachusetts",
+        "name": "New England Tractor Trailer Training School of Massachusetts",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 430,
+          "avg_net_price": 15735
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 217323,
+        "slug": "new-england-tractor-trailer-training-school-of-rhode-island",
+        "name": "New England Tractor Trailer Training School of Rhode Island",
+        "state": "Rhode Island",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 646,
+          "avg_net_price": 15411
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 162371,
+        "slug": "north-american-trade-schools",
+        "name": "North American Trade Schools",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 534,
+          "avg_net_price": 11812
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 186052,
+        "slug": "pennco-tech-blackwood",
+        "name": "Pennco Tech-Blackwood",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 875,
+          "avg_net_price": 22036
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 228200,
+        "slug": "south-texas-vocational-technical-institute-weslaco",
+        "name": "South Texas Vocational Technical Institute-Weslaco",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 521,
+          "avg_net_price": 19268
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 486798,
+        "slug": "tulsa-welding-school-houston",
+        "name": "Tulsa Welding School-Houston",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 1962,
+          "avg_net_price": 32907
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 442329,
+        "slug": "tulsa-welding-school-jacksonville",
+        "name": "Tulsa Welding School-Jacksonville",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 968,
+          "avg_net_price": 32599
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 447616,
+        "slug": "uei-college-west-covina",
+        "name": "UEI College-West Covina",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 978,
+          "avg_net_price": 25924
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 366191,
+        "slug": "universal-technical-institute-of-illinois-inc",
+        "name": "Universal Technical Institute of Illinois Inc",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 1156,
+          "avg_net_price": 24971
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 493132,
+        "slug": "universal-technical-institute-bloomfield",
+        "name": "Universal Technical Institute-Bloomfield",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 1428,
+          "avg_net_price": 26052
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=400080",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:39:46.179535+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

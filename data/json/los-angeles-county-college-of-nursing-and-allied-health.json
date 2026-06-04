@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:17.383491+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117803,
+    "slug": "los-angeles-county-college-of-nursing-and-allied-health",
+    "name": "Los Angeles County College of Nursing and Allied Health",
+    "website_url": "https://dhs.lacounty.gov/college-of-nursing-and-allied-health",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90033-1084",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DKLEZ32VPMB8",
+      "opeid": "00616500",
+      "ein": "956000927"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Los Angeles County College of Nursing and Allied Health is a public educational institution located in Los Angeles, California. While the founding year is not explicitly mentioned, it offers programs focusing on nursing and allied health professions. The college serves a diverse population and is part of the larger Los Angeles County Health Services system.",
+    "source_url": "https://dhs.lacounty.gov/about-us",
+    "fetched_at": "2026-06-03T16:32:28.914387+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 1.0,
+    "federal_loan_rate": 0.2615,
+    "is_private_for_net_price": false
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 322,
+    "ug_12mo": 322,
+    "grad_12mo": 0,
+    "women_12mo": 220,
+    "men_12mo": 102,
+    "fall_total": 204,
+    "distance_ed_any": 204,
+    "race_ethnicity": {
+      "white": 0.1,
+      "black": 0.0682,
+      "hispanic": 0.5045,
+      "asian": 0.2636,
+      "ai_an": 0.0091,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0545,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 105
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 3.0,
+    "instr_total_fte": 25
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 111939,
+        "slug": "chaffey-college",
+        "name": "Chaffey College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 22460,
+          "avg_net_price": 5743
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 112686,
+        "slug": "compton-college",
+        "name": "Compton College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 5225,
+          "avg_net_price": 11103
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 113193,
+        "slug": "cuesta-college",
+        "name": "Cuesta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11283,
+          "avg_net_price": 12898
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 113236,
+        "slug": "cypress-college",
+        "name": "Cypress College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 15924,
+          "avg_net_price": 4683
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 113856,
+        "slug": "east-los-angeles-college",
+        "name": "East Los Angeles College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 33677,
+          "avg_net_price": 9791
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 113980,
+        "slug": "el-camino-community-college-district",
+        "name": "El Camino Community College District",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 21664,
+          "avg_net_price": 5170
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 115001,
+        "slug": "glendale-community-college-2",
+        "name": "Glendale Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 12075,
+          "avg_net_price": 7461
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 115126,
+        "slug": "golden-west-college",
+        "name": "Golden West College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 10721,
+          "avg_net_price": 2861
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 115296,
+        "slug": "grossmont-college",
+        "name": "Grossmont College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14440,
+          "avg_net_price": 2755
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 115393,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11273,
+          "avg_net_price": 2895
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 117645,
+        "slug": "long-beach-city-college",
+        "name": "Long Beach City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 24985,
+          "avg_net_price": 5001
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 117690,
+        "slug": "los-angeles-harbor-college",
+        "name": "Los Angeles Harbor College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 9463,
+          "avg_net_price": 11245
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 117706,
+        "slug": "los-angeles-pierce-college",
+        "name": "Los Angeles Pierce College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 16906,
+          "avg_net_price": 11196
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 117715,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5371,
+          "avg_net_price": 6683
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 119137,
+        "slug": "moorpark-college",
+        "name": "Moorpark College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 14583,
+          "avg_net_price": 742
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 121044,
+        "slug": "pasadena-city-college",
+        "name": "Pasadena City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 24597,
+          "avg_net_price": 3123
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 121886,
+        "slug": "rio-hondo-college",
+        "name": "Rio Hondo College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 17441,
+          "avg_net_price": 11903
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 121901,
+        "slug": "riverside-city-college",
+        "name": "Riverside City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 21730,
+          "avg_net_price": 4026
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 122205,
+        "slug": "saddleback-college",
+        "name": "Saddleback College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 20764,
+          "avg_net_price": 2976
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 123527,
+        "slug": "san-bernardino-valley-college",
+        "name": "San Bernardino Valley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 14055,
+          "avg_net_price": 8234
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 122339,
+        "slug": "san-diego-city-college",
+        "name": "San Diego City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 13242,
+          "avg_net_price": -818
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 121619,
+        "slug": "santa-ana-college",
+        "name": "Santa Ana College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 27248,
+          "avg_net_price": 3854
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 122889,
+        "slug": "santa-barbara-city-college",
+        "name": "Santa Barbara City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12334,
+          "avg_net_price": 10029
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 122977,
+        "slug": "santa-monica-college",
+        "name": "Santa Monica College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.81,
+          "enrollment": 23453,
+          "avg_net_price": 3600
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 125028,
+        "slug": "ventura-college",
+        "name": "Ventura College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 12222,
+          "avg_net_price": 2257
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://data.lacounty.gov/datasets",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:15:19.018921+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117803",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:15:21.043811+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Strategic Plan 2024-2028",
+      "url": "https://hr.lacounty.gov/strategic-plan-2024-2028/",
+      "summary": "The Strategic Plan for 2024-2028 by the Department of Human Resources (DHR) of Los Angeles County outlines a comprehensive roadmap for success through 2028. It is based on feedback from County leaders and partners, and aims to support the County’s workforce by emphasizing employee involvement in implementing innovative HR solutions. By aligning efforts within this framework, DHR seeks to provide exceptional service and achieve its ambitious goals, building on past achievements with determination and enthusiasm.",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:10:54.533089+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Economic Opportunity Grant",
+      "agency": "Department of Economic Opportunity",
+      "kind": "award",
+      "amount_usd": 60000000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Arts Relief and Recovery Grants",
+      "agency": "Department of Arts and Culture",
+      "kind": "award",
+      "amount_usd": 14200000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Capacity-Building Grants for Justice Focused CBOs",
+      "agency": "Chief Executive Office – Alternatives to Incarceration",
+      "kind": "award",
+      "amount_usd": 7500000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Creative Works and Jobs Grant",
+      "agency": "Department of Arts and Culture",
+      "kind": "award",
+      "amount_usd": 4700000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Creative Career Pathways for Youth Grant",
+      "agency": "Department of Arts and Culture",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Arts for Justice-Involved Youth Grant",
+      "agency": "Department of Arts and Culture",
+      "kind": "award",
+      "amount_usd": 2800000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "LA Community Impact Hub",
+      "agency": "Internal Services Department",
+      "kind": "award",
+      "amount_usd": 2000000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Reopening Culture, Tourism, and Marketing Grant",
+      "agency": "Department of Arts and Culture",
+      "kind": "award",
+      "amount_usd": 1700000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Mapping Resources for Justice-Involved Populations",
+      "agency": "Chief Executive Office – Alternatives to Incarceration",
+      "kind": "award",
+      "amount_usd": 1500000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Capacity Building for Immigrant-Focused CBOs",
+      "agency": "Department of Consumer and Business Affairs",
+      "kind": "award",
+      "amount_usd": 125000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Financial Coaching Partnership",
+      "agency": "Department of Consumer and Business Affairs",
+      "kind": "award",
+      "amount_usd": 12000,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Small Dollar Grants and Loans for Domestic Violence Survivors",
+      "agency": "Department of Consumer and Business Affairs",
+      "kind": "award",
+      "amount_usd": 2500,
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Childcare Provider Recovery Grant Program",
+      "agency": "Los Angeles County Development Authority",
+      "kind": "award",
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Food Equity Fund",
+      "agency": "Executive Office",
+      "kind": "award",
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Healthy Food Kickstarter",
+      "agency": "Department of Consumer and Business Affairs",
+      "kind": "award",
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Street Vending Collaborative for Health, Safety, and Economic Mobility",
+      "agency": "Department of Economic Mobility",
+      "kind": "opportunity",
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Trauma Prevention Partnerships",
+      "agency": "Department of Public Health – Office of Violence Prevention",
+      "kind": "award",
+      "url": "https://ceo.lacounty.gov/recovery/contracting-and-grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

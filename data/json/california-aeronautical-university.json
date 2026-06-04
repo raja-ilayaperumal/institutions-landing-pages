@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:15.752897+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 433420,
+    "slug": "california-aeronautical-university",
+    "name": "California Aeronautical University",
+    "website_url": "https://www.calaero.edu",
+    "city": "Bakersfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93308",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "M6JGCHDLATE7",
+      "opeid": "00998900",
+      "ein": "952742708"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Aeronautical University is a private institution located in Bakersfield, California, founded in 2016. The university focuses primarily on aviation-related programs, including pilot training and aircraft maintenance, and covers approximately 22 acres with facilities tailored for educational and student activities.",
+    "source_url": "https://www.calaero.edu/about",
+    "fetched_at": "2026-06-03T16:36:10.178688+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 35465,
+    "out_of_state_tuition": 35465,
+    "room_and_board": 8850,
+    "total_cost_in_state": 44315,
+    "total_cost_out_of_state": 44315,
+    "avg_net_price": 38205,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6615,
+    "net_price_by_family_income": {
+      "0_30k": 34367,
+      "30_48k": 34853,
+      "48_75k": 37028,
+      "75_110k": 41966,
+      "110k_plus": 43331
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4194,
+    "grad_rate_total": 0.3,
+    "grad_4yr_bachelors": 0.04,
+    "grad_5yr_bachelors": 0.04,
+    "grad_6yr_bachelors": 0.3,
+    "pell_grad_rate": 0.32,
+    "pell_6yr_bachelors_rate": 0.31,
+    "non_pell_grad_rate": 0.18,
+    "non_pell_6yr_bachelors": 0.18,
+    "retention_full_time": 0.69
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 530,
+    "ug_12mo": 520,
+    "grad_12mo": 10,
+    "women_12mo": 72,
+    "men_12mo": 458,
+    "fall_total": 350,
+    "distance_ed_any": 350,
+    "distance_ed_exclusive": 5,
+    "race_ethnicity": {
+      "white": 0.4021,
+      "black": 0.0679,
+      "hispanic": 0.3786,
+      "asian": 0.0914,
+      "ai_an": 0.0026,
+      "nh_pi": 0.0131,
+      "two_or_more": 0.0392,
+      "non_resident": 0.0,
+      "race_unknown": 0.0052
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "49",
+        "cip_family_label": "Transportation",
+        "completions": 48
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 2
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 20
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 172866,
+        "slug": "academy-college",
+        "name": "Academy College",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.36,
+          "retention_rate": 0.0,
+          "enrollment": 56,
+          "avg_net_price": 31307
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 441982,
+        "slug": "franklin-w-olin-college-of-engineering",
+        "name": "Franklin W Olin College of Engineering",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.252,
+          "yield_rate": 0.4365079365079365,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 405,
+          "avg_net_price": 20575
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 445692,
+        "slug": "neumont-college-of-computer-science",
+        "name": "Neumont College of Computer Science",
+        "state": "Utah",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.867761452031115,
+          "yield_rate": 0.14243027888446216,
+          "grad_rate": 0.57,
+          "retention_rate": 0.74,
+          "enrollment": 476,
+          "avg_net_price": 28979
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 129428,
+        "slug": "rensselaer-at-hartford",
+        "name": "Rensselaer at Hartford",
+        "state": "Connecticut",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 5,
+        "unitid": 152318,
+        "slug": "rose-hulman-institute-of-technology",
+        "name": "Rose-Hulman Institute of Technology",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7685747088732163,
+          "yield_rate": 0.12889457959880496,
+          "grad_rate": 0.78,
+          "retention_rate": 0.92,
+          "enrollment": 2334,
+          "avg_net_price": 40665
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 197221,
+        "slug": "webb-institute",
+        "name": "Webb Institute",
+        "state": "New York",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.14042553191489363,
+          "yield_rate": 0.7575757575757576,
+          "grad_rate": 0.88,
+          "retention_rate": 0.93,
+          "enrollment": 106,
+          "avg_net_price": 19077
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=433420",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:42:34.091888+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

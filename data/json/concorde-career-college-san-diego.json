@@ -1,0 +1,348 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:42.734021+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120661,
+    "slug": "concorde-career-college-san-diego",
+    "name": "Concorde Career College-San Diego",
+    "website_url": "https://www.concorde.edu/campus/san-diego-california",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92113-1964",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "WAGHJBMHB7S6",
+      "opeid": "00793000",
+      "ein": "430914033"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Concorde Career College-San Diego is a vocational institution located in San Diego, California, specializing in healthcare education. The college offers programs in Nursing, Dental, Diagnostic, Patient Care, and Allied Health. Founded in 1967, it is part of a larger network of Concorde campuses across the United States.",
+    "source_url": "https://www.concorde.edu/about",
+    "fetched_at": "2026-06-03T16:36:34.280255+05:30"
+  },
+  "admissions": {
+    "applicants": 207,
+    "admits": 207,
+    "enrolled": 141,
+    "first_time_freshmen": 141,
+    "first_time_freshmen_ft": 141,
+    "admission_rate": 0.9395,
+    "admit_rate": 1.0,
+    "yield_rate": 0.6811594202898551
+  },
+  "cost": {
+    "avg_net_price": 24477,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6479,
+    "net_price_by_family_income": {
+      "0_30k": 23897,
+      "30_48k": 24018,
+      "48_75k": 25187,
+      "75_110k": 28318,
+      "110k_plus": 28429
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6167,
+    "grad_rate_total": 0.76,
+    "pell_grad_rate": 0.75,
+    "non_pell_grad_rate": 0.89,
+    "retention_full_time": 0.95
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 752,
+    "ug_12mo": 752,
+    "grad_12mo": 0,
+    "women_12mo": 602,
+    "men_12mo": 150,
+    "fall_total": 147,
+    "distance_ed_any": 147,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0674,
+      "black": 0.0449,
+      "hispanic": 0.2528,
+      "asian": 0.0337,
+      "ai_an": 0.0056,
+      "nh_pi": 0.0056,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.5899
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 102
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 20
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 438258,
+        "slug": "carrington-college-pleasant-hill-campus",
+        "name": "Carrington College-Pleasant Hill Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8125,
+          "yield_rate": 0.6153846153846154,
+          "retention_rate": 0.77,
+          "enrollment": 416,
+          "avg_net_price": 30749
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 246035,
+        "slug": "carrington-college-portland",
+        "name": "Carrington College-Portland",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8360655737704918,
+          "yield_rate": 0.6862745098039216,
+          "retention_rate": 0.65,
+          "enrollment": 254,
+          "avg_net_price": 29350
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 125532,
+        "slug": "carrington-college-sacramento",
+        "name": "Carrington College-Sacramento",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8869565217391304,
+          "yield_rate": 0.7745098039215687,
+          "enrollment": 2207,
+          "avg_net_price": 37143
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 246974,
+        "slug": "carrington-college-san-leandro-campus",
+        "name": "Carrington College-San Leandro Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.918918918918919,
+          "yield_rate": 0.6617647058823529,
+          "retention_rate": 0.6,
+          "enrollment": 326,
+          "avg_net_price": 32368
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 220118,
+        "slug": "chattanooga-college-medical-dental-and-and-technical-careers",
+        "name": "Chattanooga College Medical Dental and & Technical Careers",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.31,
+          "enrollment": 252,
+          "avg_net_price": 28726
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 381732,
+        "slug": "colorado-school-of-healing-arts",
+        "name": "Colorado School of Healing Arts",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 52
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 434140,
+        "slug": "pima-medical-institute-chula-vista",
+        "name": "Pima Medical Institute-Chula Vista",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 537,
+          "avg_net_price": 21925
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 404912,
+        "slug": "pima-medical-institute-denver",
+        "name": "Pima Medical Institute-Denver",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 664,
+          "avg_net_price": 21821
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 122694,
+        "slug": "san-joaquin-valley-college-bakersfield",
+        "name": "San Joaquin Valley College-Bakersfield",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 798,
+          "avg_net_price": 23393
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 262457,
+        "slug": "san-joaquin-valley-college-fresno",
+        "name": "San Joaquin Valley College-Fresno",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 447,
+          "avg_net_price": 23045
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 442444,
+        "slug": "san-joaquin-valley-college-ontario",
+        "name": "San Joaquin Valley College-Ontario",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 941,
+          "avg_net_price": 25595
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 122685,
+        "slug": "san-joaquin-valley-college-visalia",
+        "name": "San Joaquin Valley College-Visalia",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2318,
+          "avg_net_price": 29092
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 442426,
+        "slug": "st-louis-college-of-health-careers-fenton",
+        "name": "St Louis College of Health Careers-Fenton",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 0.6071428571428571,
+          "enrollment": 419
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 179511,
+        "slug": "st-louis-college-of-health-careers-st-louis",
+        "name": "St Louis College of Health Careers-St Louis",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 153,
+          "avg_net_price": 26422
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 392257,
+        "slug": "the-college-of-health-care-professions-northwest",
+        "name": "The College of Health Care Professions-Northwest",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4530,
+          "avg_net_price": 25937
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120661",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:32:58.831796+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

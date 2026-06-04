@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:55.211365+00:00",
+  "generated_at": "2026-06-04T04:59:28.880519+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Folsom_Lake_College",
     "fetched_at": "2026-05-25T23:01:36.093904+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1288,
+    "out_of_state_tuition": 12808,
     "avg_net_price": 3661,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7593,
     "federal_loan_rate": 0.0197,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6635,
       "75_110k": 8990,
       "110k_plus": 7254
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4433,
     "grad_rate_total": 0.44,
     "pell_grad_rate": 0.37,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 16836,
     "ug_12mo": 16836,
-    "grad_12mo": 14342,
+    "grad_12mo": 0,
     "women_12mo": 9439,
     "men_12mo": 7397,
     "fall_total": 11098,
-    "fall_full_time": 11098,
-    "fall_part_time": 9414,
     "distance_ed_any": 11098,
     "distance_ed_exclusive": 6640,
     "race_ethnicity": {

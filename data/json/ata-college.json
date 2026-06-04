@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:30.174792+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 444361,
+    "slug": "ata-college",
+    "name": "ATA College",
+    "website_url": "https://atacollege.edu",
+    "city": "El Cajon",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92020",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FP4LLGJ2JGZ3",
+      "opeid": "03532400",
+      "ein": "473833340"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "ATA College, formerly known as Advanced Training Associates, is a private college in El Cajon, California. ATA College is accredited by the Council on Occupational Education (COE) and approved by the Bureau of Private Post-Secondary Education. The institute is also approved to participate in Federal financial aid programs by the Department of Education for students who qualify. The school provides training to the military and has been a Department of Defense contractor for vocational education since 1996. Tuition Assistance and Veterans Benefits can be used at ATA College. The institute is an approved training center by the Fiber Optic Association.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Advanced_Training",
+    "source_url": "https://en.wikipedia.org/wiki/Advanced_Training",
+    "fetched_at": "2026-06-03T16:22:13.213729+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 20906,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6356,
+    "net_price_by_family_income": {
+      "0_30k": 19636,
+      "30_48k": 20131,
+      "48_75k": 21796,
+      "75_110k": 27026
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8795,
+    "grad_rate_total": 0.89,
+    "pell_grad_rate": 0.94,
+    "retention_full_time": 0.91
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 117,
+    "ug_12mo": 117,
+    "grad_12mo": 0,
+    "women_12mo": 65,
+    "men_12mo": 52,
+    "fall_total": 80,
+    "distance_ed_any": 80,
+    "distance_ed_exclusive": 2,
+    "race_ethnicity": {
+      "white": 0.3774,
+      "black": 0.2264,
+      "hispanic": 0.3113,
+      "asian": 0.0472,
+      "ai_an": 0.0094,
+      "nh_pi": 0.0094,
+      "two_or_more": 0.0189,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 1
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 1
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447777,
+        "slug": "asher-college",
+        "name": "Asher College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.47,
+          "enrollment": 649,
+          "avg_net_price": 16924
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 438179,
+        "slug": "brookline-college-tucson",
+        "name": "Brookline College-Tucson",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 218,
+          "avg_net_price": 20788
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 420370,
+        "slug": "career-technical-institute",
+        "name": "Career Technical Institute",
+        "state": "District of Columbia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 232,
+          "avg_net_price": 19920
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 449083,
+        "slug": "cbt-technology-institute-main-campus",
+        "name": "CBT Technology Institute-Main Campus",
+        "state": "Florida",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 508,
+          "avg_net_price": 17872
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 200590,
+        "slug": "eti-technical-college-of-niles",
+        "name": "ETI Technical College of Niles",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 179,
+          "avg_net_price": 13775
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 151467,
+        "slug": "international-business-college-indianapolis",
+        "name": "International Business College-Indianapolis",
+        "state": "Indiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.751937984496124,
+          "yield_rate": 0.21649484536082475,
+          "retention_rate": 0.74,
+          "enrollment": 123,
+          "avg_net_price": 14989
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 213473,
+        "slug": "lansdale-school-of-business",
+        "name": "Lansdale School of Business",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 93,
+          "avg_net_price": 24539
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 250027,
+        "slug": "laurel-business-institute",
+        "name": "Laurel Business Institute",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7685459940652819,
+          "yield_rate": 0.61003861003861,
+          "retention_rate": 0.76,
+          "enrollment": 518,
+          "avg_net_price": 10086
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 215992,
+        "slug": "laurel-technical-institute",
+        "name": "Laurel Technical Institute",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8529411764705882,
+          "yield_rate": 0.7701149425287356,
+          "retention_rate": 0.71,
+          "enrollment": 163,
+          "avg_net_price": 9139
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 163028,
+        "slug": "lincoln-college-of-technology-columbia",
+        "name": "Lincoln College of Technology-Columbia",
+        "state": "Maryland",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1258,
+          "avg_net_price": 29997
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 146700,
+        "slug": "lincoln-college-of-technology-melrose-park",
+        "name": "Lincoln College of Technology-Melrose Park",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1539,
+          "avg_net_price": 24334
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 213570,
+        "slug": "lincoln-technical-institute-allentown",
+        "name": "Lincoln Technical Institute-Allentown",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 628,
+          "avg_net_price": 36307
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 213534,
+        "slug": "miller-motte-college-berks-technical-institute",
+        "name": "Miller-Motte College-Berks Technical Institute",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 556
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 441025,
+        "slug": "miller-motte-college-charleston",
+        "name": "Miller-Motte College-Charleston",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 9
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 458441,
+        "slug": "miller-motte-college-columbus",
+        "name": "Miller-Motte College-Columbus",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 190,
+          "avg_net_price": 21407
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 460835,
+        "slug": "miller-motte-college-conway",
+        "name": "Miller-Motte College-Conway",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 3,
+          "avg_net_price": 21736
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 367112,
+        "slug": "miller-motte-college-mccann-monroe",
+        "name": "Miller-Motte College-McCann-Monroe",
+        "state": "Louisiana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 8,
+          "avg_net_price": 20440
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 214290,
+        "slug": "new-castle-school-of-trades",
+        "name": "New Castle School of Trades",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7508532423208191,
+          "retention_rate": 0.79,
+          "enrollment": 700,
+          "avg_net_price": 6981
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 459514,
+        "slug": "peloton-college",
+        "name": "Peloton College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 61,
+          "avg_net_price": 17372
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 490832,
+        "slug": "ross-college-canton",
+        "name": "Ross College-Canton",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 785,
+          "avg_net_price": 32097
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 366553,
+        "slug": "southern-technical-college",
+        "name": "Southern Technical College",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 550,
+          "avg_net_price": 24026
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 216454,
+        "slug": "triangle-tech-inc-dubois",
+        "name": "Triangle Tech Inc-Dubois",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 20,
+          "avg_net_price": 20698
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 216445,
+        "slug": "triangle-tech-inc-greensburg",
+        "name": "Triangle Tech Inc-Greensburg",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 31,
+          "avg_net_price": 23919
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 216436,
+        "slug": "triangle-tech-inc-pittsburgh",
+        "name": "Triangle Tech Inc-Pittsburgh",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 18,
+          "avg_net_price": 20789
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 443377,
+        "slug": "triangle-tech-inc-sunbury",
+        "name": "Triangle Tech Inc-Sunbury",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 25,
+          "avg_net_price": 22625
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 237987,
+        "slug": "west-virginia-junior-college-charleston",
+        "name": "West Virginia Junior College-Charleston",
+        "state": "West Virginia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 394,
+          "avg_net_price": 11856
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 217077,
+        "slug": "yti-career-institute-york",
+        "name": "YTI Career Institute-York",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6920152091254753,
+          "yield_rate": 0.44505494505494503,
+          "retention_rate": 0.63,
+          "enrollment": 642,
+          "avg_net_price": 17758
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=444361",
+      "stored": false,
+      "fetched_at": "2026-06-03T16:22:11.889361+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,534 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:57.792430+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 457077,
+    "slug": "milan-institute-bakersfield",
+    "name": "Milan Institute-Bakersfield",
+    "website_url": "https://www.milaninstitute.edu",
+    "city": "Bakersfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93301",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NKTLKULWSGR5",
+      "opeid": "03422302",
+      "ein": "751640547"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Milan Institute-Bakersfield is a vocational school located in Bakersfield, California. The institution offers various career training programs, notably in cosmetology, medical assisting, and skilled trades, though the founding year is not mentioned.",
+    "source_url": "https://www.milaninstitute.edu/about",
+    "fetched_at": "2026-06-03T16:41:16.761683+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 29198,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6389,
+    "net_price_by_family_income": {
+      "0_30k": 28601,
+      "30_48k": 28374,
+      "48_75k": 30142,
+      "75_110k": 31964,
+      "110k_plus": 33132
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4942,
+    "grad_rate_total": 0.59,
+    "pell_grad_rate": 0.56,
+    "non_pell_grad_rate": 0.65,
+    "retention_full_time": 0.91
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 948,
+    "ug_12mo": 948,
+    "grad_12mo": 0,
+    "women_12mo": 880,
+    "men_12mo": 68,
+    "fall_total": 582,
+    "distance_ed_any": 582,
+    "race_ethnicity": {
+      "white": 0.2237,
+      "black": 0.0661,
+      "hispanic": 0.6479,
+      "asian": 0.0214,
+      "ai_an": 0.0058,
+      "nh_pi": 0.0039,
+      "two_or_more": 0.0058,
+      "non_resident": 0.0,
+      "race_unknown": 0.0253
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 5,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 393861,
+        "slug": "asian-american-international-beauty-college",
+        "name": "Asian-American International Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 442
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 455354,
+        "slug": "aveda-arts-and-sciences-institute-san-antonio",
+        "name": "Aveda Arts & Sciences Institute-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 250,
+          "avg_net_price": 24217
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 459277,
+        "slug": "aveda-institute-denver",
+        "name": "Aveda Institute-Denver",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 280,
+          "avg_net_price": 21495
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 455211,
+        "slug": "casal-institute-of-nevada",
+        "name": "Casal Institute of Nevada",
+        "state": "Nevada",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.79,
+          "yield_rate": 0.7721518987341772,
+          "retention_rate": 0.91,
+          "enrollment": 271,
+          "avg_net_price": 14037
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 434830,
+        "slug": "creative-images-institute-of-cosmetology-north-dayton",
+        "name": "Creative Images Institute of Cosmetology-North Dayton",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 210,
+          "avg_net_price": 13528
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 195067,
+        "slug": "empire-beauty-school-manhattan",
+        "name": "Empire Beauty School-Manhattan",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 388,
+          "avg_net_price": 19553
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 476498,
+        "slug": "futura-career-institute",
+        "name": "Futura Career Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 404,
+          "avg_net_price": 22298
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 145406,
+        "slug": "g-skin-and-beauty-institute",
+        "name": "G Skin & Beauty Institute",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 490,
+          "avg_net_price": 21142
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 408862,
+        "slug": "georgia-institute-of-cosmetology",
+        "name": "Georgia Institute of Cosmetology",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 200,
+          "avg_net_price": 13000
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 363679,
+        "slug": "grabber-school-of-hair-design",
+        "name": "Grabber School of Hair Design",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 182,
+          "avg_net_price": 12981
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 485388,
+        "slug": "hollywood-institute-of-beauty-careers-casselberry",
+        "name": "Hollywood Institute of Beauty Careers-Casselberry",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 273,
+          "avg_net_price": 17903
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 117955,
+        "slug": "lu-ross-academy",
+        "name": "Lu Ross Academy",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 229,
+          "avg_net_price": 15711
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 476993,
+        "slug": "medspa-academies",
+        "name": "Medspa Academies",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 241,
+          "avg_net_price": 16881
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 227322,
+        "slug": "ogle-school-hair-skin-nails-ft-worth",
+        "name": "Ogle School Hair Skin Nails-Ft Worth",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 500,
+          "avg_net_price": 19659
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 480125,
+        "slug": "ogle-school-hair-skin-nails-san-antonio",
+        "name": "Ogle School Hair Skin Nails-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 466,
+          "avg_net_price": 20159
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 484604,
+        "slug": "ogle-school-hair-skin-nails-stafford",
+        "name": "Ogle School Hair Skin Nails-Stafford",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 550,
+          "avg_net_price": 20472
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 186016,
+        "slug": "parisian-beauty-school",
+        "name": "Parisian Beauty School",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 441,
+          "avg_net_price": 21316
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 454926,
+        "slug": "paul-mitchell-the-school-atlanta",
+        "name": "Paul Mitchell the School-Atlanta",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 249,
+          "avg_net_price": 17887
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 442240,
+        "slug": "paul-mitchell-the-school-costa-mesa",
+        "name": "Paul Mitchell the School-Costa Mesa",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 395,
+          "avg_net_price": 12063
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 459198,
+        "slug": "paul-mitchell-the-school-fresno",
+        "name": "Paul Mitchell the School-Fresno",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 223,
+          "avg_net_price": 20048
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 249238,
+        "slug": "paul-mitchell-the-school-houston",
+        "name": "Paul Mitchell the School-Houston",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 288,
+          "avg_net_price": 20616
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 455761,
+        "slug": "paul-mitchell-the-school-sacramento",
+        "name": "Paul Mitchell the School-Sacramento",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 309,
+          "avg_net_price": 19748
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 449968,
+        "slug": "paul-mitchell-the-school-san-diego",
+        "name": "Paul Mitchell the School-San Diego",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 225,
+          "avg_net_price": 25671
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 460914,
+        "slug": "penrose-academy",
+        "name": "Penrose Academy",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.88,
+          "enrollment": 403,
+          "avg_net_price": 23650
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 430582,
+        "slug": "praxis-institute",
+        "name": "Praxis Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 422,
+          "avg_net_price": 8661
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 216074,
+        "slug": "south-hills-beauty-academy",
+        "name": "South Hills Beauty Academy",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 183,
+          "avg_net_price": 5948
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 221829,
+        "slug": "tennessee-school-of-beauty-of-knoxville-inc",
+        "name": "Tennessee School of Beauty of Knoxville Inc",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 323,
+          "avg_net_price": 11492
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 150303,
+        "slug": "tricoci-university-of-beauty-culture-highland",
+        "name": "Tricoci University of Beauty Culture-Highland",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 319,
+          "avg_net_price": 19194
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 414869,
+        "slug": "tricoci-university-of-beauty-culture-indianapolis",
+        "name": "Tricoci University of Beauty Culture-Indianapolis",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 346,
+          "avg_net_price": 19046
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=457077",
+      "stored": false,
+      "fetched_at": "2026-06-02T21:27:08.916876+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "First Generation Student Scholarship",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://milaninstitute.edu/financial-aid-for-students/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

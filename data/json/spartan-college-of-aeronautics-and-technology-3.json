@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:07.875880+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 413680,
+    "slug": "spartan-college-of-aeronautics-and-technology-3",
+    "name": "Spartan College of Aeronautics & Technology",
+    "website_url": "https://www.spartan.edu",
+    "city": "Inglewood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90301-2904",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Technical Professions",
+    "carnegie_slug": "special-focus-2yr-technical",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CNPYBCG4GFE9",
+      "opeid": "02596400",
+      "ein": "841493768"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Spartan College of Aeronautics and Technology (Spartan) is a private for-profit aviation college with its main campus in Tulsa, Oklahoma, United States. Satellite campuses are in Inglewood, California, Broomfield, Colorado, and Riverside, California. It was originally established to provide pilot and technicians for Spartan Aircraft Company but outlived its parent company and continues to train pilots and mechanics into the 21st Century. The main campus is adjacent to Tulsa International Airport, with another campus used for flight training at Tulsa Riverside Airport.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Spartan_College_of_Aeronautics_and_Technology",
+    "source_url": "https://en.wikipedia.org/wiki/Spartan_College_of_Aeronautics_and_Technology",
+    "fetched_at": "2026-06-03T00:01:34.207722+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 30099,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.487,
+    "net_price_by_family_income": {
+      "0_30k": 28654,
+      "30_48k": 33213,
+      "48_75k": 34171,
+      "75_110k": 36243,
+      "110k_plus": 38110
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7056,
+    "grad_rate_total": 0.64,
+    "pell_grad_rate": 0.59,
+    "non_pell_grad_rate": 0.75,
+    "retention_full_time": 0.77
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 548,
+    "ug_12mo": 548,
+    "grad_12mo": 0,
+    "women_12mo": 36,
+    "men_12mo": 512,
+    "fall_total": 411,
+    "distance_ed_any": 411,
+    "race_ethnicity": {
+      "white": 0.0846,
+      "black": 0.1066,
+      "hispanic": 0.6019,
+      "asian": 0.1097,
+      "ai_an": 0.0031,
+      "nh_pi": 0.0345,
+      "two_or_more": 0.0376,
+      "non_resident": 0.0,
+      "race_unknown": 0.0219
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 22
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 23
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 231411,
+        "slug": "advanced-technology-institute",
+        "name": "Advanced Technology Institute",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5354166666666667,
+          "yield_rate": 0.4280155642023346,
+          "retention_rate": 0.8,
+          "enrollment": 415,
+          "avg_net_price": 18497
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 461573,
+        "slug": "american-trade-school",
+        "name": "American Trade School",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 154,
+          "avg_net_price": 18022
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 126784,
+        "slug": "colorado-school-of-trades",
+        "name": "Colorado School of Trades",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9090909090909091,
+          "yield_rate": 0.725,
+          "retention_rate": 0.93,
+          "enrollment": 85,
+          "avg_net_price": 22635
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 212434,
+        "slug": "erie-institute-of-technology-inc",
+        "name": "Erie Institute of Technology Inc",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 221,
+          "avg_net_price": 19173
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 128179,
+        "slug": "intellitec-college-colorado-springs",
+        "name": "Intellitec College-Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 679,
+          "avg_net_price": 22051
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 128188,
+        "slug": "intellitec-college-grand-junction",
+        "name": "Intellitec College-Grand Junction",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 1077,
+          "avg_net_price": 16656
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 191959,
+        "slug": "island-drafting-and-technical-institute",
+        "name": "Island Drafting and Technical Institute",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 30,
+          "avg_net_price": 21392
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 159197,
+        "slug": "iti-technical-college",
+        "name": "ITI Technical College",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 555,
+          "avg_net_price": 19862
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 126951,
+        "slug": "lincoln-college-of-technology-denver",
+        "name": "Lincoln College of Technology-Denver",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 1212,
+          "avg_net_price": 32060
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 226277,
+        "slug": "lincoln-college-of-technology-grand-prairie",
+        "name": "Lincoln College of Technology-Grand Prairie",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 1539,
+          "avg_net_price": 30391
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 151661,
+        "slug": "lincoln-college-of-technology-indianapolis",
+        "name": "Lincoln College of Technology-Indianapolis",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1052,
+          "avg_net_price": 29530
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 434159,
+        "slug": "lincoln-college-of-technology-marietta",
+        "name": "Lincoln College of Technology-Marietta",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 538,
+          "avg_net_price": 29503
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 221148,
+        "slug": "lincoln-college-of-technology-nashville",
+        "name": "Lincoln College of Technology-Nashville",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 967,
+          "avg_net_price": 27603
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 213589,
+        "slug": "lincoln-technical-institute-philadelphia",
+        "name": "Lincoln Technical Institute-Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 345,
+          "avg_net_price": 28399
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 451477,
+        "slug": "mycomputercareer-at-columbus",
+        "name": "MyComputerCareer at Columbus",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 821,
+          "avg_net_price": 25617
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 440262,
+        "slug": "new-york-automotive-and-diesel-institute",
+        "name": "New York Automotive and Diesel Institute",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 487,
+          "avg_net_price": 22466
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 418889,
+        "slug": "north-central-institute",
+        "name": "North Central Institute",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 61,
+          "avg_net_price": 24033
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 204608,
+        "slug": "ohio-technical-college",
+        "name": "Ohio Technical College",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 683,
+          "avg_net_price": 27952
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 214944,
+        "slug": "pennco-tech-bristol",
+        "name": "Pennco Tech-Bristol",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.31,
+          "enrollment": 771,
+          "avg_net_price": 20710
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 105659,
+        "slug": "refrigeration-school-inc",
+        "name": "Refrigeration School Inc",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 1417,
+          "avg_net_price": 25300
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 422020,
+        "slug": "san-joaquin-valley-college-trades-education-center",
+        "name": "San Joaquin Valley College-Trades Education Center",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 364,
+          "avg_net_price": 24093
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 377218,
+        "slug": "school-of-automotive-machinists-and-technology",
+        "name": "School of Automotive Machinists & Technology",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6857142857142857,
+          "yield_rate": 0.5833333333333334,
+          "retention_rate": 0.79,
+          "enrollment": 88,
+          "avg_net_price": 26359
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 488077,
+        "slug": "sonoran-desert-institute",
+        "name": "Sonoran Desert Institute",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 5437,
+          "avg_net_price": 19921
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 126605,
+        "slug": "spartan-college-of-aeronautics-and-technology",
+        "name": "Spartan College of Aeronautics and Technology",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 397,
+          "avg_net_price": 30922
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 447591,
+        "slug": "the-college-of-health-care-professions-southwest-houston",
+        "name": "The College of Health Care Professions-Southwest Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 681,
+          "avg_net_price": 27427
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 448859,
+        "slug": "triangle-tech-inc-bethlehem",
+        "name": "Triangle Tech Inc-Bethlehem",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 43,
+          "avg_net_price": 22044
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 207962,
+        "slug": "tulsa-welding-school-tulsa",
+        "name": "Tulsa Welding School-Tulsa",
+        "state": "Oklahoma",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 892,
+          "avg_net_price": 33120
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 106041,
+        "slug": "universal-technical-institute-of-arizona-inc",
+        "name": "Universal Technical Institute of Arizona Inc",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 1957,
+          "avg_net_price": 27139
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 438504,
+        "slug": "universal-technical-institute-of-california-inc",
+        "name": "Universal Technical Institute of California Inc",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 1553,
+          "avg_net_price": 23526
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 448433,
+        "slug": "universal-technical-institute-of-northern-california-inc",
+        "name": "Universal Technical Institute of Northern California Inc",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 1214,
+          "avg_net_price": 26671
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 460543,
+        "slug": "universal-technical-institute-dallas-fort-worth",
+        "name": "Universal Technical Institute-Dallas Fort Worth",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 1610,
+          "avg_net_price": 23939
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 487597,
+        "slug": "universal-technical-institute-southern-california",
+        "name": "Universal Technical Institute-Southern California",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 1701,
+          "avg_net_price": 24867
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 240718,
+        "slug": "wyotech",
+        "name": "WyoTech",
+        "state": "Wyoming",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 1335,
+          "avg_net_price": 42574
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=413680",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:01:35.369708+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

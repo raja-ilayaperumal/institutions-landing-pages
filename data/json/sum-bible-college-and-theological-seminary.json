@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:40.319263+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447953,
+    "slug": "sum-bible-college-and-theological-seminary",
+    "name": "SUM Bible College and Theological Seminary",
+    "website_url": "https://www.sum.edu",
+    "city": "El Dorado Hills",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95762",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HBMZZ4U7AMJ4",
+      "opeid": "03752400",
+      "ein": "721226741"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "SUM Bible College and Theological Seminary is an accredited online institution located in El Dorado Hills, California. It specializes in theological education with a focus on equipping leaders for the Pentecostal ministry, offering degree programs such as Bachelor of Arts in Theology and Ministry and Master of Divinity. The college was founded with the aim to combine academic instruction with practical ministry experience and personal mentorship.",
+    "source_url": "https://www.sum.edu/",
+    "fetched_at": "2026-06-03T16:33:58.460757+05:30"
+  },
+  "admissions": {
+    "applicants": 59,
+    "admits": 24,
+    "enrolled": 24,
+    "first_time_freshmen": 24,
+    "first_time_freshmen_ft": 21,
+    "admission_rate": 0.6421,
+    "admit_rate": 0.4067796610169492,
+    "yield_rate": 1.0
+  },
+  "cost": {
+    "in_state_tuition": 10460,
+    "out_of_state_tuition": 10460,
+    "avg_net_price": 21042,
+    "pell_grant_rate": 0.4455,
+    "federal_loan_rate": 0.5192,
+    "net_price_by_family_income": {
+      "0_30k": 19744,
+      "30_48k": 19320,
+      "48_75k": 21081,
+      "75_110k": 24025
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4615,
+    "grad_rate_total": 0.85,
+    "grad_4yr_bachelors": 0.1,
+    "grad_5yr_bachelors": 0.14,
+    "grad_6yr_bachelors": 0.14,
+    "pell_grad_rate": 0.77,
+    "pell_6yr_bachelors_rate": 0.13,
+    "non_pell_grad_rate": 0.79,
+    "non_pell_6yr_bachelors": 0.14,
+    "retention_full_time": 0.64,
+    "retention_part_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 679,
+    "ug_12mo": 439,
+    "grad_12mo": 240,
+    "women_12mo": 291,
+    "men_12mo": 388,
+    "fall_total": 319,
+    "distance_ed_any": 319,
+    "distance_ed_exclusive": 309,
+    "race_ethnicity": {
+      "white": 0.2917,
+      "black": 0.0769,
+      "hispanic": 0.2308,
+      "asian": 0.016,
+      "ai_an": 0.0609,
+      "nh_pi": 0.0032,
+      "two_or_more": 0.0,
+      "non_resident": 0.0032,
+      "race_unknown": 0.3173
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 124
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0,
+    "instr_total_fte": 5
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 124487,
+        "slug": "epic-bible-college-and-graduate-school",
+        "name": "Epic Bible College & Graduate School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7857142857142857,
+          "yield_rate": 0.8181818181818182,
+          "grad_rate": 0.0,
+          "enrollment": 98
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 236133,
+        "slug": "northwest-university",
+        "name": "Northwest University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.832,
+          "yield_rate": 0.3076923076923077,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 1053,
+          "avg_net_price": 25161
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 207582,
+        "slug": "oral-roberts-university",
+        "name": "Oral Roberts University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9890481879729192,
+          "yield_rate": 0.18824239983893698,
+          "grad_rate": 0.57,
+          "retention_rate": 0.8,
+          "enrollment": 5936,
+          "avg_net_price": 23600
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 137564,
+        "slug": "southeastern-university",
+        "name": "Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5297969875573019,
+          "yield_rate": 0.4861969509682736,
+          "grad_rate": 0.44,
+          "retention_rate": 0.7,
+          "enrollment": 11510,
+          "avg_net_price": 30209
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 122728,
+        "slug": "william-jessup-university",
+        "name": "William Jessup University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9332816136539953,
+          "yield_rate": 0.19617622610141314,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 1865,
+          "avg_net_price": 25300
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=447953",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:21:58.839315+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

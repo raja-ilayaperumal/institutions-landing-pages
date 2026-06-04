@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:42.249486+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120537,
+    "slug": "hope-international-university",
+    "name": "Hope International University",
+    "website_url": "https://www.hiu.edu",
+    "city": "Fullerton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92831-3199",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "X8MZQNSC8S59",
+      "opeid": "00125200",
+      "ein": "951916051"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Hope International University is a private Christian university in Fullerton, California, United States. It enrolls around 1,140 students. While Hope is non-denominational, it has strong ties to the Restoration Movement and the Christian churches and churches of Christ. Hope is accredited by the Western Association of Schools and Colleges (WASC). Hope International University's Fullerton campus sits adjacent to California State University, Fullerton, with which it has contract programs. Enrollment stands at just under 1,200 students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hope_International_University",
+    "source_url": "https://en.wikipedia.org/wiki/Hope_International_University",
+    "fetched_at": "2026-06-02T12:08:45.690369+05:30"
+  },
+  "admissions": {
+    "applicants": 940,
+    "admits": 310,
+    "enrolled": 119,
+    "first_time_freshmen": 119,
+    "first_time_freshmen_ft": 119,
+    "admission_rate": 0.3539,
+    "admit_rate": 0.32978723404255317,
+    "yield_rate": 0.38387096774193546
+  },
+  "cost": {
+    "in_state_tuition": 36250,
+    "out_of_state_tuition": 36250,
+    "avg_net_price": 27653,
+    "pell_grant_rate": 0.153,
+    "federal_loan_rate": 0.6034,
+    "net_price_by_family_income": {
+      "0_30k": 26641,
+      "30_48k": 34153,
+      "48_75k": 33153,
+      "75_110k": 35778,
+      "110k_plus": 34403
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4565,
+    "grad_rate_total": 0.49,
+    "grad_4yr_bachelors": 0.36,
+    "grad_5yr_bachelors": 0.49,
+    "grad_6yr_bachelors": 0.49,
+    "pell_grad_rate": 0.38,
+    "pell_6yr_bachelors_rate": 0.38,
+    "non_pell_grad_rate": 0.75,
+    "non_pell_6yr_bachelors": 0.75,
+    "retention_full_time": 0.52,
+    "retention_part_time": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1174,
+    "ug_12mo": 582,
+    "grad_12mo": 592,
+    "women_12mo": 739,
+    "men_12mo": 435,
+    "fall_total": 1025,
+    "distance_ed_any": 1025,
+    "distance_ed_exclusive": 420,
+    "race_ethnicity": {
+      "white": 0.2714,
+      "black": 0.0674,
+      "hispanic": 0.2678,
+      "asian": 0.0455,
+      "ai_an": 0.0146,
+      "nh_pi": 0.0109,
+      "two_or_more": 0.1749,
+      "non_resident": 0.0328,
+      "race_unknown": 0.1148
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 98
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 67
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 63
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 2
+      }
+    ],
+    "program_count": 25,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 14
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 36
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 120865,
+        "slug": "pacific-union-college",
+        "name": "Pacific Union College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.472962680883473,
+          "yield_rate": 0.14009661835748793,
+          "grad_rate": 0.45,
+          "retention_rate": 0.89,
+          "enrollment": 974,
+          "avg_net_price": 20979
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 112084,
+        "slug": "san-diego-christian-college",
+        "name": "San Diego Christian College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3081081081081081,
+          "yield_rate": 0.15789473684210525,
+          "grad_rate": 0.2,
+          "retention_rate": 0.86,
+          "enrollment": 96,
+          "avg_net_price": 7871
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 123457,
+        "slug": "simpson-university",
+        "name": "Simpson University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8602673147023087,
+          "yield_rate": 0.24152542372881355,
+          "grad_rate": 0.49,
+          "retention_rate": 0.6,
+          "enrollment": 992,
+          "avg_net_price": 27923
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 122728,
+        "slug": "william-jessup-university",
+        "name": "William Jessup University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9332816136539953,
+          "yield_rate": 0.19617622610141314,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 1865,
+          "avg_net_price": 25300
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.hiu.edu/pdf/CDS20252026_HIU.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120537",
+      "stored": false,
+      "fetched_at": "2026-06-02T12:08:45.633889+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Graduate Students Financial Aid Glossary of Terms",
+      "url": "https://www.hiu.edu/graduate-students/financial-aid/glossary-of-terms.php",
+      "summary": "The Graduate Students Financial Aid Glossary of Terms from Hope International University provides definitions and explanations for various terms related to financial aid, loans, and financial planning for students. It includes common financial terms like 'Academic Year', 'Accrue', 'Amortization', and 'Default', among others, which are crucial for understanding university-related finances and student loans. This glossary serves as a comprehensive resource for new and returning students at the university aiming to navigate financial aid options effectively.",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:26:11.489874+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

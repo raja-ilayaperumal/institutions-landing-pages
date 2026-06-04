@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:14.072998+00:00",
+  "generated_at": "2026-06-04T04:56:49.120881+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Gavilan College is a public community college in Santa Clara County, California.",
+    "summary": "Gavilan College is a community college located in Gilroy, California, and is part of the California Community Colleges system. It offers a range of programs including liberal arts, vocational training, and community education, prioritizing a personalized educational experience. The college serves a diverse student body and focuses on workforce development, transfer opportunities, and lifelong learning.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gavilan_College",
     "source_url": "https://en.wikipedia.org/wiki/Gavilan_College",
-    "fetched_at": "2026-05-27T22:18:35.242912+05:30"
+    "fetched_at": "2026-06-03T19:49:30.464739+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1506,
+    "out_of_state_tuition": 12246,
     "avg_net_price": 2244,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.615,
     "federal_loan_rate": 0.0016,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 3999,
       "75_110k": 5515,
       "110k_plus": 7251
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4051,
     "grad_rate_total": 0.42,
     "pell_grad_rate": 0.44,
     "retention_full_time": 0.69,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 9204,
     "ug_12mo": 9204,
-    "grad_12mo": 7660,
+    "grad_12mo": 0,
     "women_12mo": 4450,
     "men_12mo": 4754,
     "fall_total": 6083,
-    "fall_full_time": 6083,
-    "fall_part_time": 4786,
     "distance_ed_any": 6083,
     "distance_ed_exclusive": 1659,
     "race_ethnicity": {

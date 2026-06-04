@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:53.831910+00:00",
+  "generated_at": "2026-06-04T04:55:48.439310+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,27 @@
     "enrolled": 412,
     "first_time_freshmen": 412,
     "first_time_freshmen_ft": 410,
+    "admission_rate": 0.7948,
     "admit_rate": 0.8842538190364277,
-    "yield_rate": 0.13687707641196012
+    "yield_rate": 0.13687707641196012,
+    "sat_average": 1155,
+    "sat_math_25_75": [
+      482,
+      657
+    ],
+    "sat_reading_25_75": [
+      512,
+      657
+    ],
+    "act_composite_25_75": [
+      18,
+      26
+    ]
   },
   "cost": {
+    "in_state_tuition": 43600,
+    "out_of_state_tuition": 43600,
     "avg_net_price": 19798,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.1176,
     "federal_loan_rate": 0.4648,
     "net_price_by_family_income": {
@@ -61,9 +76,11 @@
       "48_75k": 20848,
       "75_110k": 21641,
       "110k_plus": 23832
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.6442,
     "grad_rate_total": 0.62,
     "grad_4yr_bachelors": 0.49,
     "grad_5yr_bachelors": 0.6,
@@ -78,12 +95,10 @@
   "enrollment": {
     "enrollment_12mo_total": 7906,
     "ug_12mo": 3378,
-    "grad_12mo": 3378,
+    "grad_12mo": 4528,
     "women_12mo": 5621,
     "men_12mo": 2285,
     "fall_total": 6272,
-    "fall_full_time": 2759,
-    "fall_part_time": 2759,
     "distance_ed_any": 6272,
     "distance_ed_exclusive": 979,
     "race_ethnicity": {
@@ -803,7 +818,6 @@
     "parent_division": "Office of the Provost",
     "summary": "The Office of Institutional Research (OIR) supports continuous institutional improvement and student, faculty, and staff thriving through data collection, analysis, and dissemination.",
     "phone": "626-387-5874",
-    "email": "[email protected]",
     "address": "Administration West, Suites 208-210",
     "confidence": 1,
     "needs_review": false,

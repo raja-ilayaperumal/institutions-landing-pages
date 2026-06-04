@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:08.752017+00:00",
+  "generated_at": "2026-06-04T04:58:07.856904+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Santa_Monica_College",
     "fetched_at": "2026-05-25T18:53:31.007045+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1156,
+    "out_of_state_tuition": 9316,
     "avg_net_price": 3600,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5597,
     "federal_loan_rate": 0.0197,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5695,
       "75_110k": 7662,
       "110k_plus": 8622
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3583,
     "grad_rate_total": 0.36,
     "grad_4yr_bachelors": 0.05,
     "grad_5yr_bachelors": 0.05,
@@ -67,12 +70,10 @@
   "enrollment": {
     "enrollment_12mo_total": 33626,
     "ug_12mo": 33626,
-    "grad_12mo": 30375,
+    "grad_12mo": 0,
     "women_12mo": 18698,
     "men_12mo": 14928,
     "fall_total": 23453,
-    "fall_full_time": 23453,
-    "fall_part_time": 21440,
     "distance_ed_any": 23453,
     "distance_ed_exclusive": 8360,
     "race_ethnicity": {
@@ -640,12 +641,7 @@
       "fetched_at": "2026-05-25T18:47:22.484893+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Senior Research Analyst 2026 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441053"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

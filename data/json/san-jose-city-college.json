@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:21.978709+00:00",
+  "generated_at": "2026-06-04T04:58:04.156825+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "San José City College (SJCC) is a public community college in San Jose, California. It was founded in 1921, and is one of the oldest colleges in the California Community College System.",
+    "summary": "San José City College (SJCC) is a community college located in San José, California, and was founded in 1921. It serves as an educational hub in Santa Clara County and focuses on providing affordable and accessible education aimed at career growth, university transfer, and lifelong learning. SJCC is one of the oldest community colleges in California and is situated in Silicon Valley, emphasizing opportunities for students in technology and entrepreneurship.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/San_Jose_City_College",
     "source_url": "https://en.wikipedia.org/wiki/San_Jose_City_College",
-    "fetched_at": "2026-05-26T15:21:17.282701+05:30"
+    "fetched_at": "2026-06-03T19:46:46.638395+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1366,
+    "out_of_state_tuition": 9486,
     "avg_net_price": 16658,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7701,
     "federal_loan_rate": 0.0081,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 17832,
       "75_110k": 22545,
       "110k_plus": 22403
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3848,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.39,
     "retention_full_time": 0.65,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 13710,
     "ug_12mo": 13710,
-    "grad_12mo": 11340,
+    "grad_12mo": 0,
     "women_12mo": 7612,
     "men_12mo": 6098,
     "fall_total": 8609,
-    "fall_full_time": 8609,
-    "fall_part_time": 7105,
     "distance_ed_any": 8609,
     "distance_ed_exclusive": 2998,
     "race_ethnicity": {
@@ -510,16 +511,7 @@
       "fetched_at": "2026-05-26T15:21:18.413854+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President, Administrative Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179353714"
-    },
-    {
-      "title": "Vice President, Student Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179359169"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

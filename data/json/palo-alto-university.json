@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:43.036628+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120698,
+    "slug": "palo-alto-university",
+    "name": "Palo Alto University",
+    "website_url": "https://www.paloaltou.edu",
+    "city": "Palo Alto",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94304-1337",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "M7CCML3FZHL4",
+      "opeid": "02138300",
+      "ein": "942340692"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Palo Alto University (PAU) is a private university in Palo Alto, California, that focuses on behavioral health disciplines like counseling, psychology, and social work. It was founded in 1975 as the Pacific Graduate School of Psychology and became Palo Alto University in 2009.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palo_Alto_University",
+    "source_url": "https://en.wikipedia.org/wiki/Palo_Alto_University",
+    "fetched_at": "2026-06-01T23:20:41.098379+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.0526,
+    "federal_loan_rate": 0.3077,
+    "is_private_for_net_price": true
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1274,
+    "ug_12mo": 27,
+    "grad_12mo": 1247,
+    "women_12mo": 1062,
+    "men_12mo": 212,
+    "fall_total": 1065,
+    "distance_ed_any": 1065,
+    "distance_ed_exclusive": 343,
+    "race_ethnicity": {
+      "white": 0.2632,
+      "black": 0.2105,
+      "hispanic": 0.2632,
+      "asian": 0.1053,
+      "ai_an": 0.0,
+      "nh_pi": 0.0526,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.1053
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 202
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 153
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 48
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142832,
+        "slug": "adler-university",
+        "name": "Adler University",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1631
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110316,
+        "slug": "california-institute-of-integral-studies",
+        "name": "California Institute of Integral Studies",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1874
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 123095,
+        "slug": "saybrook-university",
+        "name": "Saybrook University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1057
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 143978,
+        "slug": "the-chicago-school-at-chicago",
+        "name": "The Chicago School at Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3448275862068966,
+          "yield_rate": 0.4,
+          "enrollment": 1100
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 455664,
+        "slug": "the-chicago-school-at-los-angeles",
+        "name": "The Chicago School at Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4634146341463415,
+          "yield_rate": 0.6578947368421053,
+          "grad_rate": 0.0,
+          "enrollment": 3344
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 459745,
+        "slug": "the-chicago-school-at-washington-dc",
+        "name": "The Chicago School at Washington DC",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 564
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 126012,
+        "slug": "the-wright-institute",
+        "name": "The Wright Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 518
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 166717,
+        "slug": "william-james-college",
+        "name": "William James College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 967
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://paloaltou.edu/institutional-research-digital-transformation",
+    "office_name": "Office of Institutional Research and Digital Transformation",
+    "summary": "We maintain the data infrastructure that supports institutional effectiveness, strategic planning, and evidence-based decision making at PAU. The Office of Institutional Research and Digital Transformation provides accurate, accessible data to internal and external stakeholders, supports compliance with accreditation and federal reporting requirements, and coordinates the university's technology strategy.",
+    "email": "institutional-research@paloaltou.edu",
+    "address": "Allen Calvin Campus, 1791 Arastradero Road, Palo Alto, CA 94304",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T23:20:39.762301+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jeff Harr",
+      "title": "Senior Director of Institutional Research and Digital Transformation"
+    },
+    {
+      "ordering": 1,
+      "name": "Christopher Olbrych",
+      "title": "Institutional Research Administrator",
+      "linkedin_url": "https://www.linkedin.com/in/christopher-olbrych"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120698",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:20:43.232647+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "LGBTQ+ Clinical Academy",
+      "agency": "County of Santa Clara Behavioral Health Services Department",
+      "kind": "award",
+      "url": "https://paloaltou.edu/about/departments/provost/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Longevity, Equity, and Aging Research Network (LEARN)",
+      "agency": "National Institutes of Health (NIH)",
+      "kind": "award",
+      "url": "https://paloaltou.edu/about/departments/provost/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Pilot Effectiveness Trial of Cognitive Processing Therapy Augmented with a Suicide Risk Management Protocol (CPT+SRM)",
+      "agency": "National Institute of Mental Health (NIMH)",
+      "kind": "award",
+      "url": "https://paloaltou.edu/about/departments/provost/grants",
+      "source": "institution_site"
+    },
+    {
+      "title": "Testing the Role of Attentional and Audio Vocal Mechanisms in a New Internet-Based Intervention for Social Anxiety: iExposure",
+      "agency": "National Institute of Mental Health (NIMH)",
+      "kind": "award",
+      "url": "https://paloaltou.edu/about/departments/provost/grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Joseph Bankman"
+    },
+    {
+      "name": "Lisa M. Brown"
+    },
+    {
+      "name": "Sara Nasserzadeh"
+    }
+  ]
+}

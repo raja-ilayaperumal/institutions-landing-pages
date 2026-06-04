@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:54.898406+00:00",
+  "generated_at": "2026-06-04T04:55:58.223353+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 2090,
     "first_time_freshmen": 2090,
     "first_time_freshmen_ft": 2016,
+    "admission_rate": 0.9825,
     "admit_rate": 0.9373581791927388,
     "yield_rate": 0.15331572769953053
   },
   "cost": {
+    "in_state_tuition": 7675,
+    "out_of_state_tuition": 19555,
     "avg_net_price": 5918,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.1798,
     "federal_loan_rate": 0.2337,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 6381,
       "75_110k": 10337,
       "110k_plus": 15250
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5465,
     "grad_rate_total": 0.55,
     "grad_4yr_bachelors": 0.25,
     "grad_5yr_bachelors": 0.46,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 21236,
     "ug_12mo": 17912,
-    "grad_12mo": 17502,
+    "grad_12mo": 3324,
     "women_12mo": 13006,
     "men_12mo": 8230,
     "fall_total": 18492,
-    "fall_full_time": 15365,
-    "fall_part_time": 15023,
     "distance_ed_any": 18492,
     "distance_ed_exclusive": 2456,
     "race_ethnicity": {
@@ -668,16 +670,7 @@
       "fetched_at": "2026-05-25T20:00:05.246701+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Digital Marketing Analytics Specialist (Marketing Communications ...",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446947"
-    },
-    {
-      "title": "Executive Director (SMSU) - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179450678"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

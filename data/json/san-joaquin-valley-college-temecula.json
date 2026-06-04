@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:15.906079+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 475176,
+    "slug": "san-joaquin-valley-college-temecula",
+    "name": "San Joaquin Valley College-Temecula",
+    "website_url": "https://www.sjvc.edu",
+    "city": "Temecula",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92590-5678",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJLJT5ZE65J6",
+      "opeid": "02120709",
+      "ein": "942589126"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Valley College (SJVC) is a private for-profit college with locations in California and an online division. SJVC was founded in 1977 by Robert and Shirley Perry. The college offers certificates, Associate of Science degrees, and continuing education opportunities in the criminal justice and industrial trade fields.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "fetched_at": "2026-06-03T16:37:47.136789+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 26652,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.606,
+    "net_price_by_family_income": {
+      "0_30k": 25726,
+      "30_48k": 26677,
+      "48_75k": 26523,
+      "75_110k": 29617,
+      "110k_plus": 30108
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.634,
+    "grad_rate_total": 0.82,
+    "pell_grad_rate": 0.8,
+    "non_pell_grad_rate": 0.86,
+    "retention_full_time": 0.88
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1050,
+    "ug_12mo": 1050,
+    "grad_12mo": 0,
+    "women_12mo": 454,
+    "men_12mo": 596,
+    "fall_total": 650,
+    "distance_ed_any": 650,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1556,
+      "black": 0.0817,
+      "hispanic": 0.6456,
+      "asian": 0.0462,
+      "ai_an": 0.0169,
+      "nh_pi": 0.0077,
+      "two_or_more": 0.0185,
+      "non_resident": 0.0015,
+      "race_unknown": 0.0262
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "46",
+        "cip_family_label": "Construction Trades",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 19
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447351,
+        "slug": "san-joaquin-valley-college-modesto",
+        "name": "San Joaquin Valley College-Modesto",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.7806,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 598,
+          "avg_net_price": 24617
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 122694,
+        "slug": "san-joaquin-valley-college-bakersfield",
+        "name": "San Joaquin Valley College-Bakersfield",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.752,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 798,
+          "avg_net_price": 23393
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110778,
+        "slug": "sofia-university",
+        "name": "Sofia University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.741,
+        "metrics": {
+          "enrollment": 1145
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 262457,
+        "slug": "san-joaquin-valley-college-fresno",
+        "name": "San Joaquin Valley College-Fresno",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.72,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 447,
+          "avg_net_price": 23045
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 456852,
+        "slug": "san-joaquin-valley-college-hesperia",
+        "name": "San Joaquin Valley College-Hesperia",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.7103,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 528,
+          "avg_net_price": 23634
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

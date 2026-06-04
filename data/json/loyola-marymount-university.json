@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:59.688229+00:00",
+  "generated_at": "2026-06-04T04:57:18.893465+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 1541,
     "first_time_freshmen": 1541,
     "first_time_freshmen_ft": 1537,
+    "admission_rate": 0.4029,
     "admit_rate": 0.45082073714755944,
     "yield_rate": 0.14804496109136325
   },
   "cost": {
+    "in_state_tuition": 58974,
+    "out_of_state_tuition": 58974,
     "room_and_board": 22026,
+    "total_cost_in_state": 81000,
+    "total_cost_out_of_state": 81000,
     "avg_net_price": 45723,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.019,
     "federal_loan_rate": 0.3037,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 32869,
       "75_110k": 39673,
       "110k_plus": 53926
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.7978,
     "grad_rate_total": 0.79,
     "grad_4yr_bachelors": 0.68,
     "grad_5yr_bachelors": 0.77,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11120,
     "ug_12mo": 7639,
-    "grad_12mo": 7473,
+    "grad_12mo": 3481,
     "women_12mo": 6271,
     "men_12mo": 4849,
     "fall_total": 10179,
-    "fall_full_time": 7273,
-    "fall_part_time": 7094,
     "distance_ed_any": 10179,
     "distance_ed_exclusive": 568,
     "race_ethnicity": {
@@ -560,24 +564,7 @@
       "fetched_at": "2026-05-25T23:12:15.437798+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Senior Research Assistant",
-      "apply_url": "https://www.higheredjobs.com/institution/details.cfm?JobCode=179298124&Title=Senior%20Research%20Assistant"
-    },
-    {
-      "title": "Director of Faculty Experience Initiatives",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179421284"
-    },
-    {
-      "title": "Director, Assessment & Accreditation",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179409431"
-    },
-    {
-      "title": "Senior Research Analyst 2026",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179402555"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Mellon Habitable Worlds Faculty Fellowships",

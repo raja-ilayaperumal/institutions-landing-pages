@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:34.464529+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 126076,
+    "slug": "yeshiva-ohr-elchonon-chabad-west-coast-talmudical-seminary",
+    "name": "Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary",
+    "website_url": "https://www.yoec.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90046-7660",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DQXCL5REG9K5",
+      "opeid": "02262400",
+      "ein": "951786684"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Yeshiva Ohr Elchonon Chabad/West Coast Talmudical Seminary is a Jewish seminary located in Los Angeles, California. Founded in 1953 and affiliated with the Chabad-Lubavitch Chassidic Movement, it focuses on advanced Jewish scholarship and training students for roles as rabbis, teachers, and community leaders.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yeshiva_Ohr_Elchonon_Chabad/West_Coast_Talmudical_Seminary",
+    "source_url": "https://en.wikipedia.org/wiki/Yeshiva_Ohr_Elchonon_Chabad/West_Coast_Talmudical_Seminary",
+    "wikidata_qid": "Q8052835",
+    "fetched_at": "2026-06-03T16:33:59.528738+05:30"
+  },
+  "admissions": {
+    "applicants": 134,
+    "admits": 78,
+    "enrolled": 78,
+    "first_time_freshmen": 78,
+    "first_time_freshmen_ft": 78,
+    "admission_rate": 0.6168,
+    "admit_rate": 0.582089552238806,
+    "yield_rate": 1.0
+  },
+  "cost": {
+    "in_state_tuition": 16900,
+    "out_of_state_tuition": 16900,
+    "room_and_board": 8100,
+    "total_cost_in_state": 25000,
+    "total_cost_out_of_state": 25000,
+    "avg_net_price": 12258,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 11309,
+      "30_48k": 11752,
+      "48_75k": 12606,
+      "75_110k": 16250,
+      "110k_plus": 18300
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.2,
+    "grad_rate_total": 0.12,
+    "grad_4yr_bachelors": 0.08,
+    "grad_5yr_bachelors": 0.1,
+    "grad_6yr_bachelors": 0.12,
+    "pell_grad_rate": 0.19,
+    "pell_6yr_bachelors_rate": 0.19,
+    "retention_full_time": 0.95
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 204,
+    "ug_12mo": 204,
+    "grad_12mo": 0,
+    "women_12mo": 0,
+    "men_12mo": 204,
+    "fall_total": 163,
+    "distance_ed_any": 163,
+    "race_ethnicity": {
+      "white": 0.9936,
+      "black": 0.0,
+      "hispanic": 0.0,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0064,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 42
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 11
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108861,
+        "slug": "berkeley-school-of-theology",
+        "name": "Berkeley School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.786,
+        "metrics": {
+          "admit_rate": 0.8888888888888888,
+          "yield_rate": 0.5,
+          "enrollment": 108
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 115214,
+        "slug": "graduate-theological-union",
+        "name": "Graduate Theological Union",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7765,
+        "metrics": {
+          "enrollment": 150
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 124283,
+        "slug": "claremont-school-of-theology",
+        "name": "Claremont School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7561,
+        "metrics": {
+          "enrollment": 213
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120795,
+        "slug": "pacific-school-of-religion",
+        "name": "Pacific School of Religion",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.725,
+        "metrics": {
+          "enrollment": 124
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 490045,
+        "slug": "presbyterian-theological-seminary-in-america",
+        "name": "Presbyterian Theological Seminary in America",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7225,
+        "metrics": {
+          "grad_rate": 0.8,
+          "enrollment": 223
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

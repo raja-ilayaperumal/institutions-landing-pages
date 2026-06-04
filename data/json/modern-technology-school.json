@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:51.090212+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 371928,
+    "slug": "modern-technology-school",
+    "name": "Modern Technology School",
+    "website_url": "https://www.mtschool.edu",
+    "city": "Fountain Valley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92708",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "utmwgcff6ma4",
+      "opeid": "03063400",
+      "ein": "954060615"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Modern Technology School is a private post-secondary institution located in Fountain Valley, California, focusing on healthcare training in fields such as X-ray technology, ultrasound/vascular technology, and medical assisting. It was founded in 1981 and is accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC).",
+    "source_url": "https://www.mtschool.edu/about",
+    "fetched_at": "2026-06-03T16:36:06.224813+05:30"
+  },
+  "admissions": {
+    "applicants": 165,
+    "admits": 85,
+    "enrolled": 80,
+    "first_time_freshmen": 80,
+    "first_time_freshmen_ft": 80,
+    "admit_rate": 0.5151515151515151,
+    "yield_rate": 0.9411764705882353
+  },
+  "cost": {
+    "avg_net_price": 23046,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.2921,
+    "net_price_by_family_income": {
+      "0_30k": 22711,
+      "30_48k": 23139,
+      "48_75k": 23216,
+      "75_110k": 23531,
+      "110k_plus": 22744
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7297,
+    "grad_rate_total": 0.75,
+    "pell_grad_rate": 0.75,
+    "retention_full_time": 0.64
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 200,
+    "ug_12mo": 200,
+    "grad_12mo": 0,
+    "women_12mo": 136,
+    "men_12mo": 64,
+    "fall_total": 101,
+    "distance_ed_any": 101,
+    "race_ethnicity": {
+      "white": 0.2222,
+      "black": 0.0505,
+      "hispanic": 0.404,
+      "asian": 0.1515,
+      "ai_an": 0.0,
+      "nh_pi": 0.0101,
+      "two_or_more": 0.1111,
+      "non_resident": 0.0,
+      "race_unknown": 0.0505
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 3,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 469610,
+        "slug": "allen-school-phoenix",
+        "name": "Allen School-Phoenix",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 8,
+          "avg_net_price": 21433
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 490151,
+        "slug": "allied-health-careers-institute",
+        "name": "Allied Health Careers Institute",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.36,
+          "enrollment": 26,
+          "avg_net_price": 12114
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 493682,
+        "slug": "american-institute-of-healthcare-and-technology",
+        "name": "American Institute of Healthcare & Technology",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6666666666666666,
+          "retention_rate": 0.94,
+          "enrollment": 100,
+          "avg_net_price": 29865
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 475431,
+        "slug": "asi-career-institute",
+        "name": "ASI Career Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 62,
+          "avg_net_price": 10692
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 447917,
+        "slug": "augusta-school-of-massage",
+        "name": "Augusta School of Massage",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 34,
+          "avg_net_price": 14371
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 499547,
+        "slug": "austin-medical-assistant-training",
+        "name": "Austin Medical Assistant Training",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 328
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 451194,
+        "slug": "carlson-college-of-massage-therapy",
+        "name": "Carlson College of Massage Therapy",
+        "state": "Iowa",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 39,
+          "avg_net_price": 13205
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 455910,
+        "slug": "center-for-massage",
+        "name": "Center for Massage",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 51,
+          "avg_net_price": 16242
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 495299,
+        "slug": "florida-professional-institute",
+        "name": "Florida Professional Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 117,
+          "avg_net_price": 31590
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 134024,
+        "slug": "florida-school-of-massage",
+        "name": "Florida School of Massage",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 25,
+          "avg_net_price": 12902
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 419217,
+        "slug": "hca-florida-mercy-hospital-school-of-practical-nursing",
+        "name": "HCA Florida Mercy Hospital School of Practical Nursing",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 31,
+          "avg_net_price": 9672
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 450632,
+        "slug": "lexington-healing-arts-academy",
+        "name": "Lexington Healing Arts Academy",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 78
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 406486,
+        "slug": "myotherapy-massage-college",
+        "name": "Myotherapy Massage College",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 50,
+          "avg_net_price": 18198
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 444635,
+        "slug": "orion-institute",
+        "name": "Orion Institute",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 44,
+          "avg_net_price": 21032
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 447722,
+        "slug": "palladium-technical-academy-inc",
+        "name": "Palladium Technical Academy Inc",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 49,
+          "avg_net_price": 16761
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 488147,
+        "slug": "piberry-institute",
+        "name": "PiBerry Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 491701,
+        "slug": "rexburg-college-of-massage-therapy",
+        "name": "Rexburg College of Massage Therapy",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 37
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 261685,
+        "slug": "ross-medical-education-center-ann-arbor",
+        "name": "Ross Medical Education Center-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.22,
+          "enrollment": 51,
+          "avg_net_price": 19408
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 261676,
+        "slug": "ross-medical-education-center-brighton",
+        "name": "Ross Medical Education Center-Brighton",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 39,
+          "avg_net_price": 20239
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 460093,
+        "slug": "ross-medical-education-center-davison",
+        "name": "Ross Medical Education Center-Davison",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 53,
+          "avg_net_price": 23187
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 488970,
+        "slug": "ross-medical-education-center-midland",
+        "name": "Ross Medical Education Center-Midland",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 57,
+          "avg_net_price": 21194
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 452072,
+        "slug": "ross-medical-education-center-new-baltimore",
+        "name": "Ross Medical Education Center-New Baltimore",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 33,
+          "avg_net_price": 21755
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 480532,
+        "slug": "ross-medical-education-center-ontario",
+        "name": "Ross Medical Education Center-Ontario",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 79,
+          "avg_net_price": 22346
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 484330,
+        "slug": "ross-medical-education-center-owensboro",
+        "name": "Ross Medical Education Center-Owensboro",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 38,
+          "avg_net_price": 19784
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 363013,
+        "slug": "ross-medical-education-center-port-huron",
+        "name": "Ross Medical Education Center-Port Huron",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 38,
+          "avg_net_price": 20375
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 495998,
+        "slug": "san-joaquin-valley-college-porterville",
+        "name": "San Joaquin Valley College-Porterville",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 78,
+          "avg_net_price": 23531
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 406149,
+        "slug": "sarasota-school-of-massage-therapy",
+        "name": "Sarasota School of Massage Therapy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 82,
+          "avg_net_price": 18119
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 446093,
+        "slug": "sutter-county-career-training-center",
+        "name": "Sutter County Career Training Center",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.65,
+          "retention_rate": 1.0,
+          "enrollment": 54,
+          "avg_net_price": 24876
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 497189,
+        "slug": "the-rapha-school",
+        "name": "The Rapha School",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38461538461538464,
+          "yield_rate": 1.0,
+          "retention_rate": 0.95,
+          "enrollment": 27,
+          "avg_net_price": 13018
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 481429,
+        "slug": "universal-training-institute",
+        "name": "Universal Training Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 158,
+          "avg_net_price": 37693
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 495101,
+        "slug": "zion-massage-college",
+        "name": "Zion Massage College",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 56,
+          "avg_net_price": 20095
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=371928",
+      "stored": false,
+      "fetched_at": "2026-06-03T14:49:28.386727+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

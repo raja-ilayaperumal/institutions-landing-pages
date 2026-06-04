@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:11.777138+00:00",
+  "generated_at": "2026-06-04T04:56:21.792401+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Chaffey_College",
     "fetched_at": "2026-05-25T19:09:01.22341+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1184,
+    "out_of_state_tuition": 11120,
     "avg_net_price": 5743,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6574,
     "federal_loan_rate": 0.006,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7016,
       "75_110k": 9816,
       "110k_plus": 8819
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.348,
     "grad_rate_total": 0.36,
     "pell_grad_rate": 0.36,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 32265,
     "ug_12mo": 32265,
-    "grad_12mo": 23951,
+    "grad_12mo": 0,
     "women_12mo": 19349,
     "men_12mo": 12916,
     "fall_total": 22460,
-    "fall_full_time": 22460,
-    "fall_part_time": 18132,
     "distance_ed_any": 22460,
     "distance_ed_exclusive": 11911,
     "race_ethnicity": {
@@ -651,12 +652,7 @@
       "fetched_at": "2026-05-25T19:08:42.358324+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Senior Research and Data Solutions Analyst",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179082579"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

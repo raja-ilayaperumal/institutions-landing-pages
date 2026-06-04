@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:44.208865+00:00",
+  "generated_at": "2026-06-04T04:57:58.368656+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,24 @@
     "source_url": "https://en.wikipedia.org/wiki/San_Diego_Mesa_College",
     "fetched_at": "2026-05-25T19:55:44.142086+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
-    "avg_net_price": -904,
-    "is_private_for_net_price": false,
+    "in_state_tuition": 1150,
+    "out_of_state_tuition": 9094,
+    "avg_net_price": 0,
     "pell_grant_rate": 0.7494,
     "federal_loan_rate": 0.0203,
     "net_price_by_family_income": {
-      "0_30k": -3351,
-      "30_48k": -696,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 3115,
       "75_110k": 6170,
       "110k_plus": 3323
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3375,
     "grad_rate_total": 0.35,
     "grad_4yr_bachelors": 0.92,
     "grad_5yr_bachelors": 0.92,
@@ -66,12 +69,10 @@
   "enrollment": {
     "enrollment_12mo_total": 30204,
     "ug_12mo": 30204,
-    "grad_12mo": 25777,
+    "grad_12mo": 0,
     "women_12mo": 16639,
     "men_12mo": 13565,
     "fall_total": 19212,
-    "fall_full_time": 19212,
-    "fall_part_time": 16098,
     "distance_ed_any": 19212,
     "distance_ed_exclusive": 7447,
     "race_ethnicity": {
@@ -599,7 +600,7 @@
   "ir_jobs": [],
   "grants": [
     {
-      "title": "Cal Grant C",
+      "title": "CalGrant",
       "agency": "California Student Aid Commission",
       "kind": "opportunity",
       "url": "https://www.sdmesa.edu/student-support/financial-aid/grants.shtml",

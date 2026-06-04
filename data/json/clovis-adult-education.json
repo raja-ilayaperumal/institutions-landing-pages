@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:27.905620+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112367,
+    "slug": "clovis-adult-education",
+    "name": "Clovis Adult Education",
+    "website_url": "https://clovisadult.cusd.com",
+    "city": "Clovis",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93611",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FVRJBDDSM7C8",
+      "opeid": "02309500",
+      "ein": "942840774"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Clovis Adult Education is a part of the Clovis Unified School District located in Clovis, California. It offers a range of programs including High School Diploma, GED classes, ESL, and various Career and Technical Education (CTE) programs.",
+    "source_url": "https://clovisadult.cusd.com/",
+    "fetched_at": "2026-06-03T19:48:12.600155+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.9701,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7229,
+    "grad_rate_total": 0.68,
+    "pell_grad_rate": 1.0,
+    "retention_full_time": 1.0,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 691,
+    "ug_12mo": 691,
+    "grad_12mo": 0,
+    "women_12mo": 606,
+    "men_12mo": 85,
+    "fall_total": 238,
+    "distance_ed_any": 238,
+    "race_ethnicity": {
+      "white": 0.0746,
+      "black": 0.0709,
+      "hispanic": 0.6231,
+      "asian": 0.1978,
+      "ai_an": 0.0,
+      "nh_pi": 0.0037,
+      "two_or_more": 0.0149,
+      "non_resident": 0.0,
+      "race_unknown": 0.0149
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 4,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 418038,
+        "slug": "albany-boces-adult-practical-nursing-program",
+        "name": "Albany BOCES-Adult Practical Nursing Program",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 187,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 201034,
+        "slug": "apollo-career-center",
+        "name": "Apollo Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 646
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 201478,
+        "slug": "buckeye-hills-career-center",
+        "name": "Buckeye Hills Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 122,
+          "avg_net_price": 12374
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 431558,
+        "slug": "cape-coral-technical-college",
+        "name": "Cape Coral Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 297
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 176798,
+        "slug": "cape-girardeau-career-and-technology-center",
+        "name": "Cape Girardeau Career and Technology Center",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 159,
+          "avg_net_price": 20019
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 418205,
+        "slug": "career-and-technology-education-centers-of-licking-county",
+        "name": "Career and Technology Education Centers of Licking County",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 237
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 203614,
+        "slug": "collins-career-technical-center",
+        "name": "Collins Career Technical Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 454,
+          "avg_net_price": 7995
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 418065,
+        "slug": "eastern-suffolk-boces",
+        "name": "Eastern Suffolk BOCES",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7894736842105263,
+          "yield_rate": 0.9416666666666667,
+          "retention_rate": 0.78,
+          "enrollment": 310,
+          "avg_net_price": 23478
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 202657,
+        "slug": "ehove-career-center",
+        "name": "EHOVE Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 398
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 138284,
+        "slug": "florida-panhandle-technical-college",
+        "name": "Florida Panhandle Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 157,
+          "avg_net_price": 9063
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 364548,
+        "slug": "great-plains-technology-center",
+        "name": "Great Plains Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 314,
+          "avg_net_price": 9557
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 383367,
+        "slug": "greater-altoona-career-and-technology-center",
+        "name": "Greater Altoona Career & Technology Center",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 220,
+          "avg_net_price": 13906
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 418454,
+        "slug": "greater-johnstown-career-and-technology-center",
+        "name": "Greater Johnstown Career and Technology Center",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 105,
+          "avg_net_price": 14724
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 457387,
+        "slug": "immokalee-technical-college",
+        "name": "Immokalee Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 615,
+          "avg_net_price": -120
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 431716,
+        "slug": "ocean-county-vocational-technical-school",
+        "name": "Ocean County Vocational-Technical School",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 497,
+          "avg_net_price": 10226
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 136303,
+        "slug": "orange-technical-college",
+        "name": "Orange Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.2,
+          "enrollment": 166,
+          "avg_net_price": 7826
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 137713,
+        "slug": "riveroak-technical-college",
+        "name": "Riveroak Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 250,
+          "avg_net_price": 8836
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 488891,
+        "slug": "south-dade-technical-college-south-dade-skills-center-campus",
+        "name": "South Dade Technical College-South Dade Skills Center Campus",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 196,
+          "avg_net_price": 3288
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 365198,
+        "slug": "southern-oklahoma-technology-center",
+        "name": "Southern Oklahoma Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 679,
+          "avg_net_price": 4777
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 220251,
+        "slug": "tennessee-college-of-applied-technology-harriman",
+        "name": "Tennessee College of Applied Technology-Harriman",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 729,
+          "avg_net_price": 10129
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 221281,
+        "slug": "tennessee-college-of-applied-technology-henry-carroll",
+        "name": "Tennessee College of Applied Technology-Henry/Carroll",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 278,
+          "avg_net_price": 6503
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 220394,
+        "slug": "tennessee-college-of-applied-technology-jacksboro",
+        "name": "Tennessee College of Applied Technology-Jacksboro",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.98,
+          "enrollment": 455,
+          "avg_net_price": 5661
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 221333,
+        "slug": "tennessee-college-of-applied-technology-pulaski",
+        "name": "Tennessee College of Applied Technology-Pulaski",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 742,
+          "avg_net_price": 9666
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 135522,
+        "slug": "traviss-technical-college",
+        "name": "Traviss Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 741
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 206181,
+        "slug": "tri-rivers-career-center",
+        "name": "Tri-Rivers Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 151
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 420468,
+        "slug": "western-suffolk-boces",
+        "name": "Western Suffolk BOCES",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 286
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112367",
+      "stored": false,
+      "fetched_at": "2026-06-03T09:15:29.478776+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

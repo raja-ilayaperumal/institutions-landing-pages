@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:08.991616+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123095,
+    "slug": "saybrook-university",
+    "name": "Saybrook University",
+    "website_url": "https://www.saybrook.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91103",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "SD7GCKHAJAU9",
+      "opeid": "02120600",
+      "ein": "942155109"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Saybrook University is a private university in Pasadena, California, United States. It was founded in 1971 by Eleanor Camp Criswell and others. It offers postgraduate education with a focus on humanistic psychology. It features low residency, master's, and doctoral degrees and professional certification programs. The university is accredited by the WASC Senior Colleges and University Commission. The university is classified an exclusively graduate institution with programs that are \"Research Doctoral: Humanities/social sciences-dominant\". As of Fall of 2017 the university had 785 students enrolled. The university reported 222 full-time and part-time academic faculty in 2017.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saybrook_University",
+    "source_url": "https://en.wikipedia.org/wiki/Saybrook_University",
+    "fetched_at": "2026-06-02T12:06:56.587345+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1257,
+    "women_12mo": 1046,
+    "men_12mo": 211,
+    "fall_total": 1057,
+    "distance_ed_any": 1057,
+    "distance_ed_exclusive": 319
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 57
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 0
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 59
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110316,
+        "slug": "california-institute-of-integral-studies",
+        "name": "California Institute of Integral Studies",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1874
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 409254,
+        "slug": "erikson-institute",
+        "name": "Erikson Institute",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 297
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 491808,
+        "slug": "meridian-university",
+        "name": "Meridian University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 297
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 127653,
+        "slug": "naropa-university",
+        "name": "Naropa University",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2727272727272727,
+          "grad_rate": 0.37,
+          "retention_rate": 0.54,
+          "enrollment": 1094,
+          "avg_net_price": 28862
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 174437,
+        "slug": "north-central-university",
+        "name": "North Central University",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9898373983739838,
+          "yield_rate": 0.29568788501026694,
+          "grad_rate": 0.65,
+          "retention_rate": 0.82,
+          "enrollment": 852,
+          "avg_net_price": 23574
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 461120,
+        "slug": "omega-graduate-school",
+        "name": "Omega Graduate School",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 69
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120768,
+        "slug": "pacific-oaks-college",
+        "name": "Pacific Oaks College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34375,
+          "yield_rate": 0.22727272727272727,
+          "enrollment": 1068
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 120698,
+        "slug": "palo-alto-university",
+        "name": "Palo Alto University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1065
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 492607,
+        "slug": "the-chicago-school-at-dallas",
+        "name": "The Chicago School at Dallas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 219
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 455664,
+        "slug": "the-chicago-school-at-los-angeles",
+        "name": "The Chicago School at Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4634146341463415,
+          "yield_rate": 0.6578947368421053,
+          "grad_rate": 0.0,
+          "enrollment": 3344
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 491190,
+        "slug": "the-chicago-school-at-san-diego",
+        "name": "The Chicago School at San Diego",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 112
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 487153,
+        "slug": "the-chicago-school-at-xavier-university-of-louisiana",
+        "name": "The Chicago School at Xavier University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 20
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 126012,
+        "slug": "the-wright-institute",
+        "name": "The Wright Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 518
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 166717,
+        "slug": "william-james-college",
+        "name": "William James College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 967
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.saybrook.edu/student-experience/student-life/research/",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:23:15.844439+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123095",
+      "stored": false,
+      "fetched_at": "2026-06-02T12:06:57.940271+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "H.D. Kirkpatrick"
+    },
+    {
+      "name": "Darlene Viggiano",
+      "field": "Counseling"
+    },
+    {
+      "name": "Michele Kambolis"
+    },
+    {
+      "name": "Jeremiah Pearcey"
+    },
+    {
+      "name": "Bo Aucoin",
+      "field": "Social Change"
+    },
+    {
+      "name": "Dr. Michael Mayer",
+      "field": "Mind-Body Medicine"
+    },
+    {
+      "name": "Dr. Amylee Amos",
+      "field": "Nutrition"
+    },
+    {
+      "name": "Dr. Margo Maine"
+    },
+    {
+      "name": "Dr. Alexander ‘Alec’ Spradling",
+      "field": "Psychology"
+    },
+    {
+      "name": "Carole Patrick"
+    },
+    {
+      "name": "Allison Winters Fisher"
+    },
+    {
+      "name": "Grey Dietz"
+    },
+    {
+      "name": "Dr. Arielle Dance"
+    },
+    {
+      "name": "Ruthann Russo"
+    },
+    {
+      "name": "Melanie Joy",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Melanie_Joy",
+      "field": "Psychology"
+    },
+    {
+      "name": "Rivka Bertisch Meir",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rivka_Bertisch_Meir"
+    },
+    {
+      "name": "Christopher Ryan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_Ryan_(author)",
+      "field": "Writing"
+    },
+    {
+      "name": "Richard Strozzi-Heckler",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Strozzi-Heckler",
+      "field": "Psychology"
+    }
+  ]
+}

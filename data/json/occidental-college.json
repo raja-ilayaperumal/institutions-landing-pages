@@ -1,0 +1,788 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:39.615297+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120254,
+    "slug": "occidental-college",
+    "name": "Occidental College",
+    "website_url": "https://www.oxy.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90041-3392",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DCQQX5TRCYN9",
+      "opeid": "00124900",
+      "ein": "951667177"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Occidental College is a private liberal arts college in Los Angeles, California, United States. Founded in 1887 as a coeducational college by clergy and members of the Presbyterian Church, it became non-sectarian in 1910. It is one of the oldest liberal arts colleges on the West Coast of the United States.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Occidental_College",
+    "source_url": "https://en.wikipedia.org/wiki/Occidental_College",
+    "fetched_at": "2026-06-01T21:35:04.089636+05:30"
+  },
+  "admissions": {
+    "applicants": 6461,
+    "admits": 2854,
+    "enrolled": 509,
+    "first_time_freshmen": 509,
+    "first_time_freshmen_ft": 509,
+    "admission_rate": 0.3989,
+    "admit_rate": 0.44172728679770934,
+    "yield_rate": 0.17834618079887876,
+    "sat_average": 1461,
+    "sat_math_25_75": [
+      670,
+      750
+    ],
+    "sat_reading_25_75": [
+      690,
+      750
+    ],
+    "act_composite_25_75": [
+      31,
+      34
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 63446,
+    "out_of_state_tuition": 63446,
+    "avg_net_price": 39329,
+    "pell_grant_rate": 0.0114,
+    "federal_loan_rate": 0.3875,
+    "net_price_by_family_income": {
+      "0_30k": 18872,
+      "30_48k": 18801,
+      "48_75k": 17577,
+      "75_110k": 28983,
+      "110k_plus": 55885
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8511,
+    "grad_rate_total": 0.81,
+    "grad_4yr_bachelors": 0.68,
+    "grad_5yr_bachelors": 0.8,
+    "grad_6yr_bachelors": 0.81,
+    "pell_grad_rate": 0.86,
+    "pell_6yr_bachelors_rate": 0.86,
+    "non_pell_grad_rate": 0.83,
+    "non_pell_6yr_bachelors": 0.83,
+    "retention_full_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1968,
+    "ug_12mo": 1968,
+    "grad_12mo": 0,
+    "women_12mo": 1166,
+    "men_12mo": 802,
+    "fall_total": 1881,
+    "distance_ed_any": 1881,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.4799,
+      "black": 0.0412,
+      "hispanic": 0.1746,
+      "asian": 0.1329,
+      "ai_an": 0.0011,
+      "nh_pi": 0.0011,
+      "two_or_more": 0.1128,
+      "non_resident": 0.0412,
+      "race_unknown": 0.0152
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 65
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 53
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "16",
+        "cip_family_label": "Foreign Languages",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 27
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 13
+      }
+    ],
+    "program_count": 35,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 202
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 173258,
+        "slug": "carleton-college",
+        "name": "Carleton College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2041216879293425,
+          "yield_rate": 0.3482142857142857,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 2128,
+          "avg_net_price": 27320
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 126678,
+        "slug": "colorado-college",
+        "name": "Colorado College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18470215015861827,
+          "yield_rate": 0.30279898218829515,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 2056,
+          "avg_net_price": 31678
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 212009,
+        "slug": "dickinson-college",
+        "name": "Dickinson College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4209148525764673,
+          "yield_rate": 0.21145662847790508,
+          "grad_rate": 0.8,
+          "retention_rate": 0.92,
+          "enrollment": 2314,
+          "avg_net_price": 32191
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 212577,
+        "slug": "franklin-and-marshall-college",
+        "name": "Franklin and Marshall College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28185406335391155,
+          "yield_rate": 0.17127468581687613,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 1808,
+          "avg_net_price": 39061
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 191515,
+        "slug": "hamilton-college",
+        "name": "Hamilton College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1362091196811628,
+          "yield_rate": 0.3898450946643718,
+          "grad_rate": 0.91,
+          "retention_rate": 0.95,
+          "enrollment": 2031,
+          "avg_net_price": 28314
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 173902,
+        "slug": "macalester-college",
+        "name": "Macalester College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2852363960749331,
+          "yield_rate": 0.21892103205629398,
+          "grad_rate": 0.87,
+          "retention_rate": 0.92,
+          "enrollment": 2138,
+          "avg_net_price": 29980
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 204501,
+        "slug": "oberlin-college",
+        "name": "Oberlin College",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3417805618830676,
+          "yield_rate": 0.1946681477367398,
+          "grad_rate": 0.81,
+          "retention_rate": 0.91,
+          "enrollment": 2909,
+          "avg_net_price": 39184
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 209922,
+        "slug": "reed-college",
+        "name": "Reed College",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.24610327642879865,
+          "yield_rate": 0.13054717794054288,
+          "grad_rate": 0.71,
+          "retention_rate": 0.88,
+          "enrollment": 1358,
+          "avg_net_price": 39951
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 221351,
+        "slug": "rhodes-college",
+        "name": "Rhodes College",
+        "state": "Tennessee",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5035349567949725,
+          "yield_rate": 0.12106084243369734,
+          "grad_rate": 0.85,
+          "retention_rate": 0.92,
+          "enrollment": 1861,
+          "avg_net_price": 25060
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 195526,
+        "slug": "skidmore-college",
+        "name": "Skidmore College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2105307427033392,
+          "yield_rate": 0.2660807031562126,
+          "grad_rate": 0.83,
+          "retention_rate": 0.9,
+          "enrollment": 2704,
+          "avg_net_price": 34581
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 130590,
+        "slug": "trinity-college",
+        "name": "Trinity College",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2924932975871314,
+          "yield_rate": 0.24839596700274977,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 2238,
+          "avg_net_price": 35009
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 196866,
+        "slug": "union-college",
+        "name": "Union College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4392204628501827,
+          "yield_rate": 0.1386577925679423,
+          "grad_rate": 0.8,
+          "retention_rate": 0.9,
+          "enrollment": 2065,
+          "avg_net_price": 36000
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 237057,
+        "slug": "whitman-college",
+        "name": "Whitman College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3814717658428828,
+          "yield_rate": 0.14115092290988057,
+          "grad_rate": 0.81,
+          "retention_rate": 0.87,
+          "enrollment": 1561,
+          "avg_net_price": 35506
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://oxy.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The mission of the Office of Institutional Research is to provide and to coordinate accurate and reliable data to support decision-making, assessment, and planning activities aimed at fulfilling the stated mission and goals of Occidental College.",
+    "phone": "323-259-2500",
+    "email": "ir@oxy.edu",
+    "address": "1600 Campus Road, Los Angeles, California 90041",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:35:02.969643+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jackie Cameron",
+      "title": "Director, Institutional Research and Planning",
+      "email": "ir@oxy.edu",
+      "linkedin_url": "https://www.linkedin.com/in/jaclyn-cameron-phd-6aa71141"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2023,
+      "url": "https://www.oxy.edu/sites/default/files/assets/Institutional_Research/CDS%202023-24.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.oxy.edu/sites/default/files/assets/Institutional_Research/CDS_2022-2023.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.oxy.edu/sites/default/files/assets/Institutional_Research/cds_2021-2022_2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.oxy.edu/sites/default/files/assets/Institutional_Research/cds_2020-2021_all_sections_1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.oxy.edu/sites/default/files/assets/Institutional_Research/cds_2019-20_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.oxy.edu/sites/default/files/assets/IRAP/cds_2018-2019_for_publication_0.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2017,
+      "url": "https://www.oxy.edu/sites/default/files/assets/IRAP/cds_2017-2018.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2016,
+      "url": "https://www.oxy.edu/sites/default/files/assets/IRAP/2016-2017_revised.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2015-2016.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2013-2014_revised_tk.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.oxy.edu/sites/default/files/assets/COMMON%2520DATASET%2520-%25202012.2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.oxy.edu/sites/default/files/assets/CDS_2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2010-11.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2009-10.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2008-09b.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2007-08.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2006-07.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2005,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2005-06.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2004,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2004-05.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2003,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2003-04.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2002,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2002-03.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2001,
+      "url": "https://www.oxy.edu/sites/default/files/assets/2001-02.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.oxy.edu/offices-services/institutional-research/institutional-data/internal-data",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:34:30.397993+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set",
+      "url": "https://www.oxy.edu/offices-services/institutional-research/institutional-data/common-data-set",
+      "summary": "The Occidental College Common Data Set page is part of the Institutional Research section, which includes reports on general information, enrollment, admissions, academic offerings, and other educational data. The Common Data Set initiative aims to standardize data reporting and improve information accuracy, benefiting students and reducing the burden on institutions.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:33:20.348888+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Data",
+      "url": "https://www.oxy.edu/offices-services/institutional-research/institutional-data",
+      "summary": "Occidental College's Institutional Research office maintains a repository of aggregate statistics and information about various aspects of the college, including students, faculty and staff, alumni, and compliance with federal and state reporting requirements, including accreditation. It provides data for both internal and external purposes, such as IPEDS, Factbook, and the Common Data Set. The page outlines the timeline for the release of various reports throughout the academic year.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:33:19.025003+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120254",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:05.563331+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2025,
+      "title": "Occidental College Factbook",
+      "url": "https://www.oxy.edu/offices-services/institutional-research/institutional-data/factbook",
+      "summary": "The Occidental College Factbook provides a collection of common aggregate statistics for the fall semester over the past 5 years. Key sections cover enrollment, graduation rates, degrees conferred, faculty demographics, and financials.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:31:14.9128+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "The Occidental Promise",
+      "url": "https://www.oxy.edu/integrated-strategic-planning",
+      "summary": "The Occidental Promise is Occidental College's strategic plan guiding their work through 2030, formulated after an extensive 18-month collaboration. It centers around three core promises: ensuring academic excellence, building unique partnerships with Los Angeles, and fostering holistic student education and community renewal. The strategic plan includes expanding faculty, immersive education, partnerships, and initiatives to support student well-being and inclusion.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:31:09.732778+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "John Branca",
+      "field": "Business and industry"
+    },
+    {
+      "name": "Stephen Cooper",
+      "field": "Business and industry"
+    },
+    {
+      "name": "Marsha J. Evans",
+      "field": "Business and industry"
+    },
+    {
+      "name": "Terry Gilliam",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Terry_Gilliam",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Ben Affleck",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ben_Affleck",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Michael Angelo Covino",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Gabriela Cowperthwaite",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Emily Osment",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Pete McCloskey",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Barack Obama",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barack_Obama",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Janette Sadik-Khan",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Alphonzo E. Bell, Jr.",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "David S. Cunningham, Jr.",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Robert Finch",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Jack Kemp",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Kemp",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Kristina A Kvien",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Janis Lynn Sammartino",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Kathy Augustine",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Fred Lawrence Whipple",
+      "field": "Science"
+    },
+    {
+      "name": "Sammy Lee",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sammy_Lee_(diver)",
+      "field": "Sports and athletics"
+    },
+    {
+      "name": "Jim Mora, Sr.",
+      "field": "Sports and athletics"
+    },
+    {
+      "name": "Ron Botchan",
+      "field": "Sports and athletics"
+    },
+    {
+      "name": "Bob Gutowski",
+      "field": "Sports and athletics"
+    },
+    {
+      "name": "Lane 8",
+      "field": "Entertainment and the arts"
+    },
+    {
+      "name": "Rosalind Wiseman",
+      "field": "Literature and writing"
+    },
+    {
+      "name": "M. F. K. Fisher",
+      "field": "Literature and writing"
+    },
+    {
+      "name": "Scott O'Dell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_O%27Dell",
+      "field": "Literature and writing"
+    },
+    {
+      "name": "Howard Ahmanson, Jr",
+      "field": "Social action, philanthropy, and community service"
+    },
+    {
+      "name": "Rex Weyler",
+      "field": "Social action, philanthropy, and community service"
+    },
+    {
+      "name": "Kristina A. Kvien",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "David M. Louie",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Jacqueline Nguyen",
+      "field": "Government, diplomacy, and law"
+    },
+    {
+      "name": "Cameron Townsend",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Cameron_Townsend",
+      "field": "Social action, philanthropy, and community service"
+    }
+  ]
+}

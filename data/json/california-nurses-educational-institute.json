@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:54.746472+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 455734,
+    "slug": "california-nurses-educational-institute",
+    "name": "California Nurses Educational Institute",
+    "website_url": "https://www.cnei.edu",
+    "city": "Rancho Mirage",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92270",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LNPHTEHAJB69",
+      "opeid": "03935300",
+      "ein": "510617582"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Nurses Educational Institute (CNEI) is a vocational training institution located in Rancho Mirage, California. It offers programs for Registered Nurses, Licensed Vocational Nurses, and various healthcare certifications. The institution focuses on providing practical training and educational support to prepare students for professional certification and employment in the healthcare sector.",
+    "source_url": "https://www.cnei.edu/about",
+    "fetched_at": "2026-06-03T16:39:27.920734+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 21278,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.3985,
+    "net_price_by_family_income": {
+      "0_30k": 18290,
+      "30_48k": 20538,
+      "48_75k": 21901,
+      "75_110k": 23281
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8654,
+    "grad_rate_total": 0.8,
+    "pell_grad_rate": 0.88,
+    "non_pell_grad_rate": 0.0,
+    "retention_full_time": 0.24
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 325,
+    "ug_12mo": 325,
+    "grad_12mo": 0,
+    "women_12mo": 251,
+    "men_12mo": 74,
+    "fall_total": 200,
+    "distance_ed_any": 200,
+    "distance_ed_exclusive": 5,
+    "race_ethnicity": {
+      "white": 0.1579,
+      "black": 0.0439,
+      "hispanic": 0.7368,
+      "asian": 0.0439,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0175,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 5,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 461892,
+        "slug": "abcott-institute",
+        "name": "Abcott Institute",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 142,
+          "avg_net_price": 21007
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 497198,
+        "slug": "academy-of-allied-health-careers",
+        "name": "Academy of Allied Health Careers",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 194,
+          "avg_net_price": 9095
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 490896,
+        "slug": "advantage-career-institute",
+        "name": "Advantage Career Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 161,
+          "avg_net_price": 12869
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 492643,
+        "slug": "american-massage-and-bodywork-institute",
+        "name": "American Massage & Bodywork Institute",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 23031
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 484163,
+        "slug": "arizona-school-of-integrative-studies",
+        "name": "Arizona School of Integrative Studies",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 155,
+          "avg_net_price": 16249
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 134574,
+        "slug": "cortiva-institute-2",
+        "name": "Cortiva Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 95,
+          "avg_net_price": 26629
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 169576,
+        "slug": "detroit-business-institute-downriver",
+        "name": "Detroit Business Institute-Downriver",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.75,
+          "retention_rate": 1.0,
+          "enrollment": 124,
+          "avg_net_price": 21533
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 211802,
+        "slug": "dlp-conemaugh-memorial-medical-center",
+        "name": "DLP Conemaugh Memorial Medical Center",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3033932135728543,
+          "yield_rate": 0.17763157894736842,
+          "retention_rate": 0.39,
+          "enrollment": 90,
+          "avg_net_price": 21861
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 208637,
+        "slug": "east-west-college-of-the-healing-arts",
+        "name": "East West College of the Healing Arts",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 236
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 436632,
+        "slug": "gwinnett-college",
+        "name": "Gwinnett College",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 146,
+          "avg_net_price": 31448
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 490382,
+        "slug": "harmony-health-care-institute",
+        "name": "Harmony Health Care Institute",
+        "state": "New Hampshire",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8421052631578947,
+          "yield_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 153,
+          "avg_net_price": 42927
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 454795,
+        "slug": "healing-hands-school-of-holistic-health",
+        "name": "Healing Hands School of Holistic Health",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 220,
+          "avg_net_price": 56381
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 441830,
+        "slug": "healing-mountain-massage-school",
+        "name": "Healing Mountain Massage School",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 43,
+          "avg_net_price": 23180
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 481465,
+        "slug": "healthcare-training-institute-2",
+        "name": "Healthcare Training Institute",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 94,
+          "avg_net_price": 22975
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 488420,
+        "slug": "indiana-wellness-college",
+        "name": "Indiana Wellness College",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 1.0,
+          "enrollment": 160
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 455831,
+        "slug": "medical-institute-of-palm-beach",
+        "name": "Medical Institute of Palm Beach",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 356,
+          "avg_net_price": 41411
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 483470,
+        "slug": "more-tech-institute",
+        "name": "More Tech Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 102,
+          "avg_net_price": 36256
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 459514,
+        "slug": "peloton-college",
+        "name": "Peloton College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 61,
+          "avg_net_price": 17372
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 449533,
+        "slug": "pensacola-school-of-massage-therapy-and-health-careers",
+        "name": "Pensacola School of Massage Therapy & Health Careers",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 19058
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 203234,
+        "slug": "ross-medical-education-center-cincinnati",
+        "name": "Ross Medical Education Center-Cincinnati",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.42,
+          "enrollment": 129,
+          "avg_net_price": 21220
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 480523,
+        "slug": "ross-medical-education-center-dayton",
+        "name": "Ross Medical Education Center-Dayton",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.35,
+          "enrollment": 84,
+          "avg_net_price": 23722
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 172015,
+        "slug": "ross-medical-education-center-flint",
+        "name": "Ross Medical Education Center-Flint",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.36,
+          "enrollment": 116,
+          "avg_net_price": 20912
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 484358,
+        "slug": "ross-medical-education-center-johnson-city",
+        "name": "Ross Medical Education Center-Johnson City",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 87,
+          "avg_net_price": 22176
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 486716,
+        "slug": "ross-medical-education-center-knoxville",
+        "name": "Ross Medical Education Center-Knoxville",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 75,
+          "avg_net_price": 22028
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 488961,
+        "slug": "ross-medical-education-center-lafayette",
+        "name": "Ross Medical Education Center-Lafayette",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 132,
+          "avg_net_price": 22329
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 171988,
+        "slug": "ross-medical-education-center-lansing",
+        "name": "Ross Medical Education Center-Lansing",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 135,
+          "avg_net_price": 22537
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 490814,
+        "slug": "ross-medical-education-center-portage",
+        "name": "Ross Medical Education Center-Portage",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 124,
+          "avg_net_price": 22788
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 445957,
+        "slug": "soma-institute-the-national-school-of-clinical-massage-therapy",
+        "name": "Soma Institute-The National School of Clinical Massage Therapy",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 233
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 491774,
+        "slug": "transitions-career-institute-school-of-nursing",
+        "name": "Transitions Career Institute School of Nursing",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.17,
+          "enrollment": 186,
+          "avg_net_price": 37725
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 469911,
+        "slug": "unitech-training-academy-alexandria",
+        "name": "Unitech Training Academy-Alexandria",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 86,
+          "avg_net_price": 20968
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 487047,
+        "slug": "unitech-training-academy-new-orleans",
+        "name": "Unitech Training Academy-New Orleans",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 49,
+          "avg_net_price": 24599
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Healthcare & Nursing Glossary | CNEI California",
+      "url": "https://cnei.edu/glossary/",
+      "summary": "The glossary page for the California Nurses Educational Institute provides definitions for a wide array of terms relevant to healthcare and nursing education. The terms range from work schedules such as '12-Hour Shift' to professional regulations by entities like the 'Board of Vocational Nursing'. The page offers definitions and real-world examples or implications for students, emphasizing practical applications in healthcare training, compliance requirements, and patient care techniques. This glossary serves as an educational reference for nursing and healthcare students, helping them understand important concepts and standards in their field.",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:23:15.89471+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=455734",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:24:31.767272+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Healthcare & Nursing Glossary | CNEI California",
+      "url": "https://cnei.edu/glossary/",
+      "summary": "The California Nurses Educational Institute's Glossary provides terms and definitions pertinent to healthcare and nursing. It covers topics from work schedules and care practices to compliance and regulatory standards, offering insights into real-world applications and student use. With 120 terms listed, the glossary aims to support healthcare education and professional readiness.",
+      "stored": false,
+      "fetched_at": "2026-06-03T11:24:26.042589+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:22.940945+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118693,
+    "slug": "menlo-college",
+    "name": "Menlo College",
+    "website_url": "https://www.menlo.edu",
+    "city": "Atherton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94027-4301",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "N2YNXM7N6U57",
+      "opeid": "00123600",
+      "ein": "943204136"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Menlo College is a small private institution located in Atherton, California, founded in 1927. It offers undergraduate degrees in business and psychology, along with graduate programs in information systems, financial technology, and sport and performance psychology, emphasizing practical skills and internships.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Menlo_College",
+    "source_url": "https://en.wikipedia.org/wiki/Menlo_College",
+    "fetched_at": "2026-06-03T16:33:28.429674+05:30"
+  },
+  "admissions": {
+    "applicants": 4637,
+    "admits": 3175,
+    "enrolled": 167,
+    "first_time_freshmen": 167,
+    "first_time_freshmen_ft": 165,
+    "admission_rate": 0.6781,
+    "admit_rate": 0.6847099417726978,
+    "yield_rate": 0.052598425196850394
+  },
+  "cost": {
+    "in_state_tuition": 51070,
+    "out_of_state_tuition": 51070,
+    "room_and_board": 18236,
+    "total_cost_in_state": 69306,
+    "total_cost_out_of_state": 69306,
+    "avg_net_price": 27032,
+    "pell_grant_rate": 0.0271,
+    "federal_loan_rate": 0.385,
+    "net_price_by_family_income": {
+      "0_30k": 17525,
+      "30_48k": 16579,
+      "48_75k": 30099,
+      "75_110k": 32519,
+      "110k_plus": 36551
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5133,
+    "grad_rate_total": 0.54,
+    "grad_4yr_bachelors": 0.37,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.54,
+    "pell_grad_rate": 0.44,
+    "pell_6yr_bachelors_rate": 0.44,
+    "non_pell_grad_rate": 0.55,
+    "non_pell_6yr_bachelors": 0.55,
+    "retention_full_time": 0.7
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 891,
+    "ug_12mo": 874,
+    "grad_12mo": 17,
+    "women_12mo": 373,
+    "men_12mo": 518,
+    "fall_total": 810,
+    "distance_ed_any": 810,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1628,
+      "black": 0.0432,
+      "hispanic": 0.3255,
+      "asian": 0.0666,
+      "ai_an": 0.0086,
+      "nh_pi": 0.0197,
+      "two_or_more": 0.1097,
+      "non_resident": 0.2256,
+      "race_unknown": 0.0382
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 113
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 0
+      }
+    ],
+    "program_count": 14,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0,
+    "instr_total_fte": 25
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 113698,
+        "slug": "dominican-university-of-california",
+        "name": "Dominican University of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8349950149551346,
+          "yield_rate": 0.1271641791044776,
+          "grad_rate": 0.78,
+          "retention_rate": 0.85,
+          "enrollment": 1900,
+          "avg_net_price": 50218
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 209065,
+        "slug": "linfield-university",
+        "name": "Linfield University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8516546215290985,
+          "yield_rate": 0.1701652523447968,
+          "grad_rate": 0.7,
+          "retention_rate": 0.8,
+          "enrollment": 1709,
+          "avg_net_price": 27341
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 118888,
+        "slug": "northeastern-university-oakland",
+        "name": "Northeastern University Oakland",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.16650027731558514,
+          "yield_rate": 0.1485676215856096,
+          "grad_rate": 0.62,
+          "retention_rate": 0.0,
+          "enrollment": 640
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 123554,
+        "slug": "saint-mary-s-college-of-california",
+        "name": "Saint Mary's College of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8653140096618358,
+          "yield_rate": 0.09468512728896829,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 2734,
+          "avg_net_price": 31198
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 125763,
+        "slug": "whittier-college",
+        "name": "Whittier College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8078694014231896,
+          "yield_rate": 0.054145077720207255,
+          "grad_rate": 0.6,
+          "retention_rate": 0.66,
+          "enrollment": 795,
+          "avg_net_price": 29871
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 210401,
+        "slug": "willamette-university",
+        "name": "Willamette University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7708768267223383,
+          "yield_rate": 0.14251861882193637,
+          "grad_rate": 0.71,
+          "retention_rate": 0.87,
+          "enrollment": 2180,
+          "avg_net_price": 23663
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://menlo.edu/ir/cds",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=118693",
+      "stored": false,
+      "fetched_at": "2026-06-02T19:22:28.607205+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Earle M. Chiles",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Earle_M._Chiles"
+    },
+    {
+      "name": "David C. Copley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_C._Copley"
+    },
+    {
+      "name": "Tim Dore",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tim_Dore"
+    },
+    {
+      "name": "Bill Duplissea",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Duplissea",
+      "field": "Politics"
+    },
+    {
+      "name": "Bruce Edwards",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bruce_Edwards_(actor)",
+      "field": "Entertainment"
+    },
+    {
+      "name": "James Espaldon",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_Espaldon"
+    },
+    {
+      "name": "Carla Esparza",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carla_Esparza",
+      "field": "Athletics"
+    },
+    {
+      "name": "Ashlee Evans-Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ashlee_Evans-Smith",
+      "field": "Athletics"
+    },
+    {
+      "name": "Patty Hearst",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Patty_Hearst"
+    },
+    {
+      "name": "Sean Patrick Kane"
+    },
+    {
+      "name": "Edward A. Kawānanakoa"
+    },
+    {
+      "name": "Mark Lopez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Lopez",
+      "field": "Business"
+    },
+    {
+      "name": "Penelope Ann Miller",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Penelope_Ann_Miller",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Mansour Ojjeh",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mansour_Ojjeh",
+      "field": "Business"
+    },
+    {
+      "name": "John Pritzker",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Pritzker",
+      "field": "Business"
+    },
+    {
+      "name": "Pula Nikolao Pula"
+    },
+    {
+      "name": "Al Waleed bin Talal Al Saud",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Al-Waleed_bin_Talal",
+      "field": "Business"
+    },
+    {
+      "name": "Faisal bin Abdullah Al Saud",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Faisal_bin_Abdullah_Al_Saud"
+    },
+    {
+      "name": "Mohammed bin Faisal Al Saud"
+    },
+    {
+      "name": "Bob Shane",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Shane",
+      "field": "Music"
+    },
+    {
+      "name": "Kaylin Swart"
+    },
+    {
+      "name": "Jeff Van Gundy",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Van_Gundy",
+      "field": "Sports"
+    },
+    {
+      "name": "Jigme Dorji Wangchuck",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jigme_Dorji_Wangchuck"
+    },
+    {
+      "name": "Michael Weatherly",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Weatherly",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Fitria Yusuf",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fitria_Yusuf"
+    },
+    {
+      "name": "Gary Zekley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Zekley",
+      "field": "Music"
+    },
+    {
+      "name": "Edaward A. Kawānanakoa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Abdullah_Ahmad_Kaw%C4%81nanakoa"
+    }
+  ]
+}

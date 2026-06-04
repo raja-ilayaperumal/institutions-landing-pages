@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:54.203417+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115214,
+    "slug": "graduate-theological-union",
+    "name": "Graduate Theological Union",
+    "website_url": "https://www.gtu.edu",
+    "city": "Berkeley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94709",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VHS6PA5NMFJ7",
+      "opeid": "00120700",
+      "ein": "941581707"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Graduate Theological Union (GTU) is a consortium of eight private independent American theological schools and eleven centers and affiliates. All the GTU members are located in Berkeley, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Graduate_Theological_Union",
+    "source_url": "https://en.wikipedia.org/wiki/Graduate_Theological_Union",
+    "fetched_at": "2026-06-03T13:19:48.207412+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 188,
+    "women_12mo": 93,
+    "men_12mo": 95,
+    "fall_total": 150,
+    "distance_ed_any": 150,
+    "distance_ed_exclusive": 21
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 28
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "instr_total_fte": 10
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 164988,
+        "slug": "boston-university",
+        "name": "Boston University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.11107161446762051,
+          "yield_rate": 0.37352840324608527,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 37737,
+          "avg_net_price": 26996
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 217156,
+        "slug": "brown-university",
+        "name": "Brown University",
+        "state": "Rhode Island",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05394241779813512,
+          "yield_rate": 0.6516300227445034,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 11956,
+          "avg_net_price": 26572
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 190150,
+        "slug": "columbia-university-in-the-city-of-new-york",
+        "name": "Columbia University in the City of New York",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03992347999667304,
+          "yield_rate": 0.6491666666666667,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 35173,
+          "avg_net_price": 20148
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 184348,
+        "slug": "drew-university",
+        "name": "Drew University",
+        "state": "New Jersey",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.678343949044586,
+          "yield_rate": 0.1073943661971831,
+          "grad_rate": 0.7,
+          "retention_rate": 0.88,
+          "enrollment": 2232,
+          "avg_net_price": 25644
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 198419,
+        "slug": "duke-university",
+        "name": "Duke University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05709045274640409,
+          "yield_rate": 0.5884342238755496,
+          "grad_rate": 0.97,
+          "retention_rate": 0.98,
+          "enrollment": 17499,
+          "avg_net_price": 34454
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 139658,
+        "slug": "emory-university",
+        "name": "Emory University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10648729446935724,
+          "yield_rate": 0.4037057832678271,
+          "grad_rate": 0.91,
+          "retention_rate": 0.96,
+          "enrollment": 15175,
+          "avg_net_price": 23911
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 191241,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 166027,
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.036476077618130646,
+          "yield_rate": 0.8360406091370558,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 30259,
+          "avg_net_price": 16816
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 213020,
+        "slug": "indiana-university-of-pennsylvania-main-campus",
+        "name": "Indiana University of Pennsylvania-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9077445982034474,
+          "yield_rate": 0.2396362663813854,
+          "grad_rate": 0.54,
+          "retention_rate": 0.75,
+          "enrollment": 9073,
+          "avg_net_price": 17216
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 192040,
+        "slug": "jewish-theological-seminary-of-america",
+        "name": "Jewish Theological Seminary of America",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4861111111111111,
+          "yield_rate": 0.5857142857142857,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 316,
+          "avg_net_price": 29744
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 147767,
+        "slug": "northwestern-university",
+        "name": "Northwestern University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07692929619598173,
+          "yield_rate": 0.5530740935365213,
+          "grad_rate": 0.95,
+          "retention_rate": 0.98,
+          "enrollment": 23856,
+          "avg_net_price": 27143
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 186122,
+        "slug": "princeton-theological-seminary",
+        "name": "Princeton Theological Seminary",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 302
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 186131,
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.046159928832657904,
+          "yield_rate": 0.7548179871520343,
+          "grad_rate": 0.98,
+          "retention_rate": 0.98,
+          "enrollment": 9137,
+          "avg_net_price": 10555
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 228246,
+        "slug": "southern-methodist-university",
+        "name": "Southern Methodist University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6334535913414234,
+          "yield_rate": 0.17769493631562597,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 12116,
+          "avg_net_price": 41778
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 243744,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03605693751526358,
+          "yield_rate": 0.8190614417029511,
+          "grad_rate": 0.92,
+          "retention_rate": 0.98,
+          "enrollment": 18625,
+          "avg_net_price": 12136
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 196413,
+        "slug": "syracuse-university",
+        "name": "Syracuse University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45924010791366904,
+          "yield_rate": 0.187741714397611,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 22589,
+          "avg_net_price": 41026
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 216339,
+        "slug": "temple-university",
+        "name": "Temple University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8040951853901495,
+          "yield_rate": 0.15194268910717637,
+          "grad_rate": 0.75,
+          "retention_rate": 0.83,
+          "enrollment": 29640,
+          "avg_net_price": 29219
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 196884,
+        "slug": "union-theological-seminary-in-the-city-of-new-york",
+        "name": "Union Theological Seminary in the City of New York",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 234
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 144050,
+        "slug": "university-of-chicago",
+        "name": "University of Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.044827111804090616,
+          "yield_rate": 0.8828644501278773,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 18566,
+          "avg_net_price": 18967
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 153658,
+        "slug": "university-of-iowa",
+        "name": "University of Iowa",
+        "state": "Iowa",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8362261433201297,
+          "yield_rate": 0.22427008870898285,
+          "grad_rate": 0.75,
+          "retention_rate": 0.9,
+          "enrollment": 30779,
+          "avg_net_price": 21398
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 215062,
+        "slug": "university-of-pennsylvania",
+        "name": "University of Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05401220372244197,
+          "yield_rate": 0.6798183366449049,
+          "grad_rate": 0.97,
+          "retention_rate": 0.99,
+          "enrollment": 29109,
+          "avg_net_price": 31229
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 221999,
+        "slug": "vanderbilt-university",
+        "name": "Vanderbilt University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.05862273998546544,
+          "yield_rate": 0.6123215627347859,
+          "grad_rate": 0.94,
+          "retention_rate": 0.96,
+          "enrollment": 13575,
+          "avg_net_price": 19040
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 130794,
+        "slug": "yale-university",
+        "name": "Yale University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03871898742980336,
+          "yield_rate": 0.6977997305792546,
+          "grad_rate": 0.96,
+          "retention_rate": 0.99,
+          "enrollment": 15564,
+          "avg_net_price": 27818
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115214",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:19:49.333973+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Robert McElroy",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_W._McElroy",
+      "field": "Religious Leadership"
+    },
+    {
+      "name": "Eileen Donahoe",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eileen_Donahoe",
+      "field": "Diplomacy/Politics"
+    },
+    {
+      "name": "David Batstone",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/David_Batstone",
+      "field": "Social Activism"
+    },
+    {
+      "name": "João Biehl",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Biehl",
+      "field": "Anthropology"
+    }
+  ]
+}

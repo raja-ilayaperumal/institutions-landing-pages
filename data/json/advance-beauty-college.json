@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:04.979327+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 400187,
+    "slug": "advance-beauty-college",
+    "name": "Advance Beauty College",
+    "website_url": "https://www.advancebeautycollege.com",
+    "city": "Garden Grove",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92843",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "E6QYR2WC1EJ6",
+      "opeid": "03736300",
+      "ein": "330808951"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Advance Beauty College is a beauty college located in Garden Grove, California, and Laguna Hills, California, founded in 1999. The institution offers programs in cosmetology, esthetics, manicuring, and teacher training, and is accredited through the National Accrediting Commission of Career Arts and Sciences (NACCAS).",
+    "source_url": "https://www.advancebeautycollege.com/about/",
+    "fetched_at": "2026-06-03T16:43:16.11136+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 11689,
+    "pell_grant_rate": 0.3415,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 11429,
+      "30_48k": 11151,
+      "48_75k": 13058
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9206,
+    "grad_rate_total": 0.67,
+    "pell_grad_rate": 0.86,
+    "retention_full_time": 0.89,
+    "retention_part_time": 0.69
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 762,
+    "ug_12mo": 762,
+    "grad_12mo": 0,
+    "women_12mo": 685,
+    "men_12mo": 77,
+    "fall_total": 346,
+    "distance_ed_any": 346,
+    "race_ethnicity": {
+      "white": 0.0714,
+      "black": 0.0223,
+      "hispanic": 0.2165,
+      "asian": 0.6138,
+      "ai_an": 0.0357,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0112,
+      "non_resident": 0.0246,
+      "race_unknown": 0.0045
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 5,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 414063,
+        "slug": "artistic-academy-of-hair-design",
+        "name": "Artistic Academy of Hair Design",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 88,
+          "avg_net_price": 23786
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 393861,
+        "slug": "asian-american-international-beauty-college",
+        "name": "Asian-American International Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 442
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 407142,
+        "slug": "cosmetology-training-center",
+        "name": "Cosmetology Training Center",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 125,
+          "avg_net_price": 11376
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 145406,
+        "slug": "g-skin-and-beauty-institute",
+        "name": "G Skin & Beauty Institute",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 490,
+          "avg_net_price": 21142
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 407434,
+        "slug": "orlo-school-of-hair-design-and-cosmetology",
+        "name": "Orlo School of Hair Design and Cosmetology",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 56,
+          "avg_net_price": 16864
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 408066,
+        "slug": "paul-mitchell-the-school-wichita",
+        "name": "Paul Mitchell the School-Wichita",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 163,
+          "avg_net_price": 18938
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 391759,
+        "slug": "sharp-s-academy-of-hairstyling",
+        "name": "Sharp's Academy of Hairstyling",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 16
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 407151,
+        "slug": "stage-one-the-hair-school",
+        "name": "Stage One-The Hair School",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 66,
+          "avg_net_price": 11337
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=400187",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:52:51.45687+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:19.587815+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123679,
+    "slug": "concorde-career-college-garden-grove",
+    "name": "Concorde Career College-Garden Grove",
+    "website_url": "https://www.concorde.edu/campus/garden-grove-california",
+    "city": "Garden Grove",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92840-9201",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VSMERQ1ZWCL7",
+      "opeid": "00807100",
+      "ein": "952659633"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Concorde Career College-Garden Grove is a career training institution located in Garden Grove, California. It is part of a larger network with 17 campuses and offers programs focused on healthcare professions such as nursing, dental assistance, and allied health. The founding year is not mentioned.",
+    "source_url": "https://www.concorde.edu/about",
+    "fetched_at": "2026-06-03T16:41:04.174504+05:30"
+  },
+  "admissions": {
+    "applicants": 310,
+    "admits": 302,
+    "enrolled": 183,
+    "first_time_freshmen": 183,
+    "first_time_freshmen_ft": 154,
+    "admission_rate": 0.9593,
+    "admit_rate": 0.9741935483870968,
+    "yield_rate": 0.6059602649006622
+  },
+  "cost": {
+    "avg_net_price": 22610,
+    "pell_grant_rate": 0.1485,
+    "federal_loan_rate": 0.583,
+    "net_price_by_family_income": {
+      "0_30k": 21949,
+      "30_48k": 22213,
+      "48_75k": 22673,
+      "75_110k": 24712,
+      "110k_plus": 26303
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7554,
+    "grad_rate_total": 0.84,
+    "pell_grad_rate": 0.84,
+    "non_pell_grad_rate": 0.85,
+    "retention_full_time": 0.95,
+    "retention_part_time": 0.52
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 673,
+    "ug_12mo": 673,
+    "grad_12mo": 0,
+    "women_12mo": 506,
+    "men_12mo": 167,
+    "fall_total": 214,
+    "distance_ed_any": 214,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0941,
+      "black": 0.0396,
+      "hispanic": 0.3564,
+      "asian": 0.198,
+      "ai_an": 0.0,
+      "nh_pi": 0.005,
+      "two_or_more": 0.0149,
+      "non_resident": 0.0,
+      "race_unknown": 0.2921
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 140
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 29
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 438258,
+        "slug": "carrington-college-pleasant-hill-campus",
+        "name": "Carrington College-Pleasant Hill Campus",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7969,
+        "metrics": {
+          "admit_rate": 0.8125,
+          "yield_rate": 0.6153846153846154,
+          "retention_rate": 0.77,
+          "enrollment": 416,
+          "avg_net_price": 30749
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 450960,
+        "slug": "healthcare-career-college",
+        "name": "Healthcare Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7692,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 447,
+          "avg_net_price": 14534
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120661,
+        "slug": "concorde-career-college-san-diego",
+        "name": "Concorde Career College-San Diego",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7685,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6811594202898551,
+          "retention_rate": 0.95,
+          "enrollment": 147,
+          "avg_net_price": 24477
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 371964,
+        "slug": "national-career-education",
+        "name": "National Career Education",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7605,
+        "metrics": {
+          "enrollment": 515,
+          "avg_net_price": 24800
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 447759,
+        "slug": "national-polytechnic-college",
+        "name": "National Polytechnic College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7363,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 516,
+          "avg_net_price": 31626
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

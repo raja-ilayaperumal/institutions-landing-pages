@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:34.909193+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119775,
+    "slug": "newschool-of-architecture-and-design",
+    "name": "Newschool of Architecture and Design",
+    "website_url": "https://www.newschoolarch.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92101",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Small Programs",
+    "carnegie_slug": "masters-small",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "SKK4ZC7XKBQ9",
+      "opeid": "03043900",
+      "ein": "364388706"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "NewSchool of Architecture and Design is a specialized institution located in San Diego, California, focusing on architecture, design, and construction management. Though the founding year is not explicitly mentioned, it has been operational for approximately 40 years and offers a range of undergraduate and graduate programs. The school emphasizes hands-on learning and caters to a diverse student population from around 20 different countries.",
+    "source_url": "https://www.newschoolarch.edu/about",
+    "fetched_at": "2026-06-03T16:35:22.347141+05:30"
+  },
+  "admissions": {
+    "applicants": 10,
+    "admits": 10,
+    "enrolled": 4,
+    "first_time_freshmen": 4,
+    "first_time_freshmen_ft": 4,
+    "admission_rate": 1.0,
+    "admit_rate": 1.0,
+    "yield_rate": 0.4
+  },
+  "cost": {
+    "in_state_tuition": 30291,
+    "out_of_state_tuition": 30291,
+    "avg_net_price": 48616,
+    "pell_grant_rate": 0.1604,
+    "federal_loan_rate": 0.6245,
+    "net_price_by_family_income": {
+      "30_48k": 36741,
+      "48_75k": 50500,
+      "75_110k": 51642,
+      "110k_plus": 50309
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5094,
+    "grad_rate_total": 0.62,
+    "grad_4yr_bachelors": 0.05,
+    "grad_5yr_bachelors": 0.29,
+    "grad_6yr_bachelors": 0.29,
+    "pell_grad_rate": 0.64,
+    "pell_6yr_bachelors_rate": 0.18,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.63
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 331,
+    "ug_12mo": 243,
+    "grad_12mo": 88,
+    "women_12mo": 141,
+    "men_12mo": 190,
+    "fall_total": 273,
+    "distance_ed_any": 273,
+    "distance_ed_exclusive": 56,
+    "race_ethnicity": {
+      "white": 0.2736,
+      "black": 0.1226,
+      "hispanic": 0.3679,
+      "asian": 0.0991,
+      "ai_an": 0.0094,
+      "nh_pi": 0.0094,
+      "two_or_more": 0.0472,
+      "non_resident": 0.0425,
+      "race_unknown": 0.0283
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 52
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 1
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 16
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108232,
+        "slug": "academy-of-art-university",
+        "name": "Academy of Art University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.75,
+          "enrollment": 5498,
+          "avg_net_price": 39778
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 164872,
+        "slug": "boston-architectural-college",
+        "name": "Boston Architectural College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.75,
+          "enrollment": 853,
+          "avg_net_price": 37891
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 166674,
+        "slug": "massachusetts-college-of-art-and-design",
+        "name": "Massachusetts College of Art and Design",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.762699564586357,
+          "yield_rate": 0.17269267364414842,
+          "grad_rate": 0.69,
+          "retention_rate": 0.89,
+          "enrollment": 1989,
+          "avg_net_price": 23764
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 174127,
+        "slug": "minneapolis-college-of-art-and-design",
+        "name": "Minneapolis College of Art and Design",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4847775175644028,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 831,
+          "avg_net_price": 25935
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 217493,
+        "slug": "rhode-island-school-of-design",
+        "name": "Rhode Island School of Design",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18664076509264793,
+          "yield_rate": 0.41473178542834266,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 2520,
+          "avg_net_price": 46253
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 140951,
+        "slug": "savannah-college-of-art-and-design",
+        "name": "Savannah College of Art and Design",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298445725745801,
+          "yield_rate": 0.26402839664677896,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 18550,
+          "avg_net_price": 45450
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123952,
+        "slug": "southern-california-institute-of-architecture",
+        "name": "Southern California Institute of Architecture",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.766042780748663,
+          "yield_rate": 0.06980802792321117,
+          "grad_rate": 0.71,
+          "retention_rate": 0.91,
+          "enrollment": 418,
+          "avg_net_price": 37535
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 199184,
+        "slug": "university-of-north-carolina-school-of-the-arts",
+        "name": "University of North Carolina School of the Arts",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2997218358831711,
+          "yield_rate": 0.5545243619489559,
+          "grad_rate": 0.78,
+          "retention_rate": 0.93,
+          "enrollment": 1111,
+          "avg_net_price": 12372
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 215105,
+        "slug": "university-of-the-arts",
+        "name": "University of the Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820043891733723,
+          "yield_rate": 0.23386342376052385,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "avg_net_price": 44154
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119775",
+      "stored": false,
+      "fetched_at": "2026-06-03T02:26:12.614044+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

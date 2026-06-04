@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:23.605948+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 480781,
+    "slug": "california-miramar-university",
+    "name": "California Miramar University",
+    "website_url": "https://www.calmu.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92108-1739",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LZR1M39EVMU5",
+      "opeid": "04189700",
+      "ein": "953132196"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Miramar University (CalMU) is a private for-profit university in San Diego, California. The university offers degree programs through distance education and a combination of online and classroom (hybrid) delivery. It is accredited by the Distance Education Accrediting Commission.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Miramar_University",
+    "source_url": "https://en.wikipedia.org/wiki/California_Miramar_University",
+    "fetched_at": "2026-06-03T09:04:44.471717+05:30"
+  },
+  "admissions": {
+    "applicants": 379,
+    "admits": 70,
+    "enrolled": 50,
+    "first_time_freshmen": 50,
+    "first_time_freshmen_ft": 50,
+    "admission_rate": 0.6552,
+    "admit_rate": 0.18469656992084432,
+    "yield_rate": 0.7142857142857143
+  },
+  "cost": {
+    "in_state_tuition": 9994,
+    "out_of_state_tuition": 9994,
+    "avg_net_price": 11007,
+    "pell_grant_rate": 0.0952,
+    "federal_loan_rate": 0.6061,
+    "net_price_by_family_income": {
+      "0_30k": 10209,
+      "30_48k": 8112,
+      "48_75k": 12422,
+      "75_110k": 16789,
+      "110k_plus": 16389
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.0,
+    "grad_6yr_bachelors": 0.0,
+    "pell_grad_rate": 0.0,
+    "pell_6yr_bachelors_rate": 0.0,
+    "retention_full_time": 0.92
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 402,
+    "ug_12mo": 194,
+    "grad_12mo": 208,
+    "women_12mo": 120,
+    "men_12mo": 282,
+    "fall_total": 247,
+    "distance_ed_any": 247,
+    "distance_ed_exclusive": 16,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.2476,
+      "hispanic": 0.2667,
+      "asian": 0.0095,
+      "ai_an": 0.019,
+      "nh_pi": 0.019,
+      "two_or_more": 0.0381,
+      "non_resident": 0.2857,
+      "race_unknown": 0.1143
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 58
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 20
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 482413,
+        "slug": "devry-college-of-new-york",
+        "name": "DeVry College of New York",
+        "state": "New York",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5,
+          "grad_rate": 0.29,
+          "retention_rate": 0.0,
+          "enrollment": 107,
+          "avg_net_price": 34530
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 482459,
+        "slug": "devry-university-florida",
+        "name": "DeVry University-Florida",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 1.0,
+          "enrollment": 114
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 482468,
+        "slug": "devry-university-georgia",
+        "name": "DeVry University-Georgia",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.17,
+          "retention_rate": 0.4,
+          "enrollment": 522,
+          "avg_net_price": 30243
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 482547,
+        "slug": "devry-university-nevada",
+        "name": "DeVry University-Nevada",
+        "state": "Nevada",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 1
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 482635,
+        "slug": "devry-university-texas",
+        "name": "DeVry University-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 17
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 482653,
+        "slug": "devry-university-virginia",
+        "name": "DeVry University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 19,
+          "avg_net_price": 22341
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 192271,
+        "slug": "lim-college",
+        "name": "LIM College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9589827727645611,
+          "yield_rate": 0.19332763045337895,
+          "grad_rate": 0.49,
+          "retention_rate": 0.73,
+          "enrollment": 1467,
+          "avg_net_price": 37514
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 461883,
+        "slug": "millennia-atlantic-university",
+        "name": "Millennia Atlantic University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.04,
+          "enrollment": 220
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 486239,
+        "slug": "san-ignacio-university",
+        "name": "San Ignacio University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.72,
+          "retention_rate": 1.0,
+          "enrollment": 319,
+          "avg_net_price": 9433
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 404338,
+        "slug": "schiller-international-university",
+        "name": "Schiller International University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.63,
+          "enrollment": 59,
+          "avg_net_price": 24840
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 458919,
+        "slug": "strayer-university-georgia",
+        "name": "Strayer University-Georgia",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.75,
+          "enrollment": 4916,
+          "avg_net_price": 18224
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 459994,
+        "slug": "strayer-university-global-region",
+        "name": "Strayer University-Global Region",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.08,
+          "retention_rate": 0.6,
+          "enrollment": 12098,
+          "avg_net_price": 18918
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 430184,
+        "slug": "strayer-university-maryland",
+        "name": "Strayer University-Maryland",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.38,
+          "retention_rate": 1.0,
+          "enrollment": 1290,
+          "avg_net_price": 18092
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 458964,
+        "slug": "strayer-university-south-carolina",
+        "name": "Strayer University-South Carolina",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 2110,
+          "avg_net_price": 22134
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 443766,
+        "slug": "strayer-university-tennessee",
+        "name": "Strayer University-Tennessee",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 1965,
+          "avg_net_price": 18466
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 458973,
+        "slug": "strayer-university-texas",
+        "name": "Strayer University-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 1.0,
+          "enrollment": 2508,
+          "avg_net_price": 17517
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 484756,
+        "slug": "university-of-phoenix-texas",
+        "name": "University of Phoenix-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.4,
+          "enrollment": 6
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 442639,
+        "slug": "university-of-the-potomac-va-campus",
+        "name": "University of the Potomac-VA Campus",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.67,
+          "enrollment": 551
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 384412,
+        "slug": "university-of-the-potomac-washington-dc-campus",
+        "name": "University of the Potomac-Washington DC Campus",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.27,
+          "retention_rate": 0.8,
+          "enrollment": 1241,
+          "avg_net_price": 18868
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 490133,
+        "slug": "westcliff-university",
+        "name": "Westcliff University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7315155981331368,
+          "yield_rate": 0.17931497649429148,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 7686,
+          "avg_net_price": 26455
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=480781",
+      "stored": false,
+      "fetched_at": "2026-06-03T09:04:45.736057+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "First-Generation Scholarship",
+      "agency": "California Miramar University",
+      "kind": "opportunity",
+      "amount_usd": 3000,
+      "url": "https://www.calmu.edu/scholarships",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Severios Abraham"
+    },
+    {
+      "name": "Ali Sharif Athman"
+    },
+    {
+      "name": "Dodici Azpadu"
+    },
+    {
+      "name": "Donald Blakey"
+    },
+    {
+      "name": "David Brumbaugh"
+    },
+    {
+      "name": "Rachel Eubanks"
+    },
+    {
+      "name": "Agus Gumiwang Kartasasmita"
+    },
+    {
+      "name": "Bingu wa Mutharika"
+    },
+    {
+      "name": "Ben Skosana"
+    },
+    {
+      "name": "Bisera Turković"
+    }
+  ]
+}

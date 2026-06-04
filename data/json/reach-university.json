@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:12.328325+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 497480,
+    "slug": "reach-university",
+    "name": "Reach University",
+    "website_url": "https://www.reach.edu",
+    "city": "Oakland",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94612-1278",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "W1RBB41KM6N6",
+      "opeid": "04263700",
+      "ein": "271274290"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The history of Brigham Young University (BYU) begins in 1875, when the school was called Brigham Young Academy (BYA). The school did not reach university status until 1903, in a decision made by the school's board of trustees at the request of BYU president Benjamin Cluff. It became accredited during the tenure of Franklin S. Harris, under whom it gained national recognition as a university. A period of expansion after World War II caused the student body to grow many times in size, making BYU the largest private university of the time. The school's history is closely connected with its sponsor, The Church of Jesus Christ of Latter-day Saints.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_Brigham_Young_University",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_Brigham_Young_University",
+    "fetched_at": "2026-06-03T19:47:53.029019+05:30"
+  },
+  "admissions": {
+    "applicants": 199,
+    "admits": 199,
+    "enrolled": 128,
+    "first_time_freshmen": 128,
+    "first_time_freshmen_ft": 112,
+    "admission_rate": 0.9915,
+    "admit_rate": 1.0,
+    "yield_rate": 0.6432160804020101
+  },
+  "cost": {
+    "in_state_tuition": 12374,
+    "out_of_state_tuition": 12374,
+    "avg_net_price": 13305,
+    "pell_grant_rate": 0.0555,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 12980,
+      "30_48k": 15592,
+      "48_75k": 13519,
+      "75_110k": 12688
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1768,
+    "ug_12mo": 1636,
+    "grad_12mo": 132,
+    "women_12mo": 1603,
+    "men_12mo": 165,
+    "fall_total": 2230,
+    "distance_ed_any": 2230,
+    "distance_ed_exclusive": 2230,
+    "race_ethnicity": {
+      "white": 0.5734,
+      "black": 0.2749,
+      "hispanic": 0.0783,
+      "asian": 0.0065,
+      "ai_an": 0.0106,
+      "nh_pi": 0.0041,
+      "two_or_more": 0.022,
+      "non_resident": 0.0,
+      "race_unknown": 0.0302
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 101
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 43
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 30.0,
+    "instr_total_fte": 9
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 497718,
+        "slug": "academy-for-jewish-religion",
+        "name": "Academy for Jewish Religion",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 82
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 495192,
+        "slug": "alder-graduate-school-of-education",
+        "name": "Alder Graduate School of Education",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 558
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 497408,
+        "slug": "bridges-christian-college",
+        "name": "Bridges Christian College",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.5,
+          "enrollment": 204
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 497453,
+        "slug": "jackson-theological-seminary",
+        "name": "Jackson Theological Seminary",
+        "state": "Arkansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 7
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 209603,
+        "slug": "pacific-northwest-college-of-art",
+        "name": "Pacific Northwest College of Art",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7484536082474227,
+          "yield_rate": 0.2809917355371901,
+          "grad_rate": 0.29,
+          "retention_rate": 0.69,
+          "enrollment": 466,
+          "avg_net_price": 40846
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 196440,
+        "slug": "talmudical-institute-of-upstate-new-york",
+        "name": "Talmudical Institute of Upstate New York",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.17,
+          "retention_rate": 0.33,
+          "enrollment": 17,
+          "avg_net_price": 4479
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 149329,
+        "slug": "telshe-yeshiva-chicago",
+        "name": "Telshe Yeshiva-Chicago",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.89,
+          "enrollment": 91,
+          "avg_net_price": 6182
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=497480",
+      "stored": false,
+      "fetched_at": "2026-05-28T01:11:47.138662+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

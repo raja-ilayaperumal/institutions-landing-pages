@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:39.412146+00:00",
+  "generated_at": "2026-06-04T04:59:31.182981+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 2093,
     "first_time_freshmen": 2093,
     "first_time_freshmen_ft": 2073,
+    "admission_rate": 0.3918,
     "admit_rate": 0.9053495364570283,
     "yield_rate": 0.07240711271016398
   },
   "cost": {
+    "in_state_tuition": 14167,
+    "out_of_state_tuition": 44944,
     "room_and_board": 21445,
+    "total_cost_in_state": 35612,
+    "total_cost_out_of_state": 66389,
     "avg_net_price": 12744,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0127,
     "federal_loan_rate": 0.3145,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 11594,
       "75_110k": 17323,
       "110k_plus": 30561
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6915,
     "grad_rate_total": 0.69,
     "grad_4yr_bachelors": 0.51,
     "grad_5yr_bachelors": 0.66,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 9716,
     "ug_12mo": 8917,
-    "grad_12mo": 8917,
+    "grad_12mo": 799,
     "women_12mo": 4612,
     "men_12mo": 5104,
     "fall_total": 9110,
-    "fall_full_time": 8372,
-    "fall_part_time": 8372,
     "distance_ed_any": 9110,
     "distance_ed_exclusive": 2,
     "race_ethnicity": {
@@ -711,12 +715,7 @@
       "fetched_at": "2026-05-26T14:53:04.224699+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Business Intelligence Analyst (Onsite)",
-      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179392707&Title=Associate%20Director%2C%20Residence%20Education%20(Resident%20Engagement%20%26%20CARE%20Response)(Onsite)"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

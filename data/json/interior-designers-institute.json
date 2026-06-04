@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:00.915673+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 116226,
+    "slug": "interior-designers-institute",
+    "name": "Interior Designers Institute",
+    "website_url": "https://www.idi.edu",
+    "city": "Newport Beach",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92660",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RCLAXYNLNWD8",
+      "opeid": "02520300",
+      "ein": "330105252"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Interior Designers Institute (IDI) is a private college located in Newport Beach, California, founded in 1984. It offers a range of programs from certificate courses to a Master of Interior Architecture, emphasizing hands-on, studio-based learning. IDI has a small student-to-faculty ratio and focuses on preparing students for careers in interior design and architecture, with CIDA and ACCSC accreditation.",
+    "source_url": "https://www.idi.edu/about",
+    "fetched_at": "2026-06-03T16:40:56.615564+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 20250,
+    "out_of_state_tuition": 20250,
+    "pell_grant_rate": 0.4953,
+    "federal_loan_rate": 0.7188,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.875,
+    "grad_rate_total": 0.88,
+    "grad_4yr_bachelors": 1.0,
+    "grad_5yr_bachelors": 1.0,
+    "grad_6yr_bachelors": 1.0,
+    "pell_grad_rate": 1.0,
+    "pell_6yr_bachelors_rate": 1.0,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 146,
+    "ug_12mo": 141,
+    "grad_12mo": 5,
+    "women_12mo": 137,
+    "men_12mo": 9,
+    "fall_total": 102,
+    "distance_ed_any": 102,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.5701,
+      "black": 0.0467,
+      "hispanic": 0.1869,
+      "asian": 0.1028,
+      "ai_an": 0.0093,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0561,
+      "non_resident": 0.028,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 0
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 113582,
+        "slug": "design-institute-of-san-diego",
+        "name": "Design Institute of San Diego",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.763,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2857142857142857,
+          "grad_rate": 0.8,
+          "retention_rate": 0.0,
+          "enrollment": 94,
+          "avg_net_price": 31293
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 444361,
+        "slug": "ata-college",
+        "name": "ATA College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.7404,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 80,
+          "avg_net_price": 20906
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446385,
+        "slug": "los-angeles-college-of-music",
+        "name": "Los Angeles College of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.648,
+        "metrics": {
+          "admit_rate": 0.8771084337349397,
+          "yield_rate": 0.1813186813186813,
+          "grad_rate": 0.28,
+          "retention_rate": 0.61,
+          "enrollment": 261,
+          "avg_net_price": 40853
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 377546,
+        "slug": "northwest-college-of-art-and-design",
+        "name": "Northwest College of Art & Design",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5561,
+        "metrics": {
+          "admit_rate": 0.6597938144329897,
+          "yield_rate": 0.40625,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 139,
+          "avg_net_price": 20185
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 449384,
+        "slug": "gnomon",
+        "name": "Gnomon",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5432,
+        "metrics": {
+          "admit_rate": 0.41818181818181815,
+          "yield_rate": 0.7391304347826086,
+          "grad_rate": 1.0,
+          "retention_rate": 0.9,
+          "enrollment": 526,
+          "avg_net_price": 45824
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:50.645391+00:00",
+  "generated_at": "2026-06-04T04:56:09.077810+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 7330,
     "first_time_freshmen": 7330,
     "first_time_freshmen_ft": 7317,
+    "admission_rate": 0.2452,
     "admit_rate": 0.267140200818148,
     "yield_rate": 0.20408163265306123
   },
   "cost": {
+    "in_state_tuition": 15265,
+    "out_of_state_tuition": 46042,
     "room_and_board": 18970,
+    "total_cost_in_state": 34235,
+    "total_cost_out_of_state": 65012,
     "avg_net_price": 11750,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0277,
     "federal_loan_rate": 0.2412,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 10389,
       "75_110k": 17131,
       "110k_plus": 28113
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.8763,
     "grad_rate_total": 0.86,
     "grad_4yr_bachelors": 0.74,
     "grad_5yr_bachelors": 0.83,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 44416,
     "ug_12mo": 35563,
-    "grad_12mo": 35555,
+    "grad_12mo": 8853,
     "women_12mo": 22979,
     "men_12mo": 21437,
     "fall_total": 44256,
-    "fall_full_time": 34955,
-    "fall_part_time": 34948,
     "distance_ed_any": 44256,
     "distance_ed_exclusive": 236,
     "race_ethnicity": {
@@ -886,24 +890,7 @@
       "fetched_at": "2026-05-25T17:29:34.558474+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Research Administrator 3 - 139610 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441595"
-    },
-    {
-      "title": "Research Administrator 3 - 139421 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179427366"
-    },
-    {
-      "title": "Senior Complaint Resolution Officer - Health - 139481 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179437261&Title=Senior%20Complaint%20Resolution%20Officer%20-%20Health%20-%20139481"
-    },
-    {
-      "title": "Research Administrator 2 - 138172 - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179440359"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

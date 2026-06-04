@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:38.482706+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 485519,
+    "slug": "lionel-university",
+    "name": "Lionel University",
+    "website_url": "https://lionel.edu",
+    "city": "Carpinteria",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93013-2912",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Special Focus Two-Year: Other Fields",
+    "carnegie_slug": "special-focus-2yr-other",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "QXWCYZMELF14",
+      "opeid": "04243400",
+      "ein": "770273037"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Lionel University is a private institution located in Carpinteria, California, that specializes in fitness and health-related education. It offers various degree programs including Bachelor's, Master's, and Associate degrees, along with numerous certificates related to fitness and nutrition.",
+    "source_url": "https://lionel.edu/about",
+    "fetched_at": "2026-06-03T16:34:25.793267+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 15288,
+    "out_of_state_tuition": 15288,
+    "avg_net_price": 29539,
+    "pell_grant_rate": 0.3146,
+    "federal_loan_rate": 0.2902,
+    "net_price_by_family_income": {
+      "0_30k": 29845,
+      "30_48k": 28013
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3837,
+    "grad_rate_total": 0.67,
+    "grad_4yr_bachelors": 0.05,
+    "grad_5yr_bachelors": 0.1,
+    "grad_6yr_bachelors": 0.1,
+    "pell_grad_rate": 0.42,
+    "pell_6yr_bachelors_rate": 0.33,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.0,
+    "retention_full_time": 0.75,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 654,
+    "ug_12mo": 621,
+    "grad_12mo": 33,
+    "women_12mo": 294,
+    "men_12mo": 360,
+    "fall_total": 403,
+    "distance_ed_any": 403,
+    "distance_ed_exclusive": 403,
+    "race_ethnicity": {
+      "white": 0.525,
+      "black": 0.2438,
+      "hispanic": 0.15,
+      "asian": 0.0021,
+      "ai_an": 0.0167,
+      "nh_pi": 0.0021,
+      "two_or_more": 0.0563,
+      "non_resident": 0.0,
+      "race_unknown": 0.0042
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 60
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 45
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 2
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 232618,
+        "slug": "centra-college",
+        "name": "Centra College",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.0,
+          "grad_rate": 1.0,
+          "enrollment": 219,
+          "avg_net_price": 24868
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 181145,
+        "slug": "chi-health-school-of-radiologic-technology",
+        "name": "CHI Health School of Radiologic Technology",
+        "state": "Nebraska",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 29
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 208415,
+        "slug": "clatsop-community-college",
+        "name": "Clatsop Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 754,
+          "avg_net_price": 13433
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 190071,
+        "slug": "cochran-school-of-nursing",
+        "name": "Cochran School of Nursing",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 117
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 420556,
+        "slug": "columbia-gorge-community-college",
+        "name": "Columbia Gorge Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 812,
+          "avg_net_price": 10550
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 438708,
+        "slug": "eastern-west-virginia-community-and-technical-college",
+        "name": "Eastern West Virginia Community and Technical College",
+        "state": "West Virginia",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 465,
+          "avg_net_price": 8398
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 242556,
+        "slug": "instituto-tecnologico-de-puerto-rico-recinto-de-guayama",
+        "name": "Instituto Tecnologico de Puerto Rico-Recinto de Guayama",
+        "state": "Puerto Rico",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7898550724637681,
+          "yield_rate": 0.8532110091743119,
+          "retention_rate": 0.78,
+          "enrollment": 216,
+          "avg_net_price": 3510
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 127389,
+        "slug": "lamar-community-college",
+        "name": "Lamar Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 690,
+          "avg_net_price": 10328
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 117803,
+        "slug": "los-angeles-county-college-of-nursing-and-allied-health",
+        "name": "Los Angeles County College of Nursing and Allied Health",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 204
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 188021,
+        "slug": "new-mexico-state-university-grants",
+        "name": "New Mexico State University-Grants",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 754,
+          "avg_net_price": 7729
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 475839,
+        "slug": "sessions-college-for-professional-design",
+        "name": "Sessions College for Professional Design",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 0.7777777777777778,
+          "retention_rate": 0.67,
+          "enrollment": 194,
+          "avg_net_price": 15156
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 233082,
+        "slug": "southside-college-of-health-sciences",
+        "name": "Southside College of Health Sciences",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.0,
+          "enrollment": 151
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 232724,
+        "slug": "sovah-school-of-health-professions",
+        "name": "Sovah School of Health Professions",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 30
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 107743,
+        "slug": "university-of-arkansas-community-college-rich-mountain",
+        "name": "University of Arkansas Community College Rich Mountain",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 786,
+          "avg_net_price": 4914
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 369455,
+        "slug": "worsham-college-of-mortuary-science",
+        "name": "Worsham College of Mortuary Science",
+        "state": "Illinois",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.92,
+          "yield_rate": 0.6956521739130435,
+          "retention_rate": 0.88,
+          "enrollment": 183,
+          "avg_net_price": 23925
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=485519",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:59:43.594655+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

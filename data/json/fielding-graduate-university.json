@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:43.652095+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114549,
+    "slug": "fielding-graduate-university",
+    "name": "Fielding Graduate University",
+    "website_url": "https://www.fielding.edu",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93105-3538",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "S42UK27GCCT7",
+      "opeid": "02096100",
+      "ein": "952882724"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Fielding Graduate University is a private university in Santa Barbara, California, United States. It offers postgraduate and doctoral studies mainly in psychology, education, and organizational studies, primarily through distance education programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fielding_Graduate_University",
+    "source_url": "https://en.wikipedia.org/wiki/Fielding_Graduate_University",
+    "fetched_at": "2026-06-02T11:05:53.100684+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1303,
+    "women_12mo": 1043,
+    "men_12mo": 260,
+    "fall_total": 915,
+    "distance_ed_any": 915,
+    "distance_ed_exclusive": 606
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 134
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 21
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "instr_total_fte": 47
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110468,
+        "slug": "alliant-international-university-san-diego",
+        "name": "Alliant International University-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.0,
+          "grad_rate": 0.22,
+          "enrollment": 4530
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 413413,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 191241,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 136215,
+        "slug": "nova-southeastern-university",
+        "name": "Nova Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7321137067267098,
+          "yield_rate": 0.15608180839612487,
+          "grad_rate": 0.63,
+          "retention_rate": 0.76,
+          "enrollment": 20910,
+          "avg_net_price": 31303
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 209612,
+        "slug": "pacific-university",
+        "name": "Pacific University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8955823293172691,
+          "yield_rate": 0.1311659192825112,
+          "grad_rate": 0.67,
+          "retention_rate": 0.79,
+          "enrollment": 3427,
+          "avg_net_price": 35350
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 115746,
+        "slug": "pacifica-graduate-institute",
+        "name": "Pacifica Graduate Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 833
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 186399,
+        "slug": "rutgers-university-newark",
+        "name": "Rutgers University-Newark",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7135596444975947,
+          "yield_rate": 0.07073207892130723,
+          "grad_rate": 0.64,
+          "retention_rate": 0.84,
+          "enrollment": 11315,
+          "avg_net_price": 19407
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 123095,
+        "slug": "saybrook-university",
+        "name": "Saybrook University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1057
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 148593,
+        "slug": "st-john-s-college-department-of-nursing",
+        "name": "St. John's College-Department of Nursing",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 132
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 125231,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 206604,
+        "slug": "wright-state-university-main-campus",
+        "name": "Wright State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9632975719932242,
+          "yield_rate": 0.20398593200468934,
+          "grad_rate": 0.42,
+          "retention_rate": 0.68,
+          "enrollment": 10603,
+          "avg_net_price": 15216
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.fielding.edu/research/",
+    "office_name": "Office of Research",
+    "summary": "Fielding Graduate University researchers are scholar-practitioners who advance scholarship in the interest of practical applications to make our world a better place.",
+    "phone": "805-898-4026",
+    "address": "2020 De La Vina Street, Santa Barbara, CA 93105",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T11:05:51.605795+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114549",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:05:54.258668+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossaries of Terms - Building Inclusion Collaborative Resource Guide",
+      "url": "https://libguides.fielding.edu/c.php?g=930104&p=6702243",
+      "summary": "The Fielding Graduate University page on glossaries of terms provides links to several web glossaries related to diversity and inclusion. These glossaries aim to establish common language and understanding in discussions about racial equity, social justice, and LGBTQIA issues by providing evolving definitions for common terms.",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:03:54.394273+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "University-funded Research Grants and Dissertation Awards",
+      "agency": "Fielding Graduate University",
+      "kind": "opportunity",
+      "url": "https://www.fielding.edu/research/support-for-research/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Randall Bell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Randall_Bell"
+    },
+    {
+      "name": "Tara Brach",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tara_Brach"
+    },
+    {
+      "name": "Salud Carbajal",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Salud_Carbajal"
+    },
+    {
+      "name": "Marshall Colt",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marshall_Colt"
+    },
+    {
+      "name": "Marilyn Price-Mitchell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marilyn_Price-Mitchell"
+    },
+    {
+      "name": "Ref Rodriguez",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ref_Rodriguez"
+    }
+  ]
+}

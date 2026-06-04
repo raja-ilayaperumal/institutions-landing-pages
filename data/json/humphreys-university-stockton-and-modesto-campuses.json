@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:59.452028+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 115773,
+    "slug": "humphreys-university-stockton-and-modesto-campuses",
+    "name": "Humphreys University-Stockton and Modesto Campuses",
+    "website_url": "https://www.humphreys.edu",
+    "city": "Stockton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95207",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Small Programs",
+    "carnegie_slug": "masters-small",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GTECYATKDMN8",
+      "opeid": "00121200",
+      "ein": "941196198"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Humphreys University, previously known as Humphreys College, is an independent, non-profit university with two campuses in California, one in Modesto and the other in Stockton. It has been in continuous service to the central San Joaquin Valley since 1896, giving it the distinction of being the first institution of higher education in the area. It awards certificates, and associate's, bachelor's, and master's degrees. Its Humphreys College Laurence Drivon School of Law awards the juris doctor degree. The college is accredited by the Western Association of Schools and Colleges and the Accrediting Commission for Senior Colleges and Universities, and the law school is approved by the California State Bar Committee of Bar Examiners.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Humphreys_University",
+    "source_url": "https://en.wikipedia.org/wiki/Humphreys_University",
+    "fetched_at": "2026-06-02T19:22:52.190543+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 14760,
+    "out_of_state_tuition": 14760,
+    "avg_net_price": 11410,
+    "pell_grant_rate": 0.5899,
+    "federal_loan_rate": 0.5912,
+    "net_price_by_family_income": {
+      "48_75k": 2534,
+      "110k_plus": 20286
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5,
+    "grad_rate_total": 0.62,
+    "grad_4yr_bachelors": 0.67,
+    "grad_5yr_bachelors": 1.0,
+    "grad_6yr_bachelors": 1.0,
+    "pell_grad_rate": 0.75,
+    "pell_6yr_bachelors_rate": 1.0,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 897,
+    "ug_12mo": 254,
+    "grad_12mo": 643,
+    "women_12mo": 608,
+    "men_12mo": 289,
+    "fall_total": 699,
+    "distance_ed_any": 699,
+    "distance_ed_exclusive": 409,
+    "race_ethnicity": {
+      "white": 0.264,
+      "black": 0.0787,
+      "hispanic": 0.4326,
+      "asian": 0.0843,
+      "ai_an": 0.0056,
+      "nh_pi": 0.0225,
+      "two_or_more": 0.0337,
+      "non_resident": 0.073,
+      "race_unknown": 0.0056
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 0
+      }
+    ],
+    "program_count": 16,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 5.0,
+    "instr_total_fte": 7
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 100690,
+        "slug": "amridge-university",
+        "name": "Amridge University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 639
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 245847,
+        "slug": "antioch-university-santa-barbara",
+        "name": "Antioch University-Santa Barbara",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 263
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 209409,
+        "slug": "bushnell-university",
+        "name": "Bushnell University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6727898966704937,
+          "yield_rate": 0.18600682593856654,
+          "grad_rate": 0.56,
+          "retention_rate": 0.76,
+          "enrollment": 761,
+          "avg_net_price": 23520
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 150172,
+        "slug": "calumet-college-of-saint-joseph",
+        "name": "Calumet College of Saint Joseph",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3377862595419847,
+          "yield_rate": 0.7005649717514124,
+          "grad_rate": 0.23,
+          "retention_rate": 0.42,
+          "enrollment": 658,
+          "avg_net_price": 20739
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 489937,
+        "slug": "carolina-university",
+        "name": "Carolina University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3953804347826087,
+          "yield_rate": 0.2646048109965636,
+          "grad_rate": 0.21,
+          "retention_rate": 0.56,
+          "enrollment": 880,
+          "avg_net_price": 18866
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 211024,
+        "slug": "clarks-summit-university",
+        "name": "Clarks Summit University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.900990099009901,
+          "yield_rate": 0.3626373626373626,
+          "grad_rate": 0.53,
+          "retention_rate": 0.63,
+          "avg_net_price": 21873
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 113704,
+        "slug": "dominican-school-of-philosophy-and-theology",
+        "name": "Dominican School of Philosophy & Theology",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 55
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 165644,
+        "slug": "eastern-nazarene-college",
+        "name": "Eastern Nazarene College",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5896017699115044,
+          "yield_rate": 0.16322701688555347,
+          "grad_rate": 0.39,
+          "retention_rate": 0.57,
+          "enrollment": 60,
+          "avg_net_price": 17733
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 443049,
+        "slug": "faith-international-university",
+        "name": "Faith International University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.67,
+          "enrollment": 464,
+          "avg_net_price": 18361
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 230889,
+        "slug": "goddard-college",
+        "name": "Goddard College",
+        "state": "Vermont",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1951219512195122,
+          "yield_rate": 0.25,
+          "grad_rate": 0.75,
+          "retention_rate": 1.0,
+          "avg_net_price": 30152
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 212771,
+        "slug": "gratz-college",
+        "name": "Gratz College",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 449
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 198598,
+        "slug": "greensboro-college",
+        "name": "Greensboro College",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7014242115971516,
+          "yield_rate": 0.07179115300942712,
+          "grad_rate": 0.46,
+          "retention_rate": 0.66,
+          "enrollment": 967,
+          "avg_net_price": 19314
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 129491,
+        "slug": "hartford-international-university-for-religion-and-peace",
+        "name": "Hartford International University for Religion and Peace",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 109
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 235422,
+        "slug": "heritage-university",
+        "name": "Heritage University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.52,
+          "retention_rate": 0.57,
+          "enrollment": 937,
+          "avg_net_price": 11893
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 367884,
+        "slug": "hodges-university",
+        "name": "Hodges University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6121495327102804,
+          "yield_rate": 0.549618320610687,
+          "grad_rate": 0.03,
+          "retention_rate": 1.0,
+          "avg_net_price": 22602
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 462044,
+        "slug": "institute-for-doctoral-studies-in-the-visual-arts",
+        "name": "Institute for Doctoral Studies in the Visual Arts",
+        "state": "Maine",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 99
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 146667,
+        "slug": "lincoln-christian-university",
+        "name": "Lincoln Christian University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6351351351351351,
+          "yield_rate": 0.45390070921985815,
+          "grad_rate": 0.54,
+          "retention_rate": 0.0,
+          "avg_net_price": 17610
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 203757,
+        "slug": "lourdes-university",
+        "name": "Lourdes University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7413010590015129,
+          "yield_rate": 0.21020408163265306,
+          "grad_rate": 0.32,
+          "retention_rate": 0.87,
+          "enrollment": 964,
+          "avg_net_price": 21596
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 239071,
+        "slug": "maranatha-baptist-university",
+        "name": "Maranatha Baptist University",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.718978102189781,
+          "yield_rate": 0.6852791878172588,
+          "grad_rate": 0.64,
+          "retention_rate": 0.88,
+          "enrollment": 960,
+          "avg_net_price": 24659
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 209287,
+        "slug": "multnomah-university",
+        "name": "Multnomah University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49842271293375395,
+          "yield_rate": 0.3670886075949367,
+          "grad_rate": 0.51,
+          "retention_rate": 0.34,
+          "avg_net_price": 23866
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 206835,
+        "slug": "oklahoma-wesleyan-university",
+        "name": "Oklahoma Wesleyan University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6617283950617284,
+          "yield_rate": 0.3805970149253731,
+          "grad_rate": 0.26,
+          "retention_rate": 0.5,
+          "enrollment": 880,
+          "avg_net_price": 26827
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 461120,
+        "slug": "omega-graduate-school",
+        "name": "Omega Graduate School",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 69
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 155636,
+        "slug": "ottawa-university-kansas-city",
+        "name": "Ottawa University-Kansas City",
+        "state": "Kansas",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 528
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 112084,
+        "slug": "san-diego-christian-college",
+        "name": "San Diego Christian College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3081081081081081,
+          "yield_rate": 0.15789473684210525,
+          "grad_rate": 0.2,
+          "retention_rate": 0.86,
+          "enrollment": 96,
+          "avg_net_price": 7871
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 231068,
+        "slug": "sit-graduate-institute",
+        "name": "SIT Graduate Institute",
+        "state": "Vermont",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 644
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 475273,
+        "slug": "springfield-college-regional-online-and-continuing-education",
+        "name": "Springfield College-Regional, Online, and Continuing Education",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 380
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 179548,
+        "slug": "stephens-college",
+        "name": "Stephens College",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7722117202268431,
+          "yield_rate": 0.1456548347613219,
+          "grad_rate": 0.21,
+          "retention_rate": 0.78,
+          "enrollment": 568,
+          "avg_net_price": 23277
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 160065,
+        "slug": "university-of-holy-cross",
+        "name": "University of Holy Cross",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7365591397849462,
+          "yield_rate": 0.05961070559610705,
+          "grad_rate": 0.4,
+          "retention_rate": 0.71,
+          "enrollment": 802,
+          "avg_net_price": 16780
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 180258,
+        "slug": "university-of-providence",
+        "name": "University of Providence",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5028409090909091,
+          "yield_rate": 0.5028248587570622,
+          "grad_rate": 0.21,
+          "retention_rate": 0.72,
+          "enrollment": 763,
+          "avg_net_price": 20907
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 138275,
+        "slug": "warner-university",
+        "name": "Warner University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42811755361397935,
+          "yield_rate": 0.4601113172541744,
+          "grad_rate": 0.37,
+          "retention_rate": 0.44,
+          "enrollment": 900,
+          "avg_net_price": 21007
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 162210,
+        "slug": "washington-adventist-university",
+        "name": "Washington Adventist University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4618444846292948,
+          "yield_rate": 0.09318715740015662,
+          "grad_rate": 0.28,
+          "retention_rate": 0.64,
+          "enrollment": 612,
+          "avg_net_price": 15026
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=115773",
+      "stored": false,
+      "fetched_at": "2026-06-02T19:22:54.58776+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

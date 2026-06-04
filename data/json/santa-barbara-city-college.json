@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:43.795361+00:00",
+  "generated_at": "2026-06-04T04:58:06.309465+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Santa Barbara City College (SBCC) is a public community college in Santa Barbara, California, United States. It opened in 1909 and is located on a 74-acre (30 ha) campus.",
+    "summary": "Santa Barbara City College is a public community college located in Santa Barbara, California. The college operates multiple campuses, including Cliff Campus, Schott Campus, and Wake Campus, and serves a diverse student body with a notable focus on career and academic pathways, including online learning and extended education programs.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Barbara_City_College",
     "source_url": "https://en.wikipedia.org/wiki/Santa_Barbara_City_College",
-    "fetched_at": "2026-05-25T22:03:02.532543+05:30"
+    "fetched_at": "2026-06-03T19:47:16.659867+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1234,
+    "out_of_state_tuition": 10186,
     "avg_net_price": 10029,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.4956,
     "federal_loan_rate": 0.0328,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 12625,
       "75_110k": 15555,
       "110k_plus": 18111
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4266,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.33,
     "non_pell_grad_rate": 0.47,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 18903,
     "ug_12mo": 18903,
-    "grad_12mo": 14192,
+    "grad_12mo": 0,
     "women_12mo": 10465,
     "men_12mo": 8438,
     "fall_total": 12334,
-    "fall_full_time": 12334,
-    "fall_part_time": 9889,
     "distance_ed_any": 12334,
     "distance_ed_exclusive": 3733,
     "race_ethnicity": {

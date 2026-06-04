@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:04.725409+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 494746,
+    "slug": "north-west-college-san-diego",
+    "name": "North-West College-San Diego",
+    "website_url": "https://nw.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92115-1506",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PJC2JNEQQZ39",
+      "opeid": "02338515",
+      "ein": "951729727"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "North-West College-San Diego is a vocational institution located in San Diego, California, founded in 1966. It focuses on allied health education, offering a range of programs including Nursing, Pharmacy Technician, and Medical Assistant among others.",
+    "source_url": "https://nw.edu/about",
+    "fetched_at": "2026-06-03T16:36:45.695512+05:30"
+  },
+  "admissions": {
+    "applicants": 0
+  },
+  "cost": {
+    "avg_net_price": 43043,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6838,
+    "net_price_by_family_income": {
+      "0_30k": 42677,
+      "30_48k": 42737,
+      "110k_plus": 45854
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 871,
+    "ug_12mo": 871,
+    "grad_12mo": 0,
+    "women_12mo": 709,
+    "men_12mo": 162,
+    "fall_total": 636,
+    "distance_ed_any": 636,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.2015,
+      "black": 0.1107,
+      "hispanic": 0.2976,
+      "asian": 0.2486,
+      "ai_an": 0.0036,
+      "nh_pi": 0.0218,
+      "two_or_more": 0.1089,
+      "non_resident": 0.0,
+      "race_unknown": 0.0073
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 111
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 27.0,
+    "instr_total_fte": 10
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 124706,
+        "slug": "concorde-career-college-san-bernardino",
+        "name": "Concorde Career College-San Bernardino",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7725,
+        "metrics": {
+          "admit_rate": 0.9834254143646409,
+          "yield_rate": 0.5926966292134831,
+          "retention_rate": 0.8,
+          "enrollment": 222,
+          "avg_net_price": 23161
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 371964,
+        "slug": "national-career-education",
+        "name": "National Career Education",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7669,
+        "metrics": {
+          "enrollment": 515,
+          "avg_net_price": 24800
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446118,
+        "slug": "career-care-institute",
+        "name": "Career Care Institute",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.765,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 620,
+          "avg_net_price": 45587
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120661,
+        "slug": "concorde-career-college-san-diego",
+        "name": "Concorde Career College-San Diego",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.759,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6811594202898551,
+          "retention_rate": 0.95,
+          "enrollment": 147,
+          "avg_net_price": 24477
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 492449,
+        "slug": "pima-medical-institute-san-marcos",
+        "name": "Pima Medical Institute-San Marcos",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.759,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 573,
+          "avg_net_price": 29950
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

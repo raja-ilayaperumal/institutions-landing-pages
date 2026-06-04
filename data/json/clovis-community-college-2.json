@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:59.208163+00:00",
+  "generated_at": "2026-06-04T05:00:48.400652+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,28 @@
   },
   "brand": null,
   "about": {
-    "summary": "Clovis Community College may refer to:Clovis Community College \nClovis Community College (California)",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Clovis_Community_College",
-    "source_url": "https://en.wikipedia.org/wiki/Clovis_Community_College",
-    "fetched_at": "2026-05-25T23:11:17.826984+05:30"
+    "summary": "Clovis Community College is a public community college in northeastern Fresno, California near Clovis. It is in the State Center Community College District (SCCCD) along with Fresno City College and Reedley College. It has a satellite campus on Herndon Avenue in Fresno.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Clovis_Community_College_(California)",
+    "source_url": "https://en.wikipedia.org/wiki/Clovis_Community_College_(California)",
+    "fetched_at": "2026-06-03T19:49:03.945961+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1334,
+    "out_of_state_tuition": 9454,
     "avg_net_price": 7118,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7365,
     "federal_loan_rate": 0.0009,
     "net_price_by_family_income": {
       "0_30k": 5041,
       "30_48k": 6463,
       "48_75k": 9829,
-      "75_110k": 14279,
-      "110k_plus": null
-    }
+      "75_110k": 14279
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4265,
     "grad_rate_total": 0.45,
     "pell_grad_rate": 0.43,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 15474,
     "ug_12mo": 15474,
-    "grad_12mo": 11347,
+    "grad_12mo": 0,
     "women_12mo": 9324,
     "men_12mo": 6150,
     "fall_total": 10358,
-    "fall_full_time": 10358,
-    "fall_part_time": 7956,
     "distance_ed_any": 10358,
     "distance_ed_exclusive": 5135,
     "race_ethnicity": {
@@ -631,12 +631,7 @@
       "fetched_at": "2026-05-25T23:08:04.163263+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director, Strategic Initiatives - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179447489"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:13.373030+00:00",
+  "generated_at": "2026-06-04T04:56:41.341877+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Evergreen_Valley_College",
     "fetched_at": "2026-05-26T14:51:28.073+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1366,
+    "out_of_state_tuition": 8718,
     "avg_net_price": 12591,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7353,
     "federal_loan_rate": 0.0039,
     "net_price_by_family_income": {
       "0_30k": 11489,
       "30_48k": 11739,
       "48_75k": 14730,
-      "75_110k": 19057,
-      "110k_plus": null
-    }
+      "75_110k": 19057
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4446,
     "grad_rate_total": 0.41,
     "pell_grad_rate": 0.4,
     "retention_full_time": 0.73,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 15212,
     "ug_12mo": 15212,
-    "grad_12mo": 12280,
+    "grad_12mo": 0,
     "women_12mo": 8218,
     "men_12mo": 6994,
     "fall_total": 9336,
-    "fall_full_time": 9336,
-    "fall_part_time": 7688,
     "distance_ed_any": 9336,
     "distance_ed_exclusive": 3378,
     "race_ethnicity": {
@@ -443,24 +443,7 @@
       "fetched_at": "2026-05-26T14:51:29.299916+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President, Administrative Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179411364"
-    },
-    {
-      "title": "Vice President, Student Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179412623"
-    },
-    {
-      "title": "Program Coordinator (Umoja-Affirm) - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179441056&Title=Program%20Coordinator%20(Umoja-Affirm)"
-    },
-    {
-      "title": "Academic Services Analyst - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179396350"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

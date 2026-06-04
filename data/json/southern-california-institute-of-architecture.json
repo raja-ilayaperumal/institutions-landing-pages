@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:21.732959+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123952,
+    "slug": "southern-california-institute-of-architecture",
+    "name": "Southern California Institute of Architecture",
+    "website_url": "https://www.sciarc.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90013-1822",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02075800",
+      "ein": "952789388"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Southern California Institute of Architecture (SCI-Arc) is a private Architecture school in the in Los Angeles, California, United States. Founded in 1972, SCI-Arc was initially regarded as both institutionally and artistically avant-garde. It currently enrolls approximately 600 students and employs 80 faculty members, some of whom are professional architects. The school is located in the quarter-mile long (0.40 km) former Santa Fe Freight Depot in the Arts District of downtown Los Angeles. SCI-Arc also offers community events, such as outreach programs, free exhibitions, and public lectures.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Southern_California_Institute_of_Architecture",
+    "source_url": "https://en.wikipedia.org/wiki/Southern_California_Institute_of_Architecture",
+    "fetched_at": "2026-06-02T23:50:23.41139+05:30"
+  },
+  "admissions": {
+    "applicants": 748,
+    "admits": 573,
+    "enrolled": 40,
+    "first_time_freshmen": 40,
+    "first_time_freshmen_ft": 40,
+    "admission_rate": 0.8267,
+    "admit_rate": 0.766042780748663,
+    "yield_rate": 0.06980802792321117
+  },
+  "cost": {
+    "in_state_tuition": 53564,
+    "out_of_state_tuition": 53564,
+    "avg_net_price": 37535,
+    "pell_grant_rate": 0.0042,
+    "federal_loan_rate": 0.228,
+    "net_price_by_family_income": {
+      "0_30k": 42890,
+      "30_48k": 42269,
+      "110k_plus": 24769
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7,
+    "grad_rate_total": 0.71,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.64,
+    "grad_6yr_bachelors": 0.71,
+    "pell_grad_rate": 0.25,
+    "pell_6yr_bachelors_rate": 0.25,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.91
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 611,
+    "ug_12mo": 248,
+    "grad_12mo": 363,
+    "women_12mo": 252,
+    "men_12mo": 359,
+    "fall_total": 418,
+    "distance_ed_any": 418,
+    "race_ethnicity": {
+      "white": 0.1483,
+      "black": 0.0169,
+      "hispanic": 0.1271,
+      "asian": 0.1186,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0339,
+      "non_resident": 0.5508,
+      "race_unknown": 0.0042
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 180
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 4
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 40
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 485698,
+        "slug": "american-college-of-the-building-arts",
+        "name": "American College of the Building Arts",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4444444444444444,
+          "yield_rate": 0.9464285714285714,
+          "grad_rate": 0.55,
+          "retention_rate": 0.75,
+          "enrollment": 155,
+          "avg_net_price": 26389
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 483595,
+        "slug": "ana-g-mendez-university",
+        "name": "Ana G. Mendez University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 8378
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 245892,
+        "slug": "antioch-university",
+        "name": "Antioch University",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 486
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 189015,
+        "slug": "bank-street-college-of-education",
+        "name": "Bank Street College of Education",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 719
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 493822,
+        "slug": "college-unbound",
+        "name": "College Unbound",
+        "state": "Rhode Island",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 494,
+          "avg_net_price": 19116
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 165495,
+        "slug": "conway-school-of-landscape-design",
+        "name": "Conway School of Landscape Design",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 17
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 124487,
+        "slug": "epic-bible-college-and-graduate-school",
+        "name": "Epic Bible College & Graduate School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7857142857142857,
+          "yield_rate": 0.8181818181818182,
+          "grad_rate": 0.0,
+          "enrollment": 98
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 481030,
+        "slug": "future-generations-university",
+        "name": "Future Generations University",
+        "state": "West Virginia",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 48
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 495314,
+        "slug": "hackensack-meridian-school-of-medicine",
+        "name": "Hackensack Meridian School of Medicine",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 610
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 485403,
+        "slug": "high-tech-high-graduate-school-of-education",
+        "name": "High Tech High Graduate School of Education",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 99
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 455804,
+        "slug": "institute-of-world-politics",
+        "name": "Institute of World Politics",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 173
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 173452,
+        "slug": "martin-luther-college",
+        "name": "Martin Luther College",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8716814159292036,
+          "yield_rate": 0.883248730964467,
+          "grad_rate": 0.72,
+          "retention_rate": 0.85,
+          "enrollment": 878,
+          "avg_net_price": 20483
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 492209,
+        "slug": "reiss-davis-graduate-school",
+        "name": "Reiss-Davis Graduate School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 35
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 475033,
+        "slug": "relay-graduate-school-of-education",
+        "name": "Relay Graduate School of Education",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1324
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 110778,
+        "slug": "sofia-university",
+        "name": "Sofia University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1145
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 487153,
+        "slug": "the-chicago-school-at-xavier-university-of-louisiana",
+        "name": "The Chicago School at Xavier University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 20
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 104665,
+        "slug": "the-school-of-architecture",
+        "name": "The School of Architecture",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 457402,
+        "slug": "university-of-fort-lauderdale",
+        "name": "University of Fort Lauderdale",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 368,
+          "avg_net_price": 15245
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 149639,
+        "slug": "vandercook-college-of-music",
+        "name": "VanderCook College of Music",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8947368421052632,
+          "yield_rate": 0.4411764705882353,
+          "grad_rate": 0.67,
+          "retention_rate": 0.88,
+          "enrollment": 323,
+          "avg_net_price": 17094
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123952",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:50:25.302299+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Barbara Bestor",
+      "field": "Architecture"
+    },
+    {
+      "name": "Sue Courtenay",
+      "field": "Architecture"
+    },
+    {
+      "name": "Wanda Dalla Costa",
+      "field": "Architecture"
+    },
+    {
+      "name": "Jon Drezner",
+      "field": "Architecture"
+    },
+    {
+      "name": "Jeffrey Eyster",
+      "field": "Architecture"
+    },
+    {
+      "name": "Todd Fisher",
+      "field": "Architecture"
+    },
+    {
+      "name": "Moses Hacmon",
+      "field": "Architecture"
+    },
+    {
+      "name": "Shelly Kappe",
+      "field": "Architecture"
+    },
+    {
+      "name": "Gordon Kipping",
+      "field": "Architecture"
+    },
+    {
+      "name": "Ola-dele Kuku",
+      "field": "Architecture"
+    },
+    {
+      "name": "Cara Lee",
+      "field": "Architecture"
+    },
+    {
+      "name": "Karen M'Closkey",
+      "field": "Architecture"
+    },
+    {
+      "name": "Abinadi Meza",
+      "field": "Architecture"
+    },
+    {
+      "name": "Scott Mitchell (architect)",
+      "field": "Architecture"
+    },
+    {
+      "name": "David Montalba",
+      "field": "Architecture"
+    },
+    {
+      "name": "Rocio Romero",
+      "field": "Architecture"
+    },
+    {
+      "name": "Mimi Zeiger",
+      "field": "Architecture"
+    }
+  ]
+}

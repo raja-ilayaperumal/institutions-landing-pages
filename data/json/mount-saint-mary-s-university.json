@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:20.197585+00:00",
+  "generated_at": "2026-06-04T04:57:31.643889+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,10 +36,10 @@
   },
   "brand": null,
   "about": {
-    "summary": "Mount Saint Mary's University is a private, Catholic university primarily for women, in Los Angeles, California, United States.",
+    "summary": "Mount Saint Mary's University is a private Catholic university located in Los Angeles, California. It was founded in 1925 and focuses on empowering women through education and leadership, with a notable emphasis on liberal arts and professional studies.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Saint_Mary's_University_(Los_Angeles)",
     "source_url": "https://en.wikipedia.org/wiki/Mount_Saint_Mary's_University_(Los_Angeles)",
-    "fetched_at": "2026-05-28T00:56:20.778464+05:30"
+    "fetched_at": "2026-06-04T10:09:38.464517+05:30"
   },
   "admissions": {
     "applicants": 4882,
@@ -47,13 +47,17 @@
     "enrolled": 428,
     "first_time_freshmen": 428,
     "first_time_freshmen_ft": 428,
+    "admission_rate": 0.6872,
     "admit_rate": 0.7312576812781647,
     "yield_rate": 0.11988795518207283
   },
   "cost": {
+    "in_state_tuition": 48132,
+    "out_of_state_tuition": 48132,
     "room_and_board": 15518,
+    "total_cost_in_state": 63650,
+    "total_cost_out_of_state": 63650,
     "avg_net_price": 25009,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0767,
     "federal_loan_rate": 0.6906,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 25413,
       "75_110k": 26738,
       "110k_plus": 36716
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.5342,
     "grad_rate_total": 0.53,
     "grad_4yr_bachelors": 0.33,
     "grad_5yr_bachelors": 0.45,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 2797,
     "ug_12mo": 2042,
-    "grad_12mo": 1955,
+    "grad_12mo": 755,
     "women_12mo": 2444,
     "men_12mo": 353,
     "fall_total": 2312,
-    "fall_full_time": 1731,
-    "fall_part_time": 1719,
     "distance_ed_any": 2312,
     "distance_ed_exclusive": 201,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:42:02.604906+00:00",
+  "generated_at": "2026-06-04T04:58:07.119837+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,27 @@
     "enrolled": 1611,
     "first_time_freshmen": 1611,
     "first_time_freshmen_ft": 1605,
+    "admission_rate": 0.4384,
     "admit_rate": 0.4799683711122826,
-    "yield_rate": 0.17693574958813837
+    "yield_rate": 0.17693574958813837,
+    "sat_average": 1417,
+    "sat_math_25_75": [
+      680,
+      770
+    ],
+    "sat_reading_25_75": [
+      660,
+      730
+    ],
+    "act_composite_25_75": [
+      30,
+      33
+    ]
   },
   "cost": {
+    "in_state_tuition": 59241,
+    "out_of_state_tuition": 59241,
     "avg_net_price": 50959,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0209,
     "federal_loan_rate": 0.2445,
     "net_price_by_family_income": {
@@ -61,9 +76,11 @@
       "48_75k": 41599,
       "75_110k": 30672,
       "110k_plus": 60212
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.8845,
     "grad_rate_total": 0.88,
     "grad_4yr_bachelors": 0.81,
     "grad_5yr_bachelors": 0.86,
@@ -78,12 +95,10 @@
   "enrollment": {
     "enrollment_12mo_total": 10129,
     "ug_12mo": 6468,
-    "grad_12mo": 6351,
+    "grad_12mo": 3661,
     "women_12mo": 5122,
     "men_12mo": 5007,
     "fall_total": 9728,
-    "fall_full_time": 6577,
-    "fall_part_time": 6552,
     "distance_ed_any": 9728,
     "distance_ed_exclusive": 500,
     "race_ethnicity": {
@@ -907,20 +922,7 @@
       "fetched_at": "2026-05-25T23:20:37.242817+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Strategic Programs Manager, Office of the Provost - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179398416"
-    },
-    {
-      "title": "Head of Instruction Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179414933"
-    },
-    {
-      "title": "Law Financial Aid and Admissions Data Analyst and Counselor",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179449088&Title=Fixed%20Term%20-%20Law%20Financial%20Aid%20and%20Admissions%20Data%20Analyst%20and%20Counselor"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

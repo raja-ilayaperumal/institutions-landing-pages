@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:20.209456+00:00",
+  "generated_at": "2026-06-04T04:56:11.275967+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 4383,
     "first_time_freshmen": 4383,
     "first_time_freshmen_ft": 4373,
+    "admission_rate": 0.6254,
     "admit_rate": 0.6579013412899808,
     "yield_rate": 0.0928877209341754
   },
   "cost": {
+    "in_state_tuition": 14560,
+    "out_of_state_tuition": 45337,
     "room_and_board": 19948,
+    "total_cost_in_state": 34508,
+    "total_cost_out_of_state": 65285,
     "avg_net_price": 16607,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0328,
     "federal_loan_rate": 0.2943,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 13001,
       "75_110k": 18786,
       "110k_plus": 32674
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.7445,
     "grad_rate_total": 0.75,
     "grad_4yr_bachelors": 0.61,
     "grad_5yr_bachelors": 0.73,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 21313,
     "ug_12mo": 19258,
-    "grad_12mo": 19258,
+    "grad_12mo": 2055,
     "women_12mo": 10865,
     "men_12mo": 10448,
     "fall_total": 19938,
-    "fall_full_time": 17940,
-    "fall_part_time": 17940,
     "distance_ed_any": 19938,
     "distance_ed_exclusive": 166,
     "race_ethnicity": {
@@ -880,32 +884,7 @@
       "fetched_at": "2026-05-25T19:12:44.255492+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Community Research and Data Specialist",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179381590&Title=Community%20Research%20and%20Data%20Specialist"
-    },
-    {
-      "title": "Research & Evaluation Analyst",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179430932"
-    },
-    {
-      "title": "Research Compliance Specialist",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179425950"
-    },
-    {
-      "title": "Accessibility and Inclusion Assessment Specialist",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179341431"
-    },
-    {
-      "title": "Director of Institutional Research, Analytics, and Research Systems",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179398968&Title=Research%20Compliance%20Specialist"
-    },
-    {
-      "title": "Sr. Institutional Research Analyst",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179093047"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:47.649373+00:00",
+  "generated_at": "2026-06-04T04:56:07.418272+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 6610,
     "first_time_freshmen": 6610,
     "first_time_freshmen_ft": 6603,
+    "admission_rate": 0.0873,
     "admit_rate": 0.08965488952089258,
     "yield_rate": 0.5040414823852372
   },
   "cost": {
+    "in_state_tuition": 13747,
+    "out_of_state_tuition": 44524,
     "room_and_board": 18369,
+    "total_cost_in_state": 32116,
+    "total_cost_out_of_state": 62893,
     "avg_net_price": 14013,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0172,
     "federal_loan_rate": 0.2069,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 11065,
       "75_110k": 17250,
       "110k_plus": 30481
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.9266,
     "grad_rate_total": 0.93,
     "grad_4yr_bachelors": 0.85,
     "grad_5yr_bachelors": 0.91,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 49388,
     "ug_12mo": 34998,
-    "grad_12mo": 34997,
+    "grad_12mo": 14390,
     "women_12mo": 28333,
     "men_12mo": 21055,
     "fall_total": 47335,
-    "fall_full_time": 33475,
-    "fall_part_time": 33475,
     "distance_ed_any": 47335,
     "distance_ed_exclusive": 785,
     "race_ethnicity": {

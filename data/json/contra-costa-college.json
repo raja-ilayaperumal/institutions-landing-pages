@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:02.646684+00:00",
+  "generated_at": "2026-06-04T04:56:32.182115+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Contra_Costa_College",
     "fetched_at": "2026-05-27T22:00:40.204675+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1312,
+    "out_of_state_tuition": 9012,
     "avg_net_price": 6522,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6862,
     "federal_loan_rate": 0.0136,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9174,
       "75_110k": 11545,
       "110k_plus": 10878
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.307,
     "grad_rate_total": 0.28,
     "pell_grad_rate": 0.27,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 9621,
     "ug_12mo": 9621,
-    "grad_12mo": 7598,
+    "grad_12mo": 0,
     "women_12mo": 5833,
     "men_12mo": 3788,
     "fall_total": 6538,
-    "fall_full_time": 6538,
-    "fall_part_time": 5203,
     "distance_ed_any": 6538,
     "distance_ed_exclusive": 2843,
     "race_ethnicity": {
@@ -605,16 +606,7 @@
       "fetched_at": "2026-05-26T16:13:41.508364+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director, Strategic Initiatives",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179439057"
-    },
-    {
-      "title": "Interim Director, Student Success Programs-EOPS (Full-Time)",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179437809&Title=Adjunct%20Instructor%20(Temporary)%20-%20Japanese"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

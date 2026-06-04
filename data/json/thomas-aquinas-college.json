@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:24.775725+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 124292,
+    "slug": "thomas-aquinas-college",
+    "name": "Thomas Aquinas College",
+    "website_url": "https://thomasaquinas.edu",
+    "city": "Santa Paula",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93060",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "C7QMA7H9WN88",
+      "opeid": "02358000",
+      "ein": "941698615"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Thomas Aquinas College is a private Catholic liberal arts college located in California and Massachusetts, founded in 1971. The college has a student body of over 500 and focuses on an integrated curriculum based on the Great Books and Socratic discussions.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas_College",
+    "source_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas_College",
+    "fetched_at": "2026-06-03T16:42:26.001861+05:30"
+  },
+  "admissions": {
+    "applicants": 272,
+    "admits": 226,
+    "enrolled": 153,
+    "first_time_freshmen": 153,
+    "first_time_freshmen_ft": 153,
+    "admission_rate": 0.7871,
+    "admit_rate": 0.8308823529411765,
+    "yield_rate": 0.6769911504424779,
+    "sat_average": 1277,
+    "sat_math_25_75": [
+      570,
+      640
+    ],
+    "sat_reading_25_75": [
+      590,
+      690
+    ],
+    "act_composite_25_75": [
+      25,
+      33
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 28700,
+    "out_of_state_tuition": 28700,
+    "room_and_board": 11200,
+    "total_cost_in_state": 39900,
+    "total_cost_out_of_state": 39900,
+    "avg_net_price": 25032,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.657,
+    "net_price_by_family_income": {
+      "0_30k": 16761,
+      "30_48k": 18508,
+      "48_75k": 19464,
+      "75_110k": 25048,
+      "110k_plus": 28063
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8202,
+    "grad_rate_total": 0.84,
+    "grad_4yr_bachelors": 0.83,
+    "grad_5yr_bachelors": 0.84,
+    "grad_6yr_bachelors": 0.84,
+    "pell_grad_rate": 0.85,
+    "pell_6yr_bachelors_rate": 0.85,
+    "non_pell_grad_rate": 0.84,
+    "non_pell_6yr_bachelors": 0.84,
+    "retention_full_time": 0.92
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 541,
+    "ug_12mo": 541,
+    "grad_12mo": 0,
+    "women_12mo": 272,
+    "men_12mo": 269,
+    "fall_total": 566,
+    "distance_ed_any": 566,
+    "race_ethnicity": {
+      "white": 0.6215,
+      "black": 0.0,
+      "hispanic": 0.1967,
+      "asian": 0.0223,
+      "ai_an": 0.0,
+      "nh_pi": 0.0019,
+      "two_or_more": 0.0557,
+      "non_resident": 0.0649,
+      "race_unknown": 0.0371
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 107
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 50
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 217624,
+        "slug": "allen-university",
+        "name": "Allen University",
+        "state": "South Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7254179654293,
+          "yield_rate": 0.0609375,
+          "grad_rate": 0.13,
+          "retention_rate": 0.45,
+          "enrollment": 610,
+          "avg_net_price": 11081
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 116846,
+        "slug": "american-jewish-university",
+        "name": "American Jewish University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.96,
+          "yield_rate": 0.25,
+          "grad_rate": 0.44,
+          "enrollment": 424
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 384254,
+        "slug": "beacon-college",
+        "name": "Beacon College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.43471810089020774,
+          "yield_rate": 0.3856655290102389,
+          "grad_rate": 0.58,
+          "retention_rate": 0.85,
+          "enrollment": 531,
+          "avg_net_price": 36576
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 154749,
+        "slug": "bethel-college-north-newton",
+        "name": "Bethel College-North Newton",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9350086655112652,
+          "yield_rate": 0.15755329008341057,
+          "grad_rate": 0.37,
+          "retention_rate": 0.62,
+          "enrollment": 509,
+          "avg_net_price": 24392
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 210492,
+        "slug": "bryn-athyn-college-of-the-new-church",
+        "name": "Bryn Athyn College of the New Church",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8294314381270903,
+          "yield_rate": 0.11088709677419355,
+          "grad_rate": 0.65,
+          "retention_rate": 0.73,
+          "enrollment": 255,
+          "avg_net_price": 19600
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 160959,
+        "slug": "college-of-the-atlantic",
+        "name": "College of the Atlantic",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7016806722689075,
+          "yield_rate": 0.23353293413173654,
+          "grad_rate": 0.68,
+          "retention_rate": 0.85,
+          "enrollment": 358,
+          "avg_net_price": 24028
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 106342,
+        "slug": "lyon-college",
+        "name": "Lyon College",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6275695284159613,
+          "yield_rate": 0.2254335260115607,
+          "grad_rate": 0.47,
+          "retention_rate": 0.71,
+          "enrollment": 659,
+          "avg_net_price": 22670
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 182917,
+        "slug": "magdalen-college",
+        "name": "Magdalen College",
+        "state": "New Hampshire",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4444444444444444,
+          "yield_rate": 1.0,
+          "grad_rate": 0.53,
+          "retention_rate": 0.8,
+          "avg_net_price": 15922
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 155511,
+        "slug": "mcpherson-college",
+        "name": "McPherson College",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7676056338028169,
+          "yield_rate": 0.2244177840508116,
+          "grad_rate": 0.34,
+          "retention_rate": 0.65,
+          "enrollment": 878,
+          "avg_net_price": 24837
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 233301,
+        "slug": "randolph-college",
+        "name": "Randolph College",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9370860927152318,
+          "yield_rate": 0.11749116607773852,
+          "grad_rate": 0.46,
+          "retention_rate": 0.75,
+          "enrollment": 816,
+          "avg_net_price": 18436
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 176318,
+        "slug": "rust-college",
+        "name": "Rust College",
+        "state": "Mississippi",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4867349619122669,
+          "yield_rate": 0.06422018348623854,
+          "grad_rate": 0.12,
+          "retention_rate": 0.84,
+          "enrollment": 467,
+          "avg_net_price": 8751
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 199698,
+        "slug": "st-andrews-university",
+        "name": "St. Andrews University",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6479909451046972,
+          "yield_rate": 0.15633187772925763,
+          "grad_rate": 0.27,
+          "retention_rate": 0.48,
+          "enrollment": 676,
+          "avg_net_price": 33756
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 163976,
+        "slug": "st-john-s-college",
+        "name": "St. John's College",
+        "state": "Maryland",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.552414605418139,
+          "yield_rate": 0.24946695095948826,
+          "grad_rate": 0.71,
+          "retention_rate": 0.83,
+          "enrollment": 583,
+          "avg_net_price": 27934
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 102298,
+        "slug": "talladega-college",
+        "name": "Talladega College",
+        "state": "Alabama",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8541767730668478,
+          "yield_rate": 0.027714675147660156,
+          "grad_rate": 0.31,
+          "retention_rate": 0.54,
+          "enrollment": 760,
+          "avg_net_price": 13461
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 183275,
+        "slug": "thomas-more-college-of-liberal-arts",
+        "name": "Thomas More College of Liberal Arts",
+        "state": "New Hampshire",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8958333333333334,
+          "yield_rate": 0.46511627906976744,
+          "grad_rate": 0.63,
+          "retention_rate": 0.88,
+          "enrollment": 97,
+          "avg_net_price": 21511
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 135610,
+        "slug": "trinity-international-university-florida",
+        "name": "Trinity International University-Florida",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "avg_net_price": 5455
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 197230,
+        "slug": "wells-college",
+        "name": "Wells College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6964751958224543,
+          "yield_rate": 0.12089971883786317,
+          "grad_rate": 0.41,
+          "retention_rate": 0.5,
+          "avg_net_price": 22921
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 141325,
+        "slug": "wesleyan-college",
+        "name": "Wesleyan College",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5909763313609467,
+          "yield_rate": 0.13391739674593242,
+          "grad_rate": 0.45,
+          "retention_rate": 0.76,
+          "enrollment": 531,
+          "avg_net_price": 14528
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=124292",
+      "stored": false,
+      "fetched_at": "2026-06-02T21:37:25.953048+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "William Gregory Dowdy"
+    },
+    {
+      "name": "Cara Buskmiller"
+    },
+    {
+      "name": "Kayla Six"
+    },
+    {
+      "name": "David O'Reilly"
+    },
+    {
+      "name": "Thomas Anthony Alexander"
+    },
+    {
+      "name": "Samuel Joseph Shaneyfelt"
+    },
+    {
+      "name": "Rolfe Kratz"
+    },
+    {
+      "name": "Mary Bridget Neumayr"
+    },
+    {
+      "name": "John Marcus Berg"
+    },
+    {
+      "name": "Peter Fredric Colarelli"
+    },
+    {
+      "name": "Maureen Clare Gahan"
+    },
+    {
+      "name": "Shane Zachary O'Reilly"
+    },
+    {
+      "name": "Maria Grace Michael"
+    },
+    {
+      "name": "Karen Ann Walker"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:58.143495+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 457086,
+    "slug": "homestead-schools",
+    "name": "Homestead Schools",
+    "website_url": "https://www.homesteadschools.net",
+    "city": "Torrance",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90505",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "M99NTBZGJ423",
+      "opeid": "04149700",
+      "ein": "330499514"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Homestead Schools is a private vocational institution located in Torrance, California, with a branch in Costa Mesa. The school offers programs in nursing and health care, including MSN, RN-To-BSN, Vocational Nursing, and Nurse Assisting. The founding year is not mentioned, but it emphasizes financial aid and civic education through activities related to the Constitution.",
+    "source_url": "https://www.homesteadschools.net/about",
+    "fetched_at": "2026-06-03T16:42:02.377129+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 15845,
+    "pell_grant_rate": 0.2443,
+    "federal_loan_rate": 0.6667,
+    "net_price_by_family_income": {
+      "30_48k": 15765,
+      "48_75k": 13378,
+      "110k_plus": 20937
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9375,
+    "grad_rate_total": 0.93,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 262,
+    "ug_12mo": 260,
+    "grad_12mo": 2,
+    "women_12mo": 198,
+    "men_12mo": 64,
+    "fall_total": 158,
+    "distance_ed_any": 158,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0227,
+      "black": 0.2727,
+      "hispanic": 0.3466,
+      "asian": 0.358,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 2
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 8
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 441052,
+        "slug": "american-career-college-anaheim",
+        "name": "American Career College-Anaheim",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 1644,
+          "avg_net_price": 27397
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 457314,
+        "slug": "angeles-institute",
+        "name": "Angeles Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 113,
+          "avg_net_price": 23161
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 481386,
+        "slug": "california-career-institute",
+        "name": "California Career Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7394957983193278,
+          "yield_rate": 0.6988636363636364,
+          "enrollment": 628
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 433013,
+        "slug": "career-networks-institute",
+        "name": "Career Networks Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 1133,
+          "avg_net_price": 28292
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111638,
+        "slug": "casa-loma-college-los-angeles",
+        "name": "Casa Loma College-Los Angeles",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.425531914893617,
+          "yield_rate": 1.0,
+          "enrollment": 759,
+          "avg_net_price": 27721
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 123679,
+        "slug": "concorde-career-college-garden-grove",
+        "name": "Concorde Career College-Garden Grove",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9741935483870968,
+          "yield_rate": 0.6059602649006622,
+          "retention_rate": 0.95,
+          "enrollment": 214,
+          "avg_net_price": 22610
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 476595,
+        "slug": "medical-allied-career-center",
+        "name": "Medical Allied Career Center",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 48,
+          "avg_net_price": 29617
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 484376,
+        "slug": "north-west-college-long-beach",
+        "name": "North-West College-Long Beach",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6790123456790124,
+          "retention_rate": 0.75,
+          "enrollment": 652,
+          "avg_net_price": 32474
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 461856,
+        "slug": "southern-california-health-institute",
+        "name": "Southern California Health Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 156,
+          "avg_net_price": 26692
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 446561,
+        "slug": "stanbridge-university",
+        "name": "Stanbridge University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1,
+          "yield_rate": 0.9397590361445783,
+          "retention_rate": 0.84,
+          "enrollment": 2928,
+          "avg_net_price": 25114
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=457086",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:00:10.083849+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:15.399367+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 499413,
+    "slug": "glendale-career-college-north-west-college-mfson",
+    "name": "Glendale Career College-North-West College-MFSON",
+    "website_url": "https://nw.edu",
+    "city": "West Covina",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91790-2097",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PJC2JNEQQZ39",
+      "opeid": "02338517",
+      "ein": "951729727"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "North-West College (NWC) is a private career college located in California, founded in 1966. The institution offers various vocational programs primarily focused on health care fields, including nursing, medical assisting, and surgical technology, across multiple campuses in Southern California and Utah.",
+    "source_url": "https://nw.edu/about",
+    "fetched_at": "2026-06-03T01:59:56.748666+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.8303,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_full_time": 0.36
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 364,
+    "ug_12mo": 364,
+    "grad_12mo": 0,
+    "women_12mo": 296,
+    "men_12mo": 68,
+    "fall_total": 290,
+    "distance_ed_any": 290,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0505,
+      "black": 0.0413,
+      "hispanic": 0.5459,
+      "asian": 0.2798,
+      "ai_an": 0.0092,
+      "nh_pi": 0.0138,
+      "two_or_more": 0.0505,
+      "non_resident": 0.0046,
+      "race_unknown": 0.0046
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 0
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 485500,
+        "slug": "abco-technology",
+        "name": "ABCO Technology",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 75,
+          "avg_net_price": 14659
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 461865,
+        "slug": "best-care-college",
+        "name": "Best Care College",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 44
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 488563,
+        "slug": "california-college-of-music",
+        "name": "California College of Music",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.29,
+          "enrollment": 60,
+          "avg_net_price": 18922
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 232016,
+        "slug": "centura-college-virginia-beach",
+        "name": "Centura College-Virginia Beach",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "avg_net_price": 27538
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 498340,
+        "slug": "chancellor-institute",
+        "name": "Chancellor Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6516129032258065,
+          "yield_rate": 1.0,
+          "retention_rate": 0.81,
+          "enrollment": 128,
+          "avg_net_price": 34395
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 480028,
+        "slug": "digital-film-academy",
+        "name": "Digital Film Academy",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.33,
+          "avg_net_price": 55151
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 461254,
+        "slug": "galaxy-medical-college",
+        "name": "Galaxy Medical College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9,
+          "yield_rate": 1.0,
+          "retention_rate": 0.4,
+          "enrollment": 111,
+          "avg_net_price": 11331
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 498100,
+        "slug": "galen-health-institutes-myrtle-beach",
+        "name": "Galen Health Institutes-Myrtle Beach",
+        "state": "South Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 743,
+          "avg_net_price": 41961
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 498483,
+        "slug": "galen-health-institutes-pikeville",
+        "name": "Galen Health Institutes-Pikeville",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.19,
+          "enrollment": 169,
+          "avg_net_price": 34827
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 499282,
+        "slug": "galen-health-institutes-roanoke",
+        "name": "Galen Health Institutes-Roanoke",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 315
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 499307,
+        "slug": "galen-health-institutes-salt-lake-city",
+        "name": "Galen Health Institutes-Salt Lake City",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 122
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 499291,
+        "slug": "galen-health-institutes-wichita",
+        "name": "Galen Health Institutes-Wichita",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 233
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 493521,
+        "slug": "global-tech-college",
+        "name": "Global Tech College",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 102,
+          "avg_net_price": 8602
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 425250,
+        "slug": "gwinnett-college-sandy-springs",
+        "name": "Gwinnett College-Sandy Springs",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 94,
+          "avg_net_price": 28510
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 134422,
+        "slug": "key-college",
+        "name": "Key College",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6666666666666666,
+          "yield_rate": 0.05,
+          "retention_rate": 0.25,
+          "avg_net_price": 14507
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 490115,
+        "slug": "nashville-film-institute",
+        "name": "Nashville Film Institute",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 60,
+          "avg_net_price": 23818
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 493488,
+        "slug": "premiere-international-college",
+        "name": "Premiere International College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 88
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 490197,
+        "slug": "regan-career-institute",
+        "name": "Regan Career Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 56
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 456506,
+        "slug": "ross-medical-education-center-fort-wayne",
+        "name": "Ross Medical Education Center-Fort Wayne",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 156,
+          "avg_net_price": 23193
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 490160,
+        "slug": "sacramento-ultrasound-institute",
+        "name": "Sacramento Ultrasound Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7066666666666667,
+          "yield_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 212,
+          "avg_net_price": 34414
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 496654,
+        "slug": "sri-sai-krish-institute",
+        "name": "Sri Sai Krish Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 61
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 499680,
+        "slug": "stellar-career-college-crown-point",
+        "name": "Stellar Career College-Crown Point",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 81
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 448196,
+        "slug": "texas-health-school",
+        "name": "Texas Health School",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 192,
+          "avg_net_price": 29609
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 494694,
+        "slug": "texas-healthtech-institute",
+        "name": "Texas Healthtech Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 150,
+          "avg_net_price": 17007
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 485953,
+        "slug": "the-recording-conservatory-of-austin",
+        "name": "The Recording Conservatory of Austin",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 77,
+          "avg_net_price": 29459
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 496265,
+        "slug": "triangle-tech-chambersburg",
+        "name": "Triangle Tech-Chambersburg",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 29,
+          "avg_net_price": 24252
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 493451,
+        "slug": "wellspring-school-of-allied-health-springfield",
+        "name": "WellSpring School of Allied Health-Springfield",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 90,
+          "avg_net_price": 14903
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 494755,
+        "slug": "west-virginia-junior-college-united-career-institute",
+        "name": "West Virginia Junior College-United Career Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 61,
+          "avg_net_price": 16244
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 481289,
+        "slug": "xavier-college-school-of-nursing",
+        "name": "Xavier College School of Nursing",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3561643835616438,
+          "yield_rate": 1.0,
+          "enrollment": 106,
+          "avg_net_price": 18620
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=499413",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:59:53.090354+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

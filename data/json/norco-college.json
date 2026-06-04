@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:52.902166+00:00",
+  "generated_at": "2026-06-04T05:00:07.198880+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Norco_College",
     "fetched_at": "2026-05-25T22:55:27.778261+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1420,
+    "out_of_state_tuition": 11230,
     "avg_net_price": 2845,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7599,
     "federal_loan_rate": 0.0034,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5838,
       "75_110k": 7356,
       "110k_plus": 10501
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3946,
     "grad_rate_total": 0.42,
     "pell_grad_rate": 0.41,
     "retention_full_time": 0.72,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17336,
     "ug_12mo": 17336,
-    "grad_12mo": 13517,
+    "grad_12mo": 0,
     "women_12mo": 9520,
     "men_12mo": 7816,
     "fall_total": 11351,
-    "fall_full_time": 11351,
-    "fall_part_time": 8779,
     "distance_ed_any": 11351,
     "distance_ed_exclusive": 5787,
     "race_ethnicity": {

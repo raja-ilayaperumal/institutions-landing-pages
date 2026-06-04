@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:43.233290+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 449384,
+    "slug": "gnomon",
+    "name": "Gnomon",
+    "website_url": "https://www.gnomon.edu",
+    "city": "North Hollywood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91606-3324",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K6KJJJ6RL4B9",
+      "opeid": "04076400",
+      "ein": "954634146"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Gnomon is a specialized institution located in North Hollywood, CA, focusing on computer graphics education for careers in the entertainment industry. The campus spans 45,000 square feet and serves over 550 students with programs such as a Bachelor of Fine Arts and a 2-Year Certificate Program. Founded in 1997, Gnomon emphasizes professional application across various subjects related to visual effects, games, and animation.",
+    "source_url": "https://www.gnomon.edu/about",
+    "fetched_at": "2026-06-03T16:35:28.0983+05:30"
+  },
+  "admissions": {
+    "applicants": 55,
+    "admits": 23,
+    "enrolled": 17,
+    "first_time_freshmen": 17,
+    "first_time_freshmen_ft": 17,
+    "admission_rate": 0.3968,
+    "admit_rate": 0.41818181818181815,
+    "yield_rate": 0.7391304347826086
+  },
+  "cost": {
+    "in_state_tuition": 34215,
+    "out_of_state_tuition": 34215,
+    "avg_net_price": 45824,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.2301,
+    "net_price_by_family_income": {
+      "0_30k": 40515,
+      "48_75k": 40515,
+      "75_110k": 48010,
+      "110k_plus": 47510
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6667,
+    "grad_rate_total": 1.0,
+    "grad_4yr_bachelors": 1.0,
+    "grad_5yr_bachelors": 1.0,
+    "grad_6yr_bachelors": 1.0,
+    "pell_grad_rate": 1.0,
+    "pell_6yr_bachelors_rate": 1.0,
+    "retention_full_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1013,
+    "ug_12mo": 1013,
+    "grad_12mo": 0,
+    "women_12mo": 432,
+    "men_12mo": 581,
+    "fall_total": 526,
+    "distance_ed_any": 526,
+    "distance_ed_exclusive": 107,
+    "race_ethnicity": {
+      "white": 0.2252,
+      "black": 0.0099,
+      "hispanic": 0.1026,
+      "asian": 0.1589,
+      "ai_an": 0.0,
+      "nh_pi": 0.0099,
+      "two_or_more": 0.0927,
+      "non_resident": 0.3444,
+      "race_unknown": 0.0563
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 56
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 7
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 2,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 117168,
+        "slug": "laguna-college-of-art-and-design",
+        "name": "Laguna College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9431818181818182,
+          "yield_rate": 0.23092369477911648,
+          "grad_rate": 0.52,
+          "retention_rate": 0.84,
+          "enrollment": 775,
+          "avg_net_price": 42354
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=449384",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:28:10.747138+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

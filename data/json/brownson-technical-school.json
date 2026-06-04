@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:51.484907+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110194,
+    "slug": "brownson-technical-school",
+    "name": "Brownson Technical School",
+    "website_url": "https://brownson.edu",
+    "city": "Anaheim",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92805",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TRM5EKNWGNF7",
+      "opeid": "02543400",
+      "ein": "330608347"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Brownson Technical School is a vocational institution located in Anaheim, California, focused on training in HVAC (Heating, Ventilation, and Air Conditioning) and refrigeration technology. The school provides specialized programs to prepare students for careers in the HVAC/R industry and holds accreditations from recognized organizations.",
+    "source_url": "https://brownson.edu/about",
+    "fetched_at": "2026-06-03T16:31:59.065984+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 32584,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6969,
+    "net_price_by_family_income": {
+      "0_30k": 31432,
+      "30_48k": 32350,
+      "48_75k": 33548,
+      "75_110k": 36820,
+      "110k_plus": 37517
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8737,
+    "grad_rate_total": 0.89,
+    "pell_grad_rate": 0.9,
+    "non_pell_grad_rate": 0.85,
+    "retention_full_time": 0.91
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 471,
+    "ug_12mo": 471,
+    "grad_12mo": 0,
+    "women_12mo": 4,
+    "men_12mo": 467,
+    "fall_total": 307,
+    "distance_ed_any": 307,
+    "race_ethnicity": {
+      "white": 0.1549,
+      "black": 0.0493,
+      "hispanic": 0.6972,
+      "asian": 0.0986,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 1,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 480019,
+        "slug": "advanced-career-institute",
+        "name": "Advanced Career Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 664
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 461430,
+        "slug": "advanced-training-institute",
+        "name": "Advanced Training Institute",
+        "state": "Nevada",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 605
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 495129,
+        "slug": "austin-career-institute",
+        "name": "Austin Career Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 102,
+          "avg_net_price": 19530
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 448770,
+        "slug": "automotive-training-center-warminster",
+        "name": "Automotive Training Center-Warminster",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 302,
+          "avg_net_price": 13761
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 498377,
+        "slug": "commercial-diving-technologies-institute",
+        "name": "Commercial Diving Technologies Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "avg_net_price": 36910
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 373526,
+        "slug": "diesel-driving-academy-baton-rouge",
+        "name": "Diesel Driving Academy-Baton Rouge",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 282,
+          "avg_net_price": 15214
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 260664,
+        "slug": "diesel-driving-academy-shreveport",
+        "name": "Diesel Driving Academy-Shreveport",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 191,
+          "avg_net_price": 15123
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 235088,
+        "slug": "divers-institute-of-technology",
+        "name": "Divers Institute of Technology",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 198,
+          "avg_net_price": 40497
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 244613,
+        "slug": "eti-school-of-skilled-trades",
+        "name": "ETI School of Skilled Trades",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 443,
+          "avg_net_price": 27351
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 439668,
+        "slug": "hds-truck-driving-institute",
+        "name": "HDS Truck Driving Institute",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 200
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 184746,
+        "slug": "hohokus-school-of-trade-and-technical-sciences",
+        "name": "Hohokus School of Trade and Technical Sciences",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 146,
+          "avg_net_price": 22064
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 486345,
+        "slug": "hvac-technical-institute",
+        "name": "HVAC Technical Institute",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 285,
+          "avg_net_price": 23216
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 415057,
+        "slug": "industrial-management-training-institute",
+        "name": "Industrial Management Training Institute",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 114,
+          "avg_net_price": 49117
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 481960,
+        "slug": "intercoast-colleges-fairfield",
+        "name": "InterCoast Colleges-Fairfield",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 183,
+          "avg_net_price": 23134
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 457208,
+        "slug": "intercoast-colleges-rancho-cordova",
+        "name": "InterCoast Colleges-Rancho Cordova",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 71,
+          "avg_net_price": 23629
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 184427,
+        "slug": "lincoln-technical-institute-south-plainfield",
+        "name": "Lincoln Technical Institute-South Plainfield",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 335,
+          "avg_net_price": 28743
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 481003,
+        "slug": "m-t-training-center",
+        "name": "M T Training Center",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 293,
+          "avg_net_price": 9784
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 479062,
+        "slug": "motoring-technical-training-institute-2",
+        "name": "MotoRing Technical Training Institute",
+        "state": "Rhode Island",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8169014084507042,
+          "yield_rate": 0.0,
+          "retention_rate": 0.89,
+          "enrollment": 124,
+          "avg_net_price": 19403
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 414124,
+        "slug": "motoring-technical-training-institute",
+        "name": "Motoring Technical Training Institute",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9903846153846154,
+          "yield_rate": 0.7669902912621359,
+          "retention_rate": 0.82,
+          "enrollment": 312,
+          "avg_net_price": 17747
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 165635,
+        "slug": "national-aviation-academy-of-new-england",
+        "name": "National Aviation Academy of New England",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 241,
+          "avg_net_price": 32825
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 371964,
+        "slug": "national-career-education",
+        "name": "National Career Education",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 515,
+          "avg_net_price": 24800
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 457767,
+        "slug": "national-career-institute",
+        "name": "National Career Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 249,
+          "avg_net_price": 21409
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 461962,
+        "slug": "northeast-technical-institute",
+        "name": "Northeast Technical Institute",
+        "state": "Maine",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 74,
+          "avg_net_price": 35025
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 227298,
+        "slug": "ocean-corporation",
+        "name": "Ocean Corporation",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 192,
+          "avg_net_price": 30210
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 489371,
+        "slug": "spartan-college-of-aeronautics-and-technology-4",
+        "name": "Spartan College of Aeronautics and Technology",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 317,
+          "avg_net_price": 32884
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 483230,
+        "slug": "the-fab-school",
+        "name": "The Fab School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 161,
+          "avg_net_price": 39612
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110194",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:30:39.409906+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

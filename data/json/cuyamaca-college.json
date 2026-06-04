@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:02.717407+00:00",
+  "generated_at": "2026-06-04T04:56:34.903064+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Cuyamaca_College",
     "fetched_at": "2026-05-26T15:11:56.202388+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1340,
+    "out_of_state_tuition": 10636,
     "avg_net_price": 6187,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7197,
     "federal_loan_rate": 0.0122,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 8852,
       "75_110k": 11016,
       "110k_plus": 13850
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3928,
     "grad_rate_total": 0.41,
     "pell_grad_rate": 0.41,
     "retention_full_time": 0.72,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 13482,
     "ug_12mo": 13482,
-    "grad_12mo": 10716,
+    "grad_12mo": 0,
     "women_12mo": 7496,
     "men_12mo": 5986,
     "fall_total": 8905,
-    "fall_full_time": 8905,
-    "fall_part_time": 7177,
     "distance_ed_any": 8905,
     "distance_ed_exclusive": 4026,
     "race_ethnicity": {

@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:29.397352+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112394,
+    "slug": "university-of-silicon-valley",
+    "name": "University of Silicon Valley",
+    "website_url": "https://usv.edu",
+    "city": "San Jose",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95134",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VDKQYNFLA4J7",
+      "opeid": "00117700",
+      "ein": "941156509"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Silicon Valley (USV) is a private for-profit university in San Jose, California, in Silicon Valley. The school was founded in 1887 as Cogswell Technical School, and later known as Cogswell Polytechnical College. It was the first technical training institution in the Western United States and one of only two private universities, along with Stanford University, that were originally guaranteed a tax exemption in the California Constitution. USV is accredited by the WASC Senior College and University Commission. Programs at USV range from digital media to engineering, with an emphasis on digital animation, audio and music production, and video game design.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Silicon_Valley",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Silicon_Valley",
+    "wikidata_qid": "Q5141289",
+    "fetched_at": "2026-06-03T15:57:22.003052+05:30"
+  },
+  "admissions": {
+    "applicants": 340,
+    "admits": 174,
+    "enrolled": 73,
+    "first_time_freshmen": 73,
+    "first_time_freshmen_ft": 65,
+    "admission_rate": 0.5131,
+    "admit_rate": 0.5117647058823529,
+    "yield_rate": 0.41954022988505746
+  },
+  "cost": {
+    "in_state_tuition": 22480,
+    "out_of_state_tuition": 22480,
+    "avg_net_price": 30799,
+    "pell_grant_rate": 0.2334,
+    "federal_loan_rate": 0.7177,
+    "net_price_by_family_income": {
+      "0_30k": 28028,
+      "30_48k": 26638,
+      "48_75k": 27593,
+      "75_110k": 36361,
+      "110k_plus": 34376
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3492,
+    "grad_rate_total": 0.29,
+    "grad_4yr_bachelors": 0.2,
+    "grad_5yr_bachelors": 0.28,
+    "grad_6yr_bachelors": 0.29,
+    "pell_grad_rate": 0.16,
+    "pell_6yr_bachelors_rate": 0.16,
+    "non_pell_grad_rate": 0.21,
+    "non_pell_6yr_bachelors": 0.21,
+    "retention_full_time": 0.69,
+    "retention_part_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 621,
+    "ug_12mo": 598,
+    "grad_12mo": 23,
+    "women_12mo": 157,
+    "men_12mo": 464,
+    "fall_total": 477,
+    "distance_ed_any": 477,
+    "distance_ed_exclusive": 285,
+    "race_ethnicity": {
+      "white": 0.2679,
+      "black": 0.0902,
+      "hispanic": 0.2626,
+      "asian": 0.1804,
+      "ai_an": 0.0106,
+      "nh_pi": 0.0027,
+      "two_or_more": 0.1114,
+      "non_resident": 0.0106,
+      "race_unknown": 0.0637
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 11
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 7
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 189228,
+        "slug": "berkeley-college-new-york",
+        "name": "Berkeley College-New York",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.44,
+          "retention_rate": 0.55,
+          "enrollment": 2156,
+          "avg_net_price": 25133
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 482422,
+        "slug": "devry-university-arizona",
+        "name": "DeVry University-Arizona",
+        "state": "Arizona",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.6,
+          "enrollment": 6
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 482556,
+        "slug": "devry-university-new-jersey",
+        "name": "DeVry University-New Jersey",
+        "state": "New Jersey",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.67,
+          "retention_rate": 1.0,
+          "enrollment": 67
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 482574,
+        "slug": "devry-university-ohio",
+        "name": "DeVry University-Ohio",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.23,
+          "retention_rate": 0.6,
+          "enrollment": 211
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 443410,
+        "slug": "digipen-institute-of-technology",
+        "name": "DigiPen Institute of Technology",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6441647597254004,
+          "yield_rate": 0.27175843694493784,
+          "grad_rate": 0.61,
+          "retention_rate": 0.76,
+          "enrollment": 1084,
+          "avg_net_price": 42033
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 130110,
+        "slug": "paier-college",
+        "name": "Paier College",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6153846153846154,
+          "yield_rate": 0.71875,
+          "grad_rate": 0.57,
+          "retention_rate": 0.64,
+          "avg_net_price": 30982
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 127945,
+        "slug": "rocky-mountain-college-of-art-and-design",
+        "name": "Rocky Mountain College of Art and Design",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.54,
+          "enrollment": 2061,
+          "avg_net_price": 28037
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 480073,
+        "slug": "south-university-austin",
+        "name": "South University-Austin",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.38,
+          "enrollment": 297,
+          "avg_net_price": 24532
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 101116,
+        "slug": "south-university-montgomery",
+        "name": "South University-Montgomery",
+        "state": "Alabama",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.14,
+          "retention_rate": 0.62,
+          "enrollment": 303,
+          "avg_net_price": 25157
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 459268,
+        "slug": "south-university-virginia-beach",
+        "name": "South University-Virginia Beach",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.1,
+          "retention_rate": 1.0,
+          "enrollment": 258,
+          "avg_net_price": 24372
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 363934,
+        "slug": "university-of-advancing-technology",
+        "name": "University of Advancing Technology",
+        "state": "Arizona",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9805555555555555,
+          "yield_rate": 0.42776203966005666,
+          "grad_rate": 0.27,
+          "retention_rate": 0.77,
+          "enrollment": 933,
+          "avg_net_price": 20913
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 420042,
+        "slug": "university-of-phoenix-hawaii",
+        "name": "University of Phoenix-Hawaii",
+        "state": "Hawaii",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 484710,
+        "slug": "university-of-phoenix-nevada",
+        "name": "University of Phoenix-Nevada",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112394",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:06:51.373031+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "National Charter High School & Homeschool Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 8000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Valor Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 3000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Salute to Military Service",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 2500,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Esports Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 2000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "15-to-Finish Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Degree Completion Grant",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Dragon Plus Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Family Member Grant",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "HS Seniors of Distinction",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Dragon Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Golden Age Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Transfer Grant",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Women in Business & CS Scholarship",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "amount_usd": 500,
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "Business Entrepreneurship & Innovation (Graduate)",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    },
+    {
+      "title": "CEO Leadership of Tomorrow (Graduate)",
+      "agency": "University of Silicon Valley",
+      "kind": "opportunity",
+      "url": "https://usv.edu/admissions/financial-aid",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

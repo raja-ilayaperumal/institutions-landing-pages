@@ -1,0 +1,496 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:58.830206+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 491880,
+    "slug": "independent-training-and-apprenticeship-program",
+    "name": "Independent Training & Apprenticeship Program",
+    "website_url": "https://www.itap.edu",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95827-1741",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KM8VJL8ZFPX7",
+      "opeid": "04272800",
+      "ein": "810920262"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Independent Training & Apprenticeship Program (I-TAP) is a private electrical training school located in Sacramento, California. Founded in 2003, it has expanded significantly from 3,600 to 15,000 square feet, focusing on training electricians through hands-on courses and high-quality educational materials.",
+    "source_url": "https://www.itap.edu/about",
+    "fetched_at": "2026-06-03T15:53:53.149813+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 22276,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.4231,
+    "net_price_by_family_income": {
+      "0_30k": 21043,
+      "30_48k": 21713,
+      "48_75k": 22679,
+      "75_110k": 26093,
+      "110k_plus": 25278
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8095,
+    "grad_rate_total": 0.92,
+    "pell_grad_rate": 0.95,
+    "non_pell_grad_rate": 0.86,
+    "retention_full_time": 0.97
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 214,
+    "ug_12mo": 214,
+    "grad_12mo": 0,
+    "women_12mo": 8,
+    "men_12mo": 206,
+    "fall_total": 92,
+    "distance_ed_any": 92,
+    "race_ethnicity": {
+      "white": 0.4412,
+      "black": 0.0882,
+      "hispanic": 0.3627,
+      "asian": 0.049,
+      "ai_an": 0.0,
+      "nh_pi": 0.0098,
+      "two_or_more": 0.0294,
+      "non_resident": 0.0,
+      "race_unknown": 0.0196
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 1,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 456001,
+        "slug": "advanced-welding-institute",
+        "name": "Advanced Welding Institute",
+        "state": "Vermont",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 104,
+          "avg_net_price": 24554
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 444370,
+        "slug": "american-advanced-technicians-institute",
+        "name": "American Advanced Technicians Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 23,
+          "avg_net_price": 34549
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 491075,
+        "slug": "arkansas-welding-academy",
+        "name": "Arkansas Welding Academy",
+        "state": "Arkansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6153846153846154,
+          "yield_rate": 1.0,
+          "retention_rate": 0.98,
+          "enrollment": 73,
+          "avg_net_price": 32263
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 189219,
+        "slug": "berk-trade-and-business-school",
+        "name": "Berk Trade and Business School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 152,
+          "avg_net_price": 15834
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 377759,
+        "slug": "capstone-college",
+        "name": "Capstone College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 148,
+          "avg_net_price": 18047
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 493558,
+        "slug": "central-pennsylvania-diesel-institute",
+        "name": "Central Pennsylvania Diesel Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 20363
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 418171,
+        "slug": "charles-stuart-school-of-diamond-setting",
+        "name": "Charles Stuart School of Diamond Setting",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 38,
+          "avg_net_price": 41229
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 492078,
+        "slug": "chicago-professional-center",
+        "name": "Chicago Professional Center",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 95
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 491215,
+        "slug": "commercial-divers-international",
+        "name": "Commercial Divers International",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 71,
+          "avg_net_price": 34714
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 488192,
+        "slug": "dehart-technical-school",
+        "name": "DeHart Technical School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 99,
+          "avg_net_price": 25450
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 495776,
+        "slug": "elite-welding-academy",
+        "name": "Elite Welding Academy",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 24,
+          "avg_net_price": 21504
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 452887,
+        "slug": "elite-welding-academy-llc",
+        "name": "Elite Welding Academy LLC",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 59,
+          "avg_net_price": 27702
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 496371,
+        "slug": "elite-welding-academy-south-point",
+        "name": "Elite Welding Academy South Point",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 29,
+          "avg_net_price": 30807
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 369950,
+        "slug": "hamrick-school",
+        "name": "Hamrick School",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 89,
+          "avg_net_price": 4428
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 498845,
+        "slug": "heartland-welding-academy",
+        "name": "Heartland Welding Academy",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 47,
+          "avg_net_price": 20694
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 442888,
+        "slug": "intercoast-colleges-riverside",
+        "name": "InterCoast Colleges-Riverside",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 65,
+          "avg_net_price": 23880
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 482246,
+        "slug": "lynnes-welding-training",
+        "name": "Lynnes Welding Training",
+        "state": "North Dakota",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 55,
+          "avg_net_price": 23093
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 461333,
+        "slug": "mauna-loa-helicopters",
+        "name": "Mauna Loa Helicopters",
+        "state": "Hawaii",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 12,
+          "avg_net_price": 112070
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 490249,
+        "slug": "mobile-technical-training",
+        "name": "Mobile Technical Training",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 31,
+          "avg_net_price": 13686
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 193265,
+        "slug": "modern-welding-school",
+        "name": "Modern Welding School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 58,
+          "avg_net_price": 24257
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 497161,
+        "slug": "ohio-business-college-dayton-driving-academy",
+        "name": "Ohio Business College-Dayton-Driving Academy",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 170,
+          "avg_net_price": 3422
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 215008,
+        "slug": "pennsylvania-gunsmith-school",
+        "name": "Pennsylvania Gunsmith School",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 64,
+          "avg_net_price": 30056
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 105677,
+        "slug": "roberto-venn-school-of-luthiery",
+        "name": "Roberto-Venn School of Luthiery",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 21,
+          "avg_net_price": 25894
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 497499,
+        "slug": "technology-learning-center",
+        "name": "Technology Learning Center",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 31
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 499705,
+        "slug": "tulsa-welding-school-dallas-campus",
+        "name": "Tulsa Welding School-Dallas Campus",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1020
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 488837,
+        "slug": "u-s-truck-driver-training-school",
+        "name": "U.S. Truck Driver Training School",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 24,
+          "avg_net_price": 13223
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 216746,
+        "slug": "welder-training-and-testing-institute",
+        "name": "Welder Training and Testing Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 55,
+          "avg_net_price": 24740
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=491880",
+      "stored": false,
+      "fetched_at": "2026-06-03T15:53:45.523547+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "GI Bill Benefits",
+      "agency": "U.S. Department of Veterans Affairs",
+      "kind": "opportunity",
+      "url": "https://itap.edu/funding-your-electrical-education",
+      "source": "institution_site"
+    },
+    {
+      "title": "Workforce Innovation & Opportunity Act Grants",
+      "agency": "America’s Job Center of California",
+      "kind": "opportunity",
+      "url": "https://itap.edu/funding-your-electrical-education",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

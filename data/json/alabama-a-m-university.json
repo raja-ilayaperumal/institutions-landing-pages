@@ -1,0 +1,1112 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:39.367959+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 100654,
+    "slug": "alabama-a-m-university",
+    "name": "Alabama A & M University",
+    "website_url": "https://www.aamu.edu",
+    "city": "Normal",
+    "state": "AL",
+    "state_name": "Alabama",
+    "zip": "35762",
+    "region": "Southeast",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Larger Programs",
+    "carnegie_slug": "masters-larger",
+    "tags": {
+      "is_hbcu": true,
+      "is_hsi": false,
+      "is_landgrant": true,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JDVGS67MSLH7",
+      "opeid": "00100200",
+      "ein": "636001097"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Alabama Agricultural and Mechanical University is a public historically black land-grant university in Normal, Alabama, United States, a part of Huntsville. Founded in 1875 as a state-run \"normal school\", it took its present name in 1969. AAMU is a member-school of the Thurgood Marshall College Fund and is accredited by the Southern Association of Colleges and Schools. The Alabama Agricultural and Mechanical University Historic District, also known as Normal Hill College Historic District, has 28 buildings and four structures listed in the United States National Register of Historic Places. Alabama A&M's athletic teams, known as the Bulldogs, compete in NCAA Division I as members of the Southwestern Athletic Conference (SWAC).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alabama_A&M_University",
+    "source_url": "https://en.wikipedia.org/wiki/Alabama_A&M_University",
+    "wikidata_qid": "Q1551044",
+    "fetched_at": "2026-05-25T13:34:56.095162+05:30"
+  },
+  "admissions": {
+    "applicants": 23406,
+    "admits": 13564,
+    "enrolled": 1968,
+    "first_time_freshmen": 1968,
+    "first_time_freshmen_ft": 1939,
+    "admission_rate": 0.6622,
+    "admit_rate": 0.5795095274715885,
+    "yield_rate": 0.1450899439693306,
+    "sat_average": 947,
+    "sat_math_25_75": [
+      390,
+      520
+    ],
+    "sat_reading_25_75": [
+      420,
+      540
+    ],
+    "act_composite_25_75": [
+      14,
+      19
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 10024,
+    "out_of_state_tuition": 18634,
+    "avg_net_price": 14559,
+    "pell_grant_rate": 0.0885,
+    "federal_loan_rate": 0.5859,
+    "net_price_by_family_income": {
+      "0_30k": 13776,
+      "30_48k": 13923,
+      "48_75k": 16471,
+      "75_110k": 19057,
+      "110k_plus": 18200
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.2874,
+    "grad_rate_total": 0.24,
+    "grad_4yr_bachelors": 0.12,
+    "grad_5yr_bachelors": 0.2,
+    "grad_6yr_bachelors": 0.24,
+    "pell_grad_rate": 0.23,
+    "pell_6yr_bachelors_rate": 0.23,
+    "non_pell_grad_rate": 0.36,
+    "non_pell_6yr_bachelors": 0.36,
+    "retention_full_time": 0.7,
+    "retention_part_time": 0.21
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 7120,
+    "ug_12mo": 6197,
+    "grad_12mo": 923,
+    "women_12mo": 4201,
+    "men_12mo": 2919,
+    "fall_total": 7295,
+    "distance_ed_any": 7295,
+    "distance_ed_exclusive": 325,
+    "race_ethnicity": {
+      "white": 0.018,
+      "black": 0.9043,
+      "hispanic": 0.015,
+      "asian": 0.0017,
+      "ai_an": 0.0012,
+      "nh_pi": 0.001,
+      "two_or_more": 0.0182,
+      "non_resident": 0.0196,
+      "race_unknown": 0.021
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 137
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 49
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 39
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 36
+      }
+    ],
+    "program_count": 49,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0,
+    "instr_total_fte": 271
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188429,
+        "slug": "adelphi-university",
+        "name": "Adelphi University",
+        "state": "New York",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6590713017000761,
+          "yield_rate": 0.1034111034111034,
+          "grad_rate": 0.67,
+          "retention_rate": 0.83,
+          "enrollment": 7603,
+          "avg_net_price": 28348
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 100724,
+        "slug": "alabama-state-university",
+        "name": "Alabama State University",
+        "state": "Alabama",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9755152856550007,
+          "yield_rate": 0.1497447532614861,
+          "grad_rate": 0.3,
+          "retention_rate": 0.7,
+          "enrollment": 4081,
+          "avg_net_price": 13889
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 100830,
+        "slug": "auburn-university-at-montgomery",
+        "name": "Auburn University at Montgomery",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9157386785449146,
+          "yield_rate": 0.14754762869882448,
+          "grad_rate": 0.33,
+          "retention_rate": 0.68,
+          "enrollment": 5217,
+          "avg_net_price": 14596
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 162007,
+        "slug": "bowie-state-university",
+        "name": "Bowie State University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7241379310344828,
+          "yield_rate": 0.27270038450162676,
+          "grad_rate": 0.38,
+          "retention_rate": 0.68,
+          "enrollment": 6353,
+          "avg_net_price": 19335
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 182670,
+        "slug": "dartmouth-college",
+        "name": "Dartmouth College",
+        "state": "New Hampshire",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.054018195602729344,
+          "yield_rate": 0.6912280701754386,
+          "grad_rate": 0.96,
+          "retention_rate": 0.98,
+          "enrollment": 6938,
+          "avg_net_price": 28619
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 212106,
+        "slug": "duquesne-university",
+        "name": "Duquesne University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8355696889785155,
+          "yield_rate": 0.13376032674278288,
+          "grad_rate": 0.77,
+          "retention_rate": 0.84,
+          "enrollment": 8234,
+          "avg_net_price": 34978
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 198543,
+        "slug": "fayetteville-state-university",
+        "name": "Fayetteville State University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8214888718342287,
+          "yield_rate": 0.148355754857997,
+          "grad_rate": 0.38,
+          "retention_rate": 0.75,
+          "enrollment": 7107,
+          "avg_net_price": 7360
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 145725,
+        "slug": "illinois-institute-of-technology",
+        "name": "Illinois Institute of Technology",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5492796332678455,
+          "yield_rate": 0.07734724292101341,
+          "grad_rate": 0.75,
+          "retention_rate": 0.86,
+          "enrollment": 8834,
+          "avg_net_price": 19353
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 175856,
+        "slug": "jackson-state-university",
+        "name": "Jackson State University",
+        "state": "Mississippi",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9314909278749919,
+          "yield_rate": 0.06619991681685845,
+          "grad_rate": 0.51,
+          "retention_rate": 0.62,
+          "enrollment": 6326,
+          "avg_net_price": 20191
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 101480,
+        "slug": "jacksonville-state-university",
+        "name": "Jacksonville State University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7769443700330386,
+          "yield_rate": 0.19963222618089874,
+          "grad_rate": 0.55,
+          "retention_rate": 0.65,
+          "enrollment": 9955,
+          "avg_net_price": 14850
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 171128,
+        "slug": "michigan-technological-university",
+        "name": "Michigan Technological University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9242885736663475,
+          "yield_rate": 0.12927219659165803,
+          "grad_rate": 0.68,
+          "retention_rate": 0.89,
+          "enrollment": 7403,
+          "avg_net_price": 15729
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 178411,
+        "slug": "missouri-university-of-science-and-technology",
+        "name": "Missouri University of Science and Technology",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7254549808429118,
+          "yield_rate": 0.20944050173295922,
+          "grad_rate": 0.64,
+          "retention_rate": 0.87,
+          "enrollment": 7154,
+          "avg_net_price": 13773
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 163453,
+        "slug": "morgan-state-university",
+        "name": "Morgan State University",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8223059145767354,
+          "yield_rate": 0.1237118767565317,
+          "grad_rate": 0.41,
+          "retention_rate": 0.73,
+          "enrollment": 10739,
+          "avg_net_price": 15015
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 147536,
+        "slug": "national-louis-university",
+        "name": "National Louis University",
+        "state": "Illinois",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9505291656411519,
+          "yield_rate": 0.18410150181253238,
+          "grad_rate": 0.3,
+          "retention_rate": 0.5,
+          "enrollment": 8915,
+          "avg_net_price": 16157
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 185828,
+        "slug": "new-jersey-institute-of-technology",
+        "name": "New Jersey Institute of Technology",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6507336451592234,
+          "yield_rate": 0.17191807798345807,
+          "grad_rate": 0.73,
+          "retention_rate": 0.9,
+          "enrollment": 13247,
+          "avg_net_price": 16496
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 232937,
+        "slug": "norfolk-state-university",
+        "name": "Norfolk State University",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8776562638925935,
+          "yield_rate": 0.13220545030898592,
+          "grad_rate": 0.39,
+          "retention_rate": 0.73,
+          "enrollment": 6053,
+          "avg_net_price": 12973
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 199157,
+        "slug": "north-carolina-central-university",
+        "name": "North Carolina Central University",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8695557491289199,
+          "yield_rate": 0.10975457049837214,
+          "grad_rate": 0.42,
+          "retention_rate": 0.73,
+          "enrollment": 8579,
+          "avg_net_price": 15028
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 227526,
+        "slug": "prairie-view-a-m-university",
+        "name": "Prairie View A & M University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7930581323438466,
+          "yield_rate": 0.18374110537089386,
+          "grad_rate": 0.43,
+          "retention_rate": 0.76,
+          "enrollment": 9922,
+          "avg_net_price": 14041
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 186584,
+        "slug": "seton-hall-university",
+        "name": "Seton Hall University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7326444946722634,
+          "yield_rate": 0.0881996474217717,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 9571,
+          "avg_net_price": 28921
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 218733,
+        "slug": "south-carolina-state-university",
+        "name": "South Carolina State University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8261777253335754,
+          "yield_rate": 0.11448033399252912,
+          "grad_rate": 0.37,
+          "retention_rate": 0.56,
+          "enrollment": 3242,
+          "avg_net_price": 18268
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 160621,
+        "slug": "southern-university-and-a-m-college",
+        "name": "Southern University and A & M College",
+        "state": "Louisiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3511503697617091,
+          "yield_rate": 0.20065520065520065,
+          "grad_rate": 0.27,
+          "retention_rate": 0.6,
+          "enrollment": 8279,
+          "avg_net_price": 19740
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 221838,
+        "slug": "tennessee-state-university",
+        "name": "Tennessee State University",
+        "state": "Tennessee",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7011387163561077,
+          "yield_rate": 0.12992765391997638,
+          "grad_rate": 0.35,
+          "retention_rate": 0.33,
+          "enrollment": 6310,
+          "avg_net_price": 10026
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 228875,
+        "slug": "texas-christian-university",
+        "name": "Texas Christian University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4449276012014166,
+          "yield_rate": 0.2471536523929471,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 12938,
+          "avg_net_price": 33531
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 229063,
+        "slug": "texas-southern-university",
+        "name": "Texas Southern University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9691193696092003,
+          "yield_rate": 0.1788814415998242,
+          "grad_rate": 0.22,
+          "retention_rate": 0.66,
+          "enrollment": 8704,
+          "avg_net_price": 19734
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 229179,
+        "slug": "texas-woman-s-university",
+        "name": "Texas Woman's University",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9612115407637974,
+          "yield_rate": 0.1987794245858762,
+          "grad_rate": 0.49,
+          "retention_rate": 0.7,
+          "enrollment": 15361,
+          "avg_net_price": 10948
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 100706,
+        "slug": "university-of-alabama-in-huntsville",
+        "name": "University of Alabama in Huntsville",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6857142857142857,
+          "yield_rate": 0.231651376146789,
+          "grad_rate": 0.64,
+          "retention_rate": 0.84,
+          "enrollment": 8564,
+          "avg_net_price": 19880
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 102614,
+        "slug": "university-of-alaska-fairbanks",
+        "name": "University of Alaska Fairbanks",
+        "state": "Alaska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6469329529243937,
+          "yield_rate": 0.7475192943770672,
+          "grad_rate": 0.39,
+          "retention_rate": 0.74,
+          "enrollment": 6893,
+          "avg_net_price": 9634
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 129525,
+        "slug": "university-of-hartford",
+        "name": "University of Hartford",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9574502904835939,
+          "yield_rate": 0.10033330484573968,
+          "grad_rate": 0.57,
+          "retention_rate": 0.83,
+          "enrollment": 6015,
+          "avg_net_price": 29558
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 163259,
+        "slug": "university-of-maryland-baltimore",
+        "name": "University of Maryland, Baltimore",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 6636
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 101879,
+        "slug": "university-of-north-alabama",
+        "name": "University of North Alabama",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8731195566112431,
+          "yield_rate": 0.22489231466787576,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 10204,
+          "avg_net_price": 11024
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 102094,
+        "slug": "university-of-south-alabama",
+        "name": "University of South Alabama",
+        "state": "Alabama",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7095979047912494,
+          "yield_rate": 0.21048632218844984,
+          "grad_rate": 0.52,
+          "retention_rate": 0.76,
+          "enrollment": 14003,
+          "avg_net_price": 15142
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 219471,
+        "slug": "university-of-south-dakota",
+        "name": "University of South Dakota",
+        "state": "South Dakota",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9877619446772842,
+          "yield_rate": 0.2406653088934148,
+          "grad_rate": 0.6,
+          "retention_rate": 0.79,
+          "enrollment": 10619,
+          "avg_net_price": 19155
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 131399,
+        "slug": "university-of-the-district-of-columbia",
+        "name": "University of the District of Columbia",
+        "state": "District of Columbia",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.44,
+          "retention_rate": 0.68,
+          "enrollment": 4202,
+          "avg_net_price": 14693
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 199847,
+        "slug": "wake-forest-university",
+        "name": "Wake Forest University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.21669247610402093,
+          "yield_rate": 0.36076885165105965,
+          "grad_rate": 0.89,
+          "retention_rate": 0.93,
+          "enrollment": 9322,
+          "avg_net_price": 28746
+        }
+      },
+      {
+        "rank": 42,
+        "unitid": 125231,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
+      },
+      {
+        "rank": 43,
+        "unitid": 231624,
+        "slug": "william-and-mary",
+        "name": "William & Mary",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34071243959995506,
+          "yield_rate": 0.26616094986807387,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 9818,
+          "avg_net_price": 22529
+        }
+      },
+      {
+        "rank": 44,
+        "unitid": 131113,
+        "slug": "wilmington-university",
+        "name": "Wilmington University",
+        "state": "Delaware",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.22,
+          "retention_rate": 0.61,
+          "enrollment": 13746,
+          "avg_net_price": 15355
+        }
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": 222539,
+    "nih_total_usd": null,
+    "usaspending_total_usd": 137136088,
+    "all_sources_total_usd": 137358627,
+    "recent_3y_total_usd": null,
+    "award_count_nih": 0,
+    "award_count_nsf": 2,
+    "award_count_usaspending": 20,
+    "award_count_total": 22,
+    "latest_award_end": "2031-03-30"
+  },
+  "ir_office": {
+    "url": "https://www.aamu.edu/research-economic-development/institutional-planning-research-effectiveness/institutional-research.html",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Office of Institutional Planning, Research, and Effectiveness",
+    "summary": "The Institutional Research office at Alabama A&M University is part of the division of Institutional Planning, Research, and Effectiveness. The page provides contact information including a phone number and email, along with reference to student achievement goals and enrollment data.",
+    "phone": "256-372-8173",
+    "fax": "256-372-8162",
+    "address": "Patton Hall, Room 306",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:34:54.723767+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "BANNER DATA STANDARDS MANUAL",
+      "url": "https://www.aamu.edu/about/administrative-offices/information-technology-services/support/banner-information/_documents/data-standards-manual.pdf",
+      "summary": "The Banner Data Standards Manual at Alabama A&M University outlines data standards for handling university data within the Banner ERP System. The manual covers data confidentiality, stewardship, access, and input processes to ensure data integrity, consistency, and security. The Data Standards Committee and designated Data Stewards play key roles in maintaining these standards. Users must follow specific protocols when accessing or modifying records, ensuring confidentiality per federal acts like FERPA and HIPAA. This document delineates responsibilities and procedures for managing data, striving for accurate university records and facilitating the integrated use of the Banner system across institutional departments.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:34:12.922407+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2008,
+      "title": "Banner Data Standards Manual",
+      "url": "https://www.aamu.edu/about/administrative-offices/information-technology-services/support/banner-information/_documents/data-standards-manual.pdf",
+      "summary": "The Data Standards Manual, approved by the Banner Data Standards Committee, establishes guidelines for the stewardship and integrity of Alabama A&M University's data within the Banner database. Initially published in 2008 and revised in 2010, it covers topics such as data confidentiality, access, maintenance, and use across various university departments. The manual aims to ensure the accuracy, security, and proper access to data while complying with federal regulations like FERPA and HIPAA. It includes comprehensive standards for handling 'Person' and 'Non-Person' data, addressing everything from name, address, and phone number formats to the procedures for modifying records. The manual supports the university's implementation of the SunGard Higher Education Banner ERP System, facilitating integrated administrative functions and information sharing across campus.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:33:25.718068+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=100654",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:34:57.994317+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms",
+      "url": "https://www.aamu.edu/about/administrative-offices/budget-planning/_documents/budgeting-glossary-terms.pdf",
+      "summary": "This glossary from Alabama A&M University's budget glossary document provides definitions for 28 terms relevant to university finance and budgeting processes. It includes terminology about budgeting cycles, direct and indirect costs, specific funds and their usage, organizational structures, and financial planning relevant to institutional operations.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:33:57.225452+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2019,
+      "title": "Alabama Agricultural and Mechanical University 2015-2025 Strategic Plan",
+      "url": "https://www.aamu.edu/about/strategic-plan/_documents/aamu-strategic-plan.pdf",
+      "summary": "The 2015-2025 Strategic Plan for Alabama Agricultural and Mechanical University (AAMU) outlines a decade-long roadmap aimed at enhancing institutional excellence and adapting to dynamic changes in higher education. The plan emphasizes enhancing educational quality, promoting innovation, upgrading infrastructure, and diversifying financial resources. Crafted through comprehensive stakeholder consultations, the plan aims to ensure AAMU remains the institution of choice by focusing on student retention, STEM education, and preparing students for a global economy.",
+      "stored": false,
+      "fetched_at": "2026-05-25T10:31:17.847644+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2015,
+      "title": "Alabama A&M University 2015-2025 Strategic Plan",
+      "url": "https://www.aamu.edu/about/strategic-plan/",
+      "summary": "The Alabama A&M University 2015-2025 Strategic Plan aims to guide the institution through the next decade with a focus on enhancing academic excellence, distinctiveness, and competitiveness. This 10-year plan emphasizes creating a student-centered learning environment and expanding engagement with local and remote communities. The plan was developed with input from the AAMU community and aims to establish Alabama A&M as the institution of choice for prospective students and staff.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:28:12.973815+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Myrna Clayton"
+    },
+    {
+      "name": "Jonell Yarbrough Calloway",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Pamela McDonald",
+      "field": "Community Service"
+    },
+    {
+      "name": "Judge Jameria Moore",
+      "field": "Government/Law"
+    },
+    {
+      "name": "Dr. Samuel McAlphine",
+      "field": "Medicine"
+    },
+    {
+      "name": "Langston Walker",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Georgia S. Valrie",
+      "field": "Community Service"
+    },
+    {
+      "name": "Taylor Byrd, Jr.",
+      "field": "Education"
+    },
+    {
+      "name": "Charles Scales",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Ella Byrd McCain",
+      "field": "Community Service"
+    },
+    {
+      "name": "Gesna Littlefield",
+      "field": "Education"
+    },
+    {
+      "name": "James Brown",
+      "field": "Medicine"
+    },
+    {
+      "name": "Paul B. Ruffin",
+      "field": "Science"
+    },
+    {
+      "name": "Tessie D. Sawyer Bush",
+      "field": "Lifetime Achievement"
+    },
+    {
+      "name": "Henry Panion, III",
+      "field": "Arts/Entertainment"
+    },
+    {
+      "name": "Clyde Foster",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Prince Preyer, Jr.",
+      "field": "Community Service"
+    },
+    {
+      "name": "Ernest L. Knight",
+      "field": "Education"
+    },
+    {
+      "name": "W. Troy Massey",
+      "field": "Government/Law"
+    },
+    {
+      "name": "L. Shefton Riggins",
+      "field": "Medicine"
+    },
+    {
+      "name": "Charles E. Cannon",
+      "field": "Science"
+    },
+    {
+      "name": "Carl Harris Marbury",
+      "field": "Lifetime Achievement"
+    },
+    {
+      "name": "John Stallworth",
+      "field": "Athletics"
+    },
+    {
+      "name": "Thornton Stanley",
+      "field": "Business/Industry"
+    },
+    {
+      "name": "Carter D. Womack",
+      "field": "Community Service"
+    },
+    {
+      "name": "Robert Martin",
+      "field": "Education"
+    },
+    {
+      "name": "George W. Grayson",
+      "field": "Government/Law"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:17.686040+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 437936,
+    "slug": "carrington-college-san-jose",
+    "name": "Carrington College-San Jose",
+    "website_url": "https://carrington.edu",
+    "city": "San Jose",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95138",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KGZEMKJB4481",
+      "opeid": "00974807",
+      "ein": "943166490"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Carrington College is a network of for-profit private colleges with its headquarters in Sacramento, California. The school has 14 locations throughout the Western United States with a total enrollment of 8,097 and more than 132,000 alumni.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "source_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "fetched_at": "2026-06-03T16:36:55.453205+05:30"
+  },
+  "admissions": {
+    "applicants": 91,
+    "admits": 85,
+    "enrolled": 60,
+    "first_time_freshmen": 60,
+    "first_time_freshmen_ft": 46,
+    "admit_rate": 0.9340659340659341,
+    "yield_rate": 0.7058823529411765
+  },
+  "cost": {
+    "avg_net_price": 31043,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.606,
+    "net_price_by_family_income": {
+      "0_30k": 30127,
+      "30_48k": 30521,
+      "48_75k": 33000,
+      "75_110k": 34391,
+      "110k_plus": 35002
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.615,
+    "grad_rate_total": 0.6,
+    "pell_grad_rate": 0.6,
+    "non_pell_grad_rate": 0.59,
+    "retention_full_time": 0.76
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1055,
+    "ug_12mo": 1055,
+    "grad_12mo": 0,
+    "women_12mo": 914,
+    "men_12mo": 141,
+    "fall_total": 645,
+    "distance_ed_any": 645,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0868,
+      "black": 0.0338,
+      "hispanic": 0.6662,
+      "asian": 0.1221,
+      "ai_an": 0.0044,
+      "nh_pi": 0.0103,
+      "two_or_more": 0.0015,
+      "non_resident": 0.0132,
+      "race_unknown": 0.0618
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 159
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 33
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0,
+    "instr_total_fte": 36
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 434140,
+        "slug": "pima-medical-institute-chula-vista",
+        "name": "Pima Medical Institute-Chula Vista",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7963,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 537,
+          "avg_net_price": 21925
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 120078,
+        "slug": "north-west-college-west-covina",
+        "name": "North-West College-West Covina",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7946,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7752808988764045,
+          "retention_rate": 0.76,
+          "enrollment": 653,
+          "avg_net_price": 28408
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 492449,
+        "slug": "pima-medical-institute-san-marcos",
+        "name": "Pima Medical Institute-San Marcos",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7869,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 573,
+          "avg_net_price": 29950
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 446118,
+        "slug": "career-care-institute",
+        "name": "Career Care Institute",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7804,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 620,
+          "avg_net_price": 45587
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 115931,
+        "slug": "institute-for-business-and-technology",
+        "name": "Institute for Business and Technology",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7779,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 765,
+          "avg_net_price": 25471
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

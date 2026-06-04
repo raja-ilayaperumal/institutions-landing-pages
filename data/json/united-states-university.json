@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:15.135111+00:00",
+  "generated_at": "2026-06-04T04:59:34.477731+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,30 +41,26 @@
     "source_url": "https://en.wikipedia.org/wiki/United_States_University",
     "fetched_at": "2026-05-28T00:28:38.076485+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 6600,
+    "out_of_state_tuition": 6600,
     "avg_net_price": 21557,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.5449,
     "federal_loan_rate": 0.1604,
     "net_price_by_family_income": {
-      "0_30k": 21557,
-      "30_48k": null,
-      "48_75k": null,
-      "75_110k": null,
-      "110k_plus": null
-    }
+      "0_30k": 21557
+    },
+    "is_private_for_net_price": true
   },
-  "graduation": {},
+  "graduation": null,
   "enrollment": {
     "enrollment_12mo_total": 3431,
     "ug_12mo": 245,
-    "grad_12mo": 224,
+    "grad_12mo": 3186,
     "women_12mo": 2784,
     "men_12mo": 647,
     "fall_total": 2454,
-    "fall_full_time": 159,
-    "fall_part_time": 153,
     "distance_ed_any": 2454,
     "distance_ed_exclusive": 970,
     "race_ethnicity": {

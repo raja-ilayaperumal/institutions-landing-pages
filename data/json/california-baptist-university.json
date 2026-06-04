@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:49.539955+00:00",
+  "generated_at": "2026-06-04T04:55:53.628380+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 1612,
     "first_time_freshmen": 1612,
     "first_time_freshmen_ft": 1590,
+    "admission_rate": 0.7357,
     "admit_rate": 0.848811013767209,
     "yield_rate": 0.23768799764081391
   },
   "cost": {
+    "in_state_tuition": 39720,
+    "out_of_state_tuition": 39720,
     "avg_net_price": 27384,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.094,
     "federal_loan_rate": 0.6258,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 23799,
       "75_110k": 28057,
       "110k_plus": 34648
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.5953,
     "grad_rate_total": 0.62,
     "grad_4yr_bachelors": 0.44,
     "grad_5yr_bachelors": 0.59,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 13806,
     "ug_12mo": 9549,
-    "grad_12mo": 9025,
+    "grad_12mo": 4257,
     "women_12mo": 9055,
     "men_12mo": 4751,
     "fall_total": 11902,
-    "fall_full_time": 8417,
-    "fall_part_time": 8179,
     "distance_ed_any": 11902,
     "distance_ed_exclusive": 3062,
     "race_ethnicity": {
@@ -471,16 +473,7 @@
       "fetched_at": "2026-05-25T22:47:05.362793+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Associate Dean for Educational Effectiveness",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179434325&Title=AI%20Innovation%20Manager"
-    },
-    {
-      "title": "Assistant Director of Student Success Coaching",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179430682"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Human Digital Twin Model and Heat Stress Research",

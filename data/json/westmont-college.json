@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:31.900551+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125727,
+    "slug": "westmont-college",
+    "name": "Westmont College",
+    "website_url": "https://www.westmont.edu",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93108-1089",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PNPHKL6T2TW8",
+      "opeid": "00134100",
+      "ein": "951684793"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Westmont College is a private undergraduate residential Christian liberal arts college located in Santa Barbara, California. Founded in 1937, it serves approximately 1,300 students and emphasizes a classic liberal arts education integrating faith and learning, with notable programs in economics, business, kinesiology, and psychology.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Westmont_College",
+    "source_url": "https://en.wikipedia.org/wiki/Westmont_College",
+    "fetched_at": "2026-06-03T16:33:10.074493+05:30"
+  },
+  "admissions": {
+    "applicants": 2479,
+    "admits": 1910,
+    "enrolled": 303,
+    "first_time_freshmen": 303,
+    "first_time_freshmen_ft": 303,
+    "admission_rate": 0.7986,
+    "admit_rate": 0.7704719645018152,
+    "yield_rate": 0.1586387434554974,
+    "sat_average": 1367,
+    "sat_math_25_75": [
+      590,
+      698
+    ],
+    "sat_reading_25_75": [
+      622,
+      720
+    ],
+    "act_composite_25_75": [
+      30,
+      34
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 51790,
+    "out_of_state_tuition": 51790,
+    "avg_net_price": 32926,
+    "pell_grant_rate": 0.0076,
+    "federal_loan_rate": 0.5,
+    "net_price_by_family_income": {
+      "0_30k": 24220,
+      "30_48k": 22301,
+      "48_75k": 24081,
+      "75_110k": 30116,
+      "110k_plus": 39455
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7009,
+    "grad_rate_total": 0.7,
+    "grad_4yr_bachelors": 0.64,
+    "grad_5yr_bachelors": 0.7,
+    "grad_6yr_bachelors": 0.7,
+    "pell_grad_rate": 0.54,
+    "pell_6yr_bachelors_rate": 0.54,
+    "non_pell_grad_rate": 0.69,
+    "non_pell_6yr_bachelors": 0.69,
+    "retention_full_time": 0.85
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1393,
+    "ug_12mo": 1385,
+    "grad_12mo": 8,
+    "women_12mo": 858,
+    "men_12mo": 535,
+    "fall_total": 1310,
+    "distance_ed_any": 1310,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.516,
+      "black": 0.0244,
+      "hispanic": 0.2344,
+      "asian": 0.0649,
+      "ai_an": 0.0023,
+      "nh_pi": 0.0015,
+      "two_or_more": 0.0809,
+      "non_resident": 0.0168,
+      "race_unknown": 0.0588
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 28
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 13
+      }
+    ],
+    "program_count": 34,
+    "highest_degree": 6,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 106
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 112260,
+        "slug": "claremont-mckenna-college",
+        "name": "Claremont McKenna College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09587992035533772,
+          "yield_rate": 0.5383386581469649,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1393,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 165936,
+        "slug": "gordon-college",
+        "name": "Gordon College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6923076923076923,
+          "yield_rate": 0.21550671550671552,
+          "grad_rate": 0.69,
+          "retention_rate": 0.84,
+          "enrollment": 1595,
+          "avg_net_price": 24817
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 125763,
+        "slug": "whittier-college",
+        "name": "Whittier College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8078694014231896,
+          "yield_rate": 0.054145077720207255,
+          "grad_rate": 0.6,
+          "retention_rate": 0.66,
+          "enrollment": 795,
+          "avg_net_price": 29871
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.westmont.edu/institutional-portfolio",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Office of the Provost",
+    "summary": "The page provides information about the Institutional Portfolio at Westmont College and includes contact details for Tim Loomer, Director of Research, Planning and Implementation. The office is under the Office of the Provost.",
+    "phone": "805-565-6832",
+    "fax": "805-565-7006",
+    "email": "tloomer@westmont.edu",
+    "address": "955 La Paz Road, Santa Barbara, CA 93108",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:31:15.227191+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Tim Loomer",
+      "title": "Director of Research, Planning and Implementation and Assistant to the President for Board Relations",
+      "email": "tloomer@westmont.edu",
+      "phone": "805-565-6832"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://www.westmont.edu/sites/default/files/2025-11/CDS%202024-25%20Westmont%20College.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2023,
+      "url": "https://www.westmont.edu/sites/default/files/2025-11/CDS%202023-24%20Westmont%20College.xlsx",
+      "is_pdf": false
+    },
+    {
+      "year": 2022,
+      "url": "https://www.westmont.edu/sites/default/files/CDS_2022_23%20MASTER.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.westmont.edu/sites/default/files/WESTMONT%20COLLEGE%20CDS_2021-2022.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.westmont.edu/sites/default/files/WESTMONT%20COLLEGE%20CDS_2020-2021.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.westmont.edu/sites/default/files/CDS%202019-2020.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://www.westmont.edu/sites/default/files/users/user1011/CDS_2018-2019%2C%20Westmont%20College%20PDF.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.westmont.edu/sites/default/files/CDS_2017-2018Final%20(rev.%207-25-18)_1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.westmont.edu/sites/default/files/CDS2016-17.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.westmont.edu/sites/default/files/CDS_2015-16.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.westmont.edu/sites/default/files/CDS_2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.westmont.edu/sites/default/files/CDS_2013-2014.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Institutional Data | Westmont College",
+      "url": "https://www.westmont.edu/institutional-portfolio/institutional-data",
+      "summary": "The page provides an overview of the institutional data offered by Westmont College, including sections on accreditation, student achievement, demographics, and the Common Data Set for various academic years. It includes navigation options for different audiences like prospective students, parents, staff, and alumni, along with links for visiting, applying, and giving to the college.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:29:46.616221+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125727",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:31:17.56894+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Institutional Portfolio | Westmont College",
+      "url": "https://www.westmont.edu/institutional-portfolio",
+      "summary": "The Institutional Portfolio of Westmont College provides extensive information about the college, including accreditation, institutional data, student achievement, and demographics. The office responsible for the portfolio is the Office of the Provost, with Tim Loomer as the Director of Research, Planning and Implementation and Assistant to the President for Board Relations.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:21:56.07463+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Andy Alsup",
+      "field": "Technology"
+    },
+    {
+      "name": "Stan Anderson",
+      "field": "Law"
+    },
+    {
+      "name": "Alec Avedissian",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "James Banks",
+      "field": "Religious Writing"
+    },
+    {
+      "name": "Paul Betancourt",
+      "field": "Agriculture"
+    },
+    {
+      "name": "Jennifer Brady",
+      "field": "Philanthropy"
+    },
+    {
+      "name": "Julie Cain",
+      "field": "Investment Management"
+    },
+    {
+      "name": "Tyler Castle",
+      "field": "Public Policy"
+    },
+    {
+      "name": "Priya David Clemens",
+      "field": "Journalism"
+    },
+    {
+      "name": "Melody Daly",
+      "field": "Public Health"
+    },
+    {
+      "name": "Jamie DeVries",
+      "field": "Education"
+    },
+    {
+      "name": "Rachel Goble",
+      "field": "Human Rights"
+    },
+    {
+      "name": "Bill Kliewer",
+      "field": "Non-Profit Management"
+    },
+    {
+      "name": "Sharon Koh",
+      "field": "Missionary Work"
+    },
+    {
+      "name": "Daniel Martins",
+      "field": "Religion"
+    },
+    {
+      "name": "Heather McDowell",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Dave Odell",
+      "field": "Business"
+    },
+    {
+      "name": "Marty Ozinga",
+      "field": "Business"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:20.475688+00:00",
+  "generated_at": "2026-06-04T04:57:31.885883+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -35,11 +35,17 @@
     }
   },
   "brand": null,
-  "about": null,
-  "admissions": {},
+  "about": {
+    "summary": "Mt. San Jacinto College (MSJC) is a public community college in Riverside County, California. It is part of the California Community College system and consists of four locations: San Jacinto, Menifee, Banning and Temecula. Classes are also held at numerous satellite locations such as local high schools and online.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mt._San_Jacinto_College",
+    "source_url": "https://en.wikipedia.org/wiki/Mt._San_Jacinto_College",
+    "fetched_at": "2026-06-03T19:48:13.466797+05:30"
+  },
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1406,
+    "out_of_state_tuition": 11276,
     "avg_net_price": 7098,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5918,
     "federal_loan_rate": 0.0059,
     "net_price_by_family_income": {
@@ -48,9 +54,11 @@
       "48_75k": 8477,
       "75_110k": 11060,
       "110k_plus": 8165
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3834,
     "grad_rate_total": 0.36,
     "pell_grad_rate": 0.34,
     "non_pell_grad_rate": 1.0,
@@ -60,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 24340,
     "ug_12mo": 24340,
-    "grad_12mo": 20759,
+    "grad_12mo": 0,
     "women_12mo": 14700,
     "men_12mo": 9640,
     "fall_total": 17627,
-    "fall_full_time": 17627,
-    "fall_part_time": 15259,
     "distance_ed_any": 17627,
     "distance_ed_exclusive": 118,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:10.972633+00:00",
+  "generated_at": "2026-06-04T04:57:24.475394+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Merritt_College",
     "fetched_at": "2026-05-26T15:41:16.441928+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1167,
+    "out_of_state_tuition": 8703,
     "avg_net_price": 14742,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.8182,
     "federal_loan_rate": 0.0034,
     "net_price_by_family_income": {
       "0_30k": 14035,
       "30_48k": 13694,
       "48_75k": 18232,
-      "75_110k": 18127,
-      "110k_plus": null
-    }
+      "75_110k": 18127
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2543,
     "grad_rate_total": 0.26,
     "pell_grad_rate": 0.27,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11949,
     "ug_12mo": 11949,
-    "grad_12mo": 9224,
+    "grad_12mo": 0,
     "women_12mo": 7512,
     "men_12mo": 4437,
     "fall_total": 7022,
-    "fall_full_time": 7022,
-    "fall_part_time": 5288,
     "distance_ed_any": 7022,
     "distance_ed_exclusive": 3355,
     "race_ethnicity": {

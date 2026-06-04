@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:55.750554+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 381255,
+    "slug": "cet-coachella",
+    "name": "CET-Coachella",
+    "website_url": "https://cetweb.edu",
+    "city": "Coachella",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92236",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XE7PMGGLEWV7",
+      "opeid": "02332806",
+      "ein": "941658311"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Center for Employment Training (CET) is a private postsecondary institution located in Coachella, California, and has been providing job training and human development services since 1967. It focuses on career and technical education, offering programs in various fields including business, medical, technical trades, and logistics across multiple locations in California and Texas.",
+    "source_url": "https://cetweb.edu/about",
+    "fetched_at": "2026-06-03T16:38:24.611211+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 11202,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.25,
+    "net_price_by_family_income": {
+      "0_30k": 11756,
+      "30_48k": 10657,
+      "48_75k": 9756,
+      "75_110k": 12865
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6364,
+    "grad_rate_total": 0.84,
+    "pell_grad_rate": 0.82,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.95
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 125,
+    "ug_12mo": 125,
+    "grad_12mo": 0,
+    "women_12mo": 21,
+    "men_12mo": 104,
+    "fall_total": 96,
+    "distance_ed_any": 96,
+    "race_ethnicity": {
+      "white": 0.0238,
+      "black": 0.0,
+      "hispanic": 0.9762,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 3,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 19.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 427894,
+        "slug": "cet-alexandria",
+        "name": "CET-Alexandria",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "avg_net_price": 20615
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111744,
+        "slug": "cet-colton",
+        "name": "CET-Colton",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 162,
+          "avg_net_price": 15800
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111726,
+        "slug": "cet-el-centro",
+        "name": "CET-El Centro",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 130,
+          "avg_net_price": 19211
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 432269,
+        "slug": "cet-el-paso",
+        "name": "CET-El Paso",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 67,
+          "avg_net_price": 19187
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111708,
+        "slug": "cet-san-diego",
+        "name": "CET-San Diego",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 223,
+          "avg_net_price": 19875
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 111717,
+        "slug": "cet-san-jose",
+        "name": "CET-San Jose",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 266,
+          "avg_net_price": 15045
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 468769,
+        "slug": "cet-soledad",
+        "name": "CET-Soledad",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 155,
+          "avg_net_price": 10377
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 111762,
+        "slug": "cet-watsonville",
+        "name": "CET-Watsonville",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 142,
+          "avg_net_price": 1532
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 203146,
+        "slug": "hobart-institute-of-welding-technology",
+        "name": "Hobart Institute of Welding Technology",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 356,
+          "avg_net_price": 20705
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 437237,
+        "slug": "iyrs-school-of-technology-and-trades",
+        "name": "IYRS School of Technology & Trades",
+        "state": "Rhode Island",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8888888888888888,
+          "yield_rate": 1.0,
+          "retention_rate": 0.83,
+          "enrollment": 68,
+          "avg_net_price": 18436
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 167297,
+        "slug": "north-bennet-street-school",
+        "name": "North Bennet Street School",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 155,
+          "avg_net_price": 35199
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 434362,
+        "slug": "northwest-hvac-r-training-center",
+        "name": "Northwest HVAC/R Training Center",
+        "state": "Washington",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.825,
+          "yield_rate": 1.0,
+          "retention_rate": 0.91,
+          "enrollment": 50,
+          "avg_net_price": 16737
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 214528,
+        "slug": "orleans-technical-college",
+        "name": "Orleans Technical College",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7950819672131147,
+          "yield_rate": 0.6185567010309279,
+          "retention_rate": 0.81,
+          "enrollment": 340,
+          "avg_net_price": 17627
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 480727,
+        "slug": "school-of-missionary-aviation-technology",
+        "name": "School of Missionary Aviation Technology",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 36,
+          "avg_net_price": 14994
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 175120,
+        "slug": "summit-academy-opportunities-industrialization-center",
+        "name": "Summit Academy Opportunities Industrialization Center",
+        "state": "Minnesota",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 360,
+          "avg_net_price": 17952
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=381255",
+      "stored": false,
+      "fetched_at": "2026-06-03T15:47:39.412847+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

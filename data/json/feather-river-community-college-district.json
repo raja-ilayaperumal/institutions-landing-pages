@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:42.478386+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114433,
+    "slug": "feather-river-community-college-district",
+    "name": "Feather River Community College District",
+    "website_url": "https://www.frc.edu",
+    "city": "Quincy",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95971-9124",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XTKJLJHKKCU4",
+      "opeid": "00859700",
+      "ein": "800329969"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Feather River College is a public, two-year community college located in Quincy, California. The campus spans over 400 acres and is known for its academic programs in various fields such as environmental studies, health sciences, and agriculture, alongside successful athletic programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Feather_River_College",
+    "source_url": "https://en.wikipedia.org/wiki/Feather_River_College",
+    "fetched_at": "2026-06-03T19:49:03.387364+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 1465,
+    "out_of_state_tuition": 9925,
+    "avg_net_price": 6520,
+    "pell_grant_rate": 0.716,
+    "federal_loan_rate": 0.0632,
+    "net_price_by_family_income": {
+      "0_30k": 5638,
+      "30_48k": 5069,
+      "48_75k": 5887,
+      "75_110k": 14025,
+      "110k_plus": 14891
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4688,
+    "grad_rate_total": 0.35,
+    "grad_4yr_bachelors": 0.17,
+    "grad_5yr_bachelors": 0.17,
+    "grad_6yr_bachelors": 0.25,
+    "pell_grad_rate": 0.24,
+    "pell_6yr_bachelors_rate": 0.0,
+    "non_pell_grad_rate": 0.32,
+    "retention_full_time": 0.6,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2878,
+    "ug_12mo": 2878,
+    "grad_12mo": 0,
+    "women_12mo": 1415,
+    "men_12mo": 1463,
+    "fall_total": 2055,
+    "distance_ed_any": 2055,
+    "distance_ed_exclusive": 1286,
+    "race_ethnicity": {
+      "white": 0.3272,
+      "black": 0.0978,
+      "hispanic": 0.3806,
+      "asian": 0.033,
+      "ai_an": 0.0216,
+      "nh_pi": 0.0095,
+      "two_or_more": 0.0267,
+      "non_resident": 0.0172,
+      "race_unknown": 0.0864
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 35
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 3
+      }
+    ],
+    "program_count": 42,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 28
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 168607,
+        "slug": "alpena-community-college",
+        "name": "Alpena Community College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.5,
+          "enrollment": 1581,
+          "avg_net_price": 4067
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 234696,
+        "slug": "bellingham-technical-college",
+        "name": "Bellingham Technical College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2047,
+          "avg_net_price": 4971
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 234711,
+        "slug": "big-bend-community-college",
+        "name": "Big Bend Community College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1857,
+          "avg_net_price": 10875
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 201432,
+        "slug": "bowling-green-state-university-firelands",
+        "name": "Bowling Green State University-Firelands",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 2097,
+          "avg_net_price": 17791
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 439190,
+        "slug": "cascadia-college",
+        "name": "Cascadia College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2380,
+          "avg_net_price": 12612
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 201672,
+        "slug": "central-ohio-technical-college",
+        "name": "Central Ohio Technical College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 3182,
+          "avg_net_price": 10075
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 240514,
+        "slug": "central-wyoming-college",
+        "name": "Central Wyoming College",
+        "state": "Wyoming",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 2205,
+          "avg_net_price": 13622
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 139621,
+        "slug": "east-georgia-state-college",
+        "name": "East Georgia State College",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.03,
+          "retention_rate": 0.61,
+          "enrollment": 1820,
+          "avg_net_price": 9380
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 224961,
+        "slug": "galveston-college",
+        "name": "Galveston College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2405,
+          "avg_net_price": 8127
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 235334,
+        "slug": "grays-harbor-college",
+        "name": "Grays Harbor College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1577,
+          "avg_net_price": 3149
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 203678,
+        "slug": "james-a-rhodes-state-college",
+        "name": "James A. Rhodes State College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4124,
+          "avg_net_price": 8851
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 203447,
+        "slug": "kent-state-university-at-ashtabula",
+        "name": "Kent State University at Ashtabula",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.01,
+          "retention_rate": 0.49,
+          "enrollment": 1739,
+          "avg_net_price": 10753
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 203456,
+        "slug": "kent-state-university-at-east-liverpool",
+        "name": "Kent State University at East Liverpool",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.33,
+          "enrollment": 1196,
+          "avg_net_price": 10569
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 203526,
+        "slug": "kent-state-university-at-geauga",
+        "name": "Kent State University at Geauga",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.01,
+          "retention_rate": 0.49,
+          "enrollment": 2204,
+          "avg_net_price": 10964
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 203465,
+        "slug": "kent-state-university-at-stark",
+        "name": "Kent State University at Stark",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.01,
+          "retention_rate": 0.54,
+          "enrollment": 3569,
+          "avg_net_price": 11310
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 203881,
+        "slug": "marion-technical-college",
+        "name": "Marion Technical College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3346,
+          "avg_net_price": 6027
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 127617,
+        "slug": "morgan-community-college",
+        "name": "Morgan Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1626,
+          "avg_net_price": 7161
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 204422,
+        "slug": "north-central-state-college",
+        "name": "North Central State College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 2553,
+          "avg_net_price": 4304
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 136145,
+        "slug": "north-florida-college",
+        "name": "North Florida College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1268,
+          "avg_net_price": 1799
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 240657,
+        "slug": "northwest-college",
+        "name": "Northwest College",
+        "state": "Wyoming",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1486,
+          "avg_net_price": 7394
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 204820,
+        "slug": "ohio-university-chillicothe-campus",
+        "name": "Ohio University-Chillicothe Campus",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.12,
+          "retention_rate": 0.67,
+          "enrollment": 2170,
+          "avg_net_price": 6483
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 204839,
+        "slug": "ohio-university-southern-campus",
+        "name": "Ohio University-Southern Campus",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.16,
+          "retention_rate": 0.54,
+          "enrollment": 1716,
+          "avg_net_price": 5328
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 204866,
+        "slug": "ohio-university-zanesville-campus",
+        "name": "Ohio University-Zanesville Campus",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.6,
+          "enrollment": 2009,
+          "avg_net_price": 5971
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 236258,
+        "slug": "peninsula-college",
+        "name": "Peninsula College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2153,
+          "avg_net_price": 4529
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 167525,
+        "slug": "quincy-college",
+        "name": "Quincy College",
+        "state": "Massachusetts",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3022,
+          "avg_net_price": 14317
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 133960,
+        "slug": "the-college-of-the-florida-keys",
+        "name": "The College of the Florida Keys",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1025,
+          "avg_net_price": 13818
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 128258,
+        "slug": "trinidad-state-college",
+        "name": "Trinidad State College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 1613,
+          "avg_net_price": 11197
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 141839,
+        "slug": "university-of-hawaii-maui-college",
+        "name": "University of Hawaii Maui College",
+        "state": "Hawaii",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.08,
+          "enrollment": 2792,
+          "avg_net_price": 9421
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 240693,
+        "slug": "western-wyoming-community-college",
+        "name": "Western Wyoming Community College",
+        "state": "Wyoming",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 2653,
+          "avg_net_price": 8420
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 204255,
+        "slug": "zane-state-college",
+        "name": "Zane State College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1769,
+          "avg_net_price": 7423
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114433",
+      "stored": false,
+      "fetched_at": "2026-05-28T01:23:22.810538+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

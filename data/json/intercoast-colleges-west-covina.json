@@ -1,0 +1,341 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:27.244407+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 443571,
+    "slug": "intercoast-colleges-west-covina",
+    "name": "InterCoast Colleges-West Covina",
+    "website_url": "https://www.intercoast.edu",
+    "city": "West Covina",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91791",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LY8CNLR3Y6F5",
+      "opeid": "02559400",
+      "ein": "954501439"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "InterCoast Colleges-West Covina is a private educational institution located in West Covina, California. It specializes in providing occupational degrees and certificate programs, with a notable focus on areas such as addiction studies, substance use disorder counseling, business administration, and various trade programs. The founding year is not explicitly mentioned on the About page.",
+    "source_url": "https://www.intercoast.edu/about",
+    "fetched_at": "2026-06-03T16:40:52.7035+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 23693,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5822,
+    "net_price_by_family_income": {
+      "0_30k": 22368,
+      "30_48k": 24123,
+      "48_75k": 24657,
+      "75_110k": 31468,
+      "110k_plus": 31201
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8133,
+    "grad_rate_total": 0.97,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 0.71,
+    "retention_full_time": 0.86
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 622,
+    "ug_12mo": 622,
+    "grad_12mo": 0,
+    "women_12mo": 275,
+    "men_12mo": 347,
+    "fall_total": 535,
+    "distance_ed_any": 535,
+    "distance_ed_exclusive": 389,
+    "race_ethnicity": {
+      "white": 0.3235,
+      "black": 0.1302,
+      "hispanic": 0.428,
+      "asian": 0.0355,
+      "ai_an": 0.0178,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0533,
+      "non_resident": 0.0,
+      "race_unknown": 0.0118
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 4
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 3
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 496636,
+        "slug": "antigua-college-international",
+        "name": "Antigua College International",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.33,
+          "enrollment": 251,
+          "avg_net_price": 25650
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 444325,
+        "slug": "ati-college-whittier",
+        "name": "ATI College-Whittier",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.25,
+          "enrollment": 149,
+          "avg_net_price": 26689
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 496681,
+        "slug": "florida-academy-of-nursing",
+        "name": "Florida Academy of Nursing",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.054945054945054944,
+          "yield_rate": 1.0,
+          "enrollment": 21,
+          "avg_net_price": 15028
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 498119,
+        "slug": "galen-health-institutes-asheville",
+        "name": "Galen Health Institutes-Asheville",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.0,
+          "enrollment": 253,
+          "avg_net_price": 77180
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 497116,
+        "slug": "galen-health-institutes-austin-campus",
+        "name": "Galen Health Institutes-Austin Campus",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 1161,
+          "avg_net_price": 26825
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 499273,
+        "slug": "galen-health-institutes-dallas",
+        "name": "Galen Health Institutes-Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1153
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 498085,
+        "slug": "galen-health-institutes-gainesville",
+        "name": "Galen Health Institutes-Gainesville",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 668,
+          "avg_net_price": 48507
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 498474,
+        "slug": "galen-health-institutes-houston",
+        "name": "Galen Health Institutes-Houston",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1582
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 499671,
+        "slug": "galen-health-institutes-las-vegas",
+        "name": "Galen Health Institutes-Las Vegas",
+        "state": "Nevada",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 293
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 496991,
+        "slug": "galen-health-institutes-miami-campus",
+        "name": "Galen Health Institutes-Miami Campus",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 813,
+          "avg_net_price": 29154
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 497125,
+        "slug": "galen-health-institutes-nashville-campus",
+        "name": "Galen Health Institutes-Nashville Campus",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1027,
+          "avg_net_price": 27306
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 498076,
+        "slug": "galen-health-institutes-sarasota",
+        "name": "Galen Health Institutes-Sarasota",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 574,
+          "avg_net_price": 49673
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 499495,
+        "slug": "gwinnett-institute",
+        "name": "Gwinnett Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 340,
+          "avg_net_price": 31423
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 483373,
+        "slug": "integrity-college-of-health",
+        "name": "Integrity College of Health",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 225,
+          "avg_net_price": 18132
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 496283,
+        "slug": "provo-college-idaho-falls-campus",
+        "name": "Provo College-Idaho Falls Campus",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 289,
+          "avg_net_price": 31248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=443571",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:11:40.893109+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

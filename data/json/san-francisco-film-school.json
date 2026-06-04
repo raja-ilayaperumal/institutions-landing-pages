@@ -1,0 +1,347 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:40.276555+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 486372,
+    "slug": "san-francisco-film-school",
+    "name": "San Francisco Film School",
+    "website_url": "https://www.sanfranciscofilmschool.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94104-2835",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Arts & Design",
+    "carnegie_slug": "special-focus-2yr-arts",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "D5GTQKE49H48",
+      "opeid": "04234000",
+      "ein": "611581450"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Francisco Film School, also formerly known as the San Francisco School of Digital Filmmaking and FilmSchoolSF, is a private, for-profit vocational film school in San Francisco, California. The school was founded by Stephen Kopels and Jeremiah Birnbaum in 2005 and works in conjunction with Fog City Productions, a local independent production company, to teach students the art and craft of filmmaking. The programs include an Associate of Applied Sciences in Digital Filmmaking, a Professional Certificate program, workshops, and a GAP Year Semester Program.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_School_of_Digital_Filmmaking",
+    "source_url": "https://en.wikipedia.org/wiki/San_Francisco_School_of_Digital_Filmmaking",
+    "fetched_at": "2026-06-03T16:35:29.836248+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 31029,
+    "pell_grant_rate": 0.156,
+    "federal_loan_rate": 0.2151,
+    "net_price_by_family_income": {
+      "0_30k": 30437,
+      "30_48k": 30437,
+      "48_75k": 31916
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.32,
+    "grad_rate_total": 0.67,
+    "pell_grad_rate": 1.0,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.25,
+    "retention_part_time": 0.38
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 266,
+    "ug_12mo": 266,
+    "grad_12mo": 0,
+    "women_12mo": 39,
+    "men_12mo": 227,
+    "fall_total": 127,
+    "distance_ed_any": 127,
+    "race_ethnicity": {
+      "white": 0.1418,
+      "black": 0.0993,
+      "hispanic": 0.0496,
+      "asian": 0.0213,
+      "ai_an": 0.0071,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0142,
+      "non_resident": 0.0,
+      "race_unknown": 0.6667
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 14
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 13
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 444556,
+        "slug": "auguste-escoffier-school-of-culinary-arts-austin",
+        "name": "Auguste Escoffier School of Culinary Arts-Austin",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 305,
+          "avg_net_price": 20738
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 454810,
+        "slug": "auguste-escoffier-school-of-culinary-arts-boulder",
+        "name": "Auguste Escoffier School of Culinary Arts-Boulder",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.49,
+          "enrollment": 8504,
+          "avg_net_price": 12193
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 444565,
+        "slug": "culinary-institute-inc",
+        "name": "Culinary Institute Inc",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.33,
+          "enrollment": 316,
+          "avg_net_price": 26470
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 366270,
+        "slug": "delta-college-of-arts-and-technology",
+        "name": "Delta College of Arts & Technology",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 326,
+          "avg_net_price": 19590
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 212045,
+        "slug": "douglas-education-center",
+        "name": "Douglas Education Center",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 178,
+          "avg_net_price": 26922
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 436599,
+        "slug": "fine-mortuary-college",
+        "name": "FINE Mortuary College",
+        "state": "Massachusetts",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7647058823529411,
+          "yield_rate": 0.9230769230769231,
+          "retention_rate": 0.8,
+          "enrollment": 185
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 419341,
+        "slug": "jna-institute-of-culinary-arts",
+        "name": "Jna Institute of Culinary Arts",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 15,
+          "avg_net_price": 16679
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 225991,
+        "slug": "kd-conservatory-college-of-film-and-dramatic-arts",
+        "name": "KD Conservatory College of Film and Dramatic Arts",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6818181818181818,
+          "yield_rate": 0.5666666666666667,
+          "retention_rate": 0.69,
+          "enrollment": 70,
+          "avg_net_price": 24148
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 449612,
+        "slug": "louisiana-culinary-institute",
+        "name": "Louisiana Culinary Institute",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.375,
+          "yield_rate": 1.0,
+          "retention_rate": 0.95,
+          "enrollment": 77,
+          "avg_net_price": 29765
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 455336,
+        "slug": "mediatech-institute-dallas",
+        "name": "MediaTech Institute-Dallas",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 217,
+          "avg_net_price": 18860
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 456153,
+        "slug": "mediatech-institute-houston",
+        "name": "MediaTech Institute-Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 62,
+          "avg_net_price": 16906
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 480851,
+        "slug": "miami-media-school",
+        "name": "Miami Media School",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7222222222222222,
+          "retention_rate": 0.64,
+          "enrollment": 28,
+          "avg_net_price": 30528
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 421841,
+        "slug": "new-york-conservatory-for-dramatic-arts",
+        "name": "New York Conservatory for Dramatic Arts",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42782608695652175,
+          "yield_rate": 0.4349593495934959,
+          "retention_rate": 0.83,
+          "enrollment": 251,
+          "avg_net_price": 39413
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 486123,
+        "slug": "theatre-of-arts",
+        "name": "Theatre of Arts",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5714285714285714,
+          "retention_rate": 0.43,
+          "enrollment": 10
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 369455,
+        "slug": "worsham-college-of-mortuary-science",
+        "name": "Worsham College of Mortuary Science",
+        "state": "Illinois",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.92,
+          "yield_rate": 0.6956521739130435,
+          "retention_rate": 0.88,
+          "enrollment": 183,
+          "avg_net_price": 23925
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=486372",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:48:24.442973+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

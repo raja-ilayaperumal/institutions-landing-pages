@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:48.972839+00:00",
+  "generated_at": "2026-06-04T04:58:41.376247+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -48,23 +48,40 @@
     "enrolled": 1693,
     "first_time_freshmen": 1693,
     "first_time_freshmen_ft": 1693,
+    "admission_rate": 0.0391,
     "admit_rate": 0.03605693751526358,
-    "yield_rate": 0.8190614417029511
+    "yield_rate": 0.8190614417029511,
+    "sat_average": 1553,
+    "sat_math_25_75": [
+      770,
+      800
+    ],
+    "sat_reading_25_75": [
+      740,
+      780
+    ],
+    "act_composite_25_75": [
+      34,
+      35
+    ]
   },
   "cost": {
+    "in_state_tuition": 62484,
+    "out_of_state_tuition": 62484,
     "avg_net_price": 12136,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0,
     "federal_loan_rate": 0.0629,
     "net_price_by_family_income": {
-      "0_30k": -79,
-      "30_48k": -350,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 1323,
       "75_110k": 8816,
       "110k_plus": 50452
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.9282,
     "grad_rate_total": 0.92,
     "grad_4yr_bachelors": 0.51,
     "grad_5yr_bachelors": 0.83,
@@ -78,12 +95,10 @@
   "enrollment": {
     "enrollment_12mo_total": 21132,
     "ug_12mo": 9372,
-    "grad_12mo": 8007,
+    "grad_12mo": 11760,
     "women_12mo": 9918,
     "men_12mo": 11214,
     "fall_total": 18625,
-    "fall_full_time": 7904,
-    "fall_part_time": 7554,
     "distance_ed_any": 18625,
     "distance_ed_exclusive": 350,
     "race_ethnicity": {
@@ -338,12 +353,16 @@
     ]
   },
   "research_funding": {
-    "nsf_total_usd": null,
-    "nih_total_usd": null,
-    "herd_total_usd": null,
-    "usaspending_total_usd": null,
-    "all_sources_total_usd": null,
-    "years_covered": null
+    "nsf_total_usd": 4679197,
+    "nih_total_usd": 20235967,
+    "usaspending_total_usd": 748663856,
+    "all_sources_total_usd": 773579020,
+    "recent_3y_total_usd": 20235967,
+    "award_count_nih": 20,
+    "award_count_nsf": 11,
+    "award_count_usaspending": 20,
+    "award_count_total": 51,
+    "latest_award_end": "2031-08-31"
   },
   "ir_office": {
     "url": "https://irds.stanford.edu/",

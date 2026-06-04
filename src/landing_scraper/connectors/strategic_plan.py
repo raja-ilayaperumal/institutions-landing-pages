@@ -4,7 +4,9 @@ from __future__ import annotations
 import re
 
 from ..core import crawler, html as html_utils, llm, pdf, search
-from .base import BaseConnector, ConnectorResult, InstitutionContext
+from .base import (
+    BaseConnector, ConnectorResult, InstitutionContext, same_registrable_domain,
+)
 
 YEAR_RE = re.compile(r"(20\d{2})")
 
@@ -41,9 +43,19 @@ class StrategicPlanConnector(BaseConnector):
                     l for l in html_utils.find_pdf_links(f.html, lp)
                     if "strategic" in l.lower() or "plan" in l.lower()
                 )
-        pdf_candidates = list(dict.fromkeys(pdf_candidates))[:3]
+        # Keep only on-domain PDFs — `site:` is a soft hint, so a comparison
+        # page can surface another school's strategic plan or a consultant PDF.
+        pdf_candidates = [u for u in dict.fromkeys(pdf_candidates)
+                          if same_registrable_domain(u, ctx)][:3]
 
-        chosen_url = pdf_candidates[0] if pdf_candidates else results[0].url
+        # Same gate on the bare-search fallback: never summarize an off-domain
+        # page as this institution's strategic plan.
+        on_domain_results = [r.url for r in results
+                             if same_registrable_domain(r.url, ctx)]
+        chosen_url = (pdf_candidates[0] if pdf_candidates
+                      else (on_domain_results[0] if on_domain_results else None))
+        if not chosen_url:
+            return self._err("NOT_FOUND", "no on-domain strategic plan found")
         m = YEAR_RE.search(chosen_url)
         year = int(m.group(1)) if m else None
 

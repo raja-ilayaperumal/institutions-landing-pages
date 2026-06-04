@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:22.350827+00:00",
+  "generated_at": "2026-06-04T04:57:55.209684+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Sacramento_City_College",
     "fetched_at": "2026-05-25T19:21:24.865568+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1288,
+    "out_of_state_tuition": 12808,
     "avg_net_price": 3974,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7433,
     "federal_loan_rate": 0.041,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7044,
       "75_110k": 8939,
       "110k_plus": 10033
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3162,
     "grad_rate_total": 0.33,
     "pell_grad_rate": 0.28,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 30100,
     "ug_12mo": 30100,
-    "grad_12mo": 26615,
+    "grad_12mo": 0,
     "women_12mo": 17881,
     "men_12mo": 12219,
     "fall_total": 19920,
-    "fall_full_time": 19920,
-    "fall_part_time": 17657,
     "distance_ed_any": 19920,
     "distance_ed_exclusive": 10926,
     "race_ethnicity": {
@@ -611,24 +612,7 @@
       "fetched_at": "2026-05-25T19:17:45.270168+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director (VII) of Native American Student Support and Success Program (NASSSP)",
-      "apply_url": "https://www.higheredjobs.com/twoyear/details.cfm?JobCode=179406515&Title=Director%20(VII)%20of%20Native%20American%20Student%20Support%20and%20Success%20Program%20(NASSSP)"
-    },
-    {
-      "title": "Human Resources Generalist - 80910",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179382624"
-    },
-    {
-      "title": "Sr. Post-Award Grant Manager",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446806&Title=Project%20Coordinator"
-    },
-    {
-      "title": "Assistant Professor of Research",
-      "apply_url": "https://www.higheredjobs.com/search/details.cfm?JobCode=179442984&Title=Assistant%2FAssociate%2FFull%20Professor"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Cal Grant A",

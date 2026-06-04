@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:10.150418+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 417105,
+    "slug": "baldwin-park-adult-and-community-education",
+    "name": "Baldwin Park Adult & Community Education",
+    "website_url": "https://bpace.bpusd.net",
+    "city": "Baldwin Park",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91706-4221",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MPU8BMCZ5BN8",
+      "opeid": "03067400",
+      "ein": "956000213"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Baldwin Park Adult & Community Education is an educational institution located in Baldwin Park, California, offering a range of adult education programs, including Adult Basic Education, English as a Second Language, and various Career Technical Education pathways. The institution serves over 25 courses across 6 campuses and has a focus on preparing students for academic and career success. It has been providing adult and community education for over 60 years.",
+    "source_url": "https://bpace.bpusd.net/",
+    "fetched_at": "2026-06-03T16:33:55.536665+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 7450,
+    "pell_grant_rate": 0.3218,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 7160,
+      "30_48k": 7346,
+      "48_75k": 9987
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5474,
+    "grad_rate_total": 0.71,
+    "pell_grad_rate": 0.91,
+    "retention_full_time": 0.8,
+    "retention_part_time": 0.97
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 556,
+    "ug_12mo": 556,
+    "grad_12mo": 0,
+    "women_12mo": 141,
+    "men_12mo": 415,
+    "fall_total": 426,
+    "distance_ed_any": 426,
+    "race_ethnicity": {
+      "white": 0.0368,
+      "black": 0.0092,
+      "hispanic": 0.846,
+      "asian": 0.0897,
+      "ai_an": 0.0046,
+      "nh_pi": 0.0023,
+      "two_or_more": 0.0092,
+      "non_resident": 0.0,
+      "race_unknown": 0.0023
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 10,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 183983,
+        "slug": "adult-and-continuing-education-bcts",
+        "name": "Adult and Continuing Education-BCTS",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.42,
+          "enrollment": 117,
+          "avg_net_price": 14358
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 102711,
+        "slug": "alaska-vocational-technical-center",
+        "name": "Alaska Vocational Technical Center",
+        "state": "Alaska",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 269,
+          "avg_net_price": 12071
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 201098,
+        "slug": "ashland-county-west-holmes-career-center",
+        "name": "Ashland County-West Holmes Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 41,
+          "avg_net_price": 15188
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 237172,
+        "slug": "ben-franklin-career-center",
+        "name": "Ben Franklin Career Center",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 78,
+          "avg_net_price": 2161
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 481021,
+        "slug": "berks-career-and-technology-center",
+        "name": "Berks Career & Technology Center",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 47,
+          "avg_net_price": 17879
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 137856,
+        "slug": "big-bend-technical-college",
+        "name": "Big Bend Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 201,
+          "avg_net_price": 12558
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 498386,
+        "slug": "boone-career-and-technical-center",
+        "name": "Boone Career and Technical Center",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.1,
+          "enrollment": 59
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 496645,
+        "slug": "burlington-county-institute-of-technology-adult-education",
+        "name": "Burlington County Institute of Technology-Adult Education",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 241
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 237242,
+        "slug": "cabell-county-career-technology-center",
+        "name": "Cabell County Career Technology Center",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.31,
+          "enrollment": 51,
+          "avg_net_price": 869
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 375656,
+        "slug": "chisholm-trail-technology-center",
+        "name": "Chisholm Trail Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 192
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 461245,
+        "slug": "flagler-technical-college",
+        "name": "Flagler Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 135
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 237473,
+        "slug": "james-rumsey-technical-institute",
+        "name": "James Rumsey Technical Institute",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 99,
+          "avg_net_price": 12242
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 407489,
+        "slug": "mahoning-county-career-and-technical-center",
+        "name": "Mahoning County Career and Technical Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 80,
+          "avg_net_price": 23248
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 203942,
+        "slug": "medina-county-career-center",
+        "name": "Medina County Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 43,
+          "avg_net_price": 14961
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 389860,
+        "slug": "mid-eastctc-adult-education",
+        "name": "Mid-EastCTC-Adult Education",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 356
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 418199,
+        "slug": "penta-county-joint-vocational-school",
+        "name": "Penta County Joint Vocational School",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 9940
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 407522,
+        "slug": "pioneer-career-and-technology-center",
+        "name": "Pioneer Career and Technology Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 63
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 206905,
+        "slug": "pontotoc-technology-center",
+        "name": "Pontotoc Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 369,
+          "avg_net_price": 3131
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 136659,
+        "slug": "radford-m-locklin-technical-college",
+        "name": "Radford M Locklin Technical College",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 432,
+          "avg_net_price": 5888
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 250993,
+        "slug": "red-river-technology-center",
+        "name": "Red River Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 518,
+          "avg_net_price": 11969
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 368364,
+        "slug": "southwest-technology-center",
+        "name": "Southwest Technology Center",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 332,
+          "avg_net_price": 13179
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 220756,
+        "slug": "tennessee-college-of-applied-technology-mckenzie",
+        "name": "Tennessee College of Applied Technology-McKenzie",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 155,
+          "avg_net_price": 2256
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 221582,
+        "slug": "tennessee-college-of-applied-technology-oneida-huntsville",
+        "name": "Tennessee College of Applied Technology-Oneida-Huntsville",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 559,
+          "avg_net_price": 11087
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 417831,
+        "slug": "union-county-vocational-technical-school",
+        "name": "Union County Vocational Technical School",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 88,
+          "avg_net_price": 8325
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 407832,
+        "slug": "warren-county-career-center",
+        "name": "Warren County Career Center",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 298,
+          "avg_net_price": 21082
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 418250,
+        "slug": "washington-county-career-center-adult-technical-training",
+        "name": "Washington County Career Center-Adult Technical Training",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 193
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 495013,
+        "slug": "western-maricopa-education-center",
+        "name": "Western Maricopa Education Center",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 247
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=417105",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:42:39.215082+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

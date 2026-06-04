@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:12.126567+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111045,
+    "slug": "haven-university",
+    "name": "Haven University",
+    "website_url": "https://www.haven.edu",
+    "city": "Garden Grove",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92840-1340",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "ZFBDU5STAUJ3",
+      "opeid": "04274800",
+      "ein": "953384325"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Haven University is a private, nonprofit graduate school located in Garden Grove, California, founded in 1969. The institution is focused on theological and business education, with an emphasis on preparing students for ministry and leadership in the church and society. It has an alumni network of over 6,000 graduates from various denominations.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Haven_University",
+    "source_url": "https://en.wikipedia.org/wiki/Haven_University",
+    "wikidata_qid": "Q5020518",
+    "fetched_at": "2026-06-03T16:16:24.051258+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 7010,
+    "out_of_state_tuition": 7010,
+    "is_private_for_net_price": true
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 119,
+    "ug_12mo": 34,
+    "grad_12mo": 85,
+    "women_12mo": 74,
+    "men_12mo": 45,
+    "fall_total": 123,
+    "distance_ed_any": 123,
+    "distance_ed_exclusive": 1,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.1364,
+      "hispanic": 0.0455,
+      "asian": 0.1364,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.6818,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 1
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 14
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 117283,
+        "slug": "latin-american-bible-institute",
+        "name": "Latin American Bible Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7975,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.9166666666666666,
+          "enrollment": 112,
+          "avg_net_price": 9140
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 125718,
+        "slug": "westminster-theological-seminary-in-california",
+        "name": "Westminster Theological Seminary in California",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7748,
+        "metrics": {
+          "enrollment": 108
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 114734,
+        "slug": "franciscan-school-of-theology",
+        "name": "Franciscan School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7471,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120795,
+        "slug": "pacific-school-of-religion",
+        "name": "Pacific School of Religion",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7333,
+        "metrics": {
+          "enrollment": 124
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 123916,
+        "slug": "starr-king-school-for-the-ministry",
+        "name": "Starr King School for the Ministry",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7118,
+        "metrics": {
+          "enrollment": 77
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

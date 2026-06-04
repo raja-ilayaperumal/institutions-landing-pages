@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:56.932445+00:00",
+  "generated_at": "2026-06-04T04:58:04.833760+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 4604,
     "first_time_freshmen": 4604,
     "first_time_freshmen_ft": 4414,
+    "admission_rate": 0.8023,
     "admit_rate": 0.8461434880965205,
     "yield_rate": 0.14653553582227313
   },
   "cost": {
+    "in_state_tuition": 7992,
+    "out_of_state_tuition": 19872,
     "avg_net_price": 13741,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.1875,
     "federal_loan_rate": 0.2075,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 12948,
       "75_110k": 17047,
       "110k_plus": 23401
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6465,
     "grad_rate_total": 0.69,
     "grad_4yr_bachelors": 0.37,
     "grad_5yr_bachelors": 0.63,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 40205,
     "ug_12mo": 29579,
-    "grad_12mo": 29071,
+    "grad_12mo": 10626,
     "women_12mo": 20856,
     "men_12mo": 19349,
     "fall_total": 37661,
-    "fall_full_time": 28008,
-    "fall_part_time": 27601,
     "distance_ed_any": 37661,
     "distance_ed_exclusive": 6027,
     "race_ethnicity": {
@@ -864,16 +866,7 @@
       "fetched_at": "2026-05-25T14:20:46.31962+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Associate Provost for Operational Success - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179342085"
-    },
-    {
-      "title": "Director of Institutional Research, Analytics, and Research Systems",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179419861"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

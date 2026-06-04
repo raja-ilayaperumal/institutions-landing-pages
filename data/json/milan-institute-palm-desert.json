@@ -1,0 +1,525 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:25.447924+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 442657,
+    "slug": "milan-institute-palm-desert",
+    "name": "Milan Institute-Palm Desert",
+    "website_url": "https://www.milaninstitute.edu",
+    "city": "Palm Desert",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92211",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJVJK6AJLC89",
+      "opeid": "03098700",
+      "ein": "751640547"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Milan Institute-Palm Desert is a private career training institution located in Palm Desert, California. It offers a variety of programs focused on healthcare and cosmetology, including Administrative Medical Assistant and Advanced Cosmetology. The institute has multiple campuses across California, Nevada, New Mexico, and Texas.",
+    "source_url": "https://www.milaninstitute.edu/about",
+    "fetched_at": "2026-06-03T16:40:01.068968+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 27930,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5877,
+    "net_price_by_family_income": {
+      "0_30k": 27398,
+      "30_48k": 28137,
+      "48_75k": 28218,
+      "75_110k": 31784,
+      "110k_plus": 31784
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6905,
+    "grad_rate_total": 0.48,
+    "pell_grad_rate": 0.44,
+    "non_pell_grad_rate": 0.38,
+    "retention_full_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 503,
+    "ug_12mo": 503,
+    "grad_12mo": 0,
+    "women_12mo": 467,
+    "men_12mo": 36,
+    "fall_total": 356,
+    "distance_ed_any": 356,
+    "race_ethnicity": {
+      "white": 0.0966,
+      "black": 0.0345,
+      "hispanic": 0.7966,
+      "asian": 0.0069,
+      "ai_an": 0.0172,
+      "nh_pi": 0.0103,
+      "two_or_more": 0.0276,
+      "non_resident": 0.0034,
+      "race_unknown": 0.0069
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 8,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 451334,
+        "slug": "academy-of-hair-design-springfield",
+        "name": "Academy of Hair Design-Springfield",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 275,
+          "avg_net_price": 17080
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 108977,
+        "slug": "american-beauty-college",
+        "name": "American Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 334,
+          "avg_net_price": 24076
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 497897,
+        "slug": "aveda-arts-and-sciences-institute-lafayette-arlington",
+        "name": "Aveda Arts & Sciences Institute Lafayette-Arlington",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 166,
+          "avg_net_price": 23448
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 475015,
+        "slug": "aveda-institute-des-moines",
+        "name": "Aveda Institute-Des Moines",
+        "state": "Iowa",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 244,
+          "avg_net_price": 15155
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 484899,
+        "slug": "aveda-institute-phoenix",
+        "name": "Aveda Institute-Phoenix",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 218,
+          "avg_net_price": 22297
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 476753,
+        "slug": "aveda-institute-tucson",
+        "name": "Aveda Institute-Tucson",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.8,
+          "enrollment": 240,
+          "avg_net_price": 21037
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 439491,
+        "slug": "blue-cliff-college-lafayette",
+        "name": "Blue Cliff College-Lafayette",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 62,
+          "avg_net_price": 19164
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 461704,
+        "slug": "capilo-school-of-hair-design",
+        "name": "Capilo School of Hair Design",
+        "state": "Maine",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 156,
+          "avg_net_price": 18762
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 365693,
+        "slug": "capitol-beauty-school",
+        "name": "Capitol Beauty School",
+        "state": "Nebraska",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 161,
+          "avg_net_price": 14441
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 375984,
+        "slug": "empire-beauty-school-center-city-philadelphia",
+        "name": "Empire Beauty School-Center City Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 279,
+          "avg_net_price": 18228
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 462035,
+        "slug": "florida-academy",
+        "name": "Florida Academy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 350,
+          "avg_net_price": 13236
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 485379,
+        "slug": "hollywood-institute-of-beauty-careers-west-palm-beach",
+        "name": "Hollywood Institute of Beauty Careers-West Palm Beach",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 239,
+          "avg_net_price": 19109
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 437778,
+        "slug": "milan-institute-san-antonio-ingram",
+        "name": "Milan Institute-San Antonio Ingram",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 379,
+          "avg_net_price": 27662
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 439747,
+        "slug": "my-le-s-beauty-college",
+        "name": "My Le's Beauty College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 150
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 119951,
+        "slug": "north-adrian-s-college-of-beauty-inc",
+        "name": "North Adrian's College of Beauty Inc",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 207,
+          "avg_net_price": 20347
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 460978,
+        "slug": "ogle-school-hair-skin-nails-north-dallas",
+        "name": "Ogle School Hair Skin Nails-North Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 312,
+          "avg_net_price": 21125
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 458274,
+        "slug": "paul-mitchell-the-school-chicago",
+        "name": "Paul Mitchell the School-Chicago",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 160,
+          "avg_net_price": 16064
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 224156,
+        "slug": "paul-mitchell-the-school-dallas",
+        "name": "Paul Mitchell the School-Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 328,
+          "avg_net_price": 28455
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 482176,
+        "slug": "paul-mitchell-the-school-denver",
+        "name": "Paul Mitchell the School-Denver",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 213,
+          "avg_net_price": 11886
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 156842,
+        "slug": "paul-mitchell-the-school-louisville",
+        "name": "Paul Mitchell the School-Louisville",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 233,
+          "avg_net_price": 26643
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 456029,
+        "slug": "paul-mitchell-the-school-memphis",
+        "name": "Paul Mitchell the School-Memphis",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 216,
+          "avg_net_price": 20861
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 220491,
+        "slug": "paul-mitchell-the-school-murfreesboro",
+        "name": "Paul Mitchell the School-Murfreesboro",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 201,
+          "avg_net_price": 20915
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 468893,
+        "slug": "paul-mitchell-the-school-new-orleans",
+        "name": "Paul Mitchell the School-New Orleans",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 185,
+          "avg_net_price": 20495
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 461421,
+        "slug": "paul-mitchell-the-school-st-louis",
+        "name": "Paul Mitchell the School-St Louis",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 214,
+          "avg_net_price": 19615
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 408066,
+        "slug": "paul-mitchell-the-school-wichita",
+        "name": "Paul Mitchell the School-Wichita",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 163,
+          "avg_net_price": 18938
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 441876,
+        "slug": "rudy-and-kelly-academy-a-paul-mitchell-partner-school",
+        "name": "Rudy & Kelly Academy, A Paul Mitchell Partner School",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 155,
+          "avg_net_price": 19150
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 121868,
+        "slug": "salon-success-academy-corona",
+        "name": "Salon Success Academy-Corona",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 196,
+          "avg_net_price": 12983
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 457420,
+        "slug": "summit-salon-academy",
+        "name": "Summit Salon Academy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 183,
+          "avg_net_price": 19220
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 454971,
+        "slug": "tricoci-university-of-beauty-culture-chicago-nw",
+        "name": "Tricoci University of Beauty Culture-Chicago NW",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 216,
+          "avg_net_price": 19244
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=442657",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:40:41.707544+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

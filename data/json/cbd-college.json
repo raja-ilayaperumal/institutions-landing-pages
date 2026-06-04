@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:20.108706+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 439367,
+    "slug": "cbd-college",
+    "name": "CBD College",
+    "website_url": "https://www.cbd.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90010",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "03250300",
+      "ein": "954579025"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "CBD College is a private postsecondary institution located in Los Angeles, California. The college offers a range of health-related programs including Diagnostic Medical Sonography, Occupational Therapy Assistant, and Surgical Technology. It provides both in-person and online educational opportunities for students.",
+    "source_url": "https://www.cbd.edu/about",
+    "fetched_at": "2026-06-03T16:38:05.610537+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 21100,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7349,
+    "net_price_by_family_income": {
+      "0_30k": 21594,
+      "30_48k": 19864
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.686,
+    "grad_rate_total": 0.82,
+    "pell_grad_rate": 0.81,
+    "non_pell_grad_rate": 0.82
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1966,
+    "ug_12mo": 1966,
+    "grad_12mo": 0,
+    "women_12mo": 1426,
+    "men_12mo": 540,
+    "fall_total": 1581,
+    "distance_ed_any": 1581,
+    "distance_ed_exclusive": 532,
+    "race_ethnicity": {
+      "white": 0.1555,
+      "black": 0.0888,
+      "hispanic": 0.424,
+      "asian": 0.1662,
+      "ai_an": 0.0036,
+      "nh_pi": 0.0085,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.1534
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 431
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 34
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 490203,
+        "slug": "bolivar-technical-college",
+        "name": "Bolivar Technical College",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9545454545454546,
+          "yield_rate": 1.0,
+          "enrollment": 144
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 198109,
+        "slug": "cabarrus-college-of-health-sciences",
+        "name": "Cabarrus College of Health Sciences",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.23376623376623376,
+          "yield_rate": 0.4444444444444444,
+          "retention_rate": 1.0,
+          "enrollment": 924,
+          "avg_net_price": 17271
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 433174,
+        "slug": "carolinas-college-of-health-sciences",
+        "name": "Carolinas College of Health Sciences",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5990338164251208,
+          "yield_rate": 0.5806451612903226,
+          "enrollment": 632
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 111638,
+        "slug": "casa-loma-college-los-angeles",
+        "name": "Casa Loma College-Los Angeles",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.425531914893617,
+          "yield_rate": 1.0,
+          "enrollment": 759,
+          "avg_net_price": 27721
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 232618,
+        "slug": "centra-college",
+        "name": "Centra College",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.0,
+          "grad_rate": 1.0,
+          "enrollment": 219,
+          "avg_net_price": 24868
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 202912,
+        "slug": "good-samaritan-college-of-nursing-and-health-science",
+        "name": "Good Samaritan College of Nursing and Health Science",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45739910313901344,
+          "yield_rate": 0.7549019607843137,
+          "enrollment": 690,
+          "avg_net_price": 22626
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 191597,
+        "slug": "helene-fuld-college-of-nursing",
+        "name": "Helene Fuld College of Nursing",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1694915254237288,
+          "yield_rate": 0.85,
+          "retention_rate": 0.67,
+          "enrollment": 914,
+          "avg_net_price": 37732
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 101365,
+        "slug": "herzing-university-birmingham",
+        "name": "Herzing University-Birmingham",
+        "state": "Alabama",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9325842696629213,
+          "yield_rate": 0.6987951807228916,
+          "grad_rate": 0.25,
+          "retention_rate": 0.67,
+          "enrollment": 444,
+          "avg_net_price": 20957
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 459851,
+        "slug": "herzing-university-brookfield",
+        "name": "Herzing University-Brookfield",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9305555555555556,
+          "yield_rate": 0.6865671641791045,
+          "grad_rate": 0.57,
+          "retention_rate": 0.4,
+          "enrollment": 385,
+          "avg_net_price": 18796
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 386472,
+        "slug": "herzing-university-orlando",
+        "name": "Herzing University-Orlando",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9420289855072463,
+          "yield_rate": 0.6923076923076923,
+          "grad_rate": 0.4,
+          "retention_rate": 0.4,
+          "enrollment": 717,
+          "avg_net_price": 19758
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 457086,
+        "slug": "homestead-schools",
+        "name": "Homestead Schools",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 158,
+          "avg_net_price": 15845
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 165264,
+        "slug": "laboure-college-of-healthcare",
+        "name": "Laboure College of Healthcare",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5,
+          "yield_rate": 1.0,
+          "enrollment": 530
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 161022,
+        "slug": "maine-college-of-health-professions",
+        "name": "Maine College of Health Professions",
+        "state": "Maine",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7142857142857143,
+          "yield_rate": 1.0,
+          "enrollment": 239,
+          "avg_net_price": 20438
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 192785,
+        "slug": "maria-college-of-albany",
+        "name": "Maria College of Albany",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4447852760736196,
+          "yield_rate": 0.2827586206896552,
+          "grad_rate": 0.29,
+          "retention_rate": 0.33,
+          "enrollment": 722,
+          "avg_net_price": 16055
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 203960,
+        "slug": "mercy-college-of-ohio",
+        "name": "Mercy College of Ohio",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9322033898305084,
+          "yield_rate": 0.4636363636363636,
+          "grad_rate": 0.56,
+          "retention_rate": 0.87,
+          "enrollment": 1096,
+          "avg_net_price": 15709
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 214582,
+        "slug": "pennsylvania-institute-of-technology",
+        "name": "Pennsylvania Institute of Technology",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.5,
+          "enrollment": 810,
+          "avg_net_price": 16685
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 233408,
+        "slug": "riverside-college-of-health-careers",
+        "name": "Riverside College of Health Careers",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12903225806451613,
+          "yield_rate": 1.0,
+          "enrollment": 350,
+          "avg_net_price": 25596
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 417734,
+        "slug": "southeast-missouri-hospital-college-of-nursing-and-health-sciences",
+        "name": "Southeast Missouri Hospital College of Nursing and Health Sciences",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "enrollment": 202,
+          "avg_net_price": 25189
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 154262,
+        "slug": "st-luke-s-college",
+        "name": "St Luke's College",
+        "state": "Iowa",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 0.9166666666666666,
+          "enrollment": 176,
+          "avg_net_price": 13021
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 196653,
+        "slug": "trocaire-college",
+        "name": "Trocaire College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9748743718592965,
+          "yield_rate": 0.422680412371134,
+          "enrollment": 1069,
+          "avg_net_price": 21236
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=439367",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:58:23.229778+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

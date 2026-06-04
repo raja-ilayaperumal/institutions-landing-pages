@@ -1,0 +1,673 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:08.664940+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117557,
+    "slug": "lincoln-university",
+    "name": "Lincoln University",
+    "website_url": "https://lincolnuca.edu",
+    "city": "Oakland",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94612-2801",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FT7LSGHRGJL3",
+      "opeid": "00697500",
+      "ein": "941347042"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Lincoln University is a private non-profit educational institution located in Oakland, California, founded in 1919. It focuses on practical education with strengths in Business Administration and Diagnostic Imaging programs, offering undergraduate, master's, and doctoral degrees.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lincoln_University",
+    "source_url": "https://en.wikipedia.org/wiki/Lincoln_University",
+    "fetched_at": "2026-06-03T16:43:09.256206+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 11420,
+    "out_of_state_tuition": 11420,
+    "pell_grant_rate": 0.0045,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.75,
+    "grad_rate_total": 1.0,
+    "grad_4yr_bachelors": 1.0,
+    "grad_5yr_bachelors": 1.0,
+    "grad_6yr_bachelors": 1.0,
+    "retention_full_time": 0.89
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 623,
+    "ug_12mo": 282,
+    "grad_12mo": 341,
+    "women_12mo": 229,
+    "men_12mo": 394,
+    "fall_total": 436,
+    "distance_ed_any": 436,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0852,
+      "black": 0.4978,
+      "hispanic": 0.0493,
+      "asian": 0.0135,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.3543,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 7
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 9
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 210809,
+        "slug": "american-college-of-financial-services",
+        "name": "American College of Financial Services",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 5514
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 496627,
+        "slug": "california-northstate-university",
+        "name": "California Northstate University",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9247311827956989,
+          "yield_rate": 0.05813953488372093,
+          "grad_rate": 1.0,
+          "retention_rate": 0.86,
+          "enrollment": 981
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 420024,
+        "slug": "centura-college-chesapeake",
+        "name": "Centura College-Chesapeake",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 191,
+          "avg_net_price": 26254
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 499176,
+        "slug": "college-of-biomedical-equipment-technology",
+        "name": "College of Biomedical Equipment Technology",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 319
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 487445,
+        "slug": "florida-career-college-boynton-beach",
+        "name": "Florida Career College-Boynton Beach",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "avg_net_price": 32348
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 487409,
+        "slug": "florida-career-college-hialeah",
+        "name": "Florida Career College-Hialeah",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "avg_net_price": 34326
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 487490,
+        "slug": "florida-career-college-houston",
+        "name": "Florida Career College-Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "avg_net_price": 33884
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 487418,
+        "slug": "florida-career-college-lauderdale-lakes",
+        "name": "Florida Career College-Lauderdale Lakes",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "avg_net_price": 35448
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 487454,
+        "slug": "florida-career-college-margate",
+        "name": "Florida Career College-Margate",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "avg_net_price": 33485
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 133997,
+        "slug": "florida-career-college-miami",
+        "name": "Florida Career College-Miami",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "avg_net_price": 34275
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 487393,
+        "slug": "florida-career-college-west-palm-beach",
+        "name": "Florida Career College-West Palm Beach",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "avg_net_price": 34536
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 170286,
+        "slug": "hillsdale-college",
+        "name": "Hillsdale College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.20716755737189563,
+          "yield_rate": 0.5553869499241275,
+          "grad_rate": 0.9,
+          "retention_rate": 0.97,
+          "enrollment": 1792
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 493947,
+        "slug": "idaho-college-of-osteopathic-medicine",
+        "name": "Idaho College of Osteopathic Medicine",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 632
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 484844,
+        "slug": "minerva-university",
+        "name": "Minerva University",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.030375552282768777,
+          "yield_rate": 0.43636363636363634,
+          "grad_rate": 0.89,
+          "retention_rate": 0.98,
+          "enrollment": 669
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 488721,
+        "slug": "nationsuniversity",
+        "name": "NationsUniversity",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1077
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 159948,
+        "slug": "new-orleans-baptist-theological-seminary",
+        "name": "New Orleans Baptist Theological Seminary",
+        "state": "Louisiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.7,
+          "retention_rate": 0.92,
+          "enrollment": 2349
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 440396,
+        "slug": "new-saint-andrews-college",
+        "name": "New Saint Andrews College",
+        "state": "Idaho",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8388888888888889,
+          "yield_rate": 0.6556291390728477,
+          "grad_rate": 0.66,
+          "retention_rate": 0.85,
+          "enrollment": 413
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 451927,
+        "slug": "patrick-henry-college",
+        "name": "Patrick Henry College",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7744360902255639,
+          "yield_rate": 0.47572815533980584,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 425
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 148016,
+        "slug": "principia-college",
+        "name": "Principia College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44402985074626866,
+          "yield_rate": 0.7058823529411765,
+          "grad_rate": 0.74,
+          "retention_rate": 0.83,
+          "enrollment": 339
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 493895,
+        "slug": "sans-technology-institute",
+        "name": "SANS Technology Institute",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1963
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 458885,
+        "slug": "strayer-university-arkansas",
+        "name": "Strayer University-Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 741
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 453215,
+        "slug": "strayer-university-new-jersey",
+        "name": "Strayer University-New Jersey",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 796
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 456621,
+        "slug": "strayer-university-west-virginia",
+        "name": "Strayer University-West Virginia",
+        "state": "West Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 252,
+          "avg_net_price": 16943
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 488800,
+        "slug": "teachers-college-of-san-joaquin",
+        "name": "Teachers College of San Joaquin",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 974
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 157748,
+        "slug": "the-southern-baptist-theological-seminary",
+        "name": "The Southern Baptist Theological Seminary",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5586776859504132,
+          "yield_rate": 0.5591715976331361,
+          "grad_rate": 0.35,
+          "retention_rate": 0.79,
+          "enrollment": 4298
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 494603,
+        "slug": "the-southwestern-baptist-theological-seminary",
+        "name": "The Southwestern Baptist Theological Seminary",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5770609318996416,
+          "yield_rate": 0.6211180124223602,
+          "grad_rate": 0.21,
+          "retention_rate": 0.83,
+          "enrollment": 2850
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 497107,
+        "slug": "university-of-silicon-andhra",
+        "name": "University of Silicon Andhra",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8333333333333334,
+          "enrollment": 238
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 488846,
+        "slug": "university-of-the-people",
+        "name": "University of the People",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.29,
+          "enrollment": 41961
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Data Dictionary",
+      "url": "https://acqa.lincolnuca.edu/",
+      "summary": "The page outlines Lincoln University's commitment to providing affordable educational programs with a focus on analytical capacity development, knowledge acquisition, personal responsibility, and career preparedness. It lists various resources and contacts for prospective and current students and highlights their accreditation and ongoing educational assessment efforts.",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:32:05.847822+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117557",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:35:02.929762+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Lincoln University Glossary",
+      "url": "https://acqa.lincolnuca.edu/",
+      "summary": "The page from Lincoln University's ACQA site provides information on institutional research, accreditation, and learning outcomes assessment. The mission emphasizes affordable, diverse educational programs aiming for professional success. Contact information is provided for various inquiries related to applications, admissions, registration, and student services.",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:34:17.087429+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Athletic Scholarships and Discounts",
+      "agency": "Lincoln University",
+      "kind": "opportunity",
+      "url": "https://admissions.lincolnuca.edu/scholarships-and-discounts/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Thurgood Marshall",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+      "field": "Law"
+    },
+    {
+      "name": "Langston Hughes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Langston_Hughes",
+      "field": "Literature"
+    },
+    {
+      "name": "Kwame Nkrumah",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah",
+      "field": "Politics"
+    },
+    {
+      "name": "Nnamdi Azikiwe",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nnamdi_Azikiwe",
+      "field": "Politics"
+    },
+    {
+      "name": "Hildrus Poindexter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hildrus_Poindexter",
+      "field": "Science"
+    },
+    {
+      "name": "Horace Mann Bond",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horace_Mann_Bond",
+      "field": "Education"
+    },
+    {
+      "name": "Melvin B. Tolson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Melvin_B._Tolson",
+      "field": "Literature"
+    },
+    {
+      "name": "Roscoe Lee Browne",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roscoe_Lee_Browne",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Robert L. Carter",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_L._Carter",
+      "field": "Law"
+    },
+    {
+      "name": "Oscar Brown, Jr.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oscar_Brown",
+      "field": "Performing Arts"
+    },
+    {
+      "name": "Gil Scott-Heron",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gil_Scott-Heron",
+      "field": "Music"
+    },
+    {
+      "name": "Montford 'Monte' Irvin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Irvin",
+      "field": "Sports"
+    },
+    {
+      "name": "Aaron Albert Mossell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aaron_Albert_Mossell",
+      "field": "Law"
+    },
+    {
+      "name": "Francis Cecil Sumner",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Francis_Cecil_Sumner",
+      "field": "Psychology"
+    },
+    {
+      "name": "Christian Fleetwood",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Christian_Fleetwood",
+      "field": "Military"
+    },
+    {
+      "name": "Lillian E. Fishburne",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lillian_E._Fishburne",
+      "field": "Military"
+    },
+    {
+      "name": "Cecil Mack",
+      "field": "Music"
+    },
+    {
+      "name": "Saara Kuugongelwa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Saara_Kuugongelwa",
+      "field": "Politics"
+    },
+    {
+      "name": "Clarence M. Mitchell Jr.",
+      "field": "Civil Rights"
+    },
+    {
+      "name": "Shiela Y. Oliver",
+      "field": "Politics"
+    },
+    {
+      "name": "A.A. Birch Jr.",
+      "field": "Law"
+    },
+    {
+      "name": "James Francis Shober",
+      "field": "Medicine"
+    },
+    {
+      "name": "James A. Donaldson",
+      "field": "Academia"
+    },
+    {
+      "name": "Julius Taylor",
+      "field": "Physics"
+    },
+    {
+      "name": "Tjama Tjivikua",
+      "field": "Academia"
+    },
+    {
+      "name": "Montford Tjitendero",
+      "field": "Politics"
+    },
+    {
+      "name": "Roderick L. Ireland",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roderick_L._Ireland",
+      "field": "Law"
+    },
+    {
+      "name": "Joseph Winthrop Holley",
+      "field": "Education"
+    },
+    {
+      "name": "Archibald H. Grimke",
+      "field": "Law"
+    }
+  ]
+}

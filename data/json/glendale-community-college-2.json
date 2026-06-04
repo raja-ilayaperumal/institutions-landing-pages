@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:16.104233+00:00",
+  "generated_at": "2026-06-04T04:56:51.384452+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Glendale Community College (GCC) is a public community college in Glendale, California.",
+    "summary": "Glendale Community College is a public community college located in Glendale, California, with two main campuses, the Verdugo Campus and the Garfield Campus. It offers a variety of degree and certificate programs and focuses on continuing education, professional development, and student services. The founding year is not mentioned in the provided text.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Glendale_Community_College_(California)",
     "source_url": "https://en.wikipedia.org/wiki/Glendale_Community_College_(California)",
-    "fetched_at": "2026-05-25T22:05:19.03927+05:30"
+    "fetched_at": "2026-06-04T10:09:46.806078+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1181,
+    "out_of_state_tuition": 8381,
     "avg_net_price": 7461,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.429,
     "federal_loan_rate": 0.0269,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 10152,
       "75_110k": 11876,
       "110k_plus": 14629
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3674,
     "grad_rate_total": 0.37,
     "pell_grad_rate": 0.41,
     "retention_full_time": 0.73,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 16366,
     "ug_12mo": 16366,
-    "grad_12mo": 14047,
+    "grad_12mo": 0,
     "women_12mo": 8708,
     "men_12mo": 7658,
     "fall_total": 12075,
-    "fall_full_time": 12075,
-    "fall_part_time": 10509,
     "distance_ed_any": 12075,
     "distance_ed_exclusive": 3857,
     "race_ethnicity": {

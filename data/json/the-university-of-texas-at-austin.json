@@ -1,0 +1,654 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:40.457134+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 228778,
+    "slug": "the-university-of-texas-at-austin",
+    "name": "The University of Texas at Austin",
+    "website_url": "https://www.utexas.edu",
+    "city": "Austin",
+    "state": "TX",
+    "state_name": "Texas",
+    "zip": "78705",
+    "region": "Southwest",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "V6AFQPN18437",
+      "opeid": "00365800",
+      "ein": "746000203"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of Texas at Austin is a public research university in Austin, Texas, United States. Founded in 1883, it is the flagship institution of the University of Texas System. With 53,864 students as of fall 2024, it is also the largest institution in the system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_Texas_at_Austin",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_Texas_at_Austin",
+    "wikidata_qid": "Q49213",
+    "fetched_at": "2026-05-25T13:35:23.984979+05:30"
+  },
+  "admissions": {
+    "applicants": 72885,
+    "admits": 19417,
+    "enrolled": 9210,
+    "first_time_freshmen": 9210,
+    "first_time_freshmen_ft": 9075,
+    "admission_rate": 0.2912,
+    "admit_rate": 0.2664059820264801,
+    "yield_rate": 0.47432662100221457,
+    "sat_average": 1380,
+    "sat_math_25_75": [
+      610,
+      760
+    ],
+    "sat_reading_25_75": [
+      620,
+      730
+    ],
+    "act_composite_25_75": [
+      27,
+      33
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 11678,
+    "out_of_state_tuition": 42778,
+    "room_and_board": 14828,
+    "total_cost_in_state": 26506,
+    "total_cost_out_of_state": 57606,
+    "avg_net_price": 19678,
+    "pell_grant_rate": 0.059,
+    "federal_loan_rate": 0.2706,
+    "net_price_by_family_income": {
+      "0_30k": 12972,
+      "30_48k": 15543,
+      "48_75k": 18618,
+      "75_110k": 25697,
+      "110k_plus": 28972
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8764,
+    "grad_rate_total": 0.89,
+    "grad_4yr_bachelors": 0.74,
+    "grad_5yr_bachelors": 0.87,
+    "grad_6yr_bachelors": 0.89,
+    "pell_grad_rate": 0.84,
+    "pell_6yr_bachelors_rate": 0.84,
+    "non_pell_grad_rate": 0.84,
+    "non_pell_6yr_bachelors": 0.84,
+    "retention_full_time": 0.97,
+    "retention_part_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 56150,
+    "ug_12mo": 44663,
+    "grad_12mo": 11487,
+    "women_12mo": 31517,
+    "men_12mo": 24633,
+    "fall_total": 53864,
+    "distance_ed_any": 53864,
+    "distance_ed_exclusive": 257,
+    "race_ethnicity": {
+      "white": 0.3157,
+      "black": 0.0467,
+      "hispanic": 0.2828,
+      "asian": 0.2537,
+      "ai_an": 0.0012,
+      "nh_pi": 0.0007,
+      "two_or_more": 0.0409,
+      "non_resident": 0.043,
+      "race_unknown": 0.0154
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 1922
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1849
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 1378
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 1234
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 1231
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 1104
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 1043
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 942
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 631
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 557
+      }
+    ],
+    "program_count": 208,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 18.0,
+    "instr_total_fte": 2920
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 151351,
+        "slug": "indiana-university-bloomington",
+        "name": "Indiana University-Bloomington",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7821395843802654,
+          "yield_rate": 0.18162062058278847,
+          "grad_rate": 0.8,
+          "retention_rate": 0.91,
+          "enrollment": 48424,
+          "avg_net_price": 15342
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 171100,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8479513341272651,
+          "yield_rate": 0.18318466502182576,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 52089,
+          "avg_net_price": 20751
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 204796,
+        "slug": "ohio-state-university-main-campus",
+        "name": "Ohio State University-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6057477103900919,
+          "yield_rate": 0.21776679662707407,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 61443,
+          "avg_net_price": 18292
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 214777,
+        "slug": "pennsylvania-state-university-main-campus",
+        "name": "Pennsylvania State University-Main Campus",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6055629648048102,
+          "yield_rate": 0.17113048022546146,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 50737,
+          "avg_net_price": 32598
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 243780,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49872372849069785,
+          "yield_rate": 0.2919892035037686,
+          "grad_rate": 0.83,
+          "retention_rate": 0.93,
+          "enrollment": 58658,
+          "avg_net_price": 13945
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110635,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10977769192382608,
+          "yield_rate": 0.45985776083290564,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 45882,
+          "avg_net_price": 14979
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 110662,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08965488952089258,
+          "yield_rate": 0.5040414823852372,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 47335,
+          "avg_net_price": 14013
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 110680,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.267140200818148,
+          "yield_rate": 0.20408163265306123,
+          "grad_rate": 0.86,
+          "retention_rate": 0.94,
+          "enrollment": 44256,
+          "avg_net_price": 11750
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 145637,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42373409997016626,
+          "yield_rate": 0.28828367523282233,
+          "grad_rate": 0.85,
+          "retention_rate": 0.95,
+          "enrollment": 59238,
+          "avg_net_price": 15201
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 170976,
+        "slug": "university-of-michigan-ann-arbor",
+        "name": "University of Michigan-Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.15637269860644898,
+          "yield_rate": 0.4734274377154752,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 52855,
+          "avg_net_price": 14832
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 174066,
+        "slug": "university-of-minnesota-twin-cities",
+        "name": "University of Minnesota-Twin Cities",
+        "state": "Minnesota",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7974503566608829,
+          "yield_rate": 0.22335378199510442,
+          "grad_rate": 0.85,
+          "retention_rate": 0.91,
+          "enrollment": 56666,
+          "avg_net_price": 17139
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 199120,
+        "slug": "university-of-north-carolina-at-chapel-hill",
+        "name": "University of North Carolina at Chapel Hill",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.15343804012925527,
+          "yield_rate": 0.45450093055147417,
+          "grad_rate": 0.91,
+          "retention_rate": 0.97,
+          "enrollment": 32438,
+          "avg_net_price": 12983
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 236948,
+        "slug": "university-of-washington-seattle-campus",
+        "name": "University of Washington-Seattle Campus",
+        "state": "Washington",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.39146401411097936,
+          "yield_rate": 0.265770423991727,
+          "grad_rate": 0.85,
+          "retention_rate": 0.95,
+          "enrollment": 56997,
+          "avg_net_price": 13485
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 240444,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4519683127447112,
+          "yield_rate": 0.2858773755959976,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 51044,
+          "avg_net_price": 16928
+        }
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": 6374046,
+    "nih_total_usd": null,
+    "usaspending_total_usd": 1023085024,
+    "all_sources_total_usd": 1029459070,
+    "recent_3y_total_usd": null,
+    "award_count_nih": 0,
+    "award_count_nsf": 16,
+    "award_count_usaspending": 20,
+    "award_count_total": 36,
+    "latest_award_end": "2032-05-31"
+  },
+  "ir_office": {
+    "url": "https://reports.utexas.edu/content/institutional-research",
+    "office_name": "Institutional Reporting, Research, Information and Surveys",
+    "summary": "The page provides contact details and navigation for the Institutional Reporting, Research, Information, and Surveys office at The University of Texas at Austin. It offers links to the Common Data Set, various data trends, and survey reports. The office is located at 1616 Guadalupe, Ste. 6.422 in Austin, Texas.",
+    "phone": "512-471-3833",
+    "address": "1616 Guadalupe Ste. 6.422, Austin, Texas 78701",
+    "confidence": 0.8,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:35:22.651761+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://reports.utexas.edu/common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://reports.utexas.edu/spotlight-data/faculty",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:34:32.149247+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set",
+      "url": "https://reports.utexas.edu/common-data-set",
+      "summary": "The Common Data Set page at the University of Texas at Austin provides a set of standardized data and definitions developed collaboratively by higher education data providers and survey publishers. It aims to enhance information accuracy for the student transition into higher education and reduce the data reporting burden. The page includes interactive and PDF reports of UT Austin's CDS data and features a new interactive peer comparison report.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:33:38.159166+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "title": "Bridge Data Dictionary",
+      "url": "http://caee.webhost.utexas.edu/prof/maidment/StreamflowII/Documents/Bridge_Data_Dictionary.pdf",
+      "summary": "The document is a comprehensive data dictionary for bridge-related data used by The University of Texas at Austin. It provides definitions for numerous fields relating to bridge identification, structure, function, inventory routes, traffic information, inspection data, and construction details. This dictionary is intended to standardize terms and ensure consistent reporting and analysis of bridge data.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:31:25.227661+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=228778",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:35:31.481981+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Handbook of Business Procedures - Glossary",
+      "url": "https://afm.utexas.edu/hbp/part-10/3-12-glossary",
+      "summary": "The University of Texas at Austin provides a glossary as part of its Handbook of Business Procedures, which offers definitions of accounting and financial terms used in university administration. This resource, relevant for dealing with costing and management tasks at the institution, covers a broad array of terms including acquisition cost, billing rate, deficit balance, and cost accounting standards. The glossary aids in understanding financial processes and adhering to federal guidelines in the management of university operations.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:32:42.202202+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Dr. Cécile DeWitt-Morette France-UT Endowed Excellence Fund",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Texas Global Publication Fund",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Campus Internationalization Event Fund",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Faculty Travel Planning Grants",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Global Career Launch",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Global Virtual Exchange",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Great Britain Faculty Travel Planning Grant",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "President's Award for Global Learning",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Rio Grande Valley Policy Initiative",
+      "agency": "The University of Texas at Austin",
+      "kind": "opportunity",
+      "url": "https://hogg.utexas.edu/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Stephany June Bryan: Bold Spirit of Achievement Scholarship",
+      "agency": "The University of Texas at Austin",
+      "kind": "opportunity",
+      "url": "https://hogg.utexas.edu/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Texas Global Faculty Research Seed Grants",
+      "agency": "Texas Global",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Viva Travel Grant Program: Complimentary Flights to Mexico",
+      "agency": "Texas Global and Viva Aerobus",
+      "kind": "opportunity",
+      "url": "https://global.utexas.edu/engagement-strategy/funding-opportunities",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Ernest D. Cockrell Jr.",
+      "wikipedia_url": "https://cockrell.utexas.edu/about/history/cockrell-family/",
+      "field": "Engineering"
+    },
+    {
+      "name": "Sanjay Chandra",
+      "wikipedia_url": "https://cockrell.utexas.edu/news/chandra-family-department-of-electrical-and-computer-engineering-established/",
+      "field": "Business"
+    },
+    {
+      "name": "Jeffery Hildebrand",
+      "wikipedia_url": "https://cockrell.utexas.edu/news/hildebrand-department-of-petroleum-and-geosystems-engineering-established/",
+      "field": "Energy"
+    },
+    {
+      "name": "Jeannie Leavitt",
+      "wikipedia_url": "https://magazine.engr.utexas.edu/2023/captain-cockrell",
+      "field": "Military"
+    },
+    {
+      "name": "Michael Linford",
+      "wikipedia_url": "https://cockrell.utexas.edu/news/ensuring-access-to-texas-engineering/",
+      "field": "Business"
+    },
+    {
+      "name": "Fariborz Maseeh",
+      "wikipedia_url": "https://cockrell.utexas.edu/news/ut-establishes-the-fariborz-maseeh-department-of-civil-architectural-and-environmental-engineering/",
+      "field": "Engineering"
+    },
+    {
+      "name": "Autry Stephens",
+      "wikipedia_url": "https://cockrell.utexas.edu/connect/alumni/about-our-alumni/autry-stephens/",
+      "field": "Energy"
+    },
+    {
+      "name": "Rex Tillerson",
+      "wikipedia_url": "https://news.utexas.edu/2025/09/17/tillerson-investments-in-civics-engineering-and-longhorn-band-prepare-future-leaders/",
+      "field": "Politics"
+    },
+    {
+      "name": "Gary Thomas",
+      "wikipedia_url": "https://giving.utexas.edu/driving-american-ingenuity/",
+      "field": "Energy"
+    },
+    {
+      "name": "J. Mike Walker",
+      "wikipedia_url": "https://cockrell.utexas.edu/news/remembering-texas-engineering-alumnus-j-mike-walker-1943-2018/",
+      "field": "Engineering"
+    },
+    {
+      "name": "Karen Nyberg",
+      "field": "Aerospace"
+    },
+    {
+      "name": "Alan Stern",
+      "field": "Space Research"
+    },
+    {
+      "name": "Jim Truchard",
+      "field": "Technology"
+    },
+    {
+      "name": "Michael Watkins",
+      "field": "Aerospace"
+    }
+  ]
+}

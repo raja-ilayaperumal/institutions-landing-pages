@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:31:59.549548+00:00",
+  "generated_at": "2026-06-04T04:56:28.837097+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Coastline_College",
     "fetched_at": "2026-05-26T15:03:29.727+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1180,
+    "out_of_state_tuition": 9964,
     "avg_net_price": 9605,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.9134,
     "federal_loan_rate": 0.0148,
     "net_price_by_family_income": {
       "0_30k": 9105,
       "30_48k": 8244,
       "48_75k": 10562,
-      "75_110k": 14649,
-      "110k_plus": null
-    }
+      "75_110k": 14649
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2833,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.35,
     "retention_full_time": 0.43,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 16323,
     "ug_12mo": 16323,
-    "grad_12mo": 13543,
+    "grad_12mo": 0,
     "women_12mo": 7445,
     "men_12mo": 8878,
     "fall_total": 9008,
-    "fall_full_time": 9008,
-    "fall_part_time": 7393,
     "distance_ed_any": 9008,
     "distance_ed_exclusive": 8235,
     "race_ethnicity": {

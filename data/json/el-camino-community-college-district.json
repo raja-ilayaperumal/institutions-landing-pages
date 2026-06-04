@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:14.188171+00:00",
+  "generated_at": "2026-06-04T04:56:40.536470+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/El_Camino_College",
     "fetched_at": "2026-05-25T19:16:41.019628+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1144,
+    "out_of_state_tuition": 7144,
     "avg_net_price": 5170,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6349,
     "federal_loan_rate": 0.0124,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7461,
       "75_110k": 9809,
       "110k_plus": 10042
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4137,
     "grad_rate_total": 0.42,
     "pell_grad_rate": 0.37,
     "non_pell_grad_rate": 1.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 32070,
     "ug_12mo": 32070,
-    "grad_12mo": 27948,
+    "grad_12mo": 0,
     "women_12mo": 16956,
     "men_12mo": 15114,
     "fall_total": 21664,
-    "fall_full_time": 21664,
-    "fall_part_time": 19210,
     "distance_ed_any": 21664,
     "distance_ed_exclusive": 5759,
     "race_ethnicity": {
@@ -410,12 +411,7 @@
       "fetched_at": "2026-05-25T19:12:17.558708+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President, Student Services - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179436203"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

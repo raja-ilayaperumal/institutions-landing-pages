@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:53.984169+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110370,
+    "slug": "california-college-of-the-arts",
+    "name": "California College of the Arts",
+    "website_url": "https://www.cca.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94107-2247",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "L8FMTMKL1UK7",
+      "opeid": "00112700",
+      "ein": "941156485"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California College of the Arts (CCA) is a private art school in San Francisco, California. It was founded in Berkeley, California in 1907 and moved to a historic estate in Oakland, California in 1922. In 1996, it opened a second campus in San Francisco; in 2022, the Oakland campus was closed and merged into the San Francisco campus. CCA enrolls approximately 1,239 undergraduates and 380 graduate students. In January 2026, CCA president David Howse announced the college will be closing at the end of the 2026–2027 academic year, with Vanderbilt University taking over the campus.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_College_of_the_Arts",
+    "source_url": "https://en.wikipedia.org/wiki/California_College_of_the_Arts",
+    "fetched_at": "2026-06-01T22:33:44.918428+05:30"
+  },
+  "admissions": {
+    "applicants": 2371,
+    "admits": 2160,
+    "enrolled": 172,
+    "first_time_freshmen": 172,
+    "first_time_freshmen_ft": 171,
+    "admission_rate": 0.734,
+    "admit_rate": 0.911008013496415,
+    "yield_rate": 0.07962962962962963
+  },
+  "cost": {
+    "in_state_tuition": 57946,
+    "out_of_state_tuition": 57946,
+    "avg_net_price": 42168,
+    "pell_grant_rate": 0.0697,
+    "federal_loan_rate": 0.4564,
+    "net_price_by_family_income": {
+      "0_30k": 32800,
+      "30_48k": 28423,
+      "48_75k": 42404,
+      "75_110k": 44139,
+      "110k_plus": 52438
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5872,
+    "grad_rate_total": 0.61,
+    "grad_4yr_bachelors": 0.48,
+    "grad_5yr_bachelors": 0.59,
+    "grad_6yr_bachelors": 0.61,
+    "pell_grad_rate": 0.47,
+    "pell_6yr_bachelors_rate": 0.47,
+    "non_pell_grad_rate": 0.56,
+    "non_pell_6yr_bachelors": 0.56,
+    "retention_full_time": 0.87,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1632,
+    "ug_12mo": 1235,
+    "grad_12mo": 397,
+    "women_12mo": 1098,
+    "men_12mo": 534,
+    "fall_total": 1308,
+    "distance_ed_any": 1308,
+    "distance_ed_exclusive": 1,
+    "race_ethnicity": {
+      "white": 0.2012,
+      "black": 0.0349,
+      "hispanic": 0.1643,
+      "asian": 0.1584,
+      "ai_an": 0.003,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0618,
+      "non_resident": 0.3406,
+      "race_unknown": 0.0359
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 214
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 68
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 66
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 30
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "48",
+        "cip_family_label": "Precision Production",
+        "completions": 2
+      }
+    ],
+    "program_count": 25,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 74
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 202170,
+        "slug": "columbus-college-of-art-and-design",
+        "name": "Columbus College of Art & Design",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6765523632993512,
+          "yield_rate": 0.32054794520547947,
+          "grad_rate": 0.56,
+          "retention_rate": 0.8,
+          "enrollment": 916,
+          "avg_net_price": 30139
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 174127,
+        "slug": "minneapolis-college-of-art-and-design",
+        "name": "Minneapolis College of Art and Design",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4847775175644028,
+          "yield_rate": 0.3888888888888889,
+          "grad_rate": 0.51,
+          "retention_rate": 0.75,
+          "enrollment": 831,
+          "avg_net_price": 25935
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 194578,
+        "slug": "pratt-institute-main",
+        "name": "Pratt Institute-Main",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7325292656970557,
+          "yield_rate": 0.18321226795803067,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 5356,
+          "avg_net_price": 50647
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 217493,
+        "slug": "rhode-island-school-of-design",
+        "name": "Rhode Island School of Design",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18664076509264793,
+          "yield_rate": 0.41473178542834266,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 2520,
+          "avg_net_price": 46253
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 136774,
+        "slug": "ringling-college-of-art-and-design",
+        "name": "Ringling College of Art and Design",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696524064171123,
+          "yield_rate": 0.2348048624440179,
+          "grad_rate": 0.72,
+          "retention_rate": 0.86,
+          "enrollment": 1666,
+          "avg_net_price": 55390
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://portal.cca.edu/essentials/data-cca/institutional-research/",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Data @ CCA",
+    "summary": "Institutional Research provides official, accurate, and timely information and analysis to support the planning, research, reporting, and decision-making activities of the California College of the Arts. The office coordinates these services in an objective and systematic manner to support the college mission.",
+    "phone": "415-703-9500",
+    "address": "145 Hooper Street, San Francisco, CA 94107",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:33:43.444264+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jose de los Reyes",
+      "title": "Director of Institutional Research & Effectiveness",
+      "linkedin_url": "https://www.linkedin.com/in/joseisaganidelosreyes"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110370",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:33:45.901857+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "2026 Community Impact Recipient",
+      "kind": "award",
+      "amount_usd": 10000,
+      "url": "https://portal.cca.edu/essentials/center-arts-and-public-life/impact/",
+      "source": "institution_site",
+      "award_date": "2026-04-21"
+    },
+    {
+      "title": "Exceptional Innovator Recipient",
+      "kind": "award",
+      "amount_usd": 5000,
+      "url": "https://portal.cca.edu/essentials/center-arts-and-public-life/impact/",
+      "source": "institution_site",
+      "award_date": "2026-04-21"
+    },
+    {
+      "title": "Outstanding Startup Recipient",
+      "kind": "award",
+      "amount_usd": 2500,
+      "url": "https://portal.cca.edu/essentials/center-arts-and-public-life/impact/",
+      "source": "institution_site",
+      "award_date": "2026-04-21"
+    },
+    {
+      "title": "Impact Awards",
+      "agency": "Center for Art and Public Life",
+      "kind": "opportunity",
+      "url": "https://portal.cca.edu/essentials/center-arts-and-public-life/impact/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Nazgol Ansarinia"
+    },
+    {
+      "name": "Edward Blake"
+    },
+    {
+      "name": "Maggie Fost"
+    },
+    {
+      "name": "Zach Gibson"
+    },
+    {
+      "name": "Matt Johnson & Chris Yamane"
+    },
+    {
+      "name": "Wioleta Kaminska"
+    },
+    {
+      "name": "Kristin Neidlinger"
+    },
+    {
+      "name": "Melissa Martin"
+    },
+    {
+      "name": "Heidi Meredith & Renee Walker"
+    },
+    {
+      "name": "Nazanin Oveisi"
+    },
+    {
+      "name": "Jennifer Sonderby"
+    },
+    {
+      "name": "Joel Stillman"
+    },
+    {
+      "name": "Rosanna Yau"
+    }
+  ]
+}

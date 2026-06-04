@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:19.438109+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 479424,
+    "slug": "unitek-college-3",
+    "name": "Unitek College",
+    "website_url": "https://www.unitekcollege.edu",
+    "city": "Hayward",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94541-7026",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "Q7A3JEMCPJ57",
+      "opeid": "04195400",
+      "ein": "942843682"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Unitek College is an American private for-profit institution based in Fremont, California. Founded in 2002, Unitek College maintains campuses in California and Nevada. The school offers diploma, associate, and bachelor programs in Nursing, Medical assisting, and allied health fields. It is operated by Unitek Learning.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unitek_College",
+    "source_url": "https://en.wikipedia.org/wiki/Unitek_College",
+    "fetched_at": "2026-06-03T02:25:47.354374+05:30"
+  },
+  "admissions": {
+    "applicants": 400,
+    "admits": 383,
+    "enrolled": 179,
+    "first_time_freshmen": 179,
+    "first_time_freshmen_ft": 179,
+    "admit_rate": 0.9575,
+    "yield_rate": 0.46736292428198434
+  },
+  "cost": {
+    "avg_net_price": 27158,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5107,
+    "net_price_by_family_income": {
+      "0_30k": 27024,
+      "30_48k": 27681,
+      "48_75k": 29891
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7237,
+    "grad_rate_total": 0.63,
+    "pell_grad_rate": 0.63,
+    "non_pell_grad_rate": 0.72,
+    "retention_full_time": 0.63
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 524,
+    "ug_12mo": 524,
+    "grad_12mo": 0,
+    "women_12mo": 461,
+    "men_12mo": 63,
+    "fall_total": 284,
+    "distance_ed_any": 284,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0276,
+      "black": 0.1288,
+      "hispanic": 0.2546,
+      "asian": 0.273,
+      "ai_an": 0.0,
+      "nh_pi": 0.0215,
+      "two_or_more": 0.0031,
+      "non_resident": 0.0,
+      "race_unknown": 0.2914
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 2,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 483708,
+        "slug": "access-careers",
+        "name": "Access Careers",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 511
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 494904,
+        "slug": "access-careers-islandia",
+        "name": "Access Careers-Islandia",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 312
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 188650,
+        "slug": "allen-school-brooklyn",
+        "name": "Allen School-Brooklyn",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 192,
+          "avg_net_price": 25874
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 455202,
+        "slug": "american-institute-of-medical-sciences-and-education",
+        "name": "American Institute of Medical Sciences & Education",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 472,
+          "avg_net_price": 40225
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 497329,
+        "slug": "american-institute-cherry-hill",
+        "name": "American Institute-Cherry Hill",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 390,
+          "avg_net_price": 17603
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 490869,
+        "slug": "american-institute-somerset",
+        "name": "American Institute-Somerset",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 364,
+          "avg_net_price": 16629
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 482963,
+        "slug": "american-institute-toms-river",
+        "name": "American Institute-Toms River",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 484,
+          "avg_net_price": 17386
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 129482,
+        "slug": "american-institute-west-hartford",
+        "name": "American Institute-West Hartford",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 402,
+          "avg_net_price": 18110
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 222886,
+        "slug": "arlington-career-institute",
+        "name": "Arlington Career Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 562,
+          "avg_net_price": 24339
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 109721,
+        "slug": "associated-technical-college-los-angeles",
+        "name": "Associated Technical College-Los Angeles",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 315,
+          "avg_net_price": 22236
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 246035,
+        "slug": "carrington-college-portland",
+        "name": "Carrington College-Portland",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8360655737704918,
+          "yield_rate": 0.6862745098039216,
+          "retention_rate": 0.65,
+          "enrollment": 254,
+          "avg_net_price": 29350
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 451495,
+        "slug": "cde-career-institute",
+        "name": "CDE Career Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 311,
+          "avg_net_price": 29396
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 451413,
+        "slug": "center-for-allied-health-education",
+        "name": "Center for Allied Health Education",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18518518518518517,
+          "yield_rate": 1.0,
+          "retention_rate": 0.87,
+          "enrollment": 437,
+          "avg_net_price": 35431
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 486381,
+        "slug": "center-for-ultrasound-research-and-education",
+        "name": "Center for Ultrasound Research & Education",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 37,
+          "avg_net_price": 48634
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 480888,
+        "slug": "cybertex-institute-of-technology",
+        "name": "CyberTex Institute of Technology",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 152,
+          "avg_net_price": 27877
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 130873,
+        "slug": "dawn-career-institute-llc",
+        "name": "Dawn Career Institute LLC",
+        "state": "Delaware",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 355,
+          "avg_net_price": 15731
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 402563,
+        "slug": "delta-college-inc",
+        "name": "Delta College Inc",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 155,
+          "avg_net_price": 22997
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 145099,
+        "slug": "first-institute-of-travel-inc",
+        "name": "First Institute of Travel, Inc.",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 278,
+          "avg_net_price": 20410
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 486512,
+        "slug": "florida-international-training-institute",
+        "name": "Florida International Training Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7912457912457912,
+          "yield_rate": 0.6638297872340425,
+          "retention_rate": 0.76,
+          "enrollment": 494,
+          "avg_net_price": 53875
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 371052,
+        "slug": "fortis-college",
+        "name": "Fortis College",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 315,
+          "avg_net_price": 21159
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 455488,
+        "slug": "fortis-college-montgomery",
+        "name": "Fortis College-Montgomery",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 359,
+          "avg_net_price": 19380
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 475024,
+        "slug": "fortis-institute-lawrenceville",
+        "name": "Fortis Institute-Lawrenceville",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 373,
+          "avg_net_price": 18433
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 492935,
+        "slug": "global-medical-and-technical-training-institute",
+        "name": "Global Medical & Technical Training Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 393,
+          "avg_net_price": 33927
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 441663,
+        "slug": "institute-of-technology-2",
+        "name": "Institute of Technology",
+        "state": "Oregon",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 267,
+          "avg_net_price": 33197
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 457800,
+        "slug": "new-york-medical-career-training-center",
+        "name": "New York Medical Career Training Center",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5890652557319224,
+          "retention_rate": 0.24,
+          "enrollment": 452,
+          "avg_net_price": 29174
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 120069,
+        "slug": "north-west-college-pomona",
+        "name": "North-West College-Pomona",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7524752475247525,
+          "retention_rate": 0.67,
+          "enrollment": 381,
+          "avg_net_price": 33256
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 369686,
+        "slug": "northwest-educational-center",
+        "name": "Northwest Educational Center",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 305,
+          "avg_net_price": 11535
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 369783,
+        "slug": "pci-health-training-center",
+        "name": "PCI Health Training Center",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.9078947368421053,
+          "retention_rate": 0.92,
+          "enrollment": 256,
+          "avg_net_price": 18420
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 420130,
+        "slug": "prism-career-institute-cherry-hill",
+        "name": "Prism Career Institute-Cherry Hill",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.47398843930635837,
+          "yield_rate": 0.5121951219512195,
+          "retention_rate": 0.72,
+          "enrollment": 269,
+          "avg_net_price": 28909
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 417840,
+        "slug": "prism-career-institute-philadelphia",
+        "name": "Prism Career Institute-Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5217391304347826,
+          "retention_rate": 0.94,
+          "enrollment": 468,
+          "avg_net_price": 27173
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 461856,
+        "slug": "southern-california-health-institute",
+        "name": "Southern California Health Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 156,
+          "avg_net_price": 26692
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 459204,
+        "slug": "unitek-college",
+        "name": "Unitek College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.63,
+          "retention_rate": 0.89,
+          "enrollment": 5725,
+          "avg_net_price": 25719
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=479424",
+      "stored": false,
+      "fetched_at": "2026-06-03T02:25:46.944299+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:26.065025+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112251,
+    "slug": "claremont-graduate-university",
+    "name": "Claremont Graduate University",
+    "website_url": "https://www.cgu.edu",
+    "city": "Claremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91711-6160",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "N34CXJCDNDU1",
+      "opeid": "00116900",
+      "ein": "951664100"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Claremont Graduate University (CGU) is a private postgraduate research university in Claremont, California, United States. Founded in 1925, CGU is a member of the Claremont Colleges consortium which includes five undergraduate and two graduate institutions of higher education.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Claremont_Graduate_University",
+    "source_url": "https://en.wikipedia.org/wiki/Claremont_Graduate_University",
+    "fetched_at": "2026-06-01T21:43:04.759801+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1967,
+    "women_12mo": 1163,
+    "men_12mo": 804,
+    "fall_total": 1771,
+    "distance_ed_any": 1771,
+    "distance_ed_exclusive": 314
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 86
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 66
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 51
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "05",
+        "cip_family_label": "Area/Ethnic Studies",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 12
+      }
+    ],
+    "program_count": 46,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 85
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 245838,
+        "slug": "antioch-university-los-angeles",
+        "name": "Antioch University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 910
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 164924,
+        "slug": "boston-college",
+        "name": "Boston College",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1642549305020407,
+          "yield_rate": 0.4345786272806255,
+          "grad_rate": 0.91,
+          "retention_rate": 0.96,
+          "enrollment": 15432,
+          "avg_net_price": 39866
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 164988,
+        "slug": "boston-university",
+        "name": "Boston University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.11107161446762051,
+          "yield_rate": 0.37352840324608527,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 37737,
+          "avg_net_price": 26996
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 165015,
+        "slug": "brandeis-university",
+        "name": "Brandeis University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.40498948575798127,
+          "yield_rate": 0.1734717960821336,
+          "grad_rate": 0.86,
+          "retention_rate": 0.87,
+          "enrollment": 5205,
+          "avg_net_price": 33885
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110404,
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.02569284064665127,
+          "yield_rate": 0.6123595505617978,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2430,
+          "avg_net_price": 18902
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 110529,
+        "slug": "california-state-polytechnic-university-pomona",
+        "name": "California State Polytechnic University-Pomona",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7517419509851033,
+          "yield_rate": 0.12462378479158344,
+          "grad_rate": 0.68,
+          "retention_rate": 0.87,
+          "enrollment": 27636,
+          "avg_net_price": 11580
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 110583,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 110608,
+        "slug": "california-state-university-northridge",
+        "name": "California State University-Northridge",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9344644750795335,
+          "yield_rate": 0.17972245639063614,
+          "grad_rate": 0.57,
+          "retention_rate": 0.73,
+          "enrollment": 38313,
+          "avg_net_price": 7599
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 110510,
+        "slug": "california-state-university-san-bernardino",
+        "name": "California State University-San Bernardino",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9373581791927388,
+          "yield_rate": 0.15331572769953053,
+          "grad_rate": 0.55,
+          "retention_rate": 0.8,
+          "enrollment": 18492,
+          "avg_net_price": 5918
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 119173,
+        "slug": "mount-saint-mary-s-university",
+        "name": "Mount Saint Mary's University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7312576812781647,
+          "yield_rate": 0.11988795518207283,
+          "grad_rate": 0.48,
+          "retention_rate": 0.71,
+          "enrollment": 2312,
+          "avg_net_price": 25009
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 122409,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36190148046058773,
+          "yield_rate": 0.20358711341789257,
+          "grad_rate": 0.76,
+          "retention_rate": 0.91,
+          "enrollment": 41137,
+          "avg_net_price": 16174
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 243744,
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.03605693751526358,
+          "yield_rate": 0.8190614417029511,
+          "grad_rate": 0.92,
+          "retention_rate": 0.98,
+          "enrollment": 18625,
+          "avg_net_price": 12136
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 110635,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10977769192382608,
+          "yield_rate": 0.45985776083290564,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 45882,
+          "avg_net_price": 14979
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 110644,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4182816798834763,
+          "yield_rate": 0.1636398810243513,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 40065,
+          "avg_net_price": 15288
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 110653,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28569099992664976,
+          "yield_rate": 0.1921606664004108,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 37297,
+          "avg_net_price": 12840
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 110662,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08965488952089258,
+          "yield_rate": 0.5040414823852372,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 47335,
+          "avg_net_price": 14013
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 110671,
+        "slug": "university-of-california-riverside",
+        "name": "University of California-Riverside",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7639022877618522,
+          "yield_rate": 0.12227409061182148,
+          "grad_rate": 0.76,
+          "retention_rate": 0.88,
+          "enrollment": 26384,
+          "avg_net_price": 13707
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 110680,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.267140200818148,
+          "yield_rate": 0.20408163265306123,
+          "grad_rate": 0.86,
+          "retention_rate": 0.94,
+          "enrollment": 44256,
+          "avg_net_price": 11750
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 110699,
+        "slug": "university-of-california-san-francisco",
+        "name": "University of California-San Francisco",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3007
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 110705,
+        "slug": "university-of-california-santa-barbara",
+        "name": "University of California-Santa Barbara",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3296510942417399,
+          "yield_rate": 0.13778303573885053,
+          "grad_rate": 0.83,
+          "retention_rate": 0.93,
+          "enrollment": 26133,
+          "avg_net_price": 13825
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 110714,
+        "slug": "university-of-california-santa-cruz",
+        "name": "University of California-Santa Cruz",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6579013412899808,
+          "yield_rate": 0.0928877209341754,
+          "grad_rate": 0.75,
+          "retention_rate": 0.88,
+          "enrollment": 19938,
+          "avg_net_price": 16607
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 122612,
+        "slug": "university-of-san-francisco",
+        "name": "University of San Francisco",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6170845387335262,
+          "yield_rate": 0.05990363328558406,
+          "grad_rate": 0.7,
+          "retention_rate": 0.84,
+          "enrollment": 8913,
+          "avg_net_price": 39495
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://cgu.edu/institutional-research",
+    "office_name": "Institutional Research Office",
+    "parent_division": "Office of Institutional Effectiveness",
+    "summary": "The Institutional Research office at Claremont Graduate University supports the university by providing accurate, timely, and reliable information to various people, departments, and agencies related to the academic and operational activities of the university.",
+    "phone": "909-607-8632",
+    "fax": "909-607-7911",
+    "email": "IR@CGU.EDU",
+    "address": "150 E. 10th Street, Claremont, CA 91711, Room: Harper 120",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:43:03.634379+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Institutional and Program Outcomes",
+      "url": "https://my.cgu.edu/institutional-effectiveness/institutional-and-program-outcomes/",
+      "summary": "The Institutional and Program Outcomes page at Claremont Graduate University outlines the learning objectives and expected skills for various academic programs. It details institutional learning outcomes for all graduates, such as knowledge within their disciplines, research and inquiry skills, effective communication, transdisciplinary methods, and career-specific skills. The page breaks down specific competencies and learning outcomes for different departments and degrees, including arts and humanities, management, health sciences, and more. The document serves as a comprehensive guide for students to understand the core competencies and learning achievements associated with their programs.",
+      "stored": false,
+      "fetched_at": "2026-06-01T18:39:37.555474+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Research",
+      "url": "https://www.cgu.edu/about/administration/academic-affairs/office-of-institutional-effectiveness/institutional-research/",
+      "summary": "The Institutional Research office at Claremont Graduate University supports the university by providing accurate, timely, and reliable information related to academic and operational activities. It responds to requests for statistical information, gathers and analyzes data on faculty, staff, student populations, programs, and resources. The office ensures accurate data collection through adherence to the AIR Code of Ethics. Available statistics include enrollment, admissions, program fees, and demographic information on students and faculty.",
+      "stored": false,
+      "fetched_at": "2026-06-01T18:39:32.630464+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "title": "Institutional Research",
+      "url": "https://cgu.edu/about/institutional-research",
+      "summary": "The Institutional Research office at Claremont Graduate University is part of the Office of Institutional Effectiveness. It provides accurate, timely, and reliable information related to the academic and operational activities of the university, serving CGU personnel, management, the state and federal governments, accreditation agencies, local and national surveys, and the general public. The office is responsible for gathering, analyzing, and reporting information on faculty, staff, student population, programs, and resources. It also helps with research methodology, evaluation, and data analysis. The office adheres to the Code of Ethics of the Association for Institutional Research to ensure accurate data collection.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:42:05.571915+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112251",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:07.38443+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Institutional Research",
+      "url": "https://cgu.edu/institutional-research",
+      "summary": "The Institutional Research office at Claremont Graduate University provides accurate, timely, and reliable information on the university's academic and operational activities. It serves requests from CGU personnel, management, and external entities including state and federal governments, local and national surveys, and accreditation agencies. The office offers statistics and reports on topics such as enrollment, admissions, faculty and staff demographics, academic programs, and degrees conferred. It adheres to the Code of Ethics by the Association for Institutional Research (AIR).",
+      "stored": false,
+      "fetched_at": "2026-06-01T18:34:37.724757+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2020,
+      "title": "CGU Strategic Plan",
+      "url": "https://cgu.edu/about/strategic-plan/",
+      "summary": "The Claremont Graduate University (CGU) Strategic Plan outlines six key goals aimed at enhancing student success, expanding the university's impact and visibility, and fostering an inclusive academic community. It emphasizes strategic priorities including academic excellence, diversity, innovation, and financial sustainability. Approved in 2020, the plan seeks to engage the global community while bolstering CGU's distinctive educational and research initiatives.",
+      "stored": false,
+      "fetched_at": "2026-06-01T18:34:40.876937+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2020,
+      "title": "CGU Strategic Plan",
+      "url": "https://cgu.edu/about/strategic-plan",
+      "summary": "Claremont Graduate University's Strategic Plan aims to enhance student success through robust academic programs and expanded support services. It focuses on expanding impact, quality, and visibility through research and innovation, while engaging the global community with integrity to foster a diverse academic environment. The plan emphasizes building a sustainable learning organization, fostering inclusive excellence, and implementing a bold advancement agenda to support student success and institutional growth.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:38:51.424469+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Transdisciplinary Dissertation Awards",
+      "agency": "Claremont Graduate University",
+      "kind": "opportunity",
+      "url": "https://www.cgu.edu/admissions/cost-aid/financial-aid-fellowships/awards/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Stephen Cambone",
+      "field": "Government"
+    },
+    {
+      "name": "Tom Cotton",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Cotton",
+      "field": "Politics"
+    },
+    {
+      "name": "David Dreier",
+      "field": "Politics"
+    },
+    {
+      "name": "Abdulla Yameen",
+      "field": "Politics"
+    },
+    {
+      "name": "Michael Shermer",
+      "field": "Literature"
+    },
+    {
+      "name": "Sandy Lerner",
+      "field": "Business"
+    },
+    {
+      "name": "Diane Watson",
+      "field": "Politics"
+    },
+    {
+      "name": "Susan M. Leeson",
+      "field": "Government"
+    },
+    {
+      "name": "Verne Orr",
+      "field": "Government"
+    },
+    {
+      "name": "Dewi Zephaniah Phillips",
+      "field": "Religion"
+    },
+    {
+      "name": "Jack Scott",
+      "field": "Politics"
+    },
+    {
+      "name": "Stewart Donaldson",
+      "field": "Academia"
+    },
+    {
+      "name": "Kermit Staggers",
+      "field": "Politics"
+    },
+    {
+      "name": "Luis Aguilar-Monsalve",
+      "field": "Literature"
+    },
+    {
+      "name": "Edith Pattou",
+      "field": "Literature"
+    },
+    {
+      "name": "Min-Shun \"Diana\" Chen",
+      "field": "Business"
+    },
+    {
+      "name": "Srettha Thavisin",
+      "field": "Politics"
+    },
+    {
+      "name": "Bomani Jones",
+      "field": "Media"
+    },
+    {
+      "name": "Michael Anton",
+      "field": "Government"
+    },
+    {
+      "name": "Philippe Maystadt",
+      "field": "Politics"
+    },
+    {
+      "name": "William Barclay Allen",
+      "field": "Academia"
+    },
+    {
+      "name": "Ashleigh Brilliant",
+      "field": "Literature"
+    },
+    {
+      "name": "Arthur Janov",
+      "field": "Psychology"
+    },
+    {
+      "name": "Sacvan Bercovitch",
+      "field": "Academia"
+    },
+    {
+      "name": "Rajiv Dutta",
+      "field": "Business"
+    },
+    {
+      "name": "Bas Jan Ader",
+      "field": "Fine Arts"
+    },
+    {
+      "name": "Claire Van Vliet",
+      "field": "Fine Arts"
+    },
+    {
+      "name": "William J. LeVeque",
+      "field": "Academia"
+    }
+  ]
+}

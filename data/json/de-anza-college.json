@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:12.876555+00:00",
+  "generated_at": "2026-06-04T04:56:36.298960+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/De_Anza_College",
     "fetched_at": "2026-05-25T21:04:13.56271+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1562,
+    "out_of_state_tuition": 12317,
     "avg_net_price": 4667,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5902,
     "federal_loan_rate": 0.0236,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6804,
       "75_110k": 9628,
       "110k_plus": 10644
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6918,
     "grad_rate_total": 0.68,
     "pell_grad_rate": 0.71,
     "non_pell_grad_rate": 0.7,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 28620,
     "ug_12mo": 28620,
-    "grad_12mo": 24129,
+    "grad_12mo": 0,
     "women_12mo": 14116,
     "men_12mo": 14504,
     "fall_total": 17425,
-    "fall_full_time": 17425,
-    "fall_part_time": 15264,
     "distance_ed_any": 17425,
     "distance_ed_exclusive": 7946,
     "race_ethnicity": {

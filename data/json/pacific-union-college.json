@@ -1,0 +1,1039 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:45.872958+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120865,
+    "slug": "pacific-union-college",
+    "name": "Pacific Union College",
+    "website_url": "https://www.puc.edu",
+    "city": "Angwin",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94508-9707",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EAKUXBK2M1C3",
+      "opeid": "00125800",
+      "ein": "941279798"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Pacific Union College (PUC) is a private Seventh-day Adventist liberal arts college in Angwin, California. It is the only four-year college in Napa County, and the twelfth oldest institution of higher education in California. As a coeducational residential college with an almost exclusively undergraduate student body, most of those who attend the college are four-year students living on campus.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pacific_Union_College",
+    "source_url": "https://en.wikipedia.org/wiki/Pacific_Union_College",
+    "fetched_at": "2026-06-01T23:49:03.873008+05:30"
+  },
+  "admissions": {
+    "applicants": 1313,
+    "admits": 621,
+    "enrolled": 87,
+    "first_time_freshmen": 87,
+    "first_time_freshmen_ft": 87,
+    "admission_rate": 0.4248,
+    "admit_rate": 0.472962680883473,
+    "yield_rate": 0.14009661835748793,
+    "sat_average": 1093,
+    "sat_math_25_75": [
+      440,
+      585
+    ],
+    "sat_reading_25_75": [
+      490,
+      605
+    ],
+    "act_composite_25_75": [
+      20,
+      24
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 35214,
+    "out_of_state_tuition": 35214,
+    "avg_net_price": 20979,
+    "pell_grant_rate": 0.2121,
+    "federal_loan_rate": 0.5932,
+    "net_price_by_family_income": {
+      "0_30k": 14903,
+      "30_48k": 15897,
+      "48_75k": 18211,
+      "75_110k": 20495,
+      "110k_plus": 25182
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5147,
+    "grad_rate_total": 0.58,
+    "grad_4yr_bachelors": 0.27,
+    "grad_5yr_bachelors": 0.39,
+    "grad_6yr_bachelors": 0.45,
+    "pell_grad_rate": 0.3,
+    "pell_6yr_bachelors_rate": 0.15,
+    "non_pell_grad_rate": 0.9,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.89
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1281,
+    "ug_12mo": 1238,
+    "grad_12mo": 43,
+    "women_12mo": 833,
+    "men_12mo": 448,
+    "fall_total": 974,
+    "distance_ed_any": 974,
+    "distance_ed_exclusive": 117,
+    "race_ethnicity": {
+      "white": 0.178,
+      "black": 0.0593,
+      "hispanic": 0.2967,
+      "asian": 0.211,
+      "ai_an": 0.0,
+      "nh_pi": 0.0088,
+      "two_or_more": 0.1264,
+      "non_resident": 0.0264,
+      "race_unknown": 0.0934
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 187
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 4
+      }
+    ],
+    "program_count": 54,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 51
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 102669,
+        "slug": "alaska-pacific-university",
+        "name": "Alaska Pacific University",
+        "state": "Alaska",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.964527027027027,
+          "yield_rate": 0.050788091068301226,
+          "grad_rate": 0.42,
+          "retention_rate": 0.68,
+          "enrollment": 593,
+          "avg_net_price": 18976
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 209409,
+        "slug": "bushnell-university",
+        "name": "Bushnell University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6727898966704937,
+          "yield_rate": 0.18600682593856654,
+          "grad_rate": 0.56,
+          "retention_rate": 0.76,
+          "enrollment": 761,
+          "avg_net_price": 23520
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110413,
+        "slug": "california-lutheran-university",
+        "name": "California Lutheran University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7567027477102415,
+          "yield_rate": 0.11047535211267606,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 3351,
+          "avg_net_price": 26433
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 141486,
+        "slug": "chaminade-university-of-honolulu",
+        "name": "Chaminade University of Honolulu",
+        "state": "Hawaii",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9143004646360351,
+          "yield_rate": 0.16487859966120835,
+          "grad_rate": 0.65,
+          "retention_rate": 0.7,
+          "enrollment": 2709,
+          "avg_net_price": 28061
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 234915,
+        "slug": "city-university-of-seattle",
+        "name": "City University of Seattle",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 2007,
+          "avg_net_price": 35049
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 112075,
+        "slug": "concordia-university-irvine",
+        "name": "Concordia University-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6598685701336959,
+          "yield_rate": 0.11607142857142858,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 3658,
+          "avg_net_price": 28046
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 210331,
+        "slug": "corban-university",
+        "name": "Corban University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9389587073608617,
+          "yield_rate": 0.2734225621414914,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 1029,
+          "avg_net_price": 25525
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 113698,
+        "slug": "dominican-university-of-california",
+        "name": "Dominican University of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8349950149551346,
+          "yield_rate": 0.1271641791044776,
+          "grad_rate": 0.78,
+          "retention_rate": 0.85,
+          "enrollment": 1900,
+          "avg_net_price": 50218
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 114813,
+        "slug": "fresno-pacific-university",
+        "name": "Fresno Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.640721940214326,
+          "yield_rate": 0.17253521126760563,
+          "grad_rate": 0.5,
+          "retention_rate": 0.72,
+          "enrollment": 2879,
+          "avg_net_price": 14317
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 208822,
+        "slug": "george-fox-university",
+        "name": "George Fox University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9351081530782029,
+          "yield_rate": 0.18073207930859175,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 4916,
+          "avg_net_price": 29981
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 115083,
+        "slug": "golden-gate-university",
+        "name": "Golden Gate University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3098
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 235422,
+        "slug": "heritage-university",
+        "name": "Heritage University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.52,
+          "retention_rate": 0.57,
+          "enrollment": 937,
+          "avg_net_price": 11893
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 117627,
+        "slug": "la-sierra-university",
+        "name": "La Sierra University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9149713093375065,
+          "yield_rate": 0.13283922462941847,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 1574,
+          "avg_net_price": 26217
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 209056,
+        "slug": "lewis-and-clark-college",
+        "name": "Lewis & Clark College",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7849241466498104,
+          "yield_rate": 0.09704046708274612,
+          "grad_rate": 0.75,
+          "retention_rate": 0.89,
+          "enrollment": 3504,
+          "avg_net_price": 36084
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 117104,
+        "slug": "life-pacific-university",
+        "name": "Life Pacific University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.957983193277311,
+          "yield_rate": 0.33771929824561403,
+          "grad_rate": 0.38,
+          "retention_rate": 0.73,
+          "enrollment": 621,
+          "avg_net_price": 22343
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 209065,
+        "slug": "linfield-university",
+        "name": "Linfield University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8516546215290985,
+          "yield_rate": 0.1701652523447968,
+          "grad_rate": 0.7,
+          "retention_rate": 0.8,
+          "enrollment": 1709,
+          "avg_net_price": 27341
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 119173,
+        "slug": "mount-saint-mary-s-university",
+        "name": "Mount Saint Mary's University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7312576812781647,
+          "yield_rate": 0.11988795518207283,
+          "grad_rate": 0.48,
+          "retention_rate": 0.71,
+          "enrollment": 2312,
+          "avg_net_price": 25009
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 118888,
+        "slug": "northeastern-university-oakland",
+        "name": "Northeastern University Oakland",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.16650027731558514,
+          "yield_rate": 0.1485676215856096,
+          "grad_rate": 0.62,
+          "retention_rate": 0.0,
+          "enrollment": 640
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 236230,
+        "slug": "pacific-lutheran-university",
+        "name": "Pacific Lutheran University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7802483974358975,
+          "yield_rate": 0.14120667522464697,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 2797,
+          "avg_net_price": 21370
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 120768,
+        "slug": "pacific-oaks-college",
+        "name": "Pacific Oaks College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34375,
+          "yield_rate": 0.22727272727272727,
+          "enrollment": 1068
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 209612,
+        "slug": "pacific-university",
+        "name": "Pacific University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8955823293172691,
+          "yield_rate": 0.1311659192825112,
+          "grad_rate": 0.67,
+          "retention_rate": 0.79,
+          "enrollment": 3427,
+          "avg_net_price": 35350
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 236452,
+        "slug": "saint-martin-s-university",
+        "name": "Saint Martin's University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8979783732957217,
+          "yield_rate": 0.12827225130890052,
+          "grad_rate": 0.52,
+          "retention_rate": 0.65,
+          "enrollment": 1390,
+          "avg_net_price": 22618
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 123554,
+        "slug": "saint-mary-s-college-of-california",
+        "name": "Saint Mary's College of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8653140096618358,
+          "yield_rate": 0.09468512728896829,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 2734,
+          "avg_net_price": 31198
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 123457,
+        "slug": "simpson-university",
+        "name": "Simpson University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8602673147023087,
+          "yield_rate": 0.24152542372881355,
+          "grad_rate": 0.49,
+          "retention_rate": 0.6,
+          "enrollment": 992,
+          "avg_net_price": 27923
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 124292,
+        "slug": "thomas-aquinas-college",
+        "name": "Thomas Aquinas College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8308823529411765,
+          "yield_rate": 0.6769911504424779,
+          "grad_rate": 0.84,
+          "retention_rate": 0.92,
+          "enrollment": 566,
+          "avg_net_price": 25032
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 236328,
+        "slug": "university-of-puget-sound",
+        "name": "University of Puget Sound",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.722466119488452,
+          "yield_rate": 0.11360634081902246,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 1864,
+          "avg_net_price": 38920
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 121691,
+        "slug": "university-of-redlands",
+        "name": "University of Redlands",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8271375464684015,
+          "yield_rate": 0.15858747993579456,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3087,
+          "avg_net_price": 22867
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 120883,
+        "slug": "university-of-the-pacific",
+        "name": "University of the Pacific",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7132390745501286,
+          "yield_rate": 0.1380428906109209,
+          "grad_rate": 0.68,
+          "retention_rate": 0.88,
+          "enrollment": 6944,
+          "avg_net_price": 25926
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 236896,
+        "slug": "walla-walla-university",
+        "name": "Walla Walla University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5076576576576577,
+          "yield_rate": 0.35847382431233366,
+          "grad_rate": 0.58,
+          "retention_rate": 0.85,
+          "enrollment": 1426,
+          "avg_net_price": 23992
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 210304,
+        "slug": "warner-pacific-university",
+        "name": "Warner Pacific University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7114093959731543,
+          "yield_rate": 0.11635220125786164,
+          "grad_rate": 0.49,
+          "retention_rate": 0.92,
+          "enrollment": 378,
+          "avg_net_price": 18818
+        }
+      },
+      {
+        "rank": 42,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 43,
+        "unitid": 237057,
+        "slug": "whitman-college",
+        "name": "Whitman College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3814717658428828,
+          "yield_rate": 0.14115092290988057,
+          "grad_rate": 0.81,
+          "retention_rate": 0.87,
+          "enrollment": 1561,
+          "avg_net_price": 35506
+        }
+      },
+      {
+        "rank": 44,
+        "unitid": 125763,
+        "slug": "whittier-college",
+        "name": "Whittier College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8078694014231896,
+          "yield_rate": 0.054145077720207255,
+          "grad_rate": 0.6,
+          "retention_rate": 0.66,
+          "enrollment": 795,
+          "avg_net_price": 29871
+        }
+      },
+      {
+        "rank": 45,
+        "unitid": 237066,
+        "slug": "whitworth-university",
+        "name": "Whitworth University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8977841315225161,
+          "yield_rate": 0.1393312101910828,
+          "grad_rate": 0.71,
+          "retention_rate": 0.78,
+          "enrollment": 2314,
+          "avg_net_price": 25884
+        }
+      },
+      {
+        "rank": 46,
+        "unitid": 210401,
+        "slug": "willamette-university",
+        "name": "Willamette University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7708768267223383,
+          "yield_rate": 0.14251861882193637,
+          "grad_rate": 0.71,
+          "retention_rate": 0.87,
+          "enrollment": 2180,
+          "avg_net_price": 23663
+        }
+      },
+      {
+        "rank": 47,
+        "unitid": 122728,
+        "slug": "william-jessup-university",
+        "name": "William Jessup University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9332816136539953,
+          "yield_rate": 0.19617622610141314,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 1865,
+          "avg_net_price": 25300
+        }
+      },
+      {
+        "rank": 48,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.puc.edu/about-puc/institutional-research",
+    "office_name": "Office of Institutional Research, Assessment, and Planning",
+    "summary": "The Office of Institutional Research, Assessment, and Planning advances institutional effectiveness and student success by promoting a data-driven culture that supports assessment, planning, and informed decision-making.",
+    "phone": "707-965-6313",
+    "email": "ir@puc.edu",
+    "address": "Pacific Union College, One Angwin Avenue, Angwin, CA 94508",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T23:49:02.323561+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Maureen Pakalapati",
+      "title": "Director of Institutional Research",
+      "email": "ir@puc.edu"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120865",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:49:05.186162+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Amanda Barnes",
+      "field": "Education"
+    },
+    {
+      "name": "Jarrod Denton",
+      "field": "Architecture"
+    },
+    {
+      "name": "Peter Han",
+      "field": "Medicine"
+    },
+    {
+      "name": "Nephtali Marin",
+      "field": "Film"
+    },
+    {
+      "name": "Dr. Carlyn Ferrari",
+      "field": "Literature"
+    }
+  ]
+}

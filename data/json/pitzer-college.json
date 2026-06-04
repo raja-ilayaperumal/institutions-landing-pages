@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:48.708720+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121257,
+    "slug": "pitzer-college",
+    "name": "Pitzer College",
+    "website_url": "https://www.pitzer.edu",
+    "city": "Claremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91711-6101",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "PWD6BQ368DU9",
+      "opeid": "00117200",
+      "ein": "952261113"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Pitzer College is a private liberal arts and sciences college located in Claremont, California. It was founded in 1963 and has an enrollment of approximately 1,200 students, focusing on environmental studies, interdisciplinary learning, and social justice.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pitzer_College",
+    "source_url": "https://en.wikipedia.org/wiki/Pitzer_College",
+    "fetched_at": "2026-06-03T16:36:53.26841+05:30"
+  },
+  "admissions": {
+    "applicants": 3438,
+    "admits": 865,
+    "enrolled": 310,
+    "first_time_freshmen": 310,
+    "first_time_freshmen_ft": 310,
+    "admission_rate": 0.1666,
+    "admit_rate": 0.2515997673065736,
+    "yield_rate": 0.3583815028901734
+  },
+  "cost": {
+    "in_state_tuition": 62692,
+    "out_of_state_tuition": 62692,
+    "avg_net_price": 31663,
+    "pell_grant_rate": 0.0235,
+    "federal_loan_rate": 0.217,
+    "net_price_by_family_income": {
+      "0_30k": 9284,
+      "30_48k": 16361,
+      "48_75k": 17911,
+      "75_110k": 22791,
+      "110k_plus": 49894
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8321,
+    "grad_rate_total": 0.83,
+    "grad_4yr_bachelors": 0.58,
+    "grad_5yr_bachelors": 0.8,
+    "grad_6yr_bachelors": 0.83,
+    "pell_grad_rate": 0.89,
+    "pell_6yr_bachelors_rate": 0.89,
+    "non_pell_grad_rate": 0.89,
+    "non_pell_6yr_bachelors": 0.89,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1236,
+    "ug_12mo": 1236,
+    "grad_12mo": 0,
+    "women_12mo": 729,
+    "men_12mo": 507,
+    "fall_total": 1242,
+    "distance_ed_any": 1242,
+    "race_ethnicity": {
+      "white": 0.4861,
+      "black": 0.0445,
+      "hispanic": 0.1276,
+      "asian": 0.1192,
+      "ai_an": 0.0059,
+      "nh_pi": 0.0034,
+      "two_or_more": 0.0999,
+      "non_resident": 0.0806,
+      "race_unknown": 0.0327
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "05",
+        "cip_family_label": "Area/Ethnic Studies",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 13
+      }
+    ],
+    "program_count": 72,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 105
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 160977,
+        "slug": "bates-college",
+        "name": "Bates College",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.13324025132143213,
+          "yield_rate": 0.3652694610778443,
+          "grad_rate": 0.9,
+          "retention_rate": 0.91,
+          "enrollment": 1760,
+          "avg_net_price": 30703
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 173258,
+        "slug": "carleton-college",
+        "name": "Carleton College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2041216879293425,
+          "yield_rate": 0.3482142857142857,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 2128,
+          "avg_net_price": 27320
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 112260,
+        "slug": "claremont-mckenna-college",
+        "name": "Claremont McKenna College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09587992035533772,
+          "yield_rate": 0.5383386581469649,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1393,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 212009,
+        "slug": "dickinson-college",
+        "name": "Dickinson College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4209148525764673,
+          "yield_rate": 0.21145662847790508,
+          "grad_rate": 0.8,
+          "retention_rate": 0.92,
+          "enrollment": 2314,
+          "avg_net_price": 32191
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 212577,
+        "slug": "franklin-and-marshall-college",
+        "name": "Franklin and Marshall College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28185406335391155,
+          "yield_rate": 0.17127468581687613,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 1808,
+          "avg_net_price": 39061
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 153384,
+        "slug": "grinnell-college",
+        "name": "Grinnell College",
+        "state": "Iowa",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1451117032178725,
+          "yield_rate": 0.3093220338983051,
+          "grad_rate": 0.88,
+          "retention_rate": 0.93,
+          "enrollment": 1788,
+          "avg_net_price": 15608
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 191515,
+        "slug": "hamilton-college",
+        "name": "Hamilton College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1362091196811628,
+          "yield_rate": 0.3898450946643718,
+          "grad_rate": 0.91,
+          "retention_rate": 0.95,
+          "enrollment": 2031,
+          "avg_net_price": 28314
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 115409,
+        "slug": "harvey-mudd-college",
+        "name": "Harvey Mudd College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12661955241460543,
+          "yield_rate": 0.3581395348837209,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 951,
+          "avg_net_price": 32492
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 212911,
+        "slug": "haverford-college",
+        "name": "Haverford College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12368887072605912,
+          "yield_rate": 0.4262114537444934,
+          "grad_rate": 0.9,
+          "retention_rate": 0.94,
+          "enrollment": 1431,
+          "avg_net_price": 25210
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 203535,
+        "slug": "kenyon-college",
+        "name": "Kenyon College",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.31025110018120633,
+          "yield_rate": 0.1831455986649979,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 2249,
+          "avg_net_price": 29383
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 173902,
+        "slug": "macalester-college",
+        "name": "Macalester College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2852363960749331,
+          "yield_rate": 0.21892103205629398,
+          "grad_rate": 0.87,
+          "retention_rate": 0.92,
+          "enrollment": 2138,
+          "avg_net_price": 29980
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 130590,
+        "slug": "trinity-college",
+        "name": "Trinity College",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2924932975871314,
+          "yield_rate": 0.24839596700274977,
+          "grad_rate": 0.84,
+          "retention_rate": 0.9,
+          "enrollment": 2238,
+          "avg_net_price": 35009
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 197133,
+        "slug": "vassar-college",
+        "name": "Vassar College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.185667229051177,
+          "yield_rate": 0.28775421895283426,
+          "grad_rate": 0.91,
+          "retention_rate": 0.95,
+          "enrollment": 2462,
+          "avg_net_price": 38182
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 237057,
+        "slug": "whitman-college",
+        "name": "Whitman College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3814717658428828,
+          "yield_rate": 0.14115092290988057,
+          "grad_rate": 0.81,
+          "retention_rate": 0.87,
+          "enrollment": 1561,
+          "avg_net_price": 35506
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.pitzer.edu/offices/institutional-research",
+    "office_name": "Office of Institutional Research & Assessment",
+    "summary": "The Office of Institutional Research & Assessment at Pitzer College functions to provide reliable information and analyses in support of planning, decision-making, and policy formation, and to assist in the development and implementation of a plan for assessing student learning outcomes.",
+    "phone": "909-607-7283",
+    "email": "Leeshawn_CradocMoore@pitzer.edu",
+    "address": "Avery Hall, Room 107, 1050 N. Mills Avenue, Claremont, CA 91711",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:47:51.487941+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Leeshawn Cradoc Moore",
+      "title": "Director of Institutional Research and Assessment",
+      "email": "Leeshawn_CradocMoore@pitzer.edu",
+      "phone": "(909) 607-7283",
+      "linkedin_url": "https://www.linkedin.com/in/adeptresearcher"
+    },
+    {
+      "ordering": 1,
+      "name": "Michael Coleman",
+      "title": "Assistant Director of Institutional Research and Assessment",
+      "email": "Michael_Coleman@pitzer.edu",
+      "phone": "(909) 607-9232",
+      "linkedin_url": "https://www.linkedin.com/in/tessa-peterson-a8577a3"
+    },
+    {
+      "ordering": 2,
+      "name": "Rogelio Garcia",
+      "title": "Research Analyst",
+      "email": "Rogelio_Garcia@pitzer.edu",
+      "phone": "(909) 607-9231",
+      "linkedin_url": "https://www.linkedin.com/in/rogelio-garcia-ucm"
+    },
+    {
+      "ordering": 3,
+      "name": "Afaf Igbaria",
+      "title": "Senior Research Analyst",
+      "email": "Afaf_Igbaria@pitzer.edu",
+      "phone": "(909) 607-9645",
+      "linkedin_url": "https://www.linkedin.com/in/afaf-igbaria-8290a266"
+    },
+    {
+      "ordering": 4,
+      "name": "Angel Jauregui",
+      "title": "Data & Analytics Support Specialist",
+      "email": "Angel_Jauregui@pitzer.edu",
+      "phone": "(909) 607-9596"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.pitzer.edu/documents/common-data-set-2025-2026",
+      "is_pdf": false
+    },
+    {
+      "year": 2024,
+      "url": "https://www.pitzer.edu/documents/cds-2024-2025-final",
+      "is_pdf": false
+    },
+    {
+      "year": 2023,
+      "url": "https://www.pitzer.edu/documents/2023-2024-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2022,
+      "url": "https://www.pitzer.edu/documents/2022-2023-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2021,
+      "url": "https://www.pitzer.edu/documents/2021-2022-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2020,
+      "url": "https://www.pitzer.edu/documents/2020-2021-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2019,
+      "url": "https://www.pitzer.edu/documents/2019-2020-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2018,
+      "url": "https://www.pitzer.edu/documents/2018-2019-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2017,
+      "url": "https://www.pitzer.edu/documents/2017-2018-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2016,
+      "url": "https://www.pitzer.edu/documents/2016-2017-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2015,
+      "url": "https://www.pitzer.edu/documents/2015-2016-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2014,
+      "url": "https://www.pitzer.edu/documents/2014-2015-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2013,
+      "url": "https://www.pitzer.edu/documents/2013-2014-pitzer-common-data-set",
+      "is_pdf": false
+    },
+    {
+      "year": 2012,
+      "url": "https://www.pitzer.edu/documents/2012-2013-pitzer-common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.pitzer.edu/offices/institutional-research/institutional-dashboards",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:47:03.852603+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121257",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:47:54.025438+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Pitzer's Strategic Vision",
+      "url": "https://www.pitzer.edu/strategic-vision",
+      "summary": "Pitzer College's new strategic vision aims to ignite change for a more just, sustainable, and inclusive world. This plan centers on four primary goals: catalyzing bold learning, expanding student access, community-building, and resource growth. By engaging the Pitzer community in its design, the vision reinforces Pitzer's commitment to rigorous, justice-centered education and sustainability, laying a roadmap for the upcoming decade of teaching and institutional development.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:42:31.384012+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Samantha Bromley-Coolidge",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Maya Ellisman",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Kelsey Herrman",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Ian McLaughlin",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Ben Rakela",
+      "field": "Neuroscience"
+    },
+    {
+      "name": "Alison Sargoy",
+      "field": "Pharmaceuticals"
+    },
+    {
+      "name": "Andrew Scheyer",
+      "field": "Pharmacology"
+    }
+  ]
+}

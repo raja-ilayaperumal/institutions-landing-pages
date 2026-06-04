@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:41.242943+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120403,
+    "slug": "otis-college-of-art-and-design",
+    "name": "Otis College of Art and Design",
+    "website_url": "https://www.otis.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90045-3505",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DVZLLPHRVBL3",
+      "opeid": "00125100",
+      "ein": "132981115"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Otis College of Art and Design is a private art and design school in Los Angeles, California, United States. Established in 1918, it was the city's first independent professional school of art. The main campus is located in the former IBM Aerospace headquarters at 9045 Lincoln Boulevard in Westchester, Los Angeles. The school's programs, accredited by the WSCUC and National Association of Schools of Art and Design, include BFA and MFA degrees.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Otis_College_of_Art_and_Design",
+    "source_url": "https://en.wikipedia.org/wiki/Otis_College_of_Art_and_Design",
+    "fetched_at": "2026-06-01T22:40:51.684431+05:30"
+  },
+  "admissions": {
+    "applicants": 2549,
+    "admits": 2084,
+    "enrolled": 218,
+    "first_time_freshmen": 218,
+    "first_time_freshmen_ft": 218,
+    "admission_rate": 0.8398,
+    "admit_rate": 0.8175755198116909,
+    "yield_rate": 0.10460652591170826
+  },
+  "cost": {
+    "in_state_tuition": 55513,
+    "out_of_state_tuition": 55513,
+    "avg_net_price": 45864,
+    "pell_grant_rate": 0.0217,
+    "federal_loan_rate": 0.418,
+    "net_price_by_family_income": {
+      "0_30k": 40358,
+      "30_48k": 39688,
+      "48_75k": 43733,
+      "75_110k": 48011,
+      "110k_plus": 52546
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6059,
+    "grad_rate_total": 0.66,
+    "grad_4yr_bachelors": 0.5,
+    "grad_5yr_bachelors": 0.62,
+    "grad_6yr_bachelors": 0.66,
+    "pell_grad_rate": 0.68,
+    "pell_6yr_bachelors_rate": 0.68,
+    "non_pell_grad_rate": 0.68,
+    "non_pell_6yr_bachelors": 0.68,
+    "retention_full_time": 0.74
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1342,
+    "ug_12mo": 1291,
+    "grad_12mo": 51,
+    "women_12mo": 933,
+    "men_12mo": 409,
+    "fall_total": 1267,
+    "distance_ed_any": 1267,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.2238,
+      "black": 0.0556,
+      "hispanic": 0.2174,
+      "asian": 0.1731,
+      "ai_an": 0.0008,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0797,
+      "non_resident": 0.2407,
+      "race_unknown": 0.0089
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 277
+      },
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 10
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 54
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109651,
+        "slug": "art-center-college-of-design",
+        "name": "Art Center College of Design",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7453798767967146,
+          "yield_rate": 0.3149678604224059,
+          "grad_rate": 0.79,
+          "retention_rate": 0.86,
+          "enrollment": 2308,
+          "avg_net_price": 50209
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110370,
+        "slug": "california-college-of-the-arts",
+        "name": "California College of the Arts",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.911008013496415,
+          "yield_rate": 0.07962962962962963,
+          "grad_rate": 0.61,
+          "retention_rate": 0.87,
+          "enrollment": 1308,
+          "avg_net_price": 42168
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 163295,
+        "slug": "maryland-institute-college-of-art",
+        "name": "Maryland Institute College of Art",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.767885035926273,
+          "yield_rate": 0.10374288039056143,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 1687,
+          "avg_net_price": 38429
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 194578,
+        "slug": "pratt-institute-main",
+        "name": "Pratt Institute-Main",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7325292656970557,
+          "yield_rate": 0.18321226795803067,
+          "grad_rate": 0.74,
+          "retention_rate": 0.88,
+          "enrollment": 5356,
+          "avg_net_price": 50647
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 217493,
+        "slug": "rhode-island-school-of-design",
+        "name": "Rhode Island School of Design",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18664076509264793,
+          "yield_rate": 0.41473178542834266,
+          "grad_rate": 0.89,
+          "retention_rate": 0.95,
+          "enrollment": 2520,
+          "avg_net_price": 46253
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 140951,
+        "slug": "savannah-college-of-art-and-design",
+        "name": "Savannah College of Art and Design",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298445725745801,
+          "yield_rate": 0.26402839664677896,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 18550,
+          "avg_net_price": 45450
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 143048,
+        "slug": "school-of-the-art-institute-of-chicago",
+        "name": "School of the Art Institute of Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7746755206761243,
+          "yield_rate": 0.11766997857003701,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3394,
+          "avg_net_price": 49822
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 197151,
+        "slug": "school-of-visual-arts",
+        "name": "School of Visual Arts",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9264331210191082,
+          "yield_rate": 0.20763148848401514,
+          "grad_rate": 0.76,
+          "retention_rate": 0.85,
+          "enrollment": 3812,
+          "avg_net_price": 58628
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.otis.edu/about/otis-glance/student-outcomes/institutional-research.html",
+    "office_name": "Office of Institutional Research and Effectiveness",
+    "summary": "The Office of Institutional Research and Effectiveness (OIRE) develops, conducts, and coordinates research activities, supports institutional effectiveness, strategic planning, assessment and accreditation activities, enrollment management, grants, and related data-driven activities.",
+    "address": "9045 Lincoln Blvd, Los Angeles, CA 90045",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:40:50.611807+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Angila Romious, Ph.D.",
+      "title": "Executive Director"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://www.otis.edu/about/documents/CDS%202024-2025_03282025_FINALv2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.otis.edu/about/documents/cds_2022-2023_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://www.otis.edu/about/documents/cds_2020-2021_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://www.otis.edu/about/documents/cds_2019-2020_draft_5.0_final_0.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.otis.edu/about/initiatives/creative-economy/index.html",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:40:33.05472+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120403",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:40:52.993439+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research | Otis College",
+      "url": "https://otis.edu/about/otis-glance/student-outcomes/institutional-research.html",
+      "summary": "The Institutional Research page at Otis College provides information about the Office of Institutional Research and Effectiveness (OIRE) and its role in supporting institutional effectiveness, strategic planning, and accountability reporting. It includes data regarding student outcomes, learning assessment, and career outcomes, along with links to external resources.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:40:19.197552+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "Strategic Plan",
+      "url": "https://www.otis.edu/about/initiatives/index.html",
+      "summary": "The Otis College of Art and Design's Strategic Plan for 2025-2029 is crafted based on extensive community input. This plan encompasses the creative economy and sustainability as key focus areas. It aims to guide the institution's growth and impact over the next four years with the involvement of all constituencies.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:39:47.172498+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Harwell Hamilton Harris",
+      "field": "Architecture"
+    },
+    {
+      "name": "John Hench",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Hench",
+      "field": "Art and Animation"
+    },
+    {
+      "name": "Wilfred Jackson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wilfred_Jackson",
+      "field": "Animation"
+    },
+    {
+      "name": "Tyrus Wong",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tyrus_Wong",
+      "field": "Art"
+    },
+    {
+      "name": "Robert Irwin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Robert_Irwin_(artist)",
+      "field": "Art"
+    },
+    {
+      "name": "Billy Al Bengston",
+      "field": "Art"
+    },
+    {
+      "name": "Ken Price",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Price",
+      "field": "Sculpture"
+    },
+    {
+      "name": "Kerry James Marshall",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kerry_James_Marshall",
+      "field": "Visual Art"
+    },
+    {
+      "name": "Rick Owens",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Owens",
+      "field": "Fashion Design"
+    },
+    {
+      "name": "Alison Saar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alison_Saar",
+      "field": "Sculpture"
+    },
+    {
+      "name": "Patssi Valdez",
+      "field": "Art"
+    },
+    {
+      "name": "Jeffrey Vallance",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeffrey_Vallance",
+      "field": "Art"
+    },
+    {
+      "name": "Jane Bauman",
+      "field": "Art"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:55.298152+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 378576,
+    "slug": "pacific-college-of-health-and-science",
+    "name": "Pacific College of Health and Science",
+    "website_url": "https://www.pacificcollege.edu",
+    "city": "San Diego",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92108-4407",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KZU5TW4GNHM3",
+      "opeid": "03027700",
+      "ein": "263844066"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Pacific College of Health and Science is a private for-profit institution focused on traditional medicine and integrative health science education. Founded in 1986, it was originally known as Pacific College of Oriental Medicine. The college's main campus is located in New York.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pacific_College_of_Health_and_Science",
+    "source_url": "https://en.wikipedia.org/wiki/Pacific_College_of_Health_and_Science",
+    "fetched_at": "2026-06-02T11:32:29.099661+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 10732,
+    "out_of_state_tuition": 10732,
+    "avg_net_price": 39710,
+    "pell_grant_rate": 0.6936,
+    "federal_loan_rate": 0.4658,
+    "net_price_by_family_income": {
+      "0_30k": 39300,
+      "30_48k": 39771,
+      "48_75k": 41495,
+      "110k_plus": 41495
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6727,
+    "grad_rate_total": 0.77,
+    "pell_grad_rate": 0.87,
+    "non_pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1391,
+    "ug_12mo": 432,
+    "grad_12mo": 959,
+    "women_12mo": 1129,
+    "men_12mo": 262,
+    "fall_total": 786,
+    "distance_ed_any": 786,
+    "distance_ed_exclusive": 437,
+    "race_ethnicity": {
+      "white": 0.052,
+      "black": 0.0289,
+      "hispanic": 0.052,
+      "asian": 0.0173,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0231,
+      "non_resident": 0.0173,
+      "race_unknown": 0.8092
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 270
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 7
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 451079,
+        "slug": "academy-for-five-element-acupuncture",
+        "name": "Academy for Five Element Acupuncture",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 39
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 108269,
+        "slug": "academy-of-chinese-culture-and-health-sciences",
+        "name": "Academy of Chinese Culture and Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 114
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446002,
+        "slug": "american-academy-of-health-and-wellness",
+        "name": "American Academy of Health and Wellness",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 29
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 429085,
+        "slug": "american-college-of-acupuncture-and-oriental-med",
+        "name": "American College of Acupuncture and Oriental Med",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 76
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 441636,
+        "slug": "american-institute-of-alternative-medicine",
+        "name": "American Institute of Alternative Medicine",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7828571428571428,
+          "yield_rate": 0.6058394160583942,
+          "enrollment": 251,
+          "avg_net_price": 32285
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 429094,
+        "slug": "aoma-graduate-school-of-integrative-medicine",
+        "name": "AOMA Graduate School of Integrative Medicine",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 7,
+        "unitid": 446039,
+        "slug": "arizona-school-of-acupuncture-and-oriental-medicine",
+        "name": "Arizona School of Acupuncture and Oriental Medicine",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 19
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 439446,
+        "slug": "atlantic-institute-of-oriental-medicine",
+        "name": "Atlantic Institute of Oriental Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 235547,
+        "slug": "bastyr-university",
+        "name": "Bastyr University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 734
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 110316,
+        "slug": "california-institute-of-integral-studies",
+        "name": "California Institute of Integral Studies",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1874
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 381352,
+        "slug": "colorado-chinese-medicine-university",
+        "name": "Colorado Chinese Medicine University",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 455178,
+        "slug": "daoist-traditions-college-of-chinese-medical-arts",
+        "name": "Daoist Traditions College of Chinese Medical Arts",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 102
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 122117,
+        "slug": "dongguk-university-los-angeles",
+        "name": "Dongguk University Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 102
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 449481,
+        "slug": "dragon-rises-college-of-oriental-medicine",
+        "name": "Dragon Rises College of Oriental Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 71
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 439394,
+        "slug": "east-west-college-of-natural-medicine",
+        "name": "East West College of Natural Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 27
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 446224,
+        "slug": "eastern-school-of-acupuncture-and-traditional-medicine",
+        "name": "Eastern School of Acupuncture and Traditional Medicine",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 42
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 114114,
+        "slug": "emperor-s-college-of-traditional-oriental-medicine",
+        "name": "Emperor's College of Traditional Oriental Medicine",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 150
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 434441,
+        "slug": "florida-college-of-integrative-medicine",
+        "name": "Florida College of Integrative Medicine",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 54
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 444699,
+        "slug": "institute-of-clinical-acupuncture-and-oriental-medicine",
+        "name": "Institute of Clinical Acupuncture & Oriental Medicine",
+        "state": "Hawaii",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 61
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 454838,
+        "slug": "institute-of-taoist-education-and-acupuncture",
+        "name": "Institute of Taoist Education and Acupuncture",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 32
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 461139,
+        "slug": "jung-tao-school-of-classical-chinese-medicine",
+        "name": "Jung Tao School of Classical Chinese Medicine",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 69
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 164085,
+        "slug": "maryland-university-of-integrative-health",
+        "name": "Maryland University of Integrative Health",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 544
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 166869,
+        "slug": "mgh-institute-of-health-professions",
+        "name": "MGH Institute of Health Professions",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1672
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 439020,
+        "slug": "midwest-college-of-oriental-medicine-skokie",
+        "name": "Midwest College of Oriental Medicine-Skokie",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 30
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 147590,
+        "slug": "national-university-of-health-sciences",
+        "name": "National University of Health Sciences",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 511
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 209296,
+        "slug": "national-university-of-natural-medicine",
+        "name": "National University of Natural Medicine",
+        "state": "Oregon",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 414
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 418126,
+        "slug": "new-york-college-of-health-professions",
+        "name": "New York College of Health Professions",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7878787878787878,
+          "yield_rate": 0.5384615384615384,
+          "enrollment": 96,
+          "avg_net_price": 42908
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 439783,
+        "slug": "new-york-college-of-traditional-chinese-medicine",
+        "name": "New York College of Traditional Chinese Medicine",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 172
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 193751,
+        "slug": "northeast-college-of-health-sciences",
+        "name": "Northeast College of Health Sciences",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9428571428571428,
+          "yield_rate": 1.0,
+          "enrollment": 564
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 174507,
+        "slug": "northwestern-health-sciences-university",
+        "name": "Northwestern Health Sciences University",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1101,
+          "avg_net_price": 29794
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 369659,
+        "slug": "oregon-college-of-oriental-medicine",
+        "name": "Oregon College of Oriental Medicine",
+        "state": "Oregon",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 32,
+        "unitid": 115746,
+        "slug": "pacifica-graduate-institute",
+        "name": "Pacifica Graduate Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 833
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 447698,
+        "slug": "phoenix-institute-of-herbal-medicine-and-acupuncture",
+        "name": "Phoenix Institute of Herbal Medicine & Acupuncture",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 118
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 439914,
+        "slug": "seattle-institute-of-east-asian-medicine",
+        "name": "Seattle Institute of East Asian Medicine",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 50
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 123633,
+        "slug": "south-baylo-university",
+        "name": "South Baylo University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 198
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 117672,
+        "slug": "southern-california-university-of-health-sciences",
+        "name": "Southern California University of Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2008,
+          "avg_net_price": 45633
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 175005,
+        "slug": "st-catherine-university",
+        "name": "St Catherine University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9184760344121262,
+          "yield_rate": 0.18777876895628903,
+          "grad_rate": 0.61,
+          "retention_rate": 0.8,
+          "enrollment": 3651,
+          "avg_net_price": 21563
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 430704,
+        "slug": "texas-health-and-science-university",
+        "name": "Texas Health and Science University",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 92
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 128744,
+        "slug": "university-of-bridgeport",
+        "name": "University of Bridgeport",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8302479159900401,
+          "yield_rate": 0.04850697613769722,
+          "grad_rate": 0.41,
+          "retention_rate": 0.61,
+          "enrollment": 3838,
+          "avg_net_price": 24786
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 442064,
+        "slug": "won-institute-of-graduate-studies",
+        "name": "Won Institute of Graduate Studies",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 118
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 401250,
+        "slug": "yo-san-university-of-traditional-chinese-medicine",
+        "name": "Yo San University of Traditional Chinese Medicine",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 166
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=378576",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:32:30.716303+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

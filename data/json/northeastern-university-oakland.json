@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:24.719228+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 118888,
+    "slug": "northeastern-university-oakland",
+    "name": "Northeastern University Oakland",
+    "website_url": "https://oakland.northeastern.edu",
+    "city": "Oakland",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94613",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HLTMVS2JZBS6",
+      "opeid": "00219917",
+      "ein": "041679980"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Northeastern University is a private research university with its main campus in Boston, Massachusetts, United States. It was founded by the Boston Young Men's Christian Association in 1898 as an all-male institute before being incorporated as Northeastern College in 1916, gaining university status in 1922.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Northeastern_University",
+    "source_url": "https://en.wikipedia.org/wiki/Northeastern_University",
+    "fetched_at": "2026-06-03T16:33:40.952654+05:30"
+  },
+  "admissions": {
+    "applicants": 18030,
+    "admits": 3002,
+    "enrolled": 446,
+    "first_time_freshmen": 446,
+    "first_time_freshmen_ft": 446,
+    "admission_rate": 0.1654,
+    "admit_rate": 0.16650027731558514,
+    "yield_rate": 0.1485676215856096,
+    "sat_average": 1472,
+    "sat_math_25_75": [
+      720,
+      780
+    ],
+    "sat_reading_25_75": [
+      670,
+      740
+    ],
+    "act_composite_25_75": [
+      31,
+      33
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 63949,
+    "out_of_state_tuition": 63949,
+    "pell_grant_rate": 0.0,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.64,
+    "grad_4yr_bachelors": 0.61,
+    "grad_5yr_bachelors": 0.62,
+    "grad_6yr_bachelors": 0.62,
+    "pell_grad_rate": 0.59,
+    "pell_6yr_bachelors_rate": 0.56,
+    "non_pell_grad_rate": 0.67,
+    "non_pell_6yr_bachelors": 0.65,
+    "retention_full_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 688,
+    "ug_12mo": 553,
+    "grad_12mo": 135,
+    "women_12mo": 344,
+    "men_12mo": 344,
+    "fall_total": 640,
+    "distance_ed_any": 640,
+    "distance_ed_exclusive": 3,
+    "race_ethnicity": {
+      "white": 0.2565,
+      "black": 0.0535,
+      "hispanic": 0.1365,
+      "asian": 0.3782,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0664,
+      "non_resident": 0.059,
+      "race_unknown": 0.0498
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2
+      }
+    ],
+    "program_count": 26,
+    "highest_degree": 8,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 82
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.6758,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.6489,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.6391,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120768,
+        "slug": "pacific-oaks-college",
+        "name": "Pacific Oaks College",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.6361,
+        "metrics": {
+          "admit_rate": 0.34375,
+          "yield_rate": 0.22727272727272727,
+          "enrollment": 1068
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117627,
+        "slug": "la-sierra-university",
+        "name": "La Sierra University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.6077,
+        "metrics": {
+          "admit_rate": 0.9149713093375065,
+          "yield_rate": 0.13283922462941847,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 1574,
+          "avg_net_price": 26217
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

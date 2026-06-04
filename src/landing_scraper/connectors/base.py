@@ -12,6 +12,26 @@ import uuid
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Any
+from urllib.parse import urlparse
+
+
+def same_registrable_domain(url: str | None, ctx: "InstitutionContext") -> bool:
+    """True if `url`'s host shares the institution's registrable domain (eTLD+1).
+
+    Search providers treat `site:` as a soft hint, not a hard filter, so a
+    `site:` query can still surface another school's PDF or a third-party page.
+    Connectors that store a discovered URL as *this* institution's document must
+    gate on this to avoid wrong-entity attribution (College A showing College
+    B's factbook). Coarse eTLD+1 compare — lenient across subdomains
+    (ir.foo.edu == foo.edu), good enough for `.edu`.
+    """
+    reg = (ctx.registrable_domain or ctx.domain or "").lower().lstrip(".")
+    host = urlparse(url or "").netloc.lower()
+    if not reg or not host:
+        return False
+    if host.startswith("www."):
+        host = host[4:]
+    return host == reg or host.endswith("." + reg)
 
 
 @dataclass

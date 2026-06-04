@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:25.924549+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 124706,
+    "slug": "concorde-career-college-san-bernardino",
+    "name": "Concorde Career College-San Bernardino",
+    "website_url": "https://www.concorde.edu/campus/san-bernardino-california",
+    "city": "San Bernardino",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92408-3403",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "T87QZLCB8366",
+      "opeid": "00853700",
+      "ein": "952479385"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Concorde Career College-San Bernardino is a vocational training institution located in San Bernardino, California. It offers programs in various healthcare fields, including nursing, dental, diagnostic, patient care, and allied health. The college is part of a larger network of 17 campuses and focuses on providing career-oriented education.",
+    "source_url": "https://www.concorde.edu/about",
+    "fetched_at": "2026-06-03T16:31:59.143656+05:30"
+  },
+  "admissions": {
+    "applicants": 362,
+    "admits": 356,
+    "enrolled": 211,
+    "first_time_freshmen": 211,
+    "first_time_freshmen_ft": 211,
+    "admission_rate": 0.981,
+    "admit_rate": 0.9834254143646409,
+    "yield_rate": 0.5926966292134831
+  },
+  "cost": {
+    "avg_net_price": 23161,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7404,
+    "net_price_by_family_income": {
+      "0_30k": 22803,
+      "30_48k": 23081,
+      "48_75k": 24722,
+      "75_110k": 27207,
+      "110k_plus": 22989
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5694,
+    "grad_rate_total": 0.76,
+    "pell_grad_rate": 0.75,
+    "non_pell_grad_rate": 0.83,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 959,
+    "ug_12mo": 959,
+    "grad_12mo": 0,
+    "women_12mo": 788,
+    "men_12mo": 171,
+    "fall_total": 222,
+    "distance_ed_any": 222,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0423,
+      "black": 0.0885,
+      "hispanic": 0.4115,
+      "asian": 0.0115,
+      "ai_an": 0.0077,
+      "nh_pi": 0.0038,
+      "two_or_more": 0.0231,
+      "non_resident": 0.0,
+      "race_unknown": 0.4115
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 127
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 32
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 446118,
+        "slug": "career-care-institute",
+        "name": "Career Care Institute",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7918,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 620,
+          "avg_net_price": 45587
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 492449,
+        "slug": "pima-medical-institute-san-marcos",
+        "name": "Pima Medical Institute-San Marcos",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7851,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 573,
+          "avg_net_price": 29950
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120078,
+        "slug": "north-west-college-west-covina",
+        "name": "North-West College-West Covina",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7777,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7752808988764045,
+          "retention_rate": 0.76,
+          "enrollment": 653,
+          "avg_net_price": 28408
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 437936,
+        "slug": "carrington-college-san-jose",
+        "name": "Carrington College-San Jose",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7727,
+        "metrics": {
+          "admit_rate": 0.9340659340659341,
+          "yield_rate": 0.7058823529411765,
+          "retention_rate": 0.76,
+          "enrollment": 645,
+          "avg_net_price": 31043
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 494746,
+        "slug": "north-west-college-san-diego",
+        "name": "North-West College-San Diego",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.7725,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 636,
+          "avg_net_price": 43043
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Concorde Alumni Grant",
+      "agency": "Concorde Career College-San Bernardino",
+      "kind": "opportunity",
+      "url": "https://www.concorde.edu/admissions/scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "First Responder Grant",
+      "agency": "Concorde Career College-San Bernardino",
+      "kind": "opportunity",
+      "url": "https://www.concorde.edu/admissions/scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Healthcare Demand Grant",
+      "agency": "Concorde Career College-San Bernardino",
+      "kind": "opportunity",
+      "url": "https://www.concorde.edu/admissions/scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "High School Senior Grant",
+      "agency": "Concorde Career College-San Bernardino",
+      "kind": "opportunity",
+      "url": "https://www.concorde.edu/admissions/scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Previous Education Grant",
+      "agency": "Concorde Career College-San Bernardino",
+      "kind": "opportunity",
+      "url": "https://www.concorde.edu/admissions/scholarships",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

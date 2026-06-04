@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:07.072199+00:00",
+  "generated_at": "2026-06-04T04:57:47.756210+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Pasadena City College (PCC) is a public community college in Pasadena, California. It was founded in 1924 as Pasadena Junior College.",
+    "summary": "Pasadena City College (PCC) is a public community college located in Pasadena, California, founded in 1924. The college serves over 27,250 students and offers a variety of academic programs, including degrees, transfer programs, and certificates, with notable focus areas in health sciences, liberal arts, and vocational training.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pasadena_City_College",
     "source_url": "https://en.wikipedia.org/wiki/Pasadena_City_College",
-    "fetched_at": "2026-05-25T18:49:35.614364+05:30"
+    "fetched_at": "2026-06-03T19:47:26.928483+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1180,
+    "out_of_state_tuition": 10756,
     "avg_net_price": 3123,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5811,
     "federal_loan_rate": 0.0064,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5613,
       "75_110k": 8070,
       "110k_plus": 10004
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.468,
     "grad_rate_total": 0.48,
     "pell_grad_rate": 0.5,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 35539,
     "ug_12mo": 35539,
-    "grad_12mo": 30985,
+    "grad_12mo": 0,
     "women_12mo": 19083,
     "men_12mo": 16456,
     "fall_total": 24597,
-    "fall_full_time": 24597,
-    "fall_part_time": 21466,
     "distance_ed_any": 24597,
     "distance_ed_exclusive": 6364,
     "race_ethnicity": {

@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:52.524059+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110316,
+    "slug": "california-institute-of-integral-studies",
+    "name": "California Institute of Integral Studies",
+    "website_url": "https://www.ciis.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94103",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KYPYLWWACG79",
+      "opeid": "01215400",
+      "ein": "942254303"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of Integral Studies (CIIS) is a private graduate school in San Francisco. Founded in 1968 as the California Institute of Asian Studies, the school adopted its current name in 1980. CIIS has been regionally accredited by the Western Association of Schools and Colleges since 1981.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Institute_of_Integral_Studies",
+    "source_url": "https://en.wikipedia.org/wiki/California_Institute_of_Integral_Studies",
+    "fetched_at": "2026-06-01T21:36:08.068514+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.1228,
+    "federal_loan_rate": 0.4943,
+    "is_private_for_net_price": true
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 2402,
+    "ug_12mo": 96,
+    "grad_12mo": 2306,
+    "women_12mo": 1955,
+    "men_12mo": 447,
+    "fall_total": 1874,
+    "distance_ed_any": 1874,
+    "distance_ed_exclusive": 974,
+    "race_ethnicity": {
+      "white": 0.4912,
+      "black": 0.1579,
+      "hispanic": 0.1228,
+      "asian": 0.0351,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.1579,
+      "non_resident": 0.0,
+      "race_unknown": 0.0351
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 566
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 44
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 22
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "05",
+        "cip_family_label": "Area/Ethnic Studies",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 1
+      }
+    ],
+    "program_count": 13,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 66
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 113698,
+        "slug": "dominican-university-of-california",
+        "name": "Dominican University of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8349950149551346,
+          "yield_rate": 0.1271641791044776,
+          "grad_rate": 0.78,
+          "retention_rate": 0.85,
+          "enrollment": 1900,
+          "avg_net_price": 50218
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 127653,
+        "slug": "naropa-university",
+        "name": "Naropa University",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2727272727272727,
+          "grad_rate": 0.37,
+          "retention_rate": 0.54,
+          "enrollment": 1094,
+          "avg_net_price": 28862
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120184,
+        "slug": "notre-dame-de-namur-university",
+        "name": "Notre Dame de Namur University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9994475138121547,
+          "yield_rate": 0.06633499170812604,
+          "grad_rate": 0.07,
+          "enrollment": 306
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 115746,
+        "slug": "pacifica-graduate-institute",
+        "name": "Pacifica Graduate Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 833
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120698,
+        "slug": "palo-alto-university",
+        "name": "Palo Alto University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1065
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 123095,
+        "slug": "saybrook-university",
+        "name": "Saybrook University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1057
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 126012,
+        "slug": "the-wright-institute",
+        "name": "The Wright Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 518
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.ciis.edu/discover-ciis/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research (IR) provides data, analysis and information services that foster and support effective and informed decision-making, policy formulation and planning.",
+    "phone": "415-533-5357",
+    "address": "1453 Mission St, San Francisco, CA 94103",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:36:07.030046+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Lael Fon",
+      "title": "Director of Institutional Research",
+      "email": "lfon@ciis.edu",
+      "linkedin_url": "https://www.linkedin.com/in/lael-fon-9a3b188"
+    },
+    {
+      "ordering": 0,
+      "name": "Kathleen Marie Clancy",
+      "title": "Sr. Systems Analyst",
+      "email": "kclancy@ciis.edu",
+      "phone": "415.533.5357"
+    },
+    {
+      "ordering": 2,
+      "name": "Amanda Lee",
+      "title": "Institutional Research Analyst",
+      "email": "alee2@ciis.edu",
+      "linkedin_url": "https://www.linkedin.com/in/amanda-lee-communications"
+    },
+    {
+      "ordering": 3,
+      "name": "Jessica McGuire",
+      "title": "Institutional Research Manager",
+      "email": "jmcguire@ciis.edu",
+      "phone": "415.575.3421"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110316",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:07.297101+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "Building On Commitment: CIIS @ 60",
+      "url": "https://www.ciis.edu/presidents-office/strategic-initiatives",
+      "summary": "The California Institute of Integral Studies (CIIS) has unveiled a new strategic plan, 'Building On Commitment: CIIS @ 60,' covering the period from 2022 to 2028. The plan, crafted with extensive community input, centers around goals such as reimagining the university's core identity, achieving sustainability, gaining recognition for diversity, equity, and inclusion efforts, and fostering innovation in research and community life. CIIS aims to continue being a hub for academic rigor and personal growth by embedding spirituality and improving community well-being, ensuring a meaningful impact on society and the world.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:33:23.507674+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Chani Nicholas",
+      "field": "Astrology"
+    },
+    {
+      "name": "Dr. Philip McAdoo",
+      "field": "Leadership and Consulting"
+    },
+    {
+      "name": "Dr. Jessica DiVento Dzuban",
+      "field": "Mental Health"
+    },
+    {
+      "name": "Dr. Talia Molé",
+      "field": "Anthropology and Social Change"
+    },
+    {
+      "name": "Kevonya Elzia",
+      "field": "Integrative Health Studies"
+    },
+    {
+      "name": "Dr. Shefali Tsabary",
+      "field": "Drama Therapy"
+    }
+  ]
+}

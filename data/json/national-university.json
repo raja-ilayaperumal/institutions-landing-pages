@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:12.304534+00:00",
+  "generated_at": "2026-06-04T04:57:34.194492+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -51,19 +51,19 @@
     "yield_rate": 0.4523809523809524
   },
   "cost": {
+    "in_state_tuition": 13320,
+    "out_of_state_tuition": 13320,
     "avg_net_price": 31058,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.59,
     "federal_loan_rate": 0.2279,
     "net_price_by_family_income": {
       "0_30k": 30678,
-      "30_48k": null,
-      "48_75k": null,
-      "75_110k": null,
       "110k_plus": 32956
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.5,
     "grad_rate_total": 0.43,
     "grad_4yr_bachelors": 0.17,
     "grad_5yr_bachelors": 0.5,
@@ -76,12 +76,10 @@
   "enrollment": {
     "enrollment_12mo_total": 32813,
     "ug_12mo": 17183,
-    "grad_12mo": 16015,
+    "grad_12mo": 15630,
     "women_12mo": 20234,
     "men_12mo": 12579,
     "fall_total": 22115,
-    "fall_full_time": 11237,
-    "fall_part_time": 10794,
     "distance_ed_any": 22115,
     "distance_ed_exclusive": 18317,
     "race_ethnicity": {
@@ -446,23 +444,18 @@
       "fetched_at": "2026-05-25T18:56:01.565702+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director of Assessment and Accreditation - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/international/details.cfm?JobCode=179308491&Title=Full-time%20Faculty%2C%20PhD%20Cybersecurity%20and%20Academic%20Program%20Director"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
-      "title": "Faculty Research Support Award (FRSA)",
+      "title": "Micro-Funding Opportunities Tier II",
       "agency": "National University",
       "kind": "opportunity",
-      "amount_usd": 10000,
+      "amount_usd": 3000,
       "url": "https://resources.nu.edu/ogsp/internalfunding",
       "source": "institution_site"
     },
     {
-      "title": "Micro-Funding Opportunities Tier II",
+      "title": "Tier II Micro-Funding",
       "agency": "National University",
       "kind": "opportunity",
       "amount_usd": 3000,

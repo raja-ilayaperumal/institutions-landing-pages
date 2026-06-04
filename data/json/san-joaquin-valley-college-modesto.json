@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:34.837623+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447351,
+    "slug": "san-joaquin-valley-college-modesto",
+    "name": "San Joaquin Valley College-Modesto",
+    "website_url": "https://www.sjvc.edu",
+    "city": "Salida",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95368-9090",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJLJT5ZE65J6",
+      "opeid": "02120706",
+      "ein": "942589126"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Valley College (SJVC) is a private for-profit college with locations in California and an online division. SJVC was founded in 1977 by Robert and Shirley Perry. The college offers certificates, Associate of Science degrees, and continuing education opportunities in the criminal justice and industrial trade fields.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "fetched_at": "2026-06-02T21:29:04.121397+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 24617,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5983,
+    "net_price_by_family_income": {
+      "0_30k": 23312,
+      "30_48k": 24143,
+      "48_75k": 25870,
+      "75_110k": 27099,
+      "110k_plus": 27429
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.604,
+    "grad_rate_total": 0.77,
+    "pell_grad_rate": 0.75,
+    "non_pell_grad_rate": 0.97,
+    "retention_full_time": 0.83
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 982,
+    "ug_12mo": 982,
+    "grad_12mo": 0,
+    "women_12mo": 423,
+    "men_12mo": 559,
+    "fall_total": 598,
+    "distance_ed_any": 598,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1203,
+      "black": 0.0356,
+      "hispanic": 0.6254,
+      "asian": 0.0695,
+      "ai_an": 0.0102,
+      "nh_pi": 0.0186,
+      "two_or_more": 0.0153,
+      "non_resident": 0.0017,
+      "race_unknown": 0.1034
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "46",
+        "cip_family_label": "Construction Trades",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 1
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 1
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 50.0,
+    "instr_total_fte": 5
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 449092,
+        "slug": "cbt-technology-institute-hialeah",
+        "name": "CBT Technology Institute-Hialeah",
+        "state": "Florida",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.94,
+          "enrollment": 547,
+          "avg_net_price": 11281
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 140003,
+        "slug": "gwinnett-college-lilburn",
+        "name": "Gwinnett College-Lilburn",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 156,
+          "avg_net_price": 27010
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 193201,
+        "slug": "mildred-elley-school-albany-campus",
+        "name": "Mildred Elley School-Albany Campus",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.26,
+          "enrollment": 369,
+          "avg_net_price": 21348
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 214892,
+        "slug": "penn-commercial-business-technical-school",
+        "name": "Penn Commercial Business/Technical School",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5583756345177665,
+          "yield_rate": 0.5545454545454546,
+          "retention_rate": 0.83,
+          "enrollment": 265,
+          "avg_net_price": 17147
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 122694,
+        "slug": "san-joaquin-valley-college-bakersfield",
+        "name": "San Joaquin Valley College-Bakersfield",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 798,
+          "avg_net_price": 23393
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 262457,
+        "slug": "san-joaquin-valley-college-fresno",
+        "name": "San Joaquin Valley College-Fresno",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 447,
+          "avg_net_price": 23045
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 456852,
+        "slug": "san-joaquin-valley-college-hesperia",
+        "name": "San Joaquin Valley College-Hesperia",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 528,
+          "avg_net_price": 23634
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 442444,
+        "slug": "san-joaquin-valley-college-ontario",
+        "name": "San Joaquin Valley College-Ontario",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 941,
+          "avg_net_price": 25595
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 475176,
+        "slug": "san-joaquin-valley-college-temecula",
+        "name": "San Joaquin Valley College-Temecula",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 650,
+          "avg_net_price": 26652
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 205887,
+        "slug": "stautzenberger-college-maumee",
+        "name": "Stautzenberger College-Maumee",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.49,
+          "enrollment": 586,
+          "avg_net_price": 19881
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 494852,
+        "slug": "stautzenberger-college-rockford-career-college",
+        "name": "Stautzenberger College-Rockford Career College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 682,
+          "avg_net_price": 19198
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=447351",
+      "stored": false,
+      "fetched_at": "2026-06-02T21:29:05.27564+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

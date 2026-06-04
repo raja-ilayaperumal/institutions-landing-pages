@@ -1,0 +1,846 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:41.023671+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 230038,
+    "slug": "brigham-young-university",
+    "name": "Brigham Young University",
+    "website_url": "https://byu.edu",
+    "city": "Provo",
+    "state": "UT",
+    "state_name": "Utah",
+    "zip": "84602",
+    "region": "Rocky Mountains",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JWSYC7RUMJD1",
+      "opeid": "00367000",
+      "ein": "870217280"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Brigham Young University (BYU) is a private research university in Provo, Utah, United States. It was founded in 1875 by religious leader Brigham Young and is the flagship university of the Church Educational System (CES) of the Church of Jesus Christ of Latter-day Saints.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brigham_Young_University",
+    "source_url": "https://en.wikipedia.org/wiki/Brigham_Young_University",
+    "wikidata_qid": "Q332498",
+    "fetched_at": "2026-05-25T13:44:07.045157+05:30"
+  },
+  "admissions": {
+    "applicants": 11698,
+    "admits": 7929,
+    "enrolled": 6147,
+    "first_time_freshmen": 6147,
+    "first_time_freshmen_ft": 6000,
+    "admission_rate": 0.6919,
+    "admit_rate": 0.6778081723371516,
+    "yield_rate": 0.775255391600454,
+    "sat_average": 1376,
+    "sat_math_25_75": [
+      640,
+      730
+    ],
+    "sat_reading_25_75": [
+      650,
+      720
+    ],
+    "act_composite_25_75": [
+      28,
+      32
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 6496,
+    "out_of_state_tuition": 6496,
+    "room_and_board": 10396,
+    "total_cost_in_state": 16892,
+    "total_cost_out_of_state": 16892,
+    "avg_net_price": 14487,
+    "pell_grant_rate": 0.0919,
+    "federal_loan_rate": 0.1163,
+    "net_price_by_family_income": {
+      "0_30k": 9531,
+      "30_48k": 10224,
+      "48_75k": 12374,
+      "75_110k": 16389,
+      "110k_plus": 20042
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8221,
+    "grad_rate_total": 0.81,
+    "grad_4yr_bachelors": 0.27,
+    "grad_5yr_bachelors": 0.55,
+    "grad_6yr_bachelors": 0.81,
+    "pell_grad_rate": 0.75,
+    "pell_6yr_bachelors_rate": 0.75,
+    "non_pell_grad_rate": 0.7,
+    "non_pell_6yr_bachelors": 0.7,
+    "retention_full_time": 0.91,
+    "retention_part_time": 0.72
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 39598,
+    "ug_12mo": 36407,
+    "grad_12mo": 3191,
+    "women_12mo": 20441,
+    "men_12mo": 19157,
+    "fall_total": 35873,
+    "distance_ed_any": 35873,
+    "distance_ed_exclusive": 898,
+    "race_ethnicity": {
+      "white": 0.8068,
+      "black": 0.0039,
+      "hispanic": 0.08,
+      "asian": 0.0167,
+      "ai_an": 0.0019,
+      "nh_pi": 0.0061,
+      "two_or_more": 0.0435,
+      "non_resident": 0.0279,
+      "race_unknown": 0.0132
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1325
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 923
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 651
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 639
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 533
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 508
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 493
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 410
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 368
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 356
+      }
+    ],
+    "program_count": 208,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 1316
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 104151,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8988833746898263,
+          "yield_rate": 0.22113997113997114,
+          "grad_rate": 0.68,
+          "retention_rate": 0.87,
+          "enrollment": 79818,
+          "avg_net_price": 13670
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 223232,
+        "slug": "baylor-university",
+        "name": "Baylor University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5128232437268351,
+          "yield_rate": 0.14234683281412253,
+          "grad_rate": 0.8,
+          "retention_rate": 0.91,
+          "enrollment": 20626,
+          "avg_net_price": 41942
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 142115,
+        "slug": "boise-state-university",
+        "name": "Boise State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.872093023255814,
+          "yield_rate": 0.24092691622103388,
+          "grad_rate": 0.59,
+          "retention_rate": 0.79,
+          "enrollment": 27198,
+          "avg_net_price": 19182
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 129242,
+        "slug": "fairfield-university",
+        "name": "Fairfield University",
+        "state": "Connecticut",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.33291912042789995,
+          "yield_rate": 0.2370983446932814,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 6864,
+          "avg_net_price": 46274
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 153603,
+        "slug": "iowa-state-university",
+        "name": "Iowa State University",
+        "state": "Iowa",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8865555315003247,
+          "yield_rate": 0.28844932844932847,
+          "grad_rate": 0.75,
+          "retention_rate": 0.88,
+          "enrollment": 30380,
+          "avg_net_price": 18165
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 155399,
+        "slug": "kansas-state-university",
+        "name": "Kansas State University",
+        "state": "Kansas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8168805209878135,
+          "yield_rate": 0.2748441076643776,
+          "grad_rate": 0.71,
+          "retention_rate": 0.86,
+          "enrollment": 20295,
+          "avg_net_price": 17883
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 207388,
+        "slug": "oklahoma-state-university-main-campus",
+        "name": "Oklahoma State University-Main Campus",
+        "state": "Oklahoma",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7504215174628663,
+          "yield_rate": 0.26908468410634995,
+          "grad_rate": 0.68,
+          "retention_rate": 0.85,
+          "enrollment": 27278,
+          "avg_net_price": 16378
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 228875,
+        "slug": "texas-christian-university",
+        "name": "Texas Christian University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4449276012014166,
+          "yield_rate": 0.2471536523929471,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 12938,
+          "avg_net_price": 33531
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 229115,
+        "slug": "texas-tech-university",
+        "name": "Texas Tech University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7264524391663756,
+          "yield_rate": 0.2713358442182867,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 40757,
+          "avg_net_price": 20071
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 104179,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8613791803081986,
+          "yield_rate": 0.1838732786754756,
+          "grad_rate": 0.68,
+          "retention_rate": 0.83,
+          "enrollment": 56365,
+          "avg_net_price": 15960
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 132903,
+        "slug": "university-of-central-florida",
+        "name": "University of Central Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4011487893777662,
+          "yield_rate": 0.3350099379385876,
+          "grad_rate": 0.78,
+          "retention_rate": 0.92,
+          "enrollment": 69713,
+          "avg_net_price": 10650
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 201885,
+        "slug": "university-of-cincinnati-main-campus",
+        "name": "University of Cincinnati-Main Campus",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.852909435613242,
+          "yield_rate": 0.22515559811230423,
+          "grad_rate": 0.75,
+          "retention_rate": 0.85,
+          "enrollment": 45026,
+          "avg_net_price": 23156
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 126614,
+        "slug": "university-of-colorado-boulder",
+        "name": "University of Colorado Boulder",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7808310792735488,
+          "yield_rate": 0.14145682255086697,
+          "grad_rate": 0.74,
+          "retention_rate": 0.9,
+          "enrollment": 38799,
+          "avg_net_price": 21480
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 130943,
+        "slug": "university-of-delaware",
+        "name": "University of Delaware",
+        "state": "Delaware",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7060382547818478,
+          "yield_rate": 0.15666831928606842,
+          "grad_rate": 0.83,
+          "retention_rate": 0.92,
+          "enrollment": 24412,
+          "avg_net_price": 16931
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 225511,
+        "slug": "university-of-houston",
+        "name": "University of Houston",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7392483289191575,
+          "yield_rate": 0.26520515226477864,
+          "grad_rate": 0.65,
+          "retention_rate": 0.87,
+          "enrollment": 47980,
+          "avg_net_price": 13853
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 155317,
+        "slug": "university-of-kansas",
+        "name": "University of Kansas",
+        "state": "Kansas",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9348030228502437,
+          "yield_rate": 0.25462807940684046,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 29792,
+          "avg_net_price": 17365
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 135726,
+        "slug": "university-of-miami",
+        "name": "University of Miami",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1889572598880528,
+          "yield_rate": 0.24256988719960765,
+          "grad_rate": 0.84,
+          "retention_rate": 0.94,
+          "enrollment": 19852,
+          "avg_net_price": 36803
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 230764,
+        "slug": "university-of-utah",
+        "name": "University of Utah",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8598165684885541,
+          "yield_rate": 0.260211603503599,
+          "grad_rate": 0.65,
+          "retention_rate": 0.86,
+          "enrollment": 36894,
+          "avg_net_price": 13172
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 230728,
+        "slug": "utah-state-university",
+        "name": "Utah State University",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9246801782377462,
+          "yield_rate": 0.23825068656407067,
+          "grad_rate": 0.57,
+          "retention_rate": 0.71,
+          "enrollment": 28904,
+          "avg_net_price": 12869
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 238032,
+        "slug": "west-virginia-university",
+        "name": "West Virginia University",
+        "state": "West Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8900101446953922,
+          "yield_rate": 0.24770532125502429,
+          "grad_rate": 0.64,
+          "retention_rate": 0.83,
+          "enrollment": 23643,
+          "avg_net_price": 12997
+        }
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": 3846715,
+    "nih_total_usd": 10369067,
+    "usaspending_total_usd": 53441392,
+    "all_sources_total_usd": 67657174,
+    "recent_3y_total_usd": 10369067,
+    "award_count_nih": 20,
+    "award_count_nsf": 14,
+    "award_count_usaspending": 20,
+    "award_count_total": 54,
+    "latest_award_end": "2030-08-31"
+  },
+  "ir_office": {
+    "url": "https://assessmentandplanning.byu.edu",
+    "office_name": "Office of Assessment and Planning",
+    "summary": "The Office of Assessment and Planning's mission is to assist the university community in making informed decisions to fulfill the BYU mission and aims. We do this by coordinating institutional effectiveness activities, including institutional research, assessment, and accreditation.",
+    "phone": "801-422-4919",
+    "address": "C-327 ASB",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:44:02.539199+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Jim Gordon",
+      "title": "Director"
+    },
+    {
+      "ordering": 0,
+      "name": "Rickelle Richards",
+      "title": "Director, Academic Unit Reviews",
+      "email": "rickelle_richards@byu.edu",
+      "phone": "801-422-6855"
+    },
+    {
+      "ordering": 1,
+      "name": "Joanne Staheli",
+      "title": "Administrative Assistant",
+      "email": "joanne_staheli@byu.edu",
+      "phone": "801-422-1069"
+    },
+    {
+      "ordering": 2,
+      "name": "Amanda Shields",
+      "title": "Executive Assistant, Assessment and Planning",
+      "email": "amanda.shields@byu.edu",
+      "phone": "801-422-4919"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://assessmentandplanning.byu.edu/0000019d-e4b0-d088-a1dd-eff755a90000/cds-2025-2026-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2024,
+      "url": "https://assessmentandplanning.byu.edu/00000196-5e6d-d4e6-a3bf-5eed29ed0001/cds-2024-2025-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2023,
+      "url": "https://assessmentandplanning.byu.edu/0000018f-0717-d0f1-abff-f73f075e0001/cds-2023-2024-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2022,
+      "url": "https://assessmentandplanning.byu.edu/00000187-e7d8-dda8-a98f-efdeac1e0001/common-data-set-2022-2023-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2021,
+      "url": "https://assessmentandplanning.byu.edu/00000181-1ab3-da3c-a7b9-baf341550001/cds-2021-2022-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2020,
+      "url": "https://assessmentandplanning.byu.edu/0000017f-6b85-de51-afff-fbb599910001/cds-2020-2021-pdf",
+      "is_pdf": false
+    },
+    {
+      "year": 2019,
+      "url": "https://brightspotcdn.byu.edu/e3/f5/1900759041e48352198eb5caddb8/cds-2019-2020-2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/fa/bd/b9f464444ab486f0f8a3f4ff3373/byu-cds-2018-2019-0-1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/5b/33/280c8e1f4c52b94437c066ff331a/cds-2017-2018-1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/d1/82/2fd23b764c019b08d8cb309d74ed/cds-2016-2017-1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/00/28/3fe3c34f48bdaacef35f2fddd210/cds-2015-2016-1.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/8f/e7/4aeb3d5c448f8c28eb7ca88916c9/cds-2014-2015-0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/4e/d3/18a105cf4bdab2a01e03ddb2fda6/cds-2013-2014-0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://assessmentandplanning.byu.edu/https:/brightspotcdn.byu.edu/fe/c5/d92324ff479da794b9f198649700/cds-2012-2013-0.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://assessmentandplanning.byu.edu/public-information",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:43:50.818481+05:30"
+    },
+    {
+      "doc_type": "data_definition",
+      "title": "Common Data Set",
+      "url": "https://assessmentandplanning.byu.edu/common-data-set",
+      "summary": "The Common Data Set page of Brigham Young University provides publicly available reports prepared annually using standardized definitions to improve the quality and accuracy of information related to student transitions into higher education. It covers various areas such as enrollment, admissions, academic policies, and financial aid, and is intended to reduce reporting burdens on data providers.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:42:33.44018+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=230038",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:44:11.950598+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms",
+      "url": "https://irb.byu.edu/glossary",
+      "summary": "The Brigham Young University Glossary of Terms provides definitions for a range of key concepts related to Institutional Review Board (IRB) processes and research involving human subjects. It covers terms that are important for understanding ethical considerations, research protocols, and regulatory requirements in conducting research. Notable terms include 'Adverse Event', 'Anonymous', 'Assent', and 'Autonomy', among others. This glossary serves as a resource for researchers, helping to ensure adherence to ethical standards and federal guidelines.",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:31:56.762106+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Executive Summary of the BYU ComD Strategic Plan",
+      "url": "https://education.byu.edu/comd/strategicplan",
+      "summary": "The BYU Communication Disorders Department's strategic plan was collaboratively developed in 2021, reflecting a commitment to belonging, achievement, and growth through Christlike service. The plan focuses on four main themes: Belonging, Becoming, Collaboration, and Kindness, aiming to foster equitable access, enhance student and faculty development, and reinforce a culture of respect and service. Key initiatives include redesigning the admissions process, increasing clinical outreach to underserved communities, growing the graduate program, and enhancing interprofessional educational opportunities.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:42:20.614526+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Mitt Romney",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mitt_Romney",
+      "field": "Politics"
+    },
+    {
+      "name": "Ken Jennings",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ken_Jennings",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Aaron Eckhart",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aaron_Eckhart",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Stephenie Meyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stephenie_Meyer",
+      "field": "Literature, writing, and translation"
+    },
+    {
+      "name": "Steve Young",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Young",
+      "field": "Sports"
+    },
+    {
+      "name": "Dallin H. Oaks",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dallin_H._Oaks",
+      "field": "Religion"
+    },
+    {
+      "name": "Paul D. Boyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_D._Boyer",
+      "field": "Academia and research"
+    },
+    {
+      "name": "Philo Farnsworth",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+      "field": "Academia and research"
+    },
+    {
+      "name": "Harvey Fletcher",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Harvey_Fletcher",
+      "field": "Academia and research"
+    },
+    {
+      "name": "Gary Crittenden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gary_Crittenden",
+      "field": "Business"
+    },
+    {
+      "name": "Kevin Rollins",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kevin_Rollins",
+      "field": "Business"
+    },
+    {
+      "name": "Sheri L. Dew",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sheri_L._Dew",
+      "field": "Business"
+    },
+    {
+      "name": "Orson Scott Card",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Orson_Scott_Card",
+      "field": "Literature, writing, and translation"
+    },
+    {
+      "name": "Brandon Sanderson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brandon_Sanderson",
+      "field": "Literature, writing, and translation"
+    },
+    {
+      "name": "Jane Clayson Johnson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jane_Clayson_Johnson",
+      "field": "Journalism and Media"
+    },
+    {
+      "name": "Jon Heder",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jon_Heder",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Carmen Rasmusen",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carmen_Rasmusen",
+      "field": "Music"
+    },
+    {
+      "name": "Mack Wilberg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mack_Wilberg",
+      "field": "Music"
+    },
+    {
+      "name": "Rick Aguilera",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Aguilera",
+      "field": "Sports"
+    },
+    {
+      "name": "Wally Joyner",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wally_Joyner",
+      "field": "Sports"
+    },
+    {
+      "name": "Jack Morris",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jack_Morris",
+      "field": "Sports"
+    },
+    {
+      "name": "Danny Ainge",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Danny_Ainge",
+      "field": "Sports"
+    },
+    {
+      "name": "Krešimir Ćosić",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kre%C5%A1imir_%C4%86osi%C4%87",
+      "field": "Sports"
+    },
+    {
+      "name": "Ty Detmer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ty_Detmer",
+      "field": "Sports"
+    },
+    {
+      "name": "Jim McMahon",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_McMahon",
+      "field": "Sports"
+    },
+    {
+      "name": "Johnny Miller",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Johnny_Miller",
+      "field": "Sports"
+    },
+    {
+      "name": "Mike Weir",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mike_Weir",
+      "field": "Sports"
+    },
+    {
+      "name": "Ezra Taft Benson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ezra_Taft_Benson",
+      "field": "Politics"
+    },
+    {
+      "name": "Rex E. Lee",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rex_E._Lee",
+      "field": "Law and judiciary"
+    },
+    {
+      "name": "Michael K. Young",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_K._Young",
+      "field": "Academia and research"
+    }
+  ]
+}

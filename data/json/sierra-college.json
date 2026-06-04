@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:22.650858+00:00",
+  "generated_at": "2026-06-04T04:58:11.907960+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,11 +41,14 @@
     "source_url": "https://en.wikipedia.org/wiki/Sierra_College",
     "fetched_at": "2026-05-25T20:03:33.877119+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1156,
+    "out_of_state_tuition": 9988,
     "room_and_board": 13631,
+    "total_cost_in_state": 14787,
+    "total_cost_out_of_state": 23619,
     "avg_net_price": 4462,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5356,
     "federal_loan_rate": 0.0178,
     "net_price_by_family_income": {
@@ -54,9 +57,11 @@
       "48_75k": 6629,
       "75_110k": 8601,
       "110k_plus": 9007
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3983,
     "grad_rate_total": 0.42,
     "pell_grad_rate": 0.42,
     "non_pell_grad_rate": 1.0,
@@ -66,12 +71,10 @@
   "enrollment": {
     "enrollment_12mo_total": 25455,
     "ug_12mo": 25455,
-    "grad_12mo": 18782,
+    "grad_12mo": 0,
     "women_12mo": 14019,
     "men_12mo": 11436,
     "fall_total": 19125,
-    "fall_full_time": 19125,
-    "fall_part_time": 14122,
     "distance_ed_any": 19125,
     "distance_ed_exclusive": 7240,
     "race_ethnicity": {
@@ -554,12 +557,7 @@
       "fetched_at": "2026-05-25T20:03:35.190896+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Research Analyst - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179449642"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

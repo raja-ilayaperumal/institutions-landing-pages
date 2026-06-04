@@ -1,0 +1,886 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:14.619074+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123484,
+    "slug": "college-of-the-siskiyous",
+    "name": "College of the Siskiyous",
+    "website_url": "https://www.siskiyous.edu",
+    "city": "Weed",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "96094-2899",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GYSPGFZ7WNH8",
+      "opeid": "00118700",
+      "ein": "680321440"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "College of the Siskiyous (COS) is a public community college with campuses in Weed and Yreka in Siskiyou County in Northern California. It is part of the California Community Colleges System, serving as the northernmost college in the state of California and the only college in Siskiyou County. The college is in the service area of California State University, Chico and one of only eleven community colleges in California that provide on-campus housing for students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_the_Siskiyous",
+    "source_url": "https://en.wikipedia.org/wiki/College_of_the_Siskiyous",
+    "fetched_at": "2026-06-01T21:50:43.804574+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 1444,
+    "out_of_state_tuition": 9394,
+    "avg_net_price": 7241,
+    "pell_grant_rate": 0.4444,
+    "federal_loan_rate": 0.0635,
+    "net_price_by_family_income": {
+      "0_30k": 5156,
+      "30_48k": 6436,
+      "48_75k": 8429,
+      "75_110k": 12611,
+      "110k_plus": 14448
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.2932,
+    "grad_rate_total": 0.33,
+    "pell_grad_rate": 0.31,
+    "non_pell_grad_rate": 0.5,
+    "retention_full_time": 0.48,
+    "retention_part_time": 0.19
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2811,
+    "ug_12mo": 2811,
+    "grad_12mo": 0,
+    "women_12mo": 1438,
+    "men_12mo": 1373,
+    "fall_total": 1575,
+    "distance_ed_any": 1575,
+    "distance_ed_exclusive": 612,
+    "race_ethnicity": {
+      "white": 0.5926,
+      "black": 0.0296,
+      "hispanic": 0.187,
+      "asian": 0.0213,
+      "ai_an": 0.0222,
+      "nh_pi": 0.0074,
+      "two_or_more": 0.0926,
+      "non_resident": 0.0111,
+      "race_unknown": 0.0361
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 63
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 29
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 7
+      }
+    ],
+    "program_count": 37,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 46
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 222822,
+        "slug": "angelina-college",
+        "name": "Angelina College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 3890,
+          "avg_net_price": 8900
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109907,
+        "slug": "barstow-community-college",
+        "name": "Barstow Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 3226,
+          "avg_net_price": 12347
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111434,
+        "slug": "canada-college",
+        "name": "Canada College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6625,
+          "avg_net_price": 10
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 234845,
+        "slug": "centralia-college",
+        "name": "Centralia College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2244,
+          "avg_net_price": 7600
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 111896,
+        "slug": "cerro-coso-community-college",
+        "name": "Cerro Coso Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.27,
+          "enrollment": 5549,
+          "avg_net_price": 6078
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 208415,
+        "slug": "clatsop-community-college",
+        "name": "Clatsop Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 754,
+          "avg_net_price": 13433
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 187639,
+        "slug": "clovis-community-college",
+        "name": "Clovis Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2342,
+          "avg_net_price": 3318
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 404426,
+        "slug": "coconino-community-college",
+        "name": "Coconino Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 2524,
+          "avg_net_price": 12455
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 108667,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6141,
+          "avg_net_price": 9280
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 126748,
+        "slug": "colorado-northwestern-community-college",
+        "name": "Colorado Northwestern Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1271,
+          "avg_net_price": 12316
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 112561,
+        "slug": "columbia-college",
+        "name": "Columbia College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2828,
+          "avg_net_price": 15468
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 105297,
+        "slug": "dine-college",
+        "name": "Dine College",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.13,
+          "retention_rate": 0.48,
+          "enrollment": 1434,
+          "avg_net_price": 10218
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 187666,
+        "slug": "eastern-new-mexico-university-roswell-campus",
+        "name": "Eastern New Mexico University-Roswell Campus",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 2082,
+          "avg_net_price": 4171
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 384333,
+        "slug": "estrella-mountain-community-college",
+        "name": "Estrella Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 10109,
+          "avg_net_price": 12211
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 114433,
+        "slug": "feather-river-community-college-district",
+        "name": "Feather River Community College District",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.6,
+          "enrollment": 2055,
+          "avg_net_price": 6520
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 180197,
+        "slug": "flathead-valley-community-college",
+        "name": "Flathead Valley Community College",
+        "state": "Montana",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 2234,
+          "avg_net_price": 8723
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 444219,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11098,
+          "avg_net_price": 3661
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 114938,
+        "slug": "gavilan-college",
+        "name": "Gavilan College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 6083,
+          "avg_net_price": 2244
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 235334,
+        "slug": "grays-harbor-college",
+        "name": "Grays Harbor College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1577,
+          "avg_net_price": 3149
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 225070,
+        "slug": "grayson-college",
+        "name": "Grayson College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 4324,
+          "avg_net_price": 4984
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 225520,
+        "slug": "howard-college",
+        "name": "Howard College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 4101,
+          "avg_net_price": 7681
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 226019,
+        "slug": "kilgore-college",
+        "name": "Kilgore College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 7198,
+          "avg_net_price": 6629
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 428392,
+        "slug": "klamath-community-college",
+        "name": "Klamath Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 1834,
+          "avg_net_price": 8084
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 117195,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 4040,
+          "avg_net_price": 10975
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 226116,
+        "slug": "lamar-state-college-port-arthur",
+        "name": "Lamar State College-Port Arthur",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 4680,
+          "avg_net_price": 4887
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 117274,
+        "slug": "lassen-community-college",
+        "name": "Lassen Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 2038,
+          "avg_net_price": 7677
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 363633,
+        "slug": "luna-community-college",
+        "name": "Luna Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.43,
+          "enrollment": 743,
+          "avg_net_price": 7039
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 127617,
+        "slug": "morgan-community-college",
+        "name": "Morgan Community College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1626,
+          "avg_net_price": 7161
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 187903,
+        "slug": "new-mexico-junior-college",
+        "name": "New Mexico Junior College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 2235,
+          "avg_net_price": 6431
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 187994,
+        "slug": "new-mexico-state-university-alamogordo",
+        "name": "New Mexico State University-Alamogordo",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.46,
+          "enrollment": 1152,
+          "avg_net_price": 5789
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 127732,
+        "slug": "northeastern-junior-college",
+        "name": "Northeastern Junior College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 1684,
+          "avg_net_price": 13224
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 240666,
+        "slug": "northern-wyoming-community-college-district",
+        "name": "Northern Wyoming Community College District",
+        "state": "Wyoming",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 3534,
+          "avg_net_price": 8890
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 127778,
+        "slug": "otero-college",
+        "name": "Otero College",
+        "state": "Colorado",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 959,
+          "avg_net_price": 11329
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 120953,
+        "slug": "palo-verde-college",
+        "name": "Palo Verde College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 3833,
+          "avg_net_price": 10543
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 236258,
+        "slug": "peninsula-college",
+        "name": "Peninsula College",
+        "state": "Washington",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2153,
+          "avg_net_price": 4529
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 121363,
+        "slug": "porterville-college",
+        "name": "Porterville College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 4784,
+          "avg_net_price": 3728
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 209940,
+        "slug": "rogue-community-college",
+        "name": "Rogue Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 4009,
+          "avg_net_price": 8493
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 188137,
+        "slug": "santa-fe-community-college",
+        "name": "Santa Fe Community College",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 4469,
+          "avg_net_price": 9215
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 210155,
+        "slug": "southwestern-oregon-community-college",
+        "name": "Southwestern Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1551,
+          "avg_net_price": 8815
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 228608,
+        "slug": "temple-college",
+        "name": "Temple College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 5274,
+          "avg_net_price": 6934
+        }
+      },
+      {
+        "rank": 42,
+        "unitid": 228699,
+        "slug": "texarkana-college",
+        "name": "Texarkana College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 4290,
+          "avg_net_price": 7236
+        }
+      },
+      {
+        "rank": 43,
+        "unitid": 187958,
+        "slug": "university-of-new-mexico-gallup-campus",
+        "name": "University of New Mexico-Gallup Campus",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1687,
+          "avg_net_price": 5467
+        }
+      },
+      {
+        "rank": 44,
+        "unitid": 188049,
+        "slug": "university-of-new-mexico-valencia-county-campus",
+        "name": "University of New Mexico-Valencia County Campus",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 921,
+          "avg_net_price": 9014
+        }
+      },
+      {
+        "rank": 45,
+        "unitid": 229504,
+        "slug": "vernon-college",
+        "name": "Vernon College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.41,
+          "enrollment": 2299,
+          "avg_net_price": 6571
+        }
+      },
+      {
+        "rank": 46,
+        "unitid": 182564,
+        "slug": "western-nevada-college",
+        "name": "Western Nevada College",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4284,
+          "avg_net_price": 12424
+        }
+      },
+      {
+        "rank": 47,
+        "unitid": 229832,
+        "slug": "western-texas-college",
+        "name": "Western Texas College",
+        "state": "Texas",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 1385,
+          "avg_net_price": 4094
+        }
+      },
+      {
+        "rank": 48,
+        "unitid": 240693,
+        "slug": "western-wyoming-community-college",
+        "name": "Western Wyoming Community College",
+        "state": "Wyoming",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 2653,
+          "avg_net_price": 8420
+        }
+      },
+      {
+        "rank": 49,
+        "unitid": 141990,
+        "slug": "windward-community-college",
+        "name": "Windward Community College",
+        "state": "Hawaii",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 2765,
+          "avg_net_price": 7533
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.siskiyous.edu/research/",
+    "office_name": "Research and Evaluation",
+    "summary": "The College of the Siskiyous Research and Evaluation page provides insights into student demographic trends and outcomes from Fall 2021 to Fall 2025, highlighting growth and success rates. It includes contact information for the office and general information about the college's policies.",
+    "email": "research@siskiyous.edu",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:50:42.777062+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.siskiyous.edu/research/nscdata.htm",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:50:30.737909+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123484",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:12.15071+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Strategic and Master Plans of the College of the Siskiyous",
+      "url": "https://www.siskiyous.edu/planning/",
+      "summary": "College of the Siskiyous integrates Planning, Assessment, and Budgeting into a cohesive six-year system, emphasizing collegial dialogue and effectiveness. The Strategic and Master Plans, including the Strategic Enrollment Management Plan (2023-2028) and Technology Master Plan (2021-2025), navigate through a participatory governance process before Board Approval. The Plans prioritize institutional goals aligned with the Mission and Vision, utilizing tools such as measurement and analysis for continuous improvement.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:48:17.005206+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Adris De León",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Adris_De_Le%C3%B3n",
+      "field": "Athletics"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:41.664377+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114354,
+    "slug": "fidm-fashion-institute-of-design-and-merchandising",
+    "name": "FIDM-Fashion Institute of Design & Merchandising",
+    "website_url": "https://www.fidm.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90015-1421",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "01111200",
+      "ein": "952700597"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Fashion Institute of Design and Merchandising (FIDM) was a private college founded in 1969 by Tonian Hohberg in downtown Los Angeles. In 2023, Arizona State University (ASU) announced that FIDM would become a part of ASU's fashion education program.\nThe school officially closed on March 31, 2025 with its final graduating class.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fashion_Institute_of_Design_and_Merchandising",
+    "source_url": "https://en.wikipedia.org/wiki/Fashion_Institute_of_Design_and_Merchandising",
+    "fetched_at": "2026-06-02T21:51:17.809766+05:30"
+  },
+  "admissions": {
+    "applicants": 0,
+    "admission_rate": 0.415
+  },
+  "cost": {
+    "in_state_tuition": 34325,
+    "out_of_state_tuition": 34325,
+    "avg_net_price": 41493,
+    "pell_grant_rate": 0.2813,
+    "federal_loan_rate": 0.4705,
+    "net_price_by_family_income": {
+      "0_30k": 36942,
+      "30_48k": 35980,
+      "48_75k": 44778,
+      "75_110k": 42327,
+      "110k_plus": 45643
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6715,
+    "grad_rate_total": 0.65,
+    "pell_grad_rate": 0.62,
+    "non_pell_grad_rate": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1550,
+    "ug_12mo": 1496,
+    "grad_12mo": 54,
+    "women_12mo": 1304,
+    "men_12mo": 246,
+    "fall_total": 564,
+    "distance_ed_any": 564,
+    "distance_ed_exclusive": 2,
+    "race_ethnicity": {
+      "white": 0.2904,
+      "black": 0.0743,
+      "hispanic": 0.2509,
+      "asian": 0.1168,
+      "ai_an": 0.0106,
+      "nh_pi": 0.0099,
+      "two_or_more": 0.0045,
+      "non_resident": 0.2039,
+      "race_unknown": 0.0387
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 434
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 311
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 46
+      }
+    ],
+    "program_count": 12,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 135.0,
+    "instr_total_fte": 1
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 108232,
+        "slug": "academy-of-art-university",
+        "name": "Academy of Art University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.75,
+          "enrollment": 5498,
+          "avg_net_price": 39778
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110583,
+        "slug": "california-state-university-long-beach",
+        "name": "California State University-Long Beach",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46272940559981895,
+          "yield_rate": 0.16682967004684202,
+          "grad_rate": 0.69,
+          "retention_rate": 0.87,
+          "enrollment": 42003,
+          "avg_net_price": 8931
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 191126,
+        "slug": "fashion-institute-of-technology",
+        "name": "Fashion Institute of Technology",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6023671619239487,
+          "yield_rate": 0.5581103678929766,
+          "retention_rate": 0.91,
+          "enrollment": 8206,
+          "avg_net_price": 22024
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 203517,
+        "slug": "kent-state-university-at-kent",
+        "name": "Kent State University at Kent",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.863353784892934,
+          "yield_rate": 0.20256024096385541,
+          "grad_rate": 0.64,
+          "retention_rate": 0.81,
+          "enrollment": 26374,
+          "avg_net_price": 19614
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 192271,
+        "slug": "lim-college",
+        "name": "LIM College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9589827727645611,
+          "yield_rate": 0.19332763045337895,
+          "grad_rate": 0.49,
+          "retention_rate": 0.73,
+          "enrollment": 1467,
+          "avg_net_price": 37514
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120403,
+        "slug": "otis-college-of-art-and-design",
+        "name": "Otis College of Art and Design",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8175755198116909,
+          "yield_rate": 0.10460652591170826,
+          "grad_rate": 0.66,
+          "retention_rate": 0.74,
+          "enrollment": 1267,
+          "avg_net_price": 45864
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 140951,
+        "slug": "savannah-college-of-art-and-design",
+        "name": "Savannah College of Art and Design",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298445725745801,
+          "yield_rate": 0.26402839664677896,
+          "grad_rate": 0.69,
+          "retention_rate": 0.86,
+          "enrollment": 18550,
+          "avg_net_price": 45450
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114354",
+      "stored": false,
+      "fetched_at": "2026-06-02T21:51:19.190537+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

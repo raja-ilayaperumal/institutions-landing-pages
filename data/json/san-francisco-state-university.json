@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:10.881229+00:00",
+  "generated_at": "2026-06-04T04:58:00.881034+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 2340,
     "first_time_freshmen": 2340,
     "first_time_freshmen_ft": 2218,
+    "admission_rate": 0.9615,
     "admit_rate": 0.9643527869317176,
     "yield_rate": 0.08598199522322249
   },
   "cost": {
+    "in_state_tuition": 7424,
+    "out_of_state_tuition": 19304,
     "avg_net_price": 12882,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.1773,
     "federal_loan_rate": 0.2543,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 12916,
       "75_110k": 16944,
       "110k_plus": 22813
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5015,
     "grad_rate_total": 0.5,
     "grad_4yr_bachelors": 0.28,
     "grad_5yr_bachelors": 0.45,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 27106,
     "ug_12mo": 23534,
-    "grad_12mo": 22494,
+    "grad_12mo": 3572,
     "women_12mo": 15169,
     "men_12mo": 11937,
     "fall_total": 22563,
-    "fall_full_time": 19444,
-    "fall_part_time": 18639,
     "distance_ed_any": 22563,
     "distance_ed_exclusive": 1684,
     "race_ethnicity": {
@@ -710,12 +712,7 @@
       "fetched_at": "2026-05-25T18:54:14.874727+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director of Institutional Research, Analytics, and Research Systems",
-      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451367"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

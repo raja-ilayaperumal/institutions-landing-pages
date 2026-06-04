@@ -1,0 +1,920 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:37.108235+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 142522,
+    "slug": "brigham-young-university-idaho",
+    "name": "Brigham Young University-Idaho",
+    "website_url": "https://www.byui.edu",
+    "city": "Rexburg",
+    "state": "ID",
+    "state_name": "Idaho",
+    "zip": "83460-1690",
+    "region": "Rocky Mountains",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "H6HCTU26L585",
+      "opeid": "00162500",
+      "ein": "820207699"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Brigham Young University–Idaho is a private college in Rexburg, Idaho. Founded 138 years ago in 1888, the college is owned and operated by the Church of Jesus Christ of Latter-day Saints. Previously known as Ricks College, it transitioned from a junior college to a baccalaureate institution in 2001.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brigham_Young_University–Idaho",
+    "source_url": "https://en.wikipedia.org/wiki/Brigham_Young_University–Idaho",
+    "fetched_at": "2026-05-25T13:43:11.951242+05:30"
+  },
+  "admissions": {
+    "applicants": 18951,
+    "admits": 18146,
+    "enrolled": 7962,
+    "first_time_freshmen": 7962,
+    "first_time_freshmen_ft": 4509,
+    "admission_rate": 0.9695,
+    "admit_rate": 0.9575220304997097,
+    "yield_rate": 0.43877438553951287,
+    "sat_average": 1123,
+    "sat_math_25_75": [
+      480,
+      590
+    ],
+    "sat_reading_25_75": [
+      500,
+      610
+    ],
+    "act_composite_25_75": [
+      20,
+      26
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 4656,
+    "out_of_state_tuition": 4656,
+    "avg_net_price": 7131,
+    "pell_grant_rate": 0.6053,
+    "federal_loan_rate": 0.1154,
+    "net_price_by_family_income": {
+      "0_30k": 3102,
+      "30_48k": 4175,
+      "48_75k": 5457,
+      "75_110k": 8757,
+      "110k_plus": 12309
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5508,
+    "grad_rate_total": 0.55,
+    "grad_4yr_bachelors": 0.21,
+    "grad_5yr_bachelors": 0.37,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.55,
+    "pell_6yr_bachelors_rate": 0.49,
+    "non_pell_grad_rate": 0.45,
+    "non_pell_6yr_bachelors": 0.41,
+    "retention_full_time": 0.71,
+    "retention_part_time": 0.46
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 58556,
+    "ug_12mo": 58556,
+    "grad_12mo": 0,
+    "women_12mo": 31548,
+    "men_12mo": 27008,
+    "fall_total": 45585,
+    "distance_ed_any": 45585,
+    "distance_ed_exclusive": 25139,
+    "race_ethnicity": {
+      "white": 0.589,
+      "black": 0.0264,
+      "hispanic": 0.1854,
+      "asian": 0.0122,
+      "ai_an": 0.0017,
+      "nh_pi": 0.0055,
+      "two_or_more": 0.0183,
+      "non_resident": 0.0322,
+      "race_unknown": 0.1294
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1409
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 1200
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 940
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 817
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 812
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 675
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 448
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 309
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 221
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 214
+      }
+    ],
+    "program_count": 129,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 22.0,
+    "instr_total_fte": 612
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142115,
+        "slug": "boise-state-university",
+        "name": "Boise State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.872093023255814,
+          "yield_rate": 0.24092691622103388,
+          "grad_rate": 0.59,
+          "retention_rate": 0.79,
+          "enrollment": 27198,
+          "avg_net_price": 19182
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 230038,
+        "slug": "brigham-young-university",
+        "name": "Brigham Young University",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6778081723371516,
+          "yield_rate": 0.775255391600454,
+          "grad_rate": 0.81,
+          "retention_rate": 0.91,
+          "enrollment": 35873,
+          "avg_net_price": 14487
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 230047,
+        "slug": "brigham-young-university-hawaii",
+        "name": "Brigham Young University-Hawaii",
+        "state": "Hawaii",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4696078431372549,
+          "yield_rate": 0.7515657620041754,
+          "grad_rate": 0.5,
+          "retention_rate": 0.74,
+          "enrollment": 2906,
+          "avg_net_price": 13884
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 180106,
+        "slug": "carroll-college",
+        "name": "Carroll College",
+        "state": "Montana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.709277238403452,
+          "yield_rate": 0.21596958174904943,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 1156,
+          "avg_net_price": 24842
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 234827,
+        "slug": "central-washington-university",
+        "name": "Central Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9061553985872856,
+          "yield_rate": 0.20032170254887405,
+          "grad_rate": 0.54,
+          "retention_rate": 0.7,
+          "enrollment": 10811,
+          "avg_net_price": 14715
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 126669,
+        "slug": "colorado-christian-university",
+        "name": "Colorado Christian University",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9432375613174492,
+          "yield_rate": 0.4049034175334324,
+          "grad_rate": 0.63,
+          "retention_rate": 0.84,
+          "enrollment": 9951,
+          "avg_net_price": 25458
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 126678,
+        "slug": "colorado-college",
+        "name": "Colorado College",
+        "state": "Colorado",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18470215015861827,
+          "yield_rate": 0.30279898218829515,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 2056,
+          "avg_net_price": 31678
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 126979,
+        "slug": "denver-seminary",
+        "name": "Denver Seminary",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 847
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 235097,
+        "slug": "eastern-washington-university",
+        "name": "Eastern Washington University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9074608722078712,
+          "yield_rate": 0.22722705961152043,
+          "grad_rate": 0.43,
+          "retention_rate": 0.67,
+          "enrollment": 10492,
+          "avg_net_price": 13091
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 235316,
+        "slug": "gonzaga-university",
+        "name": "Gonzaga University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.816874072382692,
+          "yield_rate": 0.17484276729559747,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 7470,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 142276,
+        "slug": "idaho-state-university",
+        "name": "Idaho State University",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.35,
+          "retention_rate": 0.72,
+          "enrollment": 13061,
+          "avg_net_price": 17324
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 180461,
+        "slug": "montana-state-university",
+        "name": "Montana State University",
+        "state": "Montana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8214483650471088,
+          "yield_rate": 0.2030810750028112,
+          "grad_rate": 0.57,
+          "retention_rate": 0.79,
+          "enrollment": 17135,
+          "avg_net_price": 20593
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 180179,
+        "slug": "montana-state-university-billings",
+        "name": "Montana State University Billings",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.56,
+          "enrollment": 4129,
+          "avg_net_price": 15044
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 127653,
+        "slug": "naropa-university",
+        "name": "Naropa University",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2727272727272727,
+          "grad_rate": 0.37,
+          "retention_rate": 0.54,
+          "enrollment": 1094,
+          "avg_net_price": 28862
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 127714,
+        "slug": "nazarene-bible-college",
+        "name": "Nazarene Bible College",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 527
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 105330,
+        "slug": "northern-arizona-university",
+        "name": "Northern Arizona University",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8960968660968661,
+          "yield_rate": 0.1581725113661654,
+          "grad_rate": 0.61,
+          "retention_rate": 0.75,
+          "enrollment": 28467,
+          "avg_net_price": 14922
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 142461,
+        "slug": "northwest-nazarene-university",
+        "name": "Northwest Nazarene University",
+        "state": "Idaho",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6473668001231906,
+          "yield_rate": 0.0994291151284491,
+          "grad_rate": 0.71,
+          "retention_rate": 0.77,
+          "enrollment": 1635,
+          "avg_net_price": 25537
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 209807,
+        "slug": "portland-state-university",
+        "name": "Portland State University",
+        "state": "Oregon",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9086702655062245,
+          "yield_rate": 0.1821047526673133,
+          "grad_rate": 0.53,
+          "retention_rate": 0.76,
+          "enrollment": 19951,
+          "avg_net_price": 12932
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 127918,
+        "slug": "regis-university",
+        "name": "Regis University",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.864557846906676,
+          "yield_rate": 0.11825348696179502,
+          "grad_rate": 0.62,
+          "retention_rate": 0.71,
+          "enrollment": 4605,
+          "avg_net_price": 22689
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 180595,
+        "slug": "rocky-mountain-college",
+        "name": "Rocky Mountain College",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696085409252669,
+          "yield_rate": 0.28629856850715746,
+          "grad_rate": 0.48,
+          "retention_rate": 0.69,
+          "enrollment": 1032,
+          "avg_net_price": 18508
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 180647,
+        "slug": "salish-kootenai-college",
+        "name": "Salish Kootenai College",
+        "state": "Montana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.05,
+          "retention_rate": 0.82,
+          "enrollment": 671,
+          "avg_net_price": 9002
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 230603,
+        "slug": "southern-utah-university",
+        "name": "Southern Utah University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8178721174004193,
+          "yield_rate": 0.1367510413329061,
+          "grad_rate": 0.5,
+          "retention_rate": 0.76,
+          "enrollment": 15444,
+          "avg_net_price": 11432
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 142294,
+        "slug": "the-college-of-idaho",
+        "name": "The College of Idaho",
+        "state": "Idaho",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49095890410958903,
+          "yield_rate": 0.14676339285714285,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 1090,
+          "avg_net_price": 20566
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 180489,
+        "slug": "the-university-of-montana",
+        "name": "The University of Montana",
+        "state": "Montana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9586466165413534,
+          "yield_rate": 0.1929193899782135,
+          "grad_rate": 0.49,
+          "retention_rate": 0.75,
+          "enrollment": 10811,
+          "avg_net_price": 17118
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 180692,
+        "slug": "the-university-of-montana-western",
+        "name": "The University of Montana-Western",
+        "state": "Montana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9978118161925602,
+          "yield_rate": 0.1652046783625731,
+          "grad_rate": 0.54,
+          "retention_rate": 0.79,
+          "enrollment": 1358,
+          "avg_net_price": 16669
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 127060,
+        "slug": "university-of-denver",
+        "name": "University of Denver",
+        "state": "Colorado",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7781326519748749,
+          "yield_rate": 0.09146258038035299,
+          "grad_rate": 0.76,
+          "retention_rate": 0.89,
+          "enrollment": 12813,
+          "avg_net_price": 36037
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 142285,
+        "slug": "university-of-idaho",
+        "name": "University of Idaho",
+        "state": "Idaho",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7553373502938332,
+          "yield_rate": 0.19942879653338585,
+          "grad_rate": 0.57,
+          "retention_rate": 0.76,
+          "enrollment": 12286,
+          "avg_net_price": 13782
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 209825,
+        "slug": "university-of-portland",
+        "name": "University of Portland",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8916636506213054,
+          "yield_rate": 0.0961980787444189,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 3285,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 180258,
+        "slug": "university-of-providence",
+        "name": "University of Providence",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5028409090909091,
+          "yield_rate": 0.5028248587570622,
+          "grad_rate": 0.21,
+          "retention_rate": 0.72,
+          "enrollment": 763,
+          "avg_net_price": 20907
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 230764,
+        "slug": "university-of-utah",
+        "name": "University of Utah",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8598165684885541,
+          "yield_rate": 0.260211603503599,
+          "grad_rate": 0.65,
+          "retention_rate": 0.86,
+          "enrollment": 36894,
+          "avg_net_price": 13172
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 230728,
+        "slug": "utah-state-university",
+        "name": "Utah State University",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9246801782377462,
+          "yield_rate": 0.23825068656407067,
+          "grad_rate": 0.57,
+          "retention_rate": 0.71,
+          "enrollment": 28904,
+          "avg_net_price": 12869
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 230737,
+        "slug": "utah-valley-university",
+        "name": "Utah Valley University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.4,
+          "retention_rate": 0.73,
+          "enrollment": 46807,
+          "avg_net_price": 8463
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 230782,
+        "slug": "weber-state-university",
+        "name": "Weber State University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.47,
+          "retention_rate": 0.67,
+          "enrollment": 32701,
+          "avg_net_price": 10722
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 433387,
+        "slug": "western-governors-university",
+        "name": "Western Governors University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.46,
+          "retention_rate": 0.65,
+          "enrollment": 210208,
+          "avg_net_price": 10442
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 230807,
+        "slug": "westminster-university",
+        "name": "Westminster University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6656545209176788,
+          "yield_rate": 0.09731373542828181,
+          "grad_rate": 0.64,
+          "retention_rate": 0.76,
+          "enrollment": 1155,
+          "avg_net_price": 26536
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.byui.edu/executive-strategy-and-planning/institutional-research",
+    "office_name": "Institutional Research & Assessment",
+    "parent_division": "Executive Strategy & Planning",
+    "summary": "The mission of the Institutional Research & Assessment office at BYU-Idaho is to support the university’s efforts to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities, by conducting high-quality research and providing actionable information and reporting services to stakeholders.",
+    "phone": "208-496-1896",
+    "address": "525 S Center St, Rexburg, ID 83460",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:43:10.908088+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Ben Fryar",
+      "title": "Managing Director of Institutional Research",
+      "email": "fryarb@byui.edu",
+      "phone": "208-496-1896"
+    },
+    {
+      "ordering": 1,
+      "name": "Candace Willmore",
+      "title": "Director of Institutional Effectiveness & Accreditation",
+      "email": "willmorec@byui.edu",
+      "phone": "208-496-1167"
+    },
+    {
+      "ordering": 2,
+      "name": "Roy Sleight",
+      "title": "Director of Data and Analysis",
+      "email": "sleightr@byui.edu",
+      "phone": "208-496-7027"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "data_definition",
+      "title": "Data Classification​​​​​​​",
+      "url": "https://web.byui.edu/policylibrary/policy/688a196c-5f3d-4f9e-b302-c54071b5c35d",
+      "summary": "The BYU-Idaho Data Classification policy, approved on January 9, 2023, establishes categories for classifying data: public, internal, confidential, and restricted, aligning with the Church Educational System (CES). Data Stewards are responsible for classification, with default classification as confidential if not specified. There are impact thresholds for data loss, identifying substantial and grave consequences.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:41:45.577468+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=142522",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:43:13.667643+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2023,
+      "title": "Strategic Plan",
+      "url": "https://brightspotcdn.byui.edu/80/80/8eed63f14f22a5223aa7d254a080/strategicplan-2023-singlepages.pdf",
+      "summary": "Brigham Young University-Idaho's strategic plan focuses on developing disciples of Jesus Christ who lead in their homes, Church, and communities, emphasizing teaching-focused faculty and realizing the potential in every student. The plan outlines essential institutional priorities such as enhancing discipleship, improving student retention, and managing educational costs to serve more students effectively. In alignment with its mission, BYU-Idaho seeks to innovate in curricular offerings and expand learning opportunities both on campus and online, ensuring its students are prepared for real-world challenges.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:37:57.36365+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Student Teaching Grant",
+      "agency": "Brigham Young University-Idaho",
+      "kind": "opportunity",
+      "url": "https://www.byui.edu/financial-aid/university-grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Doug Barclay"
+    },
+    {
+      "name": "Stephanie Barclay"
+    },
+    {
+      "name": "Stuart Draper",
+      "field": "Marketing"
+    },
+    {
+      "name": "Amy Antonelli",
+      "field": "Non-profit"
+    },
+    {
+      "name": "Claire Tanner",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Josh Sherwood"
+    },
+    {
+      "name": "Amanda Sherwood"
+    },
+    {
+      "name": "Andrea Bradley"
+    },
+    {
+      "name": "Frank L. VanderSloot",
+      "field": "Business and finance"
+    },
+    {
+      "name": "Jeff Benedict",
+      "field": "Educators and scholars"
+    },
+    {
+      "name": "Kory Katseanes",
+      "field": "Educators and scholars"
+    },
+    {
+      "name": "Phillip McArthur",
+      "field": "Educators and scholars"
+    },
+    {
+      "name": "Benson Boone",
+      "field": "Entertainment and media"
+    },
+    {
+      "name": "Gregg Hale",
+      "field": "Entertainment and media"
+    },
+    {
+      "name": "Ryan Hamilton",
+      "field": "Entertainment and media"
+    },
+    {
+      "name": "Art Rascon",
+      "field": "Entertainment and media"
+    },
+    {
+      "name": "Dean L. Cameron",
+      "field": "Government, law, and public policy"
+    },
+    {
+      "name": "Danielle J. Forrest",
+      "field": "Government, law, and public policy"
+    },
+    {
+      "name": "Michael W. Mosman",
+      "field": "Government, law, and public policy"
+    },
+    {
+      "name": "Rulon Gardner",
+      "field": "Sports"
+    },
+    {
+      "name": "Kelly Graves",
+      "field": "Sports"
+    },
+    {
+      "name": "Edwin Mulitalo",
+      "field": "Sports"
+    },
+    {
+      "name": "Blair Buswell",
+      "field": "Writers and artists"
+    }
+  ]
+}

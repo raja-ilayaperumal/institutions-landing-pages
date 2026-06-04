@@ -1,0 +1,635 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:26.510096+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112260,
+    "slug": "claremont-mckenna-college",
+    "name": "Claremont McKenna College",
+    "website_url": "https://www.cmc.edu",
+    "city": "Claremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91711-6400",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "L45FLFHWMGQ9",
+      "opeid": "00117000",
+      "ein": "951664101"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Claremont McKenna College (CMC) is a private liberal arts college in Claremont, California. It has a curricular emphasis on government, economics, public affairs, finance, and international relations. CMC is one of the seven members of the Claremont Colleges consortium.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Claremont_McKenna_College",
+    "source_url": "https://en.wikipedia.org/wiki/Claremont_McKenna_College",
+    "fetched_at": "2026-06-01T22:15:46.256101+05:30"
+  },
+  "admissions": {
+    "applicants": 6529,
+    "admits": 626,
+    "enrolled": 337,
+    "first_time_freshmen": 337,
+    "first_time_freshmen_ft": 337,
+    "admission_rate": 0.1112,
+    "admit_rate": 0.09587992035533772,
+    "yield_rate": 0.5383386581469649,
+    "sat_average": 1514,
+    "sat_math_25_75": [
+      740,
+      790
+    ],
+    "sat_reading_25_75": [
+      710,
+      770
+    ],
+    "act_composite_25_75": [
+      33,
+      35
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 64150,
+    "out_of_state_tuition": 64150,
+    "avg_net_price": 27384,
+    "pell_grant_rate": 0.0029,
+    "federal_loan_rate": 0.1941,
+    "net_price_by_family_income": {
+      "0_30k": 13267,
+      "30_48k": 13756,
+      "48_75k": 14929,
+      "75_110k": 22145,
+      "110k_plus": 49293
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9517,
+    "grad_rate_total": 0.91,
+    "grad_4yr_bachelors": 0.75,
+    "grad_5yr_bachelors": 0.9,
+    "grad_6yr_bachelors": 0.91,
+    "pell_grad_rate": 0.92,
+    "pell_6yr_bachelors_rate": 0.92,
+    "non_pell_grad_rate": 0.91,
+    "non_pell_6yr_bachelors": 0.91,
+    "retention_full_time": 0.98
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1419,
+    "ug_12mo": 1416,
+    "grad_12mo": 3,
+    "women_12mo": 709,
+    "men_12mo": 710,
+    "fall_total": 1393,
+    "distance_ed_any": 1393,
+    "race_ethnicity": {
+      "white": 0.3662,
+      "black": 0.0508,
+      "hispanic": 0.1537,
+      "asian": 0.1566,
+      "ai_an": 0.0,
+      "nh_pi": 0.0015,
+      "two_or_more": 0.0819,
+      "non_resident": 0.1443,
+      "race_unknown": 0.045
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 193
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 56
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 11
+      }
+    ],
+    "program_count": 60,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 194
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 164465,
+        "slug": "amherst-college",
+        "name": "Amherst College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09008222367750855,
+          "yield_rate": 0.3877221324717286,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 1914,
+          "avg_net_price": 18246
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 161004,
+        "slug": "bowdoin-college",
+        "name": "Bowdoin College",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07131549189596682,
+          "yield_rate": 0.5359408033826638,
+          "grad_rate": 0.95,
+          "retention_rate": 0.97,
+          "enrollment": 1881,
+          "avg_net_price": 20786
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 173258,
+        "slug": "carleton-college",
+        "name": "Carleton College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2041216879293425,
+          "yield_rate": 0.3482142857142857,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 2128,
+          "avg_net_price": 27320
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 198385,
+        "slug": "davidson-college",
+        "name": "Davidson College",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.13371949716539314,
+          "yield_rate": 0.4792626728110599,
+          "grad_rate": 0.91,
+          "retention_rate": 0.95,
+          "enrollment": 1869,
+          "avg_net_price": 18127
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 153384,
+        "slug": "grinnell-college",
+        "name": "Grinnell College",
+        "state": "Iowa",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1451117032178725,
+          "yield_rate": 0.3093220338983051,
+          "grad_rate": 0.88,
+          "retention_rate": 0.93,
+          "enrollment": 1788,
+          "avg_net_price": 15608
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 212911,
+        "slug": "haverford-college",
+        "name": "Haverford College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12368887072605912,
+          "yield_rate": 0.4262114537444934,
+          "grad_rate": 0.9,
+          "retention_rate": 0.94,
+          "enrollment": 1431,
+          "avg_net_price": 25210
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 230959,
+        "slug": "middlebury-college",
+        "name": "Middlebury College",
+        "state": "Vermont",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10749601275917066,
+          "yield_rate": 0.443620178041543,
+          "grad_rate": 0.91,
+          "retention_rate": 0.94,
+          "enrollment": 2803,
+          "avg_net_price": 25934
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 167835,
+        "slug": "smith-college",
+        "name": "Smith College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.210016155088853,
+          "yield_rate": 0.3543956043956044,
+          "grad_rate": 0.89,
+          "retention_rate": 0.94,
+          "enrollment": 2857,
+          "avg_net_price": 26181
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 216287,
+        "slug": "swarthmore-college",
+        "name": "Swarthmore College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07462686567164178,
+          "yield_rate": 0.4379487179487179,
+          "grad_rate": 0.92,
+          "retention_rate": 0.94,
+          "enrollment": 1623,
+          "avg_net_price": 18686
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 197133,
+        "slug": "vassar-college",
+        "name": "Vassar College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.185667229051177,
+          "yield_rate": 0.28775421895283426,
+          "grad_rate": 0.91,
+          "retention_rate": 0.95,
+          "enrollment": 2462,
+          "avg_net_price": 38182
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 234207,
+        "slug": "washington-and-lee-university",
+        "name": "Washington and Lee University",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1396566419091684,
+          "yield_rate": 0.4115082824760244,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2241,
+          "avg_net_price": 23911
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 168218,
+        "slug": "wellesley-college",
+        "name": "Wellesley College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.14046362175809043,
+          "yield_rate": 0.47630718954248363,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 2407,
+          "avg_net_price": 25008
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 130697,
+        "slug": "wesleyan-university",
+        "name": "Wesleyan University",
+        "state": "Connecticut",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.16491764542358747,
+          "yield_rate": 0.347661188369153,
+          "grad_rate": 0.93,
+          "retention_rate": 0.95,
+          "enrollment": 4011,
+          "avg_net_price": 27888
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 168342,
+        "slug": "williams-college",
+        "name": "Williams College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.0825384465641425,
+          "yield_rate": 0.4300314465408805,
+          "grad_rate": 0.94,
+          "retention_rate": 0.97,
+          "enrollment": 2164,
+          "avg_net_price": 14852
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://cmc.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research conducts research to support the continuing academic advancement of Claremont McKenna College, institutional decision-making, and strategic planning. We coordinate the collection and dissemination of campus information for internal and external purposes, as directed by the Dean of the Faculty.",
+    "phone": "909-621-8650",
+    "email": "ir@cmc.edu",
+    "address": "Second floor of 530 N. Mills Ave.",
+    "confidence": 1,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:15:45.164299+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2025,
+      "url": "https://www.cmc.edu/sites/default/files/CDS_2025-26_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2024,
+      "url": "https://www.cmc.edu/sites/default/files/CDS_2024-2025.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://cmc.edu/sites/default/files/CDS_2023_2024%20V2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://www.cmc.edu/sites/default/files/CDS_2022-2023_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://www.cmc.edu/sites/default/files/2022-04/CDS_2021-2022 Update.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://cmc.edu/sites/default/files/2021-06/CDS_2020-2021_Updated.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://cmc.edu/sites/default/files/ir/enrollment/CDS%202019%20web%20version_0.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://cmc.edu/sites/default/files/ir/2018-2019_Common_Data_Set.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS_2017-2018.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS_2016-2017%20Updated.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS%202015-2016%20Revised.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS_2014-15_Annotated.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS_2013-14.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://cmc.edu/sites/default/files/ir/CDS_2012-2013_Annotated.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112260",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:15:47.925345+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Factbook | Claremont McKenna College",
+      "url": "https://cmc.edu/institutional-research/factbook",
+      "summary": "The Factbook for Claremont McKenna College, prepared by the Office of Institutional Research, provides comprehensive data on key metrics like admission rates, financial aid, enrollment figures, class sizes, and academic outcomes. It includes information on historical enrollment, faculty resources, institutional research data, student life, and post-graduation career outcomes. The data spans various academic years up to 2025 and is a critical resource for assessing the college's performance in preparing students for leadership roles across business, government, and the professions.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:13:21.849939+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Nancy Weiss Malkiel Scholar Awards",
+      "agency": "Woodrow Wilson National Fellowship Foundation",
+      "kind": "opportunity",
+      "amount_usd": 17500,
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "California Historical Society Book Award",
+      "agency": "California Historical Society and Heyday",
+      "kind": "award",
+      "amount_usd": 5000,
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "American Institute of Indian Studies Fellowships",
+      "agency": "American Institute of Indian Studies",
+      "kind": "opportunity",
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Bellagio Residency Program",
+      "agency": "Rockefeller Foundation",
+      "kind": "opportunity",
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Career Enhancement Fellowship Program",
+      "agency": "Woodrow Wilson National Fellowship Foundation",
+      "kind": "opportunity",
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    },
+    {
+      "title": "Evidence for Action: Investigator-Initiated Research to Build a Culture of Health",
+      "agency": "Robert Wood Johnson Foundation",
+      "kind": "opportunity",
+      "url": "https://www.cmc.edu/research/grant-opportunities",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Steve Bullock",
+      "field": "Politics"
+    },
+    {
+      "name": "David Dreier",
+      "field": "Politics"
+    },
+    {
+      "name": "Surin Pitsuwan",
+      "field": "Politics"
+    },
+    {
+      "name": "Michael Arrington",
+      "field": "Business"
+    },
+    {
+      "name": "Michael S. Jeffries",
+      "field": "Business"
+    },
+    {
+      "name": "Julie Sweet",
+      "field": "Business"
+    },
+    {
+      "name": "George R. Roberts",
+      "field": "Business"
+    },
+    {
+      "name": "Thomas Pritzker",
+      "field": "Business"
+    },
+    {
+      "name": "Orley Ashenfelter",
+      "field": "Academia"
+    },
+    {
+      "name": "John King",
+      "field": "Entertainment"
+    },
+    {
+      "name": "William W. Crouch",
+      "field": "Military"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:33.526429+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 126012,
+    "slug": "the-wright-institute",
+    "name": "The Wright Institute",
+    "website_url": "https://www.wi.edu",
+    "city": "Berkeley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94704-1796",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "XVZXJULGH423",
+      "opeid": "00884600",
+      "ein": "941674865"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Wright Institute is a graduate school located in Berkeley, California, founded in 1968. It focuses on clinical psychology and counseling, offering a Doctor of Psychology (PsyD) and a Master of Arts (MA) in Counseling Psychology, with an emphasis on understanding social issues and lifelong learning.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Wright_Institute",
+    "source_url": "https://en.wikipedia.org/wiki/Wright_Institute",
+    "fetched_at": "2026-06-03T16:14:33.864914+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 597,
+    "women_12mo": 471,
+    "men_12mo": 126,
+    "fall_total": 518,
+    "distance_ed_any": 518
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 139
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 14
+  },
+  "faculty": {
+    "instr_total_fte": 18
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142832,
+        "slug": "adler-university",
+        "name": "Adler University",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1631
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110316,
+        "slug": "california-institute-of-integral-studies",
+        "name": "California Institute of Integral Studies",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1874
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 115746,
+        "slug": "pacifica-graduate-institute",
+        "name": "Pacifica Graduate Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 833
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 120698,
+        "slug": "palo-alto-university",
+        "name": "Palo Alto University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1065
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 123095,
+        "slug": "saybrook-university",
+        "name": "Saybrook University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1057
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110778,
+        "slug": "sofia-university",
+        "name": "Sofia University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1145
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 143978,
+        "slug": "the-chicago-school-at-chicago",
+        "name": "The Chicago School at Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3448275862068966,
+          "yield_rate": 0.4,
+          "enrollment": 1100
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 455664,
+        "slug": "the-chicago-school-at-los-angeles",
+        "name": "The Chicago School at Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4634146341463415,
+          "yield_rate": 0.6578947368421053,
+          "grad_rate": 0.0,
+          "enrollment": 3344
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 459745,
+        "slug": "the-chicago-school-at-washington-dc",
+        "name": "The Chicago School at Washington DC",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 564
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 166717,
+        "slug": "william-james-college",
+        "name": "William James College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 967
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 240213,
+        "slug": "wisconsin-school-of-professional-psychology",
+        "name": "Wisconsin School of Professional Psychology",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 78
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=126012",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:40:57.757933+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

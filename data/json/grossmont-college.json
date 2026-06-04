@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:32.444896+00:00",
+  "generated_at": "2026-06-04T04:56:54.925820+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Grossmont_College",
     "fetched_at": "2026-05-25T21:36:56.98579+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1332,
+    "out_of_state_tuition": 10628,
     "avg_net_price": 2755,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6269,
     "federal_loan_rate": 0.0105,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5510,
       "75_110k": 8421,
       "110k_plus": 8775
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3473,
     "grad_rate_total": 0.37,
     "pell_grad_rate": 0.38,
     "retention_full_time": 0.71,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 19622,
     "ug_12mo": 19622,
-    "grad_12mo": 16284,
+    "grad_12mo": 0,
     "women_12mo": 11371,
     "men_12mo": 8251,
     "fall_total": 14440,
-    "fall_full_time": 14440,
-    "fall_part_time": 12163,
     "distance_ed_any": 14440,
     "distance_ed_exclusive": 5299,
     "race_ethnicity": {

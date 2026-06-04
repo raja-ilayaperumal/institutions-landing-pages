@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:08.906294+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117575,
+    "slug": "southern-california-seminary",
+    "name": "Southern California Seminary",
+    "website_url": "https://www.socalsem.edu",
+    "city": "El Cajon",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92019-1108",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MXVNTE7E4UV1",
+      "opeid": "03332300",
+      "ein": "952111210"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Southern California Seminary is an accredited private institution of theological higher education located in El Cajon, California, with a founding history dating back to 1946. It offers undergraduate and graduate programs in Biblical Studies, Theology, and Behavioral Sciences, and focuses on equipping students for ministry based on the inerrant Word of God.",
+    "source_url": "https://www.socalsem.edu/about",
+    "fetched_at": "2026-06-03T16:31:55.842147+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 18720,
+    "out_of_state_tuition": 18720,
+    "pell_grant_rate": 0.7667,
+    "federal_loan_rate": 0.2143,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "grad_4yr_bachelors": 0.5,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.0,
+    "pell_6yr_bachelors_rate": 0.0,
+    "retention_full_time": 0.0,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 237,
+    "ug_12mo": 50,
+    "grad_12mo": 187,
+    "women_12mo": 104,
+    "men_12mo": 133,
+    "fall_total": 161,
+    "distance_ed_any": 161,
+    "distance_ed_exclusive": 97,
+    "race_ethnicity": {
+      "white": 0.4,
+      "black": 0.2667,
+      "hispanic": 0.2333,
+      "asian": 0.0333,
+      "ai_an": 0.0,
+      "nh_pi": 0.0333,
+      "two_or_more": 0.0,
+      "non_resident": 0.0333,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 7
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 9.0,
+    "instr_total_fte": 5
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110060,
+        "slug": "bethesda-university",
+        "name": "Bethesda University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.702,
+        "metrics": {
+          "admit_rate": 0.6686046511627907,
+          "yield_rate": 0.8695652173913043,
+          "grad_rate": 0.08,
+          "retention_rate": 0.45,
+          "enrollment": 263,
+          "avg_net_price": 8388
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 462354,
+        "slug": "john-paul-the-great-catholic-university",
+        "name": "John Paul the Great Catholic University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.6927,
+        "metrics": {
+          "admit_rate": 0.7962962962962963,
+          "yield_rate": 0.43023255813953487,
+          "grad_rate": 0.64,
+          "retention_rate": 0.85,
+          "enrollment": 286,
+          "avg_net_price": 29124
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 117104,
+        "slug": "life-pacific-university",
+        "name": "Life Pacific University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.6193,
+        "metrics": {
+          "admit_rate": 0.957983193277311,
+          "yield_rate": 0.33771929824561403,
+          "grad_rate": 0.38,
+          "retention_rate": 0.73,
+          "enrollment": 621,
+          "avg_net_price": 22343
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 475200,
+        "slug": "whitworth-university-adult-degree-programs",
+        "name": "Whitworth University-Adult Degree Programs",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.5696,
+        "metrics": {
+          "admit_rate": 0.2857142857142857,
+          "yield_rate": 1.0,
+          "enrollment": 145
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 120865,
+        "slug": "pacific-union-college",
+        "name": "Pacific Union College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.5555,
+        "metrics": {
+          "admit_rate": 0.472962680883473,
+          "yield_rate": 0.14009661835748793,
+          "grad_rate": 0.45,
+          "retention_rate": 0.89,
+          "enrollment": 974,
+          "avg_net_price": 20979
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:42:10.773457+00:00",
+  "generated_at": "2026-06-04T04:58:38.408358+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -48,23 +48,40 @@
     "enrolled": 1102,
     "first_time_freshmen": 1102,
     "first_time_freshmen_ft": 1102,
+    "admission_rate": 0.0474,
     "admit_rate": 0.04548030603570417,
-    "yield_rate": 0.8582554517133957
+    "yield_rate": 0.8582554517133957,
+    "sat_average": 1553,
+    "sat_math_25_75": [
+      780,
+      800
+    ],
+    "sat_reading_25_75": [
+      730,
+      780
+    ],
+    "act_composite_25_75": [
+      34,
+      36
+    ]
   },
   "cost": {
+    "in_state_tuition": 60156,
+    "out_of_state_tuition": 60156,
     "avg_net_price": 19813,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0072,
     "federal_loan_rate": 0.0657,
     "net_price_by_family_income": {
-      "0_30k": -4129,
-      "30_48k": -2483,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 4621,
       "75_110k": 13696,
       "110k_plus": 46627
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.9608,
     "grad_rate_total": 0.96,
     "grad_4yr_bachelors": 0.83,
     "grad_5yr_bachelors": 0.95,
@@ -78,12 +95,10 @@
   "enrollment": {
     "enrollment_12mo_total": 12915,
     "ug_12mo": 4788,
-    "grad_12mo": 4653,
+    "grad_12mo": 8127,
     "women_12mo": 5609,
     "men_12mo": 7306,
     "fall_total": 11886,
-    "fall_full_time": 4535,
-    "fall_part_time": 4535,
     "distance_ed_any": 11886,
     "distance_ed_exclusive": 46,
     "race_ethnicity": {
@@ -287,12 +302,16 @@
     ]
   },
   "research_funding": {
-    "nsf_total_usd": null,
-    "nih_total_usd": null,
-    "herd_total_usd": null,
-    "usaspending_total_usd": null,
-    "all_sources_total_usd": null,
-    "years_covered": null
+    "nsf_total_usd": 11546082,
+    "nih_total_usd": 10065447,
+    "usaspending_total_usd": 750887253,
+    "all_sources_total_usd": 772498782,
+    "recent_3y_total_usd": 10065447,
+    "award_count_nih": 20,
+    "award_count_nsf": 21,
+    "award_count_usaspending": 20,
+    "award_count_total": 61,
+    "latest_award_end": "2031-06-30"
   },
   "ir_office": {
     "url": "https://ir.mit.edu/about",
@@ -472,20 +491,7 @@
       "fetched_at": "2026-05-25T13:30:34.855274+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Assistant Director, Data Strategy & Business Intelligence",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179412776"
-    },
-    {
-      "title": "Scientific Co-Director, Data Science and Multimodal Integration",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179432456"
-    },
-    {
-      "title": "Assistant Director, Data Strategy & Business Intelligence",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179432457"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Massachusetts Institute of Technology - Lincoln Laboratory Federally Funded Research & Development Center",

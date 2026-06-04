@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:01.144589+00:00",
+  "generated_at": "2026-06-04T04:56:33.172477+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -35,34 +35,39 @@
     }
   },
   "brand": null,
-  "about": null,
-  "admissions": {},
+  "about": {
+    "summary": "Crafton Hills College (CHC) is a public community college in Yucaipa, California. CHC is part of the California Community College system. It offers associate degrees and career and technical certificates. Since its opening in 1972, more than 200,000 people have attended Crafton Hills and the college now serves approximately 6,500 students each semester with day, evening, and online classes.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Crafton_Hills_College",
+    "source_url": "https://en.wikipedia.org/wiki/Crafton_Hills_College",
+    "fetched_at": "2026-06-03T19:47:56.1282+05:30"
+  },
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1188,
+    "out_of_state_tuition": 12320,
     "avg_net_price": 10655,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6902,
     "federal_loan_rate": 0.0,
     "net_price_by_family_income": {
       "0_30k": 9667,
       "30_48k": 11237,
       "48_75k": 11811,
-      "75_110k": 14441,
-      "110k_plus": null
-    }
+      "75_110k": 14441
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3813,
     "grad_rate_total": 0.31,
     "pell_grad_rate": 0.35
   },
   "enrollment": {
     "enrollment_12mo_total": 9263,
     "ug_12mo": 9263,
-    "grad_12mo": 7740,
+    "grad_12mo": 0,
     "women_12mo": 5172,
     "men_12mo": 4091,
     "fall_total": 6768,
-    "fall_full_time": 6768,
-    "fall_part_time": 5687,
     "distance_ed_any": 6768,
     "distance_ed_exclusive": 2019,
     "race_ethnicity": {

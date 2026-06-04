@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:16.626731+00:00",
+  "generated_at": "2026-06-04T04:56:56.215826+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Hartnell_College",
     "fetched_at": "2026-05-25T23:03:57.43027+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1404,
+    "out_of_state_tuition": 8994,
     "avg_net_price": 2895,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6049,
     "federal_loan_rate": 0.0025,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5267,
       "75_110k": 8346,
       "110k_plus": 10059
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3902,
     "grad_rate_total": 0.4,
     "pell_grad_rate": 0.45,
     "retention_full_time": 0.73,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 14561,
     "ug_12mo": 14561,
-    "grad_12mo": 12597,
+    "grad_12mo": 0,
     "women_12mo": 6885,
     "men_12mo": 7676,
     "fall_total": 11273,
-    "fall_full_time": 11273,
-    "fall_part_time": 9453,
     "distance_ed_any": 11273,
     "distance_ed_exclusive": 1997,
     "race_ethnicity": {

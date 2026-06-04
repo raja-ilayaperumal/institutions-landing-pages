@@ -1,0 +1,467 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:11.817497+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110778,
+    "slug": "sofia-university",
+    "name": "Sofia University",
+    "website_url": "https://www.sofia.edu",
+    "city": "Palo Alto",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94303",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02267600",
+      "ein": "465225989"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Sofia University is a private institution located in Costa Mesa and Palo Alto, California, focused on transpersonal psychology and related disciplines. It offers a range of undergraduate, graduate, and certificate programs, including degrees in business administration, computer science, and counseling psychology. The university emphasizes innovation and inclusivity in its academic approach.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sofia_University",
+    "source_url": "https://en.wikipedia.org/wiki/Sofia_University",
+    "fetched_at": "2026-06-03T16:16:32.819149+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.8571,
+    "federal_loan_rate": 0.6,
+    "is_private_for_net_price": true
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1307,
+    "ug_12mo": 8,
+    "grad_12mo": 1299,
+    "women_12mo": 905,
+    "men_12mo": 402,
+    "fall_total": 1145,
+    "distance_ed_any": 1145,
+    "distance_ed_exclusive": 5,
+    "race_ethnicity": {
+      "white": 0.4286,
+      "black": 0.0,
+      "hispanic": 0.0,
+      "asian": 0.2857,
+      "ai_an": 0.1429,
+      "nh_pi": 0.0,
+      "two_or_more": 0.1429,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 147
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 55
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 24
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 17
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 485698,
+        "slug": "american-college-of-the-building-arts",
+        "name": "American College of the Building Arts",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4444444444444444,
+          "yield_rate": 0.9464285714285714,
+          "grad_rate": 0.55,
+          "retention_rate": 0.75,
+          "enrollment": 155,
+          "avg_net_price": 26389
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 483595,
+        "slug": "ana-g-mendez-university",
+        "name": "Ana G. Mendez University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 8378
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 245892,
+        "slug": "antioch-university",
+        "name": "Antioch University",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 486
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 189015,
+        "slug": "bank-street-college-of-education",
+        "name": "Bank Street College of Education",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 719
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 493822,
+        "slug": "college-unbound",
+        "name": "College Unbound",
+        "state": "Rhode Island",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 494,
+          "avg_net_price": 19116
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 165495,
+        "slug": "conway-school-of-landscape-design",
+        "name": "Conway School of Landscape Design",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 17
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 124487,
+        "slug": "epic-bible-college-and-graduate-school",
+        "name": "Epic Bible College & Graduate School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7857142857142857,
+          "yield_rate": 0.8181818181818182,
+          "grad_rate": 0.0,
+          "enrollment": 98
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 481030,
+        "slug": "future-generations-university",
+        "name": "Future Generations University",
+        "state": "West Virginia",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 48
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 495314,
+        "slug": "hackensack-meridian-school-of-medicine",
+        "name": "Hackensack Meridian School of Medicine",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 610
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 485403,
+        "slug": "high-tech-high-graduate-school-of-education",
+        "name": "High Tech High Graduate School of Education",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 99
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 455804,
+        "slug": "institute-of-world-politics",
+        "name": "Institute of World Politics",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 173
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 173452,
+        "slug": "martin-luther-college",
+        "name": "Martin Luther College",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8716814159292036,
+          "yield_rate": 0.883248730964467,
+          "grad_rate": 0.72,
+          "retention_rate": 0.85,
+          "enrollment": 878,
+          "avg_net_price": 20483
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 492209,
+        "slug": "reiss-davis-graduate-school",
+        "name": "Reiss-Davis Graduate School",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 35
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 475033,
+        "slug": "relay-graduate-school-of-education",
+        "name": "Relay Graduate School of Education",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1324
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 123952,
+        "slug": "southern-california-institute-of-architecture",
+        "name": "Southern California Institute of Architecture",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.766042780748663,
+          "yield_rate": 0.06980802792321117,
+          "grad_rate": 0.71,
+          "retention_rate": 0.91,
+          "enrollment": 418,
+          "avg_net_price": 37535
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 487153,
+        "slug": "the-chicago-school-at-xavier-university-of-louisiana",
+        "name": "The Chicago School at Xavier University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 20
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 104665,
+        "slug": "the-school-of-architecture",
+        "name": "The School of Architecture",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 8
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 457402,
+        "slug": "university-of-fort-lauderdale",
+        "name": "University of Fort Lauderdale",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 368,
+          "avg_net_price": 15245
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 149639,
+        "slug": "vandercook-college-of-music",
+        "name": "VanderCook College of Music",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8947368421052632,
+          "yield_rate": 0.4411764705882353,
+          "grad_rate": 0.67,
+          "retention_rate": 0.88,
+          "enrollment": 323,
+          "avg_net_price": 17094
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://sofia.edu/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The mission of the Office of Institutional Research as Sofia University is to create a comprehensive data collection process that serves the institution in three ways: Measure and assess student satisfaction and educational effectiveness; Gather and archive all data elements and reports required of the University by government and regulatory organizations; Inform all aspects of operational policy making, program development, and strategic planning.",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:58:26.987149+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Julie Miradakis-Ginn",
+      "title": "Associate Director of Institutional Research & Assessment",
+      "phone": "+1 (888) 820-1484"
+    },
+    {
+      "ordering": 0,
+      "name": "Julie Miradakis-Ginn, M.Ed.",
+      "title": "Associate Director of Institutional Research & Assessment"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://www.sofia.edu/institutional-research/dashboards/",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:57:52.8784+05:30"
+    },
+    {
+      "doc_type": "data_dictionary",
+      "year": 2025,
+      "title": "Sofia University Data Dictionary",
+      "url": "https://www.sofia.edu/institutional-research/",
+      "summary": "The Data Dictionary is part of Sofia University's Office of Institutional Research resource, aiming to support data collection, measurement of student satisfaction, educational effectiveness, and compliance with reporting requirements for government and regulatory bodies. It assists in informing operational policy making, program development, and strategic planning.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:56:13.650769+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110778",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:58:29.721392+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Sofia University Strategic Plan Refresh",
+      "url": "https://sofia.edu/strategic-plan/",
+      "summary": "Sofia University's strategic plan outlines their vision for academic excellence, impactful research, and community service. Developed collaboratively, the plan focuses on innovation, excellence, and inclusivity while setting priorities for enhancing academic programs, expanding research, and fostering a diverse community. The university remains committed to making a positive global impact with this roadmap guiding their future initiatives and resource allocations.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:52:46.65785+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Adam A. Neal",
+      "field": "Psychology"
+    },
+    {
+      "name": "Elisaveta Bagryana",
+      "field": "Literature"
+    },
+    {
+      "name": "Georgi Parvanov",
+      "field": "Politics"
+    },
+    {
+      "name": "Maxim of Bulgaria",
+      "field": "Religion"
+    },
+    {
+      "name": "Meglena Kuneva",
+      "field": "Politics"
+    },
+    {
+      "name": "Iliana Iotova",
+      "field": "Politics"
+    },
+    {
+      "name": "Dimitar Sasselov",
+      "field": "Science"
+    },
+    {
+      "name": "Maria Todorova",
+      "field": "Historical Studies"
+    },
+    {
+      "name": "Nadezhda Neynsky",
+      "field": "Politics"
+    },
+    {
+      "name": "Anton Donchev",
+      "field": "Literature"
+    },
+    {
+      "name": "Blaga Dimitrova",
+      "field": "Literature"
+    }
+  ]
+}

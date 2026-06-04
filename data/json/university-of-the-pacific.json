@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:16.519797+00:00",
+  "generated_at": "2026-06-04T04:57:46.126467+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -35,19 +35,39 @@
     }
   },
   "brand": null,
-  "about": null,
+  "about": {
+    "summary": "University of the Pacific is a private, historically Methodist-affiliated university with its main campus in Stockton, California, United States, and graduate campuses in San Francisco and Sacramento. It was the first university chartered in the state of California (1851), the first independent coeducational campus in California, and the first conservatory of music and first medical school on the West Coast.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States)",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States)",
+    "fetched_at": "2026-06-04T09:35:44.222882+05:30"
+  },
   "admissions": {
     "applicants": 7780,
     "admits": 5549,
     "enrolled": 766,
     "first_time_freshmen": 766,
     "first_time_freshmen_ft": 764,
+    "admission_rate": 0.9486,
     "admit_rate": 0.7132390745501286,
-    "yield_rate": 0.1380428906109209
+    "yield_rate": 0.1380428906109209,
+    "sat_average": 1303,
+    "sat_math_25_75": [
+      580,
+      730
+    ],
+    "sat_reading_25_75": [
+      580,
+      690
+    ],
+    "act_composite_25_75": [
+      23,
+      31
+    ]
   },
   "cost": {
+    "in_state_tuition": 55340,
+    "out_of_state_tuition": 55340,
     "avg_net_price": 25926,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0246,
     "federal_loan_rate": 0.4274,
     "net_price_by_family_income": {
@@ -56,9 +76,11 @@
       "48_75k": 20169,
       "75_110k": 26422,
       "110k_plus": 38104
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.6782,
     "grad_rate_total": 0.69,
     "grad_4yr_bachelors": 0.44,
     "grad_5yr_bachelors": 0.65,
@@ -73,12 +95,10 @@
   "enrollment": {
     "enrollment_12mo_total": 7407,
     "ug_12mo": 3488,
-    "grad_12mo": 3400,
+    "grad_12mo": 3919,
     "women_12mo": 4299,
     "men_12mo": 3108,
     "fall_total": 6944,
-    "fall_full_time": 3249,
-    "fall_part_time": 3204,
     "distance_ed_any": 6944,
     "distance_ed_exclusive": 81,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:03.315141+00:00",
+  "generated_at": "2026-06-04T04:57:50.858590+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Santa Ana College is a public community college in Santa Ana, California, United States.",
+    "summary": "Santa Ana College is a public community college located in Santa Ana, California. The specific founding year is not mentioned on the page, and there is no information about the size of the institution. The college offers a range of programs including continuing education, academic support, and various student services.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Ana_College",
     "source_url": "https://en.wikipedia.org/wiki/Santa_Ana_College",
-    "fetched_at": "2026-05-25T18:43:41.725997+05:30"
+    "fetched_at": "2026-06-03T19:49:25.854703+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1180,
+    "out_of_state_tuition": 9460,
     "avg_net_price": 3854,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.8115,
     "federal_loan_rate": 0.0073,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6107,
       "75_110k": 8596,
       "110k_plus": 9191
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3151,
     "grad_rate_total": 0.31,
     "pell_grad_rate": 0.33,
     "non_pell_grad_rate": 0.0
@@ -63,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 42829,
     "ug_12mo": 42829,
-    "grad_12mo": 35978,
+    "grad_12mo": 0,
     "women_12mo": 18201,
     "men_12mo": 24628,
     "fall_total": 27248,
-    "fall_full_time": 27248,
-    "fall_part_time": 22485,
     "distance_ed_any": 27248,
     "distance_ed_exclusive": 8579,
     "race_ethnicity": {

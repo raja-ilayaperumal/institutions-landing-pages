@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:33.074916+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 446385,
+    "slug": "los-angeles-college-of-music",
+    "name": "Los Angeles College of Music",
+    "website_url": "https://www.lacm.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91105",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "03868400",
+      "ein": "954561188"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles College of Music is a private for-profit music college in Pasadena, in Los Angeles County, California. It has been accredited by the National Association of Schools of Music since 2003. More than 1000 students have graduated from the school, about half of them from outside the United States.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_College_of_Music",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_College_of_Music",
+    "fetched_at": "2026-06-03T08:57:45.318568+05:30"
+  },
+  "admissions": {
+    "applicants": 415,
+    "admits": 364,
+    "enrolled": 66,
+    "first_time_freshmen": 66,
+    "first_time_freshmen_ft": 66,
+    "admission_rate": 0.8137,
+    "admit_rate": 0.8771084337349397,
+    "yield_rate": 0.1813186813186813
+  },
+  "cost": {
+    "in_state_tuition": 25650,
+    "out_of_state_tuition": 25650,
+    "avg_net_price": 40853,
+    "pell_grant_rate": 0.0449,
+    "federal_loan_rate": 0.3717,
+    "net_price_by_family_income": {
+      "0_30k": 36635,
+      "30_48k": 45328,
+      "48_75k": 41755,
+      "75_110k": 37778,
+      "110k_plus": 44790
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4737,
+    "grad_rate_total": 0.41,
+    "grad_4yr_bachelors": 0.22,
+    "grad_5yr_bachelors": 0.26,
+    "grad_6yr_bachelors": 0.28,
+    "pell_grad_rate": 0.53,
+    "pell_6yr_bachelors_rate": 0.5,
+    "non_pell_grad_rate": 0.0,
+    "non_pell_6yr_bachelors": 0.0,
+    "retention_full_time": 0.61
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 296,
+    "ug_12mo": 284,
+    "grad_12mo": 12,
+    "women_12mo": 119,
+    "men_12mo": 177,
+    "fall_total": 261,
+    "distance_ed_any": 261,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.2959,
+      "black": 0.0524,
+      "hispanic": 0.1461,
+      "asian": 0.0412,
+      "ai_an": 0.0075,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0187,
+      "non_resident": 0.4082,
+      "race_unknown": 0.03
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 43
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 3.0,
+    "instr_total_fte": 2
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142887,
+        "slug": "american-academy-of-art-college",
+        "name": "American Academy of Art College",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.45,
+          "retention_rate": 0.5,
+          "avg_net_price": 34298
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 113582,
+        "slug": "design-institute-of-san-diego",
+        "name": "Design Institute of San Diego",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.2857142857142857,
+          "grad_rate": 0.8,
+          "retention_rate": 0.0,
+          "enrollment": 94,
+          "avg_net_price": 31293
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 191205,
+        "slug": "five-towns-college",
+        "name": "Five Towns College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5381750465549349,
+          "yield_rate": 0.4290657439446367,
+          "grad_rate": 0.55,
+          "retention_rate": 0.7,
+          "enrollment": 974,
+          "avg_net_price": 20799
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 449384,
+        "slug": "gnomon",
+        "name": "Gnomon",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.41818181818181815,
+          "yield_rate": 0.7391304347826086,
+          "grad_rate": 1.0,
+          "retention_rate": 0.9,
+          "enrollment": 526,
+          "avg_net_price": 45824
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 436429,
+        "slug": "los-angeles-film-school",
+        "name": "Los Angeles Film School",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.51,
+          "enrollment": 5472,
+          "avg_net_price": 33130
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 461148,
+        "slug": "new-york-film-academy",
+        "name": "New York Film Academy",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.68,
+          "retention_rate": 0.66,
+          "enrollment": 1132,
+          "avg_net_price": 46420
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 377546,
+        "slug": "northwest-college-of-art-and-design",
+        "name": "Northwest College of Art & Design",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6597938144329897,
+          "yield_rate": 0.40625,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 139,
+          "avg_net_price": 20185
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 368452,
+        "slug": "nossi-college-of-art-and-design",
+        "name": "Nossi College of Art and Design",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.46308724832214765,
+          "yield_rate": 0.5,
+          "grad_rate": 0.42,
+          "retention_rate": 0.88,
+          "enrollment": 247,
+          "avg_net_price": 23591
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 488448,
+        "slug": "seattle-film-institute",
+        "name": "Seattle Film Institute",
+        "state": "Washington",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 85,
+          "avg_net_price": 41429
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 481094,
+        "slug": "sotheby-s-institute-of-art-ny",
+        "name": "Sotheby's Institute of Art-NY",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 188
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=446385",
+      "stored": false,
+      "fetched_at": "2026-06-03T08:57:46.638054+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

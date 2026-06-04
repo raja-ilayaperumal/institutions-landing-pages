@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:44.567091+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 487649,
+    "slug": "california-institute-of-advanced-management",
+    "name": "California Institute of Advanced Management",
+    "website_url": "https://www.ciam.edu",
+    "city": "Alhambra",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91803",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CVRKN3K2PND3",
+      "opeid": "04250600",
+      "ein": "452648658"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of Advanced Management (CIAM) is a nonprofit graduate school located in Alhambra, California, established in 2011. It focuses on business management principles rooted in the philosophy of Peter F. Drucker, offering MBA programs and other advanced degrees with an emphasis on practical, real-world experience.",
+    "source_url": "https://www.ciam.edu/about",
+    "fetched_at": "2026-06-03T16:36:45.856689+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 278,
+    "women_12mo": 172,
+    "men_12mo": 106,
+    "fall_total": 344,
+    "distance_ed_any": 344,
+    "distance_ed_exclusive": 0
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 39
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 7,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "instr_total_fte": 4
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 164580,
+        "slug": "babson-college",
+        "name": "Babson College",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1708773051913442,
+          "yield_rate": 0.3898939488459139,
+          "grad_rate": 0.93,
+          "retention_rate": 0.95,
+          "enrollment": 3932,
+          "avg_net_price": 38876
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 488387,
+        "slug": "claremont-lincoln-university",
+        "name": "Claremont Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 271
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 169327,
+        "slug": "cleary-university",
+        "name": "Cleary University",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.675392670157068,
+          "yield_rate": 0.2868217054263566,
+          "grad_rate": 0.38,
+          "retention_rate": 0.66,
+          "enrollment": 1004,
+          "avg_net_price": 21019
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 164368,
+        "slug": "hult-international-business-school",
+        "name": "Hult International Business School",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6047700170357752,
+          "yield_rate": 0.13051643192488263,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 2008,
+          "avg_net_price": 42402
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 146490,
+        "slug": "lake-forest-graduate-school-of-management",
+        "name": "Lake Forest Graduate School of Management",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 196
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 118693,
+        "slug": "menlo-college",
+        "name": "Menlo College",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6847099417726978,
+          "yield_rate": 0.052598425196850394,
+          "grad_rate": 0.54,
+          "retention_rate": 0.7,
+          "enrollment": 810,
+          "avg_net_price": 27032
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 171492,
+        "slug": "northwood-university",
+        "name": "Northwood University",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6450567260940032,
+          "yield_rate": 0.28559463986599665,
+          "grad_rate": 0.63,
+          "retention_rate": 0.79,
+          "enrollment": 2409,
+          "avg_net_price": 26429
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 495059,
+        "slug": "oak-valley-college",
+        "name": "Oak Valley College",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.43,
+          "retention_rate": 0.82,
+          "enrollment": 75,
+          "avg_net_price": 5805
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120838,
+        "slug": "pacific-states-university",
+        "name": "Pacific States University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 101
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 486433,
+        "slug": "presidio-graduate-school",
+        "name": "Presidio Graduate School",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 74
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 172608,
+        "slug": "walsh-college",
+        "name": "Walsh College",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 908
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 443340,
+        "slug": "williamson-christian-college",
+        "name": "Williamson Christian College",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.67,
+          "retention_rate": 0.5,
+          "enrollment": 64,
+          "avg_net_price": 22721
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=487649",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:49:48.533702+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

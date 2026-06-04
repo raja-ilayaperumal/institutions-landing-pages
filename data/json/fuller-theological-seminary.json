@@ -1,0 +1,461 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:47.586381+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114840,
+    "slug": "fuller-theological-seminary",
+    "name": "Fuller Theological Seminary",
+    "website_url": "https://www.fuller.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91182",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EA7CJXDYNU51",
+      "opeid": "00120000",
+      "ein": "951699394"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Fuller Theological Seminary is an evangelical, multidenominational graduate institution located in Pasadena, California. It offers master’s and doctoral degree programs in theology, psychology, and intercultural studies, with a focus on integrating faith and psychological sciences. The seminary serves a diverse student body from 80 countries and 113 denominations, reflecting its commitment to training leaders for various roles in the church and society.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fuller_Theological_Seminary",
+    "source_url": "https://en.wikipedia.org/wiki/Fuller_Theological_Seminary",
+    "fetched_at": "2026-06-03T16:16:40.66344+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 2701,
+    "women_12mo": 1210,
+    "men_12mo": 1491,
+    "fall_total": 1890,
+    "distance_ed_any": 1890,
+    "distance_ed_exclusive": 1132
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 344
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 90
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 12
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "instr_total_fte": 45
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 124283,
+        "slug": "claremont-school-of-theology",
+        "name": "Claremont School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 213
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://fuller.edu/about/institutional-reports-and-documents/",
+    "summary": "The page contains extensive information about Fuller's various academic programs, accreditation details, and program learning outcomes. It provides specific links to accreditation documentation from the Western Association of Schools and Colleges (WSCUC) and the Association of Theological Schools (ATS).",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:31:29.711767+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114840",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:04.767558+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Augustin Ahimana",
+      "field": "Religion"
+    },
+    {
+      "name": "Leith Anderson",
+      "field": "Religion"
+    },
+    {
+      "name": "Rob Bell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rob_Bell",
+      "field": "Religion"
+    },
+    {
+      "name": "James Brenneman",
+      "field": "Education"
+    },
+    {
+      "name": "Bill Bright",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bill_Bright",
+      "field": "Religion"
+    },
+    {
+      "name": "Alexander Chow",
+      "field": "Academia"
+    },
+    {
+      "name": "Samuel Chu",
+      "field": "Religion"
+    },
+    {
+      "name": "Craig Detweiler",
+      "field": "Film and Media"
+    },
+    {
+      "name": "Robert Grant",
+      "field": "Religion"
+    },
+    {
+      "name": "Timothy Headington",
+      "field": "Business"
+    },
+    {
+      "name": "Gregory C. Horn",
+      "field": "Military"
+    },
+    {
+      "name": "Willie James Jennings",
+      "field": "Religion"
+    },
+    {
+      "name": "Jin Mingri",
+      "field": "Religion"
+    },
+    {
+      "name": "Joon Gon Kim",
+      "field": "Religion"
+    },
+    {
+      "name": "Tom Lin",
+      "field": "Religion"
+    },
+    {
+      "name": "Laurent Mbanda",
+      "field": "Religion"
+    },
+    {
+      "name": "John C. Maxwell",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_C._Maxwell",
+      "field": "Religion"
+    },
+    {
+      "name": "Les Parrott",
+      "field": "Psychology"
+    },
+    {
+      "name": "John Piper",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Piper_(theologian)",
+      "field": "Religion"
+    },
+    {
+      "name": "John D. Robb",
+      "field": "Religion"
+    },
+    {
+      "name": "Onesphore Rwaje",
+      "field": "Religion"
+    },
+    {
+      "name": "Thomas R. Schreiner",
+      "field": "Academia"
+    },
+    {
+      "name": "Robert A. Schuller",
+      "field": "Religion"
+    },
+    {
+      "name": "David H. Stern",
+      "field": "Religion"
+    },
+    {
+      "name": "Miroslav Volf",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Miroslav_Volf",
+      "field": "Theology"
+    },
+    {
+      "name": "Brian Wallace",
+      "field": "Religion"
+    },
+    {
+      "name": "Bruce A. Ware",
+      "field": "Theology"
+    },
+    {
+      "name": "Rick Warren",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rick_Warren",
+      "field": "Religion"
+    },
+    {
+      "name": "James White",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/James_White_(theologian)",
+      "field": "Religion"
+    },
+    {
+      "name": "Anthony C. Yu",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_C._Yu",
+      "field": "Academia"
+    },
+    {
+      "name": "Anne Zaki",
+      "field": "Theology"
+    },
+    {
+      "name": "Sherry Walling",
+      "field": "Psychology"
+    },
+    {
+      "name": "Jamal-Dominique Hopkins",
+      "field": "Theology"
+    },
+    {
+      "name": "Chandra Mallampalli",
+      "field": "Divinity"
+    },
+    {
+      "name": "Matthew J. Diaz",
+      "field": "Global Missional Leadership"
+    },
+    {
+      "name": "Lila Balisky",
+      "field": "Missiology"
+    },
+    {
+      "name": "Ray S. Anderson",
+      "field": "Theology"
+    },
+    {
+      "name": "Benson, Dr. Don",
+      "field": "Divinity"
+    },
+    {
+      "name": "Jack D. Burke",
+      "field": "Divinity"
+    },
+    {
+      "name": "Robert J. Campbell",
+      "field": "Theology"
+    },
+    {
+      "name": "Charles E. Carlston",
+      "field": "Theology"
+    }
+  ]
+}

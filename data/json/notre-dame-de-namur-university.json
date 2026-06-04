@@ -1,0 +1,421 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:39.094966+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120184,
+    "slug": "notre-dame-de-namur-university",
+    "name": "Notre Dame de Namur University",
+    "website_url": "https://www.ndnu.edu",
+    "city": "Belmont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94002-1908",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RKU6CQHG1DL1",
+      "opeid": "00117900",
+      "ein": "941156646"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Notre Dame de Namur University (NDNU) is a private Catholic university in Belmont, California, United States. It is the third oldest college in California and the first college in the state authorized to grant the baccalaureate degree to women.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Notre_Dame_de_Namur_University",
+    "source_url": "https://en.wikipedia.org/wiki/Notre_Dame_de_Namur_University",
+    "fetched_at": "2026-06-03T01:42:48.769649+05:30"
+  },
+  "admissions": {
+    "applicants": 1810,
+    "admits": 1809,
+    "enrolled": 120,
+    "first_time_freshmen": 120,
+    "first_time_freshmen_ft": 120,
+    "admit_rate": 0.9994475138121547,
+    "yield_rate": 0.06633499170812604
+  },
+  "cost": {
+    "pell_grant_rate": 0.2857,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3155,
+    "grad_rate_total": 0.07,
+    "grad_4yr_bachelors": 0.07,
+    "grad_5yr_bachelors": 0.07,
+    "grad_6yr_bachelors": 0.07,
+    "pell_grad_rate": 0.07,
+    "pell_6yr_bachelors_rate": 0.07,
+    "non_pell_grad_rate": 0.1,
+    "non_pell_6yr_bachelors": 0.1
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 319,
+    "ug_12mo": 20,
+    "grad_12mo": 299,
+    "women_12mo": 237,
+    "men_12mo": 82,
+    "fall_total": 306,
+    "distance_ed_any": 306,
+    "distance_ed_exclusive": 89,
+    "race_ethnicity": {
+      "white": 0.1429,
+      "black": 0.1429,
+      "hispanic": 0.5714,
+      "asian": 0.0714,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0714,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 6
+      }
+    ],
+    "program_count": 12,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 6.0,
+    "instr_total_fte": 8
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142832,
+        "slug": "adler-university",
+        "name": "Adler University",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1631
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 245838,
+        "slug": "antioch-university-los-angeles",
+        "name": "Antioch University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 910
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 245865,
+        "slug": "antioch-university-new-england",
+        "name": "Antioch University-New England",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 992
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 245847,
+        "slug": "antioch-university-santa-barbara",
+        "name": "Antioch University-Santa Barbara",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 263
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 245883,
+        "slug": "antioch-university-seattle",
+        "name": "Antioch University-Seattle",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 771
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110316,
+        "slug": "california-institute-of-integral-studies",
+        "name": "California Institute of Integral Studies",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1874
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 211583,
+        "slug": "chestnut-hill-college",
+        "name": "Chestnut Hill College",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7446018893387314,
+          "yield_rate": 0.07159039420027186,
+          "grad_rate": 0.49,
+          "retention_rate": 0.62,
+          "enrollment": 1288,
+          "avg_net_price": 29944
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 177339,
+        "slug": "evangel-university",
+        "name": "Evangel University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7160804020100503,
+          "yield_rate": 0.3894736842105263,
+          "grad_rate": 0.65,
+          "retention_rate": 0.76,
+          "enrollment": 2289,
+          "avg_net_price": 18705
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 114549,
+        "slug": "fielding-graduate-university",
+        "name": "Fielding Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 915
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 120698,
+        "slug": "palo-alto-university",
+        "name": "Palo Alto University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1065
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 231059,
+        "slug": "saint-michael-s-college",
+        "name": "Saint Michael's College",
+        "state": "Vermont",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8450502152080345,
+          "yield_rate": 0.11799660441426146,
+          "grad_rate": 0.73,
+          "retention_rate": 0.8,
+          "enrollment": 1323,
+          "avg_net_price": 30033
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 110778,
+        "slug": "sofia-university",
+        "name": "Sofia University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1145
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 143978,
+        "slug": "the-chicago-school-at-chicago",
+        "name": "The Chicago School at Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3448275862068966,
+          "yield_rate": 0.4,
+          "enrollment": 1100
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 459745,
+        "slug": "the-chicago-school-at-washington-dc",
+        "name": "The Chicago School at Washington DC",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 564
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 126012,
+        "slug": "the-wright-institute",
+        "name": "The Wright Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 518
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120184",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:42:49.837499+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "PPOHA Grant: Educate, Empower, Engage (E3@NDNU)",
+      "kind": "award",
+      "url": "https://www.ndnu.edu/student-services/grants/ppoha-grant.html",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Lailee Bakhtiar"
+    },
+    {
+      "name": "Eloise Baza"
+    },
+    {
+      "name": "Eddie Baza Calvo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Eddie_Baza_Calvo",
+      "field": "Politics"
+    },
+    {
+      "name": "Alice Kamokilaikawai Campbell"
+    },
+    {
+      "name": "Belo Cipriani",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Belo_Cipriani",
+      "field": "Literature"
+    },
+    {
+      "name": "Nikki Coseteng",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nikki_Coseteng",
+      "field": "Politics"
+    },
+    {
+      "name": "Anton del Rosario",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Anton_del_Rosario",
+      "field": "Athletics"
+    },
+    {
+      "name": "Abigail Campbell Kawānanakoa",
+      "field": "Politics"
+    },
+    {
+      "name": "Louie Heredia",
+      "field": "Music"
+    },
+    {
+      "name": "Cathy Malchiodi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cathy_Malchiodi",
+      "field": "Art Therapy"
+    },
+    {
+      "name": "Barbara Morgan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barbara_Morgan",
+      "field": "Astronautics"
+    },
+    {
+      "name": "Reilly Paterson"
+    },
+    {
+      "name": "Tessa Prieto-Valdes",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tessa_Prieto-Valdes",
+      "field": "Fashion"
+    },
+    {
+      "name": "Joan Targ"
+    },
+    {
+      "name": "María Cristina Vilanova"
+    },
+    {
+      "name": "Wang Yi",
+      "field": "Athletics"
+    },
+    {
+      "name": "Susie Wind"
+    },
+    {
+      "name": "Emily Wu"
+    }
+  ]
+}

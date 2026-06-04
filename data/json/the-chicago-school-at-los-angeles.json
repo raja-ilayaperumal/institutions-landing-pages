@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:53.975295+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 455664,
+    "slug": "the-chicago-school-at-los-angeles",
+    "name": "The Chicago School at Los Angeles",
+    "website_url": "https://www.thechicagoschool.edu/in-the-community/locations",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90017",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LRWWXLVE9W65",
+      "opeid": "02155300",
+      "ein": "900394713"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Chicago School is a private university with its main campus in Chicago, Illinois, United States. Established in 1979, The Chicago School was primarily focused on the professional application of psychology. It has about 6,000 students as of 2022 across all campuses and online. The university offers more than 30 academic programs in professional fields such as psychology, business, behavioral sciences, medicine, and counseling.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Chicago_School",
+    "source_url": "https://en.wikipedia.org/wiki/The_Chicago_School",
+    "fetched_at": "2026-06-03T19:47:26.806628+05:30"
+  },
+  "admissions": {
+    "applicants": 82,
+    "admits": 38,
+    "enrolled": 25,
+    "first_time_freshmen": 25,
+    "first_time_freshmen_ft": 0,
+    "admission_rate": 0.4017,
+    "admit_rate": 0.4634146341463415,
+    "yield_rate": 0.6578947368421053
+  },
+  "cost": {
+    "in_state_tuition": 20844,
+    "out_of_state_tuition": 20844,
+    "pell_grant_rate": 1.0,
+    "federal_loan_rate": 0.3134,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.0,
+    "grad_4yr_bachelors": 0.0,
+    "grad_5yr_bachelors": 0.0,
+    "grad_6yr_bachelors": 0.0,
+    "retention_part_time": 0.17
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 4787,
+    "ug_12mo": 599,
+    "grad_12mo": 4188,
+    "women_12mo": 3969,
+    "men_12mo": 818,
+    "fall_total": 3344,
+    "distance_ed_any": 3344,
+    "distance_ed_exclusive": 2885,
+    "race_ethnicity": {
+      "white": 0.4198,
+      "black": 0.2099,
+      "hispanic": 0.2006,
+      "asian": 0.0093,
+      "ai_an": 0.0062,
+      "nh_pi": 0.0062,
+      "two_or_more": 0.0772,
+      "non_resident": 0.0154,
+      "race_unknown": 0.0556
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 573
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 158
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 4
+      }
+    ],
+    "program_count": 25,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 29
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110468,
+        "slug": "alliant-international-university-san-diego",
+        "name": "Alliant International University-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.0,
+          "grad_rate": 0.22,
+          "enrollment": 4530
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 211088,
+        "slug": "arcadia-university",
+        "name": "Arcadia University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8022237528288891,
+          "yield_rate": 0.07383785109775542,
+          "grad_rate": 0.67,
+          "retention_rate": 0.79,
+          "enrollment": 3404,
+          "avg_net_price": 25866
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 150136,
+        "slug": "ball-state-university",
+        "name": "Ball State University",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.854975584317072,
+          "yield_rate": 0.204391704558057,
+          "grad_rate": 0.62,
+          "retention_rate": 0.78,
+          "enrollment": 21089,
+          "avg_net_price": 15898
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 110592,
+        "slug": "california-state-university-los-angeles",
+        "name": "California State University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125080218806344,
+          "yield_rate": 0.0942397856664434,
+          "grad_rate": 0.53,
+          "retention_rate": 0.72,
+          "enrollment": 23163,
+          "avg_net_price": 4113
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 413413,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 114813,
+        "slug": "fresno-pacific-university",
+        "name": "Fresno Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.640721940214326,
+          "yield_rate": 0.17253521126760563,
+          "grad_rate": 0.5,
+          "retention_rate": 0.72,
+          "enrollment": 2879,
+          "avg_net_price": 14317
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 104717,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 117627,
+        "slug": "la-sierra-university",
+        "name": "La Sierra University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9149713093375065,
+          "yield_rate": 0.13283922462941847,
+          "grad_rate": 0.58,
+          "retention_rate": 0.77,
+          "enrollment": 1574,
+          "avg_net_price": 26217
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 136215,
+        "slug": "nova-southeastern-university",
+        "name": "Nova Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7321137067267098,
+          "yield_rate": 0.15608180839612487,
+          "grad_rate": 0.63,
+          "retention_rate": 0.76,
+          "enrollment": 20910,
+          "avg_net_price": 31303
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 121150,
+        "slug": "pepperdine-university",
+        "name": "Pepperdine University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6285788651743883,
+          "yield_rate": 0.11635610766045548,
+          "grad_rate": 0.83,
+          "retention_rate": 0.88,
+          "enrollment": 8976,
+          "avg_net_price": 45409
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 489779,
+        "slug": "purdue-university-global",
+        "name": "Purdue University Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.57,
+          "enrollment": 45588,
+          "avg_net_price": 12267
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 122409,
+        "slug": "san-diego-state-university",
+        "name": "San Diego State University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36190148046058773,
+          "yield_rate": 0.20358711341789257,
+          "grad_rate": 0.76,
+          "retention_rate": 0.91,
+          "enrollment": 41137,
+          "avg_net_price": 16174
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 183026,
+        "slug": "southern-new-hampshire-university",
+        "name": "Southern New Hampshire University",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9951022434884665,
+          "yield_rate": 0.3801401710177142,
+          "grad_rate": 0.44,
+          "retention_rate": 0.61,
+          "enrollment": 189531,
+          "avg_net_price": 33742
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 110653,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28569099992664976,
+          "yield_rate": 0.1921606664004108,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 37297,
+          "avg_net_price": 12840
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 110680,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.267140200818148,
+          "yield_rate": 0.20408163265306123,
+          "grad_rate": 0.86,
+          "retention_rate": 0.94,
+          "enrollment": 44256,
+          "avg_net_price": 11750
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 262086,
+        "slug": "university-of-massachusetts-global",
+        "name": "University of Massachusetts Global",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9285714285714286,
+          "yield_rate": 0.48717948717948717,
+          "retention_rate": 0.62,
+          "enrollment": 8996,
+          "avg_net_price": 31601
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 484631,
+        "slug": "university-of-phoenix-california",
+        "name": "University of Phoenix-California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.23,
+          "enrollment": 34
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 123961,
+        "slug": "university-of-southern-california",
+        "name": "University of Southern California",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09813841783802894,
+          "yield_rate": 0.433416149068323,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 46566,
+          "avg_net_price": 31927
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 125231,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=455664",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:59:51.879901+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

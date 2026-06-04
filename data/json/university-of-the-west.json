@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:43.836740+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 449870,
+    "slug": "university-of-the-west",
+    "name": "University of the West",
+    "website_url": "https://www.uwest.edu",
+    "city": "Rosemead",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91770",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EBK6DKNBMAD8",
+      "opeid": "03696300",
+      "ein": "931022351"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "University of the West (UWest) is a private Buddhist university in Rosemead, California, United States. It was founded in 1990 by Hsing Yun, founder of the Taiwan-based Buddhist order Fo Guang Shan and Hsi Lai Temple, the North American order headquarters. The school offered its first class in spring of 1991.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_the_West",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_the_West",
+    "fetched_at": "2026-06-03T13:41:21.951235+05:30"
+  },
+  "admissions": {
+    "applicants": 4,
+    "admits": 4,
+    "enrolled": 1,
+    "first_time_freshmen": 1,
+    "first_time_freshmen_ft": 1,
+    "admission_rate": 1.0,
+    "admit_rate": 1.0,
+    "yield_rate": 0.25
+  },
+  "cost": {
+    "in_state_tuition": 14718,
+    "out_of_state_tuition": 14718,
+    "avg_net_price": 11137,
+    "pell_grant_rate": 0.1463,
+    "federal_loan_rate": 0.2581,
+    "net_price_by_family_income": {
+      "0_30k": 6601,
+      "30_48k": 11639,
+      "75_110k": 24245
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3111,
+    "grad_rate_total": 0.38,
+    "grad_4yr_bachelors": 0.06,
+    "grad_5yr_bachelors": 0.38,
+    "grad_6yr_bachelors": 0.38,
+    "pell_grad_rate": 0.36,
+    "pell_6yr_bachelors_rate": 0.36,
+    "non_pell_grad_rate": 0.0,
+    "non_pell_6yr_bachelors": 0.0,
+    "retention_full_time": 0.5
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 178,
+    "ug_12mo": 61,
+    "grad_12mo": 117,
+    "women_12mo": 89,
+    "men_12mo": 89,
+    "fall_total": 138,
+    "distance_ed_any": 138,
+    "distance_ed_exclusive": 17,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.0976,
+      "hispanic": 0.2195,
+      "asian": 0.1463,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0244,
+      "non_resident": 0.5122,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 0
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 4.0,
+    "instr_total_fte": 15
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 2,
+        "unitid": 116846,
+        "slug": "american-jewish-university",
+        "name": "American Jewish University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.96,
+          "yield_rate": 0.25,
+          "grad_rate": 0.44,
+          "enrollment": 424
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 245847,
+        "slug": "antioch-university-santa-barbara",
+        "name": "Antioch University-Santa Barbara",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 263
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 124283,
+        "slug": "claremont-school-of-theology",
+        "name": "Claremont School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 213
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 399911,
+        "slug": "soka-university-of-america",
+        "name": "Soka University of America",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.43375394321766564,
+          "yield_rate": 0.4581818181818182,
+          "grad_rate": 0.92,
+          "retention_rate": 0.9,
+          "enrollment": 495,
+          "avg_net_price": 21446
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.uwest.edu/institutional_research/",
+    "office_name": "Office of Institutional Research",
+    "summary": "The page provides contact information for the Institutional Research office at the University of the West. It mentions data access compliant with FERPA and lists some key student satisfaction survey results. For general inquiries or access to data, Shruti Piduri can be contacted.",
+    "phone": "626-571-8811",
+    "email": "shrutip@uwest.edu",
+    "address": "1409 Walnut Grove Ave. Rosemead, California 91770 USA",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-03T13:41:20.428397+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Shruti Piduri",
+      "email": "shrutip@uwest.edu",
+      "phone": "(626) 571-8811"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=449870",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:41:22.607537+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2025,
+      "title": "The UWest 2025-2028 Strategic Plan",
+      "url": "https://www.uwest.edu/about-strategic-plan/",
+      "summary": "The University of the West's 2025-2028 Strategic Plan outlines a visionary roadmap to enhance the university’s Buddhist identity and its stature in American higher education. It sets forth goals to establish UWest as a leading institution informed by Buddhist values, ensure financial growth through diverse revenue strategies, enhance student success, and modernize campus facilities. This comprehensive plan emphasizes the interconnectedness of strengthening UWest’s core pillars, thus achieving its mission of empowering students for purposeful lives.",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:37:38.19041+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

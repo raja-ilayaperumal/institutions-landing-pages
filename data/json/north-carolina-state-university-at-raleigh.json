@@ -1,0 +1,849 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:39.520009+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 199193,
+    "slug": "north-carolina-state-university-at-raleigh",
+    "name": "North Carolina State University at Raleigh",
+    "website_url": "https://www.ncsu.edu",
+    "city": "Raleigh",
+    "state": "NC",
+    "state_name": "North Carolina",
+    "zip": "27695-7001",
+    "region": "Southeast",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Doctoral Universities: Very High Research Activity",
+    "carnegie_slug": "research-1",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": true,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "U3NVH931QJJ3",
+      "opeid": "00297200",
+      "ein": "566000756"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "North Carolina State University is a public land-grant research university in Raleigh, North Carolina, United States. Founded in 1887 by the North Carolina General Assembly as an agricultural and mechanical college, it is the largest university in the Carolinas and a constituent institution of the University of North Carolina system.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/North_Carolina_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/North_Carolina_State_University",
+    "fetched_at": "2026-05-25T13:20:22.559717+05:30"
+  },
+  "admissions": {
+    "applicants": 44047,
+    "admits": 18385,
+    "enrolled": 5839,
+    "first_time_freshmen": 5839,
+    "first_time_freshmen_ft": 5817,
+    "admission_rate": 0.3985,
+    "admit_rate": 0.417395055281858,
+    "yield_rate": 0.31759586619526786,
+    "sat_average": 1380,
+    "sat_math_25_75": [
+      660,
+      740
+    ],
+    "sat_reading_25_75": [
+      640,
+      720
+    ],
+    "act_composite_25_75": [
+      28,
+      32
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 8895,
+    "out_of_state_tuition": 31767,
+    "avg_net_price": 16931,
+    "pell_grant_rate": 0.063,
+    "federal_loan_rate": 0.3399,
+    "net_price_by_family_income": {
+      "0_30k": 6200,
+      "30_48k": 8670,
+      "48_75k": 13992,
+      "75_110k": 20386,
+      "110k_plus": 24211
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8464,
+    "grad_rate_total": 0.85,
+    "grad_4yr_bachelors": 0.68,
+    "grad_5yr_bachelors": 0.83,
+    "grad_6yr_bachelors": 0.85,
+    "pell_grad_rate": 0.79,
+    "pell_6yr_bachelors_rate": 0.8,
+    "non_pell_grad_rate": 0.83,
+    "non_pell_6yr_bachelors": 0.83,
+    "retention_full_time": 0.94,
+    "retention_part_time": 0.95
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 41029,
+    "ug_12mo": 29839,
+    "grad_12mo": 11190,
+    "women_12mo": 20381,
+    "men_12mo": 20648,
+    "fall_total": 38464,
+    "distance_ed_any": 38464,
+    "distance_ed_exclusive": 2954,
+    "race_ethnicity": {
+      "white": 0.6746,
+      "black": 0.0579,
+      "hispanic": 0.0851,
+      "asian": 0.0958,
+      "ai_an": 0.0037,
+      "nh_pi": 0.0007,
+      "two_or_more": 0.048,
+      "non_resident": 0.0233,
+      "race_unknown": 0.0108
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 2642
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 1469
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 835
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 778
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 732
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 452
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 400
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 363
+      },
+      {
+        "cip_family_code": "03",
+        "cip_family_label": "Natural Resources",
+        "completions": 359
+      },
+      {
+        "cip_family_code": "27",
+        "cip_family_label": "Mathematics",
+        "completions": 288
+      }
+    ],
+    "program_count": 162,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 1962
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 139755,
+        "slug": "georgia-institute-of-technology-main-campus",
+        "name": "Georgia Institute of Technology-Main Campus",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.1407115021157738,
+          "yield_rate": 0.455961012718412,
+          "grad_rate": 0.94,
+          "retention_rate": 0.98,
+          "enrollment": 53363,
+          "avg_net_price": 13289
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 171100,
+        "slug": "michigan-state-university",
+        "name": "Michigan State University",
+        "state": "Michigan",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8479513341272651,
+          "yield_rate": 0.18318466502182576,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 52089,
+          "avg_net_price": 20751
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 243780,
+        "slug": "purdue-university-main-campus",
+        "name": "Purdue University-Main Campus",
+        "state": "Indiana",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49872372849069785,
+          "yield_rate": 0.2919892035037686,
+          "grad_rate": 0.83,
+          "retention_rate": 0.93,
+          "enrollment": 58658,
+          "avg_net_price": 13945
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 186380,
+        "slug": "rutgers-university-new-brunswick",
+        "name": "Rutgers University-New Brunswick",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5814994024543096,
+          "yield_rate": 0.205293365748515,
+          "grad_rate": 0.84,
+          "retention_rate": 0.93,
+          "enrollment": 52269,
+          "avg_net_price": 23519
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 104179,
+        "slug": "university-of-arizona",
+        "name": "University of Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8613791803081986,
+          "yield_rate": 0.1838732786754756,
+          "grad_rate": 0.68,
+          "retention_rate": 0.83,
+          "enrollment": 56365,
+          "avg_net_price": 15960
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 110644,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4182816798834763,
+          "yield_rate": 0.1636398810243513,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 40065,
+          "avg_net_price": 15288
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 134130,
+        "slug": "university-of-florida",
+        "name": "University of Florida",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2420435852468154,
+          "yield_rate": 0.42198382385980676,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 56311,
+          "avg_net_price": 6351
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 145637,
+        "slug": "university-of-illinois-urbana-champaign",
+        "name": "University of Illinois Urbana-Champaign",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42373409997016626,
+          "yield_rate": 0.28828367523282233,
+          "grad_rate": 0.85,
+          "retention_rate": 0.95,
+          "enrollment": 59238,
+          "avg_net_price": 15201
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 163286,
+        "slug": "university-of-maryland-college-park",
+        "name": "University of Maryland-College Park",
+        "state": "Maryland",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4479485813240975,
+          "yield_rate": 0.21626644859118282,
+          "grad_rate": 0.89,
+          "retention_rate": 0.96,
+          "enrollment": 41725,
+          "avg_net_price": 15590
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 240444,
+        "slug": "university-of-wisconsin-madison",
+        "name": "University of Wisconsin-Madison",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4519683127447112,
+          "yield_rate": 0.2858773755959976,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 51044,
+          "avg_net_price": 16928
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 233921,
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "name": "Virginia Polytechnic Institute and State University",
+        "state": "Virginia",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5477922968494038,
+          "yield_rate": 0.25345990680854025,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 38857,
+          "avg_net_price": 23790
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://uda.ncsu.edu",
+    "office_name": "University Data and Analytics",
+    "summary": "UDA empowers leaders with accurate, timely, and actionable information, maximizes the value and availability of institutional data resources for the university community, and provides official university data to stakeholders.",
+    "phone": "919.515.2776",
+    "address": "10 Watauga Club Dr. Suite 300 Raleigh, NC 27607",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-05-25T13:20:20.418766+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "McKinney Austin",
+      "title": "Interim Senior Vice Provost for University Data and Analytics",
+      "email": "mnausti2@ncsu.edu"
+    },
+    {
+      "ordering": 1,
+      "name": "Ehsan Bagheri",
+      "title": "Data Scientist",
+      "email": "sbagher3@ncsu.edu"
+    },
+    {
+      "ordering": 2,
+      "name": "Sylvia Bezawada",
+      "title": "Business Intelligence Analyst",
+      "email": "sbezawa@ncsu.edu"
+    },
+    {
+      "ordering": 3,
+      "name": "Tim Carroll",
+      "title": "Senior Institutional Research Analyst",
+      "email": "tgcarro2@ncsu.edu"
+    },
+    {
+      "ordering": 4,
+      "name": "Justin Chandler",
+      "title": "Institutional Reporting Lead",
+      "email": "jlchand5@ncsu.edu"
+    },
+    {
+      "ordering": 5,
+      "name": "Brad Collins",
+      "title": "Business Intelligence Analyst",
+      "email": "abcolli2@ncsu.edu"
+    },
+    {
+      "ordering": 6,
+      "name": "Lexi Crank",
+      "title": "Survey Research Specialist",
+      "email": "aecrank@ncsu.edu"
+    },
+    {
+      "ordering": 7,
+      "name": "Christine Davis",
+      "title": "Data Governance Specialist",
+      "email": "cndavis6@ncsu.edu"
+    },
+    {
+      "ordering": 8,
+      "name": "Grae Desmond",
+      "title": "Technical Operations & Development Lead",
+      "email": "dgdesmon@ncsu.edu"
+    },
+    {
+      "ordering": 9,
+      "name": "Raul Doyle",
+      "title": "Director, Data Governance",
+      "email": "rgdoyle@ncsu.edu",
+      "phone": "919-515-5953"
+    },
+    {
+      "ordering": 10,
+      "name": "Jesse Long",
+      "title": "Data Governance Specialist",
+      "email": "jalong6@ncsu.edu"
+    },
+    {
+      "ordering": 11,
+      "name": "Caroline Ortiz",
+      "title": "Assistant Vice Provost for Institutional Analytics",
+      "email": "acortiz@ncsu.edu"
+    },
+    {
+      "ordering": 12,
+      "name": "Kara Reddish",
+      "title": "Institutional Research Analyst",
+      "email": "kareddi2@ncsu.edu"
+    },
+    {
+      "ordering": 13,
+      "name": "Samantha Rich",
+      "title": "Senior Survey Research Analyst",
+      "email": "snrich@ncsu.edu",
+      "phone": "919-515-9091"
+    },
+    {
+      "ordering": 14,
+      "name": "Jackie Ross",
+      "title": "Institutional Analyst",
+      "email": "jmross5@ncsu.edu"
+    },
+    {
+      "ordering": 15,
+      "name": "Theint Theint San",
+      "title": "Institutional Research Analyst"
+    },
+    {
+      "ordering": 16,
+      "name": "Stephanie Stewart",
+      "title": "Information Technology Analyst Programmer",
+      "email": "snstewar@ncsu.edu"
+    },
+    {
+      "ordering": 17,
+      "name": "Megan Stitt",
+      "title": "Executive Assistant to the Interim Senior Vice Provost for University Data and Analytics",
+      "email": "mcstitt@ncsu.edu"
+    },
+    {
+      "ordering": 18,
+      "name": "Allison Swim",
+      "title": "Business Intelligence Lead",
+      "email": "amswim@ncsu.edu"
+    },
+    {
+      "ordering": 19,
+      "name": "Matt Van Jura",
+      "title": "Director, Research and Analysis and Special Projects",
+      "email": "mjvanjur@ncsu.edu"
+    },
+    {
+      "ordering": 20,
+      "name": "Susan Wang",
+      "title": "Senior Institutional Analyst",
+      "email": "xwang252@ncsu.edu",
+      "phone": "919-515-3884"
+    },
+    {
+      "ordering": 21,
+      "name": "Nancy Whelchel",
+      "title": "Assistant Vice Provost for Institutional Survey Research and Analysis",
+      "email": "nancy_whelchel@ncsu.edu",
+      "phone": "919-515-4184"
+    }
+  ],
+  "cds_files": [
+    {
+      "year": 2024,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2024-25.v3.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2023,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2023-24.v2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2022,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2022-23.v2.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2021,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2021-2022.v8.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2020,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2020-2021.v7.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2019,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2019-2020.v8.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2018,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2018-2019.v6.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2017-2018_v5.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2016-2017.v10.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2015-2016_v6.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2014-2015.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2013-2014.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2012-2013.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2011-2012.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2010-2011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2009-2010.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2008-2009.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/2007-20081.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dashboards",
+      "url": "https://udc.uda.ncsu.edu/index.cfm?reportID=53609",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:19:26.179257+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=199193",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:20:23.690503+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Factbook | University Data and Analytics",
+      "url": "https://uda.ncsu.edu/institutional-analytics/factbook/",
+      "summary": "The Factbook from North Carolina State University's University Data and Analytics provides insights into key university metrics such as student enrollment, student credit hours, and student success indicators, including graduation and retention rates. It also covers faculty and staff data. Certain detailed reports require authentication for access. The factbook aims to offer a comprehensive view of the university's data, utilizing tools like SAS Visual Analytics for in-depth analysis.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:18:44.998368+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Research Compliance Definitions",
+      "url": "https://research.ncsu.edu/administration/compliance/research-compliance/research-compliance-definitions/",
+      "summary": "The glossary page on North Carolina State University's research compliance site provides comprehensive definitions for 122 terms associated with research administration and compliance. Topics include research integrity, export control regulations, conflict of interest, IRB processes, and ethical practices in research. Emphasis is placed on safeguarding human subjects, managing information in compliance with federal regulations, and ensuring scientific integrity in research undertakings.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:19:31.462207+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "Wolfpack 2030: Powering the Extraordinary",
+      "url": "https://strategicplan.ncsu.edu/current-plan/",
+      "summary": "NC State University's strategic plan, 'Wolfpack 2030: Powering the Extraordinary,' outlines goals and initiatives for the period 2021 to 2030. It aims to build on past successes and address areas of needed growth in education, research, engagement, and community involvement, while championing equality and well-being. The plan prioritizes student empowerment, innovative partnerships, and university reputation, setting a high bar for achievement and an example for peer institutions.",
+      "stored": false,
+      "fetched_at": "2026-05-25T13:18:43.735356+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Collier Scholarship",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Community Engaged Internship for Undergraduates",
+      "agency": "North Carolina Sea Grant",
+      "kind": "opportunity",
+      "url": "https://ncseagrant.ncsu.edu/funding-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "GAANN Fellowship Program",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Goodnight Doctoral Fellowship",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Graduate School Doctoral Dissertation Completion Grants",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Molecular Biotechnology Training Program Traineeships",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Travel Grants",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "University Graduate Fellowships",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Warren-Wolfpack Club Graduate Fellowship",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Wells Fargo Supplemental Fellowship",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Wilkinson Graduate Fellowship",
+      "agency": "NC State Graduate School",
+      "kind": "opportunity",
+      "url": "https://grad.ncsu.edu/student-funding/fellowships-and-grants/opportunities/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Gil West",
+      "field": "Aviation"
+    },
+    {
+      "name": "Basil Hassan",
+      "field": "Aerospace Engineering"
+    },
+    {
+      "name": "Jeffrey E. Williams",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Williams_(Apple)",
+      "field": "Technology"
+    },
+    {
+      "name": "Robert R. Womack",
+      "field": "Aerospace Engineering"
+    },
+    {
+      "name": "F. Neal Hunter",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Herbert A. Fishel",
+      "field": "Motorsports"
+    },
+    {
+      "name": "Gerald Davis Mann",
+      "field": "Engineering"
+    },
+    {
+      "name": "Jerry S. Lee",
+      "field": "Aerospace Technology"
+    },
+    {
+      "name": "Franklin D. Hart",
+      "field": "Academia"
+    },
+    {
+      "name": "James M. Davis Jr.",
+      "field": "Energy"
+    },
+    {
+      "name": "Joseph P. Archie Jr.",
+      "field": "Medicine"
+    },
+    {
+      "name": "Claude A. Verbal",
+      "field": "Automotive"
+    },
+    {
+      "name": "William F. Morris Jr.",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Edward I. Weisiger",
+      "field": "Business"
+    },
+    {
+      "name": "Tuncer Cebeci",
+      "field": "Aerospace Engineering"
+    },
+    {
+      "name": "James A. Hackney III",
+      "field": "Industrial Engineering"
+    },
+    {
+      "name": "Marcus B. Crotts",
+      "field": "Engineering"
+    },
+    {
+      "name": "Charles E. Branscomb",
+      "field": "Technology"
+    },
+    {
+      "name": "James Arthur Jones",
+      "field": "Energy"
+    },
+    {
+      "name": "Katharine Stinson",
+      "field": "Aviation"
+    },
+    {
+      "name": "Henry M. Shaw Sr.",
+      "field": "Industrial Development"
+    },
+    {
+      "name": "Vivian Howard",
+      "field": "Culinary Arts"
+    },
+    {
+      "name": "Jess Ekstrom",
+      "field": "Entrepreneurship"
+    },
+    {
+      "name": "Danielle Deabler",
+      "field": "Media"
+    },
+    {
+      "name": "Therese Fowler",
+      "field": "Writing"
+    },
+    {
+      "name": "John D. Hall",
+      "field": "Arts"
+    },
+    {
+      "name": "Patrick Joyce",
+      "field": "Business"
+    },
+    {
+      "name": "Paul Bonesteel",
+      "field": "Filmmaking"
+    }
+  ]
+}

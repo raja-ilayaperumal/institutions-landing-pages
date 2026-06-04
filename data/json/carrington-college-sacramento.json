@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:31.292843+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125532,
+    "slug": "carrington-college-sacramento",
+    "name": "Carrington College-Sacramento",
+    "website_url": "https://carrington.edu",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95826",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "F9KFNU9NB4R8",
+      "opeid": "00974800",
+      "ein": "943166490"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Carrington College is a network of for-profit private colleges with its headquarters in Sacramento, California. The school has 14 locations throughout the Western United States with a total enrollment of 8,097 and more than 132,000 alumni.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "source_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "fetched_at": "2026-05-28T01:13:48.277646+05:30"
+  },
+  "admissions": {
+    "applicants": 115,
+    "admits": 102,
+    "enrolled": 79,
+    "first_time_freshmen": 79,
+    "first_time_freshmen_ft": 64,
+    "admit_rate": 0.8869565217391304,
+    "yield_rate": 0.7745098039215687
+  },
+  "cost": {
+    "avg_net_price": 37143,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6384,
+    "net_price_by_family_income": {
+      "0_30k": 36748,
+      "30_48k": 36961,
+      "48_75k": 37225,
+      "75_110k": 39495,
+      "110k_plus": 40588
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.518,
+    "grad_rate_total": 0.51,
+    "pell_grad_rate": 0.58,
+    "non_pell_grad_rate": 0.81
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3699,
+    "ug_12mo": 3699,
+    "grad_12mo": 0,
+    "women_12mo": 2664,
+    "men_12mo": 1035,
+    "fall_total": 2207,
+    "distance_ed_any": 2207,
+    "distance_ed_exclusive": 1235,
+    "race_ethnicity": {
+      "white": 0.1857,
+      "black": 0.1048,
+      "hispanic": 0.4761,
+      "asian": 0.076,
+      "ai_an": 0.0234,
+      "nh_pi": 0.0186,
+      "two_or_more": 0.0195,
+      "non_resident": 0.0053,
+      "race_unknown": 0.0906
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 334
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 37
+      }
+    ],
+    "program_count": 12,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 63
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109208,
+        "slug": "american-river-college",
+        "name": "American River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 30462,
+          "avg_net_price": 4628
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 447777,
+        "slug": "asher-college",
+        "name": "Asher College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.47,
+          "enrollment": 649,
+          "avg_net_price": 16924
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 123493,
+        "slug": "charles-a-jones-career-and-education-center",
+        "name": "Charles A Jones Career and Education Center",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.93,
+          "enrollment": 91,
+          "avg_net_price": 15980
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 113096,
+        "slug": "cosumnes-river-college",
+        "name": "Cosumnes River College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 15744,
+          "avg_net_price": 4648
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 444219,
+        "slug": "folsom-lake-college",
+        "name": "Folsom Lake College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11098,
+          "avg_net_price": 3661
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 117195,
+        "slug": "lake-tahoe-community-college",
+        "name": "Lake Tahoe Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 4040,
+          "avg_net_price": 10975
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 118198,
+        "slug": "mti-college",
+        "name": "MTI College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6338028169014085,
+          "yield_rate": 0.4083333333333333,
+          "retention_rate": 0.77,
+          "enrollment": 2000,
+          "avg_net_price": 20336
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 122180,
+        "slug": "sacramento-city-college",
+        "name": "Sacramento City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 19920,
+          "avg_net_price": 3974
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 123341,
+        "slug": "sierra-college",
+        "name": "Sierra College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 19125,
+          "avg_net_price": 4462
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 446093,
+        "slug": "sutter-county-career-training-center",
+        "name": "Sutter County Career Training Center",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.65,
+          "retention_rate": 1.0,
+          "enrollment": 54,
+          "avg_net_price": 24876
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 126119,
+        "slug": "yuba-college",
+        "name": "Yuba College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6320,
+          "avg_net_price": 3573
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125532",
+      "stored": false,
+      "fetched_at": "2026-05-28T01:13:50.789407+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

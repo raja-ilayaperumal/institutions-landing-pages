@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:51.587292+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 454786,
+    "slug": "laurus-college",
+    "name": "Laurus College",
+    "website_url": "https://www.lauruscollege.edu",
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93401",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MYMMZJYB2EK5",
+      "opeid": "04141400",
+      "ein": "300353535"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Laurus College is a private institution located in California, offering Associate and Bachelor of Science degrees. It provides a flexible learning environment through online and in-person classes, with several campus locations including Atascadero, Chula Vista, Las Vegas, Oxnard, San Luis Obispo, and Santa Maria.",
+    "source_url": "https://www.lauruscollege.edu/about",
+    "fetched_at": "2026-06-03T16:38:07.209351+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 15693,
+    "pell_grant_rate": 0.4874,
+    "federal_loan_rate": 0.6278,
+    "net_price_by_family_income": {
+      "0_30k": 15629,
+      "30_48k": 15916
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3846,
+    "grad_rate_total": 0.43,
+    "grad_4yr_bachelors": 0.18,
+    "grad_5yr_bachelors": 0.5,
+    "grad_6yr_bachelors": 0.5,
+    "pell_grad_rate": 0.41,
+    "pell_6yr_bachelors_rate": 0.52,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.79,
+    "retention_part_time": 0.79
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1051,
+    "ug_12mo": 1051,
+    "grad_12mo": 0,
+    "women_12mo": 210,
+    "men_12mo": 841,
+    "fall_total": 1116,
+    "distance_ed_any": 1116,
+    "distance_ed_exclusive": 109,
+    "race_ethnicity": {
+      "white": 0.1448,
+      "black": 0.1146,
+      "hispanic": 0.1914,
+      "asian": 0.4836,
+      "ai_an": 0.0038,
+      "nh_pi": 0.0176,
+      "two_or_more": 0.0139,
+      "non_resident": 0.0,
+      "race_unknown": 0.0302
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 14
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 29
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 160995,
+        "slug": "beal-university",
+        "name": "Beal University",
+        "state": "Maine",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.25,
+          "enrollment": 504,
+          "avg_net_price": 33857
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 202435,
+        "slug": "davis-college-2",
+        "name": "Davis College",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 273,
+          "avg_net_price": 22263
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 183488,
+        "slug": "eastwick-college-hackensack",
+        "name": "Eastwick College-Hackensack",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4116022099447514,
+          "yield_rate": 0.7986577181208053,
+          "enrollment": 1171,
+          "avg_net_price": 35162
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 443650,
+        "slug": "miller-motte-college-chattanooga",
+        "name": "Miller-Motte College-Chattanooga",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.0,
+          "enrollment": 4462,
+          "avg_net_price": 25266
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 237996,
+        "slug": "west-virginia-junior-college-morgantown",
+        "name": "West Virginia Junior College-Morgantown",
+        "state": "West Virginia",
+        "carnegie": "Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 673,
+          "avg_net_price": 15987
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 224660,
+        "slug": "western-technical-college",
+        "name": "Western Technical College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.7,
+          "retention_rate": 0.89,
+          "enrollment": 611,
+          "avg_net_price": 29771
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=454786",
+      "stored": false,
+      "fetched_at": "2026-06-02T10:52:55.323441+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

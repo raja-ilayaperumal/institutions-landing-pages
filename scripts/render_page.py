@@ -125,25 +125,28 @@ def _fetch_enrollment(conn, unitid: int) -> dict:
                 out["men_12mo"] = r["efytotlm"]
             elif lvl == 2:
                 out["ug_12mo"] = r["efytotlt"]
-            elif lvl == 3:
-                out["grad_12mo"] = r["efytotlt"]
-        # Fall headcount + FT/PT (efalevel: 1=total, 2=FT, 3=PT)
+            # NB: effyalev=3 is "first-time degree-seeking UG", NOT graduate —
+            # using it as grad_12mo overstated grad badly (Berkeley showed 34,782
+            # vs true 13,728). Graduate 12-month is derived below as total − UG,
+            # which matches the official grad code exactly across all institutions.
+        t, u = out.get("enrollment_12mo_total"), out.get("ug_12mo")
+        if isinstance(t, (int, float)) and isinstance(u, (int, float)):
+            out["grad_12mo"] = max(0, t - u)
+        # Fall headcount total. efalevel 1=all-students total. (efalevel 2/3 are
+        # "Undergraduate total" / "first-time UG", NOT full/part-time — this file
+        # has no clean all-students FT/PT split, so we omit FT/PT rather than ship
+        # a mislabeled UG count as "part-time".)
         cur.execute(
             """
             SELECT efalevel, eftotlt, eftotlm, eftotlw
             FROM ipeds.fall_enrollment_2024
-            WHERE unitid=%s AND efalevel IN (1,2,3) AND line IN (14, 29, 99)
+            WHERE unitid=%s AND efalevel = 1 AND line IN (14, 29, 99)
             """,
             (unitid,),
         )
         for r in cur.fetchall():
-            lvl = r.get("efalevel")
-            if lvl == 1:
+            if r.get("efalevel") == 1:
                 out["fall_total"] = r["eftotlt"]
-            elif lvl == 2:
-                out["fall_full_time"] = r["eftotlt"]
-            elif lvl == 3:
-                out["fall_part_time"] = r["eftotlt"]
         # Online-only (distance ed) — exclusively distance
         cur.execute(
             """

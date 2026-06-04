@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:06.150055+00:00",
+  "generated_at": "2026-06-04T04:59:16.815923+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,9 @@
     "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Film_School",
     "fetched_at": "2026-05-27T22:32:17.777558+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
     "avg_net_price": 33130,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0,
     "federal_loan_rate": 0.7454,
     "net_price_by_family_income": {
@@ -53,9 +52,11 @@
       "48_75k": 32681,
       "75_110k": 31961,
       "110k_plus": 32745
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.4216,
     "grad_rate_total": 0.41,
     "grad_4yr_bachelors": 0.33,
     "grad_5yr_bachelors": 0.34,
@@ -69,12 +70,10 @@
   "enrollment": {
     "enrollment_12mo_total": 7487,
     "ug_12mo": 7487,
-    "grad_12mo": 7487,
+    "grad_12mo": 0,
     "women_12mo": 2772,
     "men_12mo": 4715,
     "fall_total": 5472,
-    "fall_full_time": 5472,
-    "fall_part_time": 5472,
     "distance_ed_any": 5472,
     "distance_ed_exclusive": 4243,
     "race_ethnicity": {

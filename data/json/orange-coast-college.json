@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:12.346686+00:00",
+  "generated_at": "2026-06-04T04:57:40.898089+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,11 +41,14 @@
     "source_url": "https://en.wikipedia.org/wiki/Orange_Coast_College",
     "fetched_at": "2026-05-25T21:06:08.061336+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1208,
+    "out_of_state_tuition": 9992,
     "room_and_board": 19159,
+    "total_cost_in_state": 20367,
+    "total_cost_out_of_state": 29151,
     "avg_net_price": 4754,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5987,
     "federal_loan_rate": 0.0156,
     "net_price_by_family_income": {
@@ -54,9 +57,11 @@
       "48_75k": 7289,
       "75_110k": 9230,
       "110k_plus": 10872
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5245,
     "grad_rate_total": 0.48,
     "pell_grad_rate": 0.48,
     "non_pell_grad_rate": 0.17,
@@ -66,12 +71,10 @@
   "enrollment": {
     "enrollment_12mo_total": 22707,
     "ug_12mo": 22707,
-    "grad_12mo": 21364,
+    "grad_12mo": 0,
     "women_12mo": 11449,
     "men_12mo": 11258,
     "fall_total": 17096,
-    "fall_full_time": 17096,
-    "fall_part_time": 16091,
     "distance_ed_any": 17096,
     "distance_ed_exclusive": 2351,
     "race_ethnicity": {
@@ -672,16 +675,7 @@
       "fetched_at": "2026-05-25T21:05:21.457024+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Tutoring and Learning Center Coordinator",
-      "apply_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179450145&Title=Counseling%20Assistant"
-    },
-    {
-      "title": "Instructor Radiological Technology (Tenure-Track)",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179446135"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

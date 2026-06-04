@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:30.414400+00:00",
+  "generated_at": "2026-06-04T04:57:30.408947+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Moorpark College is a public community college in Moorpark, California in the United States. It was established in 1967 with enrollment of 2,500 students, and enrolled 14,254 students in 2014.",
+    "summary": "Moorpark College is a public community college located in Moorpark, California, and it was founded in 1967. The college serves approximately 14,147 students and emphasizes career technical education, transfer programs, and a variety of student services. Notably, it is recognized for its Exotic Animal Training and Management program, which is the only associate degree program of its kind in the country.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Moorpark_College",
     "source_url": "https://en.wikipedia.org/wiki/Moorpark_College",
-    "fetched_at": "2026-05-25T21:26:10.02021+05:30"
+    "fetched_at": "2026-06-03T19:47:24.775508+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1416,
+    "out_of_state_tuition": 8179,
     "avg_net_price": 742,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5998,
     "federal_loan_rate": 0.0093,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 2243,
       "75_110k": 5408,
       "110k_plus": 4841
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4781,
     "grad_rate_total": 0.44,
     "pell_grad_rate": 0.42,
     "non_pell_grad_rate": 1.0
@@ -63,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 21725,
     "ug_12mo": 21725,
-    "grad_12mo": 17646,
+    "grad_12mo": 0,
     "women_12mo": 11904,
     "men_12mo": 9821,
     "fall_total": 14583,
-    "fall_full_time": 14583,
-    "fall_part_time": 12082,
     "distance_ed_any": 14583,
     "distance_ed_exclusive": 7208,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:24.814934+00:00",
+  "generated_at": "2026-06-04T04:58:15.013280+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,29 @@
   },
   "brand": null,
   "about": {
-    "summary": "Skyline College is a public community college in San Bruno, California. Opened in 1969, it is one of three comprehensive community colleges in the San Mateo County Community College District.",
+    "summary": "Skyline College is a public community college located in San Bruno, California. Although the founding year is not explicitly mentioned, it serves a diverse student body and focuses on providing academic programs, transfer opportunities, career services, and student life resources.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Skyline_College",
     "source_url": "https://en.wikipedia.org/wiki/Skyline_College",
-    "fetched_at": "2026-05-26T14:44:22.08887+05:30"
+    "fetched_at": "2026-06-03T19:48:44.909155+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
-    "avg_net_price": -1180,
-    "is_private_for_net_price": false,
+    "in_state_tuition": 1332,
+    "out_of_state_tuition": 11384,
+    "avg_net_price": 0,
     "pell_grant_rate": 0.7222,
     "federal_loan_rate": 0.004,
     "net_price_by_family_income": {
-      "0_30k": -3190,
-      "30_48k": -1349,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 1379,
       "75_110k": 5830,
-      "110k_plus": -1447
-    }
+      "110k_plus": 0
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4141,
     "grad_rate_total": 0.44,
     "pell_grad_rate": 0.46,
     "non_pell_grad_rate": 0.0
@@ -63,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17069,
     "ug_12mo": 17069,
-    "grad_12mo": 12157,
+    "grad_12mo": 0,
     "women_12mo": 9313,
     "men_12mo": 7756,
     "fall_total": 9572,
-    "fall_full_time": 9572,
-    "fall_part_time": 7620,
     "distance_ed_any": 9572,
     "distance_ed_exclusive": 4041,
     "race_ethnicity": {

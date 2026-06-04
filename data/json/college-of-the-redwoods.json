@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:56.519353+00:00",
+  "generated_at": "2026-06-04T04:57:51.928561+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/College_of_the_Redwoods",
     "fetched_at": "2026-05-27T22:56:09.503085+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1147,
+    "out_of_state_tuition": 7783,
     "avg_net_price": 3214,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.617,
     "federal_loan_rate": 0.0539,
     "net_price_by_family_income": {
       "0_30k": 2129,
       "30_48k": 3237,
       "48_75k": 6106,
-      "75_110k": 9044,
-      "110k_plus": null
-    }
+      "75_110k": 9044
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2847,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.33,
     "retention_full_time": 0.56,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 6103,
     "ug_12mo": 6103,
-    "grad_12mo": 4824,
+    "grad_12mo": 0,
     "women_12mo": 3152,
     "men_12mo": 2951,
     "fall_total": 4706,
-    "fall_full_time": 4706,
-    "fall_part_time": 3829,
     "distance_ed_any": 4706,
     "distance_ed_exclusive": 1290,
     "race_ethnicity": {

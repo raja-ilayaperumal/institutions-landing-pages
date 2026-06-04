@@ -1,0 +1,935 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:35.801546+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 131520,
+    "slug": "howard-university",
+    "name": "Howard University",
+    "website_url": "https://www.howard.edu",
+    "city": "Washington",
+    "state": "DC",
+    "state_name": "District of Columbia",
+    "zip": "20059",
+    "region": "Mid East",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral Universities: High Research Activity",
+    "carnegie_slug": "research-2",
+    "tags": {
+      "is_hbcu": true,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": true,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DYZNJGLTHMR9",
+      "opeid": "00144800",
+      "ein": "530204707"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Howard University is a private, historically black, federally chartered research university in Washington, D.C., United States. It is classified among \"R1: Doctoral Universities – Very high research activity\" and accredited by the Middle States Commission on Higher Education. It is the only HBCU with R1 designation.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_University",
+    "source_url": "https://en.wikipedia.org/wiki/Howard_University",
+    "wikidata_qid": "Q1068752",
+    "fetched_at": "2026-05-24T14:11:23.137398+05:30"
+  },
+  "admissions": {
+    "applicants": 34211,
+    "admits": 14144,
+    "enrolled": 2738,
+    "first_time_freshmen": 2738,
+    "first_time_freshmen_ft": 2735,
+    "admission_rate": 0.3489,
+    "admit_rate": 0.4134342755254158,
+    "yield_rate": 0.19358031674208145,
+    "sat_average": 1205,
+    "sat_math_25_75": [
+      540,
+      638
+    ],
+    "sat_reading_25_75": [
+      560,
+      660
+    ],
+    "act_composite_25_75": [
+      22,
+      28
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 33344,
+    "out_of_state_tuition": 33344,
+    "avg_net_price": 47919,
+    "pell_grant_rate": 0.0253,
+    "federal_loan_rate": 0.5712,
+    "net_price_by_family_income": {
+      "0_30k": 44234,
+      "30_48k": 45504,
+      "48_75k": 49005,
+      "75_110k": 50842,
+      "110k_plus": 51384
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.689,
+    "grad_rate_total": 0.7,
+    "grad_4yr_bachelors": 0.6,
+    "grad_5yr_bachelors": 0.69,
+    "grad_6yr_bachelors": 0.7,
+    "pell_grad_rate": 0.66,
+    "pell_6yr_bachelors_rate": 0.66,
+    "non_pell_grad_rate": 0.71,
+    "non_pell_6yr_bachelors": 0.71,
+    "retention_full_time": 0.91,
+    "retention_part_time": 0.29
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 14631,
+    "ug_12mo": 11087,
+    "grad_12mo": 3544,
+    "women_12mo": 10206,
+    "men_12mo": 4425,
+    "fall_total": 14890,
+    "distance_ed_any": 14890,
+    "distance_ed_exclusive": 1482,
+    "race_ethnicity": {
+      "white": 0.0026,
+      "black": 0.7143,
+      "hispanic": 0.0691,
+      "asian": 0.0308,
+      "ai_an": 0.0037,
+      "nh_pi": 0.0011,
+      "two_or_more": 0.0514,
+      "non_resident": 0.0494,
+      "race_unknown": 0.0775
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 505
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 372
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 291
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 230
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 216
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 196
+      },
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 154
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 127
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 97
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 94
+      }
+    ],
+    "program_count": 90,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 1052
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 131159,
+        "slug": "american-university",
+        "name": "American University",
+        "state": "District of Columbia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6195772433471146,
+          "yield_rate": 0.15620300751879698,
+          "grad_rate": 0.75,
+          "retention_rate": 0.88,
+          "enrollment": 12321,
+          "avg_net_price": 41945
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 230038,
+        "slug": "brigham-young-university",
+        "name": "Brigham Young University",
+        "state": "Utah",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6778081723371516,
+          "yield_rate": 0.775255391600454,
+          "grad_rate": 0.81,
+          "retention_rate": 0.91,
+          "enrollment": 35873,
+          "avg_net_price": 14487
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 112251,
+        "slug": "claremont-graduate-university",
+        "name": "Claremont Graduate University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1771
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 138947,
+        "slug": "clark-atlanta-university",
+        "name": "Clark Atlanta University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6422095797394017,
+          "yield_rate": 0.057152654740812714,
+          "grad_rate": 0.49,
+          "retention_rate": 0.71,
+          "enrollment": 4252,
+          "avg_net_price": 35115
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 165334,
+        "slug": "clark-university",
+        "name": "Clark University",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.39538945162417044,
+          "yield_rate": 0.1073321554770318,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 3925,
+          "avg_net_price": 27711
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 190044,
+        "slug": "clarkson-university",
+        "name": "Clarkson University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7736075664314668,
+          "yield_rate": 0.094896176984281,
+          "grad_rate": 0.75,
+          "retention_rate": 0.85,
+          "enrollment": 3348,
+          "avg_net_price": 31955
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 181002,
+        "slug": "creighton-university",
+        "name": "Creighton University",
+        "state": "Nebraska",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7975211837612243,
+          "yield_rate": 0.17856010149064383,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 8581,
+          "avg_net_price": 32380
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 144740,
+        "slug": "depaul-university",
+        "name": "DePaul University",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7589394230154161,
+          "yield_rate": 0.1081377217750432,
+          "grad_rate": 0.68,
+          "retention_rate": 0.86,
+          "enrollment": 21210,
+          "avg_net_price": 29141
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 212106,
+        "slug": "duquesne-university",
+        "name": "Duquesne University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8355696889785155,
+          "yield_rate": 0.13376032674278288,
+          "grad_rate": 0.77,
+          "retention_rate": 0.84,
+          "enrollment": 8234,
+          "avg_net_price": 34978
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 133881,
+        "slug": "florida-institute-of-technology",
+        "name": "Florida Institute of Technology",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5769875686614628,
+          "yield_rate": 0.09419781541236597,
+          "grad_rate": 0.62,
+          "retention_rate": 0.8,
+          "enrollment": 8992,
+          "avg_net_price": 35300
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 191241,
+        "slug": "fordham-university",
+        "name": "Fordham University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5930956553823448,
+          "yield_rate": 0.09689334733076714,
+          "grad_rate": 0.82,
+          "retention_rate": 0.89,
+          "enrollment": 16150,
+          "avg_net_price": 42581
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 145725,
+        "slug": "illinois-institute-of-technology",
+        "name": "Illinois Institute of Technology",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5492796332678455,
+          "yield_rate": 0.07734724292101341,
+          "grad_rate": 0.75,
+          "retention_rate": 0.86,
+          "enrollment": 8834,
+          "avg_net_price": 19353
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 213543,
+        "slug": "lehigh-university",
+        "name": "Lehigh University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2593155520690331,
+          "yield_rate": 0.2837965588958215,
+          "grad_rate": 0.88,
+          "retention_rate": 0.94,
+          "enrollment": 7692,
+          "avg_net_price": 33549
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 117636,
+        "slug": "loma-linda-university",
+        "name": "Loma Linda University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4210
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 192448,
+        "slug": "long-island-university",
+        "name": "Long Island University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8615541723400116,
+          "yield_rate": 0.08048766721228198,
+          "grad_rate": 0.55,
+          "retention_rate": 0.77,
+          "enrollment": 16689,
+          "avg_net_price": 23901
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 117946,
+        "slug": "loyola-marymount-university",
+        "name": "Loyola Marymount University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.45082073714755944,
+          "yield_rate": 0.14804496109136325,
+          "grad_rate": 0.79,
+          "retention_rate": 0.89,
+          "enrollment": 10179,
+          "avg_net_price": 45723
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 146719,
+        "slug": "loyola-university-chicago",
+        "name": "Loyola University Chicago",
+        "state": "Illinois",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8159989825766247,
+          "yield_rate": 0.08612574420996852,
+          "grad_rate": 0.75,
+          "retention_rate": 0.82,
+          "enrollment": 17384,
+          "avg_net_price": 35196
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 239105,
+        "slug": "marquette-university",
+        "name": "Marquette University",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8134324367680873,
+          "yield_rate": 0.14127004996055745,
+          "grad_rate": 0.83,
+          "retention_rate": 0.91,
+          "enrollment": 11746,
+          "avg_net_price": 29237
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 140447,
+        "slug": "mercer-university",
+        "name": "Mercer University",
+        "state": "Georgia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6888820951798634,
+          "yield_rate": 0.12707100591715975,
+          "grad_rate": 0.7,
+          "retention_rate": 0.82,
+          "enrollment": 9196,
+          "avg_net_price": 22350
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 136215,
+        "slug": "nova-southeastern-university",
+        "name": "Nova Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7321137067267098,
+          "yield_rate": 0.15608180839612487,
+          "grad_rate": 0.63,
+          "retention_rate": 0.76,
+          "enrollment": 20910,
+          "avg_net_price": 31303
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 195003,
+        "slug": "rochester-institute-of-technology",
+        "name": "Rochester Institute of Technology",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.669341836551897,
+          "yield_rate": 0.16283053206294829,
+          "grad_rate": 0.71,
+          "retention_rate": 0.89,
+          "enrollment": 17098,
+          "avg_net_price": 29694
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 179159,
+        "slug": "saint-louis-university",
+        "name": "Saint Louis University",
+        "state": "Missouri",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7504023691495526,
+          "yield_rate": 0.13855525051475634,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 17059,
+          "avg_net_price": 27075
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 186584,
+        "slug": "seton-hall-university",
+        "name": "Seton Hall University",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7326444946722634,
+          "yield_rate": 0.0881996474217717,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 9571,
+          "avg_net_price": 28921
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 228246,
+        "slug": "southern-methodist-university",
+        "name": "Southern Methodist University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6334535913414234,
+          "yield_rate": 0.17769493631562597,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 12116,
+          "avg_net_price": 41778
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 186867,
+        "slug": "stevens-institute-of-technology",
+        "name": "Stevens Institute of Technology",
+        "state": "New Jersey",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4757800056216621,
+          "yield_rate": 0.20775896022055929,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 8469,
+          "avg_net_price": 40468
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 196468,
+        "slug": "teachers-college-at-columbia-university",
+        "name": "Teachers College at Columbia University",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4401
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 228875,
+        "slug": "texas-christian-university",
+        "name": "Texas Christian University",
+        "state": "Texas",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4449276012014166,
+          "yield_rate": 0.2471536523929471,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 12938,
+          "avg_net_price": 33531
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 131283,
+        "slug": "the-catholic-university-of-america",
+        "name": "The Catholic University of America",
+        "state": "District of Columbia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8278224605302353,
+          "yield_rate": 0.13350125944584382,
+          "grad_rate": 0.79,
+          "retention_rate": 0.87,
+          "enrollment": 5243,
+          "avg_net_price": 32798
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 216366,
+        "slug": "thomas-jefferson-university",
+        "name": "Thomas Jefferson University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8096514745308311,
+          "yield_rate": 0.12147089578250261,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 8238,
+          "avg_net_price": 28163
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 202480,
+        "slug": "university-of-dayton",
+        "name": "University of Dayton",
+        "state": "Ohio",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6544743187298121,
+          "yield_rate": 0.1167802029751147,
+          "grad_rate": 0.8,
+          "retention_rate": 0.89,
+          "enrollment": 10506,
+          "avg_net_price": 31236
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 161457,
+        "slug": "university-of-new-england",
+        "name": "University of New England",
+        "state": "Maine",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9162968939088342,
+          "yield_rate": 0.12370680167290336,
+          "grad_rate": 0.7,
+          "retention_rate": 0.79,
+          "enrollment": 6573,
+          "avg_net_price": 37109
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 122436,
+        "slug": "university-of-san-diego",
+        "name": "University of San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5237535277516463,
+          "yield_rate": 0.12393354288280198,
+          "grad_rate": 0.84,
+          "retention_rate": 0.91,
+          "enrollment": 9714,
+          "avg_net_price": 31265
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 207971,
+        "slug": "university-of-tulsa",
+        "name": "University of Tulsa",
+        "state": "Oklahoma",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6151142355008787,
+          "yield_rate": 0.2326984126984127,
+          "grad_rate": 0.72,
+          "retention_rate": 0.92,
+          "enrollment": 3914,
+          "avg_net_price": 23678
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 216597,
+        "slug": "villanova-university",
+        "name": "Villanova University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2697798417612659,
+          "yield_rate": 0.27733503347146954,
+          "grad_rate": 0.92,
+          "retention_rate": 0.95,
+          "enrollment": 10041,
+          "avg_net_price": 44876
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 199847,
+        "slug": "wake-forest-university",
+        "name": "Wake Forest University",
+        "state": "North Carolina",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.21669247610402093,
+          "yield_rate": 0.36076885165105965,
+          "grad_rate": 0.89,
+          "retention_rate": 0.93,
+          "enrollment": 9322,
+          "avg_net_price": 28746
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 168421,
+        "slug": "worcester-polytechnic-institute",
+        "name": "Worcester Polytechnic Institute",
+        "state": "Massachusetts",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6015606338084243,
+          "yield_rate": 0.18080741230972866,
+          "grad_rate": 0.9,
+          "retention_rate": 0.94,
+          "enrollment": 7584,
+          "avg_net_price": 43273
+        }
+      }
+    ]
+  },
+  "research_funding": {
+    "nsf_total_usd": 5291716,
+    "nih_total_usd": 3464515,
+    "usaspending_total_usd": 164912816,
+    "all_sources_total_usd": 173669047,
+    "recent_3y_total_usd": 3464515,
+    "award_count_nih": 11,
+    "award_count_nsf": 12,
+    "award_count_usaspending": 20,
+    "award_count_total": 43,
+    "latest_award_end": "2031-01-31"
+  },
+  "ir_office": null,
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Daphne B. Bernard",
+      "title": "Associate Provost, Institutional Accreditation and Assessment"
+    },
+    {
+      "ordering": 1,
+      "name": "Kyron Carter",
+      "title": "Director of Institutional Research"
+    },
+    {
+      "ordering": 2,
+      "name": "Pavithra Suresh",
+      "title": "Director of Assessment & Survey Research",
+      "linkedin_url": "https://www.linkedin.com/in/pavithra-suresh-washington-dc"
+    },
+    {
+      "ordering": 3,
+      "name": "Amleset Abrhale",
+      "title": "Senior Research Analyst"
+    },
+    {
+      "ordering": 4,
+      "name": "Ruth Charlene Franks",
+      "title": "Administrative Officer"
+    },
+    {
+      "ordering": 4,
+      "name": "Ruth Charlene Franks",
+      "title": "Administrative Officer Institutional Research & Assessment"
+    },
+    {
+      "ordering": 5,
+      "name": "Anil Lalwani",
+      "title": "Associate Director of Assessment",
+      "linkedin_url": "https://www.linkedin.com/in/anil-lalwani"
+    },
+    {
+      "ordering": 6,
+      "name": "Fnu Sonum",
+      "title": "Data Analyst"
+    },
+    {
+      "ordering": 7,
+      "name": "Alexus Laster",
+      "title": "Graduate Assistant"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=131520",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:15:14.150509+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2022,
+      "title": "Howard University Annual Report",
+      "url": "https://howard.edu/sites/home.howard.edu/files/2023-05/HU_Annual_Report_2022.pdf",
+      "summary": "The 2021-2022 Howard University Annual Report covers key developments, accomplishments, and challenges faced by the university during this period. Highlights include awards and accolades for students and faculty, financial performance achieving consecutive years of positive results, significant investments in infrastructure, and strategic initiatives to enhance student opportunities and academic programs. The report also discusses the resilience shown by the university community in navigating obstacles such as the pandemic and security threats. Howard University remains committed to its mission of advancing social justice and providing quality education to its diverse student body.",
+      "stored": false,
+      "fetched_at": "2026-05-24T14:11:23.137398+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Glossary of Terms",
+      "url": "https://ira.howard.edu/about/glossary",
+      "summary": "The glossary of terms provided by Howard University's Office of Institutional Research and Assessment covers key concepts related to assessment processes used to measure educational outcomes. Terms such as student learning outcomes, formative and summative assessments, and direct versus indirect assessments are defined, highlighting their roles in evaluating the effectiveness of educational programs and student achievement.",
+      "stored": false,
+      "fetched_at": "2026-05-24T15:28:09.483048+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Howard University Strategic Planning Process",
+      "url": "https://strategicplan.howard.edu/sites/strategicplan.howard.edu/files/2025-03/Howard%20-%2025%20Planning%20Process%20one%20pager%201.5.pdf",
+      "summary": "Howard University's strategic planning process aims to create a comprehensive roadmap to achieve the institution's goals by engaging the community. The plan, rooted in principles of transparency and inclusivity, seeks to increase HU's financial sustainability, enhance its reputation as a top educational destination, and improve organizational processes. The process began in October 2024 and is set to conclude with a finalized plan in 2025, focusing on themes like maximizing strength and enhancing visibility.",
+      "stored": false,
+      "fetched_at": "2026-05-24T14:11:23.137398+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

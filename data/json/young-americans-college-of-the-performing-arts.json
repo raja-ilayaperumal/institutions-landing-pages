@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:02.810173+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 493619,
+    "slug": "young-americans-college-of-the-performing-arts",
+    "name": "Young Americans College of the Performing Arts",
+    "website_url": "https://www.yacollege.edu",
+    "city": "Corona",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92881-3390",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Arts & Design",
+    "carnegie_slug": "special-focus-2yr-arts",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "04277100",
+      "ein": "330488250"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Young Americans is a non-profit organization and performing group based in Southern California. First founded in 1962 by Milton C. Anderson, the group was credited with being the first show choir in America, mixing choreography with choral singing. While experiencing national television exposure early on, The Young Americans later taught music to students in the United States and other parts of the world as advocates of music education in their International Music Outreach Tours. The group currently has approximately 50 active members between the ages of 18 and 28 from the United States and other countries.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Young_Americans",
+    "source_url": "https://en.wikipedia.org/wiki/The_Young_Americans",
+    "fetched_at": "2026-06-03T19:08:08.072786+05:30"
+  },
+  "admissions": {
+    "applicants": 5,
+    "admits": 5,
+    "enrolled": 5,
+    "first_time_freshmen": 5,
+    "first_time_freshmen_ft": 5,
+    "admission_rate": 1.0,
+    "admit_rate": 1.0,
+    "yield_rate": 1.0
+  },
+  "cost": {
+    "in_state_tuition": 14030,
+    "out_of_state_tuition": 14030,
+    "avg_net_price": 32938,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.2609,
+    "net_price_by_family_income": {
+      "48_75k": 32938
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.1167,
+    "grad_rate_total": 0.71,
+    "pell_grad_rate": 0.71,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 28,
+    "ug_12mo": 28,
+    "grad_12mo": 0,
+    "women_12mo": 15,
+    "men_12mo": 13,
+    "fall_total": 15,
+    "distance_ed_any": 15,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.25,
+      "black": 0.25,
+      "hispanic": 0.1875,
+      "asian": 0.0625,
+      "ai_an": 0.0,
+      "nh_pi": 0.0625,
+      "two_or_more": 0.1875,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 10
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 4.0,
+    "instr_total_fte": 10
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188687,
+        "slug": "american-academy-mcallister-institute-of-funeral-service",
+        "name": "American Academy McAllister Institute of Funeral Service",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 270,
+          "avg_net_price": 21682
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 188678,
+        "slug": "american-academy-of-dramatic-arts-new-york",
+        "name": "American Academy of Dramatic Arts-New York",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9195804195804196,
+          "yield_rate": 0.2509505703422053,
+          "retention_rate": 0.96,
+          "enrollment": 187,
+          "avg_net_price": 54625
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 366261,
+        "slug": "commonwealth-institute-of-funeral-service",
+        "name": "Commonwealth Institute of Funeral Service",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8641975308641975,
+          "yield_rate": 1.0,
+          "retention_rate": 0.35,
+          "enrollment": 254,
+          "avg_net_price": 42938
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 224271,
+        "slug": "dallas-institute-of-funeral-service",
+        "name": "Dallas Institute of Funeral Service",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 454,
+          "avg_net_price": 19845
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 432524,
+        "slug": "delaware-college-of-art-and-design",
+        "name": "Delaware College of Art and Design",
+        "state": "Delaware",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6103286384976526,
+          "yield_rate": 0.35384615384615387,
+          "retention_rate": 0.56,
+          "avg_net_price": 31763
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 139995,
+        "slug": "gupton-jones-college-of-funeral-service",
+        "name": "Gupton Jones College of Funeral Service",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 338,
+          "avg_net_price": 21563
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 481155,
+        "slug": "helms-college",
+        "name": "Helms College",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 183,
+          "avg_net_price": 21117
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 220464,
+        "slug": "john-a-gupton-college",
+        "name": "John A Gupton College",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8235294117647058,
+          "retention_rate": 0.69,
+          "enrollment": 166,
+          "avg_net_price": 19772
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 215390,
+        "slug": "pittsburgh-institute-of-mortuary-science-inc",
+        "name": "Pittsburgh Institute of Mortuary Science Inc",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4897959183673469,
+          "yield_rate": 0.6041666666666666,
+          "retention_rate": 0.82,
+          "enrollment": 374
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=493619",
+      "stored": false,
+      "fetched_at": "2026-06-03T19:08:08.928571+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

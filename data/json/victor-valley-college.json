@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T10:32:27.878102+00:00",
+  "generated_at": "2026-06-04T04:58:28.035449+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Victor_Valley_College",
     "fetched_at": "2026-05-26T15:25:17.410018+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1425,
+    "out_of_state_tuition": 10125,
     "avg_net_price": 3228,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.625,
     "federal_loan_rate": 0.005,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 5109,
       "75_110k": 8098,
       "110k_plus": 3511
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.294,
     "grad_rate_total": 0.62,
     "pell_grad_rate": 0.51,
     "retention_full_time": 0.71,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 20895,
     "ug_12mo": 20895,
-    "grad_12mo": 16520,
+    "grad_12mo": 0,
     "women_12mo": 12352,
     "men_12mo": 8543,
     "fall_total": 8423,
-    "fall_full_time": 8423,
-    "fall_part_time": 4210,
     "distance_ed_any": 8423,
     "distance_ed_exclusive": 2881,
     "race_ethnicity": {

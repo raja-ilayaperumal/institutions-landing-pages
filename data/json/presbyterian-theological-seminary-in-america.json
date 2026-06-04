@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:51.100117+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 490045,
+    "slug": "presbyterian-theological-seminary-in-america",
+    "name": "Presbyterian Theological Seminary in America",
+    "website_url": "https://ptsa.edu",
+    "city": "Santa Fe Springs",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90670-5611",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "jk89wullve75",
+      "opeid": "04122800",
+      "ein": "953608910"
+    }
+  },
+  "brand": null,
+  "about": null,
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 8839,
+    "out_of_state_tuition": 8839,
+    "pell_grant_rate": 0.5526,
+    "federal_loan_rate": 0.0278,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8,
+    "grad_rate_total": 0.8,
+    "grad_4yr_bachelors": 0.4,
+    "grad_5yr_bachelors": 0.8,
+    "grad_6yr_bachelors": 0.8,
+    "pell_grad_rate": 1.0,
+    "pell_6yr_bachelors_rate": 1.0,
+    "retention_part_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 275,
+    "ug_12mo": 56,
+    "grad_12mo": 219,
+    "women_12mo": 151,
+    "men_12mo": 124,
+    "fall_total": 223,
+    "distance_ed_any": 223,
+    "distance_ed_exclusive": 162,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.0,
+      "hispanic": 0.0,
+      "asian": 0.5789,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.1842,
+      "race_unknown": 0.2368
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 0
+      }
+    ],
+    "program_count": 15,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 5.0,
+    "instr_total_fte": 5
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 124283,
+        "slug": "claremont-school-of-theology",
+        "name": "Claremont School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7607,
+        "metrics": {
+          "enrollment": 213
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 490081,
+        "slug": "america-evangelical-university",
+        "name": "America Evangelical University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7508,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.54,
+          "enrollment": 307,
+          "avg_net_price": 24088
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 108861,
+        "slug": "berkeley-school-of-theology",
+        "name": "Berkeley School of Theology",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7335,
+        "metrics": {
+          "admit_rate": 0.8888888888888888,
+          "yield_rate": 0.5,
+          "enrollment": 108
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 481058,
+        "slug": "grace-mission-university",
+        "name": "Grace Mission University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7285,
+        "metrics": {
+          "admit_rate": 0.5,
+          "yield_rate": 1.0,
+          "grad_rate": 1.0,
+          "retention_rate": 0.8,
+          "enrollment": 301
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 126076,
+        "slug": "yeshiva-ohr-elchonon-chabad-west-coast-talmudical-seminary",
+        "name": "Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.7225,
+        "metrics": {
+          "admit_rate": 0.582089552238806,
+          "yield_rate": 1.0,
+          "grad_rate": 0.12,
+          "retention_rate": 0.95,
+          "enrollment": 163,
+          "avg_net_price": 12258
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "glossary",
+      "title": "Fall 2025 Course Evaluation",
+      "url": "http://kr.ptsa.edu/main/sub.html?Mode=view&boardID=www62&num=1738&page=9&keyfield=&key=&bCate=",
+      "summary": "The page provides information on the course evaluation process for the Fall 2025 semester at California Prestige University (formerly, Presbyterian Theological Seminary in America). The evaluations are conducted through the Populi platform and are anonymous. Completing evaluations is required to access final grades, which become available after January 9, 2026. For questions, contact the Office of Institutional Effectiveness.",
+      "stored": false,
+      "fetched_at": "2026-06-03T10:18:39.444287+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,720 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:41.483129+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 448433,
+    "slug": "universal-technical-institute-of-northern-california-inc",
+    "name": "Universal Technical Institute of Northern California Inc",
+    "website_url": "https://www.uti.edu",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95834",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Technical Professions",
+    "carnegie_slug": "special-focus-2yr-technical",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NXM6CNEG7L87",
+      "opeid": "02100505",
+      "ein": "201760247"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Universal Technical Institute of Northern California Inc is a vocational training institution that specializes in automotive, diesel, marine, motorcycle, and aviation technology programs. It is part of a larger network of campuses across the United States, with an emphasis on hands-on training for in-demand careers. Founded in 1965, it has graduated approximately 285,000 students.",
+    "source_url": "https://www.uti.edu/about",
+    "fetched_at": "2026-06-03T16:34:17.846396+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 26671,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5846,
+    "net_price_by_family_income": {
+      "0_30k": 24482,
+      "30_48k": 25277,
+      "48_75k": 27277,
+      "75_110k": 30600,
+      "110k_plus": 31812
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4763,
+    "grad_rate_total": 0.65,
+    "pell_grad_rate": 0.62,
+    "non_pell_grad_rate": 0.67,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1594,
+    "ug_12mo": 1594,
+    "grad_12mo": 0,
+    "women_12mo": 93,
+    "men_12mo": 1501,
+    "fall_total": 1214,
+    "distance_ed_any": 1214,
+    "race_ethnicity": {
+      "white": 0.2005,
+      "black": 0.0397,
+      "hispanic": 0.4896,
+      "asian": 0.0678,
+      "ai_an": 0.0126,
+      "nh_pi": 0.0136,
+      "two_or_more": 0.1292,
+      "non_resident": 0.0009,
+      "race_unknown": 0.0461
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 394
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 40.0,
+    "instr_total_fte": 30
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 231411,
+        "slug": "advanced-technology-institute",
+        "name": "Advanced Technology Institute",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5354166666666667,
+          "yield_rate": 0.4280155642023346,
+          "retention_rate": 0.8,
+          "enrollment": 415,
+          "avg_net_price": 18497
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 461573,
+        "slug": "american-trade-school",
+        "name": "American Trade School",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 154,
+          "avg_net_price": 18022
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 126784,
+        "slug": "colorado-school-of-trades",
+        "name": "Colorado School of Trades",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9090909090909091,
+          "yield_rate": 0.725,
+          "retention_rate": 0.93,
+          "enrollment": 85,
+          "avg_net_price": 22635
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 212434,
+        "slug": "erie-institute-of-technology-inc",
+        "name": "Erie Institute of Technology Inc",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 221,
+          "avg_net_price": 19173
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 128179,
+        "slug": "intellitec-college-colorado-springs",
+        "name": "Intellitec College-Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 679,
+          "avg_net_price": 22051
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 128188,
+        "slug": "intellitec-college-grand-junction",
+        "name": "Intellitec College-Grand Junction",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 1077,
+          "avg_net_price": 16656
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 191959,
+        "slug": "island-drafting-and-technical-institute",
+        "name": "Island Drafting and Technical Institute",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 30,
+          "avg_net_price": 21392
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 159197,
+        "slug": "iti-technical-college",
+        "name": "ITI Technical College",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 555,
+          "avg_net_price": 19862
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 126951,
+        "slug": "lincoln-college-of-technology-denver",
+        "name": "Lincoln College of Technology-Denver",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 1212,
+          "avg_net_price": 32060
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 226277,
+        "slug": "lincoln-college-of-technology-grand-prairie",
+        "name": "Lincoln College of Technology-Grand Prairie",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 1539,
+          "avg_net_price": 30391
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 151661,
+        "slug": "lincoln-college-of-technology-indianapolis",
+        "name": "Lincoln College of Technology-Indianapolis",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1052,
+          "avg_net_price": 29530
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 434159,
+        "slug": "lincoln-college-of-technology-marietta",
+        "name": "Lincoln College of Technology-Marietta",
+        "state": "Georgia",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 538,
+          "avg_net_price": 29503
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 221148,
+        "slug": "lincoln-college-of-technology-nashville",
+        "name": "Lincoln College of Technology-Nashville",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 967,
+          "avg_net_price": 27603
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 213589,
+        "slug": "lincoln-technical-institute-philadelphia",
+        "name": "Lincoln Technical Institute-Philadelphia",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 345,
+          "avg_net_price": 28399
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 451477,
+        "slug": "mycomputercareer-at-columbus",
+        "name": "MyComputerCareer at Columbus",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 821,
+          "avg_net_price": 25617
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 440262,
+        "slug": "new-york-automotive-and-diesel-institute",
+        "name": "New York Automotive and Diesel Institute",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 487,
+          "avg_net_price": 22466
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 418889,
+        "slug": "north-central-institute",
+        "name": "North Central Institute",
+        "state": "Tennessee",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 61,
+          "avg_net_price": 24033
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 204608,
+        "slug": "ohio-technical-college",
+        "name": "Ohio Technical College",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 683,
+          "avg_net_price": 27952
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 214944,
+        "slug": "pennco-tech-bristol",
+        "name": "Pennco Tech-Bristol",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.31,
+          "enrollment": 771,
+          "avg_net_price": 20710
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 105659,
+        "slug": "refrigeration-school-inc",
+        "name": "Refrigeration School Inc",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 1417,
+          "avg_net_price": 25300
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 422020,
+        "slug": "san-joaquin-valley-college-trades-education-center",
+        "name": "San Joaquin Valley College-Trades Education Center",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 364,
+          "avg_net_price": 24093
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 377218,
+        "slug": "school-of-automotive-machinists-and-technology",
+        "name": "School of Automotive Machinists & Technology",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6857142857142857,
+          "yield_rate": 0.5833333333333334,
+          "retention_rate": 0.79,
+          "enrollment": 88,
+          "avg_net_price": 26359
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 488077,
+        "slug": "sonoran-desert-institute",
+        "name": "Sonoran Desert Institute",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 5437,
+          "avg_net_price": 19921
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 413680,
+        "slug": "spartan-college-of-aeronautics-and-technology-3",
+        "name": "Spartan College of Aeronautics & Technology",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 411,
+          "avg_net_price": 30099
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 126605,
+        "slug": "spartan-college-of-aeronautics-and-technology",
+        "name": "Spartan College of Aeronautics and Technology",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 397,
+          "avg_net_price": 30922
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 447591,
+        "slug": "the-college-of-health-care-professions-southwest-houston",
+        "name": "The College of Health Care Professions-Southwest Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 681,
+          "avg_net_price": 27427
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 448859,
+        "slug": "triangle-tech-inc-bethlehem",
+        "name": "Triangle Tech Inc-Bethlehem",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 43,
+          "avg_net_price": 22044
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 207962,
+        "slug": "tulsa-welding-school-tulsa",
+        "name": "Tulsa Welding School-Tulsa",
+        "state": "Oklahoma",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 892,
+          "avg_net_price": 33120
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 106041,
+        "slug": "universal-technical-institute-of-arizona-inc",
+        "name": "Universal Technical Institute of Arizona Inc",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 1957,
+          "avg_net_price": 27139
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 438504,
+        "slug": "universal-technical-institute-of-california-inc",
+        "name": "Universal Technical Institute of California Inc",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 1553,
+          "avg_net_price": 23526
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 460543,
+        "slug": "universal-technical-institute-dallas-fort-worth",
+        "name": "Universal Technical Institute-Dallas Fort Worth",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 1610,
+          "avg_net_price": 23939
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 487597,
+        "slug": "universal-technical-institute-southern-california",
+        "name": "Universal Technical Institute-Southern California",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 1701,
+          "avg_net_price": 24867
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 240718,
+        "slug": "wyotech",
+        "name": "WyoTech",
+        "state": "Wyoming",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 1335,
+          "avg_net_price": 42574
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.uti.edu/institutional-research",
+    "summary": "The page provides a list of programs offered by the Universal Technical Institute of Northern California Inc, including various technical and maintenance courses. It also offers information about campuses, admissions, financial aid, and support services. Unfortunately, there appears to be an issue with missing content on the page.",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T22:46:55.494071+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.uti.edu/ir/cds",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=448433",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:46:57.821366+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "Factbook - Universal Technical Institute of Northern California Inc",
+      "url": "https://www.uti.edu/factbook",
+      "summary": "The Universal Technical Institute of Northern California Inc provides information on various technical programs, campuses, admissions requirements, financial aid options, and guidance for prospective and current students. The website outlines programs in vehicle maintenance, automotive technology, diesel and industrial technology, and more, while also providing support services and cost estimates for attendance.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:44:27.656734+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "url": "https://www.uti.edu/ir/strategic-plan",
+      "summary": "The Universal Technical Institute of Northern California Inc provides comprehensive technical education across various sectors, including automotive, diesel, marine, and aviation. Courses are designed to ensure students are equipped with hands-on skills to meet industry demands. Financial aid and support services are available to assist students in their educational journey.",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:44:27.164052+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Boston Public School District Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Phoenix Union High School District Scholarship",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "UTI Academic Excellence Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 3000,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "American Dream Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 2500,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "UTI Performance Technician of Tomorrow Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 2500,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Industry’s Choice Scholarship",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Natural Disaster Grant Program",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Commuter Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Manufacturer-Specific Advanced Training (MSAT) Relocation Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Relocation Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Technical Education Institutional Grant (TEIG)",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "UTI Inaugural Program Grant",
+      "agency": "Universal Technical Institute",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    },
+    {
+      "title": "Work Ethic Scholarship Program",
+      "agency": "mikeroweWORKS Foundation",
+      "kind": "opportunity",
+      "url": "https://www.uti.edu/financial-aid/scholarships-grants?hf=1",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

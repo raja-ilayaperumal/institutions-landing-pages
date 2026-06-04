@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:58.248245+00:00",
+  "generated_at": "2026-06-04T04:57:03.990618+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,23 +47,39 @@
     "enrolled": 496,
     "first_time_freshmen": 496,
     "first_time_freshmen_ft": 483,
+    "admission_rate": 0.4848,
     "admit_rate": 0.7116736990154712,
-    "yield_rate": 0.09802371541501977
+    "yield_rate": 0.09802371541501977,
+    "sat_average": 1116,
+    "sat_math_25_75": [
+      460,
+      653
+    ],
+    "sat_reading_25_75": [
+      510,
+      650
+    ],
+    "act_composite_25_75": [
+      18,
+      25
+    ]
   },
   "cost": {
+    "in_state_tuition": 47000,
+    "out_of_state_tuition": 47000,
     "avg_net_price": 26925,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.1347,
     "federal_loan_rate": 0.5733,
     "net_price_by_family_income": {
       "0_30k": 26754,
       "30_48k": 56392,
       "48_75k": 54632,
-      "75_110k": null,
       "110k_plus": 44064
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.6545,
     "grad_rate_total": 0.63,
     "grad_4yr_bachelors": 0.61,
     "grad_5yr_bachelors": 0.63,
@@ -78,12 +94,10 @@
   "enrollment": {
     "enrollment_12mo_total": 6589,
     "ug_12mo": 4031,
-    "grad_12mo": 3922,
+    "grad_12mo": 2558,
     "women_12mo": 4208,
     "men_12mo": 2381,
     "fall_total": 5021,
-    "fall_full_time": 3050,
-    "fall_part_time": 3050,
     "distance_ed_any": 5021,
     "distance_ed_exclusive": 377,
     "race_ethnicity": {
@@ -723,16 +737,7 @@
       "fetched_at": "2026-05-27T22:36:16.803519+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Assistant Director of Analytics & Research - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179375756"
-    },
-    {
-      "title": "Program Manager, Fieldwork Placement & Outreach - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179247771"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

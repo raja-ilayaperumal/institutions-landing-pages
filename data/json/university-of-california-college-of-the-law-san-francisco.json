@@ -1,0 +1,573 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:54.715785+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110398,
+    "slug": "university-of-california-college-of-the-law-san-francisco",
+    "name": "University of California College of the Law-San Francisco",
+    "website_url": "https://www.uclawsf.edu",
+    "city": "San Francisco",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94102-4978",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-career-technical-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "U8UTU49CWVC5",
+      "opeid": "00394700",
+      "ein": "942581680"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The University of California College of the Law, San Francisco is a public law school in San Francisco. Formerly known as the University of California, Hastings College of the Law, the school was founded in 1878 by Serranus Clinton Hastings, the first chief justice of the Supreme Court of California. It was the first law school of the University of California and one of the first law schools established in California. Although part of the University of California, UC Law SF is not directly governed by the Regents of the University of California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/University_of_California_College_of_the_Law,_San_Francisco",
+    "source_url": "https://en.wikipedia.org/wiki/University_of_California_College_of_the_Law,_San_Francisco",
+    "fetched_at": "2026-06-02T11:58:19.508991+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1235,
+    "women_12mo": 737,
+    "men_12mo": 498,
+    "fall_total": 1195,
+    "distance_ed_any": 1195,
+    "distance_ed_exclusive": 62
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 405
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 16
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "instr_total_fte": 66
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188535,
+        "slug": "albany-law-school",
+        "name": "Albany Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 670
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 168546,
+        "slug": "albion-college",
+        "name": "Albion College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8070394019623112,
+          "yield_rate": 0.06869934388267078,
+          "grad_rate": 0.62,
+          "retention_rate": 0.71,
+          "enrollment": 1308,
+          "avg_net_price": 16882
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 432348,
+        "slug": "appalachian-school-of-law",
+        "name": "Appalachian School of Law",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 154
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 138929,
+        "slug": "atlanta-s-john-marshall-law-school",
+        "name": "Atlanta's John Marshall Law School",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 379
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 189501,
+        "slug": "brooklyn-law-school",
+        "name": "Brooklyn Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1125
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 111391,
+        "slug": "california-western-school-of-law",
+        "name": "California Western School of Law",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 650
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 173258,
+        "slug": "carleton-college",
+        "name": "Carleton College",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2041216879293425,
+          "yield_rate": 0.3482142857142857,
+          "grad_rate": 0.9,
+          "retention_rate": 0.96,
+          "enrollment": 2128,
+          "avg_net_price": 27320
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 156408,
+        "slug": "centre-college",
+        "name": "Centre College",
+        "state": "Kentucky",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5436349079263411,
+          "yield_rate": 0.19391261659302897,
+          "grad_rate": 0.81,
+          "retention_rate": 0.88,
+          "enrollment": 1404,
+          "avg_net_price": 21497
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 451510,
+        "slug": "charleston-school-of-law",
+        "name": "Charleston School of Law",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 692
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 203535,
+        "slug": "kenyon-college",
+        "name": "Kenyon College",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.31025110018120633,
+          "yield_rate": 0.1831455986649979,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 2249,
+          "avg_net_price": 29383
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 369002,
+        "slug": "massachusetts-school-of-law",
+        "name": "Massachusetts School of Law",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 273
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 175281,
+        "slug": "mitchell-hamline-school-of-law",
+        "name": "Mitchell Hamline School of Law",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1163
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 167215,
+        "slug": "new-england-law-boston",
+        "name": "New England Law-Boston",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1131
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 193821,
+        "slug": "new-york-law-school",
+        "name": "New York Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1062
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 228194,
+        "slug": "south-texas-college-of-law-houston",
+        "name": "South Texas College of Law Houston",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1089
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 123970,
+        "slug": "southwestern-law-school",
+        "name": "Southwestern Law School",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1006
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 126049,
+        "slug": "thomas-jefferson-school-of-law",
+        "name": "Thomas Jefferson School of Law",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 262
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 172477,
+        "slug": "thomas-m-cooley-law-school",
+        "name": "Thomas M Cooley Law School",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 420
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 110635,
+        "slug": "university-of-california-berkeley",
+        "name": "University of California-Berkeley",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.10977769192382608,
+          "yield_rate": 0.45985776083290564,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 45882,
+          "avg_net_price": 14979
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 110644,
+        "slug": "university-of-california-davis",
+        "name": "University of California-Davis",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4182816798834763,
+          "yield_rate": 0.1636398810243513,
+          "grad_rate": 0.86,
+          "retention_rate": 0.93,
+          "enrollment": 40065,
+          "avg_net_price": 15288
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 110653,
+        "slug": "university-of-california-irvine",
+        "name": "University of California-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.28569099992664976,
+          "yield_rate": 0.1921606664004108,
+          "grad_rate": 0.87,
+          "retention_rate": 0.94,
+          "enrollment": 37297,
+          "avg_net_price": 12840
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 110662,
+        "slug": "university-of-california-los-angeles",
+        "name": "University of California-Los Angeles",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.08965488952089258,
+          "yield_rate": 0.5040414823852372,
+          "grad_rate": 0.93,
+          "retention_rate": 0.97,
+          "enrollment": 47335,
+          "avg_net_price": 14013
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 445188,
+        "slug": "university-of-california-merced",
+        "name": "University of California-Merced",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9053495364570283,
+          "yield_rate": 0.07240711271016398,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 9110,
+          "avg_net_price": 12744
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 110671,
+        "slug": "university-of-california-riverside",
+        "name": "University of California-Riverside",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7639022877618522,
+          "yield_rate": 0.12227409061182148,
+          "grad_rate": 0.76,
+          "retention_rate": 0.88,
+          "enrollment": 26384,
+          "avg_net_price": 13707
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 110680,
+        "slug": "university-of-california-san-diego",
+        "name": "University of California-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.267140200818148,
+          "yield_rate": 0.20408163265306123,
+          "grad_rate": 0.86,
+          "retention_rate": 0.94,
+          "enrollment": 44256,
+          "avg_net_price": 11750
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 110699,
+        "slug": "university-of-california-san-francisco",
+        "name": "University of California-San Francisco",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3007
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 110705,
+        "slug": "university-of-california-santa-barbara",
+        "name": "University of California-Santa Barbara",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3296510942417399,
+          "yield_rate": 0.13778303573885053,
+          "grad_rate": 0.83,
+          "retention_rate": 0.93,
+          "enrollment": 26133,
+          "avg_net_price": 13825
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 110714,
+        "slug": "university-of-california-santa-cruz",
+        "name": "University of California-Santa Cruz",
+        "state": "California",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6579013412899808,
+          "yield_rate": 0.0928877209341754,
+          "grad_rate": 0.75,
+          "retention_rate": 0.88,
+          "enrollment": 19938,
+          "avg_net_price": 16607
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 231147,
+        "slug": "vermont-law-and-graduate-school",
+        "name": "Vermont Law and Graduate School",
+        "state": "Vermont",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 722
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110398",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:58:20.199162+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Steve B. Chu",
+      "field": "Law"
+    },
+    {
+      "name": "Kamala Harris",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kamala_Harris",
+      "field": "Politics"
+    },
+    {
+      "name": "Willie Brown",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Willie_Brown_(politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Bob Matsui",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bob_Matsui",
+      "field": "Politics"
+    },
+    {
+      "name": "George Moscone",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Moscone",
+      "field": "Politics"
+    },
+    {
+      "name": "Roger Hedgecock",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roger_Hedgecock",
+      "field": "Politics"
+    },
+    {
+      "name": "Vicki Iovine",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Vicki_Iovine",
+      "field": "Authorship"
+    },
+    {
+      "name": "Christopher Darden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Christopher_Darden",
+      "field": "Law"
+    },
+    {
+      "name": "Dennis Holahan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dennis_Holahan",
+      "field": "Law and Entertainment"
+    },
+    {
+      "name": "Thomas Mesereau",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Thomas_Mesereau",
+      "field": "Law"
+    },
+    {
+      "name": "Clara Shortridge Foltz",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Clara_Shortridge_Foltz",
+      "field": "Law"
+    },
+    {
+      "name": "Jackie Speier",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jackie_Speier",
+      "field": "Politics"
+    }
+  ]
+}

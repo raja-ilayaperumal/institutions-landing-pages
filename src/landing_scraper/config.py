@@ -34,6 +34,11 @@ class Settings(BaseSettings):
     # quota cap in GCP Console → IAM/Quotas → customsearch.googleapis.com.
     enable_google_cse: bool = False
     serper_api_key: str = ""
+    # Additional Serper keys for capacity scaling — round-robin across all
+    # populated keys; fall through to the next key on 429 / credit-exhausted.
+    # Add SERPER_API_KEY_1, SERPER_API_KEY_2, ... in .env as needed.
+    serper_api_key_1: str = ""
+    serper_api_key_2: str = ""
     brandfetch_api_key: str = ""
     higheredjobs_api_key: str = ""
 
@@ -75,7 +80,14 @@ class Settings(BaseSettings):
 
     @property
     def has_serper(self) -> bool:
-        return bool(self.serper_api_key)
+        return bool(self.serper_api_keys)
+
+    @property
+    def serper_api_keys(self) -> list[str]:
+        """Return all populated Serper keys, in declaration order.
+        Search uses these round-robin and falls through on per-key 429/credit errors."""
+        keys = [self.serper_api_key, self.serper_api_key_1, self.serper_api_key_2]
+        return [k for k in keys if k]
 
     @property
     def has_brandfetch(self) -> bool:

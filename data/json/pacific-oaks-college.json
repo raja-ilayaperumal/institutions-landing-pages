@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:43.525462+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120768,
+    "slug": "pacific-oaks-college",
+    "name": "Pacific Oaks College",
+    "website_url": "https://www.pacificoaks.edu",
+    "city": "Pasadena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91103",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "SHHSN59W3LV3",
+      "opeid": "00125500",
+      "ein": "951716809"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Pacific Oaks College is a private college with its main campus in Pasadena, California. The college draws on Quaker principles and focuses on social justice. It offers full and part-time undergraduate and graduate courses at Pacific Oaks' California campuses as well as online. Pacific Oaks also operates a children's school that has been in operation since 1945.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pacific_Oaks_College",
+    "source_url": "https://en.wikipedia.org/wiki/Pacific_Oaks_College",
+    "fetched_at": "2026-06-01T23:22:22.585316+05:30"
+  },
+  "admissions": {
+    "applicants": 64,
+    "admits": 22,
+    "enrolled": 5,
+    "first_time_freshmen": 5,
+    "first_time_freshmen_ft": 0,
+    "admission_rate": 0.1,
+    "admit_rate": 0.34375,
+    "yield_rate": 0.22727272727272727
+  },
+  "cost": {
+    "in_state_tuition": 33360,
+    "out_of_state_tuition": 33360,
+    "pell_grant_rate": 1.0,
+    "federal_loan_rate": 0.7362,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1517,
+    "ug_12mo": 558,
+    "grad_12mo": 959,
+    "women_12mo": 1303,
+    "men_12mo": 214,
+    "fall_total": 1068,
+    "distance_ed_any": 1068,
+    "distance_ed_exclusive": 742,
+    "race_ethnicity": {
+      "white": 0.1734,
+      "black": 0.1243,
+      "hispanic": 0.5665,
+      "asian": 0.0231,
+      "ai_an": 0.0,
+      "nh_pi": 0.0029,
+      "two_or_more": 0.0462,
+      "non_resident": 0.0116,
+      "race_unknown": 0.052
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 120
+      },
+      {
+        "cip_family_code": "19",
+        "cip_family_label": "Family/Consumer Sci",
+        "completions": 89
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 4
+      }
+    ],
+    "program_count": 9,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 20
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 110468,
+        "slug": "alliant-international-university-san-diego",
+        "name": "Alliant International University-San Diego",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.0,
+          "grad_rate": 0.22,
+          "enrollment": 4530
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 245838,
+        "slug": "antioch-university-los-angeles",
+        "name": "Antioch University-Los Angeles",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 910
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 111948,
+        "slug": "chapman-university",
+        "name": "Chapman University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6543430983753358,
+          "yield_rate": 0.15943304007820136,
+          "grad_rate": 0.82,
+          "retention_rate": 0.92,
+          "enrollment": 9760,
+          "avg_net_price": 47527
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 474863,
+        "slug": "los-angeles-pacific-university",
+        "name": "Los Angeles Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.57,
+          "enrollment": 1881,
+          "avg_net_price": 20170
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 232706,
+        "slug": "marymount-university",
+        "name": "Marymount University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9316239316239316,
+          "yield_rate": 0.11554673939995042,
+          "grad_rate": 0.54,
+          "retention_rate": 0.73,
+          "enrollment": 4060,
+          "avg_net_price": 25153
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 117140,
+        "slug": "university-of-la-verne",
+        "name": "University of La Verne",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7116736990154712,
+          "yield_rate": 0.09802371541501977,
+          "grad_rate": 0.63,
+          "retention_rate": 0.64,
+          "enrollment": 5021,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 262086,
+        "slug": "university-of-massachusetts-global",
+        "name": "University of Massachusetts Global",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9285714285714286,
+          "yield_rate": 0.48717948717948717,
+          "retention_rate": 0.62,
+          "enrollment": 8996,
+          "avg_net_price": 31601
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 125897,
+        "slug": "woodbury-university",
+        "name": "Woodbury University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164852255054432,
+          "yield_rate": 0.05904761904761905,
+          "grad_rate": 0.6,
+          "retention_rate": 0.74,
+          "enrollment": 849,
+          "avg_net_price": 28248
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.pacificoaks.edu/faculty/department/institutional_research/",
+    "office_name": "Office of Institutional Research",
+    "summary": "This is the homepage for the Pacific Oaks College, specifically the Institutional Research department, providing links mainly revolving around faculty, admissions, and student resources. There is a contact phone number and physical address listed. Limited specific information about the Institutional Research office's mission or team is available.",
+    "address": "45 W Eureka St. Pasadena, CA 91103",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T23:22:21.351419+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120768",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:22:24.77051+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Pacific Oaks College Institutional Research Glossary",
+      "url": "https://www.pacificoaks.edu/faculty/department/institutional_research/glossary/",
+      "summary": "The provided text does not contain specific terms or definitions typically found in a glossary. Instead, it appears to be a navigation guide or a listing of informational sections related to Pacific Oaks College's Institutional Research department, describing various aspects of the institution such as faculty, admissions, resources, and policies. It outlines service areas and contact information but lacks detailed explanations or definitions of institutional research terms.",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:20:39.657651+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Antonia Darder"
+    },
+    {
+      "name": "Bre Pettis"
+    }
+  ]
+}

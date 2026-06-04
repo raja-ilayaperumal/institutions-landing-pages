@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:50.308076+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 110060,
+    "slug": "bethesda-university",
+    "name": "Bethesda University",
+    "website_url": "https://www.buc.edu",
+    "city": "Anaheim",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92801",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "tj2urdmlykl5",
+      "opeid": "03266300",
+      "ein": "953104298"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Bethesda University is a private Christian university in Anaheim, California, United States. It was founded in 1976 by David Yonggi Cho. The university is accredited by the Association for Biblical Higher Education and the Transnational Association of Christian Colleges and Schools and it is approved by the Bureau for Private Postsecondary Education of the State of California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bethesda_University",
+    "source_url": "https://en.wikipedia.org/wiki/Bethesda_University",
+    "fetched_at": "2026-06-03T08:44:17.730745+05:30"
+  },
+  "admissions": {
+    "applicants": 172,
+    "admits": 115,
+    "enrolled": 100,
+    "first_time_freshmen": 100,
+    "first_time_freshmen_ft": 93,
+    "admit_rate": 0.6686046511627907,
+    "yield_rate": 0.8695652173913043
+  },
+  "cost": {
+    "in_state_tuition": 7220,
+    "out_of_state_tuition": 7220,
+    "avg_net_price": 8388,
+    "pell_grant_rate": 0.1321,
+    "federal_loan_rate": 0.1543,
+    "net_price_by_family_income": {
+      "0_30k": 7543,
+      "30_48k": 8387,
+      "110k_plus": 11766
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.1818,
+    "grad_rate_total": 0.11,
+    "grad_4yr_bachelors": 0.02,
+    "grad_5yr_bachelors": 0.04,
+    "grad_6yr_bachelors": 0.08,
+    "pell_grad_rate": 0.0,
+    "pell_6yr_bachelors_rate": 0.0,
+    "non_pell_grad_rate": 0.0,
+    "non_pell_6yr_bachelors": 0.0,
+    "retention_full_time": 0.45,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 352,
+    "ug_12mo": 268,
+    "grad_12mo": 84,
+    "women_12mo": 109,
+    "men_12mo": 243,
+    "fall_total": 263,
+    "distance_ed_any": 263,
+    "distance_ed_exclusive": 13,
+    "race_ethnicity": {
+      "white": 0.0849,
+      "black": 0.184,
+      "hispanic": 0.1887,
+      "asian": 0.0283,
+      "ai_an": 0.0094,
+      "nh_pi": 0.0094,
+      "two_or_more": 0.0566,
+      "non_resident": 0.4292,
+      "race_unknown": 0.0094
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 38
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 6
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 219505,
+        "slug": "american-baptist-college",
+        "name": "American Baptist College",
+        "state": "Tennessee",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.39,
+          "retention_rate": 1.0,
+          "enrollment": 46,
+          "avg_net_price": 19294
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 222877,
+        "slug": "arlington-baptist-university",
+        "name": "Arlington Baptist University",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.19,
+          "retention_rate": 0.41,
+          "enrollment": 302,
+          "avg_net_price": 28599
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 444398,
+        "slug": "baptist-university-of-the-americas",
+        "name": "Baptist University of the Americas",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.8,
+          "retention_rate": 0.67,
+          "enrollment": 104,
+          "avg_net_price": 8750
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 155070,
+        "slug": "barclay-college",
+        "name": "Barclay College",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5098039215686274,
+          "yield_rate": 0.6666666666666666,
+          "grad_rate": 0.03,
+          "retention_rate": 0.52,
+          "enrollment": 219,
+          "avg_net_price": 28827
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 176789,
+        "slug": "calvary-university",
+        "name": "Calvary University",
+        "state": "Missouri",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.717391304347826,
+          "yield_rate": 0.8181818181818182,
+          "grad_rate": 0.52,
+          "retention_rate": 0.55,
+          "enrollment": 244,
+          "avg_net_price": 12860
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 457697,
+        "slug": "city-vision-university",
+        "name": "City Vision University",
+        "state": "Missouri",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 296,
+          "avg_net_price": 6709
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 475608,
+        "slug": "criswell-college",
+        "name": "Criswell College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8787878787878788,
+          "grad_rate": 0.5,
+          "retention_rate": 1.0,
+          "enrollment": 160,
+          "avg_net_price": 12929
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 106810,
+        "slug": "crowley-s-ridge-college",
+        "name": "Crowley's Ridge College",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.54,
+          "enrollment": 241,
+          "avg_net_price": 17236
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 224244,
+        "slug": "dallas-christian-college",
+        "name": "Dallas Christian College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.21804511278195488,
+          "yield_rate": 0.41379310344827586,
+          "grad_rate": 0.27,
+          "retention_rate": 0.41,
+          "enrollment": 248,
+          "avg_net_price": 22456
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 446233,
+        "slug": "ecclesia-college",
+        "name": "Ecclesia College",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7380952380952381,
+          "yield_rate": 0.8387096774193549,
+          "grad_rate": 0.39,
+          "retention_rate": 0.48,
+          "enrollment": 111,
+          "avg_net_price": 24294
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 170091,
+        "slug": "great-lakes-christian-college",
+        "name": "Great Lakes Christian College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32,
+          "retention_rate": 0.49,
+          "enrollment": 210,
+          "avg_net_price": 18700
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 134510,
+        "slug": "hobe-sound-bible-college",
+        "name": "Hobe Sound Bible College",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.58,
+          "retention_rate": 0.92,
+          "enrollment": 152,
+          "avg_net_price": 10888
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 171881,
+        "slug": "kuyper-college",
+        "name": "Kuyper College",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6910112359550562,
+          "yield_rate": 0.36585365853658536,
+          "grad_rate": 0.45,
+          "retention_rate": 0.59,
+          "enrollment": 161,
+          "avg_net_price": 28458
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 461528,
+        "slug": "manna-university",
+        "name": "Manna University",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5268817204301075,
+          "yield_rate": 0.32653061224489793,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 268,
+          "avg_net_price": 20170
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 199458,
+        "slug": "mid-atlantic-christian-university",
+        "name": "Mid-Atlantic Christian University",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6216216216216216,
+          "yield_rate": 0.19875776397515527,
+          "grad_rate": 0.22,
+          "retention_rate": 0.32,
+          "enrollment": 140,
+          "avg_net_price": 25876
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 428259,
+        "slug": "ottawa-university-milwaukee",
+        "name": "Ottawa University-Milwaukee",
+        "state": "Wisconsin",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 116
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 457484,
+        "slug": "pacific-rim-christian-university",
+        "name": "Pacific Rim Christian University",
+        "state": "Hawaii",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6,
+          "yield_rate": 0.8095238095238095,
+          "grad_rate": 0.36,
+          "retention_rate": 0.78,
+          "enrollment": 187,
+          "avg_net_price": 22668
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 456481,
+        "slug": "polytechnic-university-of-puerto-rico-miami",
+        "name": "Polytechnic University of Puerto Rico-Miami",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 32
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 456490,
+        "slug": "polytechnic-university-of-puerto-rico-orlando",
+        "name": "Polytechnic University of Puerto Rico-Orlando",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.38,
+          "enrollment": 127,
+          "avg_net_price": 20040
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 366003,
+        "slug": "south-florida-bible-college-and-theological-seminary",
+        "name": "South Florida Bible College and Theological Seminary",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.54,
+          "enrollment": 471
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 117575,
+        "slug": "southern-california-seminary",
+        "name": "Southern California Seminary",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.0,
+          "enrollment": 161
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 231095,
+        "slug": "sterling-college-2",
+        "name": "Sterling College",
+        "state": "Vermont",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6666666666666666,
+          "yield_rate": 0.10869565217391304,
+          "grad_rate": 0.32,
+          "retention_rate": 0.86,
+          "enrollment": 57,
+          "avg_net_price": 30785
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 137962,
+        "slug": "trinity-college-of-florida",
+        "name": "Trinity College of Florida",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.918918918918919,
+          "yield_rate": 0.5,
+          "grad_rate": 0.0,
+          "retention_rate": 0.28,
+          "enrollment": 152,
+          "avg_net_price": 21283
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 135610,
+        "slug": "trinity-international-university-florida",
+        "name": "Trinity International University-Florida",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "avg_net_price": 5455
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 488785,
+        "slug": "university-of-saint-katherine",
+        "name": "University of Saint Katherine",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4625,
+          "yield_rate": 0.5540540540540541,
+          "grad_rate": 0.43,
+          "retention_rate": 0.58,
+          "avg_net_price": 33072
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 480198,
+        "slug": "warner-pacific-university-professional-and-graduate-studies",
+        "name": "Warner Pacific University Professional and Graduate Studies",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5934959349593496,
+          "yield_rate": 0.0547945205479452,
+          "enrollment": 257
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 475200,
+        "slug": "whitworth-university-adult-degree-programs",
+        "name": "Whitworth University-Adult Degree Programs",
+        "state": "Washington",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2857142857142857,
+          "yield_rate": 1.0,
+          "enrollment": 145
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.buc.edu/about/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The page provides general information about Bethesda University, including its mission statement, accreditation details, and contact information. It lists core beliefs under the institution's statement of faith and describes its founding principles and objectives rooted in Christian theology.",
+    "phone": "714-683-1212",
+    "address": "730 N. Euclid Street, Anaheim, CA 92801",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-03T08:44:16.697791+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=110060",
+      "stored": false,
+      "fetched_at": "2026-06-03T08:44:19.089749+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "url": "https://www.buc.edu/about/strategic-plan",
+      "summary": "Bethesda University aims to prepare students with academic knowledge, professional skills, and spiritual values to become servant leaders in a global society. With a strong foundation in Pentecostal Theology, the university prioritizes the development of devoted Christian leaders and professionals. Bethesda University is committed to ensuring programmatic standards, focusing on information literacy, and maintaining viable enrollment in its accredited programs.",
+      "stored": false,
+      "fetched_at": "2026-06-03T08:37:24.764077+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

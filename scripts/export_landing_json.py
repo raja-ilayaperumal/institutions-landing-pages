@@ -197,18 +197,30 @@ def _section_admissions(admissions: dict, scorecard: dict) -> dict | None:
         "enrolled":                enr,
         "first_time_freshmen":     enr,
         "first_time_freshmen_ft":  enrft,
+        # Authoritative published acceptance rate (College Scorecard, 0-1), with
+        # the IPEDS-derived ratio as a cross-check / fallback for schools IPEDS
+        # admissions covers but Scorecard doesn't.
+        # A 0.0 acceptance rate is never a real selectivity figure — it comes
+        # from grad-focused schools with no undergrad cohort (e.g. 6 applicants,
+        # 0 admits) and would render a misleading "0% admit rate". Treat 0/None
+        # alike → omit.
+        "admission_rate":          (scorecard.get("admission_rate") or None),
         "admit_rate":              (adm / appl) if (appl and adm) else None,
         "yield_rate":              (enr / adm) if (adm and enr) else None,
-        "sat_average":             scorecard.get("sat_average"),
-        "sat_math_25_75":          [scorecard.get("sat_math_25"),
-                                     scorecard.get("sat_math_75")]
-                                    if scorecard.get("sat_math_25") else None,
-        "sat_reading_25_75":       [scorecard.get("sat_reading_25"),
-                                     scorecard.get("sat_reading_75")]
-                                    if scorecard.get("sat_reading_25") else None,
-        "act_composite_25_75":     [scorecard.get("act_composite_25"),
-                                     scorecard.get("act_composite_75")]
-                                    if scorecard.get("act_composite_25") else None,
+        # Scorecard column names are `sat_avg`, `sat_math_25th/75th`,
+        # `sat_reading_25th/75th`, `act_cumulative_25th/75th` — NOT the
+        # `sat_average`/`sat_math_25` names previously used here (which silently
+        # nulled the entire test-score block on every page).
+        "sat_average":             scorecard.get("sat_avg"),
+        "sat_math_25_75":          [scorecard.get("sat_math_25th"),
+                                     scorecard.get("sat_math_75th")]
+                                    if scorecard.get("sat_math_25th") else None,
+        "sat_reading_25_75":       [scorecard.get("sat_reading_25th"),
+                                     scorecard.get("sat_reading_75th")]
+                                    if scorecard.get("sat_reading_25th") else None,
+        "act_composite_25_75":     [scorecard.get("act_cumulative_25th"),
+                                     scorecard.get("act_cumulative_75th")]
+                                    if scorecard.get("act_cumulative_25th") else None,
     }
     return _to_jsonable({k: v for k, v in out.items() if v is not None})
 
@@ -218,34 +230,55 @@ def _section_cost(scorecard: dict, cost: dict, is_private: bool) -> dict | None:
     if not scorecard and not cost:
         return None
     np_prefix = "net_price_private_" if is_private else "net_price_public_"
+    # Net price by income band — keep only the bands that actually have a value.
+    # Grad-only/vocational schools have no Scorecard net-price-by-income, so this
+    # would otherwise be a dict of all-nulls that renders an empty "What families
+    # actually pay" card. All-null → drop the whole sub-object.
+    # Net price can be legitimately negative at very-low-fee colleges where avg
+    # grant/Pell aid exceeds cost of attendance (students pay nothing out of
+    # pocket). That's a real Scorecard figure, but a literal "-$3,220" reads as a
+    # bug to an IR reviewer, so floor the *displayed* value at $0 — true enough
+    # (out-of-pocket cost is $0) and never misleading. Raw DB value is untouched.
+    def _floor0(v):
+        return max(0, v) if isinstance(v, (int, float)) else v
+    npbfi = {
+        "0_30k":     _floor0(scorecard.get(f"{np_prefix}0_30k")),
+        "30_48k":    _floor0(scorecard.get(f"{np_prefix}30_48k")),
+        "48_75k":    _floor0(scorecard.get(f"{np_prefix}48_75k")),
+        "75_110k":   _floor0(scorecard.get(f"{np_prefix}75_110k")),
+        "110k_plus": _floor0(scorecard.get(f"{np_prefix}110k_plus")),
+    }
+    npbfi = {k: v for k, v in npbfi.items() if v is not None} or None
+    # Scorecard tuition columns are `tuition_in_state` / `tuition_out_of_state`
+    # (NOT `in_state_tuition` — the old names nulled the whole tuition block).
+    tuition_in = scorecard.get("tuition_in_state")
+    tuition_out = scorecard.get("tuition_out_of_state")
     out = {
-        "in_state_tuition":      scorecard.get("in_state_tuition"),
-        "out_of_state_tuition":  scorecard.get("out_of_state_tuition"),
+        "in_state_tuition":      tuition_in,
+        "out_of_state_tuition":  tuition_out,
         "room_and_board":        cost.get("rmbrdamt"),
         "total_cost_in_state":   (
-            (scorecard.get("in_state_tuition") or 0) + (cost.get("rmbrdamt") or 0)
-            if scorecard.get("in_state_tuition") and cost.get("rmbrdamt") else None
+            (tuition_in or 0) + (cost.get("rmbrdamt") or 0)
+            if tuition_in and cost.get("rmbrdamt") else None
         ),
         "total_cost_out_of_state": (
-            (scorecard.get("out_of_state_tuition") or 0) + (cost.get("rmbrdamt") or 0)
-            if scorecard.get("out_of_state_tuition") and cost.get("rmbrdamt") else None
+            (tuition_out or 0) + (cost.get("rmbrdamt") or 0)
+            if tuition_out and cost.get("rmbrdamt") else None
         ),
-        "avg_net_price": scorecard.get(
+        "avg_net_price": _floor0(scorecard.get(
             "avg_net_price_private" if is_private else "avg_net_price_public",
-        ),
-        "is_private_for_net_price": is_private,
+        )),
         "pell_grant_rate":           _pct(scorecard.get("pell_grant_rate")),
         "federal_loan_rate":         _pct(scorecard.get("federal_loan_rate")),
-        "net_price_by_family_income": {
-            "0_30k":    scorecard.get(f"{np_prefix}0_30k"),
-            "30_48k":   scorecard.get(f"{np_prefix}30_48k"),
-            "48_75k":   scorecard.get(f"{np_prefix}48_75k"),
-            "75_110k":  scorecard.get(f"{np_prefix}75_110k"),
-            "110k_plus": scorecard.get(f"{np_prefix}110k_plus"),
-        },
+        "net_price_by_family_income": npbfi,
     }
-    return _to_jsonable({k: v for k, v in out.items()
-                         if v is not None and v != {}})
+    out = {k: v for k, v in out.items() if v is not None and v != {}}
+    # `is_private_for_net_price` is just a render hint — if it would be the only
+    # surviving field, the section has no real cost data, so omit it entirely.
+    if not out:
+        return None
+    out["is_private_for_net_price"] = is_private
+    return _to_jsonable(out)
 
 
 def _section_graduation(ipeds_grad: dict, scorecard: dict) -> dict | None:
@@ -253,7 +286,15 @@ def _section_graduation(ipeds_grad: dict, scorecard: dict) -> dict | None:
     if not ipeds_grad and not scorecard:
         return None
     out = {
-        "overall_completion_rate":  _pct(scorecard.get("completion_rate")),
+        # Scorecard splits completion across overall / 4yr-150% / <4yr-150%.
+        # 4-year schools (e.g. UC Berkeley) often populate ONLY the 4yr field
+        # while `completion_rate_overall` is null, so fall back across all three
+        # to surface a real number wherever one exists. (`completion_rate` — the
+        # name used before — does not exist at all → was always null.)
+        "overall_completion_rate":  _pct(
+            scorecard.get("completion_rate_overall")
+            or scorecard.get("completion_rate_4yr_150pct")
+            or scorecard.get("completion_rate_lt_4yr_150pct")),
         "grad_rate_total":          _pct(ipeds_grad.get("grrttot")),
         "grad_4yr_bachelors":       _pct(ipeds_grad.get("gba4rtt")),
         "grad_5yr_bachelors":       _pct(ipeds_grad.get("gba5rtt")),
@@ -266,6 +307,11 @@ def _section_graduation(ipeds_grad: dict, scorecard: dict) -> dict | None:
         "retention_part_time":      _pct(ipeds_grad.get("ret_pcp")),
         "median_earnings_6yr":      scorecard.get("earnings_6yr_median"),
         "median_earnings_10yr":     scorecard.get("earnings_10yr_median"),
+        # Debt + loan-repayment outcomes exist in Scorecard but were never
+        # surfaced — high-signal fields for a prospective-student page.
+        "median_debt_completers":     scorecard.get("median_debt_completers"),
+        "median_debt_non_completers": scorecard.get("median_debt_non_completers"),
+        "repayment_rate_5yr":         _pct(scorecard.get("repayment_5yr_rate")),
     }
     return _to_jsonable({k: v for k, v in out.items() if v is not None})
 
@@ -372,7 +418,8 @@ def _section_peers(peers: list[dict], source_label: str, conn) -> dict | None:
                      WHERE r.unitid=li.unitid
                      ORDER BY data_year DESC LIMIT 1) AS retention_rate,
                   (SELECT e.eftotlt FROM ipeds.fall_enrollment_2024 e
-                     WHERE e.unitid=li.unitid AND e.efalevel=1 LIMIT 1) AS enrollment,
+                     WHERE e.unitid=li.unitid AND e.efalevel=1 AND e.line=29
+                     LIMIT 1) AS enrollment,
                   (SELECT COALESCE(f.avg_net_price_private, f.avg_net_price_public)::int
                      FROM score_card.fact_institution_yearly f
                      WHERE f.institution_id=li.unitid
@@ -418,13 +465,21 @@ def _section_peers(peers: list[dict], source_label: str, conn) -> dict | None:
 def _section_research_funding(rs: dict | None) -> dict | None:
     if not rs:
         return None
+    # The research summary view exposes `amount_*_usd` and `award_count_*`
+    # columns — NOT the `*_total_usd`/`years_covered` names used before (which
+    # made the whole research-funding section vanish for every institution,
+    # including R1s with large NIH/NSF portfolios).
     return _to_jsonable({
-        "nsf_total_usd":           rs.get("nsf_total_usd"),
-        "nih_total_usd":           rs.get("nih_total_usd"),
-        "herd_total_usd":          rs.get("herd_total_usd"),
-        "usaspending_total_usd":   rs.get("usaspending_total_usd"),
-        "all_sources_total_usd":   rs.get("all_sources_total_usd"),
-        "years_covered":           rs.get("years_covered"),
+        "nsf_total_usd":           rs.get("amount_nsf_usd"),
+        "nih_total_usd":           rs.get("amount_nih_usd"),
+        "usaspending_total_usd":   rs.get("amount_usaspending_usd"),
+        "all_sources_total_usd":   rs.get("amount_total_all_time_usd"),
+        "recent_3y_total_usd":     rs.get("amount_total_last_3y_usd"),
+        "award_count_nih":         rs.get("award_count_nih"),
+        "award_count_nsf":         rs.get("award_count_nsf"),
+        "award_count_usaspending": rs.get("award_count_usaspending"),
+        "award_count_total":       rs.get("award_count_total"),
+        "latest_award_end":        rs.get("latest_award_end"),
     })
 
 
@@ -494,16 +549,13 @@ def _section_documents(documents: list[dict]) -> list[dict]:
 
 
 def _section_ir_jobs(jobs: list[dict]) -> list[dict]:
-    return [
-        _clean_dict({
-            "title":      j.get("title"),
-            "source":     j.get("source"),
-            "apply_url":  j.get("apply_url"),
-            "posted_at":  j.get("posted_at"),
-            "summary":    j.get("summary"),
-        })
-        for j in (jobs or [])
-    ]
+    # Suppressed for IR-facing pages. These postings come from the third-party
+    # HigherEdJobs aggregator with NO attribution tying a listing to this
+    # institution (0/211 descriptions reference it), include non-IR roles, and
+    # carry "- HigherEdJobs" title boilerplate. They can't be verified as the
+    # institution's own openings, so we ship none rather than mislead an IR
+    # reader. (Raw rows remain in landing.job_postings for any future re-parse.)
+    return []
 
 
 def _section_grants(grants: list[dict]) -> list[dict]:
@@ -633,7 +685,31 @@ def build_landing_json(unitid: int | None = None,
         "grants":          _section_grants(grants),
         "notable_alumni":  _section_alumni(notable_alumni),
     }
+    # Null out any dict section that is empty or entirely null-valued, so the
+    # frontend never renders a header card with no data inside it (e.g. a grad
+    # school whose Scorecard has no admissions / net-price-by-income → the
+    # "Admissions" and "What families actually pay" cards must not appear). List
+    # sections (ir_team, documents, …) stay as [] — the renderer skips empties.
+    for _k in ("about", "brand", "admissions", "cost", "graduation",
+               "enrollment", "programs", "faculty", "peers",
+               "research_funding", "ir_office"):
+        if _is_empty_section(doc.get(_k)):
+            doc[_k] = None
     return doc
+
+
+def _is_empty_section(v) -> bool:
+    """True if a section carries no real data — None, {}, [] , or a dict whose
+    every (recursively-checked) value is empty. Numbers/booleans count as data."""
+    if v is None:
+        return True
+    if isinstance(v, dict):
+        return all(_is_empty_section(x) for x in v.values()) if v else True
+    if isinstance(v, list):
+        return len(v) == 0
+    if isinstance(v, str):
+        return not v.strip()
+    return False
 
 
 def _write_json(doc: dict, out_dir: Path) -> Path:
@@ -670,13 +746,15 @@ def _print_summary(doc: dict, path: Path) -> None:
 
 
 def _cohort_unitids(cohort_file: Path, top: int | None) -> list[int]:
-    """Parse a `scripts/cohorts/*.txt` file (unitid | enrollment | name | ...)."""
+    """Parse a `scripts/cohorts/*.txt` file. Accepts both the bare-unitid
+    format (one unitid per line) and the legacy pipe format
+    (`unitid | enrollment | name | ...`). `#` comment lines are ignored."""
     ids: list[int] = []
     for line in cohort_file.read_text().splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
-        m = re.match(r"\s*(\d+)\s*\|", line)
+        m = re.match(r"\s*(\d+)", line)  # leading integer; pipe optional
         if m:
             ids.append(int(m.group(1)))
     return ids[:top] if top else ids

@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:00.391228+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 393649,
+    "slug": "uei-college-gardena",
+    "name": "UEI College-Gardena",
+    "website_url": "https://www.uei.edu",
+    "city": "Gardena",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90247-4201",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "H6ECKLAVSJQ9",
+      "opeid": "03969600",
+      "ein": "270387566"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "UEI College is a private for-profit career college with locations in the U.S. states of California, Washington, Arizona, Nevada, Texas, New Mexico, and Georgia. It specializes in short-term technical and vocational education to prepare students for entry-level positions in industries such as healthcare, business, and skilled trades. UEI College is owned by International Education Corporation. The school was founded in 1982 as United Education Institute and changed its name to UEI College in 2009.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/UEI_College",
+    "source_url": "https://en.wikipedia.org/wiki/UEI_College",
+    "fetched_at": "2026-06-02T10:49:18.522324+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 26611,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7743,
+    "net_price_by_family_income": {
+      "0_30k": 26303,
+      "30_48k": 26915,
+      "48_75k": 28965,
+      "75_110k": 30548,
+      "110k_plus": 31863
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6246,
+    "grad_rate_total": 0.6,
+    "pell_grad_rate": 0.59,
+    "non_pell_grad_rate": 0.59,
+    "retention_full_time": 0.73
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2490,
+    "ug_12mo": 2490,
+    "grad_12mo": 0,
+    "women_12mo": 1368,
+    "men_12mo": 1122,
+    "fall_total": 1332,
+    "distance_ed_any": 1332,
+    "distance_ed_exclusive": 138,
+    "race_ethnicity": {
+      "white": 0.0242,
+      "black": 0.1468,
+      "hispanic": 0.3373,
+      "asian": 0.0139,
+      "ai_an": 0.0076,
+      "nh_pi": 0.0048,
+      "two_or_more": 0.009,
+      "non_resident": 0.0,
+      "race_unknown": 0.4564
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 6
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 23.0,
+    "instr_total_fte": 28
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 210599,
+        "slug": "all-state-career-school",
+        "name": "All-State Career School",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 886,
+          "avg_net_price": 19820
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 497277,
+        "slug": "arizona-college-glendale",
+        "name": "Arizona College-Glendale",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 403,
+          "avg_net_price": 26925
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 440059,
+        "slug": "aviation-institute-of-maintenance-atlanta",
+        "name": "Aviation Institute of Maintenance-Atlanta",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 824,
+          "avg_net_price": 24592
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 434821,
+        "slug": "blue-cliff-college-metairie",
+        "name": "Blue Cliff College-Metairie",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 291,
+          "avg_net_price": 22581
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 206932,
+        "slug": "central-oklahoma-college",
+        "name": "Central Oklahoma College",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 477
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 379746,
+        "slug": "college-of-health-care-professions",
+        "name": "College of Health Care Professions",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 631,
+          "avg_net_price": 28520
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 423120,
+        "slug": "compu-med-vocational-careers-corp",
+        "name": "Compu-Med Vocational Careers Corp",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 169,
+          "avg_net_price": 19291
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 169761,
+        "slug": "dorsey-college",
+        "name": "Dorsey College",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 643,
+          "avg_net_price": 22079
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 250744,
+        "slug": "dorsey-college-roseville",
+        "name": "Dorsey College-Roseville",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 437,
+          "avg_net_price": 23871
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 441423,
+        "slug": "florida-education-institute",
+        "name": "Florida Education Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 318,
+          "avg_net_price": 36440
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 476939,
+        "slug": "fvi-school-of-nursing-and-technology",
+        "name": "FVI School of Nursing and Technology",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7357954545454546,
+          "yield_rate": 1.0,
+          "retention_rate": 0.81,
+          "enrollment": 661,
+          "avg_net_price": 26818
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 103963,
+        "slug": "miller-motte-college-arizona-automotive-institute",
+        "name": "Miller-Motte College-Arizona Automotive Institute",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 689,
+          "avg_net_price": 22180
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 451228,
+        "slug": "mycomputercareer-at-indianapolis",
+        "name": "MyComputerCareer at Indianapolis",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 1144,
+          "avg_net_price": 26584
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 480037,
+        "slug": "mycomputercareer-at-raleigh",
+        "name": "MyComputerCareer at Raleigh",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 1466,
+          "avg_net_price": 26317
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 442611,
+        "slug": "nascar-technical-institute",
+        "name": "NASCAR Technical Institute",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 1345,
+          "avg_net_price": 24587
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 434469,
+        "slug": "new-professions-technical-institute",
+        "name": "New Professions Technical Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 514,
+          "avg_net_price": 39944
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 445364,
+        "slug": "north-west-college-riverside",
+        "name": "North-West College-Riverside",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7197802197802198,
+          "retention_rate": 0.76,
+          "enrollment": 717,
+          "avg_net_price": 29106
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 459967,
+        "slug": "southern-careers-institute-brownsville",
+        "name": "Southern Careers Institute-Brownsville",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 631,
+          "avg_net_price": 16706
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 405076,
+        "slug": "southern-careers-institute-corpus-christi",
+        "name": "Southern Careers Institute-Corpus Christi",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 578,
+          "avg_net_price": 24545
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 459985,
+        "slug": "southern-careers-institute-harlingen",
+        "name": "Southern Careers Institute-Harlingen",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 543,
+          "avg_net_price": 23167
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 408385,
+        "slug": "southern-careers-institute-pharr",
+        "name": "Southern Careers Institute-Pharr",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 596,
+          "avg_net_price": 21588
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 430245,
+        "slug": "southern-careers-institute-san-antonio",
+        "name": "Southern Careers Institute-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 584,
+          "avg_net_price": 26782
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 106041,
+        "slug": "universal-technical-institute-of-arizona-inc",
+        "name": "Universal Technical Institute of Arizona Inc",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 1957,
+          "avg_net_price": 27139
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 445799,
+        "slug": "universal-technical-institute-of-pennsylvania-inc",
+        "name": "Universal Technical Institute of Pennsylvania Inc",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 954,
+          "avg_net_price": 24588
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 229416,
+        "slug": "universal-technical-institute-of-texas-inc",
+        "name": "Universal Technical Institute of Texas Inc.",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 2632,
+          "avg_net_price": 20819
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 497286,
+        "slug": "universal-technical-institute-west-texas",
+        "name": "Universal Technical Institute-West Texas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 1335,
+          "avg_net_price": 23864
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 494250,
+        "slug": "valley-college-cleveland",
+        "name": "Valley College-Cleveland",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 887,
+          "avg_net_price": 30096
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=393649",
+      "stored": false,
+      "fetched_at": "2026-06-02T10:49:20.338217+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Cal Grant C",
+      "agency": "California Student Aid Commission (CSAC)",
+      "kind": "opportunity",
+      "amount_usd": 2462,
+      "url": "https://www.uei.edu/financial-aid/cal-grant/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

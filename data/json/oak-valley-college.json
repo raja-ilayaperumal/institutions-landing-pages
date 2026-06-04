@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:04.975439+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 495059,
+    "slug": "oak-valley-college",
+    "name": "Oak Valley College",
+    "website_url": "https://oakvalley.edu",
+    "city": "Rialto",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92377",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-mixed-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UQNUX1L9HCH9",
+      "opeid": "04293400",
+      "ein": "204611212"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Oak Valley College is a private institution located in Rialto and Santa Ana, California, focusing on providing a BA in Business. The college aims to offer a debt-free education, although the founding year is not mentioned on the site. Information regarding the size of the student body is also not provided.",
+    "source_url": "https://oakvalley.edu/about",
+    "fetched_at": "2026-06-03T16:30:09.686714+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 16100,
+    "out_of_state_tuition": 16100,
+    "avg_net_price": 5805,
+    "pell_grant_rate": 0.0192,
+    "federal_loan_rate": 0.0,
+    "net_price_by_family_income": {
+      "0_30k": 4632,
+      "30_48k": 9911
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4348,
+    "grad_rate_total": 0.43,
+    "grad_4yr_bachelors": 0.43,
+    "grad_5yr_bachelors": 0.43,
+    "grad_6yr_bachelors": 0.43,
+    "retention_full_time": 0.82
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 69,
+    "ug_12mo": 69,
+    "grad_12mo": 0,
+    "women_12mo": 29,
+    "men_12mo": 40,
+    "fall_total": 75,
+    "distance_ed_any": 75,
+    "race_ethnicity": {
+      "white": 0.3654,
+      "black": 0.1154,
+      "hispanic": 0.5,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0192,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 11
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 120838,
+        "slug": "pacific-states-university",
+        "name": "Pacific States University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.7915,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 101
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 486433,
+        "slug": "presidio-graduate-school",
+        "name": "Presidio Graduate School",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.6754,
+        "metrics": {
+          "enrollment": 74
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 487649,
+        "slug": "california-institute-of-advanced-management",
+        "name": "California Institute of Advanced Management",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.5745,
+        "metrics": {
+          "enrollment": 344
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 488387,
+        "slug": "claremont-lincoln-university",
+        "name": "Claremont Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.5611,
+        "metrics": {
+          "enrollment": 271
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 117557,
+        "slug": "lincoln-university",
+        "name": "Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.5332,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.89,
+          "enrollment": 436
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

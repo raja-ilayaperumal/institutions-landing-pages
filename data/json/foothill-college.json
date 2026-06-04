@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:39.384648+00:00",
+  "generated_at": "2026-06-04T04:56:45.783826+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Foothill_College",
     "fetched_at": "2026-05-25T21:45:49.794572+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1565,
+    "out_of_state_tuition": 12320,
     "avg_net_price": 7549,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7608,
     "federal_loan_rate": 0.0238,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9954,
       "75_110k": 11391,
       "110k_plus": 14191
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6,
     "grad_rate_total": 0.56,
     "pell_grad_rate": 0.6,
     "non_pell_grad_rate": 0.67
@@ -63,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 24501,
     "ug_12mo": 24501,
-    "grad_12mo": 19950,
+    "grad_12mo": 0,
     "women_12mo": 12096,
     "men_12mo": 12405,
     "fall_total": 12949,
-    "fall_full_time": 12949,
-    "fall_part_time": 11137,
     "distance_ed_any": 12949,
     "distance_ed_exclusive": 5985,
     "race_ethnicity": {
@@ -467,12 +468,7 @@
       "fetched_at": "2026-05-25T21:45:51.049879+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Research Analyst",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179426144"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

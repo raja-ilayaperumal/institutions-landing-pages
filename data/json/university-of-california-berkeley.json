@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:49.517770+00:00",
+  "generated_at": "2026-06-04T04:56:04.960373+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,13 +47,17 @@
     "enrolled": 6272,
     "first_time_freshmen": 6272,
     "first_time_freshmen_ft": 6232,
+    "admission_rate": 0.1166,
     "admit_rate": 0.10977769192382608,
     "yield_rate": 0.45985776083290564
   },
   "cost": {
+    "in_state_tuition": 14850,
+    "out_of_state_tuition": 45627,
     "room_and_board": 23750,
+    "total_cost_in_state": 38600,
+    "total_cost_out_of_state": 69377,
     "avg_net_price": 14979,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.0463,
     "federal_loan_rate": 0.1823,
     "net_price_by_family_income": {
@@ -62,9 +66,11 @@
       "48_75k": 11424,
       "75_110k": 18713,
       "110k_plus": 35154
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.9289,
     "grad_rate_total": 0.93,
     "grad_4yr_bachelors": 0.8,
     "grad_5yr_bachelors": 0.91,
@@ -79,12 +85,10 @@
   "enrollment": {
     "enrollment_12mo_total": 48556,
     "ug_12mo": 34828,
-    "grad_12mo": 34782,
+    "grad_12mo": 13728,
     "women_12mo": 26108,
     "men_12mo": 22448,
     "fall_total": 45882,
-    "fall_full_time": 33070,
-    "fall_part_time": 33068,
     "distance_ed_any": 45882,
     "distance_ed_exclusive": 1793,
     "race_ethnicity": {
@@ -730,12 +734,16 @@
     ]
   },
   "research_funding": {
-    "nsf_total_usd": null,
+    "nsf_total_usd": 8065396,
     "nih_total_usd": null,
-    "herd_total_usd": null,
-    "usaspending_total_usd": null,
-    "all_sources_total_usd": null,
-    "years_covered": null
+    "usaspending_total_usd": 509600385,
+    "all_sources_total_usd": 517665781,
+    "recent_3y_total_usd": null,
+    "award_count_nih": 0,
+    "award_count_nsf": 14,
+    "award_count_usaspending": 20,
+    "award_count_total": 34,
+    "latest_award_end": "2031-08-31"
   },
   "ir_office": {
     "url": "https://opa.berkeley.edu/",
@@ -853,24 +861,7 @@
       "fetched_at": "2026-05-25T16:56:36.007085+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Institute for Research on Labor and Employment - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179443715"
-    },
-    {
-      "title": "Technology and Work Program Director (Full Specialist) - UC",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179367539"
-    },
-    {
-      "title": "UC Berkeley Labor Center - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179386243"
-    },
-    {
-      "title": "Director of Research & Strategic Initiatives, Berkeley Air & Space ...",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179363164"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:38.489650+00:00",
+  "generated_at": "2026-06-04T04:57:01.181146+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Irvine_Valley_College",
     "fetched_at": "2026-05-25T21:42:01.960815+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1156,
+    "out_of_state_tuition": 10996,
     "avg_net_price": 1886,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5388,
     "federal_loan_rate": 0.009,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 4518,
       "75_110k": 8024,
       "110k_plus": 8170
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.5988,
     "grad_rate_total": 0.57,
     "pell_grad_rate": 0.52,
     "non_pell_grad_rate": 0.67,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17862,
     "ug_12mo": 17862,
-    "grad_12mo": 13882,
+    "grad_12mo": 0,
     "women_12mo": 8921,
     "men_12mo": 8941,
     "fall_total": 13018,
-    "fall_full_time": 13018,
-    "fall_part_time": 10286,
     "distance_ed_any": 13018,
     "distance_ed_exclusive": 4924,
     "race_ethnicity": {

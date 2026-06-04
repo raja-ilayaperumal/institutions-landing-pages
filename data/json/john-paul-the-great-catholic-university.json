@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:12.175058+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 462354,
+    "slug": "john-paul-the-great-catholic-university",
+    "name": "John Paul the Great Catholic University",
+    "website_url": "https://jpcatholic.edu",
+    "city": "Escondido",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92025",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NL7UYXKHDAL8",
+      "opeid": "04193700",
+      "ein": "200471061"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "John Paul the Great Catholic University (JPCatholic) is a private Catholic college in Escondido, California, United States. It offers Bachelor of Science degrees, a Bachelor of Arts degree, and a Bachelor of Fine Arts degree.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Paul_the_Great_Catholic_University",
+    "source_url": "https://en.wikipedia.org/wiki/John_Paul_the_Great_Catholic_University",
+    "fetched_at": "2026-06-03T02:08:06.311647+05:30"
+  },
+  "admissions": {
+    "applicants": 216,
+    "admits": 172,
+    "enrolled": 74,
+    "first_time_freshmen": 74,
+    "first_time_freshmen_ft": 71,
+    "admission_rate": 0.7929,
+    "admit_rate": 0.7962962962962963,
+    "yield_rate": 0.43023255813953487,
+    "sat_average": 1181,
+    "sat_math_25_75": [
+      530,
+      570
+    ],
+    "sat_reading_25_75": [
+      560,
+      690
+    ],
+    "act_composite_25_75": [
+      21,
+      27
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 29500,
+    "out_of_state_tuition": 29500,
+    "avg_net_price": 29124,
+    "pell_grant_rate": 0.0572,
+    "federal_loan_rate": 0.7067,
+    "net_price_by_family_income": {
+      "0_30k": 24276,
+      "30_48k": 25499,
+      "48_75k": 25853,
+      "75_110k": 32355,
+      "110k_plus": 35830
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6533,
+    "grad_rate_total": 0.64,
+    "grad_4yr_bachelors": 0.63,
+    "grad_5yr_bachelors": 0.64,
+    "grad_6yr_bachelors": 0.64,
+    "pell_grad_rate": 0.53,
+    "pell_6yr_bachelors_rate": 0.53,
+    "non_pell_grad_rate": 0.65,
+    "non_pell_6yr_bachelors": 0.65,
+    "retention_full_time": 0.85,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 369,
+    "ug_12mo": 369,
+    "grad_12mo": 0,
+    "women_12mo": 175,
+    "men_12mo": 194,
+    "fall_total": 286,
+    "distance_ed_any": 286,
+    "race_ethnicity": {
+      "white": 0.3872,
+      "black": 0.0135,
+      "hispanic": 0.3333,
+      "asian": 0.064,
+      "ai_an": 0.0101,
+      "nh_pi": 0.0034,
+      "two_or_more": 0.0673,
+      "non_resident": 0.0168,
+      "race_unknown": 0.1044
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 53
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 13
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 8
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 446048,
+        "slug": "ave-maria-university",
+        "name": "Ave Maria University",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.41390851617701746,
+          "yield_rate": 0.3279424977538185,
+          "grad_rate": 0.47,
+          "retention_rate": 0.79,
+          "enrollment": 1423,
+          "avg_net_price": 23655
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 197984,
+        "slug": "belmont-abbey-college",
+        "name": "Belmont Abbey College",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7465055674010898,
+          "yield_rate": 0.12630910821961283,
+          "grad_rate": 0.47,
+          "retention_rate": 0.7,
+          "enrollment": 1388,
+          "avg_net_price": 23613
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 154712,
+        "slug": "benedictine-college",
+        "name": "Benedictine College",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9812154696132597,
+          "yield_rate": 0.2286036036036036,
+          "grad_rate": 0.62,
+          "retention_rate": 0.83,
+          "enrollment": 2535,
+          "avg_net_price": 27477
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 210739,
+        "slug": "desales-university",
+        "name": "DeSales University",
+        "state": "Pennsylvania",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7709328639678149,
+          "yield_rate": 0.16666666666666666,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 2972,
+          "avg_net_price": 30465
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 205957,
+        "slug": "franciscan-university-of-steubenville",
+        "name": "Franciscan University of Steubenville",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5835579514824798,
+          "yield_rate": 0.4174364896073903,
+          "grad_rate": 0.75,
+          "retention_rate": 0.87,
+          "enrollment": 3976,
+          "avg_net_price": 23987
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 129534,
+        "slug": "holy-apostles-college-and-seminary",
+        "name": "Holy Apostles College and Seminary",
+        "state": "Connecticut",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.15,
+          "retention_rate": 0.91,
+          "enrollment": 719,
+          "avg_net_price": 16073
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 163462,
+        "slug": "mount-st-mary-s-university",
+        "name": "Mount St. Mary's University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7381228273464658,
+          "yield_rate": 0.12244897959183673,
+          "grad_rate": 0.65,
+          "retention_rate": 0.71,
+          "enrollment": 2408,
+          "avg_net_price": 24987
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 131283,
+        "slug": "the-catholic-university-of-america",
+        "name": "The Catholic University of America",
+        "state": "District of Columbia",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8278224605302353,
+          "yield_rate": 0.13350125944584382,
+          "grad_rate": 0.79,
+          "retention_rate": 0.87,
+          "enrollment": 5243,
+          "avg_net_price": 32798
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 124292,
+        "slug": "thomas-aquinas-college",
+        "name": "Thomas Aquinas College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8308823529411765,
+          "yield_rate": 0.6769911504424779,
+          "grad_rate": 0.84,
+          "retention_rate": 0.92,
+          "enrollment": 566,
+          "avg_net_price": 25032
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 183275,
+        "slug": "thomas-more-college-of-liberal-arts",
+        "name": "Thomas More College of Liberal Arts",
+        "state": "New Hampshire",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8958333333333334,
+          "yield_rate": 0.46511627906976744,
+          "grad_rate": 0.63,
+          "retention_rate": 0.88,
+          "enrollment": 97,
+          "avg_net_price": 21511
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 224323,
+        "slug": "university-of-dallas",
+        "name": "University of Dallas",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5343886462882096,
+          "yield_rate": 0.2017364657814096,
+          "grad_rate": 0.73,
+          "retention_rate": 0.77,
+          "enrollment": 2078,
+          "avg_net_price": 25470
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 200217,
+        "slug": "university-of-mary",
+        "name": "University of Mary",
+        "state": "North Dakota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7530386740331492,
+          "yield_rate": 0.41379310344827586,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 3861,
+          "avg_net_price": 18568
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 227863,
+        "slug": "university-of-st-thomas-2",
+        "name": "University of St Thomas",
+        "state": "Texas",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8992355802640722,
+          "yield_rate": 0.2971406491499227,
+          "grad_rate": 0.69,
+          "retention_rate": 0.78,
+          "enrollment": 4301,
+          "avg_net_price": 18762
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 206437,
+        "slug": "walsh-university",
+        "name": "Walsh University",
+        "state": "Ohio",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7074235807860262,
+          "yield_rate": 0.1949588477366255,
+          "grad_rate": 0.58,
+          "retention_rate": 0.72,
+          "enrollment": 2192,
+          "avg_net_price": 20004
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=462354",
+      "stored": false,
+      "fetched_at": "2026-06-03T02:08:06.7764+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

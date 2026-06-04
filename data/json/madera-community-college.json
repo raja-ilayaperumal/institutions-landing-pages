@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:19.073642+00:00",
+  "generated_at": "2026-06-04T05:01:10.491134+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Madera_Community_College",
     "fetched_at": "2026-05-27T22:04:58.32727+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
-    "avg_net_price": -489,
-    "is_private_for_net_price": false,
+    "in_state_tuition": 1334,
+    "out_of_state_tuition": 9454,
+    "avg_net_price": 0,
     "pell_grant_rate": 0.8471,
     "federal_loan_rate": 0.0011,
     "net_price_by_family_income": {
-      "0_30k": -2313,
-      "30_48k": -90,
+      "0_30k": 0,
+      "30_48k": 0,
       "48_75k": 2917,
-      "75_110k": 7149,
-      "110k_plus": null
-    }
+      "75_110k": 7149
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3316,
     "grad_rate_total": 0.35,
     "pell_grad_rate": 0.33,
     "retention_full_time": 0.67,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 10714,
     "ug_12mo": 10714,
-    "grad_12mo": 7130,
+    "grad_12mo": 0,
     "women_12mo": 6964,
     "men_12mo": 3750,
     "fall_total": 6636,
-    "fall_full_time": 6636,
-    "fall_part_time": 4808,
     "distance_ed_any": 6636,
     "distance_ed_exclusive": 3314,
     "race_ethnicity": {
@@ -319,16 +319,7 @@
       "fetched_at": "2026-05-27T21:55:02.446921+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President, Equity & Institutional Effectiveness (Academic ...",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179016276"
-    },
-    {
-      "title": "Interim District Director, Competency Based Education (Full-Time ...",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179441193"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

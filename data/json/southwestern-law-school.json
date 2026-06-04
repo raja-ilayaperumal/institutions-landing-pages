@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:23.124817+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123970,
+    "slug": "southwestern-law-school",
+    "name": "Southwestern Law School",
+    "website_url": "https://www.swlaw.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90010-1106",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-career-technical-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "EVHMJGKEXNH8",
+      "opeid": "00129500",
+      "ein": "951246140"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Southwestern Law School is a private law school in Los Angeles, California. It is accredited by the American Bar Association and enrolls nearly 1,000 students. Its campus includes the Bullocks Wilshire building, an Art Deco National Register of Historic Places landmark built in 1929. Southwestern is an independent law school with affiliation to the undergraduate program at California State University, Northridge.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Southwestern_Law_School",
+    "source_url": "https://en.wikipedia.org/wiki/Southwestern_Law_School",
+    "fetched_at": "2026-06-02T12:07:48.400696+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 1017,
+    "women_12mo": 617,
+    "men_12mo": 400,
+    "fall_total": 1006,
+    "distance_ed_any": 1006,
+    "distance_ed_exclusive": 85
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "22",
+        "cip_family_label": "Legal Professions",
+        "completions": 291
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "instr_total_fte": 57
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 488031,
+        "slug": "abraham-lincoln-university",
+        "name": "Abraham Lincoln University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.33,
+          "enrollment": 112,
+          "avg_net_price": 24825
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 188535,
+        "slug": "albany-law-school",
+        "name": "Albany Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 670
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 432348,
+        "slug": "appalachian-school-of-law",
+        "name": "Appalachian School of Law",
+        "state": "Virginia",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 154
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 138929,
+        "slug": "atlanta-s-john-marshall-law-school",
+        "name": "Atlanta's John Marshall Law School",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 379
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 442295,
+        "slug": "ave-maria-school-of-law",
+        "name": "Ave Maria School of Law",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 299
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 189501,
+        "slug": "brooklyn-law-school",
+        "name": "Brooklyn Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1125
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 493956,
+        "slug": "cal-northern-school-of-law",
+        "name": "Cal Northern School of Law",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 55
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 111391,
+        "slug": "california-western-school-of-law",
+        "name": "California Western School of Law",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 650
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 451510,
+        "slug": "charleston-school-of-law",
+        "name": "Charleston School of Law",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 692
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 190682,
+        "slug": "cuny-school-of-law",
+        "name": "CUNY School of Law",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 669
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 369002,
+        "slug": "massachusetts-school-of-law",
+        "name": "Massachusetts School of Law",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 273
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 175281,
+        "slug": "mitchell-hamline-school-of-law",
+        "name": "Mitchell Hamline School of Law",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1163
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 167215,
+        "slug": "new-england-law-boston",
+        "name": "New England Law-Boston",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1131
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 193821,
+        "slug": "new-york-law-school",
+        "name": "New York Law School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1062
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 409616,
+        "slug": "roger-williams-university-school-of-law",
+        "name": "Roger Williams University School of Law",
+        "state": "Rhode Island",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 484
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 122649,
+        "slug": "san-joaquin-college-of-law",
+        "name": "San Joaquin College of Law",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 154
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 228194,
+        "slug": "south-texas-college-of-law-houston",
+        "name": "South Texas College of Law Houston",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1089
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 440916,
+        "slug": "southern-university-law-center",
+        "name": "Southern University Law Center",
+        "state": "Louisiana",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.32
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 475228,
+        "slug": "the-colleges-of-law-at-santa-barbara",
+        "name": "The Colleges of Law at Santa Barbara",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 78
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 125037,
+        "slug": "the-colleges-of-law-at-ventura",
+        "name": "The Colleges of Law at Ventura",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 288
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 126049,
+        "slug": "thomas-jefferson-school-of-law",
+        "name": "Thomas Jefferson School of Law",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 262
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 172477,
+        "slug": "thomas-m-cooley-law-school",
+        "name": "Thomas M Cooley Law School",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 420
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 123448,
+        "slug": "trinity-law-school",
+        "name": "Trinity Law School",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 273
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 110398,
+        "slug": "university-of-california-college-of-the-law-san-francisco",
+        "name": "University of California College of the Law-San Francisco",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1195
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 182829,
+        "slug": "university-of-new-hampshire-franklin-pierce-school-of-law",
+        "name": "University of New Hampshire-Franklin Pierce School of Law",
+        "state": "New Hampshire",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 718
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 484862,
+        "slug": "university-of-west-los-angeles",
+        "name": "University of West Los Angeles",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 367
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 231147,
+        "slug": "vermont-law-and-graduate-school",
+        "name": "Vermont Law and Graduate School",
+        "state": "Vermont",
+        "carnegie": "Associates Colleges: High Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 722
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123970",
+      "stored": false,
+      "fetched_at": "2026-06-02T12:07:49.249537+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2026,
+      "title": "Institutional Effectiveness | Southwestern Law School",
+      "url": "https://www.swlaw.edu/contact/institutional-effectiveness",
+      "summary": "The page for Southwestern Law School's Institutional Effectiveness details various academic, faculty, administrative, and student life programs. It emphasizes sections on admissions, J.D. and LL.M. programs, curriculum, experiential learning, and career services. It covers essential school attributes like campus services, library access, and alumni engagement, along with the institution's nondiscrimination policies. The page provides comprehensive information regarding school operations, school programs, and legal compliance features including accreditation and privacy policies.",
+      "stored": false,
+      "fetched_at": "2026-06-02T12:03:11.212773+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Public Interest Law Committee Summer Grant Program",
+      "agency": "Southwestern Law School",
+      "kind": "opportunity",
+      "amount_usd": 5000,
+      "url": "https://www.swlaw.edu/2024PILC4",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Tom Bradley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Bradley_(American_politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Marcia Clark",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marcia_Clark",
+      "field": "Law"
+    },
+    {
+      "name": "Donald Sterling",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Donald_Sterling",
+      "field": "Business"
+    },
+    {
+      "name": "Matt Fong",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Matt_Fong",
+      "field": "Politics"
+    },
+    {
+      "name": "Jim Gibbons",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jim_Gibbons_(American_politician)",
+      "field": "Politics"
+    },
+    {
+      "name": "Stanley Mosk",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Stanley_Mosk",
+      "field": "Law"
+    }
+  ]
+}

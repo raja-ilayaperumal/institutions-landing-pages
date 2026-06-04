@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:23.019511+00:00",
+  "generated_at": "2026-06-04T04:58:45.433332+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -51,8 +51,9 @@
     "yield_rate": 0.48717948717948717
   },
   "cost": {
+    "in_state_tuition": 12520,
+    "out_of_state_tuition": 12520,
     "avg_net_price": 31601,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5951,
     "federal_loan_rate": 0.3163,
     "net_price_by_family_income": {
@@ -61,7 +62,8 @@
       "48_75k": 31200,
       "75_110k": 33080,
       "110k_plus": 33365
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
     "grad_rate_total": 0.43,
@@ -72,12 +74,10 @@
   "enrollment": {
     "enrollment_12mo_total": 14135,
     "ug_12mo": 9030,
-    "grad_12mo": 6945,
+    "grad_12mo": 5105,
     "women_12mo": 10065,
     "men_12mo": 4070,
     "fall_total": 8996,
-    "fall_full_time": 5090,
-    "fall_part_time": 4491,
     "distance_ed_any": 8996,
     "distance_ed_exclusive": 8996,
     "race_ethnicity": {

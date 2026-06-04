@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:44.975716+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 450696,
+    "slug": "carrington-college-stockton",
+    "name": "Carrington College-Stockton",
+    "website_url": "https://carrington.edu",
+    "city": "Stockton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95207-5509",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Other Fields",
+    "carnegie_slug": "special-focus-2yr-other",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UUEWSJJKMG65",
+      "opeid": "00974803",
+      "ein": "943166490"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Carrington College is a network of for-profit private colleges with its headquarters in Sacramento, California. The school has 14 locations throughout the Western United States with a total enrollment of 8,097 and more than 132,000 alumni.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "source_url": "https://en.wikipedia.org/wiki/Carrington_College_(US)",
+    "fetched_at": "2026-06-02T23:42:55.961828+05:30"
+  },
+  "admissions": {
+    "applicants": 142,
+    "admits": 96,
+    "enrolled": 61,
+    "first_time_freshmen": 61,
+    "first_time_freshmen_ft": 61,
+    "admit_rate": 0.676056338028169,
+    "yield_rate": 0.6354166666666666
+  },
+  "cost": {
+    "avg_net_price": 30387,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.6736,
+    "net_price_by_family_income": {
+      "0_30k": 29746,
+      "30_48k": 28534,
+      "48_75k": 31283,
+      "75_110k": 33523,
+      "110k_plus": 34107
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4872,
+    "grad_rate_total": 0.54,
+    "pell_grad_rate": 0.52,
+    "non_pell_grad_rate": 0.69,
+    "retention_full_time": 0.72
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 686,
+    "ug_12mo": 686,
+    "grad_12mo": 0,
+    "women_12mo": 507,
+    "men_12mo": 179,
+    "fall_total": 436,
+    "distance_ed_any": 436,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0956,
+      "black": 0.0979,
+      "hispanic": 0.6434,
+      "asian": 0.0699,
+      "ai_an": 0.0023,
+      "nh_pi": 0.0117,
+      "two_or_more": 0.0,
+      "non_resident": 0.0023,
+      "race_unknown": 0.0769
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 35
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 16
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 2,
+        "unitid": 115393,
+        "slug": "hartnell-college",
+        "name": "Hartnell College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 11273,
+          "avg_net_price": 2895
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118976,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 119067,
+        "slug": "monterey-peninsula-college",
+        "name": "Monterey Peninsula College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 7173,
+          "avg_net_price": 13498
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 122658,
+        "slug": "san-joaquin-delta-college",
+        "name": "San Joaquin Delta College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 20969,
+          "avg_net_price": 8508
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 123563,
+        "slug": "solano-community-college",
+        "name": "Solano Community College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 9282,
+          "avg_net_price": 3869
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=450696",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:42:57.053652+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Carrington High School Scholarship",
+      "agency": "Carrington College",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://carrington.edu/financial-aid/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

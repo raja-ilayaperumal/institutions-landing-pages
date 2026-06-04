@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:10.778072+00:00",
+  "generated_at": "2026-06-04T04:57:22.575708+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Mendocino_College",
     "fetched_at": "2026-05-27T23:17:26.288381+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1423,
+    "out_of_state_tuition": 8893,
     "avg_net_price": 7500,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7067,
     "federal_loan_rate": 0.0214,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 8184,
       "75_110k": 14494,
       "110k_plus": 15096
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3468,
     "grad_rate_total": 0.25,
     "pell_grad_rate": 0.36,
     "retention_full_time": 0.63,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 6485,
     "ug_12mo": 6485,
-    "grad_12mo": 4341,
+    "grad_12mo": 0,
     "women_12mo": 4119,
     "men_12mo": 2366,
     "fall_total": 4225,
-    "fall_full_time": 4225,
-    "fall_part_time": 2870,
     "distance_ed_any": 4225,
     "distance_ed_exclusive": 1443,
     "race_ethnicity": {
@@ -656,7 +657,7 @@
       "source": "institution_site"
     },
     {
-      "title": "Federal Pell Grant",
+      "title": "Federal Pell Grants",
       "agency": "Federal Government",
       "kind": "opportunity",
       "url": "https://mendocino.edu/grants",

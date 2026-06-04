@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:55.749034+00:00",
+  "generated_at": "2026-06-04T04:56:30.917146+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Columbia_College,_Columbia_University",
     "fetched_at": "2026-05-28T00:21:57.084785+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1547,
+    "out_of_state_tuition": 8870,
     "avg_net_price": 15468,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.627,
     "federal_loan_rate": 0.0,
     "net_price_by_family_income": {
       "0_30k": 14182,
       "30_48k": 17022,
       "48_75k": 17735,
-      "75_110k": 19215,
-      "110k_plus": null
-    }
+      "75_110k": 19215
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3351,
     "grad_rate_total": 0.27,
     "pell_grad_rate": 0.34,
     "retention_full_time": 0.58,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 3653,
     "ug_12mo": 3653,
-    "grad_12mo": 2722,
+    "grad_12mo": 0,
     "women_12mo": 1974,
     "men_12mo": 1679,
     "fall_total": 2828,
-    "fall_full_time": 2828,
-    "fall_part_time": 1984,
     "distance_ed_any": 2828,
     "distance_ed_exclusive": 916,
     "race_ethnicity": {
@@ -624,12 +624,7 @@
       "fetched_at": "2026-05-28T00:21:58.446324+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Data & Research Analyst - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179419263"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "AmeriCorps Education Award",

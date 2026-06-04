@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:13.459850+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123457,
+    "slug": "simpson-university",
+    "name": "Simpson University",
+    "website_url": "https://www.simpsonu.edu",
+    "city": "Redding",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "96003-8606",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "DKLXHQNHDBH4",
+      "opeid": "00129100",
+      "ein": "941339635"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Simpson University is a private Evangelical Christian liberal arts college in Redding, California. Originally founded in 1921 in Seattle as Simpson Bible Institute, the institution relocated to San Francisco in 1955 and then to Redding in 1989. It is affiliated with the Christian and Missionary Alliance.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Simpson_University",
+    "source_url": "https://en.wikipedia.org/wiki/Simpson_University",
+    "fetched_at": "2026-06-01T23:37:47.148417+05:30"
+  },
+  "admissions": {
+    "applicants": 823,
+    "admits": 708,
+    "enrolled": 171,
+    "first_time_freshmen": 171,
+    "first_time_freshmen_ft": 171,
+    "admission_rate": 0.9903,
+    "admit_rate": 0.8602673147023087,
+    "yield_rate": 0.24152542372881355
+  },
+  "cost": {
+    "in_state_tuition": 38522,
+    "out_of_state_tuition": 38522,
+    "avg_net_price": 27923,
+    "pell_grant_rate": 0.1238,
+    "federal_loan_rate": 0.5807,
+    "net_price_by_family_income": {
+      "0_30k": 22880,
+      "30_48k": 29551,
+      "48_75k": 25439,
+      "75_110k": 29660,
+      "110k_plus": 30193
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4167,
+    "grad_rate_total": 0.49,
+    "grad_4yr_bachelors": 0.41,
+    "grad_5yr_bachelors": 0.49,
+    "grad_6yr_bachelors": 0.49,
+    "pell_grad_rate": 0.39,
+    "pell_6yr_bachelors_rate": 0.39,
+    "non_pell_grad_rate": 0.57,
+    "non_pell_6yr_bachelors": 0.57,
+    "retention_full_time": 0.6,
+    "retention_part_time": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1210,
+    "ug_12mo": 1006,
+    "grad_12mo": 204,
+    "women_12mo": 679,
+    "men_12mo": 531,
+    "fall_total": 992,
+    "distance_ed_any": 992,
+    "distance_ed_exclusive": 151,
+    "race_ethnicity": {
+      "white": 0.474,
+      "black": 0.0333,
+      "hispanic": 0.2783,
+      "asian": 0.0439,
+      "ai_an": 0.0133,
+      "nh_pi": 0.0093,
+      "two_or_more": 0.0919,
+      "non_resident": 0.0466,
+      "race_unknown": 0.0093
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 61
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 47
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 44
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 3
+      }
+    ],
+    "program_count": 28,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 17.0,
+    "instr_total_fte": 40
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 209409,
+        "slug": "bushnell-university",
+        "name": "Bushnell University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6727898966704937,
+          "yield_rate": 0.18600682593856654,
+          "grad_rate": 0.56,
+          "retention_rate": 0.76,
+          "enrollment": 761,
+          "avg_net_price": 23520
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 210331,
+        "slug": "corban-university",
+        "name": "Corban University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9389587073608617,
+          "yield_rate": 0.2734225621414914,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 1029,
+          "avg_net_price": 25525
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 209287,
+        "slug": "multnomah-university",
+        "name": "Multnomah University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49842271293375395,
+          "yield_rate": 0.3670886075949367,
+          "grad_rate": 0.51,
+          "retention_rate": 0.34,
+          "avg_net_price": 23866
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 142461,
+        "slug": "northwest-nazarene-university",
+        "name": "Northwest Nazarene University",
+        "state": "Idaho",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6473668001231906,
+          "yield_rate": 0.0994291151284491,
+          "grad_rate": 0.71,
+          "retention_rate": 0.77,
+          "enrollment": 1635,
+          "avg_net_price": 25537
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 236133,
+        "slug": "northwest-university",
+        "name": "Northwest University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.832,
+          "yield_rate": 0.3076923076923077,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 1053,
+          "avg_net_price": 25161
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 117751,
+        "slug": "the-master-s-university-and-seminary",
+        "name": "The Master's University and Seminary",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.840152235965747,
+          "yield_rate": 0.4575311438278596,
+          "grad_rate": 0.67,
+          "retention_rate": 0.85,
+          "enrollment": 2860,
+          "avg_net_price": 32121
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 210304,
+        "slug": "warner-pacific-university",
+        "name": "Warner Pacific University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7114093959731543,
+          "yield_rate": 0.11635220125786164,
+          "grad_rate": 0.49,
+          "retention_rate": 0.92,
+          "enrollment": 378,
+          "avg_net_price": 18818
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 122728,
+        "slug": "william-jessup-university",
+        "name": "William Jessup University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9332816136539953,
+          "yield_rate": 0.19617622610141314,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 1865,
+          "avg_net_price": 25300
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://simpsonu.edu/institutional-research/",
+    "office_name": "Office of Institutional Research and Assessment",
+    "summary": "The Office of Institutional Research and Assessment collects, analyzes and disseminates essential information about Simpson University’s environment and performance to support institutional management, planning and decision-making and to build and maintain an environment of academic excellence.",
+    "address": "2211 College View Drive, Redding, CA 96003",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T23:37:46.101587+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123457",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:37:48.572423+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "Simpson University Strategic Plan",
+      "url": "https://simpsonu.edu/strategic-plan/",
+      "summary": "Simpson University's Strategic Plan (2022-2026) serves as a guiding document for institutional advancement, grounded in the university's mission, vision, identity, and core values. It emphasizes fostering a culture of assessment, faith formation, innovation, and fundraising. The plan is structured around strategic goals and measurable action plans aimed at enhancing the university's overall effectiveness and sustainability.",
+      "stored": false,
+      "fetched_at": "2026-06-01T23:34:54.108654+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Federal Supplemental Educational Opportunity Grant (FSEOG)",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "amount_usd": 4000,
+      "url": "https://simpsonu.edu/financial-aid/grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Cal Grant",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://simpsonu.edu/financial-aid/grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Iraq and Afghanistan Service Grant",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://simpsonu.edu/financial-aid/grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Federal Pell Grant",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://simpsonu.edu/financial-aid/grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Yemi Mobolade",
+      "field": "Politics"
+    },
+    {
+      "name": "Stefani McDade",
+      "field": "Publishing"
+    },
+    {
+      "name": "Brandon Leake",
+      "field": "Arts"
+    }
+  ]
+}

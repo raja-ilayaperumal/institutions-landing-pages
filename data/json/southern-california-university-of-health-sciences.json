@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:11.649091+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117672,
+    "slug": "southern-california-university-of-health-sciences",
+    "name": "Southern California University of Health Sciences",
+    "website_url": "https://www.scuhs.edu",
+    "city": "Whittier",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90604",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K91FAN8WHBM9",
+      "opeid": "00122900",
+      "ein": "950948050"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Southern California University of Health Sciences (SCU) is a private university in Whittier, California, and Phoenix, Arizona that offers programs in chiropractic, acupuncture and other pseudoscientific and non-mainstream approaches to healthcare. Academics are organized into three schools: the Los Angeles College of Chiropractic, the College of Eastern Medicine, and the College of Science & Integrative Health. The university is accredited by the WASC Senior College and University Commission. SCU programs include acupuncture, traditional Chinese medicine (TCM) and other controversial, alternative approaches to healthcare which are widely regarded by the mainstream science and medicine communities as pseudoscience.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Southern_California_University_of_Health_Sciences",
+    "source_url": "https://en.wikipedia.org/wiki/Southern_California_University_of_Health_Sciences",
+    "fetched_at": "2026-06-01T21:21:52.678513+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 10769,
+    "out_of_state_tuition": 10769,
+    "avg_net_price": 45633,
+    "pell_grant_rate": 0.2652,
+    "federal_loan_rate": 0.1551,
+    "net_price_by_family_income": {
+      "0_30k": 45633
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 4324,
+    "ug_12mo": 2783,
+    "grad_12mo": 1541,
+    "women_12mo": 2986,
+    "men_12mo": 1338,
+    "fall_total": 2008,
+    "distance_ed_any": 2008,
+    "distance_ed_exclusive": 1069,
+    "race_ethnicity": {
+      "white": 0.197,
+      "black": 0.1136,
+      "hispanic": 0.3485,
+      "asian": 0.2045,
+      "ai_an": 0.0076,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0758,
+      "non_resident": 0.0152,
+      "race_unknown": 0.0379
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 248
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 164
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 13
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0,
+    "instr_total_fte": 48
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 177834,
+        "slug": "a-t-still-university-of-health-sciences",
+        "name": "A T Still University of Health Sciences",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3466
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 133872,
+        "slug": "adventhealth-university",
+        "name": "AdventHealth University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3371757925072046,
+          "yield_rate": 0.3247863247863248,
+          "grad_rate": 0.37,
+          "retention_rate": 0.64,
+          "enrollment": 1861,
+          "avg_net_price": 31885
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 143853,
+        "slug": "midwestern-university-downers-grove",
+        "name": "Midwestern University-Downers Grove",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2567
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 423643,
+        "slug": "midwestern-university-glendale",
+        "name": "Midwestern University-Glendale",
+        "state": "Arizona",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3738
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 174507,
+        "slug": "northwestern-health-sciences-university",
+        "name": "Northwestern Health Sciences University",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1101,
+          "avg_net_price": 29794
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 243823,
+        "slug": "parker-university",
+        "name": "Parker University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.5,
+          "enrollment": 2308,
+          "avg_net_price": 25491
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 122296,
+        "slug": "samuel-merritt-university",
+        "name": "Samuel Merritt University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1926
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 112525,
+        "slug": "western-university-of-health-sciences",
+        "name": "Western University of Health Sciences",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 3665
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.scuhs.edu/iai/",
+    "office_name": "Office of Institutional and Academic Insights (IAI)",
+    "summary": "The page provides information about the Office of Institutional and Academic Insights (IAI) at Southern California University of Health Sciences, including contact phone number and physical address. The page does not mention specific individuals or provide in-depth details about the office's mission or links to specific datasets or dashboards.",
+    "phone": "562-947-8755",
+    "address": "16200 Amber Valley Dr. Whittier, CA 90604",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:21:49.3833+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117672",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:02.918098+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

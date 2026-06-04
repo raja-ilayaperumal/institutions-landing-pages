@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:46.788354+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 488800,
+    "slug": "teachers-college-of-san-joaquin",
+    "name": "Teachers College of San Joaquin",
+    "website_url": "https://www.teacherscollegesj.edu",
+    "city": "Stockton",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95206",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "M5F2BPZWLJE7",
+      "opeid": "04224800",
+      "ein": "680006282"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Teachers College of San Joaquin (TCSJ) is a regionally accredited higher education institution located in Stockton, California. Founded in 2009, TCSJ serves over 1,000 students across more than 200 districts within a 14-county region, focusing on educator preparation with programs in teaching and administrative service credentials and various Master of Education concentrations.",
+    "source_url": "https://www.teacherscollegesj.edu/about",
+    "fetched_at": "2026-06-03T16:39:59.823904+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": false
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 939,
+    "ug_12mo": 638,
+    "grad_12mo": 301,
+    "women_12mo": 637,
+    "men_12mo": 302,
+    "fall_total": 974,
+    "distance_ed_any": 974,
+    "distance_ed_exclusive": 398,
+    "race_ethnicity": {
+      "white": 0.4786,
+      "black": 0.0496,
+      "hispanic": 0.2103,
+      "asian": 0.1043,
+      "ai_an": 0.0308,
+      "nh_pi": 0.012,
+      "two_or_more": 0.0342,
+      "non_resident": 0.0,
+      "race_unknown": 0.0803
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 56
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 14
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 455512,
+        "slug": "woodland-community-college",
+        "name": "Woodland Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.5459,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 4128,
+          "avg_net_price": 4097
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 117724,
+        "slug": "los-angeles-trade-technical-college",
+        "name": "Los Angeles Trade Technical College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.5134,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 12519,
+          "avg_net_price": 10658
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 235671,
+        "slug": "bates-technical-college",
+        "name": "Bates Technical College",
+        "state": "Washington",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.3447,
+        "metrics": {
+          "enrollment": 4083,
+          "avg_net_price": 4176
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 218955,
+        "slug": "williamsburg-technical-college",
+        "name": "Williamsburg Technical College",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.2949,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 668,
+          "avg_net_price": 6055
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 180081,
+        "slug": "highlands-college-of-montana-tech",
+        "name": "Highlands College of Montana Tech",
+        "state": "Montana",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.2927,
+        "metrics": {
+          "retention_rate": 0.55,
+          "enrollment": 727,
+          "avg_net_price": 12184
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://teacherscollegesj.edu/institutional-research/",
+    "office_name": "Office of Institutional Research and Evaluation",
+    "summary": "The Office of Institutional Research and Evaluation collaborates with many constituents to identify purposeful qualitative and quantitative metrics to drive continuous improvement and analyze and evaluate numerous datasets to provide meaningful insights.",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T23:49:36.64038+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Teacher Residency Grant for High-Needs Credential Areas",
+      "kind": "opportunity",
+      "amount_usd": 33000,
+      "url": "https://teacherscollegesj.edu/grant-opportunities/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Golden State Teacher Grant",
+      "agency": "California Student Aid Commission (CSAC)",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://teacherscollegesj.edu/grant-opportunities/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

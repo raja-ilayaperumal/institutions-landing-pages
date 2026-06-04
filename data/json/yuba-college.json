@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:57.151569+00:00",
+  "generated_at": "2026-06-04T04:58:34.834424+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,28 @@
   },
   "brand": null,
   "about": {
-    "summary": "Yuba College is a public community college in Marysville, Yuba County, California. It is part of the Yuba Community College District.",
+    "summary": "Yuba College is a public community college located in Marysville, California, founded in 1927. The main campus spans 160 acres and includes 23 buildings, with an additional Sutter County Center that opened in 2012. The college focuses on partnerships with area high schools and offers programs in various fields including health, business, and arts.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Yuba_College",
     "source_url": "https://en.wikipedia.org/wiki/Yuba_College",
-    "fetched_at": "2026-05-27T22:05:11.952135+05:30"
+    "fetched_at": "2026-06-03T19:49:39.564893+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1128,
+    "out_of_state_tuition": 8208,
     "avg_net_price": 3573,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6882,
     "federal_loan_rate": 0.0069,
     "net_price_by_family_income": {
       "0_30k": 3575,
       "30_48k": 2021,
       "48_75k": 4445,
-      "75_110k": 8992,
-      "110k_plus": null
-    }
+      "75_110k": 8992
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3432,
     "grad_rate_total": 0.4,
     "pell_grad_rate": 0.39,
     "retention_full_time": 0.62,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 8679,
     "ug_12mo": 8679,
-    "grad_12mo": 6374,
+    "grad_12mo": 0,
     "women_12mo": 5234,
     "men_12mo": 3445,
     "fall_total": 6320,
-    "fall_full_time": 6320,
-    "fall_part_time": 4779,
     "distance_ed_any": 6320,
     "distance_ed_exclusive": 2960,
     "race_ethnicity": {
@@ -349,12 +349,7 @@
       "fetched_at": "2026-05-27T21:58:19.687763+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director of Dual Enrollment - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/state/details.cfm?JobCode=179450852&Title=Director%20of%20Dual%20Enrollment"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

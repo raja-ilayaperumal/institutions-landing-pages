@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:10.604625+00:00",
+  "generated_at": "2026-06-04T04:55:46.504570+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,10 +36,10 @@
   },
   "brand": null,
   "about": {
-    "summary": "The ArtCenter College of Design is a private art college in Pasadena, California.",
+    "summary": "Art Center College of Design is a private art and design college located in Pasadena, California. It offers a variety of undergraduate and graduate degrees focused on fields such as graphic design, industrial design, and transportation design. The specific founding year is not mentioned in the provided text.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ArtCenter_College_of_Design",
-    "source_url": "https://en.wikipedia.org/wiki/ArtCenter_College_of_Design",
-    "fetched_at": "2026-05-28T00:54:49.719279+05:30"
+    "source_url": "https://www.artcenter.edu/about",
+    "fetched_at": "2026-06-03T19:48:04.230494+05:30"
   },
   "admissions": {
     "applicants": 1461,
@@ -47,12 +47,14 @@
     "enrolled": 343,
     "first_time_freshmen": 343,
     "first_time_freshmen_ft": 343,
+    "admission_rate": 0.7498,
     "admit_rate": 0.7453798767967146,
     "yield_rate": 0.3149678604224059
   },
   "cost": {
+    "in_state_tuition": 51640,
+    "out_of_state_tuition": 51640,
     "avg_net_price": 50209,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.1144,
     "federal_loan_rate": 0.3564,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 46301,
       "75_110k": 52165,
       "110k_plus": 60976
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.8261,
     "grad_rate_total": 0.79,
     "grad_4yr_bachelors": 0.35,
     "grad_5yr_bachelors": 0.68,
@@ -77,12 +81,10 @@
   "enrollment": {
     "enrollment_12mo_total": 2923,
     "ug_12mo": 2582,
-    "grad_12mo": 2545,
+    "grad_12mo": 341,
     "women_12mo": 1677,
     "men_12mo": 1246,
     "fall_total": 2308,
-    "fall_full_time": 2038,
-    "fall_part_time": 2017,
     "distance_ed_any": 2308,
     "distance_ed_exclusive": 28,
     "race_ethnicity": {

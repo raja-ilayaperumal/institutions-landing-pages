@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:32.158001+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 119270,
+    "slug": "musicians-institute",
+    "name": "Musicians Institute",
+    "website_url": "https://www.mi.edu",
+    "city": "Hollywood",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90028",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02161800",
+      "ein": "953104185"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Musicians Institute (MI) is a private for-profit music school in Los Angeles, California. MI students can earn Certificates and – with transfer of coursework taken at Los Angeles City College – Associate of Arts Degrees, as well as Bachelor of Music Degrees in either Performance or Composition. The college was founded in 1977.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Musicians_Institute",
+    "source_url": "https://en.wikipedia.org/wiki/Musicians_Institute",
+    "fetched_at": "2026-06-02T11:18:15.908807+05:30"
+  },
+  "admissions": {
+    "applicants": 458,
+    "admits": 357,
+    "enrolled": 145,
+    "first_time_freshmen": 145,
+    "first_time_freshmen_ft": 118,
+    "admission_rate": 0.7129,
+    "admit_rate": 0.7794759825327511,
+    "yield_rate": 0.4061624649859944
+  },
+  "cost": {
+    "in_state_tuition": 28400,
+    "out_of_state_tuition": 28400,
+    "avg_net_price": 37793,
+    "pell_grant_rate": 0.249,
+    "federal_loan_rate": 0.2224,
+    "net_price_by_family_income": {
+      "0_30k": 35638,
+      "30_48k": 36541,
+      "48_75k": 38496,
+      "75_110k": 39295,
+      "110k_plus": 39845
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4596,
+    "grad_rate_total": 0.53,
+    "grad_4yr_bachelors": 0.19,
+    "grad_5yr_bachelors": 0.44,
+    "grad_6yr_bachelors": 0.47,
+    "pell_grad_rate": 0.52,
+    "non_pell_grad_rate": 0.58,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.8,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1211,
+    "ug_12mo": 1169,
+    "grad_12mo": 42,
+    "women_12mo": 338,
+    "men_12mo": 873,
+    "fall_total": 824,
+    "distance_ed_any": 824,
+    "distance_ed_exclusive": 155,
+    "race_ethnicity": {
+      "white": 0.2,
+      "black": 0.0667,
+      "hispanic": 0.0857,
+      "asian": 0.0789,
+      "ai_an": 0.0082,
+      "nh_pi": 0.0054,
+      "two_or_more": 0.0517,
+      "non_resident": 0.4354,
+      "race_unknown": 0.068
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 107
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 23
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 6.0,
+    "instr_total_fte": 41
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 116226,
+        "slug": "interior-designers-institute",
+        "name": "Interior Designers Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 102
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 490124,
+        "slug": "los-angeles-academy-of-figurative-art",
+        "name": "Los Angeles Academy of Figurative Art",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 2
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 446525,
+        "slug": "sae-institute-of-technology-nashville",
+        "name": "SAE Institute of Technology-Nashville",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 1712,
+          "avg_net_price": 21299
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 475839,
+        "slug": "sessions-college-for-professional-design",
+        "name": "Sessions College for Professional Design",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 0.7777777777777778,
+          "retention_rate": 0.67,
+          "enrollment": 194,
+          "avg_net_price": 15156
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 205391,
+        "slug": "the-modern-college-of-design",
+        "name": "The Modern College of Design",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9169811320754717,
+          "yield_rate": 0.2962962962962963,
+          "enrollment": 214,
+          "avg_net_price": 34709
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 215637,
+        "slug": "walnut-hill-college",
+        "name": "Walnut Hill College",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42718446601941745,
+          "yield_rate": 0.5227272727272727,
+          "retention_rate": 0.86,
+          "enrollment": 175,
+          "avg_net_price": 33578
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=119270",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:18:17.25708+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "The Musicians Foundation Bass Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Musicians Foundation Drum Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Musicians Foundation Guitar Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Musicians Foundation Keyboard Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Musicians Foundation Vocal Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 10000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Steve Robinson Metal of Honor Veteran's Performance Scholarship",
+      "agency": "Musicians Institute",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "The Musicians Foundation Helping Hand Scholarship",
+      "agency": "Musicians Foundation",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Opportunity Scholarship",
+      "agency": "Musicians Institute",
+      "kind": "opportunity",
+      "url": "https://www.mi.edu/admissions/scholarships/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Sharon Aguilar",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sharon_Aguilar",
+      "field": "Music"
+    },
+    {
+      "name": "Howard Alden",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_Alden",
+      "field": "Music"
+    },
+    {
+      "name": "Juan Alderete",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Alderete",
+      "field": "Music"
+    },
+    {
+      "name": "Jennifer Batten",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jennifer_Batten",
+      "field": "Music"
+    },
+    {
+      "name": "Jeff Berlin",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Berlin",
+      "field": "Music"
+    },
+    {
+      "name": "Jeff Buckley",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jeff_Buckley",
+      "field": "Music"
+    },
+    {
+      "name": "Joacim Cans",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Joacim_Cans",
+      "field": "Music"
+    },
+    {
+      "name": "Tanya Chua",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tanya_Chua",
+      "field": "Music"
+    },
+    {
+      "name": "Rivers Cuomo",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rivers_Cuomo",
+      "field": "Music"
+    },
+    {
+      "name": "John Frusciante",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Frusciante",
+      "field": "Music"
+    },
+    {
+      "name": "Synyster Gates",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Synyster_Gates",
+      "field": "Music"
+    },
+    {
+      "name": "Paul Gilbert",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paul_Gilbert",
+      "field": "Music"
+    },
+    {
+      "name": "Magos Herrera",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Magos_Herrera",
+      "field": "Music"
+    },
+    {
+      "name": "Elli Kokkinou",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elli_Kokkinou",
+      "field": "Music"
+    },
+    {
+      "name": "Ray Luzier",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ray_Luzier",
+      "field": "Music"
+    },
+    {
+      "name": "Scott Shriner",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Scott_Shriner",
+      "field": "Music"
+    },
+    {
+      "name": "Chad Smith",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chad_Smith",
+      "field": "Music"
+    },
+    {
+      "name": "Steve Vai",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Steve_Vai",
+      "field": "Music"
+    },
+    {
+      "name": "Brooke White",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brooke_White",
+      "field": "Music"
+    }
+  ]
+}

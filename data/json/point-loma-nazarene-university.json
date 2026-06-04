@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:59.709097+00:00",
+  "generated_at": "2026-06-04T04:57:49.315555+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,10 +36,10 @@
   },
   "brand": null,
   "about": {
-    "summary": "Point Loma Nazarene University (PLNU) is a private university in Point Loma in San Diego, California, United States. It was founded in 1902 as a Bible college by the Church of the Nazarene.",
+    "summary": "Point Loma Nazarene University (PLNU) is a private Christian liberal arts university located in San Diego, California. Founded in 1902, it emphasizes academic, personal, and spiritual growth through a variety of programs, including undergraduate, graduate, and online studies. The university is known for its small student-to-teacher ratio of 13:1 and its focus on service-oriented education within the context of the Church of the Nazarene.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Point_Loma_Nazarene_University",
     "source_url": "https://en.wikipedia.org/wiki/Point_Loma_Nazarene_University",
-    "fetched_at": "2026-05-27T22:59:12.781786+05:30"
+    "fetched_at": "2026-06-03T19:47:59.68281+05:30"
   },
   "admissions": {
     "applicants": 3265,
@@ -47,13 +47,30 @@
     "enrolled": 585,
     "first_time_freshmen": 585,
     "first_time_freshmen_ft": 584,
+    "admission_rate": 0.8176,
     "admit_rate": 0.8367534456355283,
-    "yield_rate": 0.21412884333821378
+    "yield_rate": 0.21412884333821378,
+    "sat_average": 1278,
+    "sat_math_25_75": [
+      550,
+      700
+    ],
+    "sat_reading_25_75": [
+      590,
+      710
+    ],
+    "act_composite_25_75": [
+      22,
+      30
+    ]
   },
   "cost": {
+    "in_state_tuition": 43550,
+    "out_of_state_tuition": 43550,
     "room_and_board": 13650,
+    "total_cost_in_state": 57200,
+    "total_cost_out_of_state": 57200,
     "avg_net_price": 50168,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.1232,
     "federal_loan_rate": 0.4981,
     "net_price_by_family_income": {
@@ -62,9 +79,11 @@
       "48_75k": 49500,
       "75_110k": 51106,
       "110k_plus": 51154
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.7379,
     "grad_rate_total": 0.77,
     "grad_4yr_bachelors": 0.68,
     "grad_5yr_bachelors": 0.77,
@@ -78,12 +97,10 @@
   "enrollment": {
     "enrollment_12mo_total": 5331,
     "ug_12mo": 3521,
-    "grad_12mo": 3436,
+    "grad_12mo": 1810,
     "women_12mo": 3613,
     "men_12mo": 1718,
     "fall_total": 4757,
-    "fall_full_time": 3246,
-    "fall_part_time": 3188,
     "distance_ed_any": 4757,
     "distance_ed_exclusive": 1243,
     "race_ethnicity": {
@@ -568,13 +585,7 @@
     "fetched_at": "2026-05-27T22:59:11.793708+05:30"
   },
   "ir_team": [],
-  "cds_files": [
-    {
-      "year": 2026,
-      "url": "https://www.pointloma.edu/offices/institutional-research",
-      "is_pdf": false
-    }
-  ],
+  "cds_files": [],
   "documents": [
     {
       "doc_type": "dfr_report",

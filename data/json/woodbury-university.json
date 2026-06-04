@@ -1,0 +1,954 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:33.169344+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 125897,
+    "slug": "woodbury-university",
+    "name": "Woodbury University",
+    "website_url": "https://woodbury.edu",
+    "city": "Burbank",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91504-1052",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Small Programs",
+    "carnegie_slug": "masters-small",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KE1KF8PUSB29",
+      "opeid": "00134300",
+      "ein": "952786163"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Woodbury University is a private university in Burbank, California, United States. Founded in 1884 with initial campuses in Downtown and Central Los Angeles, Woodbury University is one of the oldest institutions of higher education in Southern California. The university consists of four schools: the School of Business, the School of Architecture, the School of Liberal Arts, and the School of Media Culture & Design. It has been a subsidiary of University of Redlands since 2024.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Woodbury_University",
+    "source_url": "https://en.wikipedia.org/wiki/Woodbury_University",
+    "fetched_at": "2026-06-02T19:22:28.346241+05:30"
+  },
+  "admissions": {
+    "applicants": 2572,
+    "admits": 2100,
+    "enrolled": 124,
+    "first_time_freshmen": 124,
+    "first_time_freshmen_ft": 123,
+    "admission_rate": 0.7287,
+    "admit_rate": 0.8164852255054432,
+    "yield_rate": 0.05904761904761905
+  },
+  "cost": {
+    "in_state_tuition": 44886,
+    "out_of_state_tuition": 44886,
+    "avg_net_price": 28248,
+    "pell_grant_rate": 0.0739,
+    "federal_loan_rate": 0.6141,
+    "net_price_by_family_income": {
+      "0_30k": 25368,
+      "30_48k": 27418,
+      "48_75k": 25615,
+      "75_110k": 29628,
+      "110k_plus": 34434
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5478,
+    "grad_rate_total": 0.6,
+    "grad_4yr_bachelors": 0.38,
+    "grad_5yr_bachelors": 0.56,
+    "grad_6yr_bachelors": 0.6,
+    "pell_grad_rate": 0.67,
+    "pell_6yr_bachelors_rate": 0.67,
+    "non_pell_grad_rate": 0.56,
+    "non_pell_6yr_bachelors": 0.56,
+    "retention_full_time": 0.74,
+    "retention_part_time": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 958,
+    "ug_12mo": 872,
+    "grad_12mo": 86,
+    "women_12mo": 527,
+    "men_12mo": 431,
+    "fall_total": 849,
+    "distance_ed_any": 849,
+    "distance_ed_exclusive": 8,
+    "race_ethnicity": {
+      "white": 0.4073,
+      "black": 0.0485,
+      "hispanic": 0.2933,
+      "asian": 0.1261,
+      "ai_an": 0.0109,
+      "nh_pi": 0.0024,
+      "two_or_more": 0.023,
+      "non_resident": 0.0436,
+      "race_unknown": 0.0448
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "04",
+        "cip_family_label": "Architecture",
+        "completions": 78
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 33
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "10",
+        "cip_family_label": "Comm. Technologies",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 3
+      }
+    ],
+    "program_count": 23,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 59
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 150066,
+        "slug": "anderson-university",
+        "name": "Anderson University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7934413871089333,
+          "yield_rate": 0.0833729216152019,
+          "grad_rate": 0.53,
+          "retention_rate": 0.6,
+          "enrollment": 1228,
+          "avg_net_price": 22144
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 156213,
+        "slug": "asbury-university",
+        "name": "Asbury University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.63402811439651,
+          "yield_rate": 0.26146788990825687,
+          "grad_rate": 0.65,
+          "retention_rate": 0.83,
+          "enrollment": 2100,
+          "avg_net_price": 20428
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 150145,
+        "slug": "bethel-university",
+        "name": "Bethel University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9766497461928934,
+          "yield_rate": 0.27442827442827444,
+          "grad_rate": 0.52,
+          "retention_rate": 0.72,
+          "enrollment": 1167,
+          "avg_net_price": 19726
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 219790,
+        "slug": "bryan-college-dayton",
+        "name": "Bryan College-Dayton",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.51010101010101,
+          "yield_rate": 0.38613861386138615,
+          "grad_rate": 0.5,
+          "retention_rate": 0.71,
+          "enrollment": 1701,
+          "avg_net_price": 16494
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 211468,
+        "slug": "cedar-crest-college",
+        "name": "Cedar Crest College",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8406754772393539,
+          "yield_rate": 0.13537117903930132,
+          "grad_rate": 0.6,
+          "retention_rate": 0.71,
+          "enrollment": 1290,
+          "avg_net_price": 22909
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 217907,
+        "slug": "coker-university",
+        "name": "Coker University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9395770392749244,
+          "yield_rate": 0.22722400857449088,
+          "grad_rate": 0.4,
+          "retention_rate": 0.69,
+          "enrollment": 1325,
+          "avg_net_price": 18045
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 217934,
+        "slug": "columbia-college-3",
+        "name": "Columbia College",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9392558845861807,
+          "yield_rate": 0.08528698464025869,
+          "grad_rate": 0.37,
+          "retention_rate": 0.6,
+          "enrollment": 1725,
+          "avg_net_price": 23650
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 169363,
+        "slug": "concordia-university-ann-arbor",
+        "name": "Concordia University Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6924882629107981,
+          "yield_rate": 0.061016949152542375,
+          "grad_rate": 0.49,
+          "retention_rate": 0.45,
+          "enrollment": 1135,
+          "avg_net_price": 26409
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 217961,
+        "slug": "converse-university",
+        "name": "Converse University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6774085263511246,
+          "yield_rate": 0.1199207135777998,
+          "grad_rate": 0.62,
+          "retention_rate": 0.8,
+          "enrollment": 1787,
+          "avg_net_price": 19712
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 210331,
+        "slug": "corban-university",
+        "name": "Corban University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9389587073608617,
+          "yield_rate": 0.2734225621414914,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 1029,
+          "avg_net_price": 25525
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 212656,
+        "slug": "geneva-college",
+        "name": "Geneva College",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7904761904761904,
+          "yield_rate": 0.22008032128514057,
+          "grad_rate": 0.61,
+          "retention_rate": 0.78,
+          "enrollment": 1366,
+          "avg_net_price": 21043
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 145372,
+        "slug": "greenville-university",
+        "name": "Greenville University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.974957313602732,
+          "yield_rate": 0.14886164623467601,
+          "grad_rate": 0.4,
+          "retention_rate": 0.71,
+          "enrollment": 1104,
+          "avg_net_price": 21270
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 203085,
+        "slug": "heidelberg-university",
+        "name": "Heidelberg University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8579031399680681,
+          "yield_rate": 0.18176178660049627,
+          "grad_rate": 0.52,
+          "retention_rate": 0.74,
+          "enrollment": 1091,
+          "avg_net_price": 21662
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 150941,
+        "slug": "huntington-university",
+        "name": "Huntington University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7563571850975754,
+          "yield_rate": 0.20250195465207194,
+          "grad_rate": 0.64,
+          "retention_rate": 0.84,
+          "enrollment": 1776,
+          "avg_net_price": 13710
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 146339,
+        "slug": "judson-university",
+        "name": "Judson University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4759036144578313,
+          "yield_rate": 0.3924050632911392,
+          "grad_rate": 0.6,
+          "retention_rate": 0.59,
+          "enrollment": 960,
+          "avg_net_price": 25027
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 203580,
+        "slug": "lake-erie-college",
+        "name": "Lake Erie College",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7036496350364964,
+          "yield_rate": 0.1970954356846473,
+          "grad_rate": 0.38,
+          "retention_rate": 0.59,
+          "enrollment": 1108,
+          "avg_net_price": 21296
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 159568,
+        "slug": "louisiana-christian-university",
+        "name": "Louisiana Christian University",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7718978102189781,
+          "yield_rate": 0.4326241134751773,
+          "grad_rate": 0.45,
+          "retention_rate": 0.52,
+          "enrollment": 936,
+          "avg_net_price": 16874
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 151777,
+        "slug": "manchester-university",
+        "name": "Manchester University",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7106069895769467,
+          "yield_rate": 0.1471095772217429,
+          "grad_rate": 0.46,
+          "retention_rate": 0.66,
+          "enrollment": 1276,
+          "avg_net_price": 19268
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 181330,
+        "slug": "midland-university",
+        "name": "Midland University",
+        "state": "Nebraska",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6611982881597718,
+          "yield_rate": 0.313915857605178,
+          "grad_rate": 0.42,
+          "retention_rate": 0.69,
+          "enrollment": 1558,
+          "avg_net_price": 24229
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 157377,
+        "slug": "midway-university",
+        "name": "Midway University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9514472455648926,
+          "yield_rate": 0.2296368989205103,
+          "grad_rate": 0.44,
+          "retention_rate": 0.68,
+          "enrollment": 2003,
+          "avg_net_price": 23863
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 219198,
+        "slug": "mount-marty-university",
+        "name": "Mount Marty University",
+        "state": "South Dakota",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4257142857142857,
+          "yield_rate": 0.22818791946308725,
+          "grad_rate": 0.52,
+          "retention_rate": 0.68,
+          "enrollment": 1284,
+          "avg_net_price": 23295
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 207403,
+        "slug": "oklahoma-baptist-university",
+        "name": "Oklahoma Baptist University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.49411442649876813,
+          "yield_rate": 0.20720221606648198,
+          "grad_rate": 0.52,
+          "retention_rate": 0.72,
+          "enrollment": 1569,
+          "avg_net_price": 23880
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 148405,
+        "slug": "rockford-university",
+        "name": "Rockford University",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9291109819872168,
+          "yield_rate": 0.133833646028768,
+          "grad_rate": 0.47,
+          "retention_rate": 0.65,
+          "enrollment": 1241,
+          "avg_net_price": 23066
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 180595,
+        "slug": "rocky-mountain-college",
+        "name": "Rocky Mountain College",
+        "state": "Montana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.696085409252669,
+          "yield_rate": 0.28629856850715746,
+          "grad_rate": 0.48,
+          "retention_rate": 0.69,
+          "enrollment": 1032,
+          "avg_net_price": 18508
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 152381,
+        "slug": "saint-mary-of-the-woods-college",
+        "name": "Saint Mary-of-the-Woods College",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7239413680781759,
+          "yield_rate": 0.2080989876265467,
+          "grad_rate": 0.46,
+          "retention_rate": 0.62,
+          "enrollment": 1159,
+          "avg_net_price": 43465
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 228042,
+        "slug": "schreiner-university",
+        "name": "Schreiner University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.882020202020202,
+          "yield_rate": 0.14933577645442053,
+          "grad_rate": 0.43,
+          "retention_rate": 0.67,
+          "enrollment": 1326,
+          "avg_net_price": 20410
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 140988,
+        "slug": "shorter-university",
+        "name": "Shorter University",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9646017699115044,
+          "yield_rate": 0.3348623853211009,
+          "grad_rate": 0.37,
+          "retention_rate": 0.61,
+          "enrollment": 1318,
+          "avg_net_price": 16286
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 217776,
+        "slug": "southern-wesleyan-university",
+        "name": "Southern Wesleyan University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9953161592505855,
+          "yield_rate": 0.3341176470588235,
+          "grad_rate": 0.57,
+          "retention_rate": 0.69,
+          "enrollment": 980,
+          "avg_net_price": 19968
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 195243,
+        "slug": "st-thomas-aquinas-college",
+        "name": "St. Thomas Aquinas College",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9304545454545454,
+          "yield_rate": 0.11773326819736199,
+          "grad_rate": 0.54,
+          "retention_rate": 0.73,
+          "enrollment": 2037,
+          "avg_net_price": 21344
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 161563,
+        "slug": "thomas-college",
+        "name": "Thomas College",
+        "state": "Maine",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9630390143737166,
+          "yield_rate": 0.16098081023454158,
+          "grad_rate": 0.53,
+          "retention_rate": 0.77,
+          "enrollment": 1635,
+          "avg_net_price": 19223
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 200156,
+        "slug": "university-of-jamestown",
+        "name": "University of Jamestown",
+        "state": "North Dakota",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8808290155440415,
+          "yield_rate": 0.3611764705882353,
+          "grad_rate": 0.49,
+          "retention_rate": 0.67,
+          "enrollment": 1376,
+          "avg_net_price": 20318
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 101693,
+        "slug": "university-of-mobile",
+        "name": "University of Mobile",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7789473684210526,
+          "yield_rate": 0.1941678520625889,
+          "grad_rate": 0.57,
+          "retention_rate": 0.74,
+          "enrollment": 1545,
+          "avg_net_price": 19603
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 236896,
+        "slug": "walla-walla-university",
+        "name": "Walla Walla University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5076576576576577,
+          "yield_rate": 0.35847382431233366,
+          "grad_rate": 0.58,
+          "retention_rate": 0.85,
+          "enrollment": 1426,
+          "avg_net_price": 23992
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=125897",
+      "stored": false,
+      "fetched_at": "2026-06-02T19:22:30.712321+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2020,
+      "title": "Enhancing the Woodbury Experience",
+      "url": "https://woodbury.edu/news/enhancing-the-woodbury-experience-university-ushers-in-the-new-decade-with-a-fresh-strategic-direction/",
+      "summary": "Woodbury University has published its 2020-2024 Strategic Plan titled 'Enhancing the Woodbury Experience.' The plan outlines five strategic goals aimed at guiding the university's advancement over the next five years. These goals focus on academic excellence, community contribution, student engagement, reputational strength, and financial stability and operational excellence.",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:15:56.559349+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Title V Grant 2010-2015",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 3234915,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2002-2006",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2020-2025",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 3000000,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2019-2024",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 2998681,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2009-2014",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 2788602,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2014-2019",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 2696160,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title V Grant 2001-2005",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "amount_usd": 2085735,
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Minority Serving Institutions – Title V Grant",
+      "agency": "U.S. Department of Education",
+      "kind": "award",
+      "url": "https://woodbury.edu/minority-serving-institutions-title-v-grant/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Ignacio Rodriguez",
+      "field": "Architecture"
+    },
+    {
+      "name": "Germane Barnes",
+      "field": "Architecture"
+    },
+    {
+      "name": "Chris Sasaki",
+      "field": "Animation"
+    },
+    {
+      "name": "Diana Tran",
+      "field": "Architecture"
+    },
+    {
+      "name": "Natalie Yaru",
+      "field": "Fashion Design"
+    },
+    {
+      "name": "April Gabriellé",
+      "field": "Business"
+    },
+    {
+      "name": "Shahiedah Palmer",
+      "field": "Law"
+    },
+    {
+      "name": "Naveen Gowda",
+      "field": "Graphic Design"
+    },
+    {
+      "name": "Ryan Del Poso",
+      "field": "Architecture"
+    },
+    {
+      "name": "Andrew Arcilla",
+      "field": "Animation"
+    },
+    {
+      "name": "Hannah Garcia",
+      "field": "Animation"
+    },
+    {
+      "name": "Laura Gutierrez",
+      "field": "Communication"
+    },
+    {
+      "name": "Cleo Baldon"
+    },
+    {
+      "name": "Eugene W. Biscailuz"
+    },
+    {
+      "name": "Wayne K. Blickenstaff"
+    },
+    {
+      "name": "Helen Gurley Brown"
+    },
+    {
+      "name": "Adolfo Camarillo"
+    },
+    {
+      "name": "Andi Campognone"
+    },
+    {
+      "name": "Bruce Cox"
+    },
+    {
+      "name": "Brittany Diego"
+    },
+    {
+      "name": "Edwin Castro",
+      "field": "Lottery"
+    },
+    {
+      "name": "Gabriel Green"
+    },
+    {
+      "name": "Princess Halliday"
+    },
+    {
+      "name": "Helen Hannah"
+    },
+    {
+      "name": "Lou Kimzey"
+    },
+    {
+      "name": "JaQuel Knight"
+    },
+    {
+      "name": "Alan Leitner"
+    },
+    {
+      "name": "Leonis C. Malburg"
+    },
+    {
+      "name": "Kenneth Mejia"
+    },
+    {
+      "name": "Janee Michelle"
+    },
+    {
+      "name": "Louisa Moritz"
+    },
+    {
+      "name": "Star Parker"
+    },
+    {
+      "name": "Mirela Rupic"
+    },
+    {
+      "name": "Joseph M. Souki"
+    },
+    {
+      "name": "Eric Stryker"
+    },
+    {
+      "name": "Robert Asa Todd"
+    },
+    {
+      "name": "William Travilla"
+    },
+    {
+      "name": "Gene Trindl"
+    },
+    {
+      "name": "Vahe Berberian"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:38.386218+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 447777,
+    "slug": "asher-college",
+    "name": "Asher College",
+    "website_url": "https://www.asher.edu",
+    "city": "Sacramento",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "95825",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+    "carnegie_slug": "associates-career-technical-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "CQZPKAKFELB4",
+      "opeid": "04057300",
+      "ein": "943313694"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Asher College is a vocational college and career trade school located in Sacramento, CA; Las Vegas, NV; and Dallas, TX. Founded in 1998, it offers training in Information Technology, Medical, and Business programs, with a notable focus on hands-on training and flexible delivery methods for adult learners.",
+    "source_url": "https://www.asher.edu/about-us/",
+    "fetched_at": "2026-06-03T16:32:55.676321+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 16924,
+    "pell_grant_rate": 0.9728,
+    "federal_loan_rate": 0.5848,
+    "net_price_by_family_income": {
+      "0_30k": 16924
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6667,
+    "grad_rate_total": 0.56,
+    "pell_grad_rate": 0.0,
+    "retention_full_time": 0.47,
+    "retention_part_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1075,
+    "ug_12mo": 1075,
+    "grad_12mo": 0,
+    "women_12mo": 474,
+    "men_12mo": 601,
+    "fall_total": 649,
+    "distance_ed_any": 649,
+    "distance_ed_exclusive": 59,
+    "race_ethnicity": {
+      "white": 0.1803,
+      "black": 0.3491,
+      "hispanic": 0.2303,
+      "asian": 0.1645,
+      "ai_an": 0.0172,
+      "nh_pi": 0.0143,
+      "two_or_more": 0.03,
+      "non_resident": 0.0,
+      "race_unknown": 0.0143
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 93
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 56
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 24
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 22
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 449384,
+        "slug": "gnomon",
+        "name": "Gnomon",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.7827,
+        "metrics": {
+          "admit_rate": 0.41818181818181815,
+          "yield_rate": 0.7391304347826086,
+          "grad_rate": 1.0,
+          "retention_rate": 0.9,
+          "enrollment": 526,
+          "avg_net_price": 45824
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 119270,
+        "slug": "musicians-institute",
+        "name": "Musicians Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.7663,
+        "metrics": {
+          "admit_rate": 0.7794759825327511,
+          "yield_rate": 0.4061624649859944,
+          "grad_rate": 0.47,
+          "retention_rate": 0.8,
+          "enrollment": 824,
+          "avg_net_price": 37793
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 461148,
+        "slug": "new-york-film-academy",
+        "name": "New York Film Academy",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.7071,
+        "metrics": {
+          "grad_rate": 0.68,
+          "retention_rate": 0.66,
+          "enrollment": 1132,
+          "avg_net_price": 46420
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 446385,
+        "slug": "los-angeles-college-of-music",
+        "name": "Los Angeles College of Music",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5826,
+        "metrics": {
+          "admit_rate": 0.8771084337349397,
+          "yield_rate": 0.1813186813186813,
+          "grad_rate": 0.28,
+          "retention_rate": 0.61,
+          "enrollment": 261,
+          "avg_net_price": 40853
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 436429,
+        "slug": "los-angeles-film-school",
+        "name": "Los Angeles Film School",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.5431,
+        "metrics": {
+          "grad_rate": 0.34,
+          "retention_rate": 0.51,
+          "enrollment": 5472,
+          "avg_net_price": 33130
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

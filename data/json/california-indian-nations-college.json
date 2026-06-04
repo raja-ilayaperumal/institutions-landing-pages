@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:05.616169+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 495271,
+    "slug": "california-indian-nations-college",
+    "name": "California Indian Nations College",
+    "website_url": "https://cincollege.org",
+    "city": "Palm Desert",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92211",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UAJVG31AA9F3",
+      "opeid": null,
+      "ein": "824308876"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "California Indian Nations College (CINC) is a two-year tribal college located in Palm Desert, California. Chartered in September 2017, it focuses on integrating indigenous culture, language revitalization, and traditional Native American values into its accredited academic programs. CINC operates as a non-profit organization and collaborates with local Native communities and other educational institutions to provide educational opportunities.",
+    "source_url": "https://cincollege.org/about",
+    "fetched_at": "2026-06-03T16:37:54.93947+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 7743,
+    "out_of_state_tuition": 7743,
+    "pell_grant_rate": 0.8649,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "retention_full_time": 1.0,
+    "retention_part_time": 0.65
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 217,
+    "ug_12mo": 217,
+    "grad_12mo": 0,
+    "women_12mo": 168,
+    "men_12mo": 49,
+    "fall_total": 154,
+    "distance_ed_any": 154,
+    "distance_ed_exclusive": 151,
+    "race_ethnicity": {
+      "white": 0.018,
+      "black": 0.0,
+      "hispanic": 0.4775,
+      "asian": 0.0,
+      "ai_an": 0.3964,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0901,
+      "non_resident": 0.009,
+      "race_unknown": 0.009
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 14
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 2
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 6.0,
+    "instr_total_fte": 1
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 118684,
+        "slug": "mendocino-college",
+        "name": "Mendocino College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.51,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 4225,
+          "avg_net_price": 7500
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 124113,
+        "slug": "taft-college",
+        "name": "Taft College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.508,
+        "metrics": {
+          "enrollment": 4464,
+          "avg_net_price": 2699
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 111896,
+        "slug": "cerro-coso-community-college",
+        "name": "Cerro Coso Community College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.507,
+        "metrics": {
+          "retention_rate": 0.27,
+          "enrollment": 5549,
+          "avg_net_price": 6078
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 117715,
+        "slug": "los-angeles-southwest-college",
+        "name": "Los Angeles Southwest College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.5063,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 5371,
+          "avg_net_price": 6683
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 108667,
+        "slug": "college-of-alameda",
+        "name": "College of Alameda",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.5063,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 6141,
+          "avg_net_price": 9280
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://cincollege.org/institutional-effectiveness/",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "Institutional Effectiveness is the ongoing, comprehensive, and integrated research-based planning and evaluation process at California Indian Nations College, engaging in efforts to continuously improve institutional quality and effectiveness through systematic review of institutional goals and outcomes consistent with the mission of the college.",
+    "phone": "760-933-9833",
+    "email": "IR@CINCollege.org",
+    "address": "75080 Frank Sinatra Drive, Ste. 221, Palm Desert, CA 92211",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-03T13:19:21.249865+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Sam Moore",
+      "phone": "760-933-9833"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=495271",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:19:24.58834+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2024,
+      "title": "Strategic Master Plan",
+      "url": "https://cincollege.org/administration/strategic-master-plan/",
+      "summary": "The Strategic Master Plan for California Indian Nations College is currently under development and has not yet been published. This strategic document aims to guide the institution's operations and growth, looking forward into the future. The plan is expected to detail operational priorities and catastrophic event strategies to ensure comprehensive support for the college's mission and goals.",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:15:15.130367+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

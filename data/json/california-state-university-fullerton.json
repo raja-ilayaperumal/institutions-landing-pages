@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:51.698702+00:00",
+  "generated_at": "2026-06-04T04:56:01.244775+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 6887,
     "first_time_freshmen": 6887,
     "first_time_freshmen_ft": 6595,
+    "admission_rate": 0.8674,
     "admit_rate": 0.9052073414365466,
     "yield_rate": 0.1420527205973351
   },
   "cost": {
+    "in_state_tuition": 7073,
+    "out_of_state_tuition": 18953,
     "avg_net_price": 5646,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.1972,
     "federal_loan_rate": 0.2206,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 5438,
       "75_110k": 9101,
       "110k_plus": 14831
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6922,
     "grad_rate_total": 0.7,
     "grad_4yr_bachelors": 0.39,
     "grad_5yr_bachelors": 0.63,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 46633,
     "ug_12mo": 41134,
-    "grad_12mo": 40827,
+    "grad_12mo": 5499,
     "women_12mo": 26660,
     "men_12mo": 19973,
     "fall_total": 43662,
-    "fall_full_time": 38760,
-    "fall_part_time": 38546,
     "distance_ed_any": 43662,
     "distance_ed_exclusive": 3776,
     "race_ethnicity": {
@@ -764,16 +766,7 @@
       "fetched_at": "2026-05-25T16:28:11.203666+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director of Institutional Research, Analytics, and Research Systems",
-      "apply_url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=179294008"
-    },
-    {
-      "title": "Data Analytics Developer II",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179445302"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Judith A. Presch Desert Research Scholarship",

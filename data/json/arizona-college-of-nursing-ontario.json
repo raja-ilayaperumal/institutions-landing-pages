@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:13.687616+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 498456,
+    "slug": "arizona-college-of-nursing-ontario",
+    "name": "Arizona College of Nursing-Ontario",
+    "website_url": "https://www.arizonacollege.edu",
+    "city": "Ontario",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91761-1201",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LPJFPB9HMBP7",
+      "opeid": "03115013",
+      "ein": "431537880"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Arizona College of Nursing-Ontario is a nursing education institution located in Ontario, California, offering a Bachelor of Science in Nursing (BSN) program. The college is part of a larger organization with multiple campuses across the United States, providing training in various healthcare fields. While the founding year is not explicitly mentioned, it operates 26 campuses nationwide.",
+    "source_url": "https://www.arizonacollege.edu/about",
+    "fetched_at": "2026-06-03T16:40:07.732295+05:30"
+  },
+  "admissions": {
+    "applicants": 7,
+    "admits": 7,
+    "enrolled": 2,
+    "first_time_freshmen": 2,
+    "first_time_freshmen_ft": 1,
+    "admission_rate": 1.0,
+    "admit_rate": 1.0,
+    "yield_rate": 0.2857142857142857
+  },
+  "cost": {
+    "in_state_tuition": 30133,
+    "out_of_state_tuition": 30133,
+    "avg_net_price": 39581,
+    "pell_grant_rate": 0.3907,
+    "federal_loan_rate": 0.9426,
+    "net_price_by_family_income": {
+      "0_30k": 37506,
+      "30_48k": 38479,
+      "48_75k": 39928,
+      "75_110k": 43703,
+      "110k_plus": 43703
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 379,
+    "ug_12mo": 379,
+    "grad_12mo": 0,
+    "women_12mo": 332,
+    "men_12mo": 47,
+    "fall_total": 380,
+    "distance_ed_any": 380,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.0717,
+      "black": 0.1254,
+      "hispanic": 0.5771,
+      "asian": 0.0896,
+      "ai_an": 0.0036,
+      "nh_pi": 0.0072,
+      "two_or_more": 0.1004,
+      "non_resident": 0.0,
+      "race_unknown": 0.0251
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 11
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0,
+    "instr_total_fte": 8
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 499389,
+        "slug": "arizona-college-of-nursing-aurora",
+        "name": "Arizona College of Nursing-Aurora",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5368421052631579,
+          "retention_rate": 0.46,
+          "enrollment": 336
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 499398,
+        "slug": "arizona-college-of-nursing-cincinnati",
+        "name": "Arizona College of Nursing-Cincinnati",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.4067796610169492,
+          "retention_rate": 0.5,
+          "enrollment": 77
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 499404,
+        "slug": "arizona-college-of-nursing-cleveland",
+        "name": "Arizona College of Nursing-Cleveland",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.23404255319148937,
+          "retention_rate": 1.0,
+          "enrollment": 164
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 494162,
+        "slug": "arizona-college-of-nursing-dallas",
+        "name": "Arizona College of Nursing-Dallas",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.44594594594594594,
+          "retention_rate": 0.69,
+          "enrollment": 588,
+          "avg_net_price": 33228
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 498447,
+        "slug": "arizona-college-of-nursing-falls-church",
+        "name": "Arizona College of Nursing-Falls Church",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5151515151515151,
+          "retention_rate": 0.58,
+          "enrollment": 348,
+          "avg_net_price": 33304
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 495439,
+        "slug": "arizona-college-of-nursing-fort-lauderdale",
+        "name": "Arizona College of Nursing-Fort Lauderdale",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 428,
+          "avg_net_price": 35522
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 495457,
+        "slug": "arizona-college-of-nursing-phoenix",
+        "name": "Arizona College of Nursing-Phoenix",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5481481481481482,
+          "retention_rate": 0.68,
+          "enrollment": 1229,
+          "avg_net_price": 34155
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 497268,
+        "slug": "arizona-college-of-nursing-salt-lake-city",
+        "name": "Arizona College of Nursing-Salt Lake City",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.18518518518518517,
+          "retention_rate": 0.6,
+          "enrollment": 306,
+          "avg_net_price": 31831
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 499370,
+        "slug": "arizona-college-of-nursing-sarasota",
+        "name": "Arizona College of Nursing-Sarasota",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.47058823529411764,
+          "retention_rate": 0.5,
+          "enrollment": 133
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 498049,
+        "slug": "arizona-college-of-nursing-southfield",
+        "name": "Arizona College of Nursing-Southfield",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5775401069518716,
+          "retention_rate": 0.75,
+          "enrollment": 594,
+          "avg_net_price": 33553
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 495420,
+        "slug": "arizona-college-of-nursing-tampa",
+        "name": "Arizona College of Nursing-Tampa",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.23076923076923078,
+          "retention_rate": 0.5,
+          "enrollment": 335,
+          "avg_net_price": 30580
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 495448,
+        "slug": "arizona-college-of-nursing-tucson",
+        "name": "Arizona College of Nursing-Tucson",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.3611111111111111,
+          "retention_rate": 0.5,
+          "enrollment": 562,
+          "avg_net_price": 28789
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 492759,
+        "slug": "chamberlain-university-louisiana",
+        "name": "Chamberlain University-Louisiana",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.4,
+          "retention_rate": 0.86,
+          "enrollment": 625,
+          "avg_net_price": 36972
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 499422,
+        "slug": "denver-college-of-nursing-houston",
+        "name": "Denver College of Nursing-Houston",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 135
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 496326,
+        "slug": "eagle-gate-college-boise-campus",
+        "name": "Eagle Gate College-Boise Campus",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 658,
+          "avg_net_price": 29546
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 494621,
+        "slug": "lotus-professional-college",
+        "name": "Lotus Professional College",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 178
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=498456",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:18:36.82205+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "BSN Program Glossary of Terms | AZCN",
+      "url": "https://arizonacollege.edu/accredited-bsn-program/nursing-school-glossary-terms/",
+      "summary": "The Arizona College of Nursing-Ontario offers a comprehensive glossary of nursing terms as part of its Bachelor of Science in Nursing (BSN) program. This glossary serves as a vital tool for nursing students to familiarize themselves with specialized terminology used in the nursing profession. By mastering these terms, individuals can enhance their communication skills and improve their professional performance, particularly in areas like acute and ambulatory care, advanced nursing roles, ethics, patient care, and medical tools and technology. The glossary includes detailed definitions of healthcare specialties, patient care processes, and the roles within nursing teams.",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:17:54.478011+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

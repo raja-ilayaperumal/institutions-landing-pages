@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:03.300066+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117104,
+    "slug": "life-pacific-university",
+    "name": "Life Pacific University",
+    "website_url": "https://lifepacific.edu",
+    "city": "San Dimas",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91773-3298",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "JD7WN8J5DTC5",
+      "opeid": "02270600",
+      "ein": "951684068"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Life Pacific University (LPU) is a private Christian university endorsed by the International Church of the Foursquare Gospel and located in San Dimas, California. LPU serves as the denomination's flagship institution for higher education. It is accredited by the Western Association of Schools and Colleges - Senior College and University Commission (WSCUC) and the Association for Biblical Higher Education (ABHE).",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Life_Pacific_University",
+    "source_url": "https://en.wikipedia.org/wiki/Life_Pacific_University",
+    "fetched_at": "2026-06-02T20:48:09.579121+05:30"
+  },
+  "admissions": {
+    "applicants": 238,
+    "admits": 228,
+    "enrolled": 77,
+    "first_time_freshmen": 77,
+    "first_time_freshmen_ft": 69,
+    "admission_rate": 0.9395,
+    "admit_rate": 0.957983193277311,
+    "yield_rate": 0.33771929824561403
+  },
+  "cost": {
+    "in_state_tuition": 20462,
+    "out_of_state_tuition": 20462,
+    "avg_net_price": 22343,
+    "pell_grant_rate": 0.1399,
+    "federal_loan_rate": 0.6171,
+    "net_price_by_family_income": {
+      "0_30k": 18754,
+      "30_48k": 22991,
+      "48_75k": 21317,
+      "75_110k": 28573,
+      "110k_plus": 27526
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5682,
+    "grad_rate_total": 0.4,
+    "grad_4yr_bachelors": 0.31,
+    "grad_5yr_bachelors": 0.38,
+    "grad_6yr_bachelors": 0.38,
+    "pell_grad_rate": 0.35,
+    "pell_6yr_bachelors_rate": 0.35,
+    "non_pell_grad_rate": 0.52,
+    "non_pell_6yr_bachelors": 0.4,
+    "retention_full_time": 0.73,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 596,
+    "ug_12mo": 449,
+    "grad_12mo": 147,
+    "women_12mo": 328,
+    "men_12mo": 268,
+    "fall_total": 621,
+    "distance_ed_any": 621,
+    "distance_ed_exclusive": 224,
+    "race_ethnicity": {
+      "white": 0.3588,
+      "black": 0.0712,
+      "hispanic": 0.4249,
+      "asian": 0.0433,
+      "ai_an": 0.0102,
+      "nh_pi": 0.0025,
+      "two_or_more": 0.0509,
+      "non_resident": 0.0051,
+      "race_unknown": 0.0331
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 75
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 18
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 0
+      }
+    ],
+    "program_count": 13,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 16
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 209409,
+        "slug": "bushnell-university",
+        "name": "Bushnell University",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6727898966704937,
+          "yield_rate": 0.18600682593856654,
+          "grad_rate": 0.56,
+          "retention_rate": 0.76,
+          "enrollment": 761,
+          "avg_net_price": 23520
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 215114,
+        "slug": "cairn-university-langhorne",
+        "name": "Cairn University-Langhorne",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8817391304347826,
+          "yield_rate": 0.4516765285996055,
+          "grad_rate": 0.6,
+          "retention_rate": 0.77,
+          "enrollment": 1097,
+          "avg_net_price": 29577
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 211024,
+        "slug": "clarks-summit-university",
+        "name": "Clarks Summit University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.900990099009901,
+          "yield_rate": 0.3626373626373626,
+          "grad_rate": 0.53,
+          "retention_rate": 0.63,
+          "avg_net_price": 21873
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 217925,
+        "slug": "columbia-international-university",
+        "name": "Columbia International University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9447115384615384,
+          "yield_rate": 0.3511450381679389,
+          "grad_rate": 0.46,
+          "retention_rate": 0.53,
+          "enrollment": 2914,
+          "avg_net_price": 21660
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 153320,
+        "slug": "faith-baptist-bible-college-and-theological-seminary",
+        "name": "Faith Baptist Bible College and Theological Seminary",
+        "state": "Iowa",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6751824817518248,
+          "yield_rate": 0.6864864864864865,
+          "grad_rate": 0.65,
+          "retention_rate": 0.77,
+          "enrollment": 611,
+          "avg_net_price": 17819
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 202903,
+        "slug": "gods-bible-school-and-college",
+        "name": "Gods Bible School and College",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7531645569620253,
+          "yield_rate": 0.6470588235294118,
+          "grad_rate": 0.47,
+          "retention_rate": 0.81,
+          "enrollment": 431,
+          "avg_net_price": 3138
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 120537,
+        "slug": "hope-international-university",
+        "name": "Hope International University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32978723404255317,
+          "yield_rate": 0.38387096774193546,
+          "grad_rate": 0.49,
+          "retention_rate": 0.52,
+          "enrollment": 1025,
+          "avg_net_price": 27653
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 220473,
+        "slug": "johnson-university",
+        "name": "Johnson University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6511335012594458,
+          "yield_rate": 0.3230174081237911,
+          "grad_rate": 0.54,
+          "retention_rate": 0.69,
+          "enrollment": 978,
+          "avg_net_price": 20303
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 213400,
+        "slug": "lancaster-bible-college",
+        "name": "Lancaster Bible College",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.558891454965358,
+          "yield_rate": 0.3367768595041322,
+          "grad_rate": 0.68,
+          "retention_rate": 0.79,
+          "enrollment": 2519,
+          "avg_net_price": 22870
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 178679,
+        "slug": "ozark-christian-college",
+        "name": "Ozark Christian College",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9360902255639098,
+          "yield_rate": 0.5943775100401606,
+          "grad_rate": 0.58,
+          "retention_rate": 0.83,
+          "enrollment": 736,
+          "avg_net_price": 17931
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 123457,
+        "slug": "simpson-university",
+        "name": "Simpson University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8602673147023087,
+          "yield_rate": 0.24152542372881355,
+          "grad_rate": 0.49,
+          "retention_rate": 0.6,
+          "enrollment": 992,
+          "avg_net_price": 27923
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 216542,
+        "slug": "university-of-valley-forge",
+        "name": "University of Valley Forge",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.612012987012987,
+          "yield_rate": 0.27851458885941643,
+          "grad_rate": 0.49,
+          "retention_rate": 0.78,
+          "enrollment": 589,
+          "avg_net_price": 27499
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 210304,
+        "slug": "warner-pacific-university",
+        "name": "Warner Pacific University",
+        "state": "Oregon",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7114093959731543,
+          "yield_rate": 0.11635220125786164,
+          "grad_rate": 0.49,
+          "retention_rate": 0.92,
+          "enrollment": 378,
+          "avg_net_price": 18818
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 220206,
+        "slug": "welch-college",
+        "name": "Welch College",
+        "state": "Tennessee",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.61,
+          "retention_rate": 0.61,
+          "enrollment": 389,
+          "avg_net_price": 19983
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 122728,
+        "slug": "william-jessup-university",
+        "name": "William Jessup University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9332816136539953,
+          "yield_rate": 0.19617622610141314,
+          "grad_rate": 0.56,
+          "retention_rate": 0.77,
+          "enrollment": 1865,
+          "avg_net_price": 25300
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117104",
+      "stored": false,
+      "fetched_at": "2026-06-02T20:48:11.154481+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2021,
+      "title": "The Next 100: Transforming the Generations",
+      "url": "https://lifepacific.edu/strategic-plan",
+      "summary": "Life Pacific University's strategic plan, 'The Next 100: Transforming the Generations,' builds upon the institution’s rich heritage and commitment to empowering students for service in the church and broader society. The plan comprises five core themes, focusing on resource stewardship, vibrant institutional culture, student success through transformative learning, strategic partnerships, and enhancing brand visibility. Approved in February 2021, the plan sets a clear trajectory for LPU to celebrate its centennial and beyond by intentionally engaging community members and stakeholders in shared objectives.",
+      "stored": false,
+      "fetched_at": "2026-06-02T20:43:41.637303+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Federal Pell Grants",
+      "agency": "Federal Government",
+      "kind": "opportunity",
+      "amount_usd": 7395,
+      "url": "https://lifepacific.edu/tuition-and-financial-aid/scholarships-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Campus Visit Scholarship",
+      "kind": "opportunity",
+      "amount_usd": 1000,
+      "url": "https://lifepacific.edu/tuition-and-financial-aid/scholarships-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "CAL Grant",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://lifepacific.edu/tuition-and-financial-aid/scholarships-grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "California Dream Act",
+      "agency": "California Student Aid Commission",
+      "kind": "opportunity",
+      "url": "https://lifepacific.edu/tuition-and-financial-aid/scholarships-grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

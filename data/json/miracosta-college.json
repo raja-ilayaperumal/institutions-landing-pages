@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:51.368441+00:00",
+  "generated_at": "2026-06-04T04:57:25.495906+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/MiraCosta_College",
     "fetched_at": "2026-05-25T22:49:32.332447+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1152,
+    "out_of_state_tuition": 9120,
     "avg_net_price": 7178,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5862,
     "federal_loan_rate": 0.0217,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9279,
       "75_110k": 11904,
       "110k_plus": 10487
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.411,
     "grad_rate_total": 0.41,
     "grad_4yr_bachelors": 0.91,
     "grad_5yr_bachelors": 0.96,
@@ -67,12 +70,10 @@
   "enrollment": {
     "enrollment_12mo_total": 18109,
     "ug_12mo": 18109,
-    "grad_12mo": 15672,
+    "grad_12mo": 0,
     "women_12mo": 10459,
     "men_12mo": 7650,
     "fall_total": 11478,
-    "fall_full_time": 11478,
-    "fall_part_time": 10278,
     "distance_ed_any": 11478,
     "distance_ed_exclusive": 5478,
     "race_ethnicity": {

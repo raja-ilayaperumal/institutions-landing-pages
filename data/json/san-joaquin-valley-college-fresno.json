@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:45.736309+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 262457,
+    "slug": "san-joaquin-valley-college-fresno",
+    "name": "San Joaquin Valley College-Fresno",
+    "website_url": "https://www.sjvc.edu",
+    "city": "Fresno",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93710-3616",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJLJT5ZE65J6",
+      "opeid": "02120701",
+      "ein": "942589126"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Valley College (SJVC) is a private for-profit college with locations in California and an online division. SJVC was founded in 1977 by Robert and Shirley Perry. The college offers certificates, Associate of Science degrees, and continuing education opportunities in the criminal justice and industrial trade fields.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "wikidata_qid": "Q7414404",
+    "fetched_at": "2026-06-03T15:58:06.988663+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 23045,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5342,
+    "net_price_by_family_income": {
+      "0_30k": 22458,
+      "30_48k": 23021,
+      "48_75k": 23238,
+      "75_110k": 26054,
+      "110k_plus": 27937
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5901,
+    "grad_rate_total": 0.62,
+    "pell_grad_rate": 0.64,
+    "non_pell_grad_rate": 0.42,
+    "retention_full_time": 0.8
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 770,
+    "ug_12mo": 770,
+    "grad_12mo": 0,
+    "women_12mo": 670,
+    "men_12mo": 100,
+    "fall_total": 447,
+    "distance_ed_any": 447,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1435,
+      "black": 0.0353,
+      "hispanic": 0.7173,
+      "asian": 0.0395,
+      "ai_an": 0.0021,
+      "nh_pi": 0.0042,
+      "two_or_more": 0.0083,
+      "non_resident": 0.0021,
+      "race_unknown": 0.0478
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 44
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 2
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 28.0,
+    "instr_total_fte": 12
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 123217,
+        "slug": "college-of-the-sequoias",
+        "name": "College of the Sequoias",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 14494,
+          "avg_net_price": 29
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 114789,
+        "slug": "fresno-city-college",
+        "name": "Fresno City College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 28071,
+          "avg_net_price": 1699
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 118718,
+        "slug": "merced-college",
+        "name": "Merced College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 12472,
+          "avg_net_price": 4260
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 118976,
+        "slug": "modesto-junior-college",
+        "name": "Modesto Junior College",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 18258,
+          "avg_net_price": 10176
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 121363,
+        "slug": "porterville-college",
+        "name": "Porterville College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Career & Technical-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 4784,
+          "avg_net_price": 3728
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 117052,
+        "slug": "reedley-college",
+        "name": "Reedley College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 8796,
+          "avg_net_price": 1584
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=262457",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:21:39.764977+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

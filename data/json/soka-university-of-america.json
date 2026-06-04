@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:03.982980+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 399911,
+    "slug": "soka-university-of-america",
+    "name": "Soka University of America",
+    "website_url": "https://www.soka.edu",
+    "city": "Aliso Viejo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92656-8081",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K5FSG48CEBX7",
+      "opeid": "03814400",
+      "ein": "953909672"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Soka University of America (SUA) is a private liberal arts college in Aliso Viejo, California. Originally founded in 1987, it was established on its current campus in 2001 by Daisaku Ikeda, the founder of the Soka Gakkai International Buddhist movement. Though affiliated with Soka Gakkai, it maintains a secular curriculum which emphasizes pacifism, human rights, and the creative coexistence of nature and humanity.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Soka_University_of_America",
+    "source_url": "https://en.wikipedia.org/wiki/Soka_University_of_America",
+    "fetched_at": "2026-06-02T22:59:43.998304+05:30"
+  },
+  "admissions": {
+    "applicants": 634,
+    "admits": 275,
+    "enrolled": 126,
+    "first_time_freshmen": 126,
+    "first_time_freshmen_ft": 126,
+    "admission_rate": 0.6952,
+    "admit_rate": 0.43375394321766564,
+    "yield_rate": 0.4581818181818182,
+    "sat_average": 1360,
+    "sat_math_25_75": [
+      660,
+      770
+    ],
+    "sat_reading_25_75": [
+      560,
+      690
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 37450,
+    "out_of_state_tuition": 37450,
+    "room_and_board": 14378,
+    "total_cost_in_state": 51828,
+    "total_cost_out_of_state": 51828,
+    "avg_net_price": 21446,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.3775,
+    "net_price_by_family_income": {
+      "0_30k": 14587,
+      "30_48k": 9183,
+      "48_75k": 9378,
+      "75_110k": 12566,
+      "110k_plus": 32663
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.8692,
+    "grad_rate_total": 0.92,
+    "grad_4yr_bachelors": 0.79,
+    "grad_5yr_bachelors": 0.92,
+    "grad_6yr_bachelors": 0.92,
+    "pell_grad_rate": 0.87,
+    "pell_6yr_bachelors_rate": 0.87,
+    "non_pell_grad_rate": 1.0,
+    "non_pell_6yr_bachelors": 1.0,
+    "retention_full_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 481,
+    "ug_12mo": 469,
+    "grad_12mo": 12,
+    "women_12mo": 288,
+    "men_12mo": 193,
+    "fall_total": 495,
+    "distance_ed_any": 495,
+    "race_ethnicity": {
+      "white": 0.1401,
+      "black": 0.0216,
+      "hispanic": 0.1315,
+      "asian": 0.1013,
+      "ai_an": 0.0,
+      "nh_pi": 0.0022,
+      "two_or_more": 0.0539,
+      "non_resident": 0.5409,
+      "race_unknown": 0.0086
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 87
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 6
+      }
+    ],
+    "program_count": 2,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 7.0,
+    "instr_total_fte": 65
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 112260,
+        "slug": "claremont-mckenna-college",
+        "name": "Claremont McKenna College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.09587992035533772,
+          "yield_rate": 0.5383386581469649,
+          "grad_rate": 0.91,
+          "retention_rate": 0.98,
+          "enrollment": 1393,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 115409,
+        "slug": "harvey-mudd-college",
+        "name": "Harvey Mudd College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.12661955241460543,
+          "yield_rate": 0.3581395348837209,
+          "grad_rate": 0.92,
+          "retention_rate": 0.96,
+          "enrollment": 951,
+          "avg_net_price": 32492
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120254,
+        "slug": "occidental-college",
+        "name": "Occidental College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.44172728679770934,
+          "yield_rate": 0.17834618079887876,
+          "grad_rate": 0.81,
+          "retention_rate": 0.9,
+          "enrollment": 1881,
+          "avg_net_price": 39329
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 121257,
+        "slug": "pitzer-college",
+        "name": "Pitzer College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2515997673065736,
+          "yield_rate": 0.3583815028901734,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1242,
+          "avg_net_price": 31663
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 121345,
+        "slug": "pomona-college",
+        "name": "Pomona College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.07086292758592538,
+          "yield_rate": 0.5023041474654378,
+          "grad_rate": 0.93,
+          "retention_rate": 0.98,
+          "enrollment": 1700,
+          "avg_net_price": 19424
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 123165,
+        "slug": "scripps-college",
+        "name": "Scripps College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.38293216630196936,
+          "yield_rate": 0.25551020408163266,
+          "grad_rate": 0.83,
+          "retention_rate": 0.94,
+          "enrollment": 1137,
+          "avg_net_price": 38802
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.soka.edu/about/institutional-research-assessment/common-data-set",
+    "office_name": "Institutional Research & Assessment",
+    "summary": "The page provides information about the Common Data Set initiative at Soka University of America, including downloadable PDFs of past years' data. It also contains contact details for the Office of Institutional Research & Assessment and links to relevant resources such as accreditation and student success data.",
+    "address": "1 University Drive, Aliso Viejo, CA 92656",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T22:59:42.826942+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://www.soka.edu/about/institutional-research-assessment/common-data-set",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "data_dictionary",
+      "year": 2026,
+      "title": "Institutional Research & Assessment",
+      "url": "https://www.soka.edu/about/institutional-research-and-assessment",
+      "summary": "The Office of Institutional Research and Assessment at Soka University of America collects and publishes data on enrollment, graduation, and student outcomes to support institutional planning, regulatory reporting, and transparency for prospective students, families, and researchers. The data includes detailed statistics on undergraduate and graduate admissions, enrollment, graduation rates, and student success metrics. The university maintains an average undergraduate graduation rate of 88% and a graduate program completion rate of 95%. The page provides additional resources such as career reports and links to download the Common Data Set for various years.",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:57:20.302895+05:30"
+    },
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=399911",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:59:44.963493+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "Institutional Research & Assessment",
+      "url": "https://www.soka.edu/about/institutional-research-and-assessment",
+      "summary": "The Institutional Research & Assessment section of Soka University of America's website provides essential data on student enrollment, graduation rates, and outcomes to aid in institutional planning and transparency. It highlights its accreditation status, detailed student success data, and post-graduation pathways for students. Accredited by the WASC Senior College and University Commission, Soka maintains high standards for educational quality. The Common Data Set initiative supports standardized higher education reporting.",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:58:48.302305+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Fulbright Student Advising",
+      "agency": "Fulbright US Student Program",
+      "kind": "opportunity",
+      "url": "https://www.soka.edu/student-life/career-readiness-hub/grants-scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Graduate Grants & Scholarships",
+      "agency": "Soka University of America",
+      "kind": "opportunity",
+      "url": "https://www.soka.edu/student-life/career-readiness-hub/grants-scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "PBRC Summer Grants",
+      "agency": "Pacific Basin Research Center",
+      "kind": "opportunity",
+      "url": "https://www.soka.edu/student-life/career-readiness-hub/grants-scholarships",
+      "source": "institution_site"
+    },
+    {
+      "title": "Summer Internship Grants",
+      "agency": "Soka University of America",
+      "kind": "opportunity",
+      "url": "https://www.soka.edu/student-life/career-readiness-hub/grants-scholarships",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Tahereh Mafi",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tahereh_Mafi",
+      "field": "Literature"
+    },
+    {
+      "name": "Aditi Rao",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aditi_Rao"
+    }
+  ]
+}

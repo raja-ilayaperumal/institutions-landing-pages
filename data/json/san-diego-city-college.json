@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:38.239907+00:00",
+  "generated_at": "2026-06-04T04:57:57.622516+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,24 @@
     "source_url": "https://en.wikipedia.org/wiki/San_Diego_City_College",
     "fetched_at": "2026-05-25T21:38:35.406472+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
-    "avg_net_price": -818,
-    "is_private_for_net_price": false,
+    "in_state_tuition": 1150,
+    "out_of_state_tuition": 9094,
+    "avg_net_price": 0,
     "pell_grant_rate": 0.8141,
     "federal_loan_rate": 0.0114,
     "net_price_by_family_income": {
-      "0_30k": -2781,
+      "0_30k": 0,
       "30_48k": 1062,
       "48_75k": 5397,
       "75_110k": 5890,
       "110k_plus": 8057
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2971,
     "grad_rate_total": 0.3,
     "pell_grad_rate": 0.3,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 21460,
     "ug_12mo": 21460,
-    "grad_12mo": 17729,
+    "grad_12mo": 0,
     "women_12mo": 11646,
     "men_12mo": 9814,
     "fall_total": 13242,
-    "fall_full_time": 13242,
-    "fall_part_time": 10441,
     "distance_ed_any": 13242,
     "distance_ed_exclusive": 4533,
     "race_ethnicity": {

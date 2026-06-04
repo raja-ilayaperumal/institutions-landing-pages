@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:24.711461+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 442444,
+    "slug": "san-joaquin-valley-college-ontario",
+    "name": "San Joaquin Valley College-Ontario",
+    "website_url": "https://sjvc.edu",
+    "city": "Ontario",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91764-5107",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Career & Technical-High Nontraditional",
+    "carnegie_slug": "associates-career-technical-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "TJLJT5ZE65J6",
+      "opeid": "02120704",
+      "ein": "942589126"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Joaquin Valley College (SJVC) is a private for-profit college with locations in California and an online division. SJVC was founded in 1977 by Robert and Shirley Perry. The college offers certificates, Associate of Science degrees, and continuing education opportunities in the criminal justice and industrial trade fields.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "source_url": "https://en.wikipedia.org/wiki/San_Joaquin_Valley_College",
+    "fetched_at": "2026-06-02T11:06:54.861708+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 25595,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.5982,
+    "net_price_by_family_income": {
+      "0_30k": 24707,
+      "30_48k": 24733,
+      "48_75k": 26082,
+      "75_110k": 29491,
+      "110k_plus": 29486
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5537,
+    "grad_rate_total": 0.64,
+    "pell_grad_rate": 0.63,
+    "non_pell_grad_rate": 0.83,
+    "retention_full_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 1525,
+    "ug_12mo": 1525,
+    "grad_12mo": 0,
+    "women_12mo": 753,
+    "men_12mo": 772,
+    "fall_total": 941,
+    "distance_ed_any": 941,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1145,
+      "black": 0.0479,
+      "hispanic": 0.6703,
+      "asian": 0.0479,
+      "ai_an": 0.0039,
+      "nh_pi": 0.0088,
+      "two_or_more": 0.0108,
+      "non_resident": 0.0029,
+      "race_unknown": 0.093
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 139
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 42
+      },
+      {
+        "cip_family_code": "46",
+        "cip_family_label": "Construction Trades",
+        "completions": 37
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "47",
+        "cip_family_label": "Mechanic",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 3
+      }
+    ],
+    "program_count": 13,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 14.0,
+    "instr_total_fte": 39
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447768,
+        "slug": "american-career-college-ontario",
+        "name": "American Career College-Ontario",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 2242,
+          "avg_net_price": 29807
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 124706,
+        "slug": "concorde-career-college-san-bernardino",
+        "name": "Concorde Career College-San Bernardino",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9834254143646409,
+          "yield_rate": 0.5926966292134831,
+          "retention_rate": 0.8,
+          "enrollment": 222,
+          "avg_net_price": 23161
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 120661,
+        "slug": "concorde-career-college-san-diego",
+        "name": "Concorde Career College-San Diego",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6811594202898551,
+          "retention_rate": 0.95,
+          "enrollment": 147,
+          "avg_net_price": 24477
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 434140,
+        "slug": "pima-medical-institute-chula-vista",
+        "name": "Pima Medical Institute-Chula Vista",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.81,
+          "enrollment": 537,
+          "avg_net_price": 21925
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=442444",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:06:55.910452+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:05.199015+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 400558,
+    "slug": "los-angeles-pacific-college",
+    "name": "Los Angeles Pacific College",
+    "website_url": "https://www.lapacific.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90010-1758",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "QK7NAKJ7V797",
+      "opeid": "03124500",
+      "ein": "954428181"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles Pacific College (LAPC) is a private institution located in Los Angeles, California, that was founded in 1989. The college offers a range of degree and certificate programs in fields such as accounting, computer graphic design, and web software technology, and it focuses on preparing students for gainful employment through multicultural education and work ethics.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Los_Angeles_Pacific_College",
+    "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Pacific_College",
+    "fetched_at": "2026-06-03T16:22:24.087966+05:30"
+  },
+  "admissions": {
+    "applicants": 0
+  },
+  "cost": {
+    "in_state_tuition": 7130,
+    "out_of_state_tuition": 7130,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": true
+  },
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 133,
+    "ug_12mo": 133,
+    "grad_12mo": 0,
+    "women_12mo": 80,
+    "men_12mo": 53,
+    "fall_total": 78,
+    "distance_ed_any": 78,
+    "race_ethnicity": {
+      "white": 0.0328,
+      "black": 0.0164,
+      "hispanic": 0.0,
+      "asian": 0.9508,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 3
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 2
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 2
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 419244,
+        "slug": "atlanta-institute-of-music-and-media",
+        "name": "Atlanta Institute of Music and Media",
+        "state": "Georgia",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.84375,
+          "yield_rate": 0.7962962962962963,
+          "retention_rate": 0.72,
+          "enrollment": 249,
+          "avg_net_price": 32699
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 455983,
+        "slug": "columbia-college-4",
+        "name": "Columbia College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 151,
+          "avg_net_price": 9921
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 203289,
+        "slug": "international-college-of-broadcasting",
+        "name": "International College of Broadcasting",
+        "state": "Ohio",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "avg_net_price": 18284
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 216083,
+        "slug": "south-hills-school-of-business-and-technology",
+        "name": "South Hills School of Business & Technology",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9727272727272728,
+          "yield_rate": 0.719626168224299,
+          "retention_rate": 0.78,
+          "enrollment": 260,
+          "avg_net_price": 25192
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=400558",
+      "stored": false,
+      "fetched_at": "2026-06-03T16:22:20.87384+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

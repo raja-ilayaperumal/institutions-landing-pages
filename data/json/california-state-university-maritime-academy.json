@@ -1,0 +1,657 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:14.009381+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 111188,
+    "slug": "california-state-university-maritime-academy",
+    "name": "California State University Maritime Academy",
+    "website_url": "https://www.csum.edu",
+    "city": "Vallejo",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94590-8181",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Diverse Fields",
+    "carnegie_slug": "bachelors-diverse-fields",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "GS1KNYFEVKF1",
+      "opeid": "00113400",
+      "ein": "680316355"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California State University is a public university system in California, and the largest public university system in the United States. It consists of 22 campuses and seven off-campus centers, which together enroll 461,612 students and employ 63,375 faculty and staff members. In California, it is one of the three public higher education systems, along with the University of California and the California Community Colleges systems. The CSU system is officially incorporated as The Trustees of the California State University, and is headquartered in Long Beach, California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_State_University",
+    "source_url": "https://en.wikipedia.org/wiki/California_State_University",
+    "wikidata_qid": "Q815352",
+    "fetched_at": "2026-06-03T15:57:08.445728+05:30"
+  },
+  "admissions": {
+    "applicants": 961,
+    "admits": 913,
+    "enrolled": 189,
+    "first_time_freshmen": 189,
+    "first_time_freshmen_ft": 187,
+    "admission_rate": 0.9873,
+    "admit_rate": 0.9500520291363164,
+    "yield_rate": 0.20700985761226726
+  },
+  "cost": {
+    "in_state_tuition": 7672,
+    "out_of_state_tuition": 19552,
+    "avg_net_price": 17555,
+    "pell_grant_rate": 0.046,
+    "federal_loan_rate": 0.4332,
+    "net_price_by_family_income": {
+      "0_30k": 11357,
+      "30_48k": 12148,
+      "48_75k": 16648,
+      "75_110k": 16533,
+      "110k_plus": 24740
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6682,
+    "grad_rate_total": 0.6,
+    "grad_4yr_bachelors": 0.4,
+    "grad_5yr_bachelors": 0.56,
+    "grad_6yr_bachelors": 0.6,
+    "pell_grad_rate": 0.59,
+    "pell_6yr_bachelors_rate": 0.59,
+    "non_pell_grad_rate": 0.69,
+    "non_pell_6yr_bachelors": 0.69,
+    "retention_full_time": 0.77,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 924,
+    "ug_12mo": 878,
+    "grad_12mo": 46,
+    "women_12mo": 169,
+    "men_12mo": 755,
+    "fall_total": 837,
+    "distance_ed_any": 837,
+    "distance_ed_exclusive": 33,
+    "race_ethnicity": {
+      "white": 0.477,
+      "black": 0.0315,
+      "hispanic": 0.2221,
+      "asian": 0.1025,
+      "ai_an": 0.0053,
+      "nh_pi": 0.0092,
+      "two_or_more": 0.0946,
+      "non_resident": 0.0039,
+      "race_unknown": 0.0539
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "49",
+        "cip_family_label": "Transportation",
+        "completions": 94
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 46
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 43
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 20
+      },
+      {
+        "cip_family_code": "40",
+        "cip_family_label": "Physical Sciences",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 0
+      }
+    ],
+    "program_count": 11,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 11.0,
+    "instr_total_fte": 60
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 237215,
+        "slug": "bluefield-state-university",
+        "name": "Bluefield State University",
+        "state": "West Virginia",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9723435225618632,
+          "yield_rate": 0.3278443113772455,
+          "grad_rate": 0.3,
+          "retention_rate": 0.55,
+          "enrollment": 1141,
+          "avg_net_price": 12529
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 200059,
+        "slug": "dickinson-state-university",
+        "name": "Dickinson State University",
+        "state": "North Dakota",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3702064896755162,
+          "yield_rate": 0.5179282868525896,
+          "grad_rate": 0.48,
+          "retention_rate": 0.67,
+          "enrollment": 1410,
+          "avg_net_price": 15270
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 482936,
+        "slug": "florida-polytechnic-university",
+        "name": "Florida Polytechnic University",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5751824817518248,
+          "yield_rate": 0.2017766497461929,
+          "grad_rate": 0.55,
+          "retention_rate": 0.75,
+          "enrollment": 1769,
+          "avg_net_price": 9899
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 237385,
+        "slug": "glenville-state-university",
+        "name": "Glenville State University",
+        "state": "West Virginia",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6945288753799392,
+          "yield_rate": 0.43435448577680524,
+          "grad_rate": 0.35,
+          "retention_rate": 0.55,
+          "enrollment": 1765,
+          "avg_net_price": 16358
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 177551,
+        "slug": "harris-stowe-state-university",
+        "name": "Harris-Stowe State University",
+        "state": "Missouri",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.28,
+          "retention_rate": 0.68,
+          "enrollment": 1002,
+          "avg_net_price": 13459
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 157058,
+        "slug": "kentucky-state-university",
+        "name": "Kentucky State University",
+        "state": "Kentucky",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9607708189951824,
+          "yield_rate": 0.2700573065902579,
+          "grad_rate": 0.35,
+          "retention_rate": 0.64,
+          "enrollment": 2020,
+          "avg_net_price": 8900
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 170639,
+        "slug": "lake-superior-state-university",
+        "name": "Lake Superior State University",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.680145572179539,
+          "yield_rate": 0.1516052318668252,
+          "grad_rate": 0.5,
+          "retention_rate": 0.79,
+          "enrollment": 1567,
+          "avg_net_price": 14368
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 177940,
+        "slug": "lincoln-university-2",
+        "name": "Lincoln University",
+        "state": "Missouri",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.6,
+          "enrollment": 2054,
+          "avg_net_price": 12484
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 161299,
+        "slug": "maine-maritime-academy",
+        "name": "Maine Maritime Academy",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5413919413919414,
+          "yield_rate": 0.3274695534506089,
+          "grad_rate": 0.59,
+          "retention_rate": 0.82,
+          "enrollment": 971,
+          "avg_net_price": 21185
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 200226,
+        "slug": "mayville-state-university",
+        "name": "Mayville State University",
+        "state": "North Dakota",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7123287671232876,
+          "yield_rate": 0.5192307692307693,
+          "grad_rate": 0.4,
+          "retention_rate": 0.81,
+          "enrollment": 1134,
+          "avg_net_price": 14454
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 204015,
+        "slug": "miami-university-middletown",
+        "name": "Miami University-Middletown",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.3,
+          "retention_rate": 0.67,
+          "enrollment": 1190,
+          "avg_net_price": 13824
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 180522,
+        "slug": "montana-state-university-northern",
+        "name": "Montana State University-Northern",
+        "state": "Montana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.3129139072847682,
+          "grad_rate": 0.3,
+          "retention_rate": 0.64,
+          "enrollment": 966,
+          "avg_net_price": 14164
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 204671,
+        "slug": "ohio-state-university-lima-campus",
+        "name": "Ohio State University-Lima Campus",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.14,
+          "retention_rate": 0.42,
+          "enrollment": 723,
+          "avg_net_price": 12458
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 207351,
+        "slug": "oklahoma-panhandle-state-university",
+        "name": "Oklahoma Panhandle State University",
+        "state": "Oklahoma",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6829652996845426,
+          "yield_rate": 0.5381062355658198,
+          "grad_rate": 0.2,
+          "retention_rate": 0.56,
+          "enrollment": 1021,
+          "avg_net_price": 7557
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 196033,
+        "slug": "suny-college-of-agriculture-and-technology-at-cobleskill",
+        "name": "SUNY College of Agriculture and Technology at Cobleskill",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8402102496714849,
+          "yield_rate": 0.19330622458554894,
+          "grad_rate": 0.52,
+          "retention_rate": 0.69,
+          "enrollment": 1988,
+          "avg_net_price": 17980
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 180692,
+        "slug": "the-university-of-montana-western",
+        "name": "The University of Montana-Western",
+        "state": "Montana",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9978118161925602,
+          "yield_rate": 0.1652046783625731,
+          "grad_rate": 0.54,
+          "retention_rate": 0.79,
+          "enrollment": 1358,
+          "avg_net_price": 16669
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 220701,
+        "slug": "the-university-of-tennessee-southern",
+        "name": "The University of Tennessee Southern",
+        "state": "Tennessee",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8671052631578947,
+          "yield_rate": 0.26100151745068284,
+          "grad_rate": 0.35,
+          "retention_rate": 0.77,
+          "enrollment": 1046,
+          "avg_net_price": 15133
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 161226,
+        "slug": "university-of-maine-at-farmington",
+        "name": "University of Maine at Farmington",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9672459893048129,
+          "yield_rate": 0.18590186592950933,
+          "grad_rate": 0.52,
+          "retention_rate": 0.73,
+          "enrollment": 2100,
+          "avg_net_price": 14873
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 161235,
+        "slug": "university-of-maine-at-fort-kent",
+        "name": "University of Maine at Fort Kent",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9792060491493384,
+          "yield_rate": 0.12934362934362933,
+          "grad_rate": 0.34,
+          "retention_rate": 0.89,
+          "enrollment": 1562,
+          "avg_net_price": 10865
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 161341,
+        "slug": "university-of-maine-at-presque-isle",
+        "name": "University of Maine at Presque Isle",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9986789960369881,
+          "yield_rate": 0.1931216931216931,
+          "grad_rate": 0.24,
+          "retention_rate": 0.58,
+          "enrollment": 2873,
+          "avg_net_price": 10028
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 174075,
+        "slug": "university-of-minnesota-crookston",
+        "name": "University of Minnesota-Crookston",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8785942492012779,
+          "yield_rate": 0.176,
+          "grad_rate": 0.5,
+          "retention_rate": 0.8,
+          "enrollment": 2612,
+          "avg_net_price": 10874
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 215266,
+        "slug": "university-of-pittsburgh-bradford",
+        "name": "University of Pittsburgh-Bradford",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.885398773006135,
+          "yield_rate": 0.08342572062084257,
+          "grad_rate": 0.51,
+          "retention_rate": 0.66,
+          "enrollment": 1009,
+          "avg_net_price": 16630
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 218654,
+        "slug": "university-of-south-carolina-beaufort",
+        "name": "University of South Carolina Beaufort",
+        "state": "South Carolina",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7250431778929188,
+          "yield_rate": 0.26060028585040496,
+          "grad_rate": 0.34,
+          "retention_rate": 0.61,
+          "enrollment": 2208,
+          "avg_net_price": 15309
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 491288,
+        "slug": "university-of-wisconsin-milwaukee-flex",
+        "name": "University of Wisconsin-Milwaukee Flex",
+        "state": "Wisconsin",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 551
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 200572,
+        "slug": "valley-city-state-university",
+        "name": "Valley City State University",
+        "state": "North Dakota",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9907407407407407,
+          "yield_rate": 0.5389408099688473,
+          "grad_rate": 0.53,
+          "retention_rate": 0.71,
+          "enrollment": 1806,
+          "avg_net_price": 13613
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 237950,
+        "slug": "west-virginia-university-institute-of-technology",
+        "name": "West Virginia University Institute of Technology",
+        "state": "West Virginia",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3668272539573297,
+          "yield_rate": 0.5234521575984991,
+          "grad_rate": 0.33,
+          "retention_rate": 0.62,
+          "enrollment": 1278,
+          "avg_net_price": 9957
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 206613,
+        "slug": "wright-state-university-lake-campus",
+        "name": "Wright State University-Lake Campus",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9984848484848485,
+          "yield_rate": 0.41122913505311076,
+          "grad_rate": 0.35,
+          "retention_rate": 0.61,
+          "enrollment": 1356,
+          "avg_net_price": 12603
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://csum.edu/ir/",
+    "office_name": "Office of Institutional Research",
+    "summary": "The homepage of Cal Poly Maritime Academy highlights its unique position as the only degree-granting maritime academy on the West Coast, emphasizing its hands-on learning and leadership development. It provides quick links for applying, exploring academic programs, and learning about student life, internships, and the Corps of Cadets. Contact information for the Solano Campus in Vallejo, CA is listed.",
+    "phone": "707-654-1000",
+    "address": "200 Maritime Academy Dr., Vallejo, CA 94590",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T11:21:54.087514+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2026,
+      "url": "https://csum.edu/ir/cds",
+      "is_pdf": false
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=111188",
+      "stored": false,
+      "fetched_at": "2026-06-02T11:21:58.315772+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Daniel W. Dwyer",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_W._Dwyer"
+    },
+    {
+      "name": "Ryan T. Holte",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ryan_T._Holte"
+    },
+    {
+      "name": "Kate McCue",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kate_McCue"
+    },
+    {
+      "name": "Jamila Reinhardt"
+    },
+    {
+      "name": "Dennis Riddell"
+    }
+  ]
+}

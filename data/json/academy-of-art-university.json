@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:01.861307+00:00",
+  "generated_at": "2026-06-04T04:55:39.728016+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Academy_of_Art_University",
     "fetched_at": "2026-05-27T22:30:18.921258+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 28024,
+    "out_of_state_tuition": 28024,
     "avg_net_price": 39778,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.4776,
     "federal_loan_rate": 0.5049,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 40285,
       "75_110k": 44633,
       "110k_plus": 41099
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.4046,
     "grad_rate_total": 0.34,
     "grad_4yr_bachelors": 0.06,
     "grad_5yr_bachelors": 0.21,
@@ -70,12 +73,10 @@
   "enrollment": {
     "enrollment_12mo_total": 8463,
     "ug_12mo": 5662,
-    "grad_12mo": 5544,
+    "grad_12mo": 2801,
     "women_12mo": 5120,
     "men_12mo": 3343,
     "fall_total": 5498,
-    "fall_full_time": 3644,
-    "fall_part_time": 3587,
     "distance_ed_any": 5498,
     "distance_ed_exclusive": 2948,
     "race_ethnicity": {
@@ -331,12 +332,7 @@
       "fetched_at": "2026-05-27T22:26:41.996341+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director of Data Policy and Institutional Research - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179411140"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Transfer Scholarship",

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:57.981654+00:00",
+  "generated_at": "2026-06-04T04:56:15.750823+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -35,11 +35,17 @@
     }
   },
   "brand": null,
-  "about": null,
-  "admissions": {},
+  "about": {
+    "summary": "College of the Canyons (COC) is a public community college in Santa Clarita, California, United States. It comprises the Santa Clarita Community College District. The college is accredited by the Accrediting Commission for Community and Junior Colleges and has locations in Valencia and Canyon Country.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/College_of_the_Canyons",
+    "source_url": "https://en.wikipedia.org/wiki/College_of_the_Canyons",
+    "fetched_at": "2026-06-03T19:46:41.083118+05:30"
+  },
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1176,
+    "out_of_state_tuition": 11232,
     "avg_net_price": 2114,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6689,
     "federal_loan_rate": 0.0096,
     "net_price_by_family_income": {
@@ -48,9 +54,11 @@
       "48_75k": 3334,
       "75_110k": 6175,
       "110k_plus": 7741
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4808,
     "grad_rate_total": 0.45,
     "pell_grad_rate": 0.45,
     "non_pell_grad_rate": 0.0,
@@ -60,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 31952,
     "ug_12mo": 31952,
-    "grad_12mo": 28128,
+    "grad_12mo": 0,
     "women_12mo": 13352,
     "men_12mo": 18600,
     "fall_total": 18075,
-    "fall_full_time": 18075,
-    "fall_part_time": 15832,
     "distance_ed_any": 18075,
     "distance_ed_exclusive": 5786,
     "race_ethnicity": {

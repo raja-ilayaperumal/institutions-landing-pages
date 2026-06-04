@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:52.559888+00:00",
+  "generated_at": "2026-06-04T04:56:02.705873+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -47,12 +47,14 @@
     "enrolled": 6482,
     "first_time_freshmen": 6482,
     "first_time_freshmen_ft": 6298,
+    "admission_rate": 0.4712,
     "admit_rate": 0.46272940559981895,
     "yield_rate": 0.16682967004684202
   },
   "cost": {
+    "in_state_tuition": 7008,
+    "out_of_state_tuition": 18888,
     "avg_net_price": 8931,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.1534,
     "federal_loan_rate": 0.2414,
     "net_price_by_family_income": {
@@ -61,9 +63,11 @@
       "48_75k": 9063,
       "75_110k": 12787,
       "110k_plus": 18575
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.6986,
     "grad_rate_total": 0.69,
     "grad_4yr_bachelors": 0.38,
     "grad_5yr_bachelors": 0.63,
@@ -78,12 +82,10 @@
   "enrollment": {
     "enrollment_12mo_total": 44099,
     "ug_12mo": 37273,
-    "grad_12mo": 37072,
+    "grad_12mo": 6826,
     "women_12mo": 25902,
     "men_12mo": 18197,
     "fall_total": 42003,
-    "fall_full_time": 36082,
-    "fall_part_time": 35924,
     "distance_ed_any": 42003,
     "distance_ed_exclusive": 2404,
     "race_ethnicity": {
@@ -817,12 +819,7 @@
       "fetched_at": "2026-05-25T16:27:43.636615+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Associate Vice President, Office of Research and Economic Development",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179380071"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Center for Human Factors in Advanced Aeronautics Technologies",

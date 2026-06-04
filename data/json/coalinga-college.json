@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:12.040905+00:00",
+  "generated_at": "2026-06-04T04:58:29.874712+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Coalinga_College",
     "fetched_at": "2026-05-27T23:30:35.657686+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1384,
+    "out_of_state_tuition": 10084,
     "avg_net_price": 8626,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7598,
     "federal_loan_rate": 0.0099,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9725,
       "75_110k": 12202,
       "110k_plus": 15869
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.342,
     "grad_rate_total": 0.43,
     "pell_grad_rate": 0.44,
     "non_pell_grad_rate": 0.33,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 5263,
     "ug_12mo": 5263,
-    "grad_12mo": 3498,
+    "grad_12mo": 0,
     "women_12mo": 2907,
     "men_12mo": 2356,
     "fall_total": 4175,
-    "fall_full_time": 4175,
-    "fall_part_time": 2522,
     "distance_ed_any": 4175,
     "distance_ed_exclusive": 1818,
     "race_ethnicity": {

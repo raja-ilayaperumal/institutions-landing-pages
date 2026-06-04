@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:01:11.295205+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 497338,
+    "slug": "glendale-career-college-north-west-college-bakersfield",
+    "name": "Glendale Career College-North-West College-Bakersfield",
+    "website_url": "https://www.success.edu",
+    "city": "Bakersfield",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93304-5075",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02338516",
+      "ein": "951729727"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Glendale Career College-North-West College-Bakersfield is a career-focused educational institution located in Bakersfield, California. It is part of Success Education Colleges, which has been serving students for over 60 years, with a notable emphasis on providing training in diverse fields including healthcare and vocational training.",
+    "source_url": "https://www.success.edu/about",
+    "fetched_at": "2026-06-03T16:39:20.268324+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 49781,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.8342,
+    "net_price_by_family_income": {
+      "0_30k": 49199,
+      "30_48k": 49776,
+      "48_75k": 50162,
+      "75_110k": 50614,
+      "110k_plus": 51088
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "grad_rate_total": 0.5,
+    "pell_grad_rate": 0.5,
+    "non_pell_grad_rate": 0.5,
+    "retention_full_time": 0.52
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 657,
+    "ug_12mo": 657,
+    "grad_12mo": 0,
+    "women_12mo": 570,
+    "men_12mo": 87,
+    "fall_total": 493,
+    "distance_ed_any": 493,
+    "distance_ed_exclusive": 0,
+    "race_ethnicity": {
+      "white": 0.1628,
+      "black": 0.0879,
+      "hispanic": 0.4522,
+      "asian": 0.0879,
+      "ai_an": 0.0052,
+      "nh_pi": 0.0078,
+      "two_or_more": 0.1938,
+      "non_resident": 0.0,
+      "race_unknown": 0.0026
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 61
+      }
+    ],
+    "program_count": 6,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 33.0,
+    "instr_total_fte": 2
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 422835,
+        "slug": "american-college-of-healthcare-and-technology",
+        "name": "American College of Healthcare and Technology",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 272,
+          "avg_net_price": 15115
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 486415,
+        "slug": "amg-school-of-nursing",
+        "name": "AMG School of Nursing",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 552,
+          "avg_net_price": 33363
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 449728,
+        "slug": "ata-college-3",
+        "name": "ATA College",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.23076923076923078,
+          "yield_rate": 0.6666666666666666,
+          "retention_rate": 0.83,
+          "enrollment": 193,
+          "avg_net_price": 22680
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 438735,
+        "slug": "aviation-institute-of-maintenance-indianapolis",
+        "name": "Aviation Institute of Maintenance-Indianapolis",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 172,
+          "avg_net_price": 30293
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 481386,
+        "slug": "california-career-institute",
+        "name": "California Career Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7394957983193278,
+          "yield_rate": 0.6988636363636364,
+          "enrollment": 628
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 487588,
+        "slug": "concorde-career-college-southaven",
+        "name": "Concorde Career College-Southaven",
+        "state": "Mississippi",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6545454545454545,
+          "retention_rate": 0.8,
+          "enrollment": 115,
+          "avg_net_price": 22064
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 491950,
+        "slug": "contra-costa-medical-career-college",
+        "name": "Contra Costa Medical Career College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 556
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 483504,
+        "slug": "dorsey-college-dearborn",
+        "name": "Dorsey College-Dearborn",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 430,
+          "avg_net_price": 22173
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 498094,
+        "slug": "galen-health-institutes-richmond",
+        "name": "Galen Health Institutes-Richmond",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 454,
+          "avg_net_price": 40766
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 485564,
+        "slug": "infinity-college",
+        "name": "Infinity College",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 179
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 493080,
+        "slug": "institute-of-culinary-education-2",
+        "name": "Institute of Culinary Education",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.82,
+          "enrollment": 553
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 367103,
+        "slug": "interactive-college-of-technology-newport",
+        "name": "Interactive College of Technology-Newport",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 101,
+          "avg_net_price": 15239
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 456214,
+        "slug": "lamson-institute",
+        "name": "Lamson Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 498,
+          "avg_net_price": 24617
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 495183,
+        "slug": "mariano-moreno-culinary-institute",
+        "name": "Mariano Moreno Culinary Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 108,
+          "avg_net_price": 14004
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 245962,
+        "slug": "miller-motte-college-tulsa",
+        "name": "Miller-Motte College-Tulsa",
+        "state": "Oklahoma",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 389,
+          "avg_net_price": 23107
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 484367,
+        "slug": "north-west-college-anaheim",
+        "name": "North-West College-Anaheim",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6727272727272727,
+          "retention_rate": 0.87,
+          "enrollment": 513,
+          "avg_net_price": 31140
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 484376,
+        "slug": "north-west-college-long-beach",
+        "name": "North-West College-Long Beach",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6790123456790124,
+          "retention_rate": 0.75,
+          "enrollment": 652,
+          "avg_net_price": 32474
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 453792,
+        "slug": "ohio-medical-career-college",
+        "name": "Ohio Medical Career College",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 129,
+          "avg_net_price": 16023
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 494588,
+        "slug": "pima-medical-institute-san-antonio",
+        "name": "Pima Medical Institute-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 424,
+          "avg_net_price": 21497
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 177302,
+        "slug": "pinnacle-career-institute",
+        "name": "Pinnacle Career Institute",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 619,
+          "avg_net_price": 19024
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 444811,
+        "slug": "pitc-institute",
+        "name": "PITC Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 282,
+          "avg_net_price": 19304
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 416458,
+        "slug": "premiere-career-college",
+        "name": "Premiere Career College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 105,
+          "avg_net_price": 23214
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 490841,
+        "slug": "ross-college-grand-rapids-north",
+        "name": "Ross College-Grand Rapids North",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.45,
+          "enrollment": 387,
+          "avg_net_price": 21770
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 495952,
+        "slug": "san-joaquin-valley-college-rancho-mirage",
+        "name": "San Joaquin Valley College-Rancho Mirage",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 342,
+          "avg_net_price": 24175
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 495961,
+        "slug": "san-joaquin-valley-college-santa-maria",
+        "name": "San Joaquin Valley College-Santa Maria",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 114,
+          "avg_net_price": 20549
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 451352,
+        "slug": "southeastern-college-charlotte",
+        "name": "Southeastern College-Charlotte",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9366515837104072,
+          "yield_rate": 0.5990338164251208,
+          "retention_rate": 0.73,
+          "enrollment": 252,
+          "avg_net_price": 36058
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 493992,
+        "slug": "southern-careers-institute-waco",
+        "name": "Southern Careers Institute-Waco",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 185,
+          "avg_net_price": 22657
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 498030,
+        "slug": "universal-technical-institute-south-florida-miramar",
+        "name": "Universal Technical Institute-South Florida Miramar",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "enrollment": 791,
+          "avg_net_price": 25637
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 377652,
+        "slug": "valley-college-beckley",
+        "name": "Valley College-Beckley",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 165,
+          "avg_net_price": 24526
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=497338",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:10:40.157244+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "CAPPS Scholarship",
+      "agency": "California Association of Private Postsecondary Schools",
+      "kind": "award",
+      "amount_usd": 3000,
+      "url": "https://www.success.edu/north-west-college-student-awarded-the-capps-scholarship/",
+      "source": "institution_site",
+      "award_date": "2015-09-30"
+    }
+  ],
+  "notable_alumni": []
+}

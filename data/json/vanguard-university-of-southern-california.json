@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:19.341256+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 123651,
+    "slug": "vanguard-university-of-southern-california",
+    "name": "Vanguard University of Southern California",
+    "website_url": "https://www.vanguard.edu",
+    "city": "Costa Mesa",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92626",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "RYZQU4KA4SK3",
+      "opeid": "00129300",
+      "ein": "956002998"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Vanguard University is a private Protestant university in Costa Mesa, California. Vanguard's required core curriculum includes courses on American politics and history, theology, fine arts, and public speaking.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vanguard_University",
+    "source_url": "https://en.wikipedia.org/wiki/Vanguard_University",
+    "fetched_at": "2026-05-28T01:01:56.670784+05:30"
+  },
+  "admissions": {
+    "applicants": 3948,
+    "admits": 2465,
+    "enrolled": 485,
+    "first_time_freshmen": 485,
+    "first_time_freshmen_ft": 468,
+    "admission_rate": 0.647,
+    "admit_rate": 0.6243667679837892,
+    "yield_rate": 0.19675456389452334
+  },
+  "cost": {
+    "in_state_tuition": 39950,
+    "out_of_state_tuition": 39950,
+    "avg_net_price": 19761,
+    "pell_grant_rate": 0.083,
+    "federal_loan_rate": 0.8406,
+    "net_price_by_family_income": {
+      "0_30k": 14906,
+      "30_48k": 14528,
+      "48_75k": 17411,
+      "75_110k": 19543,
+      "110k_plus": 27190
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5586,
+    "grad_rate_total": 0.57,
+    "grad_4yr_bachelors": 0.52,
+    "grad_5yr_bachelors": 0.56,
+    "grad_6yr_bachelors": 0.57,
+    "pell_grad_rate": 0.55,
+    "pell_6yr_bachelors_rate": 0.55,
+    "non_pell_grad_rate": 0.55,
+    "non_pell_6yr_bachelors": 0.55,
+    "retention_full_time": 0.7,
+    "retention_part_time": 0.56
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2545,
+    "ug_12mo": 2224,
+    "grad_12mo": 321,
+    "women_12mo": 1661,
+    "men_12mo": 884,
+    "fall_total": 2246,
+    "distance_ed_any": 2246,
+    "distance_ed_exclusive": 393,
+    "race_ethnicity": {
+      "white": 0.3063,
+      "black": 0.0532,
+      "hispanic": 0.4765,
+      "asian": 0.0446,
+      "ai_an": 0.0025,
+      "nh_pi": 0.0061,
+      "two_or_more": 0.0238,
+      "non_resident": 0.0005,
+      "race_unknown": 0.0866
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 112
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 88
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 72
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 62
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 59
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 32
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 24
+      },
+      {
+        "cip_family_code": "38",
+        "cip_family_label": "Philosophy/Religion",
+        "completions": 18
+      }
+    ],
+    "program_count": 47,
+    "highest_degree": 8,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 73
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 169080,
+        "slug": "calvin-university",
+        "name": "Calvin University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7090686702778263,
+          "yield_rate": 0.21439132577624445,
+          "grad_rate": 0.74,
+          "retention_rate": 0.87,
+          "enrollment": 3681,
+          "avg_net_price": 24783
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 112075,
+        "slug": "concordia-university-irvine",
+        "name": "Concordia University-Irvine",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6598685701336959,
+          "yield_rate": 0.11607142857142858,
+          "grad_rate": 0.58,
+          "retention_rate": 0.75,
+          "enrollment": 3658,
+          "avg_net_price": 28046
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 177339,
+        "slug": "evangel-university",
+        "name": "Evangel University",
+        "state": "Missouri",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7160804020100503,
+          "yield_rate": 0.3894736842105263,
+          "grad_rate": 0.65,
+          "retention_rate": 0.76,
+          "enrollment": 2289,
+          "avg_net_price": 18705
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 208822,
+        "slug": "george-fox-university",
+        "name": "George Fox University",
+        "state": "Oregon",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9351081530782029,
+          "yield_rate": 0.18073207930859175,
+          "grad_rate": 0.72,
+          "retention_rate": 0.83,
+          "enrollment": 4916,
+          "avg_net_price": 29981
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 165936,
+        "slug": "gordon-college",
+        "name": "Gordon College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6923076923076923,
+          "yield_rate": 0.21550671550671552,
+          "grad_rate": 0.69,
+          "retention_rate": 0.84,
+          "enrollment": 1595,
+          "avg_net_price": 24817
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 236133,
+        "slug": "northwest-university",
+        "name": "Northwest University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.832,
+          "yield_rate": 0.3076923076923077,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 1053,
+          "avg_net_price": 25161
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 236577,
+        "slug": "seattle-pacific-university",
+        "name": "Seattle Pacific University",
+        "state": "Washington",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8339688041594454,
+          "yield_rate": 0.15752285951787198,
+          "grad_rate": 0.62,
+          "retention_rate": 0.72,
+          "enrollment": 2261,
+          "avg_net_price": 24820
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 137564,
+        "slug": "southeastern-university",
+        "name": "Southeastern University",
+        "state": "Florida",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5297969875573019,
+          "yield_rate": 0.4861969509682736,
+          "grad_rate": 0.44,
+          "retention_rate": 0.7,
+          "enrollment": 11510,
+          "avg_net_price": 30209
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 216542,
+        "slug": "university-of-valley-forge",
+        "name": "University of Valley Forge",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.612012987012987,
+          "yield_rate": 0.27851458885941643,
+          "grad_rate": 0.49,
+          "retention_rate": 0.78,
+          "enrollment": 589,
+          "avg_net_price": 27499
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=123651",
+      "stored": false,
+      "fetched_at": "2026-05-28T01:01:57.867347+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

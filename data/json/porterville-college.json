@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:01.539868+00:00",
+  "generated_at": "2026-06-04T04:57:49.965266+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,28 @@
   },
   "brand": null,
   "about": {
-    "summary": "Porterville College is a public community college in Porterville, California. It was established in 1927.",
+    "summary": "Porterville College is a public community college located in Porterville, California. It is part of the Kern Community College District and offers a range of programs and classes aimed at providing career pathways, academic transfer opportunities, and student services. The founding year is not explicitly mentioned on the page.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Porterville_College",
     "source_url": "https://en.wikipedia.org/wiki/Porterville_College",
-    "fetched_at": "2026-05-27T22:47:26.09716+05:30"
+    "fetched_at": "2026-06-03T19:48:25.224732+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1409,
+    "out_of_state_tuition": 10289,
     "avg_net_price": 3728,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6494,
     "federal_loan_rate": 0.001,
     "net_price_by_family_income": {
       "0_30k": 2910,
       "30_48k": 3734,
       "48_75k": 5394,
-      "75_110k": 10255,
-      "110k_plus": null
-    }
+      "75_110k": 10255
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3256,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.38,
     "retention_full_time": 0.51,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 7010,
     "ug_12mo": 7010,
-    "grad_12mo": 4178,
+    "grad_12mo": 0,
     "women_12mo": 4193,
     "men_12mo": 2817,
     "fall_total": 4784,
-    "fall_full_time": 4784,
-    "fall_part_time": 2834,
     "distance_ed_any": 4784,
     "distance_ed_exclusive": 1597,
     "race_ethnicity": {

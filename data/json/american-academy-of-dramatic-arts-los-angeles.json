@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:55:42.435367+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 108852,
+    "slug": "american-academy-of-dramatic-arts-los-angeles",
+    "name": "American Academy of Dramatic Arts-Los Angeles",
+    "website_url": "https://www.aada.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90028",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HXDZCKCNLLK3",
+      "opeid": "00746501",
+      "ein": "130429660"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The American Academy of Dramatic Arts (AADA) is a private drama school with one location in New York City; it formerly had another location in Los Angeles. The academy offers an associate degree in occupational studies and teaches drama and related arts in the areas of theater, film, and television. Students also have the opportunity to audition for the third-year theater company, which showcases upcoming talent to the school and community. Students can usually transfer completed credits to another college or university to finish a bachelor's degree if they choose.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/American_Academy_of_Dramatic_Arts",
+    "source_url": "https://en.wikipedia.org/wiki/American_Academy_of_Dramatic_Arts",
+    "fetched_at": "2026-06-03T14:23:02.6522+05:30"
+  },
+  "admissions": {
+    "applicants": 93,
+    "admits": 77,
+    "enrolled": 14,
+    "first_time_freshmen": 14,
+    "first_time_freshmen_ft": 14,
+    "admission_rate": 0.8968,
+    "admit_rate": 0.8279569892473119,
+    "yield_rate": 0.18181818181818182
+  },
+  "cost": {
+    "in_state_tuition": 39475,
+    "out_of_state_tuition": 39475,
+    "avg_net_price": 40991,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.4612,
+    "net_price_by_family_income": {
+      "0_30k": 37452,
+      "30_48k": 41181,
+      "48_75k": 46735,
+      "75_110k": 40431,
+      "110k_plus": 43210
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.618,
+    "grad_rate_total": 0.78,
+    "pell_grad_rate": 0.73,
+    "non_pell_grad_rate": 0.64,
+    "retention_full_time": 0.73
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 181,
+    "ug_12mo": 181,
+    "grad_12mo": 0,
+    "women_12mo": 106,
+    "men_12mo": 75,
+    "fall_total": 112,
+    "distance_ed_any": 112,
+    "race_ethnicity": {
+      "white": 0.3491,
+      "black": 0.1065,
+      "hispanic": 0.1243,
+      "asian": 0.0296,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0828,
+      "non_resident": 0.3077,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 85
+      }
+    ],
+    "program_count": 1,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 12.0,
+    "instr_total_fte": 4
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 111081,
+        "slug": "california-institute-of-the-arts",
+        "name": "California Institute of the Arts",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.32335329341317365,
+          "yield_rate": 0.279320987654321,
+          "grad_rate": 0.67,
+          "retention_rate": 0.82,
+          "enrollment": 1277,
+          "avg_net_price": 47183
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 131830,
+        "slug": "national-conservatory-of-dramatic-arts",
+        "name": "National Conservatory of Dramatic Arts",
+        "state": "District of Columbia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 16
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 421841,
+        "slug": "new-york-conservatory-for-dramatic-arts",
+        "name": "New York Conservatory for Dramatic Arts",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Arts & Design",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.42782608695652175,
+          "yield_rate": 0.4349593495934959,
+          "retention_rate": 0.83,
+          "enrollment": 251,
+          "avg_net_price": 39413
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 193654,
+        "slug": "the-new-school",
+        "name": "The New School",
+        "state": "New York",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6347171347171348,
+          "yield_rate": 0.2128887463930747,
+          "grad_rate": 0.69,
+          "retention_rate": 0.85,
+          "enrollment": 9068,
+          "avg_net_price": 55359
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=108852",
+      "stored": false,
+      "fetched_at": "2026-06-03T14:23:03.835579+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

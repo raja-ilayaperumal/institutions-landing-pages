@@ -4,7 +4,9 @@ from __future__ import annotations
 import re
 
 from ..core import crawler, html as html_utils, pdf, search
-from .base import BaseConnector, ConnectorResult, InstitutionContext
+from .base import (
+    BaseConnector, ConnectorResult, InstitutionContext, same_registrable_domain,
+)
 
 YEAR_RE = re.compile(r"(20\d{2})")
 
@@ -39,11 +41,14 @@ class FactbookConnector(BaseConnector):
                     if "factbook" in link.lower() or "fact" in link.lower():
                         pdf_urls.append(link)
 
-        pdf_urls = list(dict.fromkeys(pdf_urls))[:5]
+        # Drop any PDF that isn't on the institution's own domain — `site:` is a
+        # soft hint, so search can surface a peer school's or vendor's factbook.
+        pdf_urls = [u for u in dict.fromkeys(pdf_urls)
+                    if same_registrable_domain(u, ctx)][:5]
         if not pdf_urls:
             return self._err(
                 "NO_PDF_FOUND",
-                f"no factbook PDF found; landing pages: {landing_pages[:3]}",
+                f"no on-domain factbook PDF found; landing pages: {landing_pages[:3]}",
             )
 
         # Download + extract text from the first PDF

@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:20.500271+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 439871,
+    "slug": "pci-college",
+    "name": "PCI College",
+    "website_url": "https://www.pci-ed.com",
+    "city": "Cerritos",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90703",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+    "carnegie_slug": "associates-high-transfer-nontraditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "xjbpnh41gwt4",
+      "opeid": "03479300",
+      "ein": "954666872"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "PCI College is a private vocational institution located in Cerritos, California, focused on career enhancement in the allied health fields. It offers programs for diagnostic medical sonography and medical assisting, and features small class sizes with modern facilities. The college is accredited by the Accrediting Commission of Career Schools and Colleges and licensed by the Bureau of Private Postsecondary Education.",
+    "source_url": "https://www.pci-ed.com/about",
+    "fetched_at": "2026-06-03T16:38:58.411846+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 24046,
+    "pell_grant_rate": 0.006,
+    "federal_loan_rate": 0.7446,
+    "net_price_by_family_income": {
+      "0_30k": 23323,
+      "30_48k": 22885,
+      "48_75k": 23122,
+      "75_110k": 29718,
+      "110k_plus": 29718
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7692,
+    "grad_rate_total": 0.68,
+    "pell_grad_rate": 0.67,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 226,
+    "ug_12mo": 226,
+    "grad_12mo": 0,
+    "women_12mo": 224,
+    "men_12mo": 2,
+    "fall_total": 149,
+    "distance_ed_any": 149,
+    "distance_ed_exclusive": 4,
+    "race_ethnicity": {
+      "white": 0.0714,
+      "black": 0.0179,
+      "hispanic": 0.8333,
+      "asian": 0.0536,
+      "ai_an": 0.0238,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 65
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 114114,
+        "slug": "emperor-s-college-of-traditional-oriental-medicine",
+        "name": "Emperor's College of Traditional Oriental Medicine",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.7761,
+        "metrics": {
+          "enrollment": 150
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 487995,
+        "slug": "alhambra-medical-university",
+        "name": "Alhambra Medical University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.7442,
+        "metrics": {
+          "enrollment": 140
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 491808,
+        "slug": "meridian-university",
+        "name": "Meridian University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.7173,
+        "metrics": {
+          "enrollment": 297
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 114585,
+        "slug": "five-branches-university",
+        "name": "Five Branches University",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.6883,
+        "metrics": {
+          "enrollment": 321
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 422695,
+        "slug": "pacific-college",
+        "name": "Pacific College",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.6484,
+        "metrics": {
+          "admit_rate": 0.56,
+          "yield_rate": 0.5714285714285714,
+          "enrollment": 243,
+          "avg_net_price": 21941
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:10.864853+00:00",
+  "generated_at": "2026-06-04T04:58:38.122198+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/University_of_Arizona_Global_Campus",
     "fetched_at": "2026-05-25T17:54:36.736851+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 13160,
+    "out_of_state_tuition": 13160,
     "avg_net_price": 25321,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.0,
     "federal_loan_rate": 0.3576,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 26377,
       "75_110k": 28812,
       "110k_plus": 27097
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.0877,
     "grad_rate_total": 0.11,
     "grad_4yr_bachelors": 0.03,
     "grad_5yr_bachelors": 0.08,
@@ -69,12 +72,10 @@
   "enrollment": {
     "enrollment_12mo_total": 46925,
     "ug_12mo": 36770,
-    "grad_12mo": 34645,
+    "grad_12mo": 10155,
     "women_12mo": 28570,
     "men_12mo": 18355,
     "fall_total": 28004,
-    "fall_full_time": 21113,
-    "fall_part_time": 20152,
     "distance_ed_any": 28004,
     "distance_ed_exclusive": 27981,
     "race_ethnicity": {

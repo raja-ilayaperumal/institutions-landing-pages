@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:44.352376+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120795,
+    "slug": "pacific-school-of-religion",
+    "name": "Pacific School of Religion",
+    "website_url": "https://www.psr.edu",
+    "city": "Berkeley",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94709",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "LBM8VZWTM5U7",
+      "opeid": "00125600",
+      "ein": "941186179"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Pacific School of Religion (PSR) is a private Protestant seminary in Berkeley, California, United States. It maintains covenantal relationships with the United Church of Christ, the United Methodist Church, and the Disciples of Christ, ensuring the school provides the necessary requirements for candidates to seek ordination within these denominations. These three denominations account for approximately half of the student population of PSR. The school has also maintained close relationships with the Unitarian Universalist Association, the Universal Fellowship of Metropolitan Community Churches, the African Methodist Episcopal Church, as well as other denominations. Over the years PSR has provided training for clergy and leaders from a wide range of religious traditions including Buddhists, Jews, Pagans, Pentecostals, and Roman Catholics.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pacific_School_of_Religion",
+    "source_url": "https://en.wikipedia.org/wiki/Pacific_School_of_Religion",
+    "fetched_at": "2026-06-03T13:49:42.651978+05:30"
+  },
+  "admissions": null,
+  "cost": null,
+  "graduation": null,
+  "enrollment": {
+    "enrollment_12mo_total": 153,
+    "women_12mo": 91,
+    "men_12mo": 62,
+    "fall_total": 124,
+    "distance_ed_any": 124,
+    "distance_ed_exclusive": 0
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 11
+      }
+    ],
+    "program_count": 3,
+    "highest_degree": 9,
+    "offers_undergraduate": 2,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 14
+  },
+  "faculty": {
+    "instr_total_fte": 9
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 151865,
+        "slug": "anabaptist-mennonite-biblical-seminary",
+        "name": "Anabaptist Mennonite Biblical Seminary",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 145
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 176600,
+        "slug": "aquinas-institute-of-theology",
+        "name": "Aquinas Institute of Theology",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 110
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 420705,
+        "slug": "bakke-graduate-university",
+        "name": "Bakke Graduate University",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 118
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 443702,
+        "slug": "bexley-hall-seabury-western-theological-seminary-federation-inc",
+        "name": "Bexley Hall Seabury Western Theological Seminary Federation, Inc.",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 80
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 450304,
+        "slug": "brite-divinity-school",
+        "name": "Brite Divinity School",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 153
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 169099,
+        "slug": "calvin-theological-seminary",
+        "name": "Calvin Theological Seminary",
+        "state": "Michigan",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 367
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 150215,
+        "slug": "christian-theological-seminary",
+        "name": "Christian Theological Seminary",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 151
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 190080,
+        "slug": "colgate-rochester-crozer-divinity-school",
+        "name": "Colgate Rochester Crozer Divinity School",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 78
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 177278,
+        "slug": "eden-theological-seminary",
+        "name": "Eden Theological Seminary",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 72
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 246789,
+        "slug": "hj-international-graduate-school-for-peace-and-public-leadership",
+        "name": "HJ International Graduate School for Peace and Public Leadership",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8571428571428571,
+          "retention_rate": 0.8,
+          "enrollment": 155
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 443076,
+        "slug": "hood-theological-seminary",
+        "name": "Hood Theological Seminary",
+        "state": "North Carolina",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 115
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 127273,
+        "slug": "iliff-school-of-theology",
+        "name": "Iliff School of Theology",
+        "state": "Colorado",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 166
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 140146,
+        "slug": "interdenominational-theological-center",
+        "name": "Interdenominational Theological Center",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 60
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 213446,
+        "slug": "lancaster-theological-seminary",
+        "name": "Lancaster Theological Seminary",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 66
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 157207,
+        "slug": "lexington-theological-seminary",
+        "name": "Lexington Theological Seminary",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 82
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 157298,
+        "slug": "louisville-presbyterian-theological-seminary",
+        "name": "Louisville Presbyterian Theological Seminary",
+        "state": "Kentucky",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 103
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 146728,
+        "slug": "lutheran-school-of-theology-at-chicago",
+        "name": "Lutheran School of Theology at Chicago",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 101
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 146977,
+        "slug": "mccormick-theological-seminary",
+        "name": "McCormick Theological Seminary",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 125
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 147031,
+        "slug": "meadville-theological-school-of-lombard-college",
+        "name": "Meadville Theological School of Lombard College",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 62
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 239424,
+        "slug": "nashotah-house",
+        "name": "Nashotah House",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 143
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 178518,
+        "slug": "nazarene-theological-seminary",
+        "name": "Nazarene Theological Seminary",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 168
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 185758,
+        "slug": "new-brunswick-theological-seminary",
+        "name": "New Brunswick Theological Seminary",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 129
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 193894,
+        "slug": "new-york-theological-seminary",
+        "name": "New York Theological Seminary",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 24,
+        "unitid": 439817,
+        "slug": "northeastern-seminary",
+        "name": "Northeastern Seminary",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 218
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 147697,
+        "slug": "northern-baptist-theological-seminary",
+        "name": "Northern Baptist Theological Seminary",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 315
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 414966,
+        "slug": "phillips-theological-seminary",
+        "name": "Phillips Theological Seminary",
+        "state": "Oklahoma",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 103
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 455813,
+        "slug": "pontifical-john-paul-ii-institute-for-studies-on-marriage-and-family",
+        "name": "Pontifical John Paul II Institute for Studies on Marriage and Family",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 65
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 179317,
+        "slug": "saint-paul-school-of-theology",
+        "name": "Saint Paul School of Theology",
+        "state": "Kansas",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 91
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 195580,
+        "slug": "saint-vladimirs-orthodox-theological-seminary",
+        "name": "Saint Vladimirs Orthodox Theological Seminary",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 90
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 148982,
+        "slug": "spertus-college",
+        "name": "Spertus College",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 89
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 148885,
+        "slug": "university-of-saint-mary-of-the-lake",
+        "name": "University of Saint Mary of the Lake",
+        "state": "Illinois",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 200
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 206516,
+        "slug": "winebrenner-theological-seminary",
+        "name": "Winebrenner Theological Seminary",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 122
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120795",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:49:43.445611+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2022,
+      "title": "A Plan for a Thriving Future",
+      "url": "https://www.psr.edu/about/a-transformative-future/",
+      "summary": "The Pacific School of Religion has launched a strategic plan for 2022-2025 to address global and educational crises by reforming theological education. This plan includes nurturing collaborative learning, developing a tech-enabled educational platform, enhancing community engagement, and ensuring financial sustainability. The aim is to equip and connect a diverse group of leaders to foster a thriving world.",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:46:46.280559+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Rev. Deborah Lee",
+      "field": "Social Justice"
+    },
+    {
+      "name": "David Batstone"
+    },
+    {
+      "name": "Lynda Goodsell Blake"
+    },
+    {
+      "name": "Kittredge Cherry"
+    },
+    {
+      "name": "Wilbur Wong Yan Choy"
+    },
+    {
+      "name": "Carla DeSola"
+    },
+    {
+      "name": "Vernard Eller"
+    },
+    {
+      "name": "James Ishmael Ford"
+    },
+    {
+      "name": "Mike Friedrich"
+    },
+    {
+      "name": "Anne Hodges-Copple"
+    },
+    {
+      "name": "Margaret F. Hood"
+    },
+    {
+      "name": "Stewart Hoover"
+    },
+    {
+      "name": "William R. Johnson (minister)"
+    },
+    {
+      "name": "Nyasha Junior"
+    },
+    {
+      "name": "Victoria Kolakowski"
+    },
+    {
+      "name": "Kubushiro Ochimi"
+    },
+    {
+      "name": "Gerald A. Larue"
+    },
+    {
+      "name": "Vivian Lee Bowden"
+    },
+    {
+      "name": "Edward Linenthal"
+    },
+    {
+      "name": "Christopher Lowson"
+    },
+    {
+      "name": "Megan Rohrer"
+    },
+    {
+      "name": "R. J. Rushdoony"
+    },
+    {
+      "name": "Robert John Russell"
+    },
+    {
+      "name": "Pat Schneider"
+    },
+    {
+      "name": "Harold M. Schulweis"
+    },
+    {
+      "name": "Linda Seger"
+    },
+    {
+      "name": "Henry Orton Wiley"
+    },
+    {
+      "name": "Olive Winchester"
+    }
+  ]
+}

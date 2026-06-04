@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:58:56.568837+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 381325,
+    "slug": "cet-santa-maria",
+    "name": "CET-Santa Maria",
+    "website_url": "https://www.cetweb.edu",
+    "city": "Santa Maria",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "93458",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "02332803",
+      "ein": "941658311"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The Center for Employment Training (CET) is a private postsecondary institution founded in 1967, located in Santa Maria, California. It offers various programs focused on job training and human development in areas such as business, technical trades, and medical fields.",
+    "source_url": "https://www.cetweb.edu/about",
+    "fetched_at": "2026-06-03T16:39:18.389131+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 2869,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.15,
+    "net_price_by_family_income": {
+      "0_30k": 3245,
+      "30_48k": 3259,
+      "48_75k": 17
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3939,
+    "grad_rate_total": 0.77,
+    "pell_grad_rate": 0.79,
+    "retention_full_time": 0.92
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 209,
+    "ug_12mo": 209,
+    "grad_12mo": 0,
+    "women_12mo": 137,
+    "men_12mo": 72,
+    "fall_total": 142,
+    "distance_ed_any": 142,
+    "race_ethnicity": {
+      "white": 0.016,
+      "black": 0.008,
+      "hispanic": 0.96,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.008,
+      "two_or_more": 0.008,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 3,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 475705,
+        "slug": "annenberg-school-of-nursing",
+        "name": "Annenberg School of Nursing",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 0.78,
+          "enrollment": 7,
+          "avg_net_price": 20811
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 237145,
+        "slug": "b-m-spurr-school-of-practical-nursing",
+        "name": "B M Spurr School of Practical Nursing",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.625,
+          "yield_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 17,
+          "avg_net_price": 9956
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 442976,
+        "slug": "brighton-center-s-center-for-employment-training",
+        "name": "Brighton Center's Center for Employment Training",
+        "state": "Kentucky",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 53,
+          "avg_net_price": 10813
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 430306,
+        "slug": "cayce-reilly-school-of-massage",
+        "name": "Cayce/Reilly School of Massage",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 19,
+          "avg_net_price": 17382
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 201681,
+        "slug": "central-school-of-practical-nursing",
+        "name": "Central School of Practical Nursing",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 97,
+          "avg_net_price": 20675
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 444510,
+        "slug": "ces-college",
+        "name": "CES College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.68,
+          "yield_rate": 0.5882352941176471,
+          "retention_rate": 0.83,
+          "enrollment": 118,
+          "avg_net_price": 27139
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 381282,
+        "slug": "cet-oxnard",
+        "name": "CET-Oxnard",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 95,
+          "avg_net_price": 9534
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 111799,
+        "slug": "cet-salinas",
+        "name": "CET-Salinas",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 171,
+          "avg_net_price": 6804
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 211635,
+        "slug": "citizens-school-of-nursing",
+        "name": "Citizens School of Nursing",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8333333333333334,
+          "yield_rate": 1.0,
+          "retention_rate": 0.31,
+          "enrollment": 152,
+          "avg_net_price": 26072
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 226675,
+        "slug": "covenant-school-of-nursing-and-allied-health",
+        "name": "Covenant School of Nursing and Allied Health",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 360
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 190707,
+        "slug": "cvph-medical-center-school-of-radiologic-technology",
+        "name": "CVPH Medical Center School of Radiologic Technology",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 1.0,
+          "retention_rate": 0.67,
+          "enrollment": 20,
+          "avg_net_price": 8609
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 262466,
+        "slug": "dr-ida-rolf-institute",
+        "name": "Dr. Ida Rolf Institute",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 12,
+          "avg_net_price": 38347
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 457794,
+        "slug": "edp-school",
+        "name": "EDP School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 151,
+          "avg_net_price": 11808
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 493585,
+        "slug": "health-and-technology-training-institute",
+        "name": "Health and Technology Training Institute",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7333333333333333,
+          "yield_rate": 1.0,
+          "retention_rate": 0.7,
+          "enrollment": 20,
+          "avg_net_price": 24653
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 499103,
+        "slug": "homestead-schools-costa-mesa",
+        "name": "Homestead Schools-Costa Mesa",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 32
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 368771,
+        "slug": "hypnosis-motivation-institute",
+        "name": "Hypnosis Motivation Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 209,
+          "avg_net_price": 42523
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 191940,
+        "slug": "isabella-graham-hart-school-of-practical-nursing",
+        "name": "Isabella Graham Hart School of Practical Nursing",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 85,
+          "avg_net_price": 16121
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 427308,
+        "slug": "merkaz-bnos-business-school",
+        "name": "Merkaz Bnos-Business School",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8181818181818182,
+          "yield_rate": 0.5555555555555556,
+          "retention_rate": 0.73,
+          "enrollment": 110,
+          "avg_net_price": 25008
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 441575,
+        "slug": "metropolitan-learning-institute",
+        "name": "Metropolitan Learning Institute",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 357,
+          "avg_net_price": 9526
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 496618,
+        "slug": "national-institute-for-medical-assistant-advancement",
+        "name": "National Institute for Medical Assistant Advancement",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.2938388625592417,
+          "yield_rate": 0.6693548387096774,
+          "retention_rate": 0.8,
+          "enrollment": 194,
+          "avg_net_price": 10571
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 148955,
+        "slug": "national-latino-education-institute",
+        "name": "National Latino Education Institute",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 19661
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 437723,
+        "slug": "new-community-career-and-technical-institute",
+        "name": "New Community Career & Technical Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.18,
+          "enrollment": 11,
+          "avg_net_price": 5716
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 483823,
+        "slug": "philadelphia-technician-training",
+        "name": "Philadelphia Technician Training",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 512,
+          "avg_net_price": 23288
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 487889,
+        "slug": "regional-center-for-border-health",
+        "name": "Regional Center for Border Health",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 131
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 165060,
+        "slug": "signature-healthcare-brockton-hospital-school-of-nursing",
+        "name": "Signature Healthcare Brockton Hospital School of Nursing",
+        "state": "Massachusetts",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.34146341463414637,
+          "yield_rate": 0.8571428571428571,
+          "retention_rate": 0.88,
+          "enrollment": 146,
+          "avg_net_price": 25162
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 485360,
+        "slug": "the-vocational-nursing-institute-inc",
+        "name": "The Vocational Nursing Institute Inc",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 3,
+          "avg_net_price": 57042
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 443322,
+        "slug": "valley-grande-institute-for-academic-studies",
+        "name": "Valley Grande Institute for Academic Studies",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 84,
+          "avg_net_price": 11260
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 237905,
+        "slug": "west-virginia-university-hospital-departments-of-rad-tech-and-nutrition",
+        "name": "West Virginia University Hospital Departments of Rad Tech and Nutrition",
+        "state": "West Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 64
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=381325",
+      "stored": false,
+      "fetched_at": "2026-06-03T13:30:24.692608+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

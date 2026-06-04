@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:43.549956+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 449445,
+    "slug": "valley-college-of-medical-careers",
+    "name": "Valley College of Medical Careers",
+    "website_url": "https://www.valleycollegeofmedicalcareers.info",
+    "city": "West Hills",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91304",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MLXPLFC3JDQ7",
+      "opeid": "04114500",
+      "ein": "954722561"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Valley College of Medical Careers is a private post-secondary institution located in California. It focuses on providing education and training in various medical careers such as healthcare, nursing, and medical assisting. The founding year is not mentioned.",
+    "source_url": "https://www.valleycollegeofmedicalcareers.info/about",
+    "fetched_at": "2026-06-03T19:34:24.116212+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 21967,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7453,
+    "net_price_by_family_income": {
+      "0_30k": 21578,
+      "30_48k": 23322,
+      "48_75k": 25697
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.9107,
+    "grad_rate_total": 0.79,
+    "pell_grad_rate": 0.76,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.08
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 80,
+    "ug_12mo": 80,
+    "grad_12mo": 0,
+    "women_12mo": 63,
+    "men_12mo": 17,
+    "race_ethnicity": {
+      "white": 0.0526,
+      "black": 0.0526,
+      "hispanic": 0.807,
+      "asian": 0.0877,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 0
+      }
+    ],
+    "program_count": 4,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "Auto-generated (Carnegie + state + control + size)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447713,
+        "slug": "california-career-college",
+        "name": "California Career College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.5797,
+        "metrics": {
+          "enrollment": 190
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 448372,
+        "slug": "san-joaquin-valley-college-rancho-cordova",
+        "name": "San Joaquin Valley College-Rancho Cordova",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.5769,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 224,
+          "avg_net_price": 27288
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 461263,
+        "slug": "american-medical-sciences-center",
+        "name": "American Medical Sciences Center",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.5611,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 365,
+          "avg_net_price": 23566
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 124937,
+        "slug": "concorde-career-college-north-hollywood",
+        "name": "Concorde Career College-North Hollywood",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.5469,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5702127659574469,
+          "retention_rate": 0.67,
+          "enrollment": 158,
+          "avg_net_price": 23584
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 447759,
+        "slug": "national-polytechnic-college",
+        "name": "National Polytechnic College",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.5453,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 516,
+          "avg_net_price": 31626
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

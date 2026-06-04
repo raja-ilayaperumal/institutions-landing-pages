@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:23.301533+00:00",
+  "generated_at": "2026-06-04T04:57:47.392750+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Palomar_College",
     "fetched_at": "2026-05-25T19:56:03.116016+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1354,
+    "out_of_state_tuition": 10650,
     "avg_net_price": 5247,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6359,
     "federal_loan_rate": 0.0065,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7762,
       "75_110k": 10075,
       "110k_plus": 11879
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3669,
     "grad_rate_total": 0.38,
     "pell_grad_rate": 0.34,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 27097,
     "ug_12mo": 27097,
-    "grad_12mo": 23076,
+    "grad_12mo": 0,
     "women_12mo": 12550,
     "men_12mo": 14547,
     "fall_total": 19550,
-    "fall_full_time": 19550,
-    "fall_part_time": 17712,
     "distance_ed_any": 19550,
     "distance_ed_exclusive": 5246,
     "race_ethnicity": {

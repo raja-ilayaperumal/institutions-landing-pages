@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:11.547297+00:00",
+  "generated_at": "2026-06-04T04:57:46.827210+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,26 +36,27 @@
   },
   "brand": null,
   "about": {
-    "summary": "Palo Verde College, formerly Palo Verde Junior College, is a public community college in Blythe, California.",
+    "summary": "Palo Verde College is a public community college located in Blythe, California, with additional centers in Needles and for Child Development. The college focuses on providing a range of academic programs and degrees and serves a diverse student population.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Palo_Verde_College",
     "source_url": "https://en.wikipedia.org/wiki/Palo_Verde_College",
-    "fetched_at": "2026-05-27T23:46:17.764294+05:30"
+    "fetched_at": "2026-06-03T19:46:55.609082+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1288,
+    "out_of_state_tuition": 12880,
     "avg_net_price": 10543,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7776,
     "federal_loan_rate": 0.0,
     "net_price_by_family_income": {
       "0_30k": 10487,
       "30_48k": 9070,
-      "48_75k": 11606,
-      "75_110k": null,
-      "110k_plus": null
-    }
+      "48_75k": 11606
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3125,
     "grad_rate_total": 0.31,
     "pell_grad_rate": 0.43,
     "retention_full_time": 0.52,
@@ -64,12 +65,10 @@
   "enrollment": {
     "enrollment_12mo_total": 5790,
     "ug_12mo": 5790,
-    "grad_12mo": 5059,
+    "grad_12mo": 0,
     "women_12mo": 941,
     "men_12mo": 4849,
     "fall_total": 3833,
-    "fall_full_time": 3833,
-    "fall_part_time": 3381,
     "distance_ed_any": 3833,
     "distance_ed_exclusive": 1989,
     "race_ethnicity": {

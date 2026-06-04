@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:15.657682+00:00",
+  "generated_at": "2026-06-04T05:00:02.233871+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,10 +36,11 @@
   },
   "brand": null,
   "about": {
-    "summary": "Orange Coast College (OCC) is a public community college in Costa Mesa in Orange County, California. It was founded in 1947, with its first classes opening in the fall of 1948. It provides Associate of Art and Associate of Science degrees, certificates of achievement, and lower-division classes transferable to other colleges and universities. The college enrolls approximately 24,000 undergraduate students. In terms of population size, Orange Coast College is the third-largest college in Orange County.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Orange_Coast_College",
-    "source_url": "https://en.wikipedia.org/wiki/Orange_Coast_College",
-    "fetched_at": "2026-05-27T22:59:34.276237+05:30"
+    "summary": "West Coast University (WCU) is a private, for-profit university focused on healthcare degrees with campus locations in Los Angeles, Anaheim, and Ontario, California; Richardson, Texas; and Miami, Florida. David Pyle founded American Career College in 1979 under the name of American College of Optics. Originally the school focused only on optical dispensing. In May 1997, Pyle purchased West Coast University, which was chartered by the State of California in 1909, out of bankruptcy, and developed a program for the training of registered nurses.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/West_Coast_University",
+    "source_url": "https://en.wikipedia.org/wiki/West_Coast_University",
+    "wikidata_qid": "Q7984839",
+    "fetched_at": "2026-06-02T00:16:15.067807+05:30"
   },
   "admissions": {
     "applicants": 43,
@@ -51,19 +52,21 @@
     "yield_rate": 0.4146341463414634
   },
   "cost": {
+    "in_state_tuition": 22685,
+    "out_of_state_tuition": 22685,
     "avg_net_price": 36836,
-    "is_private_for_net_price": true,
     "pell_grant_rate": 0.2289,
     "federal_loan_rate": 0.8343,
     "net_price_by_family_income": {
       "0_30k": 36665,
-      "30_48k": null,
       "48_75k": 33654,
       "75_110k": 38599,
       "110k_plus": 38599
-    }
+    },
+    "is_private_for_net_price": true
   },
   "graduation": {
+    "overall_completion_rate": 0.6429,
     "grad_rate_total": 0.6,
     "grad_4yr_bachelors": 0.6,
     "grad_5yr_bachelors": 0.6,
@@ -77,12 +80,10 @@
   "enrollment": {
     "enrollment_12mo_total": 6841,
     "ug_12mo": 4423,
-    "grad_12mo": 4405,
+    "grad_12mo": 2418,
     "women_12mo": 5363,
     "men_12mo": 1478,
     "fall_total": 4586,
-    "fall_full_time": 3192,
-    "fall_part_time": 3192,
     "distance_ed_any": 4586,
     "distance_ed_exclusive": 1648,
     "race_ethnicity": {

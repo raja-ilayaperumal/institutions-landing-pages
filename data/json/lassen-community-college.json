@@ -1,0 +1,603 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:07.006327+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117274,
+    "slug": "lassen-community-college",
+    "name": "Lassen Community College",
+    "website_url": "https://www.lassencollege.edu",
+    "city": "Susanville",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "96130",
+    "region": "Far West",
+    "control": "Public",
+    "control_slug": "public",
+    "sector": "Public, 2-year",
+    "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-high-transfer-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": "00121700",
+      "ein": "161644590"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Lassen Community College is a public community college located in Susanville, California. It focuses on providing accessible education and various academic programs and services to its students.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lassen_Community_College",
+    "source_url": "https://en.wikipedia.org/wiki/Lassen_Community_College",
+    "fetched_at": "2026-06-04T10:09:39.456483+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 1144,
+    "out_of_state_tuition": 8224,
+    "avg_net_price": 7677,
+    "pell_grant_rate": 0.727,
+    "federal_loan_rate": 0.0226,
+    "net_price_by_family_income": {
+      "0_30k": 6165,
+      "30_48k": 8938,
+      "48_75k": 11036,
+      "75_110k": 16268
+    },
+    "is_private_for_net_price": false
+  },
+  "graduation": {
+    "overall_completion_rate": 0.2639,
+    "grad_rate_total": 0.31,
+    "pell_grad_rate": 0.36,
+    "retention_full_time": 0.57,
+    "retention_part_time": 0.42
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2798,
+    "ug_12mo": 2798,
+    "grad_12mo": 0,
+    "women_12mo": 947,
+    "men_12mo": 1851,
+    "fall_total": 2038,
+    "distance_ed_any": 2038,
+    "distance_ed_exclusive": 960,
+    "race_ethnicity": {
+      "white": 0.4201,
+      "black": 0.0959,
+      "hispanic": 0.3178,
+      "asian": 0.0396,
+      "ai_an": 0.0281,
+      "nh_pi": 0.0102,
+      "two_or_more": 0.0448,
+      "non_resident": 0.0058,
+      "race_unknown": 0.0377
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 218
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 23
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 19
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 13
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 9
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 5
+      }
+    ],
+    "program_count": 31,
+    "highest_degree": 3,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 16.0,
+    "instr_total_fte": 40
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 197966,
+        "slug": "beaufort-county-community-college",
+        "name": "Beaufort County Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 1856,
+          "avg_net_price": 5105
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 231536,
+        "slug": "blue-ridge-community-college-2",
+        "name": "Blue Ridge Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "enrollment": 3790,
+          "avg_net_price": 8755
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 198084,
+        "slug": "brunswick-community-college",
+        "name": "Brunswick Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 2009,
+          "avg_net_price": 8785
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 143613,
+        "slug": "carl-sandburg-college",
+        "name": "Carl Sandburg College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 1603,
+          "avg_net_price": 1036
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 190053,
+        "slug": "clinton-community-college",
+        "name": "Clinton Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 1067,
+          "avg_net_price": 9385
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 404426,
+        "slug": "coconino-community-college",
+        "name": "Coconino Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.51,
+          "enrollment": 2524,
+          "avg_net_price": 12455
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 190169,
+        "slug": "columbia-greene-community-college",
+        "name": "Columbia-Greene Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 1616,
+          "avg_net_price": 5576
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 106795,
+        "slug": "cossatot-community-college-of-the-university-of-arkansas",
+        "name": "Cossatot Community College of the University of Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 1312,
+          "avg_net_price": 5200
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 198367,
+        "slug": "craven-community-college",
+        "name": "Craven Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 3103,
+          "avg_net_price": 4402
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 101143,
+        "slug": "enterprise-state-community-college",
+        "name": "Enterprise State Community College",
+        "state": "Alabama",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.63,
+          "enrollment": 2699,
+          "avg_net_price": 8187
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 155201,
+        "slug": "independence-community-college",
+        "name": "Independence Community College",
+        "state": "Kansas",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.44,
+          "enrollment": 764,
+          "avg_net_price": 6262
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 198710,
+        "slug": "isothermal-community-college",
+        "name": "Isothermal Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 1918,
+          "avg_net_price": 6723
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 220400,
+        "slug": "jackson-state-community-college",
+        "name": "Jackson State Community College",
+        "state": "Tennessee",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.54,
+          "enrollment": 3518,
+          "avg_net_price": 7343
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 198729,
+        "slug": "james-sprunt-community-college",
+        "name": "James Sprunt Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 1519,
+          "avg_net_price": 3852
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 191986,
+        "slug": "jamestown-community-college",
+        "name": "Jamestown Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 4054,
+          "avg_net_price": 9507
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 192022,
+        "slug": "jefferson-community-college",
+        "name": "Jefferson Community College",
+        "state": "New York",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 2319,
+          "avg_net_price": 11012
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 403478,
+        "slug": "lincoln-trail-college",
+        "name": "Lincoln Trail College",
+        "state": "Illinois",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.7,
+          "avg_net_price": 8719
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 179344,
+        "slug": "missouri-state-university-west-plains",
+        "name": "Missouri State University-West Plains",
+        "state": "Missouri",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1919,
+          "avg_net_price": 9384
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 187912,
+        "slug": "new-mexico-military-institute",
+        "name": "New Mexico Military Institute",
+        "state": "New Mexico",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.526,
+          "yield_rate": 0.6806083650190115,
+          "retention_rate": 0.5,
+          "enrollment": 463,
+          "avg_net_price": 4686
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 120953,
+        "slug": "palo-verde-college",
+        "name": "Palo Verde College",
+        "state": "California",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 3833,
+          "avg_net_price": 10543
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 233019,
+        "slug": "patrick-and-henry-community-college",
+        "name": "Patrick & Henry Community College",
+        "state": "Virginia",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 1908,
+          "avg_net_price": 3430
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 199421,
+        "slug": "randolph-community-college",
+        "name": "Randolph Community College",
+        "state": "North Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 2814,
+          "avg_net_price": 7242
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 105792,
+        "slug": "south-mountain-community-college",
+        "name": "South Mountain Community College",
+        "state": "Arizona",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 4516,
+          "avg_net_price": 11942
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 210155,
+        "slug": "southwestern-oregon-community-college",
+        "name": "Southwestern Oregon Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.57,
+          "enrollment": 1551,
+          "avg_net_price": 8815
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 172291,
+        "slug": "st-clair-county-community-college",
+        "name": "St Clair County Community College",
+        "state": "Michigan",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.6,
+          "enrollment": 3317,
+          "avg_net_price": 8145
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 247603,
+        "slug": "sussex-county-community-college",
+        "name": "Sussex County Community College",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.58,
+          "enrollment": 2247,
+          "avg_net_price": 7054
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 210270,
+        "slug": "umpqua-community-college",
+        "name": "Umpqua Community College",
+        "state": "Oregon",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 2582,
+          "avg_net_price": 10168
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 218681,
+        "slug": "university-of-south-carolina-salkehatchie",
+        "name": "University of South Carolina-Salkehatchie",
+        "state": "South Carolina",
+        "carnegie": "Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.759941089837997,
+          "yield_rate": 0.23062015503875968,
+          "retention_rate": 0.43,
+          "enrollment": 799,
+          "avg_net_price": 12395
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.lassencollege.edu/about-lcc/department-of-institutional-effectiveness/institutional-research/",
+    "office_name": "Department of Institutional Effectiveness",
+    "parent_division": "Department of Institutional Effectiveness",
+    "summary": "Institutional Research conducts analytical studies and provides information in support of evidence-based institutional decision making and planning.",
+    "address": "478-200 Hwy 139, Susanville, CA 96130",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:21:41.016253+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117274",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:03.239796+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "title": "Strategic Plan",
+      "url": "https://www.lassencollege.edu/about-lcc/planning-overview/",
+      "summary": "Lassen Community College is dedicated to a structured planning process that involves both top-down and bottom-up approaches. The strategic plan, which includes vision, mission, and values, guides institutional planning and budget development. Program reviews act as a foundation for planning, with the final approval of a five-year Comprehensive Institutional Master Plan by the Governing Board each June.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:18:29.874848+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "California Adult Education Program (CAEP)",
+      "agency": "Lassen Modoc Adult Education Consortium",
+      "kind": "opportunity",
+      "url": "https://www.lassencollege.edu/academics/grants/",
+      "source": "institution_site"
+    },
+    {
+      "title": "Title III Grant",
+      "kind": "award",
+      "url": "https://www.lassencollege.edu/academics/grants/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Gar Forman",
+      "field": "Sports"
+    }
+  ]
+}

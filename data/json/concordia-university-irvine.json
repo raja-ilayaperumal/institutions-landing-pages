@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:22.926789+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 112075,
+    "slug": "concordia-university-irvine",
+    "name": "Concordia University-Irvine",
+    "website_url": "https://www.cui.edu",
+    "city": "Irvine",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92612-3203",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Doctoral/Professional Universities",
+    "carnegie_slug": "doctoral-professional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MN26RWBMU5Y1",
+      "opeid": "02070500",
+      "ein": "952798775"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Concordia University Irvine is a private Lutheran university in Irvine, California, United States. It was established in 1976 to provide a Lutheran Church–Missouri Synod college to serve the Pacific Southwest and provide training for pastors, religious education teachers, and Christian school administrators. Concordia University Irvine has a total undergraduate enrollment of 1,592 and its campus size is 70 acres (28 ha). It is part of the Concordia University System.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Concordia_University_Irvine",
+    "source_url": "https://en.wikipedia.org/wiki/Concordia_University_Irvine",
+    "fetched_at": "2026-05-27T23:56:39.380492+05:30"
+  },
+  "admissions": {
+    "applicants": 4413,
+    "admits": 2912,
+    "enrolled": 338,
+    "first_time_freshmen": 338,
+    "first_time_freshmen_ft": 337,
+    "admission_rate": 0.5986,
+    "admit_rate": 0.6598685701336959,
+    "yield_rate": 0.11607142857142858
+  },
+  "cost": {
+    "in_state_tuition": 41390,
+    "out_of_state_tuition": 41390,
+    "avg_net_price": 28046,
+    "pell_grant_rate": 0.0295,
+    "federal_loan_rate": 0.5091,
+    "net_price_by_family_income": {
+      "0_30k": 23532,
+      "30_48k": 21767,
+      "48_75k": 25220,
+      "75_110k": 28615,
+      "110k_plus": 33909
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.625,
+    "grad_rate_total": 0.58,
+    "grad_4yr_bachelors": 0.5,
+    "grad_5yr_bachelors": 0.58,
+    "grad_6yr_bachelors": 0.58,
+    "pell_grad_rate": 0.5,
+    "pell_6yr_bachelors_rate": 0.5,
+    "non_pell_grad_rate": 0.6,
+    "non_pell_6yr_bachelors": 0.6,
+    "retention_full_time": 0.75
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 4913,
+    "ug_12mo": 1834,
+    "grad_12mo": 3079,
+    "women_12mo": 3101,
+    "men_12mo": 1812,
+    "fall_total": 3658,
+    "distance_ed_any": 3658,
+    "distance_ed_exclusive": 1429,
+    "race_ethnicity": {
+      "white": 0.4519,
+      "black": 0.0302,
+      "hispanic": 0.2878,
+      "asian": 0.103,
+      "ai_an": 0.0027,
+      "nh_pi": 0.0041,
+      "two_or_more": 0.0755,
+      "non_resident": 0.0391,
+      "race_unknown": 0.0055
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 410
+      },
+      {
+        "cip_family_code": "31",
+        "cip_family_label": "Parks/Recreation",
+        "completions": 287
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 188
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 158
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 156
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 31
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 26
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 19
+      }
+    ],
+    "program_count": 46,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 13.0,
+    "instr_total_fte": 109
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110097,
+        "slug": "biola-university",
+        "name": "Biola University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7434541126686062,
+          "yield_rate": 0.2974030594094628,
+          "grad_rate": 0.68,
+          "retention_rate": 0.84,
+          "enrollment": 5434,
+          "avg_net_price": 28101
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 169080,
+        "slug": "calvin-university",
+        "name": "Calvin University",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7090686702778263,
+          "yield_rate": 0.21439132577624445,
+          "grad_rate": 0.74,
+          "retention_rate": 0.87,
+          "enrollment": 3681,
+          "avg_net_price": 24783
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 169363,
+        "slug": "concordia-university-ann-arbor",
+        "name": "Concordia University Ann Arbor",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6924882629107981,
+          "yield_rate": 0.061016949152542375,
+          "grad_rate": 0.49,
+          "retention_rate": 0.45,
+          "enrollment": 1135,
+          "avg_net_price": 26409
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 224004,
+        "slug": "concordia-university-texas",
+        "name": "Concordia University Texas",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9125364431486881,
+          "yield_rate": 0.08032861706983113,
+          "grad_rate": 0.45,
+          "retention_rate": 0.58,
+          "enrollment": 1396,
+          "avg_net_price": 22240
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 144351,
+        "slug": "concordia-university-chicago",
+        "name": "Concordia University-Chicago",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9278571428571428,
+          "yield_rate": 0.07698229407236336,
+          "grad_rate": 0.36,
+          "retention_rate": 0.61,
+          "enrollment": 4770,
+          "avg_net_price": 16774
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 180984,
+        "slug": "concordia-university-nebraska",
+        "name": "Concordia University-Nebraska",
+        "state": "Nebraska",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8572331017056223,
+          "yield_rate": 0.25128960943257184,
+          "grad_rate": 0.65,
+          "retention_rate": 0.8,
+          "enrollment": 3479,
+          "avg_net_price": 24016
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 173328,
+        "slug": "concordia-university-saint-paul",
+        "name": "Concordia University-Saint Paul",
+        "state": "Minnesota",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7887005649717514,
+          "yield_rate": 0.166189111747851,
+          "grad_rate": 0.45,
+          "retention_rate": 0.67,
+          "enrollment": 6003,
+          "avg_net_price": 17566
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 238616,
+        "slug": "concordia-university-wisconsin",
+        "name": "Concordia University-Wisconsin",
+        "state": "Wisconsin",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7820025348542459,
+          "yield_rate": 0.1406807131280389,
+          "grad_rate": 0.69,
+          "retention_rate": 0.78,
+          "enrollment": 5253,
+          "avg_net_price": 26067
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 113698,
+        "slug": "dominican-university-of-california",
+        "name": "Dominican University of California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8349950149551346,
+          "yield_rate": 0.1271641791044776,
+          "grad_rate": 0.78,
+          "retention_rate": 0.85,
+          "enrollment": 1900,
+          "avg_net_price": 50218
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 114813,
+        "slug": "fresno-pacific-university",
+        "name": "Fresno Pacific University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.640721940214326,
+          "yield_rate": 0.17253521126760563,
+          "grad_rate": 0.5,
+          "retention_rate": 0.72,
+          "enrollment": 2879,
+          "avg_net_price": 14317
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 121309,
+        "slug": "point-loma-nazarene-university",
+        "name": "Point Loma Nazarene University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8367534456355283,
+          "yield_rate": 0.21412884333821378,
+          "grad_rate": 0.77,
+          "retention_rate": 0.86,
+          "enrollment": 4757,
+          "avg_net_price": 50168
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 123457,
+        "slug": "simpson-university",
+        "name": "Simpson University",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8602673147023087,
+          "yield_rate": 0.24152542372881355,
+          "grad_rate": 0.49,
+          "retention_rate": 0.6,
+          "enrollment": 992,
+          "avg_net_price": 27923
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 123651,
+        "slug": "vanguard-university-of-southern-california",
+        "name": "Vanguard University of Southern California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6243667679837892,
+          "yield_rate": 0.19675456389452334,
+          "grad_rate": 0.57,
+          "retention_rate": 0.7,
+          "enrollment": 2246,
+          "avg_net_price": 19761
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 125727,
+        "slug": "westmont-college",
+        "name": "Westmont College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7704719645018152,
+          "yield_rate": 0.1586387434554974,
+          "grad_rate": 0.7,
+          "retention_rate": 0.85,
+          "enrollment": 1310,
+          "avg_net_price": 32926
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 149781,
+        "slug": "wheaton-college",
+        "name": "Wheaton College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8740196078431373,
+          "yield_rate": 0.2989343802579921,
+          "grad_rate": 0.85,
+          "retention_rate": 0.93,
+          "enrollment": 2874,
+          "avg_net_price": 26984
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [
+    {
+      "year": 2018,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2018-2019_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2017,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2017-2018_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2016,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2016-2017_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2015,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2015-2016_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2014,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2014-2015_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2013,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2013-2014_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2012,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2012-2013_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2011,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_2011-2012_final.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2010,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds2010_2011.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2009,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_10.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2008,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_09.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2007,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_08.pdf",
+      "is_pdf": true
+    },
+    {
+      "year": 2006,
+      "url": "https://www.cui.edu/uploadedfiles/studentservices/registrar/cds_07.pdf",
+      "is_pdf": true
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=112075",
+      "stored": false,
+      "fetched_at": "2026-05-27T23:56:40.479741+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "G.O.L.D. Achievement Award",
+      "agency": "Concordia University Irvine",
+      "kind": "award",
+      "url": "https://www.cui.edu/alumni/current-awards",
+      "source": "institution_site",
+      "award_date": "2025-01-01"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Cassandra Moore",
+      "field": "Writing and Consulting"
+    },
+    {
+      "name": "Lonnie Karges",
+      "field": "Education"
+    },
+    {
+      "name": "Scott Esswein",
+      "field": "Banking"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:14.621609+00:00",
+  "generated_at": "2026-06-04T04:58:19.881799+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Southwestern College may refer to the following colleges in the United States:Southwestern College (California)\nSouthwestern College (Kansas)\nSouthwestern College \nSouthwestern College of Business and New England Technical Institute, now part of Lincoln Tech\nArizona Christian University, formerly Southwestern College",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Southwestern_College",
-    "source_url": "https://en.wikipedia.org/wiki/Southwestern_College",
-    "fetched_at": "2026-05-25T19:25:09.873638+05:30"
+    "summary": "Southwestern College is a public community college in Chula Vista, California. It was founded in 1961. It is part of the Southwestern Community College District, itself a part of the California Community Colleges system. It has an enrollment of 25,228 across all its campuses within San Diego County, as of 2023. It is accredited by the Accrediting Commission for Community and Junior Colleges.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Southwestern_College_(California)",
+    "source_url": "https://en.wikipedia.org/wiki/Southwestern_College_(California)",
+    "fetched_at": "2026-06-04T09:35:46.73185+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1344,
+    "out_of_state_tuition": 9492,
     "avg_net_price": 10893,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5382,
     "federal_loan_rate": 0.0469,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 13155,
       "75_110k": 16603,
       "110k_plus": 17531
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3806,
     "grad_rate_total": 0.35,
     "pell_grad_rate": 0.37,
     "retention_full_time": 0.7,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 26295,
     "ug_12mo": 26295,
-    "grad_12mo": 23290,
+    "grad_12mo": 0,
     "women_12mo": 14184,
     "men_12mo": 12111,
     "fall_total": 20986,
-    "fall_full_time": 20986,
-    "fall_part_time": 18614,
     "distance_ed_any": 20986,
     "distance_ed_exclusive": 6041,
     "race_ethnicity": {
@@ -415,20 +416,7 @@
       "fetched_at": "2026-05-25T19:22:02.688366+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Enrollment Success Specialist (2 positions)",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179384108"
-    },
-    {
-      "title": "Employee Accommodation Compliance Coordinator",
-      "apply_url": "https://www.higheredjobs.com/details.cfm?JobCode=179378191"
-    },
-    {
-      "title": "Institutional Research Intern 2",
-      "apply_url": "https://www.higheredjobs.com/executive/details.cfm?JobCode=179405007"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
       "title": "Campus Mini-Grants",

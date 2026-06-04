@@ -1,0 +1,518 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:52.710680+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 121859,
+    "slug": "salon-success-academy-upland",
+    "name": "Salon Success Academy-Upland",
+    "website_url": "https://www.salonsuccessacademy.com",
+    "city": "Upland",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91786",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "VWNXJNTR1P34",
+      "opeid": "00720300",
+      "ein": "952939542"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Salon Success Academy-Upland is a beauty school located in Upland, California, focusing on programs such as Cosmetology, Esthetics, Barbering, and Manicuring. The academy is part of a larger network with additional locations in Corona, Fontana, Redlands, Riverside, and West Covina.",
+    "source_url": "https://www.salonsuccessacademy.com/about",
+    "fetched_at": "2026-06-03T16:38:26.048813+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 16626,
+    "pell_grant_rate": 0.458,
+    "federal_loan_rate": 0.5658,
+    "net_price_by_family_income": {
+      "0_30k": 14961,
+      "30_48k": 14677,
+      "48_75k": 18541,
+      "75_110k": 19974
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6026,
+    "grad_rate_total": 0.91,
+    "pell_grad_rate": 0.9,
+    "non_pell_grad_rate": 1.0,
+    "retention_full_time": 0.95,
+    "retention_part_time": 0.9
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 428,
+    "ug_12mo": 428,
+    "grad_12mo": 0,
+    "women_12mo": 407,
+    "men_12mo": 21,
+    "fall_total": 254,
+    "distance_ed_any": 254,
+    "race_ethnicity": {
+      "white": 0.2017,
+      "black": 0.0924,
+      "hispanic": 0.6387,
+      "asian": 0.0336,
+      "ai_an": 0.0084,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0042,
+      "non_resident": 0.0,
+      "race_unknown": 0.021
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 4,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 378886,
+        "slug": "artistic-nails-and-beauty-academy-tampa",
+        "name": "Artistic Nails and Beauty Academy-Tampa",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 253,
+          "avg_net_price": 12808
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 138938,
+        "slug": "atlanta-school-of-massage",
+        "name": "Atlanta School of Massage",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "avg_net_price": 27774
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 159513,
+        "slug": "aveda-arts-and-sciences-institute-baton-rouge",
+        "name": "Aveda Arts & Sciences Institute-Baton Rouge",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 175,
+          "avg_net_price": 20934
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 457563,
+        "slug": "aveda-fredric-s-institute-indianapolis",
+        "name": "Aveda Fredric's Institute-Indianapolis",
+        "state": "Indiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 265,
+          "avg_net_price": 23187
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 455275,
+        "slug": "aveda-institute-columbus",
+        "name": "Aveda Institute-Columbus",
+        "state": "Ohio",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 290,
+          "avg_net_price": 19538
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 458070,
+        "slug": "avenue-five-institute",
+        "name": "Avenue Five Institute",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 316,
+          "avg_net_price": 26507
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 478953,
+        "slug": "bellus-academy",
+        "name": "Bellus Academy",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 209,
+          "avg_net_price": 22076
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 492661,
+        "slug": "california-college-of-barbering-and-cosmetology",
+        "name": "California College of Barbering and Cosmetology",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 227,
+          "avg_net_price": 15580
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 107220,
+        "slug": "career-academy-of-hair-design",
+        "name": "Career Academy of Hair Design",
+        "state": "Arkansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 245,
+          "avg_net_price": 13563
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 190318,
+        "slug": "continental-school-of-beauty-culture-rochester",
+        "name": "Continental School of Beauty Culture-Rochester",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 194,
+          "avg_net_price": 15659
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 434308,
+        "slug": "cortiva-institute-5",
+        "name": "Cortiva Institute",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 225,
+          "avg_net_price": 28383
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 169503,
+        "slug": "david-pressley-school-of-cosmetology",
+        "name": "David Pressley School of Cosmetology",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.76,
+          "enrollment": 225,
+          "avg_net_price": 18565
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 450641,
+        "slug": "empire-beauty-school-hooksett",
+        "name": "Empire Beauty School-Hooksett",
+        "state": "New Hampshire",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.97,
+          "enrollment": 306,
+          "avg_net_price": 10187
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 134529,
+        "slug": "hollywood-institute-of-beauty-careers",
+        "name": "Hollywood Institute of Beauty Careers",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.69,
+          "enrollment": 218,
+          "avg_net_price": 18597
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 493743,
+        "slug": "houston-barber-school",
+        "name": "Houston Barber School",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 264,
+          "avg_net_price": 14760
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 135142,
+        "slug": "la-belle-beauty-school",
+        "name": "La Belle Beauty School",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 63,
+          "avg_net_price": 12731
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 482060,
+        "slug": "milan-institute-merced",
+        "name": "Milan Institute-Merced",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 359,
+          "avg_net_price": 28094
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 498003,
+        "slug": "montgomery-beauty-school-baltimore-beauty-and-barber-school",
+        "name": "Montgomery Beauty School-Baltimore Beauty & Barber School",
+        "state": "Maryland",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.52,
+          "enrollment": 242,
+          "avg_net_price": 18970
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 227313,
+        "slug": "ogle-school-hair-skin-nails-arlington",
+        "name": "Ogle School Hair Skin Nails-Arlington",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 374,
+          "avg_net_price": 22325
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 467863,
+        "slug": "paul-mitchell-the-school-columbia",
+        "name": "Paul Mitchell the School-Columbia",
+        "state": "South Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 256,
+          "avg_net_price": 12804
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 495794,
+        "slug": "paul-mitchell-the-school-murfreesboro-nashville",
+        "name": "Paul Mitchell the School-Murfreesboro-Nashville",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.79,
+          "enrollment": 237,
+          "avg_net_price": 21895
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 476984,
+        "slug": "paul-mitchell-the-school-overland-park",
+        "name": "Paul Mitchell the School-Overland Park",
+        "state": "Kansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 179,
+          "avg_net_price": 18979
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 454944,
+        "slug": "paul-mitchell-the-school-rexburg",
+        "name": "Paul Mitchell the School-Rexburg",
+        "state": "Idaho",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.96,
+          "enrollment": 224,
+          "avg_net_price": 18012
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 230214,
+        "slug": "paul-mitchell-the-school-salt-lake-city",
+        "name": "Paul Mitchell the School-Salt Lake City",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 287,
+          "avg_net_price": 13704
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 451714,
+        "slug": "paul-mitchell-the-school-san-antonio",
+        "name": "Paul Mitchell the School-San Antonio",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 361,
+          "avg_net_price": 25035
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 449986,
+        "slug": "paul-mitchell-the-school-sherman-oaks",
+        "name": "Paul Mitchell the School-Sherman Oaks",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 286,
+          "avg_net_price": 26369
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 154208,
+        "slug": "pci-academy-ames",
+        "name": "PCI Academy-Ames",
+        "state": "Iowa",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 176,
+          "avg_net_price": 18518
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 185466,
+        "slug": "rizzieri-aveda-school-for-beauty-and-wellness",
+        "name": "Rizzieri Aveda School for Beauty and Wellness",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9581749049429658,
+          "yield_rate": 0.7023809523809523,
+          "retention_rate": 1.0,
+          "enrollment": 346,
+          "avg_net_price": 16964
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=121859",
+      "stored": false,
+      "fetched_at": "2026-06-03T09:07:23.080736+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "The Sydell & Arnold Miller Family “Art of Hairdressing” Scholarship",
+      "agency": "U.S. Department of Education",
+      "kind": "opportunity",
+      "url": "https://www.salonsuccessacademy.com/financial-aid/",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": []
+}

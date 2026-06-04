@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:09.786795+00:00",
+  "generated_at": "2026-06-04T04:55:45.458476+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Antelope_Valley_College",
     "fetched_at": "2026-05-25T22:01:23.845416+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1124,
+    "out_of_state_tuition": 8228,
     "avg_net_price": 8263,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.646,
     "federal_loan_rate": 0.0416,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 8263,
       "75_110k": 8263,
       "110k_plus": 8263
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3061,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.33,
     "non_pell_grad_rate": 0.0
@@ -63,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 17155,
     "ug_12mo": 17155,
-    "grad_12mo": 14569,
+    "grad_12mo": 0,
     "women_12mo": 9609,
     "men_12mo": 7546,
     "fall_total": 13532,
-    "fall_full_time": 13532,
-    "fall_part_time": 11534,
     "distance_ed_any": 13532,
     "distance_ed_exclusive": 3110,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:39:59.968706+00:00",
+  "generated_at": "2026-06-04T04:55:44.682071+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/American_River_College",
     "fetched_at": "2026-05-25T17:46:44.393518+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1288,
+    "out_of_state_tuition": 12808,
     "avg_net_price": 4628,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.8177,
     "federal_loan_rate": 0.0272,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6788,
       "75_110k": 9369,
       "110k_plus": 10022
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3356,
     "grad_rate_total": 0.37,
     "pell_grad_rate": 0.37,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 47377,
     "ug_12mo": 47377,
-    "grad_12mo": 40175,
+    "grad_12mo": 0,
     "women_12mo": 22832,
     "men_12mo": 24545,
     "fall_total": 30462,
-    "fall_full_time": 30462,
-    "fall_part_time": 25621,
     "distance_ed_any": 30462,
     "distance_ed_exclusive": 13443,
     "race_ethnicity": {

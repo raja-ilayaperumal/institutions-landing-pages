@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-28T04:39:23.796404+00:00",
+  "generated_at": "2026-06-04T04:58:30.665513+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/West_Los_Angeles_College",
     "fetched_at": "2026-05-26T14:56:41.702407+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1238,
+    "out_of_state_tuition": 10130,
     "avg_net_price": 7131,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7981,
     "federal_loan_rate": 0.0177,
     "net_price_by_family_income": {
       "0_30k": 6841,
       "30_48k": 6739,
       "48_75k": 8381,
-      "75_110k": 10477,
-      "110k_plus": null
-    }
+      "75_110k": 10477
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2138,
     "grad_rate_total": 0.28,
     "pell_grad_rate": 0.33,
     "non_pell_grad_rate": 0.0
@@ -63,12 +65,10 @@
   "enrollment": {
     "enrollment_12mo_total": 19187,
     "ug_12mo": 19187,
-    "grad_12mo": 15133,
+    "grad_12mo": 0,
     "women_12mo": 11334,
     "men_12mo": 7853,
     "fall_total": 9255,
-    "fall_full_time": 9255,
-    "fall_part_time": 7284,
     "distance_ed_any": 9255,
     "distance_ed_exclusive": 6138,
     "race_ethnicity": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:41.154815+00:00",
+  "generated_at": "2026-06-04T04:56:21.052804+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Chabot College is a public community college in Hayward, California. It is part of the Chabot-Las Positas Community College District.",
+    "summary": "Chabot College is a community college located in Hayward, California, founded in 1961. It serves over 14,000 students and offers a variety of educational programs, including degrees, transfer programs, and vocational training. The college focuses on equitable access to educational and support services for a diverse student body.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chabot_College",
     "source_url": "https://en.wikipedia.org/wiki/Chabot_College",
-    "fetched_at": "2026-05-25T21:51:26.874876+05:30"
+    "fetched_at": "2026-06-03T19:47:15.243874+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1150,
+    "out_of_state_tuition": 8686,
     "avg_net_price": 4616,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6972,
     "federal_loan_rate": 0.005,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7225,
       "75_110k": 9704,
       "110k_plus": 10901
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4056,
     "grad_rate_total": 0.47,
     "pell_grad_rate": 0.49,
     "retention_full_time": 0.7,
@@ -64,12 +67,10 @@
   "enrollment": {
     "enrollment_12mo_total": 18536,
     "ug_12mo": 18536,
-    "grad_12mo": 15972,
+    "grad_12mo": 0,
     "women_12mo": 9375,
     "men_12mo": 9161,
     "fall_total": 12842,
-    "fall_full_time": 12842,
-    "fall_part_time": 11392,
     "distance_ed_any": 12842,
     "distance_ed_exclusive": 4782,
     "race_ethnicity": {

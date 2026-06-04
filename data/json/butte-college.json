@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:55.981162+00:00",
+  "generated_at": "2026-06-04T04:55:52.220185+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -36,15 +36,16 @@
   },
   "brand": null,
   "about": {
-    "summary": "Butte College is a public community college in the Butte-Glenn Community College District based in Oroville and has expanded to Chico, and Orland.",
+    "summary": "Butte College is a public community college located in Oroville, California. While the founding year is not explicitly mentioned, the college is part of the Butte-Glenn Community College District and offers a diverse range of academic programs, including career and technical education.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Butte_College",
     "source_url": "https://en.wikipedia.org/wiki/Butte_College",
-    "fetched_at": "2026-05-25T23:01:32.089651+05:30"
+    "fetched_at": "2026-06-03T19:48:31.849315+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1336,
+    "out_of_state_tuition": 8416,
     "avg_net_price": 4632,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.461,
     "federal_loan_rate": 0.0297,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 7220,
       "75_110k": 9836,
       "110k_plus": 12770
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3833,
     "grad_rate_total": 0.45,
     "pell_grad_rate": 0.4,
     "non_pell_grad_rate": 0.75,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 13048,
     "ug_12mo": 13048,
-    "grad_12mo": 10933,
+    "grad_12mo": 0,
     "women_12mo": 7385,
     "men_12mo": 5663,
     "fall_total": 10968,
-    "fall_full_time": 10968,
-    "fall_part_time": 8890,
     "distance_ed_any": 10968,
     "distance_ed_exclusive": 2744,
     "race_ethnicity": {
@@ -534,12 +535,7 @@
       "fetched_at": "2026-05-25T23:01:33.521497+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Executive Director, Institutional Effectiveness and Planning",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179430543"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": [
     {

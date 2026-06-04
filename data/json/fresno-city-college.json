@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:01.605413+00:00",
+  "generated_at": "2026-06-04T04:56:46.854112+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Fresno_City_College",
     "fetched_at": "2026-05-25T17:50:34.829696+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1334,
+    "out_of_state_tuition": 9454,
     "avg_net_price": 1699,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7086,
     "federal_loan_rate": 0.003,
     "net_price_by_family_income": {
@@ -53,21 +54,21 @@
       "48_75k": 3594,
       "75_110k": 8249,
       "110k_plus": 11076
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2999,
     "grad_rate_total": 0.24,
     "pell_grad_rate": 0.22
   },
   "enrollment": {
     "enrollment_12mo_total": 38808,
     "ug_12mo": 38808,
-    "grad_12mo": 28799,
+    "grad_12mo": 0,
     "women_12mo": 20863,
     "men_12mo": 17945,
     "fall_total": 28071,
-    "fall_full_time": 28071,
-    "fall_part_time": 21251,
     "distance_ed_any": 28071,
     "distance_ed_exclusive": 8294,
     "race_ethnicity": {

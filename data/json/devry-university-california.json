@@ -1,0 +1,1007 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:30.553823+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 482431,
+    "slug": "devry-university-california",
+    "name": "DeVry University-California",
+    "website_url": "https://www.devry.edu",
+    "city": "Ontario",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91764",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "MN6JA6YLM213",
+      "opeid": "01072706",
+      "ein": "362781982"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "DeVry University is a private for-profit university in the United States. It offers both onsite (campus-based) and online programs. The university was founded in 1931 by Herman A. DeVry and is accredited by the Higher Learning Commission. It has been the subject of several government investigations and lawsuits alleging false or deceptive claims.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/DeVry_University",
+    "source_url": "https://en.wikipedia.org/wiki/DeVry_University",
+    "fetched_at": "2026-05-28T00:42:51.936824+05:30"
+  },
+  "admissions": {
+    "applicants": 200,
+    "admits": 197,
+    "enrolled": 144,
+    "first_time_freshmen": 144,
+    "first_time_freshmen_ft": 88,
+    "admission_rate": 0.4325,
+    "admit_rate": 0.985,
+    "yield_rate": 0.7309644670050761
+  },
+  "cost": {
+    "in_state_tuition": 17488,
+    "out_of_state_tuition": 17488,
+    "avg_net_price": 33294,
+    "pell_grant_rate": 0.4459,
+    "federal_loan_rate": 0.5736,
+    "net_price_by_family_income": {
+      "0_30k": 32140,
+      "30_48k": 33380,
+      "48_75k": 33875,
+      "75_110k": 39108,
+      "110k_plus": 38099
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.4286,
+    "grad_rate_total": 0.22,
+    "grad_4yr_bachelors": 0.21,
+    "grad_5yr_bachelors": 0.21,
+    "grad_6yr_bachelors": 0.21,
+    "pell_grad_rate": 0.24,
+    "pell_6yr_bachelors_rate": 0.23,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.52,
+    "retention_part_time": 0.21
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3391,
+    "ug_12mo": 3333,
+    "grad_12mo": 58,
+    "women_12mo": 1605,
+    "men_12mo": 1786,
+    "fall_total": 2403,
+    "distance_ed_any": 2403,
+    "distance_ed_exclusive": 1775,
+    "race_ethnicity": {
+      "white": 0.2494,
+      "black": 0.1547,
+      "hispanic": 0.37,
+      "asian": 0.0932,
+      "ai_an": 0.0067,
+      "nh_pi": 0.024,
+      "two_or_more": 0.0317,
+      "non_resident": 0.0034,
+      "race_unknown": 0.0668
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 238
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 187
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 21
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 4
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "09",
+        "cip_family_label": "Communication",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 0
+      }
+    ],
+    "program_count": 22,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 26.0,
+    "instr_total_fte": 20
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 445027,
+        "slug": "american-intercontinental-university-system",
+        "name": "American InterContinental University System",
+        "state": "Arizona",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.06,
+          "retention_rate": 0.36,
+          "enrollment": 11277,
+          "avg_net_price": 14449
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 438586,
+        "slug": "american-intercontinental-university-atlanta",
+        "name": "American InterContinental University-Atlanta",
+        "state": "Georgia",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.09,
+          "retention_rate": 0.14,
+          "enrollment": 801,
+          "avg_net_price": 15774
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 445133,
+        "slug": "american-intercontinental-university-houston",
+        "name": "American InterContinental University-Houston",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.05,
+          "retention_rate": 0.25,
+          "enrollment": 116,
+          "avg_net_price": 18264
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 449339,
+        "slug": "american-public-university-system",
+        "name": "American Public University System",
+        "state": "West Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.47,
+          "retention_rate": 0.97,
+          "enrollment": 50715,
+          "avg_net_price": 9104
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 104151,
+        "slug": "arizona-state-university-campus-immersion",
+        "name": "Arizona State University Campus Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: Very High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8988833746898263,
+          "yield_rate": 0.22113997113997114,
+          "grad_rate": 0.68,
+          "retention_rate": 0.87,
+          "enrollment": 79818,
+          "avg_net_price": 13670
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 483124,
+        "slug": "arizona-state-university-digital-immersion",
+        "name": "Arizona State University Digital Immersion",
+        "state": "Arizona",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6668562329390355,
+          "yield_rate": 0.5406788333617601,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 72994
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 154022,
+        "slug": "ashford-university",
+        "name": "Ashford University",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.1,
+          "retention_rate": 0.35,
+          "enrollment": 28004,
+          "avg_net_price": 25321
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 188517,
+        "slug": "bryant-and-stratton-college-albany",
+        "name": "Bryant & Stratton College-Albany",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 249,
+          "avg_net_price": 12452
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 189583,
+        "slug": "bryant-and-stratton-college-buffalo",
+        "name": "Bryant & Stratton College-Buffalo",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2086,
+          "avg_net_price": 14117
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 189592,
+        "slug": "bryant-and-stratton-college-greece",
+        "name": "Bryant & Stratton College-Greece",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 367,
+          "avg_net_price": 14664
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 480091,
+        "slug": "bryant-and-stratton-college-online",
+        "name": "Bryant & Stratton College-Online",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.22,
+          "enrollment": 10343,
+          "avg_net_price": 14642
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 201469,
+        "slug": "bryant-and-stratton-college-parma",
+        "name": "Bryant & Stratton College-Parma",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "enrollment": 624,
+          "avg_net_price": 14325
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 189565,
+        "slug": "bryant-and-stratton-college-syracuse-north",
+        "name": "Bryant & Stratton College-Syracuse North",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.33,
+          "enrollment": 462,
+          "avg_net_price": 9972
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 231785,
+        "slug": "bryant-and-stratton-college-virginia-beach",
+        "name": "Bryant & Stratton College-Virginia Beach",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 1717,
+          "avg_net_price": 12134
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 451750,
+        "slug": "bryant-and-stratton-college-wauwatosa",
+        "name": "Bryant & Stratton College-Wauwatosa",
+        "state": "Wisconsin",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.17,
+          "retention_rate": 0.43,
+          "enrollment": 1037,
+          "avg_net_price": 15135
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 413413,
+        "slug": "capella-university",
+        "name": "Capella University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.42,
+          "enrollment": 47761,
+          "avg_net_price": 18305
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 476975,
+        "slug": "colorado-state-university-global",
+        "name": "Colorado State University Global",
+        "state": "Colorado",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9840319361277445,
+          "yield_rate": 0.9939148073022313,
+          "retention_rate": 0.74,
+          "enrollment": 10257,
+          "avg_net_price": 14099
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 126827,
+        "slug": "colorado-technical-university-colorado-springs",
+        "name": "Colorado Technical University-Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.14,
+          "retention_rate": 0.51,
+          "enrollment": 31830,
+          "avg_net_price": 14954
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 134237,
+        "slug": "full-sail-university",
+        "name": "Full Sail University",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.45,
+          "retention_rate": 0.53,
+          "enrollment": 27169,
+          "avg_net_price": 31759
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 104717,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 232557,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 479956,
+        "slug": "pennsylvania-state-university-world-campus",
+        "name": "Pennsylvania State University-World Campus",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9115191986644408,
+          "yield_rate": 0.3086080586080586,
+          "grad_rate": 0.34,
+          "retention_rate": 0.66,
+          "enrollment": 13774,
+          "avg_net_price": 20826
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 489779,
+        "slug": "purdue-university-global",
+        "name": "Purdue University Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.57,
+          "enrollment": 45588,
+          "avg_net_price": 12267
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 138309,
+        "slug": "rasmussen-university-florida",
+        "name": "Rasmussen University-Florida",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 3121,
+          "avg_net_price": 19113
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 448673,
+        "slug": "rasmussen-university-illinois",
+        "name": "Rasmussen University-Illinois",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate/Associate's Colleges: Associate's Dominant",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.53,
+          "enrollment": 1145,
+          "avg_net_price": 18470
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 480657,
+        "slug": "rasmussen-university-kansas",
+        "name": "Rasmussen University-Kansas",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 359,
+          "avg_net_price": 18289
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 175014,
+        "slug": "rasmussen-university-minnesota",
+        "name": "Rasmussen University-Minnesota",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9416,
+          "avg_net_price": 19071
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 200013,
+        "slug": "rasmussen-university-north-dakota",
+        "name": "Rasmussen University-North Dakota",
+        "state": "North Dakota",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 52,
+          "avg_net_price": 18227
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 450571,
+        "slug": "rasmussen-university-wisconsin",
+        "name": "Rasmussen University-Wisconsin",
+        "state": "Wisconsin",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 55,
+          "avg_net_price": 18847
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 183026,
+        "slug": "southern-new-hampshire-university",
+        "name": "Southern New Hampshire University",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9951022434884665,
+          "yield_rate": 0.3801401710177142,
+          "grad_rate": 0.44,
+          "retention_rate": 0.61,
+          "enrollment": 189531,
+          "avg_net_price": 33742
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 450377,
+        "slug": "strayer-university-alabama",
+        "name": "Strayer University-Alabama",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 1329,
+          "avg_net_price": 22923
+        }
+      },
+      {
+        "rank": 32,
+        "unitid": 458885,
+        "slug": "strayer-university-arkansas",
+        "name": "Strayer University-Arkansas",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 741
+        }
+      },
+      {
+        "rank": 33,
+        "unitid": 450298,
+        "slug": "strayer-university-delaware",
+        "name": "Strayer University-Delaware",
+        "state": "Delaware",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.0,
+          "enrollment": 187
+        }
+      },
+      {
+        "rank": 34,
+        "unitid": 131803,
+        "slug": "strayer-university-district-of-columbia",
+        "name": "Strayer University-District of Columbia",
+        "state": "District of Columbia",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 188
+        }
+      },
+      {
+        "rank": 35,
+        "unitid": 449038,
+        "slug": "strayer-university-florida",
+        "name": "Strayer University-Florida",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.67,
+          "enrollment": 1303,
+          "avg_net_price": 17518
+        }
+      },
+      {
+        "rank": 36,
+        "unitid": 458919,
+        "slug": "strayer-university-georgia",
+        "name": "Strayer University-Georgia",
+        "state": "Georgia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 0.75,
+          "enrollment": 4916,
+          "avg_net_price": 18224
+        }
+      },
+      {
+        "rank": 37,
+        "unitid": 459994,
+        "slug": "strayer-university-global-region",
+        "name": "Strayer University-Global Region",
+        "state": "District of Columbia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.08,
+          "retention_rate": 0.6,
+          "enrollment": 12098,
+          "avg_net_price": 18918
+        }
+      },
+      {
+        "rank": 38,
+        "unitid": 430184,
+        "slug": "strayer-university-maryland",
+        "name": "Strayer University-Maryland",
+        "state": "Maryland",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.38,
+          "retention_rate": 1.0,
+          "enrollment": 1290,
+          "avg_net_price": 18092
+        }
+      },
+      {
+        "rank": 39,
+        "unitid": 458955,
+        "slug": "strayer-university-mississippi",
+        "name": "Strayer University-Mississippi",
+        "state": "Mississippi",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 983
+        }
+      },
+      {
+        "rank": 40,
+        "unitid": 453215,
+        "slug": "strayer-university-new-jersey",
+        "name": "Strayer University-New Jersey",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 796
+        }
+      },
+      {
+        "rank": 41,
+        "unitid": 453163,
+        "slug": "strayer-university-north-carolina",
+        "name": "Strayer University-North Carolina",
+        "state": "North Carolina",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "enrollment": 3037
+        }
+      },
+      {
+        "rank": 42,
+        "unitid": 443784,
+        "slug": "strayer-university-pennsylvania",
+        "name": "Strayer University-Pennsylvania",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Small Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 1384,
+          "avg_net_price": 21360
+        }
+      },
+      {
+        "rank": 43,
+        "unitid": 458964,
+        "slug": "strayer-university-south-carolina",
+        "name": "Strayer University-South Carolina",
+        "state": "South Carolina",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 2110,
+          "avg_net_price": 22134
+        }
+      },
+      {
+        "rank": 44,
+        "unitid": 443766,
+        "slug": "strayer-university-tennessee",
+        "name": "Strayer University-Tennessee",
+        "state": "Tennessee",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 1965,
+          "avg_net_price": 18466
+        }
+      },
+      {
+        "rank": 45,
+        "unitid": 458973,
+        "slug": "strayer-university-texas",
+        "name": "Strayer University-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.25,
+          "retention_rate": 1.0,
+          "enrollment": 2508,
+          "avg_net_price": 17517
+        }
+      },
+      {
+        "rank": 46,
+        "unitid": 233684,
+        "slug": "strayer-university-virginia",
+        "name": "Strayer University-Virginia",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.19,
+          "retention_rate": 0.75,
+          "enrollment": 1998
+        }
+      },
+      {
+        "rank": 47,
+        "unitid": 456621,
+        "slug": "strayer-university-west-virginia",
+        "name": "Strayer University-West Virginia",
+        "state": "West Virginia",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 252,
+          "avg_net_price": 16943
+        }
+      },
+      {
+        "rank": 48,
+        "unitid": 441371,
+        "slug": "ultimate-medical-academy",
+        "name": "Ultimate Medical Academy",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 8932,
+          "avg_net_price": 19350
+        }
+      },
+      {
+        "rank": 49,
+        "unitid": 163204,
+        "slug": "university-of-maryland-global-campus",
+        "name": "University of Maryland Global Campus",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.2,
+          "retention_rate": 0.55,
+          "enrollment": 63012,
+          "avg_net_price": 14514
+        }
+      },
+      {
+        "rank": 50,
+        "unitid": 262086,
+        "slug": "university-of-massachusetts-global",
+        "name": "University of Massachusetts Global",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9285714285714286,
+          "yield_rate": 0.48717948717948717,
+          "retention_rate": 0.62,
+          "enrollment": 8996,
+          "avg_net_price": 31601
+        }
+      },
+      {
+        "rank": 51,
+        "unitid": 484613,
+        "slug": "university-of-phoenix-arizona",
+        "name": "University of Phoenix-Arizona",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.16,
+          "retention_rate": 0.41,
+          "enrollment": 111248,
+          "avg_net_price": 13571
+        }
+      },
+      {
+        "rank": 52,
+        "unitid": 484631,
+        "slug": "university-of-phoenix-california",
+        "name": "University of Phoenix-California",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.23,
+          "enrollment": 34
+        }
+      },
+      {
+        "rank": 53,
+        "unitid": 420042,
+        "slug": "university-of-phoenix-hawaii",
+        "name": "University of Phoenix-Hawaii",
+        "state": "Hawaii",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0
+        }
+      },
+      {
+        "rank": 54,
+        "unitid": 484710,
+        "slug": "university-of-phoenix-nevada",
+        "name": "University of Phoenix-Nevada",
+        "state": "Nevada",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0
+        }
+      },
+      {
+        "rank": 55,
+        "unitid": 484756,
+        "slug": "university-of-phoenix-texas",
+        "name": "University of Phoenix-Texas",
+        "state": "Texas",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.4,
+          "enrollment": 6
+        }
+      },
+      {
+        "rank": 56,
+        "unitid": 125231,
+        "slug": "walden-university",
+        "name": "Walden University",
+        "state": "Minnesota",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 49441
+        }
+      },
+      {
+        "rank": 57,
+        "unitid": 433387,
+        "slug": "western-governors-university",
+        "name": "Western Governors University",
+        "state": "Utah",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.46,
+          "retention_rate": 0.65,
+          "enrollment": 210208,
+          "avg_net_price": 10442
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=482431",
+      "stored": false,
+      "fetched_at": "2026-05-28T00:42:53.46457+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

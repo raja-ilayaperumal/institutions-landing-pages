@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T19:59:54.564702+00:00",
+  "generated_at": "2026-06-04T04:57:32.955850+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Napa_Valley_College",
     "fetched_at": "2026-05-27T22:48:13.680264+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1156,
+    "out_of_state_tuition": 11908,
     "avg_net_price": 14046,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6222,
     "federal_loan_rate": 0.0047,
     "net_price_by_family_income": {
       "0_30k": 12146,
       "30_48k": 12868,
       "48_75k": 16815,
-      "75_110k": 17843,
-      "110k_plus": null
-    }
+      "75_110k": 17843
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3968,
     "grad_rate_total": 0.43,
     "pell_grad_rate": 0.48,
     "retention_full_time": 0.72,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 6279,
     "ug_12mo": 6279,
-    "grad_12mo": 4595,
+    "grad_12mo": 0,
     "women_12mo": 3649,
     "men_12mo": 2630,
     "fall_total": 4844,
-    "fall_full_time": 4844,
-    "fall_part_time": 3813,
     "distance_ed_any": 4844,
     "distance_ed_exclusive": 1516,
     "race_ethnicity": {

@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:07.708061+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 117283,
+    "slug": "latin-american-bible-institute",
+    "name": "Latin American Bible Institute",
+    "website_url": "https://labi.edu",
+    "city": "La Puente",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91746-3099",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: High Transfer-High Traditional",
+    "carnegie_slug": "associates-high-transfer-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "K9VEQRR1DF29",
+      "opeid": "04284300",
+      "ein": "952274207"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "LABI College, California is private coed Bible college in the Avocado Heights district of La Puente, California. It was founded in 1926. In 1950 the institute moved to its current location in La Puente. LABI College is one of the oldest Hispanic Bible Colleges in the country.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Latin_American_Bible_Institute,_California",
+    "source_url": "https://en.wikipedia.org/wiki/Latin_American_Bible_Institute,_California",
+    "fetched_at": "2026-06-03T14:24:22.337588+05:30"
+  },
+  "admissions": {
+    "applicants": 22,
+    "admits": 12,
+    "enrolled": 11,
+    "first_time_freshmen": 11,
+    "first_time_freshmen_ft": 9,
+    "admission_rate": 0.6818,
+    "admit_rate": 0.5454545454545454,
+    "yield_rate": 0.9166666666666666
+  },
+  "cost": {
+    "in_state_tuition": 12320,
+    "out_of_state_tuition": 12320,
+    "room_and_board": 9800,
+    "total_cost_in_state": 22120,
+    "total_cost_out_of_state": 22120,
+    "avg_net_price": 9140,
+    "pell_grant_rate": 0.6795,
+    "federal_loan_rate": 0.3478,
+    "net_price_by_family_income": {
+      "0_30k": 9442,
+      "30_48k": 6155,
+      "48_75k": 11220
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6,
+    "grad_rate_total": 0.33
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 118,
+    "ug_12mo": 118,
+    "grad_12mo": 0,
+    "women_12mo": 67,
+    "men_12mo": 51,
+    "fall_total": 112,
+    "distance_ed_any": 112,
+    "distance_ed_exclusive": 88,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.0,
+      "hispanic": 1.0,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 0
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 188942,
+        "slug": "associated-beth-rivkah-schools",
+        "name": "Associated Beth Rivkah Schools",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8411214953271028,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 0.85,
+          "enrollment": 254,
+          "avg_net_price": 18192
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 490513,
+        "slug": "bais-medrash-mayan-hatorah",
+        "name": "Bais Medrash Mayan Hatorah",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6842105263157895,
+          "yield_rate": 0.9230769230769231,
+          "grad_rate": 0.0,
+          "retention_rate": 0.63,
+          "enrollment": 38,
+          "avg_net_price": 11297
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 495031,
+        "slug": "bais-medrash-of-dexter-park",
+        "name": "Bais Medrash of Dexter Park",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6923076923076923,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 51,
+          "avg_net_price": 24711
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 486196,
+        "slug": "beth-medrash-meor-yitzchok",
+        "name": "Beth Medrash Meor Yitzchok",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5277777777777778,
+          "yield_rate": 0.9789473684210527,
+          "grad_rate": 0.02,
+          "retention_rate": 0.83,
+          "enrollment": 226,
+          "avg_net_price": 10768
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 488305,
+        "slug": "elim-bible-institute-and-college",
+        "name": "Elim Bible Institute and College",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7027027027027027,
+          "retention_rate": 0.75,
+          "enrollment": 118,
+          "avg_net_price": 9641
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 457226,
+        "slug": "horizon-university",
+        "name": "Horizon University",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 70
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 495280,
+        "slug": "indian-bible-college",
+        "name": "Indian Bible College",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "enrollment": 38,
+          "avg_net_price": 5068
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 193061,
+        "slug": "mesivta-of-eastern-parkway-yeshiva-zichron-meilech",
+        "name": "Mesivta of Eastern Parkway-Yeshiva Zichron Meilech",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5555555555555556,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 39,
+          "avg_net_price": 8751
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 193247,
+        "slug": "mirrer-yeshiva-cent-institute",
+        "name": "Mirrer Yeshiva Cent Institute",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8928571428571429,
+          "yield_rate": 0.92,
+          "grad_rate": 0.09,
+          "retention_rate": 0.96,
+          "enrollment": 139,
+          "avg_net_price": 11641
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 407610,
+        "slug": "pacific-bible-college",
+        "name": "Pacific Bible College",
+        "state": "Oregon",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.4,
+          "enrollment": 22
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 194693,
+        "slug": "rabbinical-college-beth-shraga",
+        "name": "Rabbinical College Beth Shraga",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9166666666666666,
+          "yield_rate": 1.0,
+          "grad_rate": 0.06,
+          "retention_rate": 0.64,
+          "enrollment": 53,
+          "avg_net_price": 11229
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 194736,
+        "slug": "rabbinical-college-of-long-island",
+        "name": "Rabbinical College of Long Island",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.23,
+          "retention_rate": 0.91,
+          "enrollment": 159,
+          "avg_net_price": 6253
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 181543,
+        "slug": "summit-christian-college",
+        "name": "Summit Christian College",
+        "state": "Nebraska",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4166666666666667,
+          "yield_rate": 0.8,
+          "retention_rate": 1.0,
+          "enrollment": 32,
+          "avg_net_price": 18188
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 206154,
+        "slug": "tri-state-bible-college",
+        "name": "Tri-State Bible College",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 21
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 491525,
+        "slug": "union-bible-college",
+        "name": "Union Bible College",
+        "state": "Indiana",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9083969465648855,
+          "yield_rate": 0.9159663865546218,
+          "grad_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 218,
+          "avg_net_price": 7187
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 486257,
+        "slug": "valor-christian-college",
+        "name": "Valor Christian College",
+        "state": "Ohio",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.36,
+          "enrollment": 414,
+          "avg_net_price": 25886
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 491622,
+        "slug": "yeshiva-chemdas-hatorah",
+        "name": "Yeshiva Chemdas Hatorah",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8,
+          "yield_rate": 0.875,
+          "grad_rate": 0.05,
+          "retention_rate": 0.71,
+          "enrollment": 72,
+          "avg_net_price": 9827
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 493716,
+        "slug": "yeshiva-gedola-tiferes-yaakov-yitzchok",
+        "name": "Yeshiva Gedola Tiferes Yaakov Yitzchok",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7666666666666667,
+          "yield_rate": 1.0,
+          "grad_rate": 0.27,
+          "retention_rate": 0.89,
+          "enrollment": 72,
+          "avg_net_price": 10046
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 491914,
+        "slug": "yeshiva-gedola-tiferes-yerachmiel",
+        "name": "Yeshiva Gedola Tiferes Yerachmiel",
+        "state": "New Jersey",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5147058823529411,
+          "yield_rate": 0.9714285714285714,
+          "grad_rate": 0.09,
+          "retention_rate": 0.95,
+          "enrollment": 177,
+          "avg_net_price": 7820
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 491640,
+        "slug": "yeshiva-gedolah-keren-hatorah",
+        "name": "Yeshiva Gedolah Keren Hatorah",
+        "state": "New Jersey",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8571428571428571,
+          "yield_rate": 1.0,
+          "grad_rate": 0.03,
+          "retention_rate": 0.79,
+          "enrollment": 181,
+          "avg_net_price": 6103
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 493707,
+        "slug": "yeshiva-gedolah-of-woodlake-village",
+        "name": "Yeshiva Gedolah of Woodlake Village",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8372093023255814,
+          "yield_rate": 0.8888888888888888,
+          "grad_rate": 0.35,
+          "retention_rate": 0.71,
+          "enrollment": 87,
+          "avg_net_price": 6841
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 488350,
+        "slug": "yeshiva-gedolah-shaarei-shmuel",
+        "name": "Yeshiva Gedolah Shaarei Shmuel",
+        "state": "New Jersey",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5416666666666666,
+          "yield_rate": 0.8923076923076924,
+          "grad_rate": 0.11,
+          "retention_rate": 0.7,
+          "enrollment": 150,
+          "avg_net_price": 8036
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 493594,
+        "slug": "yeshiva-of-ocean",
+        "name": "Yeshiva of Ocean",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.36,
+          "yield_rate": 0.7777777777777778,
+          "grad_rate": 0.0,
+          "retention_rate": 0.88,
+          "enrollment": 63,
+          "avg_net_price": 7784
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 490504,
+        "slug": "yeshiva-ohr-naftoli",
+        "name": "Yeshiva Ohr Naftoli",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8666666666666667,
+          "grad_rate": 0.13,
+          "retention_rate": 0.6,
+          "enrollment": 49,
+          "avg_net_price": 11537
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 490276,
+        "slug": "yeshiva-shaar-ephraim",
+        "name": "Yeshiva Shaar Ephraim",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.06,
+          "retention_rate": 0.55,
+          "enrollment": 113,
+          "avg_net_price": 3755
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 493664,
+        "slug": "yeshivat-hechal-shemuel",
+        "name": "Yeshivat Hechal Shemuel",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 65,
+          "avg_net_price": 5800
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 217040,
+        "slug": "yeshivath-beth-moshe",
+        "name": "Yeshivath Beth Moshe",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.11,
+          "retention_rate": 0.57,
+          "enrollment": 34,
+          "avg_net_price": 6349
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 197744,
+        "slug": "yeshivath-zichron-moshe",
+        "name": "Yeshivath Zichron Moshe",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3,
+          "yield_rate": 1.0,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 243,
+          "avg_net_price": 9683
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.labi.edu/about/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The page provides an overview of Latin American Bible Institute, including its history, mission, values, accreditation details, and a statement of faith. It mentions the various academic programs offered in both English and Spanish and provides the physical address and contact phone number for the institute.",
+    "phone": "626-968-1328",
+    "address": "14209 Lomitas Ave, La Puente, CA 91746",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-03T14:24:21.293918+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=117283",
+      "stored": false,
+      "fetched_at": "2026-06-03T14:24:23.7121+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "url": "https://www.labi.edu/about/strategic-plan",
+      "summary": "LABI College aims to equip young leaders for multicultural ministry through bilingual education in English and Spanish. The strategic plan emphasizes developing biblical and theological knowledge, critical thinking, and servant leadership skills. The institution serves its mission by fostering spiritual formation and cultural integrity in its students.",
+      "stored": false,
+      "fetched_at": "2026-06-03T14:22:26.223828+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

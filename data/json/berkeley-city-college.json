@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-27T20:00:08.348957+00:00",
+  "generated_at": "2026-06-04T04:58:28.907463+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,21 +41,23 @@
     "source_url": "https://en.wikipedia.org/wiki/Berkeley_City_College",
     "fetched_at": "2026-05-27T22:09:07.634041+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1148,
+    "out_of_state_tuition": 8684,
     "avg_net_price": 8957,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.7972,
     "federal_loan_rate": 0.0096,
     "net_price_by_family_income": {
       "0_30k": 7645,
       "30_48k": 8121,
       "48_75k": 11806,
-      "75_110k": 13384,
-      "110k_plus": null
-    }
+      "75_110k": 13384
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.459,
     "grad_rate_total": 0.36,
     "pell_grad_rate": 0.44,
     "retention_full_time": 0.63,
@@ -64,12 +66,10 @@
   "enrollment": {
     "enrollment_12mo_total": 11265,
     "ug_12mo": 11265,
-    "grad_12mo": 7726,
+    "grad_12mo": 0,
     "women_12mo": 6460,
     "men_12mo": 4805,
     "fall_total": 6278,
-    "fall_full_time": 6278,
-    "fall_part_time": 4456,
     "distance_ed_any": 6278,
     "distance_ed_exclusive": 3132,
     "race_ethnicity": {
@@ -648,12 +648,7 @@
       "fetched_at": "2026-05-27T22:03:52.906114+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Vice President for Enrollment Management & Student Success",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179419300"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [],
   "notable_alumni": []
 }

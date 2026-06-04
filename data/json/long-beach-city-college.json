@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:06.681827+00:00",
+  "generated_at": "2026-06-04T04:57:11.341362+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Long_Beach_City_College",
     "fetched_at": "2026-05-25T19:14:16.59932+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1556,
+    "out_of_state_tuition": 11440,
     "avg_net_price": 5001,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5768,
     "federal_loan_rate": 0.0213,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 6680,
       "75_110k": 7725,
       "110k_plus": 7128
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.2802,
     "grad_rate_total": 0.3,
     "pell_grad_rate": 0.26,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 35542,
     "ug_12mo": 35542,
-    "grad_12mo": 31217,
+    "grad_12mo": 0,
     "women_12mo": 20121,
     "men_12mo": 15421,
     "fall_total": 24985,
-    "fall_full_time": 24985,
-    "fall_part_time": 22427,
     "distance_ed_any": 24985,
     "distance_ed_exclusive": 7218,
     "race_ethnicity": {
@@ -593,15 +594,10 @@
       "fetched_at": "2026-05-25T19:07:49.231975+05:30"
     }
   ],
-  "ir_jobs": [
-    {
-      "title": "Director, Institutional Research - HigherEdJobs",
-      "apply_url": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179450226"
-    }
-  ],
+  "ir_jobs": [],
   "grants": [
     {
-      "title": "Chafee Grant",
+      "title": "Chafee Grant for Foster Youth",
       "agency": "California Student Aid Commission",
       "kind": "opportunity",
       "amount_usd": 5000,

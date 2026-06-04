@@ -1,0 +1,676 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:02.111789+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 116846,
+    "slug": "american-jewish-university",
+    "name": "American Jewish University",
+    "website_url": "https://www.aju.edu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90077-1519",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+    "carnegie_slug": "bachelors-arts-sciences",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "HBQSE7RSLGM9",
+      "opeid": "00274100",
+      "ein": "951684064"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "American Jewish University (AJU) is a private Jewish university in Los Angeles, California, United States. It was formed in 2007 from the merger of the University of Judaism and Brandeis-Bardin Institute.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/American_Jewish_University",
+    "source_url": "https://en.wikipedia.org/wiki/American_Jewish_University",
+    "fetched_at": "2026-06-02T23:41:18.011975+05:30"
+  },
+  "admissions": {
+    "applicants": 25,
+    "admits": 24,
+    "enrolled": 6,
+    "first_time_freshmen": 6,
+    "first_time_freshmen_ft": 6,
+    "admit_rate": 0.96,
+    "yield_rate": 0.25
+  },
+  "cost": {
+    "pell_grant_rate": 0.5797,
+    "federal_loan_rate": 0.119,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.3077,
+    "grad_rate_total": 0.44,
+    "grad_4yr_bachelors": 0.44,
+    "grad_5yr_bachelors": 0.44,
+    "grad_6yr_bachelors": 0.44,
+    "pell_grad_rate": 0.75,
+    "pell_6yr_bachelors_rate": 0.75,
+    "non_pell_grad_rate": 0.0,
+    "non_pell_6yr_bachelors": 0.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 244,
+    "ug_12mo": 151,
+    "grad_12mo": 93,
+    "women_12mo": 182,
+    "men_12mo": 62,
+    "fall_total": 424,
+    "distance_ed_any": 424,
+    "distance_ed_exclusive": 353,
+    "race_ethnicity": {
+      "white": 0.5652,
+      "black": 0.1014,
+      "hispanic": 0.1739,
+      "asian": 0.029,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0725,
+      "non_resident": 0.029,
+      "race_unknown": 0.029
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "39",
+        "cip_family_label": "Theology",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 6
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 5
+      }
+    ],
+    "program_count": 5,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 12
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 10
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 483018,
+        "slug": "antioch-college",
+        "name": "Antioch College",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8913043478260869,
+          "yield_rate": 0.13821138211382114,
+          "grad_rate": 0.41,
+          "retention_rate": 0.72,
+          "enrollment": 121,
+          "avg_net_price": 6602
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 197993,
+        "slug": "bennett-college",
+        "name": "Bennett College",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.506578947368421,
+          "yield_rate": 0.1038961038961039,
+          "grad_rate": 0.25,
+          "retention_rate": 0.86,
+          "enrollment": 180,
+          "avg_net_price": 22858
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 139153,
+        "slug": "beulah-heights-university",
+        "name": "Beulah Heights University",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 359,
+          "avg_net_price": 5970
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 210492,
+        "slug": "bryn-athyn-college-of-the-new-church",
+        "name": "Bryn Athyn College of the New Church",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8294314381270903,
+          "yield_rate": 0.11088709677419355,
+          "grad_rate": 0.65,
+          "retention_rate": 0.73,
+          "enrollment": 255,
+          "avg_net_price": 19600
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 158477,
+        "slug": "centenary-college-of-louisiana",
+        "name": "Centenary College of Louisiana",
+        "state": "Louisiana",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5574344023323615,
+          "yield_rate": 0.24267782426778242,
+          "grad_rate": 0.56,
+          "retention_rate": 0.7,
+          "enrollment": 712,
+          "avg_net_price": 25159
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 160959,
+        "slug": "college-of-the-atlantic",
+        "name": "College of the Atlantic",
+        "state": "Maine",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7016806722689075,
+          "yield_rate": 0.23353293413173654,
+          "grad_rate": 0.68,
+          "retention_rate": 0.85,
+          "enrollment": 358,
+          "avg_net_price": 24028
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 153241,
+        "slug": "divine-word-college",
+        "name": "Divine Word College",
+        "state": "Iowa",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 0.33,
+          "enrollment": 64
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 144883,
+        "slug": "east-west-university",
+        "name": "East-West University",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4069423929098966,
+          "yield_rate": 0.19237749546279492,
+          "grad_rate": 0.19,
+          "retention_rate": 0.37,
+          "enrollment": 468,
+          "avg_net_price": 21055
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 166018,
+        "slug": "hampshire-college",
+        "name": "Hampshire College",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7528142589118199,
+          "yield_rate": 0.14392523364485982,
+          "grad_rate": 0.54,
+          "retention_rate": 0.78,
+          "enrollment": 844,
+          "avg_net_price": 25810
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 145497,
+        "slug": "hebrew-theological-college",
+        "name": "Hebrew Theological College",
+        "state": "Illinois",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5714285714285714,
+          "yield_rate": 0.875,
+          "grad_rate": 0.5,
+          "retention_rate": 0.86,
+          "enrollment": 182,
+          "avg_net_price": 11197
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 166054,
+        "slug": "hellenic-college-holy-cross-greek-orthodox-school-of-theology",
+        "name": "Hellenic College-Holy Cross Greek Orthodox School of Theology",
+        "state": "Massachusetts",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7962962962962963,
+          "yield_rate": 0.2558139534883721,
+          "grad_rate": 0.44,
+          "retention_rate": 0.71,
+          "enrollment": 274,
+          "avg_net_price": 14334
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 150774,
+        "slug": "holy-cross-college",
+        "name": "Holy Cross College",
+        "state": "Indiana",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7517911975435005,
+          "yield_rate": 0.19469026548672566,
+          "grad_rate": 0.45,
+          "retention_rate": 0.7,
+          "enrollment": 661,
+          "avg_net_price": 26470
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 157030,
+        "slug": "kentucky-mountain-bible-college",
+        "name": "Kentucky Mountain Bible College",
+        "state": "Kentucky",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.5483870967741935,
+          "grad_rate": 0.55,
+          "retention_rate": 0.7,
+          "enrollment": 94,
+          "avg_net_price": 9904
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 106342,
+        "slug": "lyon-college",
+        "name": "Lyon College",
+        "state": "Arkansas",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6275695284159613,
+          "yield_rate": 0.2254335260115607,
+          "grad_rate": 0.47,
+          "retention_rate": 0.71,
+          "enrollment": 659,
+          "avg_net_price": 22670
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 182917,
+        "slug": "magdalen-college",
+        "name": "Magdalen College",
+        "state": "New Hampshire",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4444444444444444,
+          "yield_rate": 1.0,
+          "grad_rate": 0.53,
+          "retention_rate": 0.8,
+          "avg_net_price": 15922
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 151810,
+        "slug": "martin-university",
+        "name": "Martin University",
+        "state": "Indiana",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.43,
+          "enrollment": 198,
+          "avg_net_price": 13879
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 140720,
+        "slug": "paine-college",
+        "name": "Paine College",
+        "state": "Georgia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9542673107890499,
+          "yield_rate": 0.03577455281808977,
+          "grad_rate": 0.12,
+          "retention_rate": 0.54,
+          "enrollment": 390,
+          "avg_net_price": 15074
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 205027,
+        "slug": "pontifical-college-josephinum",
+        "name": "Pontifical College Josephinum",
+        "state": "Ohio",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9583333333333334,
+          "yield_rate": 1.0,
+          "grad_rate": 0.32,
+          "retention_rate": 1.0,
+          "enrollment": 88
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 455770,
+        "slug": "providence-christian-college",
+        "name": "Providence Christian College",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.6,
+          "grad_rate": 0.2,
+          "retention_rate": 0.79,
+          "enrollment": 168,
+          "avg_net_price": 25378
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 207157,
+        "slug": "randall-university",
+        "name": "Randall University",
+        "state": "Oklahoma",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5786163522012578,
+          "yield_rate": 0.6956521739130435,
+          "grad_rate": 0.27,
+          "retention_rate": 0.56,
+          "enrollment": 298,
+          "avg_net_price": 16474
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 176318,
+        "slug": "rust-college",
+        "name": "Rust College",
+        "state": "Mississippi",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.4867349619122669,
+          "yield_rate": 0.06422018348623854,
+          "grad_rate": 0.12,
+          "retention_rate": 0.84,
+          "enrollment": 467,
+          "avg_net_price": 8751
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 172033,
+        "slug": "sacred-heart-major-seminary",
+        "name": "Sacred Heart Major Seminary",
+        "state": "Michigan",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.67,
+          "retention_rate": 1.0,
+          "enrollment": 351,
+          "avg_net_price": 10371
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 199607,
+        "slug": "salem-college",
+        "name": "Salem College",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7666963490650045,
+          "yield_rate": 0.07897793263646923,
+          "grad_rate": 0.57,
+          "retention_rate": 0.68,
+          "enrollment": 549,
+          "avg_net_price": 18835
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 461759,
+        "slug": "simmons-college-of-kentucky",
+        "name": "Simmons College of Kentucky",
+        "state": "Kentucky",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8146067415730337,
+          "grad_rate": 0.08,
+          "retention_rate": 0.64,
+          "enrollment": 506,
+          "avg_net_price": 19960
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 399911,
+        "slug": "soka-university-of-america",
+        "name": "Soka University of America",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.43375394321766564,
+          "yield_rate": 0.4581818181818182,
+          "grad_rate": 0.92,
+          "retention_rate": 0.9,
+          "enrollment": 495,
+          "avg_net_price": 21446
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 245652,
+        "slug": "st-john-s-college-2",
+        "name": "St. John's College",
+        "state": "New Mexico",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5314861460957179,
+          "yield_rate": 0.3696682464454976,
+          "grad_rate": 0.55,
+          "retention_rate": 0.82,
+          "enrollment": 467,
+          "avg_net_price": 24351
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 233718,
+        "slug": "sweet-briar-college",
+        "name": "Sweet Briar College",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7554479418886199,
+          "yield_rate": 0.13247863247863248,
+          "grad_rate": 0.52,
+          "retention_rate": 0.69,
+          "enrollment": 444,
+          "avg_net_price": 23383
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 183275,
+        "slug": "thomas-more-college-of-liberal-arts",
+        "name": "Thomas More College of Liberal Arts",
+        "state": "New Hampshire",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8958333333333334,
+          "yield_rate": 0.46511627906976744,
+          "grad_rate": 0.63,
+          "retention_rate": 0.88,
+          "enrollment": 97,
+          "avg_net_price": 21511
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 449870,
+        "slug": "university-of-the-west",
+        "name": "University of the West",
+        "state": "California",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.25,
+          "grad_rate": 0.38,
+          "retention_rate": 0.5,
+          "enrollment": 138,
+          "avg_net_price": 11137
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 197230,
+        "slug": "wells-college",
+        "name": "Wells College",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6964751958224543,
+          "yield_rate": 0.12089971883786317,
+          "grad_rate": 0.41,
+          "retention_rate": 0.5,
+          "avg_net_price": 22921
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://aju.edu/accreditations-authorizations/office-institutional-effectiveness/",
+    "office_name": "Office of Institutional Effectiveness",
+    "summary": "The Office of Institutional Effectiveness advances American Jewish University’s mission by strengthening academic quality, institutional integrity, and continuous improvement.",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-02T23:41:16.796247+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=116846",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:41:19.029694+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": [
+    {
+      "name": "Leslie Alexander",
+      "field": "Religion"
+    },
+    {
+      "name": "Sherre Hirsch",
+      "field": "Religion"
+    },
+    {
+      "name": "Rochelle Huppin",
+      "field": "Religion"
+    },
+    {
+      "name": "Jonathan Jacoby"
+    },
+    {
+      "name": "Lorna Patterson",
+      "field": "Entertainment"
+    },
+    {
+      "name": "Gershom Sizomu",
+      "field": "Religion"
+    },
+    {
+      "name": "David H. Stern",
+      "field": "Religion"
+    }
+  ]
+}

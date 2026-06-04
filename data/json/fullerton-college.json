@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:40:30.433644+00:00",
+  "generated_at": "2026-06-04T04:56:48.355177+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Fullerton_College",
     "fetched_at": "2026-05-25T20:06:35.753563+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1150,
+    "out_of_state_tuition": 9399,
     "avg_net_price": 8090,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.5669,
     "federal_loan_rate": 0.0243,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 9879,
       "75_110k": 12336,
       "110k_plus": 14498
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.3907,
     "grad_rate_total": 0.34,
     "pell_grad_rate": 0.32,
     "non_pell_grad_rate": 0.25,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 26864,
     "ug_12mo": 26864,
-    "grad_12mo": 23476,
+    "grad_12mo": 0,
     "women_12mo": 14490,
     "men_12mo": 12374,
     "fall_total": 19521,
-    "fall_full_time": 19521,
-    "fall_part_time": 17121,
     "distance_ed_any": 19521,
     "distance_ed_exclusive": 6379,
     "race_ethnicity": {

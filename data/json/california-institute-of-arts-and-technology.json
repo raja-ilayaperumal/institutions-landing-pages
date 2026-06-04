@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:54.610897+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 490285,
+    "slug": "california-institute-of-arts-and-technology",
+    "name": "California Institute of Arts & Technology",
+    "website_url": "https://www.ciat.edu",
+    "city": "National City",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91950",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Special Focus Two-Year: Technical Professions",
+    "carnegie_slug": "special-focus-2yr-technical",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "E5VFENMCH2K9",
+      "opeid": "04259800",
+      "ein": "263863091"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "The California Institute of the Arts (CalArts) is a private art school in Santa Clarita, California. It was incorporated in 1961 as the first degree-granting institution of higher learning in the US created specifically for students of both the visual and performing arts. It offers Bachelor of Fine Arts, Master of Fine Arts, Master of Arts, and Doctor of Musical Arts degrees. It is located about 30 miles northwest of downtown Los Angeles.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/California_Institute_of_the_Arts",
+    "source_url": "https://en.wikipedia.org/wiki/California_Institute_of_the_Arts",
+    "fetched_at": "2026-05-28T01:21:34.560256+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 15390,
+    "out_of_state_tuition": 15390,
+    "avg_net_price": 34183,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0052,
+    "net_price_by_family_income": {
+      "0_30k": 34486,
+      "30_48k": 32957,
+      "48_75k": 35146,
+      "75_110k": 35136
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6986,
+    "grad_rate_total": 0.56,
+    "pell_grad_rate": 1.0,
+    "retention_full_time": 0.63
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 3181,
+    "ug_12mo": 3181,
+    "grad_12mo": 0,
+    "women_12mo": 588,
+    "men_12mo": 2593,
+    "fall_total": 2112,
+    "distance_ed_any": 2112,
+    "distance_ed_exclusive": 2112,
+    "race_ethnicity": {
+      "white": 0.2143,
+      "black": 0.5,
+      "hispanic": 0.1429,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.1429,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 268
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 10
+      },
+      {
+        "cip_family_code": "15",
+        "cip_family_label": "Engineering Tech",
+        "completions": 0
+      }
+    ],
+    "program_count": 8,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 15.0,
+    "instr_total_fte": 13
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447847,
+        "slug": "aviator-college-of-aeronautical-science-and-technology",
+        "name": "Aviator College of Aeronautical Science and Technology",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 258,
+          "avg_net_price": 40694
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 404055,
+        "slug": "brookline-college-tempe",
+        "name": "Brookline College-Tempe",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.28,
+          "enrollment": 282,
+          "avg_net_price": 19642
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 496186,
+        "slug": "california-institute-of-arts-and-technology-national-city",
+        "name": "California Institute of Arts & Technology-National City",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Technical Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "avg_net_price": 22688
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 192004,
+        "slug": "jamestown-business-college",
+        "name": "Jamestown Business College",
+        "state": "New York",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8582089552238806,
+          "yield_rate": 0.7739130434782608,
+          "enrollment": 108,
+          "avg_net_price": 7732
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 461281,
+        "slug": "jose-maria-vargas-university",
+        "name": "Jose Maria Vargas University",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 112
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 485519,
+        "slug": "lionel-university",
+        "name": "Lionel University",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Other Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.1,
+          "retention_rate": 0.75,
+          "enrollment": 403,
+          "avg_net_price": 29539
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 153427,
+        "slug": "orion-technical-college",
+        "name": "Orion Technical College",
+        "state": "Iowa",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 41,
+          "avg_net_price": 20489
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 493512,
+        "slug": "san-diego-global-knowledge-university",
+        "name": "San Diego Global Knowledge University",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.75,
+          "enrollment": 193
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 399869,
+        "slug": "southern-california-institute-of-technology",
+        "name": "Southern California Institute of Technology",
+        "state": "California",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7419354838709677,
+          "yield_rate": 0.9217391304347826,
+          "grad_rate": 0.42,
+          "retention_rate": 1.0,
+          "enrollment": 510,
+          "avg_net_price": 27735
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=490285",
+      "stored": false,
+      "fetched_at": "2026-05-28T01:21:35.603686+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

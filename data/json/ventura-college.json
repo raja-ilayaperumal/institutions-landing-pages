@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T08:41:45.442473+00:00",
+  "generated_at": "2026-06-04T04:58:27.319594+00:00",
   "source": "Clema Landing Page Builder",
   "data_vintage": {
     "ipeds_year": 2024,
@@ -41,10 +41,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Ventura_College",
     "fetched_at": "2026-05-25T22:04:04.407458+05:30"
   },
-  "admissions": {},
+  "admissions": null,
   "cost": {
+    "in_state_tuition": 1416,
+    "out_of_state_tuition": 8179,
     "avg_net_price": 2257,
-    "is_private_for_net_price": false,
     "pell_grant_rate": 0.6582,
     "federal_loan_rate": 0.0091,
     "net_price_by_family_income": {
@@ -53,9 +54,11 @@
       "48_75k": 2939,
       "75_110k": 6684,
       "110k_plus": 8896
-    }
+    },
+    "is_private_for_net_price": false
   },
   "graduation": {
+    "overall_completion_rate": 0.4549,
     "grad_rate_total": 0.38,
     "pell_grad_rate": 0.38,
     "non_pell_grad_rate": 0.0,
@@ -65,12 +68,10 @@
   "enrollment": {
     "enrollment_12mo_total": 18107,
     "ug_12mo": 18107,
-    "grad_12mo": 15216,
+    "grad_12mo": 0,
     "women_12mo": 10304,
     "men_12mo": 7803,
     "fall_total": 12222,
-    "fall_full_time": 12222,
-    "fall_part_time": 10150,
     "distance_ed_any": 12222,
     "distance_ed_exclusive": 6393,
     "race_ethnicity": {

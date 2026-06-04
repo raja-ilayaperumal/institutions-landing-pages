@@ -1,0 +1,537 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:45.750608+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 450960,
+    "slug": "healthcare-career-college",
+    "name": "Healthcare Career College",
+    "website_url": "https://healthcarecareercollege.edu",
+    "city": "Paramount",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90723-5258",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 2-year",
+    "carnegie": "Special Focus Two-Year: Health Professions",
+    "carnegie_slug": "special-focus-2yr-health",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "ZQ37EZ3HANE7",
+      "opeid": "04132700",
+      "ein": "880408996"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Healthcare Career College is a private educational institution located in Paramount, California, founded in 1990. The college specializes in various healthcare training programs, including diagnostic medical sonography, physical therapy aide, and medical assistant training, among others. It aims to provide fast career pathways to employment in the healthcare field.",
+    "source_url": "https://healthcarecareercollege.edu/about",
+    "fetched_at": "2026-06-03T16:36:40.581467+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 14534,
+    "pell_grant_rate": 0.1995,
+    "federal_loan_rate": 0.8988,
+    "net_price_by_family_income": {
+      "0_30k": 11978,
+      "30_48k": 14927,
+      "48_75k": 15847,
+      "75_110k": 18145
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.5446,
+    "grad_rate_total": 0.71,
+    "pell_grad_rate": 0.67,
+    "non_pell_grad_rate": 0.93,
+    "retention_full_time": 0.81,
+    "retention_part_time": 0.81
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 750,
+    "ug_12mo": 750,
+    "grad_12mo": 0,
+    "women_12mo": 663,
+    "men_12mo": 87,
+    "fall_total": 447,
+    "distance_ed_any": 447,
+    "distance_ed_exclusive": 14,
+    "race_ethnicity": {
+      "white": 0.0446,
+      "black": 0.1391,
+      "hispanic": 0.7533,
+      "asian": 0.0315,
+      "ai_an": 0.0052,
+      "nh_pi": 0.0079,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0184
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 18
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 4,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 40
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 3
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 126359,
+        "slug": "bel-rea-institute-of-animal-technology",
+        "name": "Bel-Rea Institute of Animal Technology",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5942028985507246,
+          "yield_rate": 0.32926829268292684,
+          "retention_rate": 0.68,
+          "enrollment": 139,
+          "avg_net_price": 24961
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 450128,
+        "slug": "blue-cliff-college-alexandria",
+        "name": "Blue Cliff College-Alexandria",
+        "state": "Louisiana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.24,
+          "enrollment": 345,
+          "avg_net_price": 22485
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 491941,
+        "slug": "caris-college",
+        "name": "Caris College",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 202,
+          "avg_net_price": 17866
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 442602,
+        "slug": "carrington-college-albuquerque",
+        "name": "Carrington College-Albuquerque",
+        "state": "New Mexico",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9024390243902439,
+          "yield_rate": 0.6756756756756757,
+          "retention_rate": 0.84,
+          "enrollment": 357,
+          "avg_net_price": 39922
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 457101,
+        "slug": "carrington-college-las-vegas",
+        "name": "Carrington College-Las Vegas",
+        "state": "Nevada",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8958333333333334,
+          "yield_rate": 0.7209302325581395,
+          "retention_rate": 0.68,
+          "enrollment": 396,
+          "avg_net_price": 30306
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 439118,
+        "slug": "carrington-college-spokane",
+        "name": "Carrington College-Spokane",
+        "state": "Washington",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8735632183908046,
+          "yield_rate": 0.75,
+          "retention_rate": 0.55,
+          "enrollment": 353,
+          "avg_net_price": 35743
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 377458,
+        "slug": "centura-college-norfolk",
+        "name": "Centura College-Norfolk",
+        "state": "Virginia",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 163,
+          "avg_net_price": 26719
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 133854,
+        "slug": "concorde-career-institute-miramar",
+        "name": "Concorde Career Institute-Miramar",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.995850622406639,
+          "yield_rate": 0.4041666666666667,
+          "retention_rate": 0.76,
+          "enrollment": 108,
+          "avg_net_price": 25614
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 460190,
+        "slug": "concorde-career-institute-orlando",
+        "name": "Concorde Career Institute-Orlando",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9004739336492891,
+          "yield_rate": 0.42105263157894735,
+          "retention_rate": 0.96,
+          "enrollment": 95,
+          "avg_net_price": 32657
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 133863,
+        "slug": "concorde-career-institute-tampa",
+        "name": "Concorde Career Institute-Tampa",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.956989247311828,
+          "yield_rate": 0.5056179775280899,
+          "retention_rate": 0.74,
+          "enrollment": 158,
+          "avg_net_price": 24449
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 458681,
+        "slug": "fortis-college-indianapolis",
+        "name": "Fortis College-Indianapolis",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.48,
+          "enrollment": 322,
+          "avg_net_price": 28374
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 249609,
+        "slug": "fortis-institute-forty-fort",
+        "name": "Fortis Institute-Forty Fort",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 15,
+          "avg_net_price": 19532
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 385503,
+        "slug": "fortis-institute-scranton",
+        "name": "Fortis Institute-Scranton",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.59,
+          "enrollment": 372,
+          "avg_net_price": 24235
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 460756,
+        "slug": "hawaii-medical-college",
+        "name": "Hawaii Medical College",
+        "state": "Hawaii",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 194,
+          "avg_net_price": 35048
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 372329,
+        "slug": "ibmc-college",
+        "name": "IBMC College",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.4,
+          "enrollment": 297,
+          "avg_net_price": 23382
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 488059,
+        "slug": "med-college",
+        "name": "Med College",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 455,
+          "avg_net_price": 65555
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 458405,
+        "slug": "miller-motte-college-fayetteville",
+        "name": "Miller-Motte College-Fayetteville",
+        "state": "North Carolina",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 336
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 456205,
+        "slug": "miller-motte-college-raleigh",
+        "name": "Miller-Motte College-Raleigh",
+        "state": "North Carolina",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 409,
+          "avg_net_price": 21131
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 193858,
+        "slug": "new-york-school-for-medical-and-dental-assistants",
+        "name": "New York School for Medical and Dental Assistants",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 277,
+          "avg_net_price": 16117
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 461689,
+        "slug": "pima-medical-institute-aurora",
+        "name": "Pima Medical Institute-Aurora",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 266,
+          "avg_net_price": 18729
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 442134,
+        "slug": "pima-medical-institute-colorado-springs",
+        "name": "Pima Medical Institute-Colorado Springs",
+        "state": "Colorado",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 305,
+          "avg_net_price": 24909
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 456038,
+        "slug": "pima-medical-institute-east-valley",
+        "name": "Pima Medical Institute-East Valley",
+        "state": "Arizona",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.71,
+          "enrollment": 306,
+          "avg_net_price": 6526
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 448372,
+        "slug": "san-joaquin-valley-college-rancho-cordova",
+        "name": "San Joaquin Valley College-Rancho Cordova",
+        "state": "California",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 224,
+          "avg_net_price": 27288
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 444866,
+        "slug": "southeastern-college-columbia",
+        "name": "Southeastern College-Columbia",
+        "state": "South Carolina",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9732142857142857,
+          "yield_rate": 0.5779816513761468,
+          "retention_rate": 0.67,
+          "enrollment": 267,
+          "avg_net_price": 37856
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 449524,
+        "slug": "taylor-college",
+        "name": "Taylor College",
+        "state": "Florida",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.74,
+          "enrollment": 308,
+          "avg_net_price": 27624
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 213914,
+        "slug": "vet-tech-institute",
+        "name": "Vet Tech Institute",
+        "state": "Pennsylvania",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7755102040816326,
+          "yield_rate": 0.5921052631578947,
+          "retention_rate": 0.8,
+          "enrollment": 183,
+          "avg_net_price": 17585
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 223472,
+        "slug": "vet-tech-institute-of-houston",
+        "name": "Vet Tech Institute of Houston",
+        "state": "Texas",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8095238095238095,
+          "yield_rate": 0.6666666666666666,
+          "retention_rate": 0.74,
+          "enrollment": 200,
+          "avg_net_price": 16179
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 447999,
+        "slug": "wellspring-school-of-allied-health-kansas-city",
+        "name": "WellSpring School of Allied Health-Kansas City",
+        "state": "Missouri",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.72,
+          "enrollment": 208,
+          "avg_net_price": 12861
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=450960",
+      "stored": false,
+      "fetched_at": "2026-06-02T23:19:09.207806+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

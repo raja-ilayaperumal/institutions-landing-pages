@@ -1,0 +1,551 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:59:47.458506+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 454698,
+    "slug": "mayfield-college",
+    "name": "Mayfield College",
+    "website_url": "https://www.mayfieldcollege.edu",
+    "city": "Cathedral City",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92234",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "NNTRTB6J1AK6",
+      "opeid": "04115600",
+      "ein": "371520152"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Mayfield College is a defunct Roman Catholic boys' boarding school founded as the Holy Trinity Orphanage For Boys in 1865–1866 by the American-born Dowager Duchess of Leeds, Louisa Catherine Caton, one mile from Mayfield, East Sussex. The main building and attached chapel were built in the Gothic style, primarily of red brick and are Grade II listed, having been designed by E. W. Pugin. After closure in 1999 both the main building and chapel were converted into luxury apartments now collectively called Mayfield Grange. Officially opening in 1868 it was also known as the Xaverian Brothers School, St Xavier's College and Xaverian College at various times. Mayfield College was built as one of a pair of orphanages at the Duchess's expense, the other originally known as St Michael's Orphanage for Girls in Bletchingley, East Sussex, also designed by Pugin.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mayfield_College",
+    "source_url": "https://en.wikipedia.org/wiki/Mayfield_College",
+    "fetched_at": "2026-06-03T01:59:10.406471+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "avg_net_price": 22604,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.8114,
+    "net_price_by_family_income": {
+      "0_30k": 22544,
+      "30_48k": 22678,
+      "48_75k": 24204,
+      "75_110k": 22455
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6622,
+    "grad_rate_total": 0.82,
+    "pell_grad_rate": 0.82,
+    "non_pell_grad_rate": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 546,
+    "ug_12mo": 546,
+    "grad_12mo": 0,
+    "women_12mo": 323,
+    "men_12mo": 223,
+    "fall_total": 292,
+    "distance_ed_any": 292,
+    "race_ethnicity": {
+      "white": 0.1361,
+      "black": 0.0633,
+      "hispanic": 0.8006,
+      "asian": 0.0,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 4,
+    "highest_degree": 1,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 14
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 449676,
+        "slug": "ace-institute-of-technology",
+        "name": "Ace Institute of Technology",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.83,
+          "enrollment": 275,
+          "avg_net_price": 35092
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 415987,
+        "slug": "allen-school-jamaica",
+        "name": "Allen School-Jamaica",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.68,
+          "enrollment": 67,
+          "avg_net_price": 30588
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 457314,
+        "slug": "angeles-institute",
+        "name": "Angeles Institute",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.9,
+          "enrollment": 113,
+          "avg_net_price": 23161
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 158246,
+        "slug": "ayers-career-college",
+        "name": "Ayers Career College",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.84,
+          "enrollment": 256,
+          "avg_net_price": 17824
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 483878,
+        "slug": "bay-area-medical-academy",
+        "name": "Bay Area Medical Academy",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 209,
+          "avg_net_price": 25327
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 447810,
+        "slug": "blake-austin-college",
+        "name": "Blake Austin College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 217,
+          "avg_net_price": 30926
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 441502,
+        "slug": "blue-cliff-college-gulfport",
+        "name": "Blue Cliff College-Gulfport",
+        "state": "Mississippi",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.13,
+          "enrollment": 200,
+          "avg_net_price": 24902
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 454801,
+        "slug": "career-development-institute-inc",
+        "name": "Career Development Institute Inc",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 172,
+          "avg_net_price": 21412
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 449773,
+        "slug": "cci-training-center-arlington",
+        "name": "CCI Training Center-Arlington",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 305,
+          "avg_net_price": 12875
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 128896,
+        "slug": "cortiva-institute",
+        "name": "Cortiva Institute",
+        "state": "Connecticut",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 209,
+          "avg_net_price": 34368
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 483355,
+        "slug": "delta-college-of-arts-and-technology-lafayette-campus",
+        "name": "Delta College of Arts & Technology-Lafayette Campus",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 189,
+          "avg_net_price": 22230
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 483364,
+        "slug": "delta-college-slidell-campus",
+        "name": "Delta College-Slidell Campus",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.62,
+          "enrollment": 162,
+          "avg_net_price": 19835
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 455460,
+        "slug": "fortis-college-dothan",
+        "name": "Fortis College-Dothan",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 177,
+          "avg_net_price": 19325
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 488013,
+        "slug": "garden-state-science-and-technology-institute",
+        "name": "Garden State Science and Technology Institute",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.64,
+          "enrollment": 917,
+          "avg_net_price": 24759
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 483869,
+        "slug": "interamerican-technical-institute",
+        "name": "InterAmerican Technical Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 500,
+          "avg_net_price": 29741
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 443137,
+        "slug": "irene-s-myomassology-institute",
+        "name": "Irene's Myomassology Institute",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 285,
+          "avg_net_price": 29947
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 411684,
+        "slug": "marian-health-careers-center-los-angeles-campus",
+        "name": "Marian Health Careers Center-Los Angeles Campus",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 150,
+          "avg_net_price": 30387
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 436650,
+        "slug": "medical-training-college",
+        "name": "Medical Training College",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 164,
+          "avg_net_price": 19106
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 120087,
+        "slug": "north-west-college-van-nuys",
+        "name": "North-West College-Van Nuys",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.7078651685393258,
+          "retention_rate": 0.68,
+          "enrollment": 294,
+          "avg_net_price": 33464
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 430403,
+        "slug": "prism-career-institute-west-atlantic-city",
+        "name": "Prism Career Institute-West Atlantic City",
+        "state": "New Jersey",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7195121951219512,
+          "yield_rate": 0.6949152542372882,
+          "retention_rate": 0.89,
+          "enrollment": 235,
+          "avg_net_price": 28754
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 460109,
+        "slug": "ross-medical-education-center-granger",
+        "name": "Ross Medical Education Center-Granger",
+        "state": "Indiana",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.38,
+          "enrollment": 172,
+          "avg_net_price": 22381
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 486707,
+        "slug": "ross-medical-education-center-huntsville",
+        "name": "Ross Medical Education Center-Huntsville",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.27,
+          "enrollment": 132,
+          "avg_net_price": 21041
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 365833,
+        "slug": "ross-medical-education-center-kentwood",
+        "name": "Ross Medical Education Center-Kentwood",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.66,
+          "enrollment": 134,
+          "avg_net_price": 21580
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 365824,
+        "slug": "ross-medical-education-center-roosevelt-park",
+        "name": "Ross Medical Education Center-Roosevelt Park",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.56,
+          "enrollment": 130,
+          "avg_net_price": 21456
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 171997,
+        "slug": "ross-medical-education-center-warren",
+        "name": "Ross Medical Education Center-Warren",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.49,
+          "enrollment": 237,
+          "avg_net_price": 21312
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 456922,
+        "slug": "south-texas-vocational-technical-institute-brownsville",
+        "name": "South Texas Vocational Technical Institute-Brownsville",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.85,
+          "enrollment": 423,
+          "avg_net_price": 19274
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 462053,
+        "slug": "state-career-college",
+        "name": "State Career College",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 185,
+          "avg_net_price": 18724
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 498553,
+        "slug": "stellar-career-college-2",
+        "name": "Stellar Career College",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.91,
+          "enrollment": 83,
+          "avg_net_price": 21507
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 447467,
+        "slug": "unitech-training-academy-west-monroe",
+        "name": "Unitech Training Academy-West Monroe",
+        "state": "Louisiana",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.61,
+          "enrollment": 81,
+          "avg_net_price": 25053
+        }
+      },
+      {
+        "rank": 30,
+        "unitid": 485573,
+        "slug": "universal-healthcare-careers-college",
+        "name": "Universal Healthcare Careers College",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8242677824267782,
+          "yield_rate": 0.6802030456852792,
+          "retention_rate": 0.91,
+          "enrollment": 287,
+          "avg_net_price": 33617
+        }
+      },
+      {
+        "rank": 31,
+        "unitid": 481085,
+        "slug": "verve-college",
+        "name": "Verve College",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 176
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=454698",
+      "stored": false,
+      "fetched_at": "2026-06-03T01:59:11.407562+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

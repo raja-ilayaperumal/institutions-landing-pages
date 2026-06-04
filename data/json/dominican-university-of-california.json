@@ -1,0 +1,760 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:39.616682+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 113698,
+    "slug": "dominican-university-of-california",
+    "name": "Dominican University of California",
+    "website_url": "https://www.dominican.edu",
+    "city": "San Rafael",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94901-2298",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "UK5GQC1GVNZ4",
+      "opeid": "00119600",
+      "ein": "941156525"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Dominican University of California is a private university in San Rafael, California, United States. It was founded in 1890 as Dominican College by the Dominican Sisters of San Rafael. It is one of the oldest universities in California.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dominican_University_of_California",
+    "source_url": "https://en.wikipedia.org/wiki/Dominican_University_of_California",
+    "fetched_at": "2026-06-01T21:30:50.909371+05:30"
+  },
+  "admissions": {
+    "applicants": 2006,
+    "admits": 1675,
+    "enrolled": 213,
+    "first_time_freshmen": 213,
+    "first_time_freshmen_ft": 212,
+    "admission_rate": 0.9562,
+    "admit_rate": 0.8349950149551346,
+    "yield_rate": 0.1271641791044776,
+    "sat_average": 1194,
+    "sat_math_25_75": [
+      545,
+      618
+    ],
+    "sat_reading_25_75": [
+      525,
+      673
+    ],
+    "act_composite_25_75": [
+      22,
+      30
+    ]
+  },
+  "cost": {
+    "in_state_tuition": 50666,
+    "out_of_state_tuition": 50666,
+    "avg_net_price": 50218,
+    "pell_grant_rate": 0.1027,
+    "federal_loan_rate": 0.5477,
+    "net_price_by_family_income": {
+      "0_30k": 45630,
+      "30_48k": 46430,
+      "48_75k": 46242,
+      "75_110k": 49460,
+      "110k_plus": 54480
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.7627,
+    "grad_rate_total": 0.78,
+    "grad_4yr_bachelors": 0.65,
+    "grad_5yr_bachelors": 0.78,
+    "grad_6yr_bachelors": 0.78,
+    "pell_grad_rate": 0.71,
+    "pell_6yr_bachelors_rate": 0.71,
+    "non_pell_grad_rate": 0.84,
+    "non_pell_6yr_bachelors": 0.84,
+    "retention_full_time": 0.85,
+    "retention_part_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2413,
+    "ug_12mo": 1287,
+    "grad_12mo": 1126,
+    "women_12mo": 1691,
+    "men_12mo": 722,
+    "fall_total": 1900,
+    "distance_ed_any": 1900,
+    "distance_ed_exclusive": 141,
+    "race_ethnicity": {
+      "white": 0.2165,
+      "black": 0.0628,
+      "hispanic": 0.3098,
+      "asian": 0.3022,
+      "ai_an": 0.0034,
+      "nh_pi": 0.0076,
+      "two_or_more": 0.0662,
+      "non_resident": 0.0255,
+      "race_unknown": 0.0059
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 345
+      },
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 228
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 44
+      },
+      {
+        "cip_family_code": "26",
+        "cip_family_label": "Biological Sciences",
+        "completions": 36
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 25
+      },
+      {
+        "cip_family_code": "50",
+        "cip_family_label": "Visual/Performing Arts",
+        "completions": 17
+      },
+      {
+        "cip_family_code": "23",
+        "cip_family_label": "English Language",
+        "completions": 16
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 15
+      },
+      {
+        "cip_family_code": "45",
+        "cip_family_label": "Social Sciences",
+        "completions": 11
+      },
+      {
+        "cip_family_code": "54",
+        "cip_family_label": "History",
+        "completions": 6
+      }
+    ],
+    "program_count": 42,
+    "highest_degree": 9,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 11
+  },
+  "faculty": {
+    "student_faculty_ratio": 8.0,
+    "instr_total_fte": 103
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 164562,
+        "slug": "assumption-university",
+        "name": "Assumption University",
+        "state": "Massachusetts",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8298305084745763,
+          "yield_rate": 0.10151143790849673,
+          "grad_rate": 0.75,
+          "retention_rate": 0.84,
+          "enrollment": 2037,
+          "avg_net_price": 28853
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 168847,
+        "slug": "baker-college",
+        "name": "Baker College",
+        "state": "Michigan",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.818733738074588,
+          "yield_rate": 0.4353813559322034,
+          "grad_rate": 0.3,
+          "retention_rate": 0.66,
+          "enrollment": 3955,
+          "avg_net_price": 15171
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 201654,
+        "slug": "cedarville-university",
+        "name": "Cedarville University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6528878822197055,
+          "yield_rate": 0.33998265394622723,
+          "grad_rate": 0.73,
+          "retention_rate": 0.9,
+          "enrollment": 6318,
+          "avg_net_price": 25022
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 217688,
+        "slug": "charleston-southern-university",
+        "name": "Charleston Southern University",
+        "state": "South Carolina",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9645922746781116,
+          "yield_rate": 0.17686318131256953,
+          "grad_rate": 0.47,
+          "retention_rate": 0.63,
+          "enrollment": 3832,
+          "avg_net_price": 21955
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 144281,
+        "slug": "columbia-college-chicago",
+        "name": "Columbia College Chicago",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8946178838819042,
+          "yield_rate": 0.1514290225801358,
+          "grad_rate": 0.52,
+          "retention_rate": 0.66,
+          "enrollment": 5570,
+          "avg_net_price": 26788
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 219949,
+        "slug": "cumberland-university",
+        "name": "Cumberland University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6733466933867736,
+          "yield_rate": 0.40535714285714286,
+          "grad_rate": 0.42,
+          "retention_rate": 0.59,
+          "enrollment": 3457,
+          "avg_net_price": 18292
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 134079,
+        "slug": "florida-southern-college",
+        "name": "Florida Southern College",
+        "state": "Florida",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6441666666666667,
+          "yield_rate": 0.10952996981457525,
+          "grad_rate": 0.71,
+          "retention_rate": 0.8,
+          "enrollment": 3211,
+          "avg_net_price": 29664
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 205957,
+        "slug": "franciscan-university-of-steubenville",
+        "name": "Franciscan University of Steubenville",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5835579514824798,
+          "yield_rate": 0.4174364896073903,
+          "grad_rate": 0.75,
+          "retention_rate": 0.87,
+          "enrollment": 3976,
+          "avg_net_price": 23987
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 220613,
+        "slug": "lee-university",
+        "name": "Lee University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7051926298157454,
+          "yield_rate": 0.3497624703087886,
+          "grad_rate": 0.63,
+          "retention_rate": 0.82,
+          "enrollment": 3714,
+          "avg_net_price": 20399
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 226231,
+        "slug": "letourneau-university",
+        "name": "LeTourneau University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3800707868227607,
+          "yield_rate": 0.22277936962750716,
+          "grad_rate": 0.59,
+          "retention_rate": 0.81,
+          "enrollment": 3330,
+          "avg_net_price": 25314
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 213987,
+        "slug": "mercyhurst-university",
+        "name": "Mercyhurst University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8102046537706756,
+          "yield_rate": 0.20346020761245676,
+          "grad_rate": 0.64,
+          "retention_rate": 0.8,
+          "enrollment": 2632,
+          "avg_net_price": 27263
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 239318,
+        "slug": "milwaukee-school-of-engineering",
+        "name": "Milwaukee School of Engineering",
+        "state": "Wisconsin",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5893112772387467,
+          "yield_rate": 0.17192982456140352,
+          "grad_rate": 0.67,
+          "retention_rate": 0.84,
+          "enrollment": 2953,
+          "avg_net_price": 24021
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 163462,
+        "slug": "mount-st-mary-s-university",
+        "name": "Mount St. Mary's University",
+        "state": "Maryland",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7381228273464658,
+          "yield_rate": 0.12244897959183673,
+          "grad_rate": 0.65,
+          "retention_rate": 0.71,
+          "enrollment": 2408,
+          "avg_net_price": 24987
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 207324,
+        "slug": "oklahoma-christian-university",
+        "name": "Oklahoma Christian University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9654300168634065,
+          "yield_rate": 0.36069868995633186,
+          "grad_rate": 0.56,
+          "retention_rate": 0.73,
+          "enrollment": 2851,
+          "avg_net_price": 21423
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 207582,
+        "slug": "oral-roberts-university",
+        "name": "Oral Roberts University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9890481879729192,
+          "yield_rate": 0.18824239983893698,
+          "grad_rate": 0.57,
+          "retention_rate": 0.8,
+          "enrollment": 5936,
+          "avg_net_price": 23600
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 204936,
+        "slug": "otterbein-university",
+        "name": "Otterbein University",
+        "state": "Ohio",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8452714759112924,
+          "yield_rate": 0.1767189384800965,
+          "grad_rate": 0.68,
+          "retention_rate": 0.8,
+          "enrollment": 2332,
+          "avg_net_price": 22140
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 236230,
+        "slug": "pacific-lutheran-university",
+        "name": "Pacific Lutheran University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7802483974358975,
+          "yield_rate": 0.14120667522464697,
+          "grad_rate": 0.69,
+          "retention_rate": 0.82,
+          "enrollment": 2797,
+          "avg_net_price": 21370
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 183211,
+        "slug": "rivier-university",
+        "name": "Rivier University",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8258903335217637,
+          "yield_rate": 0.15263518138261464,
+          "grad_rate": 0.51,
+          "retention_rate": 0.76,
+          "enrollment": 2777,
+          "avg_net_price": 27692
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 217518,
+        "slug": "roger-williams-university",
+        "name": "Roger Williams University",
+        "state": "Rhode Island",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8770706190061028,
+          "yield_rate": 0.13036069298494746,
+          "grad_rate": 0.69,
+          "retention_rate": 0.81,
+          "enrollment": 4350,
+          "avg_net_price": 38123
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 215947,
+        "slug": "seton-hill-university",
+        "name": "Seton Hill University",
+        "state": "Pennsylvania",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7952593610443147,
+          "yield_rate": 0.14254859611231102,
+          "grad_rate": 0.67,
+          "retention_rate": 0.81,
+          "enrollment": 1927,
+          "avg_net_price": 22558
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 221661,
+        "slug": "southern-adventist-university",
+        "name": "Southern Adventist University",
+        "state": "Tennessee",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6549707602339181,
+          "yield_rate": 0.3692226890756303,
+          "grad_rate": 0.55,
+          "retention_rate": 0.83,
+          "enrollment": 3229,
+          "avg_net_price": 24334
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 195164,
+        "slug": "st-bonaventure-university",
+        "name": "St Bonaventure University",
+        "state": "New York",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8164963156643689,
+          "yield_rate": 0.1717612809315866,
+          "grad_rate": 0.67,
+          "retention_rate": 0.86,
+          "enrollment": 2752,
+          "avg_net_price": 27151
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 414878,
+        "slug": "trine-university-regional-non-traditional-campuses",
+        "name": "Trine University-Regional/Non-Traditional Campuses",
+        "state": "Indiana",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.39855072463768115,
+          "yield_rate": 0.5636363636363636,
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 9868,
+          "avg_net_price": 21976
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 102377,
+        "slug": "tuskegee-university",
+        "name": "Tuskegee University",
+        "state": "Alabama",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.48684662998624484,
+          "yield_rate": 0.13897227617870386,
+          "grad_rate": 0.55,
+          "retention_rate": 0.81,
+          "enrollment": 3121,
+          "avg_net_price": 32977
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 209825,
+        "slug": "university-of-portland",
+        "name": "University of Portland",
+        "state": "Oregon",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8916636506213054,
+          "yield_rate": 0.0961980787444189,
+          "grad_rate": 0.8,
+          "retention_rate": 0.88,
+          "enrollment": 3285,
+          "avg_net_price": 36371
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 237066,
+        "slug": "whitworth-university",
+        "name": "Whitworth University",
+        "state": "Washington",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8977841315225161,
+          "yield_rate": 0.1393312101910828,
+          "grad_rate": 0.71,
+          "retention_rate": 0.78,
+          "enrollment": 2314,
+          "avg_net_price": 25884
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 160904,
+        "slug": "xavier-university-of-louisiana",
+        "name": "Xavier University of Louisiana",
+        "state": "Louisiana",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.6903508771929825,
+          "yield_rate": 0.11845263306508541,
+          "grad_rate": 0.48,
+          "retention_rate": 0.72,
+          "enrollment": 3218,
+          "avg_net_price": 18285
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.dominican.edu/about/student-success",
+    "office_name": "Office of Institutional Research",
+    "parent_division": "Student Success and Institutional Effectiveness",
+    "summary": "The page provides detailed information about student success and institutional effectiveness at Dominican University of California. It highlights the University's commitment to the Dominican Experience and outlines various programs, learning outcomes, and student engagement opportunities. Contact details for the Director of Institutional Research, Yu-Ti Huang, are included.",
+    "phone": "415-485-3247",
+    "address": "50 Acacia Avenue, San Rafael, CA 94901",
+    "confidence": 0.85,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:30:49.768775+05:30"
+  },
+  "ir_team": [
+    {
+      "ordering": 0,
+      "name": "Yu-Ti Huang",
+      "title": "Director of Institutional Research",
+      "email": "yuti.huang@dominican.edu",
+      "phone": "(415) 485-3247",
+      "linkedin_url": "https://www.linkedin.com/in/yutihuang"
+    }
+  ],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=113698",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:05.433831+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2024,
+      "title": "University Facts",
+      "url": "https://www.dominican.edu/about/student-success/university-facts",
+      "summary": "Dominican University of California's University Facts page provides an overview of the student body, focusing on demographics, declared majors, persistence, and completion rates. The data is updated annually based on the Fall census. Additional information such as graduation rates and degree statistics are available, alongside the Common Data Set details. The information is aimed at offering insights into the student composition and institutional effectiveness, with tools to refine data based on various student attributes.",
+      "stored": false,
+      "fetched_at": "2026-06-01T21:27:44.08271+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [
+    {
+      "title": "Marin Advantage Program (MAP)",
+      "agency": "Dominican University of California",
+      "kind": "opportunity",
+      "url": "https://www.dominican.edu/admissions/tuition-and-financial-aid/scholarships-and-grants",
+      "source": "institution_site"
+    }
+  ],
+  "notable_alumni": [
+    {
+      "name": "Chiu Yi-ying",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chiu_Yi-ying",
+      "field": "Politics"
+    },
+    {
+      "name": "Meg Froelich",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Meg_Froelich",
+      "field": "Politics"
+    },
+    {
+      "name": "William Gagan",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/William_Gagan"
+    },
+    {
+      "name": "Marion Irvine",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marion_Irvine",
+      "field": "Athletics"
+    },
+    {
+      "name": "Abigail Kinoiki Kekaulike Kawānanakoa",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Abigail_Kinoiki_Kekaulike_Kaw%C4%81nanakoa",
+      "field": "Royalty"
+    },
+    {
+      "name": "Killian Larson",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Killian_Larson",
+      "field": "Athletics"
+    },
+    {
+      "name": "Joanna Isabel Mayer"
+    },
+    {
+      "name": "Ada Nisbet"
+    },
+    {
+      "name": "Bill Kipsang Rotich",
+      "field": "Athletics"
+    },
+    {
+      "name": "Angela Salinas",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angela_Salinas",
+      "field": "Military"
+    },
+    {
+      "name": "Hannah Stocking",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hannah_Stocking",
+      "field": "Media"
+    },
+    {
+      "name": "Margaret Bartlett Thornton"
+    },
+    {
+      "name": "Winifred Westover",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Winifred_Westover",
+      "field": "Acting"
+    },
+    {
+      "name": "Yen Kuan-heng",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yen_Kuan-heng",
+      "field": "Politics"
+    }
+  ]
+}

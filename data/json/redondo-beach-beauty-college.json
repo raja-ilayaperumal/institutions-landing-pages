@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:56:45.203173+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 114637,
+    "slug": "redondo-beach-beauty-college",
+    "name": "Redondo Beach Beauty College",
+    "website_url": "https://rbbeautycollege.com",
+    "city": "Torrance",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "90505",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, less-than 2-year",
+    "carnegie": null,
+    "carnegie_slug": null,
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "FLEKC4PY3EW3",
+      "opeid": "00720900",
+      "ein": "900803435"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Redondo Beach Beauty College is a beauty school located in Torrance, California, providing education in various beauty-related programs. The details such as founding year and size are not specified in the information provided.",
+    "source_url": "https://rbbeautycollege.com/about",
+    "fetched_at": "2026-06-03T18:27:50.910045+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.2913,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 1.0,
+    "grad_rate_total": 1.0,
+    "retention_full_time": 1.0
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 94,
+    "ug_12mo": 94,
+    "grad_12mo": 0,
+    "women_12mo": 88,
+    "men_12mo": 6,
+    "fall_total": 43,
+    "distance_ed_any": 43,
+    "race_ethnicity": {
+      "white": 0.1538,
+      "black": 0.0769,
+      "hispanic": 0.2885,
+      "asian": 0.4808,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.0,
+      "race_unknown": 0.0
+    }
+  },
+  "programs": {
+    "top_cip_families": [],
+    "program_count": 5,
+    "highest_degree": 2,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 0
+  },
+  "faculty": {
+    "student_faculty_ratio": 20.0
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 447449,
+        "slug": "academy-of-hair-design-jasper",
+        "name": "Academy of Hair Design-Jasper",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.23,
+          "enrollment": 52,
+          "avg_net_price": 10928
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 496724,
+        "slug": "aesthetics-institute",
+        "name": "Aesthetics Institute",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 28
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 489247,
+        "slug": "american-beauty-academy-west-valley-campus",
+        "name": "American Beauty Academy-West Valley Campus",
+        "state": "Utah",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 18,
+          "avg_net_price": 12398
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 448257,
+        "slug": "avi-career-training",
+        "name": "Avi Career Training",
+        "state": "Virginia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.8,
+          "enrollment": 22,
+          "avg_net_price": 16607
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 476610,
+        "slug": "barber-and-beauty-institute-of-new-york",
+        "name": "Barber & Beauty Institute of New York",
+        "state": "New York",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 16,
+          "avg_net_price": 15939
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 364760,
+        "slug": "bell-mar-beauty-college",
+        "name": "Bell Mar Beauty College",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "avg_net_price": 7188
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 493567,
+        "slug": "bellasa-professional-institute",
+        "name": "Bellasa Professional Institute",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 43
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 211334,
+        "slug": "butler-beauty-academy",
+        "name": "Butler Beauty Academy",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.89,
+          "enrollment": 26,
+          "avg_net_price": 10413
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 460765,
+        "slug": "carolina-college-of-hair-design-inc",
+        "name": "Carolina College of Hair Design Inc",
+        "state": "North Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.87,
+          "enrollment": 46,
+          "avg_net_price": 13922
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 417725,
+        "slug": "central-college-of-cosmetology",
+        "name": "Central College of Cosmetology",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.92,
+          "enrollment": 61,
+          "avg_net_price": 7364
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 217828,
+        "slug": "charzanne-beauty-college",
+        "name": "Charzanne Beauty College",
+        "state": "South Carolina",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.65,
+          "avg_net_price": 14042
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 381699,
+        "slug": "cheeks-beauty-academy-2",
+        "name": "Cheeks Beauty Academy",
+        "state": "Colorado",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.73,
+          "enrollment": 46,
+          "avg_net_price": 10481
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 496575,
+        "slug": "dymond-designs-beauty-school",
+        "name": "Dymond Designs Beauty School",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.33,
+          "enrollment": 28,
+          "avg_net_price": 20750
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 212230,
+        "slug": "empire-beauty-school-lebanon",
+        "name": "Empire Beauty School-Lebanon",
+        "state": "Pennsylvania",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 49,
+          "avg_net_price": 18220
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 492652,
+        "slug": "kck-beauty-and-barber-academy",
+        "name": "KCK Beauty & Barber Academy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 36,
+          "avg_net_price": 18914
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 497365,
+        "slug": "legends-barber-college",
+        "name": "Legends Barber College",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 26,
+          "avg_net_price": 11445
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 170736,
+        "slug": "m-j-murphy-beauty-college-of-mount-pleasant",
+        "name": "M J Murphy Beauty College of Mount Pleasant",
+        "state": "Michigan",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.88,
+          "enrollment": 50,
+          "avg_net_price": 13516
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 107442,
+        "slug": "new-tyler-barber-college-inc",
+        "name": "New Tyler Barber College Inc",
+        "state": "Arkansas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 39,
+          "avg_net_price": 14499
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 147819,
+        "slug": "oehrlein-school-of-cosmetology",
+        "name": "Oehrlein School of Cosmetology",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 65,
+          "avg_net_price": 9229
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 491853,
+        "slug": "princess-institute-of-beauty",
+        "name": "Princess Institute of Beauty",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 29,
+          "avg_net_price": 12151
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 148098,
+        "slug": "professional-s-choice-hair-design-academy",
+        "name": "Professional's Choice Hair Design Academy",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 53,
+          "avg_net_price": 16092
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 179195,
+        "slug": "salem-college-of-hairstyling",
+        "name": "Salem College of Hairstyling",
+        "state": "Missouri",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.25,
+          "enrollment": 31,
+          "avg_net_price": 6256
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 456588,
+        "slug": "salon-success-academy-fontana",
+        "name": "Salon Success Academy-Fontana",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 29,
+          "avg_net_price": 10813
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 480842,
+        "slug": "shear-finesse-beauty-academy",
+        "name": "Shear Finesse Beauty Academy",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.77,
+          "enrollment": 49,
+          "avg_net_price": 22302
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 239877,
+        "slug": "state-college-of-beauty-culture",
+        "name": "State College of Beauty Culture",
+        "state": "Wisconsin",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.78,
+          "enrollment": 57,
+          "avg_net_price": 10994
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 497684,
+        "slug": "sweetwater-institute-of-cosmetology",
+        "name": "Sweetwater Institute of Cosmetology",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.95,
+          "enrollment": 22,
+          "avg_net_price": 1124
+        }
+      },
+      {
+        "rank": 27,
+        "unitid": 481340,
+        "slug": "the-salon-professional-academy-nashville",
+        "name": "The Salon Professional Academy-Nashville",
+        "state": "Tennessee",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.86,
+          "enrollment": 33,
+          "avg_net_price": 13347
+        }
+      },
+      {
+        "rank": 28,
+        "unitid": 377193,
+        "slug": "ucas-university-of-cosmetology-arts-and-sciences",
+        "name": "UCAS University of Cosmetology Arts & Sciences",
+        "state": "Texas",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.67,
+          "enrollment": 24
+        }
+      },
+      {
+        "rank": 29,
+        "unitid": 490142,
+        "slug": "world-class-academy-of-beauty-careers",
+        "name": "World Class Academy of Beauty Careers",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 36
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=114637",
+      "stored": false,
+      "fetched_at": "2026-06-03T18:27:42.450723+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

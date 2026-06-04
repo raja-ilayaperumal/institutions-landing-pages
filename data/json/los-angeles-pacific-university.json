@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:15.651379+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 474863,
+    "slug": "los-angeles-pacific-university",
+    "name": "Los Angeles Pacific University",
+    "website_url": "https://www.lapu.edu",
+    "city": "San Dimas",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "91773-1741",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Masters Colleges & Universities: Medium Programs",
+    "carnegie_slug": "masters-medium",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": true,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "WGDMLCMUWAN1",
+      "opeid": "04278800",
+      "ein": "364682140"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Los Angeles Pacific University is an accredited Christian nonprofit institution located in Glendora, California. Founded in 1899, it offers associate, bachelor's, and master's degrees with a focus on providing accessible and flexible education for busy adults.",
+    "source_url": "https://www.lapu.edu/about",
+    "fetched_at": "2026-06-03T16:37:03.77279+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 11976,
+    "out_of_state_tuition": 11976,
+    "avg_net_price": 20170,
+    "pell_grant_rate": 0.5692,
+    "federal_loan_rate": 0.7534,
+    "net_price_by_family_income": {
+      "0_30k": 17980,
+      "30_48k": 24505,
+      "48_75k": 21334
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.325,
+    "grad_rate_total": 0.21,
+    "grad_4yr_bachelors": 0.17,
+    "grad_5yr_bachelors": 0.17,
+    "grad_6yr_bachelors": 0.17,
+    "pell_grad_rate": 0.13,
+    "pell_6yr_bachelors_rate": 0.1,
+    "non_pell_grad_rate": 0.5,
+    "non_pell_6yr_bachelors": 0.5,
+    "retention_full_time": 0.57,
+    "retention_part_time": 0.57
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 2884,
+    "ug_12mo": 2582,
+    "grad_12mo": 302,
+    "women_12mo": 2372,
+    "men_12mo": 512,
+    "fall_total": 1881,
+    "distance_ed_any": 1881,
+    "distance_ed_exclusive": 1881,
+    "race_ethnicity": {
+      "white": 0.2223,
+      "black": 0.1521,
+      "hispanic": 0.4508,
+      "asian": 0.0723,
+      "ai_an": 0.0076,
+      "nh_pi": 0.0138,
+      "two_or_more": 0.0496,
+      "non_resident": 0.0007,
+      "race_unknown": 0.031
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 136
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 83
+      },
+      {
+        "cip_family_code": "42",
+        "cip_family_label": "Psychology",
+        "completions": 65
+      },
+      {
+        "cip_family_code": "24",
+        "cip_family_label": "Liberal Arts",
+        "completions": 54
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 8
+      },
+      {
+        "cip_family_code": "44",
+        "cip_family_label": "Public Admin",
+        "completions": 7
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "13",
+        "cip_family_label": "Education",
+        "completions": 2
+      }
+    ],
+    "program_count": 17,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 24.0,
+    "instr_total_fte": 11
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 109785,
+        "slug": "azusa-pacific-university",
+        "name": "Azusa Pacific University",
+        "state": "California",
+        "carnegie": "Doctoral Universities: High Research Activity",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.8842538190364277,
+          "yield_rate": 0.13687707641196012,
+          "grad_rate": 0.62,
+          "retention_rate": 0.84,
+          "enrollment": 6272,
+          "avg_net_price": 19798
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 180814,
+        "slug": "bellevue-university",
+        "name": "Bellevue University",
+        "state": "Nebraska",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.58,
+          "enrollment": 14667,
+          "avg_net_price": 28345
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 110361,
+        "slug": "california-baptist-university",
+        "name": "California Baptist University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.848811013767209,
+          "yield_rate": 0.23768799764081391,
+          "grad_rate": 0.62,
+          "retention_rate": 0.74,
+          "enrollment": 11902,
+          "avg_net_price": 27384
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 104717,
+        "slug": "grand-canyon-university",
+        "name": "Grand Canyon University",
+        "state": "Arizona",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7891139191063024,
+          "yield_rate": 0.18081920554386832,
+          "grad_rate": 0.43,
+          "retention_rate": 0.72,
+          "enrollment": 113257,
+          "avg_net_price": 21931
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 488679,
+        "slug": "indiana-wesleyan-university-national-and-global",
+        "name": "Indiana Wesleyan University-National & Global",
+        "state": "Indiana",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 14331,
+          "avg_net_price": 16767
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 226231,
+        "slug": "letourneau-university",
+        "name": "LeTourneau University",
+        "state": "Texas",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3800707868227607,
+          "yield_rate": 0.22277936962750716,
+          "grad_rate": 0.59,
+          "retention_rate": 0.81,
+          "enrollment": 3330,
+          "avg_net_price": 25314
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 232557,
+        "slug": "liberty-university",
+        "name": "Liberty University",
+        "state": "Virginia",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9897762809718547,
+          "yield_rate": 0.24389354721108275,
+          "grad_rate": 0.67,
+          "retention_rate": 0.8,
+          "enrollment": 104327,
+          "avg_net_price": 29552
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 245953,
+        "slug": "mid-america-christian-university",
+        "name": "Mid-America Christian University",
+        "state": "Oklahoma",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9175531914893617,
+          "yield_rate": 0.6898550724637681,
+          "grad_rate": 0.39,
+          "retention_rate": 0.65,
+          "enrollment": 2397,
+          "avg_net_price": 17123
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 119605,
+        "slug": "national-university",
+        "name": "National University",
+        "state": "California",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.5454545454545454,
+          "yield_rate": 0.4523809523809524,
+          "grad_rate": 0.5,
+          "retention_rate": 0.53,
+          "enrollment": 22115,
+          "avg_net_price": 31058
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 127918,
+        "slug": "regis-university",
+        "name": "Regis University",
+        "state": "Colorado",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.864557846906676,
+          "yield_rate": 0.11825348696179502,
+          "grad_rate": 0.62,
+          "retention_rate": 0.71,
+          "enrollment": 4605,
+          "avg_net_price": 22689
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 183026,
+        "slug": "southern-new-hampshire-university",
+        "name": "Southern New Hampshire University",
+        "state": "New Hampshire",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9951022434884665,
+          "yield_rate": 0.3801401710177142,
+          "grad_rate": 0.44,
+          "retention_rate": 0.61,
+          "enrollment": 189531,
+          "avg_net_price": 33742
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 262086,
+        "slug": "university-of-massachusetts-global",
+        "name": "University of Massachusetts Global",
+        "state": "California",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9285714285714286,
+          "yield_rate": 0.48717948717948717,
+          "retention_rate": 0.62,
+          "enrollment": 8996,
+          "avg_net_price": 31601
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.lapu.edu/resources/institutional-research",
+    "office_name": "Office of Institutional Research",
+    "summary": "The Office of Institutional Research serves Los Angeles Pacific University by collecting, synthesizing, and converting data into accurate and consistent information for both internal and external stakeholders to support university-wide and departmental promotion, reporting, and data-driven decision making.",
+    "address": "2100 E. Route 66, Suite 101, Glendora, CA 91740",
+    "confidence": 0.95,
+    "needs_review": false,
+    "fetched_at": "2026-06-01T21:35:40.978457+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=474863",
+      "stored": false,
+      "fetched_at": "2026-06-01T22:00:07.184853+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T05:00:55.274610+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 490878,
+    "slug": "platt-college-anaheim",
+    "name": "Platt College-Anaheim",
+    "website_url": "https://www.plattcollege.edu",
+    "city": "Anaheim",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "92806-5949",
+    "region": "Far West",
+    "control": "Private for-profit",
+    "control_slug": "private-fp",
+    "sector": "Private for-profit, 4-year or above",
+    "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+    "carnegie_slug": "bachelors-associates-mixed",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": "KF3EC64RGS81",
+      "opeid": "03062703",
+      "ein": "262806243"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "Platt College-Anaheim is a private higher education institution located in Anaheim, California, founded in 1985. It offers programs across various fields including Medical Science, Graphic Design, Business & Legal, and Information Technology, with a notable focus on vocational training and career preparation.",
+    "source_url": "https://www.plattcollege.edu/about",
+    "fetched_at": "2026-06-03T16:42:45.707769+05:30"
+  },
+  "admissions": null,
+  "cost": {
+    "in_state_tuition": 14804,
+    "out_of_state_tuition": 14804,
+    "avg_net_price": 25680,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.7775,
+    "net_price_by_family_income": {
+      "0_30k": 25048,
+      "30_48k": 25100,
+      "48_75k": 26895,
+      "75_110k": 27541,
+      "110k_plus": 31348
+    },
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "overall_completion_rate": 0.6182,
+    "grad_rate_total": 0.64,
+    "pell_grad_rate": 0.62,
+    "non_pell_grad_rate": 0.67
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 656,
+    "ug_12mo": 656,
+    "grad_12mo": 0,
+    "women_12mo": 564,
+    "men_12mo": 92,
+    "fall_total": 498,
+    "distance_ed_any": 498,
+    "distance_ed_exclusive": 88,
+    "race_ethnicity": {
+      "white": 0.1259,
+      "black": 0.0148,
+      "hispanic": 0.6617,
+      "asian": 0.1309,
+      "ai_an": 0.0074,
+      "nh_pi": 0.0049,
+      "two_or_more": 0.0469,
+      "non_resident": 0.0,
+      "race_unknown": 0.0074
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "51",
+        "cip_family_label": "Health Professions",
+        "completions": 143
+      },
+      {
+        "cip_family_code": "01",
+        "cip_family_label": "Agriculture",
+        "completions": 34
+      },
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 12
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 5
+      },
+      {
+        "cip_family_code": "43",
+        "cip_family_label": "Security/Protective",
+        "completions": 4
+      }
+    ],
+    "program_count": 10,
+    "highest_degree": 5,
+    "offers_undergraduate": 1,
+    "offers_graduate": 2,
+    "highest_degree_offered_code": 30
+  },
+  "faculty": {
+    "student_faculty_ratio": 21.0,
+    "instr_total_fte": 12
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 232797,
+        "slug": "american-national-university",
+        "name": "American National University",
+        "state": "Virginia",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.5,
+          "retention_rate": 0.83,
+          "enrollment": 770,
+          "avg_net_price": 20215
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 110219,
+        "slug": "bryan-university",
+        "name": "Bryan University",
+        "state": "Arizona",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2519,
+          "avg_net_price": 20948
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 211477,
+        "slug": "central-penn-college",
+        "name": "Central Penn College",
+        "state": "Pennsylvania",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.18460264900662252,
+          "yield_rate": 0.8340807174887892,
+          "grad_rate": 0.45,
+          "retention_rate": 0.65,
+          "enrollment": 684,
+          "avg_net_price": 19279
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 102845,
+        "slug": "charter-college",
+        "name": "Charter College",
+        "state": "Alaska",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.9404388714733543,
+          "retention_rate": 0.25,
+          "enrollment": 2157,
+          "avg_net_price": 25225
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 244233,
+        "slug": "city-college-hollywood",
+        "name": "City College-Hollywood",
+        "state": "Florida",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.85,
+          "retention_rate": 0.0,
+          "enrollment": 305
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 482477,
+        "slug": "devry-university-illinois",
+        "name": "DeVry University-Illinois",
+        "state": "Illinois",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9837627956230145,
+          "yield_rate": 0.7778973806960889,
+          "grad_rate": 0.18,
+          "retention_rate": 0.65,
+          "enrollment": 31296,
+          "avg_net_price": 30878
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 248934,
+        "slug": "ecpi-university",
+        "name": "ECPI University",
+        "state": "Virginia",
+        "carnegie": "Masters Colleges & Universities: Medium Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7452157598499062,
+          "yield_rate": 0.2618328298086606,
+          "grad_rate": 0.28,
+          "retention_rate": 0.56,
+          "enrollment": 12572,
+          "avg_net_price": 20473
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 114354,
+        "slug": "fidm-fashion-institute-of-design-and-merchandising",
+        "name": "FIDM-Fashion Institute of Design & Merchandising",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 564,
+          "avg_net_price": 41493
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 372073,
+        "slug": "fremont-university",
+        "name": "Fremont University",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.0,
+          "enrollment": 174,
+          "avg_net_price": 32256
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 198978,
+        "slug": "miller-motte-college-wilmington",
+        "name": "Miller-Motte College-Wilmington",
+        "state": "North Carolina",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 46,
+          "avg_net_price": 22772
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 260789,
+        "slug": "platt-college-los-angeles",
+        "name": "Platt College-Los Angeles",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 570,
+          "avg_net_price": 28014
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 432384,
+        "slug": "platt-college-ontario",
+        "name": "Platt College-Ontario",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 500,
+          "avg_net_price": 27002
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 480204,
+        "slug": "platt-college-riverside",
+        "name": "Platt College-Riverside",
+        "state": "California",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 413,
+          "avg_net_price": 26217
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 194499,
+        "slug": "plaza-college",
+        "name": "Plaza College",
+        "state": "New York",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.3,
+          "yield_rate": 0.5493333333333333,
+          "enrollment": 1002,
+          "avg_net_price": 18193
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 138309,
+        "slug": "rasmussen-university-florida",
+        "name": "Rasmussen University-Florida",
+        "state": "Florida",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 1.0,
+          "enrollment": 3121,
+          "avg_net_price": 19113
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 480657,
+        "slug": "rasmussen-university-kansas",
+        "name": "Rasmussen University-Kansas",
+        "state": "Kansas",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 359,
+          "avg_net_price": 18289
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 175014,
+        "slug": "rasmussen-university-minnesota",
+        "name": "Rasmussen University-Minnesota",
+        "state": "Minnesota",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 9416,
+          "avg_net_price": 19071
+        }
+      },
+      {
+        "rank": 18,
+        "unitid": 200013,
+        "slug": "rasmussen-university-north-dakota",
+        "name": "Rasmussen University-North Dakota",
+        "state": "North Dakota",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 52,
+          "avg_net_price": 18227
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 450571,
+        "slug": "rasmussen-university-wisconsin",
+        "name": "Rasmussen University-Wisconsin",
+        "state": "Wisconsin",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 55,
+          "avg_net_price": 18847
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 220552,
+        "slug": "south-college",
+        "name": "South College",
+        "state": "Tennessee",
+        "carnegie": "Doctoral/Professional Universities",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.53,
+          "retention_rate": 0.52,
+          "enrollment": 11557,
+          "avg_net_price": 17182
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 207254,
+        "slug": "spartan-college-of-aeronautics-and-technology-2",
+        "name": "Spartan College of Aeronautics and Technology",
+        "state": "Oklahoma",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7687007874015748,
+          "yield_rate": 0.4980793854033291,
+          "enrollment": 840,
+          "avg_net_price": 31544
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 178767,
+        "slug": "stevens-the-institute-of-business-and-arts",
+        "name": "Stevens-The Institute of Business & Arts",
+        "state": "Missouri",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "grad_rate": 0.5,
+          "enrollment": 89,
+          "avg_net_price": 20095
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 157793,
+        "slug": "sullivan-university",
+        "name": "Sullivan University",
+        "state": "Kentucky",
+        "carnegie": "Masters Colleges & Universities: Larger Programs",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 2498,
+          "avg_net_price": 25785
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 197285,
+        "slug": "the-college-of-westchester",
+        "name": "The College of Westchester",
+        "state": "New York",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.9441964285714286,
+          "yield_rate": 0.2127659574468085,
+          "grad_rate": 0.41,
+          "retention_rate": 0.79,
+          "enrollment": 759,
+          "avg_net_price": 11669
+        }
+      },
+      {
+        "rank": 25,
+        "unitid": 377661,
+        "slug": "valley-college-martinsburg",
+        "name": "Valley College-Martinsburg",
+        "state": "West Virginia",
+        "carnegie": "Baccalaureate/Associates Colleges: Mixed",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.38,
+          "retention_rate": 0.5,
+          "enrollment": 765,
+          "avg_net_price": 25666
+        }
+      },
+      {
+        "rank": 26,
+        "unitid": 226879,
+        "slug": "wade-college",
+        "name": "Wade College",
+        "state": "Texas",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 1.0,
+          "retention_rate": 1.0,
+          "enrollment": 252,
+          "avg_net_price": 21998
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": null,
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=490878",
+      "stored": false,
+      "fetched_at": "2026-06-02T22:58:42.026356+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}

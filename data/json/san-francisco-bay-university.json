@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-04T04:57:38.636106+00:00",
+  "source": "Clema Landing Page Builder",
+  "data_vintage": {
+    "ipeds_year": 2024,
+    "scorecard_year": 2024
+  },
+  "institution": {
+    "unitid": 120166,
+    "slug": "san-francisco-bay-university",
+    "name": "San Francisco Bay University",
+    "website_url": "https://www.sfbu.edu",
+    "city": "Fremont",
+    "state": "CA",
+    "state_name": "California",
+    "zip": "94539",
+    "region": "Far West",
+    "control": "Private not-for-profit",
+    "control_slug": "private-np",
+    "sector": "Private not-for-profit, 4-year or above",
+    "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional",
+    "carnegie_slug": "associates-mixed-mixed-traditional",
+    "tags": {
+      "is_hbcu": false,
+      "is_hsi": false,
+      "is_landgrant": false,
+      "is_medical": false,
+      "is_tribal": false
+    },
+    "identifiers": {
+      "ueis": null,
+      "opeid": null,
+      "ein": "942933165"
+    }
+  },
+  "brand": null,
+  "about": {
+    "summary": "San Francisco Bay University, formerly Northwestern Polytechnic University, is a private, nonprofit university in Fremont, California, United States. Founded in 1984, the university awards bachelor's and master's degrees in computer science, engineering, technology and management programs.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Francisco_Bay_University",
+    "source_url": "https://en.wikipedia.org/wiki/San_Francisco_Bay_University",
+    "wikidata_qid": "Q498451",
+    "fetched_at": "2026-06-03T15:57:39.636364+05:30"
+  },
+  "admissions": {
+    "applicants": 853,
+    "admits": 817,
+    "enrolled": 46,
+    "first_time_freshmen": 46,
+    "first_time_freshmen_ft": 45,
+    "admission_rate": 0.6939,
+    "admit_rate": 0.9577960140679953,
+    "yield_rate": 0.056303549571603426
+  },
+  "cost": {
+    "in_state_tuition": 8775,
+    "out_of_state_tuition": 8775,
+    "pell_grant_rate": 0.0,
+    "federal_loan_rate": 0.0,
+    "is_private_for_net_price": true
+  },
+  "graduation": {
+    "retention_full_time": 0.72
+  },
+  "enrollment": {
+    "enrollment_12mo_total": 545,
+    "ug_12mo": 106,
+    "grad_12mo": 439,
+    "women_12mo": 278,
+    "men_12mo": 267,
+    "fall_total": 389,
+    "distance_ed_any": 389,
+    "distance_ed_exclusive": 42,
+    "race_ethnicity": {
+      "white": 0.0,
+      "black": 0.0161,
+      "hispanic": 0.0161,
+      "asian": 0.7258,
+      "ai_an": 0.0,
+      "nh_pi": 0.0,
+      "two_or_more": 0.0,
+      "non_resident": 0.129,
+      "race_unknown": 0.1129
+    }
+  },
+  "programs": {
+    "top_cip_families": [
+      {
+        "cip_family_code": "11",
+        "cip_family_label": "Computer Sciences",
+        "completions": 80
+      },
+      {
+        "cip_family_code": "52",
+        "cip_family_label": "Business",
+        "completions": 40
+      },
+      {
+        "cip_family_code": "14",
+        "cip_family_label": "Engineering",
+        "completions": 0
+      },
+      {
+        "cip_family_code": "30",
+        "cip_family_label": "Multi/Interdisciplinary",
+        "completions": 0
+      }
+    ],
+    "program_count": 7,
+    "highest_degree": 7,
+    "offers_undergraduate": 1,
+    "offers_graduate": 1,
+    "highest_degree_offered_code": 20
+  },
+  "faculty": {
+    "student_faculty_ratio": 10.0,
+    "instr_total_fte": 5
+  },
+  "peers": {
+    "source": "carnegie_state_control_v1",
+    "source_label": "IPEDS Data Feedback Report (official comparison group)",
+    "institutions": [
+      {
+        "rank": 1,
+        "unitid": 142957,
+        "slug": "american-islamic-college",
+        "name": "American Islamic College",
+        "state": "Illinois",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 0.8888888888888888,
+          "retention_rate": 1.0,
+          "enrollment": 29
+        }
+      },
+      {
+        "rank": 2,
+        "unitid": 183600,
+        "slug": "assumption-college-for-sisters",
+        "name": "Assumption College for Sisters",
+        "state": "New Jersey",
+        "carnegie": "Associate's Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 30
+        }
+      },
+      {
+        "rank": 3,
+        "unitid": 201140,
+        "slug": "athenaeum-of-ohio",
+        "name": "Athenaeum of Ohio",
+        "state": "Ohio",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 156
+        }
+      },
+      {
+        "rank": 4,
+        "unitid": 206817,
+        "slug": "bacone-college",
+        "name": "Bacone College",
+        "state": "Oklahoma",
+        "carnegie": "Baccalaureate Colleges: Diverse Fields",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.545045045045045,
+          "yield_rate": 0.6033057851239669,
+          "grad_rate": 0.02,
+          "retention_rate": 0.31,
+          "avg_net_price": 12197
+        }
+      },
+      {
+        "rank": 5,
+        "unitid": 486053,
+        "slug": "bethlehem-college-and-seminary",
+        "name": "Bethlehem College & Seminary",
+        "state": "Minnesota",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7894736842105263,
+          "yield_rate": 0.8,
+          "grad_rate": 0.35,
+          "retention_rate": 1.0,
+          "enrollment": 200
+        }
+      },
+      {
+        "rank": 6,
+        "unitid": 493974,
+        "slug": "college-of-athens",
+        "name": "College of Athens",
+        "state": "Georgia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 1.0,
+          "enrollment": 57
+        }
+      },
+      {
+        "rank": 7,
+        "unitid": 496469,
+        "slug": "daybreak-university",
+        "name": "Daybreak University",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 145
+        }
+      },
+      {
+        "rank": 8,
+        "unitid": 486080,
+        "slug": "elmezzi-graduate-school-of-molecular-medicine",
+        "name": "Elmezzi Graduate School of Molecular Medicine",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 12
+        }
+      },
+      {
+        "rank": 9,
+        "unitid": 475422,
+        "slug": "finger-lakes-health-college-of-nursing-and-health-sciences",
+        "name": "Finger Lakes Health College of Nursing & Health Sciences",
+        "state": "New York",
+        "carnegie": "Special Focus Two-Year: Health Professions",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 65
+        }
+      },
+      {
+        "rank": 10,
+        "unitid": 489335,
+        "slug": "institute-of-buddhist-studies",
+        "name": "Institute of Buddhist Studies",
+        "state": "California",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 65
+        }
+      },
+      {
+        "rank": 11,
+        "unitid": 448691,
+        "slug": "international-institute-for-restorative-practices",
+        "name": "International Institute for Restorative Practices",
+        "state": "Pennsylvania",
+        "carnegie": "Associates Colleges: High Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 110
+        }
+      },
+      {
+        "rank": 12,
+        "unitid": 177816,
+        "slug": "kenrick-glennon-seminary",
+        "name": "Kenrick Glennon Seminary",
+        "state": "Missouri",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.75,
+          "yield_rate": 0.8888888888888888,
+          "retention_rate": 0.88,
+          "enrollment": 84
+        }
+      },
+      {
+        "rank": 13,
+        "unitid": 418126,
+        "slug": "new-york-college-of-health-professions",
+        "name": "New York College of Health Professions",
+        "state": "New York",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.7878787878787878,
+          "yield_rate": 0.5384615384615384,
+          "enrollment": 96,
+          "avg_net_price": 42908
+        }
+      },
+      {
+        "rank": 14,
+        "unitid": 496803,
+        "slug": "newu-university",
+        "name": "NewU University",
+        "state": "District of Columbia",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 0.990156762668611,
+          "yield_rate": 0.006995581737849779,
+          "retention_rate": 0.64,
+          "enrollment": 34
+        }
+      },
+      {
+        "rank": 15,
+        "unitid": 494959,
+        "slug": "northern-pennsylvania-regional-college",
+        "name": "Northern Pennsylvania Regional College",
+        "state": "Pennsylvania",
+        "carnegie": "Associate's Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.25,
+          "enrollment": 136
+        }
+      },
+      {
+        "rank": 16,
+        "unitid": 495916,
+        "slug": "pathways-college",
+        "name": "Pathways College",
+        "state": "Arizona",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "admit_rate": 1.0,
+          "yield_rate": 1.0,
+          "enrollment": 196
+        }
+      },
+      {
+        "rank": 17,
+        "unitid": 167464,
+        "slug": "pope-st-john-xxiii-national-seminary",
+        "name": "Pope St John XXIII National Seminary",
+        "state": "Massachusetts",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {}
+      },
+      {
+        "rank": 18,
+        "unitid": 239637,
+        "slug": "sacred-heart-seminary-and-school-of-theology",
+        "name": "Sacred Heart Seminary and School of Theology",
+        "state": "Wisconsin",
+        "carnegie": "Associates Colleges: High Transfer-High Traditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 128
+        }
+      },
+      {
+        "rank": 19,
+        "unitid": 481535,
+        "slug": "sanford-burnham-prebys-medical-discovery-institute",
+        "name": "Sanford Burnham Prebys Medical Discovery Institute",
+        "state": "California",
+        "carnegie": "Associates Colleges: High Transfer-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "enrollment": 52
+        }
+      },
+      {
+        "rank": 20,
+        "unitid": 102058,
+        "slug": "selma-university",
+        "name": "Selma University",
+        "state": "Alabama",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.06,
+          "retention_rate": 0.67,
+          "enrollment": 95
+        }
+      },
+      {
+        "rank": 21,
+        "unitid": 450298,
+        "slug": "strayer-university-delaware",
+        "name": "Strayer University-Delaware",
+        "state": "Delaware",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "retention_rate": 0.0,
+          "enrollment": 187
+        }
+      },
+      {
+        "rank": 22,
+        "unitid": 458955,
+        "slug": "strayer-university-mississippi",
+        "name": "Strayer University-Mississippi",
+        "state": "Mississippi",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "enrollment": 983
+        }
+      },
+      {
+        "rank": 23,
+        "unitid": 486354,
+        "slug": "united-international-college",
+        "name": "United International College",
+        "state": "Florida",
+        "carnegie": "Associates Colleges: Mixed Transfer/Career & Technical-High Nontraditional",
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.33,
+          "retention_rate": 0.63,
+          "enrollment": 137
+        }
+      },
+      {
+        "rank": 24,
+        "unitid": 498924,
+        "slug": "urbe-university",
+        "name": "URBE University",
+        "state": "Florida",
+        "carnegie": null,
+        "similarity_score": 1.0,
+        "metrics": {
+          "grad_rate": 0.0,
+          "retention_rate": 0.71,
+          "enrollment": 65
+        }
+      }
+    ]
+  },
+  "research_funding": null,
+  "ir_office": {
+    "url": "https://www.sfbu.edu/learning-teaching/ir",
+    "office_name": "Office of Institutional Research",
+    "summary": "The mission of Institutional Research (IR) is to support evidence-based decision-making at SFBU by delivering integrated analysis, actionable insights, and high-quality research.",
+    "address": "161 Mission Falls Lane, Fremont, CA 94539",
+    "confidence": 0.9,
+    "needs_review": false,
+    "fetched_at": "2026-06-03T00:09:51.368487+05:30"
+  },
+  "ir_team": [],
+  "cds_files": [],
+  "documents": [
+    {
+      "doc_type": "dfr_report",
+      "year": 2024,
+      "title": "IPEDS Data Feedback Report 2024",
+      "url": "https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=120166",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:09:54.196721+05:30"
+    },
+    {
+      "doc_type": "factbook",
+      "year": 2023,
+      "title": "Fact Books",
+      "url": "https://sfbu.edu/learning-teaching/ir/fact-books",
+      "summary": "The San Francisco Bay University Fact Book is a compilation of university information and statistics about students and programs for the academic years 2022-2023, 2023-2024, and 2024-2025. It covers key data areas such as Admissions, Enrollment, and Graduation for both undergraduate and graduate students. The data is organized by domestic and international status, as well as by degree program. The Fact Book aims to provide timely and consistent data for institutional research purposes.",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:04:57.917118+05:30"
+    },
+    {
+      "doc_type": "glossary",
+      "title": "San Francisco Bay University Glossary of Terms",
+      "url": "https://www.sfbu.edu/about/our-glossary-terms",
+      "summary": "The glossary of terms represents San Francisco Bay University's unique approach to redefining education through innovative concepts like 'Productive Optimism,' 'Agility Praxis Pathway,' and 'Transdisciplinary Education.' Each term outlined in the glossary describes the institution's commitment to holistic educational methods that focus on individual empowerment, collective success, and societal progress, supported by a robust framework of student-centered services and integration with Silicon Valley dynamics.",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:08:57.663696+05:30"
+    },
+    {
+      "doc_type": "strategic_plan",
+      "year": 2026,
+      "title": "Strategic Plan",
+      "url": "https://www.sfbu.edu/about/strategic-plan",
+      "summary": "San Francisco Bay University is committed to providing inclusive and innovative education for lifelong success. Its strategic plan for 2024-2030 focuses on making education affordable and accessible while transforming curriculums and advancing communities. By disrupting the traditional education model, SFBU aims to revolutionize student experiences and prepare graduates for industry challenges.",
+      "stored": false,
+      "fetched_at": "2026-06-03T00:06:03.950539+05:30"
+    }
+  ],
+  "ir_jobs": [],
+  "grants": [],
+  "notable_alumni": []
+}
