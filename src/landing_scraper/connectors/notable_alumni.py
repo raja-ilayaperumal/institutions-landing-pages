@@ -126,7 +126,16 @@ Rules:
   current students, sports recruits.
 - Each alumni record must have a name; everything else can be null.
 - If the page lists 100+ alumni, return the top 30 (most well-known).
-- De-duplicate by name within your response."""
+- De-duplicate by name within your response.
+
+CRITICAL — same-name collision guard:
+Many institutions share a name (e.g. "Sofia University" in California vs. "Sofia University"
+in Bulgaria; "Columbia College" the California community college vs. Columbia College / Columbia
+University in New York City). You are given the target institution's STATE and WEBSITE DOMAIN.
+If the page clearly describes a DIFFERENT institution that merely shares the name — judged by
+location (a different country or U.S. state), founding era, or the alumni themselves predating
+the institution — return {"alumni": []}. It is far better to return nothing than to attribute
+another school's alumni. When in doubt that the page matches the target institution, return []."""
 
 
 class NotableAlumniConnector(BaseConnector):
@@ -137,38 +146,31 @@ class NotableAlumniConnector(BaseConnector):
         all_alumni: list[dict] = []
         sources_used: list[dict] = []
 
-        # ── Tier 1: Official institutional "notable alumni" page ─────────
-        official_page = await self._find_official(ctx)
-        if official_page:
-            n, c = await self._extract_from_page(ctx, official_page)
+        # ── Tier 1 (authoritative): Wikipedia "List of X alumni"/Category ─
+        # Wikipedia's curated alumni lists are editorially representative
+        # (academics, business, politics, arts, athletics) and carry per-
+        # person citations. We deliberately make this the PRIMARY source:
+        # institutional "official" pages are frequently a single club or
+        # department roster (e.g. bases.stanford.edu — an entrepreneurship
+        # club listing only startup founders), which is unrepresentative and
+        # fails the IR-facing quality bar. The entire shipped corpus is
+        # Wikipedia-sourced for exactly this reason.
+        wiki_list_page = await self._find_wikipedia_list(ctx)
+        if wiki_list_page:
+            n, c = await self._extract_from_page(ctx, wiki_list_page)
             cost += c
-            log.info("alumni.tier1_official", url=official_page.url,
-                     extracted=len(n))
+            log.info("alumni.wikilist", url=wiki_list_page.url, extracted=len(n))
             for a in n:
-                a["source_tier"] = "official"
-                a["source_url"] = official_page.url
+                a["source_tier"] = "wikipedia_list"
+                a["source_url"] = wiki_list_page.url
             all_alumni.extend(n)
-            sources_used.append({"tier": "official", "url": official_page.url,
-                                 "count": len(n)})
+            sources_used.append({"tier": "wikipedia_list",
+                                 "url": wiki_list_page.url, "count": len(n)})
 
-        # ── Tier 2: Wikipedia "List of X alumni" or Category page ────────
-        if len(all_alumni) < 5:
-            wiki_list_page = await self._find_wikipedia_list(ctx)
-            if wiki_list_page:
-                n, c = await self._extract_from_page(ctx, wiki_list_page)
-                cost += c
-                log.info("alumni.tier2_wikilist", url=wiki_list_page.url,
-                         extracted=len(n))
-                for a in n:
-                    a["source_tier"] = "wikipedia_list"
-                    a["source_url"] = wiki_list_page.url
-                # De-dupe by name (lowercase) with already-collected
-                existing = {a["name"].lower().strip() for a in all_alumni}
-                added = [a for a in n if a["name"].lower().strip() not in existing]
-                all_alumni.extend(added)
-                sources_used.append({"tier": "wikipedia_list",
-                                     "url": wiki_list_page.url,
-                                     "count": len(added)})
+        # No official-page fallback: a non-Wikipedia source has repeatedly
+        # produced club/department rosters that misrepresent the institution.
+        # null > unrepresentative — schools without a Wikipedia alumni list
+        # simply ship no alumni section.
 
         if not all_alumni:
             return self._err("NO_ALUMNI_FOUND",
@@ -182,7 +184,7 @@ class NotableAlumniConnector(BaseConnector):
             data={"institution": ctx.name, "sources": sources_used,
                   "alumni_count": len(all_alumni),
                   "alumni_preview": all_alumni[:5]},
-            confidence=0.85 if sources_used and sources_used[0]["tier"] == "official" else 0.65,
+            confidence=0.8 if sources_used else 0.0,
             cost_usd=cost,
         )
 
@@ -291,7 +293,12 @@ class NotableAlumniConnector(BaseConnector):
             return [], 0.0
         r = await llm.call(
             system=EXTRACT_PROMPT,
-            user=f"Institution: {ctx.name}\nSource page: {page.url}\n\nPAGE TEXT:\n{text}",
+            user=(
+                f"Institution: {ctx.name}\n"
+                f"State: {ctx.state or 'unknown'}\n"
+                f"Website domain: {ctx.domain or 'unknown'}\n"
+                f"Source page: {page.url}\n\nPAGE TEXT:\n{text}"
+            ),
             tier="extract", max_tokens=3500, expect_json=True,
         )
         if not isinstance(r.data, dict):

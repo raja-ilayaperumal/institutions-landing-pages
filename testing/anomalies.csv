@@ -1,12 +1,28 @@
 unitid,slug,name,category,severity,field,value,issue
+100654,alabama-a-m-university,Alabama A & M University,admissions,WARN,admit_rate,0.662,admit_rate vs admits/applicants=0.580 mismatch
+108852,american-academy-of-dramatic-arts-los-angeles,American Academy of Dramatic Arts-Los Angeles,admissions,WARN,admit_rate,0.897,admit_rate vs admits/applicants=0.828 mismatch
+433004,american-university-of-health-sciences,American University of Health Sciences,admissions,WARN,admit_rate,1.000,admit_rate vs admits/applicants=0.500 mismatch
+475705,annenberg-school-of-nursing,Annenberg School of Nursing,admissions,WARN,admit_rate,0.800,admit_rate vs admits/applicants=1.000 mismatch
 245865,antioch-university-new-england,Antioch University-New England,documents,INFO,url,https://oie.antioch.edu/reports/antioch-university-fact-book,doc off institution domain (antiochne.edu)
 245865,antioch-university-new-england,Antioch University-New England,documents,INFO,url,https://hub.antioch.edu/strategicplan,doc off institution domain (antiochne.edu)
+109785,azusa-pacific-university,Azusa Pacific University,admissions,WARN,admit_rate,0.795,admit_rate vs admits/applicants=0.884 mismatch
 125170,berkeley-city-college,Berkeley City College,ir_team,INFO,email,psayavong@peralta.edu,team email on different domain than berkeleycitycollege.edu (likely district)
+108861,berkeley-school-of-theology,Berkeley School of Theology,admissions,WARN,admit_rate,0.630,admit_rate vs admits/applicants=0.889 mismatch
+110097,biola-university,Biola University,admissions,WARN,admit_rate,0.601,admit_rate vs admits/applicants=0.743 mismatch
+479992,brand-college,Brand College,admissions,WARN,admit_rate,1.000,admit_rate vs admits/applicants=0.800 mismatch
+110361,california-baptist-university,California Baptist University,admissions,WARN,admit_rate,0.736,admit_rate vs admits/applicants=0.849 mismatch
+488563,california-college-of-music,California College of Music,admissions,WARN,admit_rate,0.474,admit_rate vs admits/applicants=1.000 mismatch
+110370,california-college-of-the-arts,California College of the Arts,admissions,WARN,admit_rate,0.734,admit_rate vs admits/applicants=0.911 mismatch
 495271,california-indian-nations-college,California Indian Nations College,ir_office,INFO,email,IR@CINCollege.org,office email on different domain than cincollege.org (likely district)
+111081,california-institute-of-the-arts,California Institute of the Arts,admissions,WARN,admit_rate,0.260,admit_rate vs admits/applicants=0.323 mismatch
+486488,california-jazz-conservatory,California Jazz Conservatory,admissions,WARN,admit_rate,1.000,admit_rate vs admits/applicants=0.667 mismatch
+110413,california-lutheran-university,California Lutheran University,admissions,WARN,admit_rate,0.889,admit_rate vs admits/applicants=0.757 mismatch
 110413,california-lutheran-university,California Lutheran University,ir_office,INFO,email,eeir@CalLutheran.edu,office email on different domain than callutheran.edu (likely district)
 110413,california-lutheran-university,California Lutheran University,ir_team,INFO,email,tande@CalLutheran.edu,team email on different domain than callutheran.edu (likely district)
 110413,california-lutheran-university,California Lutheran University,ir_team,INFO,email,kathleenrodriguez@CalLutheran.edu,team email on different domain than callutheran.edu (likely district)
 110413,california-lutheran-university,California Lutheran University,ir_team,INFO,email,mmedlen@CalLutheran.edu,team email on different domain than callutheran.edu (likely district)
+480781,california-miramar-university,California Miramar University,admissions,WARN,admit_rate,0.655,admit_rate vs admits/applicants=0.185 mismatch
+496627,california-northstate-university,California Northstate University,admissions,WARN,admit_rate,0.849,admit_rate vs admits/applicants=0.925 mismatch
 110556,california-state-university-fresno,California State University-Fresno,ir_team,INFO,email,gstill@csufresno.edu,team email on different domain than fresnostate.edu (likely district)
 110556,california-state-university-fresno,California State University-Fresno,ir_team,INFO,email,mfernandez@csufresno.edu,team email on different domain than fresnostate.edu (likely district)
 110556,california-state-university-fresno,California State University-Fresno,ir_team,INFO,email,hoyue@csufresno.edu,team email on different domain than fresnostate.edu (likely district)
@@ -17,6 +33,10 @@ unitid,slug,name,category,severity,field,value,issue
 110556,california-state-university-fresno,California State University-Fresno,ir_team,INFO,email,celestedemonte@csufresno.edu,team email on different domain than fresnostate.edu (likely district)
 111434,canada-college,Canada College,ir_team,INFO,email,engelk@smccd.edu,team email on different domain than canadacollege.edu (likely district)
 111434,canada-college,Canada College,ir_team,INFO,email,claxtona@smccd.edu,team email on different domain than canadacollege.edu (likely district)
+111638,casa-loma-college-los-angeles,Casa Loma College-Los Angeles,admissions,WARN,admit_rate,0.364,admit_rate vs admits/applicants=0.426 mismatch
+444510,ces-college,CES College,admissions,WARN,admit_rate,0.600,admit_rate vs admits/applicants=0.680 mismatch
+489353,chamberlain-university-california,Chamberlain University-California,admissions,WARN,admit_rate,0.600,admit_rate vs admits/applicants=0.800 mismatch
+111948,chapman-university,Chapman University,admissions,WARN,admit_rate,0.556,admit_rate vs admits/applicants=0.654 mismatch
 112251,claremont-graduate-university,Claremont Graduate University,ir_office,INFO,email,IR@CGU.EDU,office email on different domain than cgu.edu (likely district)
 125462,coalinga-college,Coalinga College,ir_team,INFO,email,KyleCrider@whccd.edu,team email on different domain than westhillscollege.com (likely district)
 108667,college-of-alameda,College of Alameda,ir_team,INFO,email,rfollenfant@peralta.edu,team email on different domain than alameda.edu (likely district)
@@ -29,20 +49,31 @@ unitid,slug,name,category,severity,field,value,issue
 112561,columbia-college,Columbia College,ir_office,INFO,email,claimjumpers@yosemite.edu,office email on different domain than gocolumbia.edu (likely district)
 112561,columbia-college,Columbia College,ir_team,INFO,email,connotm@yosemite.edu,team email on different domain than gocolumbia.edu (likely district)
 112561,columbia-college,Columbia College,ir_team,INFO,email,sandhoffm@yosemite.edu,team email on different domain than gocolumbia.edu (likely district)
+120661,concorde-career-college-san-diego,Concorde Career College-San Diego,admissions,WARN,admit_rate,0.940,admit_rate vs admits/applicants=1.000 mismatch
+112075,concordia-university-irvine,Concordia University-Irvine,admissions,WARN,admit_rate,0.599,admit_rate vs admits/applicants=0.660 mismatch
 113218,cuyamaca-college,Cuyamaca College,ir_team,INFO,email,brianna.hays@gcccd.edu,team email on different domain than cuyamaca.edu (likely district)
 113333,de-anza-college,De Anza College,ir_team,INFO,email,lylisa@fhda.edu,team email on different domain than deanza.edu (likely district)
+113582,design-institute-of-san-diego,Design Institute of San Diego,admissions,WARN,admit_rate,0.875,admit_rate vs admits/applicants=1.000 mismatch
+482431,devry-university-california,DeVry University-California,admissions,WARN,admit_rate,0.432,admit_rate vs admits/applicants=0.985 mismatch
+113698,dominican-university-of-california,Dominican University of California,admissions,WARN,admit_rate,0.956,admit_rate vs admits/applicants=0.835 mismatch
 114354,fidm-fashion-institute-of-design-and-merchandising,FIDM-Fashion Institute of Design & Merchandising,faculty,WARN,student_faculty_ratio,135.0,implausible S:F ratio
+114813,fresno-pacific-university,Fresno Pacific University,admissions,WARN,admit_rate,0.575,admit_rate vs admits/applicants=0.641 mismatch
 115126,golden-west-college,Golden West College,ir_office,INFO,email,research@gwc.cccd.edu,office email on different domain than goldenwestcollege.edu (likely district)
 115126,golden-west-college,Golden West College,ir_team,INFO,email,ldavissosenko@cccd.edu,team email on different domain than goldenwestcollege.edu (likely district)
 115126,golden-west-college,Golden West College,ir_team,INFO,email,cbishop18@gwc.cccd.edu,team email on different domain than goldenwestcollege.edu (likely district)
 115126,golden-west-college,Golden West College,ir_team,INFO,email,trodriguez26@cccd.edu,team email on different domain than goldenwestcollege.edu (likely district)
 115126,golden-west-college,Golden West College,ir_team,INFO,email,jjaramillohernandez@gwc.cccd.edu,team email on different domain than goldenwestcollege.edu (likely district)
+383084,hacienda-la-puente-adult-education,Hacienda La Puente Adult Education,admissions,WARN,admit_rate,0.835,admit_rate vs admits/applicants=1.000 mismatch
+131520,howard-university,Howard University,admissions,WARN,admit_rate,0.349,admit_rate vs admits/applicants=0.413 mismatch
+117168,laguna-college-of-art-and-design,Laguna College of Art and Design,admissions,WARN,admit_rate,0.776,admit_rate vs admits/applicants=0.943 mismatch
 117247,laney-college,Laney College,ir_office,INFO,email,laneyresearch@peralta.edu,office email on different domain than laney.edu (likely district)
 117247,laney-college,Laney College,ir_team,INFO,email,ccoleman@peralta.edu,team email on different domain than laney.edu (likely district)
 117274,lassen-community-college,Lassen Community College,about,WARN,summary,194,thin summary (194 chars)
+117283,latin-american-bible-institute,Latin American Bible Institute,admissions,WARN,admit_rate,0.682,admit_rate vs admits/applicants=0.545 mismatch
 481298,lawrence-and-company-college-of-cosmetology,Lawrence & Company College of Cosmetology,ir_office,INFO,email,jlawrenceandco@sbcglobal.net,office email on different domain than lawrenceandco.net (likely district)
 448594,lemoore-college,Lemoore College,ir_team,INFO,email,KyleCrider@whccd.edu,team email on different domain than westhillscollege.com (likely district)
 117788,los-angeles-city-college,Los Angeles City College,documents,INFO,url,https://www.laccd.edu/offices/epie/dashboards,doc off institution domain (lacc.edu)
+446385,los-angeles-college-of-music,Los Angeles College of Music,admissions,WARN,admit_rate,0.814,admit_rate vs admits/applicants=0.877 mismatch
 117724,los-angeles-trade-technical-college,Los Angeles Trade Technical College,documents,INFO,url,https://www.laccd.edu/offices/epie/dashboards,doc off institution domain (lattc.edu)
 118772,merritt-college,Merritt College,ir_office,INFO,email,npellegrin@peralta.edu,office email on different domain than merritt.edu (likely district)
 118772,merritt-college,Merritt College,ir_team,INFO,email,npellegrin@peralta.edu,team email on different domain than merritt.edu (likely district)
@@ -56,6 +87,8 @@ unitid,slug,name,category,severity,field,value,issue
 119137,moorpark-college,Moorpark College,ir_team,INFO,email,kwatters@vcccd.edu,team email on different domain than moorparkcollege.edu (likely district)
 119137,moorpark-college,Moorpark College,ir_team,INFO,email,kmalek@vcccd.edu,team email on different domain than moorparkcollege.edu (likely district)
 119137,moorpark-college,Moorpark College,ir_team,INFO,email,rbeetz@vcccd.edu,team email on different domain than moorparkcollege.edu (likely district)
+118198,mti-college,MTI College,admissions,WARN,admit_rate,0.819,admit_rate vs admits/applicants=0.634 mismatch
+119270,musicians-institute,Musicians Institute,admissions,WARN,admit_rate,0.713,admit_rate vs admits/applicants=0.779 mismatch
 460464,norco-college,Norco College,ir_office,INFO,email,Research@norcococollege.edu,office email on different domain than norcocollege.edu (likely district)
 120342,orange-coast-college,Orange Coast College,ir_office,INFO,email,occresearch@occ.cccd.edu,office email on different domain than orangecoastcollege.edu (likely district)
 120342,orange-coast-college,Orange Coast College,ir_team,INFO,email,ssterner@occ.cccd.edu,team email on different domain than orangecoastcollege.edu (likely district)
@@ -72,22 +105,46 @@ unitid,slug,name,category,severity,field,value,issue
 120421,oxnard-college,Oxnard College,ir_team,INFO,email,slawrence@vcccd.edu,team email on different domain than oxnardcollege.edu (likely district)
 120421,oxnard-college,Oxnard College,ir_team,INFO,email,sdiamantopoulou@vcccd.edu,team email on different domain than oxnardcollege.edu (likely district)
 120421,oxnard-college,Oxnard College,ir_team,INFO,email,ravina@vcccd.edu,team email on different domain than oxnardcollege.edu (likely district)
+422695,pacific-college,Pacific College,admissions,WARN,admit_rate,0.500,admit_rate vs admits/applicants=0.560 mismatch
+120768,pacific-oaks-college,Pacific Oaks College,admissions,WARN,admit_rate,0.100,admit_rate vs admits/applicants=0.344 mismatch
+121150,pepperdine-university,Pepperdine University,admissions,WARN,admit_rate,0.498,admit_rate vs admits/applicants=0.629 mismatch
+121257,pitzer-college,Pitzer College,admissions,WARN,admit_rate,0.167,admit_rate vs admits/applicants=0.252 mismatch
+455770,providence-christian-college,Providence Christian College,admissions,WARN,admit_rate,0.925,admit_rate vs admits/applicants=1.000 mismatch
 121901,riverside-city-college,Riverside City College,ir_team,INFO,email,Lijuan.Zhai@rccd.edu,team email on different domain than rcc.edu (likely district)
 121901,riverside-city-college,Riverside City College,ir_team,INFO,email,Steven.Butler@rccd.edu,team email on different domain than rcc.edu (likely district)
 121901,riverside-city-college,Riverside City College,ir_team,INFO,email,David.Buitron@rccd.edu,team email on different domain than rcc.edu (likely district)
 121901,riverside-city-college,Riverside City College,ir_team,INFO,email,Dulce.Duvu@rccd.edu,team email on different domain than rcc.edu (likely district)
 121901,riverside-city-college,Riverside City College,ir_team,INFO,email,Katherine.Koh@rccd.edu,team email on different domain than rcc.edu (likely district)
 121901,riverside-city-college,Riverside City College,documents,INFO,url,https://rccd.edu/admin/ed_services/ie/dashboards.html,doc off institution domain (rcc.edu)
+490160,sacramento-ultrasound-institute,Sacramento Ultrasound Institute,admissions,WARN,admit_rate,0.771,admit_rate vs admits/applicants=0.707 mismatch
 122296,samuel-merritt-university,Samuel Merritt University,about,WARN,summary,"ences, and College of Podiatric Medicine",summary truncated mid-sentence
+112084,san-diego-christian-college,San Diego Christian College,admissions,WARN,admit_rate,0.628,admit_rate vs admits/applicants=0.308 mismatch
+120166,san-francisco-bay-university,San Francisco Bay University,admissions,WARN,admit_rate,0.694,admit_rate vs admits/applicants=0.958 mismatch
+123457,simpson-university,Simpson University,admissions,WARN,admit_rate,0.990,admit_rate vs admits/applicants=0.860 mismatch
 123509,skyline-college,Skyline College,ir_team,INFO,email,vargasi@smccd.edu,team email on different domain than skylinecollege.edu (likely district)
 123509,skyline-college,Skyline College,ir_team,INFO,email,wongk@smccd.edu,team email on different domain than skylinecollege.edu (likely district)
 123509,skyline-college,Skyline College,ir_team,INFO,email,mojtahediz@smccd.edu,team email on different domain than skylinecollege.edu (likely district)
 123509,skyline-college,Skyline College,ir_team,INFO,email,leewendy@smccd.edu,team email on different domain than skylinecollege.edu (likely district)
 123509,skyline-college,Skyline College,ir_team,INFO,email,threewitr@smccd.edu,team email on different domain than skylinecollege.edu (likely district)
+399911,soka-university-of-america,Soka University of America,admissions,WARN,admit_rate,0.695,admit_rate vs admits/applicants=0.434 mismatch
+123952,southern-california-institute-of-architecture,Southern California Institute of Architecture,admissions,WARN,admit_rate,0.827,admit_rate vs admits/applicants=0.766 mismatch
+399869,southern-california-institute-of-technology,Southern California Institute of Technology,admissions,WARN,admit_rate,0.875,admit_rate vs admits/applicants=0.742 mismatch
+447953,sum-bible-college-and-theological-seminary,SUM Bible College and Theological Seminary,admissions,WARN,admit_rate,0.642,admit_rate vs admits/applicants=0.407 mismatch
+455664,the-chicago-school-at-los-angeles,The Chicago School at Los Angeles,admissions,WARN,admit_rate,0.402,admit_rate vs admits/applicants=0.463 mismatch
+117751,the-master-s-university-and-seminary,The Master's University and Seminary,admissions,WARN,admit_rate,0.759,admit_rate vs admits/applicants=0.840 mismatch
 481182,ukiah-adult-school,Ukiah Adult School,enrollment,WARN,race_ethnicity,sum=0.000,race shares don't sum to ~1
+445188,university-of-california-merced,University of California-Merced,admissions,WARN,admit_rate,0.392,admit_rate vs admits/applicants=0.905 mismatch
+110671,university-of-california-riverside,University of California-Riverside,admissions,WARN,admit_rate,0.633,admit_rate vs admits/applicants=0.764 mismatch
+117140,university-of-la-verne,University of La Verne,admissions,WARN,admit_rate,0.485,admit_rate vs admits/applicants=0.712 mismatch
+122612,university-of-san-francisco,University of San Francisco,admissions,WARN,admit_rate,0.508,admit_rate vs admits/applicants=0.617 mismatch
+120883,university-of-the-pacific,University of the Pacific,admissions,WARN,admit_rate,0.949,admit_rate vs admits/applicants=0.713 mismatch
 125028,ventura-college,Ventura College,ir_team,INFO,email,pbriggs@vcccd.edu,team email on different domain than venturacollege.edu (likely district)
 125028,ventura-college,Ventura College,ir_team,INFO,email,oduangpun@vcccd.edu,team email on different domain than venturacollege.edu (likely district)
 125028,ventura-college,Ventura College,ir_team,INFO,email,kdenton@vcccd.edu,team email on different domain than venturacollege.edu (likely district)
 125028,ventura-college,Ventura College,ir_team,INFO,email,anelson@vcccd.edu,team email on different domain than venturacollege.edu (likely district)
 125028,ventura-college,Ventura College,ir_team,INFO,email,dawn_chase2@vcccd.edu,team email on different domain than venturacollege.edu (likely district)
 125499,west-valley-college,West Valley College,ir_team,INFO,email,katie.vanegas@wvm.edu,team email on different domain than westvalley.edu (likely district)
+490133,westcliff-university,Westcliff University,admissions,WARN,admit_rate,0.451,admit_rate vs admits/applicants=0.732 mismatch
+122728,william-jessup-university,William Jessup University,admissions,WARN,admit_rate,0.768,admit_rate vs admits/applicants=0.933 mismatch
+125897,woodbury-university,Woodbury University,admissions,WARN,admit_rate,0.729,admit_rate vs admits/applicants=0.816 mismatch
+491710,yeshiva-gedolah-of-cliffwood,Yeshiva Gedolah of Cliffwood,admissions,WARN,admit_rate,0.800,admit_rate vs admits/applicants=0.700 mismatch
